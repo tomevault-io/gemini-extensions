@@ -1,0 +1,5 @@
+{
+  "name": "metabase--metabase--add-malli-schemas",
+  "version": "1.0.0",
+  "description": "Efficiently add Malli schemas to API endpoints in the Metabase codebase with proper patterns, validation timing, and error handling"
+}
