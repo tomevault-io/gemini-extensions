@@ -1,0 +1,5 @@
+{
+  "name": "biomejs--biome--prettier-compare",
+  "version": "1.0.0",
+  "description": "Compares code formatting and formatting IR between Biome and Prettier to ensure that Biome's formatting is consistent and correct. Use when validating formatter changes, debugging formatting differences, or comparing output for JavaScript, TypeScript, CSS, or other languages."
+}
