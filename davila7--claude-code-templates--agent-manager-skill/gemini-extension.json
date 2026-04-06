@@ -1,0 +1,5 @@
+{
+  "name": "davila7--claude-code-templates--agent-manager-skill",
+  "version": "1.0.0",
+  "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
+}
