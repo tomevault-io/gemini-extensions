@@ -1,0 +1,5 @@
+{
+  "name": "patchy631--ai-engineering-hub--hugging-face-datasets",
+  "version": "1.0.0",
+  "description": "This skill provides tools to manage datasets on the Hugging Face Hub with a focus on creation, configuration, content management, and SQL-based data manipulation. It is designed to complement the existing Hugging Face MCP server by providing dataset editing and querying capabilities."
+}
