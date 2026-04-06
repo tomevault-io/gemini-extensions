@@ -1,0 +1,5 @@
+{
+  "name": "dotnet--maui--write-ui-tests",
+  "version": "1.0.0",
+  "description": "Creates UI tests for a GitHub issue and verifies they reproduce the bug. Iterates until tests actually fail (proving they catch the issue). Use when PR lacks tests or tests need to be created for an issue."
+}
