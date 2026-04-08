@@ -1,0 +1,22 @@
+# qvm
+
+> Config by [dpastoor](https://github.com/dpastoor/qvm) — distributed by [TomeVault](https://tomevault.io/claim/dpastoor)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [dpastoor/qvm](https://github.com/dpastoor/qvm).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/dpastoor](https://tomevault.io/claim/dpastoor)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/dpastoor) to manage distribution.
