@@ -1,0 +1,5 @@
+{
+  "name": "openclaw--skills--alicloud-data-lake-dlf",
+  "version": "1.0.0",
+  "description": "Manage Alibaba Cloud Data Lake Formation (DataLake) via OpenAPI/SDK. Use whenever the user asks for DataLake catalog resource operations, configuration updates, status queries, or troubleshooting DataLake API workflows. Use when this capability is needed."
+}
