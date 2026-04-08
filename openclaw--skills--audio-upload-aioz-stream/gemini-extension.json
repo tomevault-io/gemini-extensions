@@ -1,0 +1,5 @@
+{
+  "name": "openclaw--skills--audio-upload-aioz-stream",
+  "version": "1.0.0",
+  "description": "Quick upload audio to AIOZ Stream API. Create audio objects with default or custom encoding configurations, upload the file, complete the upload, then return the audio link to the user. Use when this capability is needed."
+}
