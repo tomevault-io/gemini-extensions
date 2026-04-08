@@ -1,0 +1,5 @@
+{
+  "name": "openclaw--skills--bricklink",
+  "version": "1.0.0",
+  "description": "BrickLink Store API helper/CLI (OAuth 1.0 request signing). Covers orders, store inventory (read + write), catalog, categories, colors, feedback, and push notifications. Use when this capability is needed."
+}
