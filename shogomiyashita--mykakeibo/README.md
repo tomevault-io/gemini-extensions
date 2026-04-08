@@ -1,0 +1,22 @@
+# MyKakeibo
+
+> Config by [ShogoMiyashita](https://github.com/ShogoMiyashita/MyKakeibo) — distributed by [TomeVault](https://tomevault.io/claim/ShogoMiyashita)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [ShogoMiyashita/MyKakeibo](https://github.com/ShogoMiyashita/MyKakeibo).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/ShogoMiyashita](https://tomevault.io/claim/ShogoMiyashita)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/ShogoMiyashita) to manage distribution.
