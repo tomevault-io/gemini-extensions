@@ -1,0 +1,5 @@
+{
+  "name": "openclaw--skills--ansible",
+  "version": "1.0.0",
+  "description": "Run Ansible playbooks and manage AWX/Tower via API. Automate infrastructure configuration. Use when this capability is needed."
+}
