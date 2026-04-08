@@ -1,0 +1,5 @@
+{
+  "name": "openclaw--skills--bililidownloader",
+  "version": "1.0.0",
+  "description": "Download Bilibili videos. You MUST ask the user for the Bilibili URL first. Then use the provided python script to download. Supports batch/playlist downloading. Use when this capability is needed."
+}
