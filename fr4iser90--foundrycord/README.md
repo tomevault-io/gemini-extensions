@@ -1,0 +1,22 @@
+# FoundryCord
+
+> Config by [fr4iser90](https://github.com/fr4iser90/FoundryCord) — distributed by [TomeVault](https://tomevault.io/claim/fr4iser90)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `.cursor/rules/*.mdc` in [fr4iser90/FoundryCord](https://github.com/fr4iser90/FoundryCord).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/fr4iser90](https://tomevault.io/claim/fr4iser90)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/fr4iser90) to manage distribution.
