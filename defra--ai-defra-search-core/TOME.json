@@ -4,7 +4,7 @@
   "repo": "ai-defra-search-core",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": ".cursor/rules/*.mdc",
   "formats": [
     {
       "format": "claude_md",
@@ -35,5 +35,5 @@
   "skills": [],
   "claim_url": "https://tomevault.io/claim/DEFRA",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-08T23:24:05Z"
+  "distributed_at": "2026-04-09T02:57:47Z"
 }
