@@ -15,6 +15,7 @@ Original source: `copilot-instructions.md` in [johnlokerse/azure-bicep-github-co
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/johnlokerse](https://tomevault.io/claim/johnlokerse)
 
