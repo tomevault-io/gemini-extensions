@@ -15,6 +15,7 @@ Original source: `CLAUDE.md` in [ykdojo/safeclaw](https://github.com/ykdojo/safe
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/ykdojo](https://tomevault.io/claim/ykdojo)
 
