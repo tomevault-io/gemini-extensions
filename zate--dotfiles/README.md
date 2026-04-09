@@ -1,0 +1,22 @@
+# dotfiles
+
+> Config by [Zate](https://github.com/Zate/dotfiles) — distributed by [TomeVault](https://tomevault.io/claim/Zate)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [Zate/dotfiles](https://github.com/Zate/dotfiles).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/Zate](https://tomevault.io/claim/Zate)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/Zate) to manage distribution.
