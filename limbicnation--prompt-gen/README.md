@@ -1,0 +1,22 @@
+# prompt-gen
+
+> Config by [Limbicnation](https://github.com/Limbicnation/prompt-gen) — distributed by [TomeVault](https://tomevault.io/claim/Limbicnation)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [Limbicnation/prompt-gen](https://github.com/Limbicnation/prompt-gen).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/Limbicnation](https://tomevault.io/claim/Limbicnation)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/Limbicnation) to manage distribution.
