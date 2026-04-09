@@ -1,0 +1,22 @@
+# mytools
+
+> Config by [atomicdsolutions](https://github.com/atomicdsolutions/mytools) — distributed by [TomeVault](https://tomevault.io/claim/atomicdsolutions)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [atomicdsolutions/mytools](https://github.com/atomicdsolutions/mytools).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/atomicdsolutions](https://tomevault.io/claim/atomicdsolutions)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/atomicdsolutions) to manage distribution.
