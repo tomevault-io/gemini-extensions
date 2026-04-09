@@ -13,6 +13,7 @@ Original source: `CLAUDE.md` in [DFW-Software-Consulting/dfwsc2.0](https://githu
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/DFW-Software-Consulting](https://tomevault.io/claim/DFW-Software-Consulting)
 
