@@ -7,13 +7,14 @@ AI instruction files for hash by hashintel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [hashintel/hash](https://github.com/hashintel/hash).
+Original source: `.windsurf/rules/*.md` in [hashintel/hash](https://github.com/hashintel/hash).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 
 Browse all formats: [https://tomevault.io/claim/hashintel](https://tomevault.io/claim/hashintel)
