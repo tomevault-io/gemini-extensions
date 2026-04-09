@@ -3,7 +3,7 @@
   "owner": "0dayfall",
   "repo": "webfinger-server",
   "description": "",
-  "type": "config",
+  "type": "tome",
   "source_format": "copilot-instructions.md",
   "formats": [
     {
@@ -30,10 +30,15 @@
       "format": "gemini_md",
       "display": "GEMINI.md",
       "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
     }
   ],
   "skills": [],
   "claim_url": "https://tomevault.io/claim/0dayfall",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-09T02:27:33Z"
+  "distributed_at": "2026-04-09T15:59:01Z"
 }
