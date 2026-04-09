@@ -1,0 +1,22 @@
+# nextjs-convex-template
+
+> Config by [mikko-kohtala](https://github.com/mikko-kohtala/nextjs-convex-template) — distributed by [TomeVault](https://tomevault.io/claim/mikko-kohtala)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `.cursor/rules/*.mdc` in [mikko-kohtala/nextjs-convex-template](https://github.com/mikko-kohtala/nextjs-convex-template).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+
+Browse all formats: [https://tomevault.io/claim/mikko-kohtala](https://tomevault.io/claim/mikko-kohtala)
+
+---
+
+Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
+Is this your repo? [Claim it](https://tomevault.io/claim/mikko-kohtala) to manage distribution.
