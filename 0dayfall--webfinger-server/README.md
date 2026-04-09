@@ -1,6 +1,6 @@
 # webfinger-server
 
-> Config by [0dayfall](https://github.com/0dayfall/webfinger-server) — distributed by [TomeVault](https://tomevault.io/claim/0dayfall)
+> Tome by [0dayfall](https://github.com/0dayfall/webfinger-server) — distributed by [TomeVault](https://tomevault.io/claim/0dayfall)
 
 ## Gemini CLI Config
 
@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [0dayfall/webfinger-server](https:
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/0dayfall](https://tomevault.io/claim/0dayfall)
 
