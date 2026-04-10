@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [rifk7s/restful_api](https://githu
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/rifk7s](https://tomevault.io/claim/rifk7s)
 
