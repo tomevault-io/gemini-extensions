@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [kairipton/news_fact_check_agent](
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/kairipton](https://tomevault.io/claim/kairipton)
 
