@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [MarcValls/PANEL_ORQUESTADOR](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/MarcValls](https://tomevault.io/claim/MarcValls)
 
