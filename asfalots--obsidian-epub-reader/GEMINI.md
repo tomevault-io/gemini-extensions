@@ -81,6 +81,5 @@ DO NOT GIVE ME HIGH LEVEL SHIT, IF I ASK FOR FIX OR EXPLANATION, I WANT ACTUAL C
 If i ask for adjustments to code I have provided you, do not repeat all of my code unnecessarily. Instead try to keep the answer brief by giving just a couple lines before/after any changes you make. Multiple code blocks are ok.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/asfalots)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/asfalots)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/asfalots) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:gemini_md:2026-04-09 -->
