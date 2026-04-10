@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Fortuanto001/carapicuiba-city-sit
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Fortuanto001](https://tomevault.io/claim/Fortuanto001)
 
