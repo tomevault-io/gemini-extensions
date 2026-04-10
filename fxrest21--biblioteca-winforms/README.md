@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Fxrest21/biblioteca-winforms](htt
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Fxrest21](https://tomevault.io/claim/Fxrest21)
 
