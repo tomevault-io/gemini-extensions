@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [mjh5153/comply-api-blueprint](htt
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/mjh5153](https://tomevault.io/claim/mjh5153)
 
