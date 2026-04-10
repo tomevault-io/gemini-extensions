@@ -1,15 +1,22 @@
 ## audiobookshelf-hardcover-sync
 
-> 1. Don't remove functionality unless explicitly told so. We have rather complex logic
+> Any time we're doing something with the hardcover API
 
 
-1. Don't remove functionality unless explicitly told so. We have rather complex logic
-2. When you're unsure, ask another model for a second opinion
-3. Always run the linter before committing
-4. We have tasks in the Makefile for the most common tasks
-5. Always run the tests before committing
+1. Hardcover's API has a pretty strict rate limiting in place (currently: 60 requests per minute). so use the rate limit module we have
+2. Queries have a max timeout of 30 seconds.
+3. Most "user" APIs need to be filtered for the current user when queried. Write operations are user-scoped as far as I can tell
+4. The following queries are disabled:
+  - _like
+  - _nlike
+  - _ilike
+  - _niregex
+  - _nregex
+  - _iregex
+  - _regex
+  - _nsimilar
+  - _similar
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/drallgood)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/drallgood)
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/drallgood) — claim your Tome and manage your conversions.
 <!-- tomevault:4.0:gemini_md:2026-04-09 -->
