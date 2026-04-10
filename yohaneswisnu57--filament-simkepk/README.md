@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [yohaneswisnu57/filament-simkepk](
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/yohaneswisnu57](https://tomevault.io/claim/yohaneswisnu57)
 
