@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [alexelabassi/my-mona-mayhem](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/alexelabassi](https://tomevault.io/claim/alexelabassi)
 
