@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Alamnurain786/yeti-hrm](https://g
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Alamnurain786](https://tomevault.io/claim/Alamnurain786)
 
