@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Sheltz20/TibiaGlass](https://gith
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Sheltz20](https://tomevault.io/claim/Sheltz20)
 
