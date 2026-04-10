@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [jonatha1992/mvintage](https://git
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/jonatha1992](https://tomevault.io/claim/jonatha1992)
 
