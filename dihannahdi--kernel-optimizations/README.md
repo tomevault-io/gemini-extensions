@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [dihannahdi/kernel-optimizations](
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/dihannahdi](https://tomevault.io/claim/dihannahdi)
 
