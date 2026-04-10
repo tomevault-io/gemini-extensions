@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [cochon123/synorime](https://githu
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/cochon123](https://tomevault.io/claim/cochon123)
 
