@@ -1,14 +1,14 @@
 ## swarm-notes-template
 
-> This file provides system instructions for GitHub Copilot when interacting with this workspace.
+> This file provides system instructions for AI coding assistants (Cursor, Claude, windsurf, etc.) interacting with this workspace.
 
 # Swarm Notes System Instructions
 
-This file provides system instructions for GitHub Copilot when interacting with this workspace.
+This file provides system instructions for AI coding assistants (Cursor, Claude, windsurf, etc.) interacting with this workspace.
 
 ## Setup Instructions
 
-If the user asks you to "set up the repository", "configure the template", or "initialize Swarm Notes" using `@workspace`, you must perform the following setup process:
+If the user asks you to "set up the repository", "configure the template", or "initialize Swarm Notes", you must perform the following setup process:
 
 1. **Gather Information**  
    Ask the user for:
@@ -35,6 +35,5 @@ If the user asks you to "set up the repository", "configure the template", or "i
    - Navigate to **Settings > Secrets and variables > Actions** and add their API key (e.g., `GOOGLE_API_KEY` or `OPENAI_API_KEY`).
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/kausalflow)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/kausalflow)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/kausalflow) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:gemini_md:2026-04-09 -->
