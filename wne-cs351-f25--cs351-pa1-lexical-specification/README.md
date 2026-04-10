@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [wne-cs351-f25/cs351-pa1-lexical-s
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/wne-cs351-f25](https://tomevault.io/claim/wne-cs351-f25)
 
