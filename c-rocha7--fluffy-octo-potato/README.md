@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [c-rocha7/fluffy-octo-potato](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/c-rocha7](https://tomevault.io/claim/c-rocha7)
 
