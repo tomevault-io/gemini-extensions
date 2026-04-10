@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [JZ1101/tooly](https://github.com/
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/JZ1101](https://tomevault.io/claim/JZ1101)
 
