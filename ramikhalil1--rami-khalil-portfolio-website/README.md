@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [RamiKhalil1/Rami-Khalil-Portfolio
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/RamiKhalil1](https://tomevault.io/claim/RamiKhalil1)
 
