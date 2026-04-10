@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [y-marui/chrome-closed-template](h
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/y-marui](https://tomevault.io/claim/y-marui)
 
