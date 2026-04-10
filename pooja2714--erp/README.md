@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Pooja2714/ERP](https://github.com
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Pooja2714](https://tomevault.io/claim/Pooja2714)
 
