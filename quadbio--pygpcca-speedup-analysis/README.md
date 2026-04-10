@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [quadbio/pygpcca_speedup_analysis]
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/quadbio](https://tomevault.io/claim/quadbio)
 
