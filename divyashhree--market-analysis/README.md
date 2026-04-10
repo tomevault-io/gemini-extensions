@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [divyashhree/market_analysis](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/divyashhree](https://tomevault.io/claim/divyashhree)
 
