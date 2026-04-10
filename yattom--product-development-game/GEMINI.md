@@ -25,6 +25,5 @@
 あなたは作業を開始する前に、必ず docs/guidelines.md を読んで、追加の指示を受け取りその通りにふるまいます。
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/yattom)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/yattom)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/yattom) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:gemini_md:2026-04-09 -->
