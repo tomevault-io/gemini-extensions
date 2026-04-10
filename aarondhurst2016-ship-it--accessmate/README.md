@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [aarondhurst2016-ship-it/accessmat
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/aarondhurst2016-ship-it](https://tomevault.io/claim/aarondhurst2016-ship-it)
 
