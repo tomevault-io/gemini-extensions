@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [hamzaelgaafary-hub/El-Gaafary-Job
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/hamzaelgaafary-hub](https://tomevault.io/claim/hamzaelgaafary-hub)
 
