@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [reinforce-lab/ble-in-action](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/reinforce-lab](https://tomevault.io/claim/reinforce-lab)
 
