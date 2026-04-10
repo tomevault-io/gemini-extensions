@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Cubicler/Cubicler](https://github
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Cubicler](https://tomevault.io/claim/Cubicler)
 
