@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [SuperPyonchiX/MermaidConverter](h
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/SuperPyonchiX](https://tomevault.io/claim/SuperPyonchiX)
 
