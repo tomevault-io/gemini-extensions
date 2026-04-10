@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [Baragji/ai-app-platform](https://
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Baragji](https://tomevault.io/claim/Baragji)
 
