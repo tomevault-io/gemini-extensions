@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [realSergiy/templ-doc](https://git
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/realSergiy](https://tomevault.io/claim/realSergiy)
 
