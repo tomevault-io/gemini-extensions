@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [documentdb/documentdb-kubernetes-
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/documentdb](https://tomevault.io/claim/documentdb)
 
