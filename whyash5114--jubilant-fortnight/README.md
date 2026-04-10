@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [WhyAsh5114/jubilant-fortnight](ht
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/WhyAsh5114](https://tomevault.io/claim/WhyAsh5114)
 
