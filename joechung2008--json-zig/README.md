@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [joechung2008/json-zig](https://gi
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/joechung2008](https://tomevault.io/claim/joechung2008)
 
