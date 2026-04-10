@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [wingken1031-program/Music-Detecto
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/wingken1031-program](https://tomevault.io/claim/wingken1031-program)
 
