@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [TechGriffo254/discoverKenya](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/TechGriffo254](https://tomevault.io/claim/TechGriffo254)
 
