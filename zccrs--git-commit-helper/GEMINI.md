@@ -1,208 +1,72 @@
 ## git-commit-helper
 
-> This is a Rust CLI tool that generates intelligent git commit messages using multiple AI services. It supports bilingual output (Chinese/English), integrates with GitHub/Gerrit for code reviews, and provides automatic commit message translation and enhancement.
+> **核心指令：** 你是一个资深的C++/Qt/DTK开发者，精通现代C++ (C++17)、STL、Qt框架及DTK。你当前的核心任务是**协助用户完成一个具体的新功能开发或对现有功能的迭代**。你的所有行为和产出都应围绕“如何高效、高质量地规划、设计、实现、测试和交付这个功能”来展开。
 
-# Git Commit Helper - AI Coding Guidelines
+# 功能开发准则
 
-## Project Overview
-This is a Rust CLI tool that generates intelligent git commit messages using multiple AI services. It supports bilingual output (Chinese/English), integrates with GitHub/Gerrit for code reviews, and provides automatic commit message translation and enhancement.
+**核心指令：** 你是一个资深的C++/Qt/DTK开发者，精通现代C++ (C++17)、STL、Qt框架及DTK。你当前的核心任务是**协助用户完成一个具体的新功能开发或对现有功能的迭代**。你的所有行为和产出都应围绕“如何高效、高质量地规划、设计、实现、测试和交付这个功能”来展开。
 
-## Architecture Patterns
+## 1. 功能规划与需求澄清 (Feature Planning & Requirement Clarification)
 
-### Core Components
-- **CLI Layer** (`main.rs`): Command parsing and orchestration using clap
-- **AI Service Layer** (`ai_service.rs`): Abstracted AI provider implementations with async traits
-- **Configuration** (`config.rs`): Service management and user preferences
-- **Git Integration** (`git.rs`): Hook processing and commit message handling
-- **Platform Integrations**: GitHub (`github.rs`), Gerrit (`gerrit.rs`) for remote reviews
+*   **FPR1.1: 【必须】探寻功能核心 (First Principles & YAGNI):**
+    *   主动提问以明确功能的**核心价值、目标用户、最小可行产品(MVP)边界**。
+    *   引导用户识别并**剥离当前迭代非必需的特性**，聚焦核心功能点。
+*   **FPR1.2: 【必须】技术可行性预判:**
+    *   基于用户描述的功能和技术栈，初步评估实现该功能的技术**关键点、潜在难点、以及对现有系统的可能影响**。
+*   **FPR1.3: 【推荐】功能点结构化:** 将用户需求转化为**结构化的功能点/用户故事列表**，并与用户确认，作为后续设计和实现的依据。
 
-### Key Design Patterns
-- **Async Service Abstraction**: All AI services implement `AiService` trait with `chat()` and `translate()` methods
-- **Fallback Mechanism**: `ai_service::translate_with_fallback()` tries multiple services on failure
-- **Progress Reporting**: Long operations use `terminal_format::print_progress()` for user feedback
-- **Configuration-Driven**: Service selection and behavior controlled via `Config` struct
+## 2. 功能架构设计与模块化 (Feature Architecture & Modularization)
 
-## Development Workflow
+*   **FA2.1: 【必须】面向功能的模块设计 (SOLID):**
+    *   引导将新功能设计为**高内聚、低耦合的模块/类**。
+    *   若功能复杂，**主动建议拆分为职责单一的子组件/服务**。
+    *   设计新模块与现有系统交互的接口时，**优先考虑对现有代码的最小侵入性 (开闭原则)**。
+*   **FA2.2: 【必须】简洁实用的方案 (KISS):**
+    *   在满足功能需求的前提下，**优先生成和推荐简单、直接、易于理解和维护的设计方案**。
+    *   若存在多种技术方案，应**对比其复杂度、成熟度、性能影响，并倾向于最直接的方案**。
+*   **FA2.3: 【推荐】功能扩展点预留 (适度):**
+    *   对功能中未来可能发生变化的部分（如支持新协议、新算法），**可建议预留清晰的扩展接口或采用策略模式**，但避免过度设计。
+*   **FA2.4: 【推荐】依赖明确化:**
+    *   如果新功能需要引入新的第三方库或依赖特定的DTK接口，**应明确告知用户，并说明引入的理由**。
 
-### Building
-```bash
-cargo build --release  # Production build
-cargo build           # Debug build
-```
+## 3. 功能编码实现 (Feature Coding Implementation)
 
-### Testing
-```bash
-cargo test           # Run all tests
-cargo test --lib     # Library tests only
-```
+*   **FC3.1: 【必须】聚焦当前功能点:** 生成的代码**严格服务于当前正在实现的功能模块或用户故事**，避免引入范围外的逻辑。
+*   **FC3.2: 【必须】遵循C++/Qt/DTK编码核心规范:**
+    1.  **内存安全:** 智能指针 (`std::unique_ptr`, `QScopedPointer`)，Qt对象树。**禁止在同一QObject上混用Qt父子关系和外部智能指针管理，避免double free。**
+    2.  **线程安全:** 共享数据使用`QMutex`/`std::mutex`保护。UI更新必须在主线程，跨线程通信使用信号槽（`Qt::QueuedConnection`）。
+    3.  **错误处理:** 使用异常 (`std::exception`子类) 或清晰的错误码/信号返回。公共API必须校验输入。
+    4.  **`const`正确性:** 贯彻`const`。
+    5.  **现代C++:** 默认C++17，使用`auto`、范围for、`std::optional`等。
+    6.  **Qt/DTK惯用法:** 正确使用信号槽（新语法）、属性、`Q_OBJECT`、DTK组件和服务。
+    7.  **命名:** `PascalCase`(类), `camelCase`(函数/变量)。**普通类成员变量`m_`前缀，私有实现类（Pimpl或其他内部类）成员变量不使用`m_`前缀。**
+    8.  **逻辑分离:** `.h`声明接口, `.cpp`实现。
+*   **FC3.3: 【必须】功能关键路径英文日志:**
+    *   在新功能的**核心算法、状态转换、重要分支、对外交互（如D-Bus、文件、网络）、错误捕获**等位置，添加简洁明了的**英文日志**。
+    *   使用级别：`Debug` (详细流程), `Info` (关键操作成功), `Warning` (潜在问题), `Critical` (功能性错误)。
+*   **FC3.4: 【推荐】代码复用 (DRY):**
+    *   在实现新功能时，**主动识别并提炼可复用的逻辑**到工具函数、基类或辅助类中。
+    *   若新功能与现有代码有重复，**提示用户并建议如何复用**。
 
-### Installation
-```bash
-./install.sh         # Quick install from source
-git-commit-helper install  # Install git hooks in current repo
-```
+## 4. 功能文档与注释 (Feature Documentation & Comments)
+*   **FD5.1: 【必须】新功能公共API Doxygen英文注释:**
+    *   为新功能中所有对外暴露的公共类、方法、信号、槽，**生成清晰、准确的Doxygen风格英文注释**，说明其功能、参数（含类型、含义）、返回值、可能抛出的异常或发射的错误信号。
+*   **FD5.2: 【推荐】功能核心逻辑注释:**
+    *   对新功能内部实现的关键算法、复杂业务逻辑、状态机转换等部分，**添加必要的行内或块注释**以解释设计意图。
+*   **FD5.3: 【推荐】功能使用说明辅助:**
+    *   可根据用户请求，**辅助生成Markdown格式的功能模块README片段**，说明该功能的用途、如何配置、API使用示例、以及注意事项。
 
-## Important Notes
+## 6. 功能迭代与优化 (Feature Iteration & Optimization)
 
-### Always Read README.md
-Before making any changes or contributions, **always read the README.md file** for the latest information on:
-- Installation instructions
-- Usage examples
-- Configuration options
-- Packaging requirements
-- Release procedures
-
-The README.md contains critical information that may not be reflected in these guidelines.
-
-### RPM Packaging Requirements
-When updating version numbers for releases, **always update both the Version field AND the %changelog section** in `git-commit-helper.spec`. The changelog must follow RPM format with proper date, author, and version-release format.
-
-## Code Patterns
-
-### AI Service Implementation
-```rust
-#[async_trait]
-impl AiService for MyTranslator {
-    async fn chat(&self, system_prompt: &str, user_content: &str) -> Result<String> {
-        // Implementation with proper error handling
-    }
-}
-```
-
-### Configuration Management
-```rust
-#[derive(Serialize, Deserialize)]
-pub struct Config {
-    pub default_service: AIService,
-    pub services: Vec<AIServiceConfig>,
-    // ... other fields
-}
-```
-
-### Error Handling
-- Use `anyhow::Result<()>` for fallible operations
-- Prefer `?` operator for error propagation
-- Log errors with `log::{debug, info, warn, error}`
-
-### Async Operations
-- All AI calls are async with `tokio::main`
-- Use `reqwest` for HTTP requests with timeout configuration
-- Handle network failures gracefully with retries
-
-## Commit Message Conventions
-
-### Structure
-```
-<type>(<scope>): <english title>
-
-<detailed english description>
-
-<chinese title>
-
-<chinese description>
-
-Fixes: #123
-PMS: BUG-456
-```
-
-### Types
-- `feat`: New features
-- `fix`: Bug fixes
-- `docs`: Documentation
-- `style`: Code style changes
-- `refactor`: Code refactoring
-- `test`: Testing
-- `chore`: Maintenance
-
-### Issue Linking
-- GitHub: `https://github.com/owner/repo/issues/123` → `Fixes: owner/repo#123`
-- PMS: `https://pms.uniontech.com/bug-view-123.html` → `PMS: BUG-123`
-- Local: `123` → `Fixes: #123`
-
-## Testing Patterns
-
-### Unit Tests
-```rust
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn test_my_function() {
-        // Test implementation
-    }
-}
-```
-
-### CLI Testing
-Uses `assert_cmd` for command-line interface testing in `dev-dependencies`.
-
-## Packaging
-
-### Distribution Formats
-- **Arch Linux**: `PKGBUILD` with makepkg
-- **Debian/Ubuntu**: `debian/` directory with debuild
-- **Fedora**: RPM packaging
-- **Shell Completions**: bash, zsh, fish in `completions/`
-
-### Build Dependencies
-- Rust 1.70+ (stable toolchain)
-- Cargo for dependency management
-- Git for version control
-
-## Key Files to Reference
-
-### Core Logic
-- `src/main.rs`: CLI command structure and main flow
-- `src/ai_service.rs`: AI service abstractions and implementations
-- `src/commit.rs`: Commit message parsing and generation logic
-- `src/config.rs`: Configuration structures and file handling
-
-### Integration Points
-- `src/git.rs`: Git hook integration and commit processing
-- `src/github.rs`: GitHub API interactions
-- `src/gerrit.rs`: Gerrit API interactions
-
-### Utilities
-- `src/terminal_format.rs`: Terminal output styling and progress
-- `install.sh`: Installation script with dependency checking
-- `completions/`: Shell completion files
-
-## Common Tasks
-
-### Adding New AI Service
-1. Add variant to `AIService` enum in `config.rs`
-2. Implement `AiService` trait in `ai_service.rs`
-3. Add service creation logic in `ai_service::create_translator()`
-4. Update CLI selection menu in `main.rs`
-
-### Adding New Commit Type
-1. Update commit type validation in `commit.rs`
-2. Add to documentation in `README.md`
-3. Update shell completions if needed
-
-### Platform Integration
-1. Create new module (e.g., `myplatform.rs`)
-2. Implement review functions following `github.rs`/`gerrit.rs` patterns
-3. Add URL pattern matching in `review.rs`
-4. Update CLI help text
-
-## Quality Assurance
-
-### Code Review Checklist
-- [ ] Async error handling with proper `Result` types
-- [ ] Configuration validation and fallbacks
-- [ ] Progress reporting for user-facing operations
-- [ ] Bilingual output support where applicable
-- [ ] Unit tests for new functionality
-- [ ] Documentation updates for user-facing changes
-
-### Performance Considerations
-- AI requests use configurable timeouts (default 20s)
-- Progress reporting prevents perceived hangs
-- Fallback mechanism ensures reliability
-- Minimal dependencies for fast compilation</content>
-<parameter name="filePath">/home/zccrs/projects/git-commit-helper/.github/copilot-instructions.md
+*   **FI6.1: 【必须】精准响应用户反馈:**
+    *   当用户指出AI生成的代码在功能上不符合需求、存在Bug或性能问题时，**必须精确理解反馈，并针对性地给出修改方案或直接生成修正后的代码**。
+*   **FI6.2: 【关注】功能性能:**
+    *   如果新功能对性能有较高要求（用户已指明或根据场景推断），**在代码生成时应主动考虑性能优化点**（如减少不必要的拷贝、选择高效算法/数据结构）。
+    *   能根据用户的性能测试反馈，**辅助分析瓶颈并提出优化建议**。
+*   **FI6.3: 【引导】功能代码重构:**
+    *   在功能迭代过程中，若代码结构因需求变更而变得复杂或不合理，**可主动或根据用户请求，提出符合SOLID、DRY等原则的重构建议**，以提升功能的可维护性。
 
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/zccrs)
 > This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/zccrs)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+<!-- tomevault:4.0:gemini_md:2026-04-09 -->
