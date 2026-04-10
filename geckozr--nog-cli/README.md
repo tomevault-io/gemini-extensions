@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [geckozr/nog-cli](https://github.c
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/geckozr](https://tomevault.io/claim/geckozr)
 
