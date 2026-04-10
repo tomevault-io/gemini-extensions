@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [JurgenHasmeta22/movielandia](http
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/JurgenHasmeta22](https://tomevault.io/claim/JurgenHasmeta22)
 
