@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [cbnsndwch/ghl-template-nest-rr7-k
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/cbnsndwch](https://tomevault.io/claim/cbnsndwch)
 
