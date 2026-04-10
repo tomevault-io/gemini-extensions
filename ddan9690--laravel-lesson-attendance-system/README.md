@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [ddan9690/laravel-lesson-attendanc
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/ddan9690](https://tomevault.io/claim/ddan9690)
 
