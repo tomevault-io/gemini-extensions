@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [abir0/dft-agent](https://github.c
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/abir0](https://tomevault.io/claim/abir0)
 
