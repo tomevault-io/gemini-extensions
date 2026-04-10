@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [k3nsei/ngx-signal-store-query](ht
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/k3nsei](https://tomevault.io/claim/k3nsei)
 
