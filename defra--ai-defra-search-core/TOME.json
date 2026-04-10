@@ -4,7 +4,7 @@
   "repo": "ai-defra-search-core",
   "description": "",
   "type": "config",
-  "source_format": ".cursor/rules/*.mdc",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -30,10 +30,15 @@
       "format": "gemini_md",
       "display": "GEMINI.md",
       "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
     }
   ],
   "skills": [],
   "claim_url": "https://tomevault.io/claim/DEFRA",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-09T02:57:47Z"
+  "distributed_at": "2026-04-10T03:17:19Z"
 }
