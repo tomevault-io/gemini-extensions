@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [guidutra-china/Impex_project_fina
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/guidutra-china](https://tomevault.io/claim/guidutra-china)
 
