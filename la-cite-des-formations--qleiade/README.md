@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [la-cite-des-formations/qleiade](h
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/la-cite-des-formations](https://tomevault.io/claim/la-cite-des-formations)
 
