@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [faiz-leman/portfolio-v2](https://
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/faiz-leman](https://tomevault.io/claim/faiz-leman)
 
