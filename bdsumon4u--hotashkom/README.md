@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [bdsumon4u/HotashKom](https://gith
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/bdsumon4u](https://tomevault.io/claim/bdsumon4u)
 
