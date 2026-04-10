@@ -771,6 +771,5 @@ function calculateDiscount(price: number, percentage: number): number {
 8. Add TODO comments for incomplete implementations
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/Panix-Develop)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/Panix-Develop)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/Panix-Develop) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:gemini_md:2026-04-09 -->
