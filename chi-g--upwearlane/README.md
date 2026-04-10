@@ -13,6 +13,7 @@ Original source: `CLAUDE.md` in [Chi-G/UPWEARLANE](https://github.com/Chi-G/UPWE
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Chi-G](https://tomevault.io/claim/Chi-G)
 
