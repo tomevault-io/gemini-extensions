@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [bawby/Paza](https://github.com/ba
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/bawby](https://tomevault.io/claim/bawby)
 
