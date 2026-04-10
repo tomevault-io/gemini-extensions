@@ -13,6 +13,7 @@ Original source: `copilot-instructions.md` in [g453030291/g-fastapi-template](ht
 - **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/g453030291](https://tomevault.io/claim/g453030291)
 
