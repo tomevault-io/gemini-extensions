@@ -23970,6 +23970,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ngutman--agent-stuff",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "ssdeanx--gemini-langgraph",
+      "description": "gemini-langgraph",
+      "author": "ssdeanx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ssdeanx--gemini-langgraph",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ssdeanx--gemini-cli-web",
+      "description": "Gemini-CLI-Web",
+      "author": "ssdeanx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ssdeanx--gemini-cli-web",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
