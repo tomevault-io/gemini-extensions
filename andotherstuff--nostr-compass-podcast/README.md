@@ -1,23 +1,24 @@
-# nostr-compass-podcast
+# AI instruction files for nostr-compass-podcast
 
-> Config by [andotherstuff](https://github.com/andotherstuff/nostr-compass-podcast) — distributed by [TomeVault](https://tomevault.io/claim/andotherstuff)
+> Sourced from [andotherstuff/nostr-compass-podcast](https://github.com/andotherstuff/nostr-compass-podcast) and converted for every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [andotherstuff/nostr-compass-podcast](https://github.com/andotherstuff/nostr-compass-podcast).
+Original source: `copilot-instructions.md` in [andotherstuff/nostr-compass-podcast](https://github.com/andotherstuff/nostr-compass-podcast).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/andotherstuff](https://tomevault.io/claim/andotherstuff)
+Quality verified by TomeVault's automated analysis pipeline. [View quality report](https://tomevault.io/claim/andotherstuff#quality)
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/andotherstuff) to manage distribution.
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:a-e-q -->
