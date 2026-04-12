@@ -34706,6 +34706,406 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thiez-64--remix-nestjs-monorepo",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "nikolays--postgres-dba",
+      "description": "postgres_dba",
+      "author": "NikolayS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nikolays--postgres-dba",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "srombauts--sqlitecpp",
+      "description": "SQLiteCpp",
+      "author": "SRombauts",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/srombauts--sqlitecpp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "toss--frontend-fundamentals",
+      "description": "frontend-fundamentals",
+      "author": "toss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/toss--frontend-fundamentals",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "4thfever--cultivation-world-simulator",
+      "description": "cultivation-world-simulator",
+      "author": "4thfever",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/4thfever--cultivation-world-simulator",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "cyberfabric--cyberfabric-core",
+      "description": "cyberfabric-core",
+      "author": "cyberfabric",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cyberfabric--cyberfabric-core",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "asynchronous-x--orbital-ctf",
+      "description": "orbital-ctf",
+      "author": "asynchronous-x",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/asynchronous-x--orbital-ctf",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "mondaycom--vibe",
+      "description": "vibe",
+      "author": "mondaycom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mondaycom--vibe",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "unity-billal-mesloub--htmlhint",
+      "description": "HTMLHint.",
+      "author": "Unity-Billal-mesloub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/unity-billal-mesloub--htmlhint",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lwybzss8924d--deepsearchagents",
+      "description": "DeepSearchAgents",
+      "author": "lwyBZss8924d",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lwybzss8924d--deepsearchagents",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "masterpiece-alliances--macc-website",
+      "description": "macc-website",
+      "author": "masterpiece-alliances",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masterpiece-alliances--macc-website",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sharpninja--mcpserver",
+      "description": "McpServer",
+      "author": "sharpninja",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sharpninja--mcpserver",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "modelengine-group--nexent",
+      "description": "nexent",
+      "author": "ModelEngine-Group",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/modelengine-group--nexent",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "markbunyevacz--hr-ai-website",
+      "description": "HR-AI-website",
+      "author": "markbunyevacz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/markbunyevacz--hr-ai-website",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "sleepy-zuzki--ng-sleepy-zuzki",
+      "description": "ng-sleepy-zuzki",
+      "author": "sleepy-zuzki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sleepy-zuzki--ng-sleepy-zuzki",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "devopsfactory-io--neptune",
+      "description": "neptune",
+      "author": "devopsfactory-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devopsfactory-io--neptune",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "radical-horizons--dialoguegenerator",
+      "description": "DialogueGenerator",
+      "author": "Radical-Horizons",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radical-horizons--dialoguegenerator",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jtbeach--alembic-pilot",
+      "description": "alembic-pilot",
+      "author": "jtbeach",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jtbeach--alembic-pilot",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "pete-murphy--elm-land-store-pattern",
+      "description": "elm-land-store-pattern",
+      "author": "pete-murphy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pete-murphy--elm-land-store-pattern",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "albisher--uaibot",
+      "description": "UaiBot",
+      "author": "albisher",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/albisher--uaibot",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "thamam--cam-shift-detector",
+      "description": "cam-shift-detector",
+      "author": "thamam",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thamam--cam-shift-detector",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jeffersonlab--halla-molpol-sim",
+      "description": "halla_molpol_sim",
+      "author": "JeffersonLab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeffersonlab--halla-molpol-sim",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chuongdinh2k--market-place-nextjs",
+      "description": "market-place-nextjs",
+      "author": "chuongdinh2k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chuongdinh2k--market-place-nextjs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ferparra--graph-rag-mcp-server",
+      "description": "graph-rag-mcp-server",
+      "author": "ferparra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferparra--graph-rag-mcp-server",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "gavin-d26--nano-browser-use",
+      "description": "nano-browser-use",
+      "author": "gavin-d26",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gavin-d26--nano-browser-use",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "xshi19--normix",
+      "description": "normix",
+      "author": "xshi19",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xshi19--normix",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cuhanquoc--dropxlabel-theme",
+      "description": "Dropxlabel-Theme",
+      "author": "cuhanquoc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cuhanquoc--dropxlabel-theme",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "oliyoung--torchlight",
+      "description": "torchlight",
+      "author": "oliyoung",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oliyoung--torchlight",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "huype1--teamer",
+      "description": "teamer",
+      "author": "huype1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huype1--teamer",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nloperena--nexrena",
+      "description": "nexrena",
+      "author": "Nloperena",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nloperena--nexrena",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "peijingartstudio-pei--work",
+      "description": "Work",
+      "author": "peijingartstudio-pei",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/peijingartstudio-pei--work",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "fannsonetti--more-npcs",
+      "description": "More-NPCs",
+      "author": "fannsonetti",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fannsonetti--more-npcs",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "compozy--go-orchestrator",
+      "description": "go-orchestrator",
+      "author": "compozy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/compozy--go-orchestrator",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "elmargeerlings--gymapp",
+      "description": "gymapp",
+      "author": "ElmarGeerlings",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elmargeerlings--gymapp",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "china-norm-company--cn-kis-v2-0",
+      "description": "cn_kis_v2.0",
+      "author": "china-norm-company",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/china-norm-company--cn-kis-v2-0",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "toqitahamid--base-lab-next",
+      "description": "base-lab-next",
+      "author": "toqitahamid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/toqitahamid--base-lab-next",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "hebelmx--veriqan",
+      "description": "Veriqan",
+      "author": "hebelmx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hebelmx--veriqan",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "yasarshaikh--sf-bench",
+      "description": "SF-bench",
+      "author": "yasarshaikh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yasarshaikh--sf-bench",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "muneebhashone--ai-coaches-web-app",
+      "description": "ai-coaches-web-app",
+      "author": "muneebhashone",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muneebhashone--ai-coaches-web-app",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "sparesparrow--cursor-rules",
+      "description": "cursor-rules",
+      "author": "sparesparrow",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sparesparrow--cursor-rules",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "cinderblock--practice-field-scheduler",
+      "description": "practice-field-scheduler",
+      "author": "cinderblock",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cinderblock--practice-field-scheduler",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "savagelysubtle--big-brain-memory-bank",
+      "description": "BIG-BRAIN-Memory-Bank",
+      "author": "savagelysubtle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/savagelysubtle--big-brain-memory-bank",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "demetriade--astreo",
+      "description": "astreo",
+      "author": "Demetriade",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/demetriade--astreo",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "domnav--onboardr",
+      "description": "onboardr",
+      "author": "DomNav",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/domnav--onboardr",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "curtismu7--oauthplayground",
+      "description": "oauthPlayground",
+      "author": "curtismu7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/curtismu7--oauthplayground",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "anipotts--ani-assistant",
+      "description": "ani-assistant",
+      "author": "anipotts",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anipotts--ani-assistant",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ldrseguros--saas-estetica-automotiva",
+      "description": "saas-estetica-automotiva",
+      "author": "ldrseguros",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ldrseguros--saas-estetica-automotiva",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "cassianwolfe--openwebui-design",
+      "description": "OpenWebUI-Design",
+      "author": "cassianwolfe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cassianwolfe--openwebui-design",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "xsoulspace--xsoulspace-github-io",
+      "description": "xsoulspace.github.io",
+      "author": "xsoulspace",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xsoulspace--xsoulspace-github-io",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "fortunto2--superduperai-landing",
+      "description": "superduperai-landing",
+      "author": "fortunto2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fortunto2--superduperai-landing",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "priye--yolo-particle-segmentation",
+      "description": "yolo-particle-segmentation",
+      "author": "PRIYE",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/priye--yolo-particle-segmentation",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
