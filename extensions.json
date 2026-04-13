@@ -10588,62 +10588,6 @@
       "quality": "silver"
     },
     {
-      "name": "alexandre-henrique-rp--iselftoken",
-      "description": "iselftoken",
-      "author": "alexandre-henrique-rp",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexandre-henrique-rp--iselftoken",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "andrewpollack--llm-from-scratch",
-      "description": "llm-from-scratch",
-      "author": "andrewpollack",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrewpollack--llm-from-scratch",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "clockwork-temptation--editor",
-      "description": "editor",
-      "author": "CLOCKWORK-TEMPTATION",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clockwork-temptation--editor",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "zacol--watchtower",
-      "description": "watchtower",
-      "author": "zacol",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zacol--watchtower",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "nguyenhuy158--helper",
-      "description": "helper",
-      "author": "nguyenhuy158",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nguyenhuy158--helper",
-      "stars": 0,
-      "quality": "bronze"
-    },
-    {
-      "name": "snowman-labs--cine-search",
-      "description": "cine_search",
-      "author": "Snowman-Labs",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snowman-labs--cine-search",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "snuffles5--tradeflow-trade-service",
-      "description": "tradeflow-trade-service",
-      "author": "snuffles5",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snuffles5--tradeflow-trade-service",
-      "stars": 0,
-      "quality": "bronze"
-    },
-    {
       "name": "oyi77--telegram-ai-trade",
       "description": "telegram-ai-trade",
       "author": "oyi77",
@@ -44400,6 +44344,350 @@
       "description": "nl2v2",
       "author": "ujjalcal",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ujjalcal--nl2v2",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "aebrer--deep-yellow",
+      "description": "deep-yellow",
+      "author": "aebrer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aebrer--deep-yellow",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "pedronahum--jactus",
+      "description": "JACTUS",
+      "author": "pedronahum",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pedronahum--jactus",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "davidjarnold--request-cache",
+      "description": "request_cache",
+      "author": "DavidJArnold",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidjarnold--request-cache",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "davidamitchell--research",
+      "description": "Research",
+      "author": "davidamitchell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidamitchell--research",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "dariubs--scaffold",
+      "description": "scaffold",
+      "author": "dariubs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dariubs--scaffold",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "thobenayann--next-contract-builder",
+      "description": "next-contract-builder",
+      "author": "thobenayann",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thobenayann--next-contract-builder",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexandre-henrique-rp--iselftoken",
+      "description": "iselftoken",
+      "author": "alexandre-henrique-rp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexandre-henrique-rp--iselftoken",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mathious6--discord-link-opener",
+      "description": "discord-link-opener",
+      "author": "Mathious6",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mathious6--discord-link-opener",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sparkworx--terraform-provider-keychain",
+      "description": "terraform-provider-keychain",
+      "author": "sparkworx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sparkworx--terraform-provider-keychain",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "oyvinrog--progress",
+      "description": "progress",
+      "author": "oyvinrog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oyvinrog--progress",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ceferonl--vp-scraping",
+      "description": "vp-scraping",
+      "author": "ceferonl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ceferonl--vp-scraping",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alnwangchi--room-reservation-system",
+      "description": "room-reservation-system",
+      "author": "alnwangchi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alnwangchi--room-reservation-system",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "andrewpollack--llm-from-scratch",
+      "description": "llm-from-scratch",
+      "author": "andrewpollack",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrewpollack--llm-from-scratch",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "djav1985--v-chatgpt-social-status-feeds",
+      "description": "v-chatgpt-social-status-feeds",
+      "author": "djav1985",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djav1985--v-chatgpt-social-status-feeds",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "ariejan--gitmop",
+      "description": "gitmop",
+      "author": "ariejan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ariejan--gitmop",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "colin-gourlay--sundown-sessions",
+      "description": "sundown-sessions",
+      "author": "colin-gourlay",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/colin-gourlay--sundown-sessions",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "joel-thompson--terminag",
+      "description": "terminag",
+      "author": "joel-thompson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joel-thompson--terminag",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "thomasandersen77--cloudberries-candidate-match",
+      "description": "cloudberries-candidate-match",
+      "author": "thomasandersen77",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thomasandersen77--cloudberries-candidate-match",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "clockwork-temptation--editor",
+      "description": "editor",
+      "author": "CLOCKWORK-TEMPTATION",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clockwork-temptation--editor",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "taiyi747--bamboo-shoot-soup",
+      "description": "bamboo_shoot_soup",
+      "author": "taiyi747",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/taiyi747--bamboo-shoot-soup",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "gabrielkilly--nayeli-perez-dotcom",
+      "description": "nayeli-perez-dotcom",
+      "author": "gabrielkilly",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabrielkilly--nayeli-perez-dotcom",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "madebygps--python-learning-space",
+      "description": "python-learning-space",
+      "author": "madebygps",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/madebygps--python-learning-space",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "guilhermekaua1--doutor-agenda",
+      "description": "doutor-agenda",
+      "author": "guilhermekaua1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guilhermekaua1--doutor-agenda",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sarah-zou--economist",
+      "description": "economist",
+      "author": "Sarah-Zou",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sarah-zou--economist",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "zacol--watchtower",
+      "description": "watchtower",
+      "author": "zacol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zacol--watchtower",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "tteggel---dotfiles",
+      "description": ".dotfiles",
+      "author": "tteggel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tteggel---dotfiles",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "peuqui--aifred-intelligence",
+      "description": "AIfred-Intelligence",
+      "author": "Peuqui",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/peuqui--aifred-intelligence",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "seribasa--e-imunisasi",
+      "description": "e-imunisasi",
+      "author": "seribasa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seribasa--e-imunisasi",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "ergonmanagement--ergon",
+      "description": "ergon",
+      "author": "ergonmanagement",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ergonmanagement--ergon",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kriruo--whiz-v2",
+      "description": "Whiz-v2",
+      "author": "KriRuo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kriruo--whiz-v2",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "nguyenhuy158--helper",
+      "description": "helper",
+      "author": "nguyenhuy158",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nguyenhuy158--helper",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "sethrylan--readis",
+      "description": "readis",
+      "author": "sethrylan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sethrylan--readis",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "aki-0517--hyperevm-tx-simulator",
+      "description": "hyperevm-tx-simulator",
+      "author": "aki-0517",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aki-0517--hyperevm-tx-simulator",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "mvmrik--vjsg",
+      "description": "vjsg",
+      "author": "mvmrik",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mvmrik--vjsg",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "jasonstcyrx--ai-template",
+      "description": "ai-template",
+      "author": "jasonstcyrx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jasonstcyrx--ai-template",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mueltech--pharmacy-pos",
+      "description": "Pharmacy-POS",
+      "author": "MuelTech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mueltech--pharmacy-pos",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "snowman-labs--cine-search",
+      "description": "cine_search",
+      "author": "Snowman-Labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snowman-labs--cine-search",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "dotnetdevsaustria--dotnetdevsaustria-github-io",
+      "description": "dotnetdevsaustria.github.io",
+      "author": "dotnetdevsaustria",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dotnetdevsaustria--dotnetdevsaustria-github-io",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "as90555--apex-trading-bot",
+      "description": "apex-trading-bot",
+      "author": "AS90555",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/as90555--apex-trading-bot",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "h617265630--stepbystep",
+      "description": "stepbystep",
+      "author": "h617265630",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/h617265630--stepbystep",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zccrs--git-commit-helper",
+      "description": "git-commit-helper",
+      "author": "zccrs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zccrs--git-commit-helper",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cmartinsgyn--adv-calc",
+      "description": "adv-calc",
+      "author": "cmartinsgyn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cmartinsgyn--adv-calc",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "snuffles5--tradeflow-trade-service",
+      "description": "tradeflow-trade-service",
+      "author": "snuffles5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snuffles5--tradeflow-trade-service",
       "stars": 0,
       "quality": "bronze"
     }
