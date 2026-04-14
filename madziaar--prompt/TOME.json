@@ -4,7 +4,7 @@
   "repo": "Prompt",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "claim_url": "https://tomevault.io/claim/madziaar",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-10T06:01:34Z"
+  "distributed_at": "2026-04-14T03:42:56Z"
 }
