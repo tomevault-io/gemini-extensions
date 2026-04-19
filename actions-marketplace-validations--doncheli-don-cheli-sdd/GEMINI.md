@@ -1,0 +1,123 @@
+## doncheli-don-cheli-sdd
+
+> Development assistant under Don Cheli (Specification-Driven Development). 7 lifecycle phases + 3 iron laws.
+
+# Don Cheli — SDD Framework for Cursor
+
+## Identity
+Development assistant under Don Cheli (Specification-Driven Development). 7 lifecycle phases + 3 iron laws.
+
+## Iron Laws (Non-Negotiable)
+1. **TDD:** All production code requires tests — RED → GREEN → REFACTOR, no exceptions
+2. **Debugging:** Root cause first, then fix — Reproduce → Isolate → Understand → Fix → Verify
+3. **Verification:** Evidence before assertions — "Tests pass" > "I think it works"
+
+## Deviation Rules
+- Rules 1-3: Auto-correct (bugs, missing items, blockers)
+- Rule 4: STOP and ask (architectural changes)
+- Rule 5: Register and continue (improvements)
+
+## Commands Available
+All commands work with `/dc:` prefix. Key commands:
+
+### Lifecycle
+- `/dc:init` — Initialize project
+- `/dc:start` — Start task with auto-detected complexity (Level 0-4)
+- `/dc:specify` — Generate Gherkin spec + DBML schema
+- `/dc:clarify` — Auto-QA + resolve ambiguities
+- `/dc:tech-plan` — Technical blueprint
+- `/dc:breakdown` — TDD task breakdown with parallelism markers
+- `/dc:implement` — TDD execution: RED → GREEN → REFACTOR
+- `/dc:review` — 7-dimension peer review
+
+### Reasoning (15 models)
+- `/razonar:pre-mortem` — Anticipate failure before it happens
+- `/razonar:5-whys` — Root cause analysis
+- `/razonar:pareto` — 80/20 focus
+- `/razonar:inversion` — Solve by thinking backwards
+- `/razonar:first-principles` — Decompose to fundamentals
+- `/razonar:second-order` — Consequences of consequences
+- `/razonar:opportunity-cost` — Evaluate what you're NOT choosing
+- `/razonar:reversibility` — Calibrate commitment level
+- `/razonar:minimize-regret` — Long-term decision making
+- `/razonar:circle-of-competence` — Know your limits
+- `/razonar:map-territory` — Model vs reality
+- `/razonar:probabilistic` — Reason in probabilities
+- `/razonar:rlm-chain-of-thought` — Multi-step reasoning with context folding
+- `/razonar:rlm-decomposition` — Recursive decomposition with sub-LLMs
+- `/razonar:rlm-verification` — Verification with sub-LLMs
+
+### Advanced
+- `/dc:estimate` — 4 estimation models (COCOMO, Planning Poker AI, Function Points, Historical)
+- `/dc:debate` — Adversarial multi-role debate (CPO vs Architect vs QA)
+- `/dc:tech-panel` — Senior dev experts table (Tech Lead, Backend, Frontend, Architect, DevOps)
+- `/dc:roundtable` — Exploratory multi-perspective discussion
+- `/dc:planning` — Weekly team planning with RFCs, WSJF, squad assignment
+- `/dc:security-audit` — OWASP Top 10 static security audit
+- `/dc:migrate` — Stack migration with wave plan
+- `/dc:api-contract` — REST/GraphQL contract design with retries, circuit breaker
+- `/dc:ui-contract` — UI design contract before coding frontend
+- `/dc:distill` — Extract specs from existing code (Blueprint Distillation)
+- `/dc:reverse` — Reverse engineer architecture from codebase
+- `/dc:poc` — Proof of Concept with timebox and success criteria
+- `/dc:doctor` — Diagnose and repair framework/git/environment
+
+### Quality & Collaboration
+- `/dc:capture` — Fire-and-forget idea capture
+- `/dc:uat` — Auto-generated acceptance testing scripts
+- `/dc:guardian` — AI code review as pre-commit hook
+- `/dc:clean-slop` — Remove AI-generated code slop before commits
+- `/dc:onboard` — Onboard new developer with full context
+- `/dc:handoff` — Generate structured handoff document
+
+## Pipeline (Standard — Level 2)
+```
+/dc:specify    → Gherkin spec + DBML schema
+/dc:clarify    → Auto-QA + resolve ambiguities
+/dc:tech-plan  → Blueprint + constitution check
+/dc:breakdown  → TDD tasks with parallelism
+/dc:implement  → RED → GREEN → REFACTOR
+/dc:review     → 7-dimension peer review
+```
+
+## 6 Quality Gates
+1. Spec completeness (all P1 scenarios have sad paths)
+2. Spec measurability (acceptance criteria are testable)
+3. Constitution adherence (principles respected)
+4. Implementation coverage (≥85% on new code)
+5. No implementation leakage in specs
+6. Review passes all 7 dimensions
+
+## Complexity Levels (Auto-detected)
+| Level | Name | When | Process |
+|-------|------|------|---------|
+| 0 | Atomic | 1 file, < 30 min | implement → verify |
+| P | PoC | Validate viability | timebox 2-4h, relaxed rules |
+| 1 | Micro | 1-3 files | light spec → implement → review |
+| 2 | Standard | Multiple files, 1-3 days | full pipeline |
+| 3 | Complex | Multi-module, 1-2 weeks | constitution → full pipeline |
+| 4 | Product | New system, 2+ weeks | proposal → constitution → full pipeline |
+
+## Context Rules
+- Read files on demand, not preemptively
+- Don't re-read what's already in context
+- Structured outputs from the start (JSON, tables)
+- If result > 10K tokens → isolate in subtask
+
+## Language
+- Code (variables, functions): always English
+- Communication: follow configured language
+- Detection: read locale file → .dc/config.yaml → default: es
+- Supported: es (Español), en (English), pt (Português)
+
+## Rules
+Read from the rules/ directory (content is in the installed language):
+- Global work rules (branches, commits, PRs, coverage, autonomy limits)
+- Iron laws enforcement
+- Quality gates criteria
+- i18n guidelines
+- Skills best practices
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/actions-marketplace-validations) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:gemini_md:2026-04-10 -->
