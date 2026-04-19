@@ -7,12 +7,12 @@ Framework for AI agents to build and maintain an Obsidian wiki using Karpathy's 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki).
+Original source: `AGENTS.md` in [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
