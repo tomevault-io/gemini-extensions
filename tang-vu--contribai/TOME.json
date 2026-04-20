@@ -4,7 +4,7 @@
   "repo": "ContribAI",
   "description": "Autonomous AI agent that contributes to open source \u2014 discovers repos, analyzes code, generates fixes, and submits PRs",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tang-vu/ContribAI",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T05:32:23Z"
+  "distributed_at": "2026-04-20T23:01:18Z"
 }
