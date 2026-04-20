@@ -7,12 +7,12 @@ Hệ thống knowledge base cá nhân hoàn toàn tự động, vận hành bở
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [mduongvandinh/llm-wiki](https://github.com/mduongvandinh/llm-wiki).
+Original source: `AGENTS.md` in [mduongvandinh/llm-wiki](https://github.com/mduongvandinh/llm-wiki).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
