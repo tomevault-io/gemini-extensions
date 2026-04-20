@@ -4,7 +4,7 @@
   "repo": "notebooklm-skill",
   "description": "NotebookLM does the research, Claude writes the content. Research \u2192 Synthesis \u2192 Content Creation \u2192 Publishing. Claude Code Skill + MCP Server.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/claude-world/notebooklm-skill",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T05:37:01Z"
+  "distributed_at": "2026-04-20T23:43:31Z"
 }
