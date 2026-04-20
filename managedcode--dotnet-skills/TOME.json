@@ -4,7 +4,7 @@
   "repo": "dotnet-skills",
   "description": "Installable .NET skill catalog and CLI for Codex, Claude Code, GitHub Copilot, and Gemini.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/managedcode/dotnet-skills",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-19T23:52:46Z"
+  "distributed_at": "2026-04-20T16:23:45Z"
 }
