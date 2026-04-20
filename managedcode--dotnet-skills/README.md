@@ -7,12 +7,12 @@ Installable .NET skill catalog and CLI for Codex, Claude Code, GitHub Copilot, a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [managedcode/dotnet-skills](https://github.com/managedcode/dotnet-skills).
+Original source: `AGENTS.md` in [managedcode/dotnet-skills](https://github.com/managedcode/dotnet-skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
