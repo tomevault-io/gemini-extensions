@@ -4,7 +4,7 @@
   "repo": "git-lrc",
   "description": "Free, Unlimited AI Code Reviews That Run on Commit",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/HexmosTech/git-lrc",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T12:46:35Z"
+  "distributed_at": "2026-04-21T20:37:41Z"
 }
