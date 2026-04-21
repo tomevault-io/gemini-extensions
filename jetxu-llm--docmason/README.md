@@ -7,12 +7,12 @@ DocMason is a repo-native agent that turns your complex office files into a loca
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [JetXu-LLM/DocMason](https://github.com/JetXu-LLM/DocMason).
+Original source: `AGENTS.md` in [JetXu-LLM/DocMason](https://github.com/JetXu-LLM/DocMason).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
