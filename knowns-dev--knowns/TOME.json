@@ -2,9 +2,9 @@
   "name": "knowns",
   "owner": "knowns-dev",
   "repo": "knowns",
-  "description": "AI instruction files for knowns by knowns-dev",
+  "description": "The memory layer for AI-native development \u2014 giving AI persistent understanding of your software projects.",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -30,6 +30,11 @@
       "format": "gemini_md",
       "display": "GEMINI.md",
       "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
     }
   ],
   "skills": [
@@ -50,9 +55,51 @@
       "path": ".agent/skills/kn-extract",
       "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-extract",
       "description": ""
+    },
+    {
+      "name": "kn-implement",
+      "path": ".agent/skills/kn-implement",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-implement",
+      "description": ""
+    },
+    {
+      "name": "kn-init",
+      "path": ".agent/skills/kn-init",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-init",
+      "description": ""
+    },
+    {
+      "name": "kn-plan",
+      "path": ".agent/skills/kn-plan",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-plan",
+      "description": ""
+    },
+    {
+      "name": "kn-research",
+      "path": ".agent/skills/kn-research",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-research",
+      "description": ""
+    },
+    {
+      "name": "kn-spec",
+      "path": ".agent/skills/kn-spec",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-spec",
+      "description": ""
+    },
+    {
+      "name": "kn-template",
+      "path": ".agent/skills/kn-template",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-template",
+      "description": ""
+    },
+    {
+      "name": "kn-verify",
+      "path": ".agent/skills/kn-verify",
+      "github_url": "https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-verify",
+      "description": ""
     }
   ],
-  "claim_url": "https://tomevault.io/claim/knowns-dev",
+  "source_url": "https://github.com/knowns-dev/knowns",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-08T19:49:50Z"
+  "distributed_at": "2026-04-21T17:32:22Z"
 }
