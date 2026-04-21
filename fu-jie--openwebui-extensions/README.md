@@ -7,13 +7,13 @@ A collection of enhancements, plugins, and prompts for Open WebUI, developed and
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Fu-Jie/openwebui-extensions](https://github.com/Fu-Jie/openwebui-extensions).
+Original source: `.cursor/rules/*.mdc` in [Fu-Jie/openwebui-extensions](https://github.com/Fu-Jie/openwebui-extensions).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
