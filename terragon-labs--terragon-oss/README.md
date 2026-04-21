@@ -2,6 +2,8 @@
 
 > Sourced from [terragon-labs/terragon-oss](https://github.com/terragon-labs/terragon-oss) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+This is the website formally known as Terragon Labs. It was a remote background agent orchestrator for running Claude Code, Codex, and other coding clis in the cloud.
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
