@@ -7,12 +7,12 @@ AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinat
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control).
+Original source: `AGENTS.md` in [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
