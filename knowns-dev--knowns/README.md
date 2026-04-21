@@ -1,30 +1,43 @@
 # knowns
 
-> Tome by [knowns-dev](https://github.com/knowns-dev/knowns) — distributed by [TomeVault](https://tomevault.io/claim/knowns-dev)
+> Source: [knowns-dev/knowns](https://github.com/knowns-dev/knowns) — distributed by [TomeVault](https://tomevault.io)
 
-AI instruction files for knowns by knowns-dev
+The memory layer for AI-native development — giving AI persistent understanding of your software projects.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [knowns-dev/knowns](https://github.com/knowns-dev/knowns).
+Original source: `CLAUDE.md` in [knowns-dev/knowns](https://github.com/knowns-dev/knowns).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/knowns-dev](https://tomevault.io/claim/knowns-dev)
-
-## Bundled Skills (3)
+## Bundled Skills (10)
 
 - [kn-commit](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-commit)
 - [kn-doc](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-doc)
 - [kn-extract](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-extract)
+- [kn-implement](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-implement)
+- [kn-init](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-init)
+- [kn-plan](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-plan)
+- [kn-research](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-research)
+- [kn-spec](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-spec)
+- [kn-template](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-template)
+- [kn-verify](https://github.com/knowns-dev/knowns/tree/main/.agent/skills/kn-verify)
+
+From [knowns-dev/knowns](https://github.com/knowns-dev/knowns) — a repo with 152+ stars on GitHub.
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/knowns-dev) to manage distribution.
+Install this config instantly:
+```
+npx tomevault install knowns-dev/knowns
+```
+Source: [github.com/knowns-dev/knowns](https://github.com/knowns-dev/knowns).
+
+<!-- genome:d-i-s -->
