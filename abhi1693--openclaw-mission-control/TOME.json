@@ -4,7 +4,7 @@
   "repo": "openclaw-mission-control",
   "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/abhi1693/openclaw-mission-control",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T12:33:08Z"
+  "distributed_at": "2026-04-21T14:55:16Z"
 }
