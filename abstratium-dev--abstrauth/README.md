@@ -15,7 +15,7 @@ Original source: `.windsurf/rules/*.md` in [abstratium-dev/abstrauth](https://gi
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 
-From a repo with 0+ stars on GitHub. [See the full profile](https://tomevault.io/claim/abstratium-dev)
+From [abstratium-dev/abstrauth](https://github.com/abstratium-dev/abstrauth) — a repo with 0+ stars on GitHub.
 
 ---
 
