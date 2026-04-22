@@ -1,59 +1,63 @@
 ## opencode-manager
 
-> - **Monorepo**: pnpm workspace with backend, frontend, and shared packages
+> - `pnpm dev` - Start both backend (5003) and frontend (5173)
 
-# Copilot Code Review Instructions
+# OpenCode WebUI - Agent Guidelines
 
-## Technology Stack
+## Commands
 
-- **Monorepo**: pnpm workspace with backend, frontend, and shared packages
-- **Backend**: Bun runtime + Hono framework + Bun SQLite (bun:sqlite)
-- **Frontend**: React 19 + Vite 7 + Radix UI + Tailwind CSS 4
-- **Validation**: Zod schemas throughout
-- **State**: React Query + Zustand
-- **Language**: TypeScript (strict mode)
+- `pnpm dev` - Start both backend (5003) and frontend (5173)
+- `pnpm dev:backend` - Backend only: `bun --watch-path backend/src --watch backend/src/index.ts`
+- `pnpm dev:frontend` - Frontend only: `pnpm --filter frontend dev`
+- `pnpm build` - Build both backend and frontend
+- `pnpm test` - Run backend tests: `pnpm --filter backend test` (vitest)
+- `cd backend && vitest <filename>` - Run single test file
+- `cd backend && vitest --ui` - Test UI with coverage
+- `cd backend && vitest --coverage` - Coverage report (80% threshold)
+- `pnpm lint` - Lint both backend and frontend
+- `pnpm lint:backend` - Backend linting
+- `pnpm lint:frontend` - Frontend linting
 
-## Code Style Requirements
+## Code Style
 
-### Must Flag as Issues
+- No comments, self-documenting code only
+- No console logs (use Bun's logger or proper error handling)
+- Strict TypeScript everywhere, proper typing required
+- Named imports only: `import { Hono } from 'hono'`, `import { useState } from 'react'`
 
-- Any code comments (code must be self-documenting)
-- Console.log statements (use structured logging)
-- Use of `any` type without justification
-- Default exports (named exports only)
-- .then() chains (use async/await)
-- Unused variables, imports, or dead code
-- Direct state mutations in React components
+### Backend (Bun + Hono)
 
-### Import Patterns
+- Hono framework with Zod validation, Bun SQLite (bun:sqlite) database
+- Error handling with try/catch and structured logging
+- Follow existing route/service/utility structure
+- Use async/await consistently, avoid .then() chains
+- Test coverage: 80% minimum required
 
-- Backend: `import { Hono } from 'hono'`
-- Frontend: `import { Button } from '@/components/ui/button'`
-- Shared types: `import { ... } from '@opencode-manager/shared'`
+### Frontend (React + Vite)
 
-### Architecture Patterns
+- @/ alias for components: `import { Button } from '@/components/ui/button'`
+- Radix UI + Tailwind CSS, React Hook Form + Zod
+- React Query (@tanstack/react-query) for state management
+- ESLint TypeScript rules enforced
+- Use React hooks properly, no direct state mutations
 
-- Backend routes in `backend/src/routes/`
-- Backend services in `backend/src/services/`
-- Frontend pages in `frontend/src/pages/`
-- Shared types/schemas in `shared/src/`
+### General
 
-### Quality Standards
-
-- Test coverage: 80% minimum
-- DRY: No duplicated logic
-- SOLID principles enforced
-- YAGNI: No speculative code
-- All functions should have single responsibility
-
-### Review Focus Areas
-
-1. TypeScript type safety (no implicit any)
-2. Error handling with try/catch
-3. React hooks rules compliance
-4. Zod validation on API boundaries
-5. Consistent async/await usage
+- DRY principles, follow existing patterns
+- Use SOLID principles throughout design and implementation:
+  - **Single Responsibility**: Each module/class/function should have one reason to change—keep responsibilities focused.
+  - **Open/Closed**: Entities should be open for extension, closed for modification—prefer adding new code over altering stable code.
+  - **Liskov Substitution**: Subtypes must be substitutable for their base types—no breaking expected behavior when swapping implementations.
+  - **Interface Segregation**: Prefer small, specific interfaces over large, general ones—clients shouldn’t depend on methods they don’t use.
+  - **Dependency Inversion**: Depend on abstractions, not concretions—inject dependencies and avoid hard-coding implementations.
+- YAGNI: Don’t build or keep code you don’t need. If you change something, remove the unused parts. use the new code or keep the old, but don’t keep both.
+- Never leave dead code: remove unused code, commented-out blocks, and unused variables/imports.
+- ./temp/opencode is reference only, never commit has opencode src
+- Use shared types from workspace package (@opencode-manager/shared)
+- OpenCode server runs on port 5551, backend API on port 5003
+- Prefer pnpm over npm for all package management
+- Run `pnpm lint` after completing tasks to ensure code quality
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/chriswritescode-dev) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-10 -->
+> Source: [chriswritescode-dev/opencode-manager](https://github.com/chriswritescode-dev/opencode-manager) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-04-20 -->
