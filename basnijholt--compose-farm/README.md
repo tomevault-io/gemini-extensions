@@ -1,0 +1,26 @@
+# compose-farm
+
+> Tome by [basnijholt](https://github.com/basnijholt/compose-farm) — distributed by [TomeVault](https://tomevault.io)
+
+Compose Farm - run docker compose commands across multiple hosts
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [basnijholt/compose-farm](https://github.com/basnijholt/compose-farm).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/basnijholt/compose-farm](https://github.com/basnijholt/compose-farm)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-p -->
