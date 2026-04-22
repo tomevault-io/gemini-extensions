@@ -4,7 +4,7 @@
   "repo": "claude-octopus",
   "description": "Put up to 8 AI models on every coding task \u2014 blind spots surface before you ship. Claude Code plugin.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/nyldn/claude-octopus",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T12:57:31Z"
+  "distributed_at": "2026-04-22T00:12:33Z"
 }
