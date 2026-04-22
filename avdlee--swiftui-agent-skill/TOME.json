@@ -4,7 +4,7 @@
   "repo": "SwiftUI-Agent-Skill",
   "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T12:59:24Z"
+  "distributed_at": "2026-04-22T00:13:53Z"
 }
