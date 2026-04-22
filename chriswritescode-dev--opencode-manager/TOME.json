@@ -2,9 +2,9 @@
   "name": "opencode-manager",
   "owner": "chriswritescode-dev",
   "repo": "opencode-manager",
-  "description": "",
+  "description": "Mobile-first web interface for OpenCode AI agents. Manage, control, and code with multiple OpenCode agents from any device - your phone, tablet, or desktop. Features Git integration, file management, and real-time chat in a responsive PWA. Deploy with Docker for instant setup.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/chriswritescode-dev",
+  "source_url": "https://github.com/chriswritescode-dev/opencode-manager",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-15T06:50:51Z"
+  "distributed_at": "2026-04-22T23:45:02Z"
 }
