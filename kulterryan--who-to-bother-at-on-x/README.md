@@ -7,13 +7,13 @@ Find the right people to reach out to at your favorite tech companies
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [kulterryan/who-to-bother-at-on-x](https://github.com/kulterryan/who-to-bother-at-on-x).
+Original source: `copilot-instructions.md` in [kulterryan/who-to-bother-at-on-x](https://github.com/kulterryan/who-to-bother-at-on-x).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
