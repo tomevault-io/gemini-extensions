@@ -1,0 +1,30 @@
+# claude-code-skills
+
+> Tome by [levnikolaevich](https://github.com/levnikolaevich/claude-code-skills) — distributed by [TomeVault](https://tomevault.io)
+
+Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, project bootstrap, documentation generation, codebase audits, performance optimization, community workflows. Includes hex-line (hash-verified editing), hex-graph (code knowledge graph), and hex-ssh (remote SSH) MCP servers.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [levnikolaevich/claude-code-skills](https://github.com/levnikolaevich/claude-code-skills).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/levnikolaevich/claude-code-skills](https://github.com/levnikolaevich/claude-code-skills)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install levnikolaevich/claude-code-skills
+```
+Source: [github.com/levnikolaevich/claude-code-skills](https://github.com/levnikolaevich/claude-code-skills).
+
+<!-- genome:t-i-q -->
