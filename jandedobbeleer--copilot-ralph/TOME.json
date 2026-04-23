@@ -4,7 +4,7 @@
   "repo": "copilot-ralph",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/JanDeDobbeleer",
+  "source_url": "https://github.com/JanDeDobbeleer/copilot-ralph",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T00:49:38Z"
+  "distributed_at": "2026-04-23T20:58:27Z"
 }
