@@ -7,12 +7,12 @@ A git template for building your own LLM-powered personal wiki. Training period,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [asakin/llm-context-base](https://github.com/asakin/llm-context-base).
+Original source: `AGENTS.md` in [asakin/llm-context-base](https://github.com/asakin/llm-context-base).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
