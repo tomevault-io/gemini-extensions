@@ -1,0 +1,764 @@
+## vidpipe
+
+> Agentic video editor that watches a folder for new `.mp4` recordings, then runs a 15-stage editing pipeline: ingestion → transcription → silence removal → captions → caption burning → shorts → medium clips → chapters → summary → social media → short posts → medium clip posts → queue build → blog → git push.
+
+# Copilot Instructions — vidpipe
+
+## Project Overview
+
+Agentic video editor that watches a folder for new `.mp4` recordings, then runs a 15-stage editing pipeline: ingestion → transcription → silence removal → captions → caption burning → shorts → medium clips → chapters → summary → social media → short posts → medium clip posts → queue build → blog → git push.
+
+**Tech stack:** Node.js, TypeScript (ES2022), ESM modules (`"type": "module"`), `@github/copilot-sdk` for AI agents, OpenAI Whisper for transcription, FFmpeg for all video/audio operations, Winston for logging, Chokidar for file watching, Exa for web search, Sharp for image analysis, Commander for CLI.
+
+## Architecture
+
+### Pipeline Stages (pipeline.ts)
+
+15 stages executed in order. Each is wrapped in `runStage()` which catches errors and records timing. A stage failure does **NOT** abort the pipeline — subsequent stages proceed with whatever data is available.
+
+| # | Stage enum | What it does |
+|---|-----------|-------------|
+| 1 | `ingestion` | Copy video to `recordings/{slug}/`, extract metadata (duration, size) via ffprobe |
+| 2 | `transcription` | Extract audio as MP3 (64kbps mono), send to OpenAI Whisper, chunk if >25MB, merge results |
+| 3 | `silence-removal` | Detect silence via FFmpeg, agent decides which regions to cut, `singlePassEdit()` trims video |
+| 4 | `captions` | Generate SRT/VTT/ASS from adjusted transcript (no AI needed) |
+| 5 | `caption-burn` | Burn ASS subtitles into video; uses `singlePassEditAndCaption()` (one re-encode pass) when silence was removed, or `burnCaptions()` standalone |
+| 6 | `shorts` | Agent plans 15–60s short clips, extracts them, generates platform variants (portrait/square/feed), burns captions + portrait hook overlay |
+| 7 | `medium-clips` | Agent plans 60–180s medium clips, extracts with xfade transitions for composites, burns captions with medium style |
+| 8 | `chapters` | Agent identifies topic boundaries, writes chapters in 4 formats: JSON, YouTube timestamps, Markdown, FFmpeg metadata |
+| 9 | `summary` | Agent captures key frames + writes narrative README.md with brand voice, shorts table, chapters section |
+| 10 | `social-media` | Agent generates posts for 5 platforms (TikTok, YouTube, Instagram, LinkedIn, X) with web search for links |
+| 11 | `short-posts` | For each short clip, agent generates per-platform social posts saved to `shorts/{slug}/posts/` |
+| 12 | `medium-clip-posts` | For each medium clip, reuses short-post agent, saves to `medium-clips/{slug}/posts/` |
+| 13 | `queue-build` | Copies social posts + video variants into flat `publish-queue/` folder for review |
+| 14 | `blog` | Agent writes dev.to-style blog post (800–1500 words) with frontmatter, web search for links |
+| 15 | `git-push` | `git add -A && git commit && git push` for the recording folder |
+
+**Key data flow:**
+- **Adjusted transcript** (post silence-removal) is used for captions (aligned to edited video)
+- **Original transcript** is used for shorts, medium clips, and chapters (they reference original video timestamps)
+- Shorts and chapters are generated before summary so the README can reference them
+
+### LLM Provider Abstraction (src/providers/)
+
+All LLM interactions go through a provider abstraction layer. `BaseAgent` accepts an `LLMProvider` instead of directly using `CopilotClient`, allowing agents to work with any supported backend.
+
+| File | Purpose |
+|------|---------|
+| `types.ts` | `LLMProvider`, `LLMSession`, `LLMResponse`, `TokenUsage`, `CostInfo` interfaces |
+| `CopilotProvider.ts` | GitHub Copilot SDK backend (default) |
+| `OpenAIProvider.ts` | Direct OpenAI API backend |
+| `ClaudeProvider.ts` | Direct Anthropic API backend |
+| `index.ts` | Factory — `getProvider()` reads `LLM_PROVIDER` env var, caches singleton, falls back to copilot |
+
+**Cost tracking** (`src/L3-services/costTracking/costTracker.ts`): Singleton `CostTracker` records every LLM call's token usage and cost. At pipeline end, `formatReport()` logs totals and breakdowns by provider, agent, and model. Cost is in USD for OpenAI/Claude and premium requests (PRUs) for Copilot.
+
+### Agent Pattern (@github/copilot-sdk)
+
+All AI agents extend `BaseAgent` (src/agents/BaseAgent.ts):
+
+```typescript
+class MyAgent extends BaseAgent {
+  constructor() {
+    super('MyAgent', SYSTEM_PROMPT)
+  }
+
+  protected getTools(): Tool<unknown>[] {
+    return [{
+      name: 'my_tool',
+      description: '...',
+      parameters: { /* JSON Schema */ },
+      handler: async (args) => this.handleToolCall('my_tool', args as Record<string, unknown>),
+    }]
+  }
+
+  protected async handleToolCall(toolName: string, args: Record<string, unknown>): Promise<unknown> {
+    // Process tool call, store results on the instance
+    return { success: true }
+  }
+}
+```
+
+**Flow:** `CopilotClient({ autoStart: true })` → `createSession({ systemMessage, tools, streaming: true })` → `sendAndWait(prompt, 300_000)` → LLM calls tools → agent stores structured results → caller reads them after `run()` completes → `destroy()` tears down session + client.
+
+**Existing agents (8 total):**
+
+| Agent | Tools | Purpose |
+|-------|-------|---------|
+| `SilenceRemovalAgent` | `decide_removals` | Context-aware silence removal; conservative for demos, only removes >= 2s gaps, caps at 20% of duration |
+| `ShortsAgent` | `plan_shorts` | Plans 3–8 short clips (15–60s), extracts + generates platform AR variants + portrait captions with hook |
+| `MediumVideoAgent` | `plan_medium_clips` | Plans 2–4 medium clips (60–180s), extracts with xfade transitions, burns medium-style captions |
+| `ChapterAgent` | `generate_chapters` | Identifies 3–10 chapter boundaries, writes JSON/YouTube/Markdown/FFmetadata formats |
+| `SummaryAgent` | `capture_frame`, `write_summary` | Captures key frame screenshots, writes narrative README.md |
+| `SocialMediaAgent` | `search_links`, `create_posts` | Generates posts for 5 platforms; also used for per-short and per-medium-clip posts |
+| `BlogAgent` | `search_web`, `write_blog` | Writes dev.to blog post with frontmatter, weaves in search result links |
+
+### Smart Layout System (src/tools/ffmpeg/aspectRatio.ts)
+
+Converts landscape screen recordings with webcam overlays into platform-specific split-screen layouts.
+
+**`SmartLayoutConfig` interface:**
+```typescript
+interface SmartLayoutConfig {
+  label: string       // e.g. 'SmartPortrait'
+  targetW: number     // output width (always 1080)
+  screenH: number     // height of screen section (top)
+  camH: number        // height of webcam section (bottom)
+  fallbackRatio: AspectRatio  // if no webcam detected
+}
+```
+
+**`convertWithSmartLayout()` shared helper** — detects webcam via `detectWebcamRegion()`, then:
+1. Crops the screen region (excluding webcam area) and scales to `targetW × screenH`
+2. AR-matches the webcam crop to `targetW × camH`: if webcam AR > target AR → center-crop width; if < target AR → center-crop height
+3. Stacks screen (top) + webcam (bottom) via `[screen][cam]vstack`
+4. Falls back to simple center-crop if no webcam detected
+
+**Three smart converters:**
+
+| Function | Output | Screen (top) | Webcam (bottom) | Fallback |
+|----------|--------|-------------|----------------|----------|
+| `convertToPortraitSmart()` | 1080×1920 | 1080×1248 | 1080×672 | 9:16 crop |
+| `convertToSquareSmart()` | 1080×1080 | 1080×700 | 1080×380 | 1:1 crop |
+| `convertToFeedSmart()` | 1080×1350 | 1080×878 | 1080×472 | 4:5 crop |
+
+**`generatePlatformVariants()`** — generates all platform variants for a clip, deduplicating by aspect ratio. Default platforms for shorts: tiktok, youtube-shorts, instagram-reels, instagram-feed, linkedin.
+
+### Edge-Based Webcam Bbox Detection (src/tools/ffmpeg/faceDetection.ts)
+
+Two-phase webcam detection:
+
+**Phase 1 — Corner skin-tone analysis:**
+- Samples `SAMPLE_FRAMES=5` frames at even intervals
+- Forces analysis resolution to `320×180` (ANALYSIS_WIDTH × ANALYSIS_HEIGHT)
+- Analyzes 4 corners (25% × 25% each) for skin-tone pixels + visual variance
+- `calculateCornerConfidence()` = consistency × avg_score across frames
+- Minimum thresholds: `MIN_SKIN_RATIO=0.05`, `MIN_CONFIDENCE=0.3`
+
+**Phase 2 — `refineBoundingBox()` edge detection:**
+- Replaces hardcoded WEBCAM_CROP_MARGIN with data-driven bounds
+- Computes per-column and per-row mean grayscale intensity across 5 sample frames
+- Finds peak inter-adjacent-pixel difference (`findPeakDiff()`) to locate overlay edges
+- Constants: `REFINE_MIN_EDGE_DIFF=3.0`, `REFINE_MIN_SIZE_FRAC=0.05`, `REFINE_MAX_SIZE_FRAC=0.55`
+- Falls back to coarse 25% corner bounds if refinement fails
+
+**Resolution mapping:** Analysis at 320×180, mapped back to original video resolution with `scaleX = width / 320`, `scaleY = height / 180`. This means **videos can be non-16:9** (e.g., 2304×1536 is 3:2) — the scale factors handle arbitrary resolutions.
+
+### Caption System (src/tools/captions/captionGenerator.ts)
+
+**Three caption styles** (`CaptionStyle` type: `'shorts' | 'medium' | 'portrait'`):
+
+| Style | Active font | Inactive font | Active color | PlayRes | Use case |
+|-------|------------|--------------|-------------|---------|----------|
+| `shorts` | 54pt | 42pt | Yellow (`&H00FFFF&`) | 1920×1080 | Landscape short clips |
+| `medium` | 40pt | 32pt | Yellow (`&H00FFFF&`) | 1920×1080 | Medium clips, bottom-positioned |
+| `portrait` | 78pt + 130% scale pop | 66pt | Green (`&H00FF00&`) | 1080×1920 | Portrait shorts (Opus Clips style) |
+
+**Word-by-word karaoke highlighting:**
+- Words grouped by speech gaps (`SILENCE_GAP_THRESHOLD=0.8s`) and max group size (`MAX_WORDS_PER_GROUP=8`)
+- Groups split into 1–2 display lines at `WORDS_PER_LINE=4`
+- One Dialogue line per word-state: active word gets color + size change, all others stay base
+- Portrait style adds `\fscx130\fscy130\t(0,150,\fscx100\fscy100)` scale pop animation on active word
+
+**Hook overlay (portrait only):**
+- Style: `Hook` — Montserrat 56pt, dark text (`&H00333333&`), light gray bg (`&H60D0D0D0&`/`&H60E0E0E0&` outline/back), rounded corners via `BorderStyle=3` with `Outline=18`, `Alignment=8` (top-center)
+- Displays for first 4 seconds with `\fad(300,500)` fade in/out
+- Max 60 characters, truncated with `...`
+
+**ASS format variants:**
+- `generateStyledASS()` — full video captions
+- `generateStyledASSForSegment()` — single clip with buffer-adjusted timestamps
+- `generateStyledASSForComposite()` — multi-segment composite with running offset
+- `generatePortraitASSWithHook()` — portrait captions + hook overlay for single segment
+- `generatePortraitASSWithHookComposite()` — portrait captions + hook for composite
+
+**Montserrat Bold** is bundled in `assets/fonts/`. Fonts are copied alongside the ASS file at render time; FFmpeg's `ass` filter is invoked with `fontsdir=.` so libass finds them.
+
+### Service Layer (src/L3-services/)
+
+| Service | Purpose |
+|---------|---------|
+| `videoIngestion` | Copy video to `recordings/{slug}/`, extract metadata via ffprobe |
+| `transcription` | Extract audio as MP3, send to Whisper, chunk if >25MB |
+| `captionGeneration` | Generate SRT/VTT/ASS from transcript (orchestration wrapper) |
+| `fileWatcher` | Chokidar-based watcher for new .mp4 files, stability checks |
+| `gitOperations` | `git add -A && git commit && git push` |
+| `socialPosting` | Renders social posts as YAML frontmatter + markdown body |
+
+### FFmpeg Tools Layer (src/tools/ffmpeg/)
+
+| Tool | Purpose |
+|------|---------|
+| `silenceDetection` | Detect silence regions via `silencedetect` audio filter |
+| `singlePassEdit` | Trim+setpts+concat filter_complex for frame-accurate cuts; `singlePassEditAndCaption()` adds ass filter in the same encode |
+| `captionBurning` | Burn ASS subtitles into video (hard-coded subs) |
+| `clipExtraction` | `extractClip()` single segment with buffer; `extractCompositeClip()` via concat demuxer; `extractCompositeClipWithTransitions()` via xfade/acrossfade filters |
+| `audioExtraction` | Extract MP3 (64kbps mono), split into chunks if needed |
+| `frameCapture` | Capture PNG screenshot at a specific timestamp |
+| `aspectRatio` | Smart layout converters + simple center-crop + platform variant generation |
+| `faceDetection` | Webcam overlay detection via skin-tone analysis + edge refinement (uses Sharp) |
+
+All FFmpeg tools use `execFile()` with `process.env.FFMPEG_PATH` (not shell commands). Set via `FFMPEG_PATH` / `FFPROBE_PATH` env vars.
+
+### Social Publishing (Late API)
+
+vidpipe publishes social media posts via [Late API](https://getlate.dev). Posts stay **local until approved** through the review web app.
+
+**Architecture:**
+- Pipeline stages 10-12 generate `SocialPost[]` for 5 platforms
+- Stage 13 (`queue-build`) maps posts + video variants into `publish-queue/{slug}-{platform}/` folders
+- Each folder contains: `media.mp4`, `metadata.json`, `post.md`
+- `vidpipe review` opens a localhost web app for approve/reject/edit
+- On approve: upload media via presigned URL → resolve queue mapping → create Late post with queuedFromProfile + queueId (or fall back to scheduledFor) → move to `published/`
+- On reject: delete folder. On skip: leave for next session.
+
+**Key services:**
+| File | Purpose |
+|------|---------|
+| `src/L2-clients/late/lateApi.ts` | Late API HTTP client (presigned upload, CRUD) |
+| `src/L3-services/postStore/postStore.ts` | Read/write/query publish-queue/ and published/ folders |
+| `src/L3-services/queueBuilder/queueBuilder.ts` | Pipeline stage that populates publish-queue/ |
+| `src/L3-services/scheduler/scheduler.ts` | Smart scheduling with per-platform time slots |
+| `src/L3-services/scheduleConfig/scheduleConfig.ts` | Load/validate schedule.json |
+| `src/L3-services/accountMapping/accountMapping.ts` | Platform → Late account ID mapping |
+| `src/L3-services/queueMapping/queueMapping.ts` | Resolve (platform, clipType) → queueId with 24hr cache |
+| `src/L3-services/queueSync/queueSync.ts` | Sync schedule.json queue definitions to Late API |
+| `src/L7-app/review/server.ts` | Express.js review server |
+| `src/L7-app/review/routes.ts` | REST API routes |
+| `src/L7-app/review/public/index.html` | Tinder-style review UI |
+
+**Platform mapping:** `Platform.X` = `'x'` but Late uses `'twitter'`. Use `toLateplatform()` / `fromLatePlatform()` from types.
+
+**Media upload flow:** 2-step presign: `POST /media/presign` → `PUT` file to presigned URL → use `publicUrl` in post creation.
+
+## Coding Conventions
+
+### Bug Fix Rule
+Every bug fix **must** include a regression test — see [Bug Fix Testing Convention](#bug-fix-testing-convention) below.
+
+### Module System
+- ESM modules: `"type": "module"` in package.json
+- TypeScript: ES2022 target, `bundler` moduleResolution
+- All imports use `.ts` extensions — tsx handles resolution at runtime
+- Run with `npx tsx src/index.ts`
+- **One-off scripts:** Always create a `.ts` file and run with `npx tsx <file>.ts`. Never use `npx tsx -e ""` — it doesn't work reliably on this system.
+
+### Imports & Logging
+```typescript
+import logger from './config/logger'    // Winston logger, singleton
+import { getConfig } from './config/environment'  // Lazy-loaded, validated config
+import { getBrandConfig } from './config/brand'   // Brand voice/vocabulary from brand.json
+```
+
+### Error Handling
+- Pipeline stages: try/catch in `runStage()`, log error, continue to next stage
+- Agents: try/finally with `agent.destroy()` to clean up CopilotClient + CopilotSession
+- FFmpeg: `execFile` callback → reject Promise with stderr message
+- File operations: `.catch(() => {})` for cleanup operations that may fail
+
+### Types
+All domain types are in `src/types/index.ts`. Key types:
+- `VideoFile` — ingested video metadata (slug, paths, duration, size, createdAt)
+- `Transcript` — Whisper output (text, segments, words with word-level timestamps, language, duration)
+- `ShortClip` — planned short with segments, output paths, variants (platform AR)
+- `MediumClip` — planned medium clip with segments, hook, topic
+- `Chapter` — timestamp, title, description
+- `SocialPost` — platform-specific post with YAML frontmatter
+- `VideoSummary` — title, overview, keyTopics, snapshots, markdownPath
+- `PipelineStage` — enum of all 14 stage names
+- `SilenceRemovalResult` — editedPath, removals, keepSegments, wasEdited
+- `AgentResult<T>` — generic agent response wrapper
+- `AspectRatio` — `'16:9' | '9:16' | '1:1' | '4:5'`
+- `CaptionStyle` — `'shorts' | 'medium' | 'portrait'`
+
+## Key Patterns
+
+### Creating a New Agent
+
+1. Create `src/agents/MyAgent.ts`
+2. Extend `BaseAgent` with a system prompt
+3. Define tools in `getTools()` with JSON Schema parameters
+4. Implement `handleToolCall()` to process tool invocations and store results
+5. Export a public async function that instantiates the agent, calls `run()`, reads results, calls `destroy()`
+
+### Adding a New Pipeline Stage
+
+1. Add enum value to `PipelineStage` in `src/types/index.ts`
+2. Create the stage logic (service or agent)
+3. Add to `processVideo()` in `src/pipeline.ts`, wrapped in `runStage()`
+4. Add the result field to `PipelineResult` interface
+
+### Using FFmpeg
+
+```typescript
+import { execFile } from 'child_process'
+const ffmpegPath = process.env.FFMPEG_PATH || 'ffmpeg'
+
+// Always use execFile (not exec) for safety
+execFile(ffmpegPath, args, { maxBuffer: 50 * 1024 * 1024 }, (error, stdout, stderr) => {
+  if (error) reject(new Error(`FFmpeg failed: ${stderr}`))
+  else resolve(result)
+})
+```
+
+### Caption Generation (ASS Format)
+
+- **Montserrat Bold** is bundled in `assets/fonts/` — no system font installation needed. FFmpeg references the bundled font file directly via `fontsdir=.`.
+- Word-by-word karaoke highlighting (not `\k` tags — uses per-word Dialogue lines with color/size overrides)
+- Words grouped into display lines via `splitGroupIntoLines()` at `WORDS_PER_LINE=4`
+- `generateStyledASS()` — full video captions
+- `generateStyledASSForSegment()` — single clip with buffer-adjusted timestamps
+- `generateStyledASSForComposite()` — multi-segment composite with running offset
+- `generatePortraitASSWithHook()` / `generatePortraitASSWithHookComposite()` — portrait captions + hook overlay
+
+### Social Post File Format
+
+YAML frontmatter + markdown body:
+```markdown
+---
+platform: tiktok
+status: draft
+scheduledDate: null
+hashtags:
+  - "#GitHubCopilot"
+links: []
+characterCount: 142
+videoSlug: "my-video"
+shortSlug: null
+createdAt: "2025-01-01T00:00:00.000Z"
+---
+
+Post content here...
+```
+
+## Important Technical Notes
+
+### Windows ARM64 Compatibility
+- `@ffmpeg-installer/ffmpeg` does NOT support Windows ARM64
+- Must install FFmpeg system-wide (e.g., via winget) and set `FFMPEG_PATH` / `FFPROBE_PATH` in `.env`
+
+### Whisper 25MB File Size Limit
+- Audio extracted as MP3 at 64kbps mono to minimize size
+- If audio >25MB, it's split into chunks via `splitAudioIntoChunks()`
+- Chunk transcripts are merged with cumulative timestamp offsets
+
+### ASS Subtitle Filter on Windows — Drive Letter Colon Issue
+- FFmpeg's `ass=` filter parses `:` as an option separator
+- Windows paths like `C:\path\captions.ass` break the filter
+- **Solution:** Copy ASS file + bundled fonts to a temp dir, set `cwd` to that dir, use relative filename `ass=captions.ass:fontsdir=.`
+- Both `captionBurning.ts` and `singlePassEdit.ts` implement this pattern
+
+### Single-Pass Edit (Frame-Accurate Cuts)
+- `-c copy` (stream copy) snaps to keyframes → causes timestamp drift
+- Instead: `trim+setpts+concat` filter_complex re-encodes for frame-accurate cuts
+- `singlePassEditAndCaption()` chains the `ass` filter after concat in the same filter_complex — one re-encode, perfect timestamp alignment
+
+### Brand Vocabulary
+- `brand.json` defines custom vocabulary fed to Whisper's `prompt` parameter
+- Improves transcription accuracy for domain-specific terms (e.g., "GitHub Copilot", "Copilot SDK")
+- Also drives agent system prompts for consistent voice/tone in summaries, posts, blog
+
+### Transcript Adjustment After Silence Removal
+- `adjustTranscript()` in `pipeline.ts` shifts all timestamps by cumulative removed duration
+- Words/segments entirely inside a removed region are filtered out
+- Adjusted transcript is used for caption generation (aligned to edited video)
+- Original transcript is used for shorts, medium clips, and chapters (they reference original video timestamps)
+
+### Videos Can Be Non-16:9
+- Source videos may have arbitrary aspect ratios (e.g., 2304×1536 is 3:2)
+- Face detection analysis frames are forced to 320×180, then mapped back with `scaleX = resolution.width / 320`, `scaleY = resolution.height / 180`
+- Smart layout screen crop uses detected webcam bounds, not hardcoded positions
+
+### Clip Extraction Buffer
+- All clip extraction adds a 1-second buffer before/after each segment boundary
+- Composite clips: `extractCompositeClip()` uses concat demuxer; `extractCompositeClipWithTransitions()` uses xfade/acrossfade for smooth transitions (used by medium clips)
+
+## CLI Usage
+
+```bash
+# Process a single video (no file watcher):
+npx tsx src/index.ts "C:\path\to\video.mp4"
+
+# Process next video from watch folder then exit:
+npx tsx src/index.ts --once
+
+# Watch mode (continuous):
+npx tsx src/index.ts
+
+# Skip specific stages:
+npx tsx src/index.ts --no-git --no-social --no-shorts video.mp4
+
+# All CLI flags:
+#   --watch-dir <path>     Watch folder
+#   --output-dir <path>    Output directory (default: ./recordings)
+#   --openai-key <key>     OpenAI API key
+#   --exa-key <key>        Exa AI API key
+#   --brand <path>         Brand config path (default: ./brand.json)
+#   --once                 Process one video and exit
+#   --no-git               Skip git commit/push
+#   --no-silence-removal   Skip silence removal
+#   --no-shorts            Skip shorts generation
+#   --no-medium-clips      Skip medium clip generation
+#   --no-social            Skip social media posts
+#   --no-captions          Skip caption generation/burning
+#   -v, --verbose          Verbose logging
+```
+
+- `vidpipe init` — Interactive setup wizard (API keys, providers, social publishing)
+- `vidpipe review` — Open social media post review app in browser
+- `vidpipe review --port 3847` — Custom port for review server
+- `vidpipe schedule` — View current posting schedule across platforms
+- `vidpipe schedule --platform linkedin` — Filter schedule by platform
+- `vidpipe sync-queues` — Sync schedule.json queues to Late API (`--reshuffle`, `--dry-run`, `--delete-orphans`)
+- `vidpipe reschedule` — Reschedule idea-linked posts (`--queue`, `--dry-run`)
+- `vidpipe realign` — Realign scheduled posts (`--queue`, `--platform`, `--dry-run`)
+
+## File Structure
+
+```
+vidpipe/
+├── src/
+│   ├── index.ts                    # CLI entry point (Commander, watch mode + --once mode)
+│   ├── pipeline.ts                 # Pipeline orchestration, runStage(), adjustTranscript()
+│   ├── types/index.ts              # All TypeScript interfaces and enums
+│   ├── __tests__/
+│   │   ├── *.test.ts               # Unit tests (mock external I/O)
+│   │   └── integration/
+│   │       ├── *.test.ts           # Integration tests (real FFmpeg)
+│   │       ├── fixture.ts          # Synthetic test video generator (5s testsrc + sine)
+│   │       └── fixtures/           # Real speech video + transcript
+│   ├── config/
+│   │   ├── environment.ts          # .env loading, CLIOptions, AppEnvironment config
+│   │   ├── logger.ts               # Winston logger singleton
+│   │   └── brand.ts                # Brand config from brand.json
+│   ├── agents/
+│   │   ├── BaseAgent.ts            # Abstract base for all Copilot SDK agents
+│   │   ├── SilenceRemovalAgent.ts  # Context-aware silence removal decisions
+│   │   ├── ShortsAgent.ts          # Short clip planning (15–60s) + extraction + variants
+│   │   ├── MediumVideoAgent.ts     # Medium clip planning (60–180s) + extraction
+│   │   ├── ChapterAgent.ts         # Chapter boundary detection + multi-format output
+│   │   ├── SummaryAgent.ts         # README generation with frame captures
+│   │   ├── SocialMediaAgent.ts     # Multi-platform social post generation (also short/medium posts)
+│   │   └── BlogAgent.ts            # Dev.to blog post generation
+│   ├── commands/
+│   │   ├── init.ts                 # Interactive setup wizard (API keys, providers, social publishing)
+│   │   └── schedule.ts             # View/filter posting schedule across platforms
+│   ├── providers/
+│   │   ├── types.ts                # LLMProvider, LLMSession, LLMResponse, TokenUsage, CostInfo interfaces
+│   │   ├── CopilotProvider.ts      # GitHub Copilot SDK backend (default)
+│   │   ├── OpenAIProvider.ts       # Direct OpenAI API backend
+│   │   ├── ClaudeProvider.ts       # Direct Anthropic API backend
+│   │   └── index.ts                # Factory: getProvider() reads LLM_PROVIDER, caches singleton
+│   ├── services/
+│   │   ├── videoIngestion.ts       # Copy video to `recordings/{slug}/`, extract metadata, create dirs
+│   │   ├── costTracker.ts         # Singleton LLM cost/token tracker, prints summary at pipeline end
+│   │   ├── transcription.ts        # Whisper transcription with chunking
+│   │   ├── captionGeneration.ts    # SRT/VTT/ASS generation orchestration
+│   │   ├── fileWatcher.ts          # Chokidar file watcher with stability checks
+│   │   ├── gitOperations.ts        # Git add/commit/push
+│   │   ├── socialPosting.ts        # Social post rendering helpers
+│   │   ├── lateApi.ts              # Late API HTTP client (presigned upload, CRUD)
+│   │   ├── accountMapping.ts       # Platform → Late account ID mapping
+│   │   ├── postStore.ts            # Read/write/query publish-queue/ and published/ folders
+│   │   ├── queueBuilder.ts         # Pipeline stage that populates publish-queue/
+│   │   ├── scheduler.ts            # Smart scheduling with per-platform time slots
+│   │   └── scheduleConfig.ts       # Load/validate schedule.json
+│   ├── review/
+│   │   ├── server.ts               # Express.js review server
+│   │   ├── routes.ts               # REST API routes
+│   │   └── public/
+│   │       └── index.html          # Tinder-style review UI
+│   └── tools/
+│       ├── ffmpeg/
+│       │   ├── silenceDetection.ts # Detect silence regions
+│       │   ├── singlePassEdit.ts   # Frame-accurate trim+concat editing (+caption combo)
+│       │   ├── captionBurning.ts   # Burn ASS subs into video
+│       │   ├── clipExtraction.ts   # Extract clips (single + composite + xfade)
+│       │   ├── audioExtraction.ts  # Extract MP3, chunk audio
+│       │   ├── frameCapture.ts     # Screenshot capture at timestamp
+│       │   ├── aspectRatio.ts      # Smart layout + center-crop + platform variants
+│       │   └── faceDetection.ts    # Webcam overlay detection (skin-tone + edge refinement)
+│       ├── captions/
+│       │   └── captionGenerator.ts # SRT/VTT/ASS format generators + hook overlay
+│       ├── whisper/
+│       │   └── whisperClient.ts    # OpenAI Whisper API client
+│       └── search/
+│           └── exaClient.ts        # Exa web search client
+├── assets/
+│   └── fonts/                      # Bundled Montserrat Bold font files
+├── brand.json                      # Brand voice, vocabulary, hashtags, guidelines
+├── schedule.json                   # Per-platform posting schedule configuration
+├── recordings/                     # Output: one subfolder per processed video
+│   └── {slug}/
+│       ├── {slug}.mp4              # Ingested video copy
+│       ├── {slug}-edited.mp4       # Silence-removed video
+│       ├── {slug}-captioned.mp4    # Captioned video
+│       ├── transcript.json         # Whisper transcript
+│       ├── transcript-edited.json  # Timestamp-adjusted transcript
+│       ├── README.md               # Generated summary
+│       ├── thumbnails/             # Frame captures (snapshot-001.png, ...)
+│       ├── shorts/                 # Short clips + captions + platform variants + metadata
+│       ├── medium-clips/           # Medium clips + captions + metadata + posts
+│       ├── chapters/               # chapters.json, chapters-youtube.txt, chapters.md, chapters.ffmetadata
+│       ├── social-posts/           # Platform-specific posts + devto.md blog
+│       └── captions/               # SRT, VTT, ASS files
+├── cache/                          # Temp audio files (cleaned up after use)
+├── package.json
+├── tsconfig.json
+├── vitest.config.ts                # Vitest config (coverage thresholds, test patterns)
+├── .env                            # Local config (not committed)
+└── .env.example                    # Template for .env
+```
+
+## Environment Variables
+
+```env
+OPENAI_API_KEY=       # Required — OpenAI API key for Whisper transcription (and agents when LLM_PROVIDER=openai)
+LLM_PROVIDER=         # Optional — LLM provider: copilot (default), openai, claude
+LLM_MODEL=            # Optional — Override default model for the selected provider
+ANTHROPIC_API_KEY=    # Optional — Anthropic API key (required when LLM_PROVIDER=claude)
+WATCH_FOLDER=         # Folder to watch for new .mp4 files (default: ./watch)
+REPO_ROOT=            # Absolute path to this repo (default: cwd)
+FFMPEG_PATH=          # Optional — absolute path to ffmpeg binary (default: 'ffmpeg')
+FFPROBE_PATH=         # Optional — absolute path to ffprobe binary (default: 'ffprobe')
+EXA_API_KEY=          # Optional — Exa AI API key for web search in posts/blog
+OUTPUT_DIR=           # Optional — output directory (default: ./recordings)
+BRAND_PATH=           # Optional — path to brand.json (default: ./brand.json)
+LATE_API_KEY=         # Optional — Late API key for social publishing
+LATE_PROFILE_ID=      # Optional — Late profile ID (auto-detected)
+SKIP_SOCIAL_PUBLISH=  # Optional — Skip queue-build stage (via --no-social-publish)
+```
+
+## Bug Fix Testing Convention
+
+> **Every bug fix MUST include a regression test** that:
+> 1. Reproduces the bug (the test should fail without the fix)
+> 2. Verifies the fix works correctly
+> 3. Is placed in the appropriate test file (unit test for logic bugs, integration test for FFmpeg/pipeline bugs)
+> 4. Uses the real speech video fixture when testing caption alignment, speech-related features, or pipeline quality
+
+**Bug fix workflow:**
+1. First write a failing test that demonstrates the issue
+2. Then implement the fix
+3. Verify the test passes
+4. Run full test suite to ensure no regressions: `npm test`
+
+## Post-Push CI Workflow
+
+Always use `npm run push` (never raw `git push`) to push changes. The push script runs typecheck, tests, coverage, and build before pushing, then polls CI gates (CodeQL and Copilot Code Review) on the associated PR.
+
+**When `npm run push` fails at ANY step, you MUST fix the failure and retry — never leave a failed push unresolved.**
+
+| Failure | Action |
+|---|---|
+| Type check errors | Fix the TypeScript errors reported in the output |
+| Test failures | Fix the failing tests or the code they test |
+| Coverage below thresholds | Add tests to meet the coverage thresholds (statements=70%, branches=65%, functions=70%, lines=70%) |
+| Build errors | Fix the build errors reported in the output |
+| Git push rejected | Resolve merge conflicts or upstream issues, then retry |
+| CodeQL security alerts | Run the `security-fixer` agent to remediate all reported alerts |
+| Copilot Code Review unresolved threads | Run the `review-triage` agent to triage and resolve review comments |
+| Any other failure | Read the error message, diagnose the root cause, and fix it |
+
+- If **multiple** gates fail, dispatch independent fixes **in parallel** where possible
+- After fixes are applied, run `npm run push` again to verify and re-poll CI
+- **Repeat until all steps pass** — the push is not done until every gate is green
+
+## Spec-Driven Development
+
+This project uses **spec-driven development** where specifications are the source of truth.
+
+### Philosophy
+
+1. **Specs define WHAT** — Requirements describe expected behavior, not implementation
+2. **Tests verify specs** — Every `REQ-XXX` requirement must have a corresponding test
+3. **Code implements** — Implementation can change freely as long as tests pass
+
+### Workflow
+
+1. **Change specs first** — When adding/modifying functionality, update the spec file first
+2. **Add tests for new REQs** — Every new `REQ-XXX` needs a test named `{SpecName}.REQ-XXX`
+3. **Commit gate enforces** — Commits with spec changes require corresponding test changes
+
+### Spec Structure
+
+Specs live in `specs/` mirroring source structure:
+- `src/L5-assets/VideoAsset.ts` → `specs/L5-assets/VideoAsset.md`
+- `src/L3-services/transcription.ts` → `specs/L3-services/transcription.md`
+
+### Requirement Types
+
+| Type | Format | Purpose |
+|------|--------|---------|
+| Behavioral | `REQ-XXX` | What the system must do (tested) |
+| Architectural | `ARCH-XXX` | How the system is structured (enforced by hooks) |
+
+### Test Mapping
+
+Tests in ANY tier (unit, integration, e2e) can reference spec requirements:
+
+```typescript
+// Unit test
+test('VideoAsset.REQ-001: computes transcript path', () => { ... })
+
+// Integration test  
+test('Pipeline.REQ-010: silence removal preserves audio sync', () => { ... })
+
+// E2E test
+test('CLI.REQ-005: process command accepts --stages flag', () => { ... })
+```
+
+### Custom Agent
+
+Use the `spec-out` agent to create specs from existing tests:
+- Analyzes test files to extract requirements
+- Creates spec file with proper REQ-XXX format
+- Renames tests to `{SpecName}.REQ-XXX` format
+- Can delegate to sub-agents for higher quality
+
+### Commit Enforcement
+
+The commit gate (`npm run commit`) validates:
+1. Changed spec REQs have corresponding test changes
+2. Test names follow `{SpecName}.REQ-XXX` format
+3. Similar to code-test coverage enforcement
+
+## Testing
+
+### Test Suite
+
+**Framework:** Vitest with @vitest/coverage-v8
+
+**Test scripts:**
+- `npm test` (or `npx vitest run`) — run all tests (unit + integration)
+- `npm run test:unit` — unit tests only (`--testPathPattern='__tests__/(?!integration)'`)
+- `npm run test:integration` — integration tests only (`--testPathPattern=integration`)
+- `npm run test:coverage` (or `npx vitest run --coverage`) — full coverage report
+- `npm run test:watch` — watch mode for development
+
+**Test structure:**
+- `src/__tests__/*.test.ts` — Unit tests (mock external I/O, test real source functions)
+- `src/__tests__/integration/*.test.ts` — Integration tests (real FFmpeg against test videos)
+- `src/__tests__/integration/fixtures/` — Test fixtures (real speech video + transcript)
+- `src/__tests__/integration/fixture.ts` — Synthetic test video generator
+
+### Key Testing Patterns
+
+- Unit tests mock `execFile`, `fs`, `sharp`, `openai`, `exa-js` — test real source functions not mock reimplementations
+- Integration tests use `describe.skipIf(!ffmpegOk)` for CI safety (skip gracefully when FFmpeg unavailable)
+- Use `vi.hoisted()` for mock variables used in `vi.mock()` factories (Vitest ESM requirement)
+- Use `import.meta.dirname` for ESM path resolution (not `__dirname`)
+- Coverage thresholds: statements=70%, branches=65%, functions=70%, lines=70%
+
+### Test Fixtures
+
+- **Synthetic video** (`fixture.ts`): `setupFixtures()` generates 5s video via `testsrc=duration=5:size=640x480:rate=25` + `sine=frequency=440:duration=5` for basic FFmpeg operation tests
+- **Real speech video** (`fixtures/sample-speech.mp4`): 32s clip with real speech for caption quality and pipeline tests
+- **Real transcript** (`fixtures/sample-speech-transcript.json`): Word-level timestamps from Whisper
+
+### Visual Self-Verification
+
+After making changes to video output (captions, portrait layout, aspect ratios, overlays), always **visually verify** by extracting thumbnail frames from the generated video and inspecting them:
+
+```bash
+# Capture a frame at a specific timestamp from a generated video
+ffmpeg -y -ss 2 -i path/to/output.mp4 -frames:v 1 -q:v 2 preview.png
+
+# Capture multiple timestamps to verify different states:
+# - 0.5s: hook text overlay visible?
+# - 2-3s: captions + hook both visible?
+# - 5s+:  hook gone, captions only?
+# - 8s+:  mid-video caption alignment?
+```
+
+**What to check:**
+- Portrait split-screen: face NOT duplicated in top section, face zoomed in at bottom
+- Captions: green highlight on active word, positioned between screen and face sections
+- Hook overlay: visible for first ~4 seconds at top, fades out
+- Font sizes: active word visibly larger than inactive words
+- No visual artifacts from crop/scale operations
+
+## Code Review Guidelines
+
+When reviewing pull requests for this repository, keep these conventions in mind:
+
+### ESM Module System
+- This project uses ES modules (`"type": "module"` in package.json)
+- **All runtime imports MUST use `.js` extensions** (e.g., `import logger from '../config/logger.js'`)
+- Type-only imports (`import type { ... }`) don't need `.js` extensions
+- The TypeScript compiler resolves `.js` to `.ts` source files at build time
+
+### Provider Abstraction
+- All agents MUST extend `BaseAgent` and use `LLMProvider` — never import `@github/copilot-sdk` directly
+- Provider adapters (`CopilotProvider`, `OpenAIProvider`, `ClaudeProvider`) are thin SDK wrappers intentionally excluded from coverage — they require real API keys to test
+- The `ProviderName` type is the single source of truth in `src/providers/types.ts`
+- `getModelPricing()` in `src/config/pricing.ts` does fuzzy/prefix matching for versioned model names
+
+### Cost Tracking
+- `CostTracker` is a singleton — call `costTracker.getReport()` once and reuse the result
+- Cost tracking is automatic via `BaseAgent.run()` — new agents get it for free
+
+### Testing
+- Unit tests exist in `src/__tests__/providers.test.ts` covering pricing, cost tracker, and provider factory
+- Coverage thresholds: 70% statements/functions/lines, 65% branches
+- Provider SDK adapters are excluded from coverage (thin wrappers, need real API keys)
+
+### FFmpeg
+- All FFmpeg/FFprobe usage MUST go through `src/config/ffmpegResolver.ts` — never hardcode paths
+- The xfade filter requires explicit fps after trim+setpts (see `getVideoFps()` in clipExtraction.ts)
+
+### Code Review Focus (for Copilot Code Review)
+
+When reviewing pull requests, focus **only** on:
+- Bugs, logic errors, and incorrect behavior
+- Security vulnerabilities (injection, auth bypass, secrets exposure)
+- Race conditions, resource leaks, and error handling gaps
+- Breaking changes to public APIs or contracts
+
+Do **NOT** comment on:
+- Code style, formatting, or naming conventions
+- Minor refactoring suggestions or "could be cleaner" improvements
+- Import ordering, whitespace, or cosmetic changes
+- Suggestions that don't fix an actual bug or vulnerability
+- Test file organization or test naming patterns
+
+Keep feedback concise — one comment per real issue. If there are no critical issues, approve without comments.
+
+### What NOT to flag in reviews
+- Don't suggest adding coverage for provider SDK adapters (intentional exclusion)
+- Don't suggest changing the `continue-on-error` on the agent-review workflow (it's advisory by design)
+- Don't flag `any` types in tool handler signatures — they come from JSON-parsed LLM tool call arguments
+
+### Test-First Review Fixes
+
+When addressing code review feedback on testable code:
+1. Write a failing test that exposes the issue before fixing it
+2. Verify the test fails, then implement the fix
+3. This ensures every review item becomes a permanent regression test
+4. Exempt: doc changes, YAML/config changes, comment-only changes
+
+## Agent Delegation & Token Preservation
+
+**Always delegate work to sub-agents** to preserve main conversation context tokens:
+
+- **Commands, builds, tests, linting** → use `task` agent (returns brief success/full failure output)
+- **Codebase exploration, file searching, understanding code** → use `explore` agent (returns focused answers)
+- **Complex multi-step implementation** → use `general-purpose` agent (full toolset in separate context)
+- **Code review** → use `code-review` or `code-reviewer` agent
+
+**Rules:**
+- Never run `npm test`, `npm run build`, `npx vitest`, or similar commands directly in the main context — always delegate to a `task` agent
+- Never explore the codebase with multiple grep/glob/view calls when an `explore` agent can answer the question in one call
+- Run multiple independent sub-agents in parallel when possible
+- Only use direct tool calls in the main context for small surgical edits (edit/create) or quick single-file reads
+
+## Git Workflow
+
+- **Commit often** with small, focused changes. Each commit should be a single logical unit (one fix, one feature, one refactor).
+- Don't batch multiple unrelated changes into one large commit.
+- Use `npm run commit -- -m "message"` (direct `git commit` is blocked by pre-commit hook).
+- Write clear, concise commit messages describing what changed and why.
+
+---
+> Source: [htekdev/vidpipe](https://github.com/htekdev/vidpipe) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-04-23 -->
