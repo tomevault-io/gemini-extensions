@@ -7,19 +7,15 @@ LoongFlow: A Thinking & Learning Framework for Expert-Grade AI Agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [baidu-baige/LoongFlow](https://github.com/baidu-baige/LoongFlow).
+Original source: `AGENTS.md` in [baidu-baige/LoongFlow](https://github.com/baidu-baige/LoongFlow).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
-
-## Bundled Skills (1)
-
-- [code-analysis](https://github.com/baidu-baige/LoongFlow/tree/main/.claude/skills/code-analysis)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/baidu-baige/LoongFlow](https://github.com/baidu-baige/LoongFlow)
 
