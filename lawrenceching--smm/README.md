@@ -7,13 +7,13 @@ Simple Media Manger(SMM) is a media library manager powered by AI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [lawrenceching/SMM](https://github.com/lawrenceching/SMM).
+Original source: `AGENTS.md` in [lawrenceching/SMM](https://github.com/lawrenceching/SMM).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
