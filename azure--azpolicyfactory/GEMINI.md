@@ -1,0 +1,9 @@
+## azpolicyfactory
+
+> - @azure Rule - Use Azure Best Practices: When generating code for Azure, running terminal commands for Azure, or performing operations related to Azure, invoke your `get_azure_best_practices` tool if available.
+
+- @azure Rule - Use Azure Best Practices: When generating code for Azure, running terminal commands for Azure, or performing operations related to Azure, invoke your `get_azure_best_practices` tool if available.
+
+---
+> Source: [Azure/AzPolicyFactory](https://github.com/Azure/AzPolicyFactory) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-04-25 -->
