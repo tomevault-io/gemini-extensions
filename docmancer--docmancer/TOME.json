@@ -4,7 +4,7 @@
   "repo": "docmancer",
   "description": "Give your AI coding agents documentation superpowers. Fetch, embed, and query any public docs locally.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/docmancer/docmancer",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-22T02:40:22Z"
+  "distributed_at": "2026-04-25T06:50:23Z"
 }
