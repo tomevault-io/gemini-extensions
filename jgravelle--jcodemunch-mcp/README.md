@@ -2,16 +2,14 @@
 
 > Tome by [jgravelle](https://github.com/jgravelle/jcodemunch-mcp) — distributed by [TomeVault](https://tomevault.io)
 
-The leading, most token-efficient MCP server for GitHub source code exploration via tree-sitter AST parsing
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp).
+Original source: `CLAUDE.md` in [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
