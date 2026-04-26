@@ -1,0 +1,30 @@
+# WeAgentChat
+
+> Source: [0000005/WeAgentChat](https://github.com/0000005/WeAgentChat) — distributed by [TomeVault](https://tomevault.io)
+
+你的另一个微信，这里的每个人都带着记忆，只为你而来。 Your other WeChat, where everyone comes with memory and exists just for you.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [0000005/WeAgentChat](https://github.com/0000005/WeAgentChat).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/0000005/WeAgentChat](https://github.com/0000005/WeAgentChat)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install 0000005/WeAgentChat
+```
+Source: [github.com/0000005/WeAgentChat](https://github.com/0000005/WeAgentChat).
+
+<!-- genome:d-i-p -->
