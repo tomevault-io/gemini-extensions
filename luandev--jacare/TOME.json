@@ -4,7 +4,7 @@
   "repo": "jacare",
   "description": "Crocdb web-based desktop ROM library manager with an ultra-responsive UI, customizable themes, and intelligent download management",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/luandev/jacare",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-22T16:21:39Z"
+  "distributed_at": "2026-04-26T08:25:19Z"
 }
