@@ -2,6 +2,8 @@
 
 > Sourced from [yigitkonur/n8n-nodes-craft](https://github.com/yigitkonur/n8n-nodes-craft) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+n8n community nodes for Craft docs — blocks, tasks, collections, search
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
