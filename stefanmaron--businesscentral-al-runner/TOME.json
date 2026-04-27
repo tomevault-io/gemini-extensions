@@ -4,7 +4,7 @@
   "repo": "BusinessCentral.AL.Runner",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/StefanMaron/BusinessCentral.AL.Runner",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-23T12:40:33Z"
+  "distributed_at": "2026-04-27T08:58:49Z"
 }
