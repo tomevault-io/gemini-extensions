@@ -7,12 +7,12 @@ World's first fully integrated and fully Automated Kubernetes management and orc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [kubestellar/console](https://github.com/kubestellar/console).
+Original source: `AGENTS.md` in [kubestellar/console](https://github.com/kubestellar/console).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
