@@ -4,7 +4,7 @@
   "repo": "convert_to_quant",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/silveroxides",
+  "source_url": "https://github.com/silveroxides/convert_to_quant",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T21:45:16Z"
+  "distributed_at": "2026-04-28T20:29:19Z"
 }
