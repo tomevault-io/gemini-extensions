@@ -7,11 +7,11 @@ An AI research Agent for scientific innovation.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [SpectrAI-Initiative/InnoClaw](https://github.com/SpectrAI-Initiative/InnoClaw).
+Original source: `CLAUDE.md` in [SpectrAI-Initiative/InnoClaw](https://github.com/SpectrAI-Initiative/InnoClaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
