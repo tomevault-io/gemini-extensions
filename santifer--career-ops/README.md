@@ -7,11 +7,11 @@ AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [santifer/career-ops](https://github.com/santifer/career-ops).
+Original source: `CLAUDE.md` in [santifer/career-ops](https://github.com/santifer/career-ops).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
