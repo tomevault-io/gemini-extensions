@@ -7,11 +7,11 @@ Turn any CLI into a JavaScript API
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [millionco/cli-to-js](https://github.com/millionco/cli-to-js).
+Original source: `CLAUDE.md` in [millionco/cli-to-js](https://github.com/millionco/cli-to-js).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
