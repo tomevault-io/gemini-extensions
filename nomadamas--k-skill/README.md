@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NomaDamas/k-skill](https://github.com/NomaDamas/k-skill).
+Original source: `CLAUDE.md` in [NomaDamas/k-skill](https://github.com/NomaDamas/k-skill).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
