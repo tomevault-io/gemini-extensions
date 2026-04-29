@@ -7,11 +7,11 @@ Drive the full lifecycle of AI-assisted development — from idea to shipped cod
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [compozy/compozy](https://github.com/compozy/compozy).
+Original source: `CLAUDE.md` in [compozy/compozy](https://github.com/compozy/compozy).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
