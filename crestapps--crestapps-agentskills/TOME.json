@@ -4,7 +4,7 @@
   "repo": "CrestApps.AgentSkills",
   "description": "Shared AI agent skills and MCP tooling for .NET applications and Orchard Core based projects. The repository contains three projects that solve distinct problems:",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/CrestApps/CrestApps.AgentSkills",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-24T14:01:33Z"
+  "distributed_at": "2026-04-29T19:58:33Z"
 }
