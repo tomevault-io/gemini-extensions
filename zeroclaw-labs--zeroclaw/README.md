@@ -7,11 +7,11 @@ Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw).
+Original source: `CLAUDE.md` in [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
