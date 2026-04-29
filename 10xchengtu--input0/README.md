@@ -7,11 +7,11 @@ Input0 — A macOS voice input tool: hold a hotkey to record, release to transcr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [10xChengTu/input0](https://github.com/10xChengTu/input0).
+Original source: `CLAUDE.md` in [10xChengTu/input0](https://github.com/10xChengTu/input0).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
