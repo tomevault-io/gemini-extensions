@@ -7,11 +7,11 @@ The best place to build with your AI sub
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Emanuele-web04/dpcode](https://github.com/Emanuele-web04/dpcode).
+Original source: `CLAUDE.md` in [Emanuele-web04/dpcode](https://github.com/Emanuele-web04/dpcode).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
