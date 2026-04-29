@@ -7,11 +7,11 @@ Web UI consciousness monitor for Hermes — the AI agent with persistent memory
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [joeynyc/hermes-hudui](https://github.com/joeynyc/hermes-hudui).
+Original source: `CLAUDE.md` in [joeynyc/hermes-hudui](https://github.com/joeynyc/hermes-hudui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
