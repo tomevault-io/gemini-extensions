@@ -7,11 +7,11 @@ OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/D
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [linuxhsj/openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token).
+Original source: `CLAUDE.md` in [linuxhsj/openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
