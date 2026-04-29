@@ -7,11 +7,11 @@ The open-source alternative to vibe-island, designed for heavy code agent users,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island).
+Original source: `CLAUDE.md` in [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
