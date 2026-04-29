@@ -7,11 +7,11 @@ Automated pipeline that converts long-form YouTube videos into viral-ready verti
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ayush-that/jiang-clips](https://github.com/ayush-that/jiang-clips).
+Original source: `CLAUDE.md` in [ayush-that/jiang-clips](https://github.com/ayush-that/jiang-clips).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
