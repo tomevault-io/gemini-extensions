@@ -7,11 +7,11 @@ Turn any project into a tmux-powered terminal IDE with a simple ide.yml
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wavyrai/tmux-ide](https://github.com/wavyrai/tmux-ide).
+Original source: `CLAUDE.md` in [wavyrai/tmux-ide](https://github.com/wavyrai/tmux-ide).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
