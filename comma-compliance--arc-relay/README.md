@@ -7,12 +7,12 @@ MCP control plane that's easy to use
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [comma-compliance/arc-relay](https://github.com/comma-compliance/arc-relay).
+Original source: `AGENTS.md` in [comma-compliance/arc-relay](https://github.com/comma-compliance/arc-relay).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
