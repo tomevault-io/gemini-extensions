@@ -7,11 +7,11 @@ tui-use lets agents interact with programs that expect a human at the keyboard �
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [onesuper/tui-use](https://github.com/onesuper/tui-use).
+Original source: `CLAUDE.md` in [onesuper/tui-use](https://github.com/onesuper/tui-use).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
