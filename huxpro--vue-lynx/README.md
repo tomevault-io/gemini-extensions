@@ -7,11 +7,11 @@ Vue on Lynx
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Huxpro/vue-lynx](https://github.com/Huxpro/vue-lynx).
+Original source: `CLAUDE.md` in [Huxpro/vue-lynx](https://github.com/Huxpro/vue-lynx).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
