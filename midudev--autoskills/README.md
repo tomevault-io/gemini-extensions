@@ -7,11 +7,11 @@ One command. Your entire AI skill stack. Installed.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [midudev/autoskills](https://github.com/midudev/autoskills).
+Original source: `CLAUDE.md` in [midudev/autoskills](https://github.com/midudev/autoskills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
