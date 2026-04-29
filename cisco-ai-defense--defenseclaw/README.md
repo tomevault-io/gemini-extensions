@@ -7,11 +7,11 @@ Security Governance for Agentic AI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cisco-ai-defense/defenseclaw](https://github.com/cisco-ai-defense/defenseclaw).
+Original source: `CLAUDE.md` in [cisco-ai-defense/defenseclaw](https://github.com/cisco-ai-defense/defenseclaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
