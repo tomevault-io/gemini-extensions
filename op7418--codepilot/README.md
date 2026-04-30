@@ -7,11 +7,11 @@ A multi-model AI agent desktop client — connect any AI provider, extend with M
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [op7418/CodePilot](https://github.com/op7418/CodePilot).
+Original source: `CLAUDE.md` in [op7418/CodePilot](https://github.com/op7418/CodePilot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
