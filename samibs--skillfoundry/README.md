@@ -7,12 +7,12 @@ AI engineering framework with quality gates, persistent memory, and multi-platfo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [samibs/skillfoundry](https://github.com/samibs/skillfoundry).
+Original source: `AGENTS.md` in [samibs/skillfoundry](https://github.com/samibs/skillfoundry).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
