@@ -7,11 +7,11 @@ Rezi — TypeScript TUI, Near-Native Performance. Powered by deterministic C eng
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [RtlZeroMemory/Rezi](https://github.com/RtlZeroMemory/Rezi).
+Original source: `CLAUDE.md` in [RtlZeroMemory/Rezi](https://github.com/RtlZeroMemory/Rezi).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
