@@ -7,11 +7,11 @@ Put the world's smartest AI agents & plugins in your pocket
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [xiaotonng/pikiclaw](https://github.com/xiaotonng/pikiclaw).
+Original source: `CLAUDE.md` in [xiaotonng/pikiclaw](https://github.com/xiaotonng/pikiclaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
