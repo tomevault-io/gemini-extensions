@@ -7,11 +7,11 @@ You're the CTO, agents are your team. They handle tasks on their own, message ea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [777genius/claude_agent_teams_ui](https://github.com/777genius/claude_agent_teams_ui).
+Original source: `CLAUDE.md` in [777genius/claude_agent_teams_ui](https://github.com/777genius/claude_agent_teams_ui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
