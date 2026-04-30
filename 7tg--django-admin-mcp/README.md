@@ -7,12 +7,12 @@ Expose Django admin models to MCP (Model Context Protocol) clients. Add a mixin 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [7tg/django-admin-mcp](https://github.com/7tg/django-admin-mcp).
+Original source: `AGENTS.md` in [7tg/django-admin-mcp](https://github.com/7tg/django-admin-mcp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
