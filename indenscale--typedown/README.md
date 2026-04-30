@@ -1,0 +1,30 @@
+# Typedown
+
+> Source: [IndenScale/Typedown](https://github.com/IndenScale/Typedown) — distributed by [TomeVault](https://tomevault.io)
+
+Typedown: Progressive formalization for Markdown. Bridge the gap between unstructured docs and strict data schemas. 
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [IndenScale/Typedown](https://github.com/IndenScale/Typedown).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/IndenScale/Typedown](https://github.com/IndenScale/Typedown)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install IndenScale/Typedown
+```
+Source: [github.com/IndenScale/Typedown](https://github.com/IndenScale/Typedown).
+
+<!-- genome:d-i-p -->
