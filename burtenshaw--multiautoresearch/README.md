@@ -7,11 +7,11 @@ autonomous open source ai lab
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [burtenshaw/multiautoresearch](https://github.com/burtenshaw/multiautoresearch).
+Original source: `CLAUDE.md` in [burtenshaw/multiautoresearch](https://github.com/burtenshaw/multiautoresearch).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
