@@ -7,11 +7,11 @@ The world's first open-source AI-native vector design tool and the first to feat
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil).
+Original source: `CLAUDE.md` in [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
