@@ -7,11 +7,11 @@ Swift Package porting libnfc protocol-layer logic to iOS via CoreNFC
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Lakr233/CoreExtendedNFC](https://github.com/Lakr233/CoreExtendedNFC).
+Original source: `CLAUDE.md` in [Lakr233/CoreExtendedNFC](https://github.com/Lakr233/CoreExtendedNFC).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
