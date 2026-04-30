@@ -7,12 +7,12 @@ A next-generation platform for diabetes management
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [nightscout/nocturne](https://github.com/nightscout/nocturne).
+Original source: `AGENTS.md` in [nightscout/nocturne](https://github.com/nightscout/nocturne).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
