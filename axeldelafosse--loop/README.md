@@ -7,11 +7,11 @@ Dead-simple Bun CLI that runs Codex and Claude Code in a loop.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [axeldelafosse/loop](https://github.com/axeldelafosse/loop).
+Original source: `CLAUDE.md` in [axeldelafosse/loop](https://github.com/axeldelafosse/loop).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
