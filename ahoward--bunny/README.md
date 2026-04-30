@@ -1,0 +1,26 @@
+# AI instruction files for bunny
+
+> Sourced from [ahoward/bunny](https://github.com/ahoward/bunny) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+why are you wearing that stupid man suit? — a dark factory where AI agents build software autonomously
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [ahoward/bunny](https://github.com/ahoward/bunny).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [ahoward/bunny](https://github.com/ahoward/bunny) — a repo with 9+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:a-e-s -->
