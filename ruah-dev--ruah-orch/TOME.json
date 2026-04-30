@@ -4,7 +4,7 @@
   "repo": "ruah-orch",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/ruah-dev/ruah-orch",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-25T02:37:03Z"
+  "distributed_at": "2026-04-30T07:52:00Z"
 }
