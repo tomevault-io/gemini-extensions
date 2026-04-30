@@ -4,7 +4,7 @@
   "repo": "mouchak-mail",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/Avyukth",
+  "source_url": "https://github.com/Avyukth/mouchak-mail",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-16T14:09:50Z"
+  "distributed_at": "2026-04-30T03:56:19Z"
 }
