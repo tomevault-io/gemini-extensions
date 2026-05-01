@@ -7,11 +7,11 @@ Building blocks for your videos.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [av/remotion-bits](https://github.com/av/remotion-bits).
+Original source: `CLAUDE.md` in [av/remotion-bits](https://github.com/av/remotion-bits).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
