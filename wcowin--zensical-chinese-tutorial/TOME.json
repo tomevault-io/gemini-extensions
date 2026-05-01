@@ -4,7 +4,7 @@
   "repo": "Zensical-Chinese-Tutorial",
   "description": "Zensical\u4e2d\u6587\u6559\u7a0b | Zensical Chinese Tutorial",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Wcowin/Zensical-Chinese-Tutorial",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-27T00:57:59Z"
+  "distributed_at": "2026-05-01T14:17:11Z"
 }
