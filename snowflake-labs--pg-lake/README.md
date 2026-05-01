@@ -7,13 +7,13 @@ pg_lake: Postgres with Iceberg and data lake access
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Snowflake-Labs/pg_lake](https://github.com/Snowflake-Labs/pg_lake).
+Original source: `CLAUDE.md` in [Snowflake-Labs/pg_lake](https://github.com/Snowflake-Labs/pg_lake).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
