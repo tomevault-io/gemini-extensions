@@ -4,7 +4,7 @@
   "repo": "cloud-gov-instructions",
   "description": "A reusable set of instruction files for AI coding assistants (like GitHub Copilot) that encapsulate cloud.gov platform guidance and best practices.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/adhocteam/cloud-gov-instructions",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-25T14:42:15Z"
+  "distributed_at": "2026-05-01T00:28:09Z"
 }
