@@ -7,11 +7,11 @@ A beautiful, zero-dependency command center for OpenClaw AI agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mudrii/openclaw-dashboard](https://github.com/mudrii/openclaw-dashboard).
+Original source: `CLAUDE.md` in [mudrii/openclaw-dashboard](https://github.com/mudrii/openclaw-dashboard).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
