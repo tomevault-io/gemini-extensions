@@ -7,11 +7,11 @@ Aggregate and browse AI coding agent sessions (Claude Code, Codex, Gemini CLI, e
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [xintaofei/codeg](https://github.com/xintaofei/codeg).
+Original source: `CLAUDE.md` in [xintaofei/codeg](https://github.com/xintaofei/codeg).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
