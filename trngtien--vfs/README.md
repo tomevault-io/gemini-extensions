@@ -7,13 +7,13 @@ Reduce AI agent token usage by 98% via Virtual Function Signatures. MCP server f
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TrNgTien/vfs](https://github.com/TrNgTien/vfs).
+Original source: `.cursor/rules/*.mdc` in [TrNgTien/vfs](https://github.com/TrNgTien/vfs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
