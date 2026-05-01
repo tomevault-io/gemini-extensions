@@ -7,11 +7,11 @@ The billing framework for TypeScript. Code-first products, handles Stripe, webho
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [getpaykit/paykit](https://github.com/getpaykit/paykit).
+Original source: `CLAUDE.md` in [getpaykit/paykit](https://github.com/getpaykit/paykit).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
