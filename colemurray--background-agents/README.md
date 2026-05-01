@@ -7,11 +7,11 @@ An open-source background agents coding system
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents).
+Original source: `CLAUDE.md` in [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
