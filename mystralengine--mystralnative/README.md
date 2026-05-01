@@ -7,11 +7,11 @@ Native WebGPU JS runtime with SDL3
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mystralengine/mystralnative](https://github.com/mystralengine/mystralnative).
+Original source: `CLAUDE.md` in [mystralengine/mystralnative](https://github.com/mystralengine/mystralnative).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
