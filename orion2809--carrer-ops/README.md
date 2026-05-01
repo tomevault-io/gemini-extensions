@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ORION2809/carrer-ops](https://github.com/ORION2809/carrer-ops).
+Original source: `AGENTS.md` in [ORION2809/carrer-ops](https://github.com/ORION2809/carrer-ops).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
