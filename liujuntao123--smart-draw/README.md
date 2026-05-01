@@ -7,11 +7,11 @@ Draw any professional and beautiful diagram you can imagine in the simplest way
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [liujuntao123/smart-draw](https://github.com/liujuntao123/smart-draw).
+Original source: `CLAUDE.md` in [liujuntao123/smart-draw](https://github.com/liujuntao123/smart-draw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
