@@ -7,12 +7,12 @@ A reusable set of instruction files for AI coding assistants (like GitHub Copilo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [adhocteam/cloud-gov-instructions](https://github.com/adhocteam/cloud-gov-instructions).
+Original source: `AGENTS.md` in [adhocteam/cloud-gov-instructions](https://github.com/adhocteam/cloud-gov-instructions).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
