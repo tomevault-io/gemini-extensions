@@ -7,11 +7,11 @@ Record, Cut, Edit, Render with AI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tadaspetra/loop](https://github.com/tadaspetra/loop).
+Original source: `CLAUDE.md` in [tadaspetra/loop](https://github.com/tadaspetra/loop).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
