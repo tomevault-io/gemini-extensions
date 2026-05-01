@@ -7,11 +7,11 @@ Claude Code & Codex skills that build complete Godot projects from a game descri
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [htdt/godogen](https://github.com/htdt/godogen).
+Original source: `CLAUDE.md` in [htdt/godogen](https://github.com/htdt/godogen).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
