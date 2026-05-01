@@ -7,11 +7,11 @@ The missing integration layer for AI agents. Let them call any OpenAPI / MCP / G
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [RhysSullivan/executor](https://github.com/RhysSullivan/executor).
+Original source: `CLAUDE.md` in [RhysSullivan/executor](https://github.com/RhysSullivan/executor).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
