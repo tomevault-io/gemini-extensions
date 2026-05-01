@@ -7,11 +7,11 @@ resume any AI coding session in another tool — Claude Code, Copilot, Gemini, C
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yigitkonur/cli-continues](https://github.com/yigitkonur/cli-continues).
+Original source: `CLAUDE.md` in [yigitkonur/cli-continues](https://github.com/yigitkonur/cli-continues).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
