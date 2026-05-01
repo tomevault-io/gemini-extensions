@@ -7,11 +7,11 @@ Scaffold fullstack apps with your exact stack in seconds. 270+ options across Ty
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Marve10s/Better-Fullstack](https://github.com/Marve10s/Better-Fullstack).
+Original source: `CLAUDE.md` in [Marve10s/Better-Fullstack](https://github.com/Marve10s/Better-Fullstack).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
