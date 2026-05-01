@@ -7,11 +7,11 @@ Voice input reimagined — speak in any language, type in any language.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ZhangHanDong/vox](https://github.com/ZhangHanDong/vox).
+Original source: `CLAUDE.md` in [ZhangHanDong/vox](https://github.com/ZhangHanDong/vox).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
