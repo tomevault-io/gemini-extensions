@@ -7,11 +7,11 @@ Obsidian plugin that adds elegant grid and masonry card views for Bases.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [churnish/dynamic-views](https://github.com/churnish/dynamic-views).
+Original source: `CLAUDE.md` in [churnish/dynamic-views](https://github.com/churnish/dynamic-views).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
