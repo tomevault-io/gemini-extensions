@@ -7,11 +7,11 @@ Web GUI for tmux optimized for AI agent TUIs, with support for iOS safari and ma
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gbasin/agentboard](https://github.com/gbasin/agentboard).
+Original source: `CLAUDE.md` in [gbasin/agentboard](https://github.com/gbasin/agentboard).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
