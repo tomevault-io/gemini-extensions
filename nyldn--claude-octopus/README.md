@@ -7,11 +7,11 @@ Put up to 8 AI models on every coding task — blind spots surface before you sh
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus).
+Original source: `CLAUDE.md` in [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
