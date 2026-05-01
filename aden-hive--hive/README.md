@@ -7,11 +7,11 @@ Multi-Agent Harness for Production AI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aden-hive/hive](https://github.com/aden-hive/hive).
+Original source: `CLAUDE.md` in [aden-hive/hive](https://github.com/aden-hive/hive).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
