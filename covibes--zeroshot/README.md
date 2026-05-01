@@ -7,11 +7,11 @@ Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [covibes/zeroshot](https://github.com/covibes/zeroshot).
+Original source: `CLAUDE.md` in [covibes/zeroshot](https://github.com/covibes/zeroshot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
