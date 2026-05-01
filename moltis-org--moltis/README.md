@@ -7,11 +7,11 @@ A secure persistent personal agent server in Rust. One binary, sandboxed executi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [moltis-org/moltis](https://github.com/moltis-org/moltis).
+Original source: `CLAUDE.md` in [moltis-org/moltis](https://github.com/moltis-org/moltis).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
