@@ -7,11 +7,11 @@ Open source mission control for your OpenClaw agents 🦞
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [clawdeckio/clawdeck](https://github.com/clawdeckio/clawdeck).
+Original source: `CLAUDE.md` in [clawdeckio/clawdeck](https://github.com/clawdeckio/clawdeck).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
