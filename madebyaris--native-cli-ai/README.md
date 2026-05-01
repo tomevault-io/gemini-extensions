@@ -7,13 +7,13 @@ A native Rust CLI  for orchestrating AI agents across projects, with persistent 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [madebyaris/native-cli-ai](https://github.com/madebyaris/native-cli-ai).
+Original source: `.cursor/rules/*.mdc` in [madebyaris/native-cli-ai](https://github.com/madebyaris/native-cli-ai).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
