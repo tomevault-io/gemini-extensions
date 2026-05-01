@@ -7,12 +7,12 @@ MCP server to connect to whoop API
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [shashankswe2020-ux/whoop-mcp](https://github.com/shashankswe2020-ux/whoop-mcp).
+Original source: `CLAUDE.md` in [shashankswe2020-ux/whoop-mcp](https://github.com/shashankswe2020-ux/whoop-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
