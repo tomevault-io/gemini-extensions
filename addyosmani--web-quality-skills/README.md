@@ -7,11 +7,11 @@ Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills).
+Original source: `CLAUDE.md` in [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
