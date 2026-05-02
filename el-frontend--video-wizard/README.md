@@ -1,0 +1,30 @@
+# video-wizard
+
+> Source: [el-frontend/video-wizard](https://github.com/el-frontend/video-wizard) — distributed by [TomeVault](https://tomevault.io)
+
+AI-powered video content analysis, viral clip identification, and subtitle generation platform.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `copilot-instructions.md` in [el-frontend/video-wizard](https://github.com/el-frontend/video-wizard).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/el-frontend/video-wizard](https://github.com/el-frontend/video-wizard)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install el-frontend/video-wizard
+```
+Source: [github.com/el-frontend/video-wizard](https://github.com/el-frontend/video-wizard).
+
+<!-- genome:d-i-p -->
