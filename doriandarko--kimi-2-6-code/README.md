@@ -7,11 +7,11 @@ Terminal-native coding agent powered by Moonshot Kimi K2.6.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Doriandarko/kimi-2-6-code](https://github.com/Doriandarko/kimi-2-6-code).
+Original source: `CLAUDE.md` in [Doriandarko/kimi-2-6-code](https://github.com/Doriandarko/kimi-2-6-code).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
