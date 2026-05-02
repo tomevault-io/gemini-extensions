@@ -7,13 +7,13 @@ Light-DOM custom element for CSS Grid Lanes masonry with a JS fallback; Pretext 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [schalkneethling/masonry-gridlanes-wc](https://github.com/schalkneethling/masonry-gridlanes-wc).
+Original source: `.cursor/rules/*.mdc` in [schalkneethling/masonry-gridlanes-wc](https://github.com/schalkneethling/masonry-gridlanes-wc).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
