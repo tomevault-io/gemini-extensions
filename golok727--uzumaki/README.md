@@ -7,11 +7,11 @@ Typescript Desktop UI framework without the browser stuff
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [golok727/uzumaki](https://github.com/golok727/uzumaki).
+Original source: `CLAUDE.md` in [golok727/uzumaki](https://github.com/golok727/uzumaki).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
