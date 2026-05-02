@@ -4,7 +4,7 @@
   "repo": "reac55-final-project",
   "description": "Shopping website",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/ranzohar/reac55-final-project",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-29T19:48:51Z"
+  "distributed_at": "2026-05-02T19:45:20Z"
 }
