@@ -7,13 +7,13 @@ LLM-powered agentic translation library for JavaScript/TypeScript
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [dahlia/vertana](https://github.com/dahlia/vertana).
+Original source: `copilot-instructions.md` in [dahlia/vertana](https://github.com/dahlia/vertana).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
