@@ -2,9 +2,9 @@
   "name": "montage-ai",
   "owner": "mfahsold",
   "repo": "montage-ai",
-  "description": "",
+  "description": "Open-source local-first AI video editor: transcript-based editing, beat-synced cuts, OTIO/EDL export for Premiere/Resolve, Shorts workflows.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/mfahsold",
+  "source_url": "https://github.com/mfahsold/montage-ai",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-09T20:35:34Z"
+  "distributed_at": "2026-05-02T22:41:04Z"
 }
