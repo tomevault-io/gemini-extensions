@@ -7,11 +7,11 @@ AI-powered multi-agent code review. Simulates a customizable team of Engineers p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [spencermarx/open-code-review](https://github.com/spencermarx/open-code-review).
+Original source: `CLAUDE.md` in [spencermarx/open-code-review](https://github.com/spencermarx/open-code-review).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
