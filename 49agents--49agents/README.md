@@ -7,11 +7,11 @@ Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [49Agents/49Agents](https://github.com/49Agents/49Agents).
+Original source: `CLAUDE.md` in [49Agents/49Agents](https://github.com/49Agents/49Agents).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
