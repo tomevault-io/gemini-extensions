@@ -1,6 +1,6 @@
 # TomeVault Gemini CLI Extensions
 
-23636 AI instruction files converted to GEMINI.md format by [TomeVault](https://tomevault.io).
+23784 AI instruction files converted to GEMINI.md format by [TomeVault](https://tomevault.io).
 
 ## Install
 
