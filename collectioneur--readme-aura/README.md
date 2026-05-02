@@ -7,13 +7,13 @@ Render React/JSX components as animated SVGs directly inside GitHub READMEs
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [collectioneur/readme-aura](https://github.com/collectioneur/readme-aura).
+Original source: `.cursor/rules/*.mdc` in [collectioneur/readme-aura](https://github.com/collectioneur/readme-aura).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
