@@ -7,11 +7,11 @@ A Markdown formatter that enforces Hong Minhee's Markdown style conventions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dahlia/hongdown](https://github.com/dahlia/hongdown).
+Original source: `CLAUDE.md` in [dahlia/hongdown](https://github.com/dahlia/hongdown).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
