@@ -7,13 +7,13 @@ a mono repo with a background worker to parse videos and a sveltekit fe
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [davis7dotsh/r8y](https://github.com/davis7dotsh/r8y).
+Original source: `.cursor/rules/*.mdc` in [davis7dotsh/r8y](https://github.com/davis7dotsh/r8y).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
