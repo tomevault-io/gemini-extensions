@@ -7,12 +7,12 @@ Laravel SAAS Starter kit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [XCO-Agency/Laravel-SAAS-Starter](https://github.com/XCO-Agency/Laravel-SAAS-Starter).
+Original source: `AGENTS.md` in [XCO-Agency/Laravel-SAAS-Starter](https://github.com/XCO-Agency/Laravel-SAAS-Starter).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
