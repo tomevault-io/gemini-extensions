@@ -7,11 +7,11 @@ Symfony UX skills for Claude, Gemini, Codex, ... Live Component, Twig Component,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [smnandre/symfony-ux-skills](https://github.com/smnandre/symfony-ux-skills).
+Original source: `CLAUDE.md` in [smnandre/symfony-ux-skills](https://github.com/smnandre/symfony-ux-skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
