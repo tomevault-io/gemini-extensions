@@ -1,0 +1,30 @@
+# gangsta
+
+> Source: [kucherenko/gangsta](https://github.com/kucherenko/gangsta) — distributed by [TomeVault](https://tomevault.io)
+
+AI agentic skills framework for spec-driven development, built on the organizational model of mafia.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [kucherenko/gangsta](https://github.com/kucherenko/gangsta).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/kucherenko/gangsta](https://github.com/kucherenko/gangsta)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install kucherenko/gangsta
+```
+Source: [github.com/kucherenko/gangsta](https://github.com/kucherenko/gangsta).
+
+<!-- genome:d-i-p -->
