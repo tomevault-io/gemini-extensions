@@ -7,11 +7,11 @@ Run, review, and orchestrate AI coding agents from anywhere
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Robdel12/OrbitDock](https://github.com/Robdel12/OrbitDock).
+Original source: `CLAUDE.md` in [Robdel12/OrbitDock](https://github.com/Robdel12/OrbitDock).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
