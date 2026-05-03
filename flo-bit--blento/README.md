@@ -7,11 +7,11 @@ your bento style website with data hosted on your bluesky PDS, svelte/tailwind
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [flo-bit/blento](https://github.com/flo-bit/blento).
+Original source: `CLAUDE.md` in [flo-bit/blento](https://github.com/flo-bit/blento).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
