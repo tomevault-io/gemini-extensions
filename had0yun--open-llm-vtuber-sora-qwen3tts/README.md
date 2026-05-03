@@ -7,13 +7,13 @@ Open-LLM-VTuber + cliproxy + Qwen3-TTS (Sora preset)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [HaD0Yun/open-llm-vtuber-sora-qwen3tts](https://github.com/HaD0Yun/open-llm-vtuber-sora-qwen3tts).
+Original source: `.cursor/rules/*.mdc` in [HaD0Yun/open-llm-vtuber-sora-qwen3tts](https://github.com/HaD0Yun/open-llm-vtuber-sora-qwen3tts).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
