@@ -1,0 +1,177 @@
+{
+  "name": "superpowers",
+  "owner": "obra",
+  "repo": "superpowers",
+  "description": "An agentic skills framework & software development methodology that works.",
+  "type": "tome",
+  "source_format": "CLAUDE.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "brainstorming",
+      "path": "skills/brainstorming",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+      "description": ""
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "path": "skills/dispatching-parallel-agents",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents",
+      "description": ""
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "path": "skills/finishing-a-development-branch",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch",
+      "description": ""
+    },
+    {
+      "name": "receiving-code-review",
+      "path": "skills/receiving-code-review",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/receiving-code-review",
+      "description": ""
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "skills/requesting-code-review",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
+      "description": ""
+    },
+    {
+      "name": "subagent-driven-development",
+      "path": "skills/subagent-driven-development",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development",
+      "description": ""
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "skills/systematic-debugging",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
+      "description": ""
+    },
+    {
+      "name": "test-driven-development",
+      "path": "skills/test-driven-development",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+      "description": ""
+    },
+    {
+      "name": "using-git-worktrees",
+      "path": "skills/using-git-worktrees",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees",
+      "description": ""
+    },
+    {
+      "name": "using-superpowers",
+      "path": "skills/using-superpowers",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",
+      "description": ""
+    },
+    {
+      "name": "writing-plans",
+      "path": "skills/writing-plans",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/writing-plans",
+      "description": ""
+    },
+    {
+      "name": "writing-skills",
+      "path": "skills/writing-skills",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/writing-skills",
+      "description": ""
+    },
+    {
+      "name": "executing-plans",
+      "path": "skills/executing-plans",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
+      "description": ""
+    },
+    {
+      "name": "verification-before-completion",
+      "path": "skills/verification-before-completion",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
+      "description": ""
+    },
+    {
+      "name": "finding-duplicate-functions",
+      "path": "skills/finding-duplicate-functions",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/finding-duplicate-functions",
+      "description": ""
+    },
+    {
+      "name": "mcp-cli",
+      "path": "skills/mcp-cli",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/mcp-cli",
+      "description": ""
+    },
+    {
+      "name": "slack-messaging",
+      "path": "skills/slack-messaging",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/slack-messaging",
+      "description": ""
+    },
+    {
+      "name": "using-tmux-for-interactive-commands",
+      "path": "skills/using-tmux-for-interactive-commands",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/using-tmux-for-interactive-commands",
+      "description": ""
+    },
+    {
+      "name": "browsing",
+      "path": "skills/browsing",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/browsing",
+      "description": ""
+    },
+    {
+      "name": "developing-claude-code-plugins",
+      "path": "skills/developing-claude-code-plugins",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/developing-claude-code-plugins",
+      "description": ""
+    },
+    {
+      "name": "workflow",
+      "path": "examples/full-featured-plugin/skills/workflow",
+      "github_url": "https://github.com/obra/superpowers/tree/main/examples/full-featured-plugin/skills/workflow",
+      "description": ""
+    },
+    {
+      "name": "working-with-claude-code",
+      "path": "skills/working-with-claude-code",
+      "github_url": "https://github.com/obra/superpowers/tree/main/skills/working-with-claude-code",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/obra/superpowers",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-05-03T15:35:50Z"
+}
