@@ -7,11 +7,11 @@ AI-Powered Personal Finance Assistant - Transforming bill images into intelligen
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [calderbuild/WeFinance](https://github.com/calderbuild/WeFinance).
+Original source: `CLAUDE.md` in [calderbuild/WeFinance](https://github.com/calderbuild/WeFinance).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
