@@ -7,11 +7,11 @@ Governance layer for AI coding: meta agents, workflow contract, meta-theory; can
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [KimYx0207/Meta_Kim](https://github.com/KimYx0207/Meta_Kim).
+Original source: `CLAUDE.md` in [KimYx0207/Meta_Kim](https://github.com/KimYx0207/Meta_Kim).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
