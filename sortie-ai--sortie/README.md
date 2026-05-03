@@ -7,12 +7,12 @@ Turn tracker tickets into agent sessions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [sortie-ai/sortie](https://github.com/sortie-ai/sortie).
+Original source: `AGENTS.md` in [sortie-ai/sortie](https://github.com/sortie-ai/sortie).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
