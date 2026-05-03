@@ -7,11 +7,11 @@ A BQL (Beads Query Language) search, dependency and multi-view kanban board Term
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zjrosen/perles](https://github.com/zjrosen/perles).
+Original source: `CLAUDE.md` in [zjrosen/perles](https://github.com/zjrosen/perles).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
