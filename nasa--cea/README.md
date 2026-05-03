@@ -7,11 +7,11 @@ CEA computes the equilibrium composition of mixtures via free-energy minimizatio
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nasa/cea](https://github.com/nasa/cea).
+Original source: `CLAUDE.md` in [nasa/cea](https://github.com/nasa/cea).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
