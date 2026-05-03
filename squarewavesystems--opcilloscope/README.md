@@ -7,12 +7,12 @@ Browse and monitor OPC UA servers from your terminal. Lightweight, cross-platfor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [SquareWaveSystems/opcilloscope](https://github.com/SquareWaveSystems/opcilloscope).
+Original source: `CLAUDE.md` in [SquareWaveSystems/opcilloscope](https://github.com/SquareWaveSystems/opcilloscope).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
