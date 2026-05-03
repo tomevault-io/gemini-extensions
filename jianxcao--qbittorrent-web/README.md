@@ -2,18 +2,18 @@
 
 > Source: [jianxcao/qbittorrent-web](https://github.com/jianxcao/qbittorrent-web) — distributed by [TomeVault](https://tomevault.io)
 
-AI instruction skills by jianxcao
+A modern, feature-rich web interface for qBittorrent client management
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [jianxcao/qbittorrent-web](https://github.com/jianxcao/qbittorrent-web).
+Original source: `AGENTS.md` in [jianxcao/qbittorrent-web](https://github.com/jianxcao/qbittorrent-web).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
