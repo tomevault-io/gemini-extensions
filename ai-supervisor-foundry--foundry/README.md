@@ -7,13 +7,13 @@ Foundry is a persistent orchestration & control-plane for agentic software devel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ai-supervisor-foundry/foundry](https://github.com/ai-supervisor-foundry/foundry).
+Original source: `.cursor/rules/*.mdc` in [ai-supervisor-foundry/foundry](https://github.com/ai-supervisor-foundry/foundry).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
