@@ -7,11 +7,11 @@ AI workbench for super-individuals — orchestrate agents, recover context, and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Ninglo/remotelab](https://github.com/Ninglo/remotelab).
+Original source: `CLAUDE.md` in [Ninglo/remotelab](https://github.com/Ninglo/remotelab).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
