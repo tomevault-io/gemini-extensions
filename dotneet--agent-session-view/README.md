@@ -7,13 +7,13 @@ A coding agent session viewer for browsing, viewing, and exporting conversation 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dotneet/agent-session-view](https://github.com/dotneet/agent-session-view).
+Original source: `.cursor/rules/*.mdc` in [dotneet/agent-session-view](https://github.com/dotneet/agent-session-view).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
