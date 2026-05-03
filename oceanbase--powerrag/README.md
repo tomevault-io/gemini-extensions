@@ -7,11 +7,11 @@ PowerRAG: Build smarter, more accurate RAG systems with OceanBase's multi-modal 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [oceanbase/powerrag](https://github.com/oceanbase/powerrag).
+Original source: `CLAUDE.md` in [oceanbase/powerrag](https://github.com/oceanbase/powerrag).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
