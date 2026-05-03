@@ -7,13 +7,13 @@ Kumo Coding Agent — context docs, skills, and self-maintenance for building ML
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kumo-ai/kumo-coding-agent](https://github.com/kumo-ai/kumo-coding-agent).
+Original source: `.cursor/rules/*.mdc` in [kumo-ai/kumo-coding-agent](https://github.com/kumo-ai/kumo-coding-agent).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
