@@ -7,13 +7,13 @@ PI（π）—— When The Art of War Meets Cognitive Science for Ai
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [share-skills/pi](https://github.com/share-skills/pi).
+Original source: `CLAUDE.md` in [share-skills/pi](https://github.com/share-skills/pi).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
