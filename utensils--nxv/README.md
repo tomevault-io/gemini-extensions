@@ -7,11 +7,11 @@ nxv — Nix Version Index. A blazingly fast CLI for finding any version of any N
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [utensils/nxv](https://github.com/utensils/nxv).
+Original source: `CLAUDE.md` in [utensils/nxv](https://github.com/utensils/nxv).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
