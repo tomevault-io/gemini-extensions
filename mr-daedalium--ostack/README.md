@@ -7,11 +7,11 @@ ostack — AI-powered engineering team for Claude Code. Fork of gstack by Garry 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mr-daedalium/ostack](https://github.com/mr-daedalium/ostack).
+Original source: `CLAUDE.md` in [mr-daedalium/ostack](https://github.com/mr-daedalium/ostack).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
