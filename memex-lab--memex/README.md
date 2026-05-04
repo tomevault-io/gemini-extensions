@@ -7,11 +7,11 @@ A local-first, AI-native personal knowledge management app built with Flutter. C
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [memex-lab/memex](https://github.com/memex-lab/memex).
+Original source: `CLAUDE.md` in [memex-lab/memex](https://github.com/memex-lab/memex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
