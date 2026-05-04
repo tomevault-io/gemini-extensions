@@ -7,11 +7,11 @@ ccstatusline 的中文汉化版 - Claude Code CLI 可定制状态栏格式化工
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [huangguang1999/ccstatusline-zh](https://github.com/huangguang1999/ccstatusline-zh).
+Original source: `CLAUDE.md` in [huangguang1999/ccstatusline-zh](https://github.com/huangguang1999/ccstatusline-zh).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
