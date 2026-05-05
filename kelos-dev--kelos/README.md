@@ -7,11 +7,11 @@ Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kelos-dev/kelos](https://github.com/kelos-dev/kelos).
+Original source: `CLAUDE.md` in [kelos-dev/kelos](https://github.com/kelos-dev/kelos).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
