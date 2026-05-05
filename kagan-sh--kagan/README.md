@@ -7,11 +7,11 @@ The Orchestration Layer for AI Coding Agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kagan-sh/kagan](https://github.com/kagan-sh/kagan).
+Original source: `CLAUDE.md` in [kagan-sh/kagan](https://github.com/kagan-sh/kagan).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
