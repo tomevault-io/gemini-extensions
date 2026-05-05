@@ -7,11 +7,11 @@ CLI for Things 3, implemented in Go
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ossianhempel/things3-cli](https://github.com/ossianhempel/things3-cli).
+Original source: `CLAUDE.md` in [ossianhempel/things3-cli](https://github.com/ossianhempel/things3-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
