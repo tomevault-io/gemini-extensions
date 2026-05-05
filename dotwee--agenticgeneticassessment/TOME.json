@@ -4,7 +4,7 @@
   "repo": "AgenticGeneticAssessment",
   "description": "A multi-agent workflow for genetics-informed health optimization, designed for use with Coding Agents.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/dotWee/AgenticGeneticAssessment",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-02T13:35:47Z"
+  "distributed_at": "2026-05-05T00:56:14Z"
 }
