@@ -1,0 +1,26 @@
+# PixelMeter
+
+> Source: [Mystery00/PixelMeter](https://github.com/Mystery00/PixelMeter) — distributed by [TomeVault](https://tomevault.io)
+
+Pixel Meter is a network speed monitor application designed specifically for Google Pixel and native Android devices.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [Mystery00/PixelMeter](https://github.com/Mystery00/PixelMeter).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/Mystery00/PixelMeter](https://github.com/Mystery00/PixelMeter)
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:d-e-p -->
