@@ -7,11 +7,11 @@ All slop must die. Airlock is where every git push turns into a slop-free PR.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [airlock-hq/airlock](https://github.com/airlock-hq/airlock).
+Original source: `CLAUDE.md` in [airlock-hq/airlock](https://github.com/airlock-hq/airlock).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
