@@ -7,11 +7,11 @@ Ship with less chaos. Flux is a fast, simple Kanban board with MCP integration s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [sirsjg/flux](https://github.com/sirsjg/flux).
+Original source: `CLAUDE.md` in [sirsjg/flux](https://github.com/sirsjg/flux).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
