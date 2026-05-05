@@ -7,11 +7,11 @@ Rust framework that compiles entire infrastructure into one binary
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [isala404/forge](https://github.com/isala404/forge).
+Original source: `CLAUDE.md` in [isala404/forge](https://github.com/isala404/forge).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
