@@ -7,13 +7,13 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ZhuoZhuoCrayon/ai-workspace](https://github.com/ZhuoZhuoCrayon/ai-workspace).
+Original source: `.cursor/rules/*.mdc` in [ZhuoZhuoCrayon/ai-workspace](https://github.com/ZhuoZhuoCrayon/ai-workspace).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
