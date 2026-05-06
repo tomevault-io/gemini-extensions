@@ -4,7 +4,7 @@
   "repo": "astro-blog-shokax",
   "description": "Astro port of the Hexo theme ShokaX, featuring a clean design and modern blog experience.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/theme-shoka-x/astro-blog-shokax",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-02T22:28:29Z"
+  "distributed_at": "2026-05-06T20:16:59Z"
 }
