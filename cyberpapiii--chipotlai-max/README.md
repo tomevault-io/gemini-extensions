@@ -7,11 +7,11 @@ The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode w
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max).
+Original source: `CLAUDE.md` in [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
