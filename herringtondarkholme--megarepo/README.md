@@ -2,6 +2,8 @@
 
 > Source: [HerringtonDarkholme/megarepo](https://github.com/HerringtonDarkholme/megarepo) — distributed by [TomeVault](https://tomevault.io)
 
+a repo with all ai setup
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
