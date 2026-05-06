@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mjbommar/ai-law-finance-book](https://github.com/mjbommar/ai-law-finance-book).
+Original source: `CLAUDE.md` in [mjbommar/ai-law-finance-book](https://github.com/mjbommar/ai-law-finance-book).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
