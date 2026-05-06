@@ -7,13 +7,13 @@ Self-hosted, AI-powered job search companion. Paste a job posting and five AI ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [eliornl/applypilot](https://github.com/eliornl/applypilot).
+Original source: `CLAUDE.md` in [eliornl/applypilot](https://github.com/eliornl/applypilot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
