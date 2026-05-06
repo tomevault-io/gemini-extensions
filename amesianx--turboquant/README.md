@@ -7,11 +7,11 @@ TurboQuant KV Cache Compression for llama.cpp — 5.2x memory reduction with nea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AmesianX/TurboQuant](https://github.com/AmesianX/TurboQuant).
+Original source: `CLAUDE.md` in [AmesianX/TurboQuant](https://github.com/AmesianX/TurboQuant).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
