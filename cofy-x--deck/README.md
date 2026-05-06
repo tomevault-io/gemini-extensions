@@ -7,13 +7,13 @@ Open-source desktop cockpit for local AI sandboxes, coding workflows, and dev ha
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cofy-x/deck](https://github.com/cofy-x/deck).
+Original source: `.cursor/rules/*.mdc` in [cofy-x/deck](https://github.com/cofy-x/deck).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
