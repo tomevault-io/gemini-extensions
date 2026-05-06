@@ -7,11 +7,11 @@ Autonomous Product Cloning Loop — Give it any URL, it inspects, builds, tests,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [namuh-eng/ralph-to-ralph](https://github.com/namuh-eng/ralph-to-ralph).
+Original source: `CLAUDE.md` in [namuh-eng/ralph-to-ralph](https://github.com/namuh-eng/ralph-to-ralph).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
