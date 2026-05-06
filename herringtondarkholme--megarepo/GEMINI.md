@@ -1,35 +1,44 @@
-## megarepo
+## documentation-standards
 
-> **Activation Mode**: Always On
+> **Activation Mode**: Glob
 
-# AI Development Core Rules
+# Documentation Standards
 
-**Activation Mode**: Always On
+**Activation Mode**: Glob
+**Pattern**: `**/*.md`
 
-<ai_development_guidelines>
-- This is an AI setup repository template designed for AI-related projects
-- Prioritize AI integration patterns and best practices in all code suggestions
-- Consider model performance, API efficiency, and token usage optimization
-- Design for scalability with AI workloads and multiple service integrations
-- Follow Node.js/Next.js development patterns as the primary technology stack
-</ai_development_guidelines>
+<documentation_requirements>
+- Update README.md when adding significant AI functionality or features
+- Document AI service setup and configuration steps clearly
+- Include examples of AI integrations and usage patterns
+- Maintain consistency with existing documentation style and structure
+- Document environment variable requirements for AI services
+</documentation_requirements>
 
-<repository_context>
-- Repository is currently in minimal state with basic configuration files
-- Use TypeScript when adding JavaScript functionality for better type safety
-- Implement comprehensive error handling for AI service failures and rate limits
-- Structure AI-related code in logical, modular components under src/lib/
-- Follow the existing patterns established in .cursorrules and other AI configuration files
-</repository_context>
+<ai_documentation_specifics>
+- Document all AI model dependencies and version requirements
+- Include prompt engineering decisions and template explanations
+- Explain AI service rate limiting and quota management approaches
+- Provide troubleshooting guides for common AI integration issues
+- Document performance considerations and optimization strategies
+</ai_documentation_specifics>
 
-<code_quality_standards>
-- Write clean, readable, and well-documented code with meaningful function names
-- Use modern ES6+ JavaScript/TypeScript features and async/await patterns
-- Implement proper async/await patterns for AI API calls with timeout handling
-- Include JSDoc comments for complex AI algorithms and integrations
-- Follow established linting and formatting rules when they exist
-</code_quality_standards>
+<code_documentation>
+- Include JSDoc comments for AI-related functions and complex algorithms
+- Document API endpoints with clear request/response examples
+- Explain AI service authentication and configuration patterns
+- Include usage examples for AI utility functions and client libraries
+- Document data flow and processing pipelines for AI features
+</code_documentation>
+
+<maintenance_guidelines>
+- Keep documentation up to date with AI service API changes
+- Document breaking changes and migration guides for AI integrations
+- Include version compatibility information for AI service SDKs
+- Maintain examples that work with current AI service APIs
+- Document known limitations and workarounds for AI services
+</maintenance_guidelines>
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/HerringtonDarkholme) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-13 -->
+> Source: [HerringtonDarkholme/megarepo](https://github.com/HerringtonDarkholme/megarepo) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-05 -->
