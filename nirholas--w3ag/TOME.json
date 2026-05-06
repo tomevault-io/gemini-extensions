@@ -2,9 +2,9 @@
   "name": "w3ag",
   "owner": "nirholas",
   "repo": "w3ag",
-  "description": "",
+  "description": "Web3 Accessibility Guidelines (W3AG) is the first open standard for making blockchain, DeFi, and crypto applications accessible to people with disabilities. Covers wallet UX, transaction signing, address readability, and more.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -30,10 +30,15 @@
       "format": "gemini_md",
       "display": "GEMINI.md",
       "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/nirholas",
+  "source_url": "https://github.com/nirholas/w3ag",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-08T23:18:33Z"
+  "distributed_at": "2026-05-06T06:10:31Z"
 }
