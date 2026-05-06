@@ -7,11 +7,11 @@ Emacs is the display server. Headless Chromium is the renderer.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [emacs-os/embr.el](https://github.com/emacs-os/embr.el).
+Original source: `CLAUDE.md` in [emacs-os/embr.el](https://github.com/emacs-os/embr.el).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
