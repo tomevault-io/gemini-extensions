@@ -7,11 +7,11 @@ Controller Software for the Brother PP-1 SKiTCH embroidery machine.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jhbruhn/respira](https://github.com/jhbruhn/respira).
+Original source: `CLAUDE.md` in [jhbruhn/respira](https://github.com/jhbruhn/respira).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
