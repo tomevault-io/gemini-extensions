@@ -4,7 +4,7 @@
   "repo": "todohub",
   "description": "iOS todo app backed by GitHub Issues",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/martinwoodward/todohub",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-02T19:56:09Z"
+  "distributed_at": "2026-05-06T03:27:00Z"
 }
