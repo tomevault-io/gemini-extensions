@@ -7,12 +7,12 @@ AI 恶意软件自动化分析平台
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [MICHAEL-888/Phantom_TrojanWalker](https://github.com/MICHAEL-888/Phantom_TrojanWalker).
+Original source: `AGENTS.md` in [MICHAEL-888/Phantom_TrojanWalker](https://github.com/MICHAEL-888/Phantom_TrojanWalker).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
