@@ -1,0 +1,30 @@
+# web-sqlite-js
+
+> Tome by [wuchuheng](https://github.com/wuchuheng/web-sqlite-js) — distributed by [TomeVault](https://tomevault.io)
+
+web-sqlite-js is a friendly, out-of-the-box SQLite database for the web that makes persistent client-side storage simple for every developer.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `copilot-instructions.md` in [wuchuheng/web-sqlite-js](https://github.com/wuchuheng/web-sqlite-js).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/wuchuheng/web-sqlite-js](https://github.com/wuchuheng/web-sqlite-js)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install wuchuheng/web-sqlite-js
+```
+Source: [github.com/wuchuheng/web-sqlite-js](https://github.com/wuchuheng/web-sqlite-js).
+
+<!-- genome:t-i-p -->
