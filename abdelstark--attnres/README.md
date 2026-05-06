@@ -7,11 +7,11 @@ Rust implementation of Attention Residuals from MoonshotAI/Kimi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AbdelStark/attnres](https://github.com/AbdelStark/attnres).
+Original source: `CLAUDE.md` in [AbdelStark/attnres](https://github.com/AbdelStark/attnres).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
