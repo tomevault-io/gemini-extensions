@@ -7,11 +7,11 @@ A Calibre-integrated book tracker; Goodreads but powered by your Calibre Library
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [masonfox/tome](https://github.com/masonfox/tome).
+Original source: `CLAUDE.md` in [masonfox/tome](https://github.com/masonfox/tome).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
