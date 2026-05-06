@@ -4,7 +4,7 @@
   "repo": "Phantom_TrojanWalker",
   "description": "AI \u6076\u610f\u8f6f\u4ef6\u81ea\u52a8\u5316\u5206\u6790\u5e73\u53f0",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/MICHAEL-888/Phantom_TrojanWalker",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-02T22:04:13Z"
+  "distributed_at": "2026-05-06T10:57:57Z"
 }
