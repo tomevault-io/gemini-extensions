@@ -7,11 +7,11 @@ Orchestrate sandboxed agents that run in the cloud while you work. Fully open so
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [vedantb2/eva](https://github.com/vedantb2/eva).
+Original source: `CLAUDE.md` in [vedantb2/eva](https://github.com/vedantb2/eva).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
