@@ -7,11 +7,11 @@ Pure-Rust library and CLI for converting DOCX, XLSX, and PPTX files to PDF.  No 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [developer0hye/office2pdf](https://github.com/developer0hye/office2pdf).
+Original source: `CLAUDE.md` in [developer0hye/office2pdf](https://github.com/developer0hye/office2pdf).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
