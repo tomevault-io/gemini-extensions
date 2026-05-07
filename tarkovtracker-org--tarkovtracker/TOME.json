@@ -4,7 +4,7 @@
   "repo": "TarkovTracker",
   "description": "Rewrite of TarkovTracker.org in Nuxt.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tarkovtracker-org/TarkovTracker",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T01:57:09Z"
+  "distributed_at": "2026-05-07T03:54:38Z"
 }
