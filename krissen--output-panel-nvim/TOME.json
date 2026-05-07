@@ -4,7 +4,7 @@
   "repo": "output-panel.nvim",
   "description": "A configurable floating output window for Neovim jobs that combines optional adapters for VimTeX and Overseer with a generic run() API and :Make helper for everything else.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/krissen/output-panel.nvim",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T03:57:03Z"
+  "distributed_at": "2026-05-07T06:17:13Z"
 }
