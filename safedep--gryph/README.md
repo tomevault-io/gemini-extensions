@@ -7,11 +7,11 @@ Security layer for AI coding agents. Works with Claude Code, Cursor, Windsurf, G
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [safedep/gryph](https://github.com/safedep/gryph).
+Original source: `CLAUDE.md` in [safedep/gryph](https://github.com/safedep/gryph).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
