@@ -7,11 +7,11 @@ A new UX layer for the terminal, built on tmux
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [honeymux/honeymux](https://github.com/honeymux/honeymux).
+Original source: `CLAUDE.md` in [honeymux/honeymux](https://github.com/honeymux/honeymux).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
