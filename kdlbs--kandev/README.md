@@ -7,11 +7,11 @@ AI Kanban & Development Environment. Orchestrate multiple agents, review changes
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kdlbs/kandev](https://github.com/kdlbs/kandev).
+Original source: `CLAUDE.md` in [kdlbs/kandev](https://github.com/kdlbs/kandev).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
