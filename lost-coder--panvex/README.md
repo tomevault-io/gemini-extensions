@@ -7,11 +7,11 @@ Panel & agent system for Telemt fleet management
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lost-coder/panvex](https://github.com/lost-coder/panvex).
+Original source: `CLAUDE.md` in [lost-coder/panvex](https://github.com/lost-coder/panvex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
