@@ -7,12 +7,12 @@ Browser-native 3D digital human engine with voice, vision & dialogue. Zero-confi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [LessUp/meta-human](https://github.com/LessUp/meta-human).
+Original source: `AGENTS.md` in [LessUp/meta-human](https://github.com/LessUp/meta-human).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
