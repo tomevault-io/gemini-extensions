@@ -7,12 +7,12 @@ ASU Workshop: Git, GitHub, and VS Code - Agentic AI for Project Management and R
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [tlarroucau/AI_workshop](https://github.com/tlarroucau/AI_workshop).
+Original source: `AGENTS.md` in [tlarroucau/AI_workshop](https://github.com/tlarroucau/AI_workshop).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
