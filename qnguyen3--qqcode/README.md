@@ -7,11 +7,11 @@ A lightweight CLI coding agent focused on speed, determinism, and developer cont
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [qnguyen3/qqcode](https://github.com/qnguyen3/qqcode).
+Original source: `CLAUDE.md` in [qnguyen3/qqcode](https://github.com/qnguyen3/qqcode).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
