@@ -4,7 +4,7 @@
   "repo": "meta-human",
   "description": "Browser-native 3D digital human engine with voice, vision & dialogue. Zero-config, offline-ready, production-grade AI avatar platform.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/LessUp/meta-human",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T03:41:03Z"
+  "distributed_at": "2026-05-07T06:01:02Z"
 }
