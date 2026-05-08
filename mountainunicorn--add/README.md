@@ -7,11 +7,11 @@ ADD — Agent Driven Development. Coordinated AI agent teams that ship verified 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [MountainUnicorn/add](https://github.com/MountainUnicorn/add).
+Original source: `CLAUDE.md` in [MountainUnicorn/add](https://github.com/MountainUnicorn/add).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
