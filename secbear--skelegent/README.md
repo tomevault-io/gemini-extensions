@@ -7,11 +7,11 @@ Bones for your agents — composable async agentic AI framework for Rust
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [secbear/skelegent](https://github.com/secbear/skelegent).
+Original source: `CLAUDE.md` in [secbear/skelegent](https://github.com/secbear/skelegent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
