@@ -7,11 +7,11 @@ Obsidian plugin that surfaces semantically related notes using local AI embeddin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [GoBeromsu/open-connections](https://github.com/GoBeromsu/open-connections).
+Original source: `CLAUDE.md` in [GoBeromsu/open-connections](https://github.com/GoBeromsu/open-connections).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
