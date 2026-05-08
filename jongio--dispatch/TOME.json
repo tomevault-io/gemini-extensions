@@ -4,7 +4,7 @@
   "repo": "dispatch",
   "description": "A terminal UI for browsing and launching GitHub Copilot CLI sessions. Search,   filter, group, preview, and resume \u2014 without leaving the terminal.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/jongio/dispatch",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T10:03:20Z"
+  "distributed_at": "2026-05-08T04:42:56Z"
 }
