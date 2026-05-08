@@ -4,7 +4,7 @@
   "repo": "ACCESSIBILITY.md",
   "description": "ACCESSIBILITY.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mgifford/ACCESSIBILITY.md",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T14:05:15Z"
+  "distributed_at": "2026-05-08T19:14:50Z"
 }
