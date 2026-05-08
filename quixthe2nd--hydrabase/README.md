@@ -7,12 +7,12 @@ Hydrabase is web-of-trust inspired consensus-less distributed relational databas
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [QuixThe2nd/Hydrabase](https://github.com/QuixThe2nd/Hydrabase).
+Original source: `AGENTS.md` in [QuixThe2nd/Hydrabase](https://github.com/QuixThe2nd/Hydrabase).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
