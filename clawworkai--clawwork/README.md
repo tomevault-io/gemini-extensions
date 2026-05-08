@@ -7,11 +7,11 @@ Client for OpenClaw — Connect ClawWork to your own OpenClaw and unlock 10x mul
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ClawWorkAi/ClawWork](https://github.com/ClawWorkAi/ClawWork).
+Original source: `CLAUDE.md` in [ClawWorkAi/ClawWork](https://github.com/ClawWorkAi/ClawWork).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
