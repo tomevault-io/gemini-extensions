@@ -7,13 +7,13 @@ This repo contains skills as per the agentskills specification to enable coding 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [truefoundry/tfy-gateway-skills](https://github.com/truefoundry/tfy-gateway-skills).
+Original source: `AGENTS.md` in [truefoundry/tfy-gateway-skills](https://github.com/truefoundry/tfy-gateway-skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
