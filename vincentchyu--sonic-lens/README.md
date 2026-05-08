@@ -1,0 +1,30 @@
+# sonic-lens
+
+> Source: [vincentchyu/sonic-lens](https://github.com/vincentchyu/sonic-lens) — distributed by [TomeVault](https://tomevault.io)
+
+声之透镜 · 深度解析 · 聆听之印记
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [vincentchyu/sonic-lens](https://github.com/vincentchyu/sonic-lens).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/vincentchyu/sonic-lens](https://github.com/vincentchyu/sonic-lens)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install vincentchyu/sonic-lens
+```
+Source: [github.com/vincentchyu/sonic-lens](https://github.com/vincentchyu/sonic-lens).
+
+<!-- genome:d-i-q -->
