@@ -7,11 +7,11 @@ Technical analysis + AI agents trading workflows from live market data to automa
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TradingGoose/TradingGoose-Studio](https://github.com/TradingGoose/TradingGoose-Studio).
+Original source: `CLAUDE.md` in [TradingGoose/TradingGoose-Studio](https://github.com/TradingGoose/TradingGoose-Studio).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
