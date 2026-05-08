@@ -7,12 +7,12 @@ Des agent IA mais intelligent qui respect toute les bonne pratique de conception
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Yan-Acadenice/BYAN](https://github.com/Yan-Acadenice/BYAN).
+Original source: `CLAUDE.md` in [Yan-Acadenice/BYAN](https://github.com/Yan-Acadenice/BYAN).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
