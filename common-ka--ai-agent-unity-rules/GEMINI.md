@@ -1,327 +1,287 @@
-## ai-agent-unity-rules
+## code-organization
 
-> public class PlayerController : MonoBehaviour { }
+> ├── !_Project/                   # Main project content (! keeps it at top)
 
 
+# Code Organization
 
-# Unity Core Rules - C# & MonoBehaviour
+## Project Folder Structure
 
-## Naming Conventions for Unity 6.2
-
-### Classes and Structs
 ```
-// ✅ DO: PascalCase
-public class PlayerController : MonoBehaviour { }
-
-// ✅ DO: Readonly structs for data integrity
-public readonly struct GameConfig { }
-
-public interface IHealthSystem { }
-
-// ❌ DON'T
-public class player_controller { } // snake_case
-public class playerController { } // camelCase
-public struct MutableConfig { } // Avoid mutable structs
+Assets/
+├── !_Project/                   # Main project content (! keeps it at top)
+│   ├── Art/
+│   │   ├── Materials/
+│   │   ├── Models/
+│   │   ├── Textures/
+│   │   └── Animations/
+│   ├── Audio/
+│   │   ├── Music/
+│   │   ├── SFX/
+│   │   └── Mixers/
+│   ├── Prefabs/
+│   │   ├── Characters/
+│   │   ├── Environment/
+│   │   ├── UI/
+│   │   └── Effects/
+│   ├── Scenes/
+│   │   ├── Levels/
+│   │   ├── Menus/
+│   │   └── Test/
+│   ├── Scripts/
+│   │   ├── Runtime/           # Runtime code
+│   │   │   ├── Core/          # Base systems
+│   │   │   ├── Gameplay/      # Game logic
+│   │   │   ├── UI/            # UI controllers
+│   │   │   ├── Utilities/     # Helper classes
+│   │   │   ├── DOTS/          # ECS implementation
+│   │   │   │   ├── Components/    # IComponentData
+│   │   │   │   ├── Systems/       # SystemBase/ISystem
+│   │   │   │   └── Aspects/       # Aspects
+│   │   │   └── Hybrid/        # Mixed MonoBehaviour + DOTS
+│   │   ├── Editor/            # Editor scripts
+│   │   └── Tests/             # Test assembly scripts
+│   ├── ScriptableObjects/
+│   │   ├── GameConfig/        # Game settings
+│   │   ├── EventChannels/     # SO-based events
+│   │   ├── Variables/         # Runtime shared data
+│   │   ├── Sets/              # SO Sets for collections
+│   │   └── Stats/             # Character/weapon data
+│   └── Settings/              # Project settings
+├── Packages/                  # Custom packages
+│   └── com.yourcompany.core/  # Reusable modules
+│       ├── Runtime/
+│       ├── Editor/
+│       ├── Tests/
+│       └── Documentation~/
+├── AddressableAssets/         # Addressables content
+│   ├── Groups/                # Addressable Groups configs
+│   ├── Settings/              # Addressable Settings
+│   └── Content/               # Organized by strategy
+│       ├── PerLevel/          # Concurrent usage strategy
+│       ├── Characters/        # Logical entity strategy
+│       └── Shared/            # Shared resources
+├── Plugins/                   # Third-party plugins
+├── Tests/                     # Test assemblies
+│   ├── EditMode/
+│   │   ├── Unit/              # Unit tests
+│   │   └── Integration/       # Integration tests
+│   ├── PlayMode/
+│   │   ├── Functional/        # Functional tests
+│   │   └── Performance/       # Profiling tests
+│   └── TestUtilities/         # Common mocks and helpers
+└── TextMesh Pro/              # TMP resources
 ```
 
-### Fields and Properties
+## Asset Naming Conventions
+
+### Modern Naming (No Hungarian Prefixes)
+Organization through folders, not prefixes. Use PascalCase for all asset names.
+
+### Prefabs
+- Characters: `PlayerKnight.prefab` in `Prefabs/Characters/`
+- Environment: `TreeOak.prefab` in `Prefabs/Environment/`
+- UI: `MainMenu.prefab` in `Prefabs/UI/`
+- Effects: `Explosion.prefab` in `Prefabs/Effects/VFX/`
+
+### Scripts
+Follow Microsoft C# conventions:
+
+#### Classes and Methods
 ```
-public class Example : MonoBehaviour
+// PascalCase for classes, methods, properties, and public fields
+public class GameManager { }
+public class AudioManager { }
+public class PlayerController { }
+public void Initialize() { }
+public int MaxHealth { get; set; }
+```
+
+#### Fields and Variables
+```
+// Private instance fields: _camelCase
+private int _currentHealth;
+private Transform _targetTransform;
+
+// Static fields: s_camelCase
+private static int s_instanceCount;
+private static GameManager s_instance;
+
+// Public fields: PascalCase (prefer properties)
+public int MaxHealth;
+
+// Local variables and parameters: camelCase
+public void SetHealth(int newHealth)
 {
-    // ✅ DO: Private fields with _ prefix (.NET Style)
-    [SerializeField] private float _moveSpeed = 5f;
-    private Transform _targetTransform;
-    
-    // ✅ DO: Public properties in PascalCase
-    public float MoveSpeed => _moveSpeed;
-    public bool IsMoving { get; private set; }
-    
-    // ✅ DO: Constants in PascalCase (Microsoft Standard)
-    private const float MaxHealth = 100f;
-    private const string PlayerTag = "Player";
-    
-    // ✅ DO: Static fields with _ prefix
-    private static int _instanceCount = 0;
-    
-    // ✅ DO: Booleans with is/has/can prefix
-    private bool _isGrounded;
-    private bool _hasWeapon;
-    private bool _canJump;
-    
-    // ❌ DON'T: Public fields without [SerializeField]
-    public float moveSpeed; // Use property or [SerializeField] private
-    
-    // ❌ DON'T: Hungarian notation
-    private float m_Speed; 
-    private float fSpeed;
+    int previousHealth = _currentHealth;
+    _currentHealth = newHealth;
+}
+
+// Constants: PascalCase
+private const int MaxPlayers = 4;
+public const string GameVersion = "1.0.0";
+```
+
+#### Interfaces
+```
+// Prefix with 'I' + PascalCase
+public interface IInteractable { }
+public interface IDamageable { }
+public interface IPoolable { }
+```
+
+### Scenes
+- Levels: `Level01_Forest.unity`
+- Menus: `MenuMain.unity`, `MenuSettings.unity`
+- Test: `TestPlayerMovement.unity`
+
+## Assembly Definition Organization
+
+### Core Assemblies
+```
+Scripts/Runtime/Core/YourCompany.Core.asmdef
+Scripts/Runtime/Gameplay/YourCompany.Gameplay.asmdef
+Scripts/Runtime/UI/YourCompany.UI.asmdef
+Scripts/Runtime/DOTS/YourCompany.DOTS.asmdef
+Scripts/Editor/YourCompany.Editor.asmdef
+Scripts/Tests/YourCompany.Tests.asmdef
+```
+
+### Example Assembly Definition
+```
+{
+    "name": "YourCompany.Core",
+    "rootNamespace": "YourCompany.Core",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
 ```
 
-### Methods and Events
+## Scene Hierarchy Organization
+
 ```
-public class EventExample : MonoBehaviour
-{
-    // ✅ DO: Methods in PascalCase
-    public void ProcessInput() { }
-    private void HandleCollision() { }
-    
-    // ✅ DO: Events with On prefix
-    public event Action OnPlayerDeath;
-    public event Action<int> OnScoreChanged;
-    
-    // ✅ DO: Async methods with Async suffix (Use Awaitable for Unity 6.2)
-    private async Awaitable LoadDataAsync() { }
-    public async Awaitable<bool> TryConnectAsync() { }
-}
+Hierarchy:
+--- SYSTEMS ---              # Persistent (DontDestroyOnLoad)
+├── GameManager
+├── AudioManager
+├── InputManager
+└── UIManager
+--- LEVEL ---                # Level content
+├── Environment
+│   ├── Terrain
+│   ├── Props
+│   └── Lighting
+├── Gameplay
+│   ├── SpawnPoints
+│   └── Triggers
+└── UI
+    ├── Canvas_HUD
+    └── Canvas_Menus
+--- DYNAMIC ---              # Runtime spawned objects
 ```
 
-## MonoBehaviour Lifecycle
+## Prefab Structure
 
-### Correct Method Order
 ```
-public class LifecycleExample : MonoBehaviour
+Player
+├── Model                    # Visual model
+├── Colliders               # Physics colliders
+├── Effects                 # Particles, effects
+└── Audio                   # Audio sources
+```
+
+## DOTS/ECS Structure
+
+### Component Example
+```
+// Components/HealthComponent.cs
+using Unity.Entities;
+
+namespace YourCompany.DOTS.Components
 {
-    // 1. Serialized Fields
-    [SerializeField] private float _speed = 5f;
-    
-    // 2. Private Fields
-    private Rigidbody _rigidbody;
-    private bool _isInitialized;
-    
-    // 3. Properties
-    public bool IsInitialized => _isInitialized;
-    
-    // 4. Unity Lifecycle Methods (in call order)
-    private void Awake()
+    public struct HealthComponent : IComponentData
     {
-        // Initialize components on this object
-        // Use TryGetComponent to avoid implicit allocation if missing
-        if (!TryGetComponent(out _rigidbody))
+        public float CurrentHealth;
+        public float MaxHealth;
+    }
+}
+```
+
+### System Example
+```
+// Systems/HealthSystem.cs
+using Unity.Entities;
+using Unity.Burst;
+
+namespace YourCompany.DOTS.Systems
+{
+    [BurstCompile]
+    public partial struct HealthSystem : ISystem
+    {
+        [BurstCompile]
+        public void OnUpdate(ref SystemState state)
         {
-            Debug.LogError("Rigidbody missing!");
+            // System logic
         }
     }
-    
-    private void OnEnable()
-    {
-        // Subscribe to events
-        GameEvents.OnLevelStart += HandleLevelStart;
-    }
-    
-    private void Start()
-    {
-        // Initialization after all Awake calls
-        _isInitialized = true;
-    }
-    
-    private void FixedUpdate()
-    {
-        // Physics
-        if (_isInitialized)
-        {
-            ApplyPhysics();
-        }
-    }
-    
-    private void Update()
-    {
-        // Game logic and input
-        ProcessInput();
-    }
-    
-    private void LateUpdate()
-    {
-        // Called after all Update calls (e.g., camera)
-    }
-    
-    private void OnDisable()
-    {
-        // Unsubscribe from events
-        GameEvents.OnLevelStart -= HandleLevelStart;
-    }
-    
-    private void OnDestroy()
-    {
-        // Cleanup
-        CleanupResources();
-    }
-    
-    // 5. Custom Methods
-    private void ProcessInput() { }
-    private void ApplyPhysics() { }
-    private void HandleLevelStart() { }
-    private void CleanupResources() { }
 }
 ```
 
-## Serialization
-
-### [SerializeField] Best Practices
+### Aspect Example
 ```
-public class SerializationExample : MonoBehaviour
-{
-    // ✅ DO: Private fields with [SerializeField] and _ prefix
-    [SerializeField] private float _health = 100f;
-    [SerializeField] private GameObject _weaponPrefab;
-    
-    // ✅ DO: Headers for grouping
-    [Header("Movement Settings")]
-    [SerializeField] private float _moveSpeed = 5f;
-    [SerializeField] private float _jumpForce = 10f;
-    
-    [Header("Audio")]
-    [SerializeField] private AudioClip _jumpSound;
-    [SerializeField] private AudioClip _landSound;
-    
-    // ✅ DO: Tooltip for inspector documentation
-    [Tooltip("Maximum speed the player can reach")]
-    [SerializeField] private float _maxSpeed = 20f;
-    
-    // ✅ DO: Range to limit values
-    [Range(0f, 1f)]
-    [SerializeField] private float _volume = 0.5f;
-    
-    // ✅ DO: HideInInspector to hide runtime values
-    [HideInInspector]
-    public int RuntimeValue; // Used by systems but not editable
-}
-```
+// Aspects/CharacterAspect.cs
+using Unity.Entities;
+using Unity.Transforms;
 
-### ScriptableObject for Configuration
-```
-// ✅ DO: Configuration via ScriptableObject
-[CreateAssetMenu(fileName = "WeaponConfig", menuName = "Game/Weapon Config")]
-public class WeaponConfig : ScriptableObject
+namespace YourCompany.DOTS.Aspects
 {
-    [Header("Stats")]
-    [SerializeField] private int _damage = 10;
-    [SerializeField] private float _fireRate = 0.5f;
-    
-    [Header("Visuals")]
-    [SerializeField] private GameObject _modelPrefab;
-    [SerializeField] private ParticleSystem _muzzleFlash;
-    
-    public int Damage => _damage;
-    public float FireRate => _fireRate;
-    public GameObject ModelPrefab => _modelPrefab;
-}
-
-public class Weapon : MonoBehaviour
-{
-    [SerializeField] private WeaponConfig _config;
-    
-    public void Fire()
+    public readonly partial struct CharacterAspect : IAspect
     {
-        // Using the configuration
-        DealDamage(_config.Damage);
+        readonly RefRW<LocalTransform> _transform;
+        readonly RefRW<HealthComponent> _health;
     }
 }
 ```
 
-## Namespaces
+## Best Practices
 
-```
-// ✅ DO: Use namespaces
-namespace MyGame.Core
-{
-    public class GameManager : MonoBehaviour
-    {
-    }
-}
+### Naming
+- Use PascalCase for all public identifiers (classes, methods, properties)
+- Use _camelCase for private instance fields
+- Use s_camelCase for static fields
+- Use camelCase for local variables and parameters
+- Use meaningful, descriptive names - prefer clarity over brevity
+- Avoid abbreviations except widely known ones (UI, FX, AI)
+- No Hungarian notation or type prefixes
 
-namespace MyGame.Gameplay.Player
-{
-    public class PlayerController : MonoBehaviour
-    {
-    }
-}
+### Organization
+- Organize assets by type through folder structure, not prefixes
+- Use Assembly Definitions to reduce compilation time
+- Separate Runtime and Editor code
+- Group DOTS code separately from MonoBehaviour code
+- Use Addressables for content management with clear grouping strategy
 
-namespace MyGame.UI
-{
-    public class MainMenuUI : MonoBehaviour
-    {
-    }
-}
-```
+### Architecture
+- Use ScriptableObject-based architecture for events and shared data
+- Implement EventChannel pattern for decoupled communication
+- Use Assembly Definitions to enforce architectural boundaries
+- Separate concerns: Core, Gameplay, UI, Utilities
+- Create custom packages for reusable systems
 
-## XML Documentation
-
-```
-/// <summary>
-/// Controls player movement and actions.
-/// </summary>
-public class PlayerController : MonoBehaviour
-{
-    /// <summary>
-    /// Current movement speed of the player.
-/// </summary>
-    [SerializeField] private float _moveSpeed = 5f;
-    
-    /// <summary>
-    /// Moves the player in the specified direction.
-/// </summary>
-    /// <param name="direction">Movement direction (normalized vector).</param>
-    /// <param name="deltaTime">Time since last frame.</param>
-    public void Move(Vector3 direction, float deltaTime)
-    {
-        transform.position += direction * _moveSpeed * deltaTime;
-    }
-    
-    /// <summary>
-    /// Checks if the player can jump.
-/// </summary>
-    /// <returns>True if the player can jump.</returns>
-    public bool CanJump()
-    {
-        return IsGrounded() && !IsJumping;
-    }
-}
-```
-
-## Modern C# Features (Unity 6.2 / C# 12.0)
-
-```
-// ✅ DO: Pattern matching
-public void HandleInput(InputAction.CallbackContext context)
-{
-    switch (context.phase)
-    {
-        case InputActionPhase.Started:
-            OnInputStarted();
-            break;
-        case InputActionPhase.Performed:
-            OnInputPerformed();
-            break;
-        case InputActionPhase.Canceled:
-            OnInputCanceled();
-            break;
-    }
-}
-
-// ✅ DO: Null-conditional operator
-private void SafeInvoke()
-{
-    OnPlayerDeath?.Invoke();
-}
-
-// ✅ DO: Expression-bodied members
-public bool IsAlive => _health > 0;
-public float HealthPercentage => _health / MaxHealth;
-
-// ✅ DO: String interpolation
-private void LogStatus()
-{
-    Debug.Log($"Player Health: {_health}/{MaxHealth}");
-}
-
-// ✅ DO: Unity Awaitable (Replaces Task)
-private async Awaitable PerformActionAsync()
-{
-    await Awaitable.NextFrameAsync();
-    _health += 10;
-}
-```
+### Testing
+- Organize tests by type: Unit, Integration, Functional, Performance
+- Use separate assemblies for test code
+- Create TestUtilities assembly for shared test helpers
+- Write tests for critical gameplay systems
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/Common-ka) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-09 -->
+> Source: [Common-ka/ai-agent-unity-rules](https://github.com/Common-ka/ai-agent-unity-rules) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-03 -->
