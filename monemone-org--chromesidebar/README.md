@@ -7,11 +7,11 @@ ChromeSideBar displays pinned sites, bookmarks and active tabs in a side panel, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [monemone-org/ChromeSideBar](https://github.com/monemone-org/ChromeSideBar).
+Original source: `CLAUDE.md` in [monemone-org/ChromeSideBar](https://github.com/monemone-org/ChromeSideBar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
