@@ -4,7 +4,7 @@
   "repo": "Hydrabase",
   "description": "Hydrabase is web-of-trust inspired consensus-less distributed relational database. The networks primary purpose is to act as a unified source that propagates music metadata.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/QuixThe2nd/Hydrabase",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T13:49:31Z"
+  "distributed_at": "2026-05-08T16:52:36Z"
 }
