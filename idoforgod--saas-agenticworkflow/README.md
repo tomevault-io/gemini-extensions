@@ -7,13 +7,13 @@ SaaS Auto-Builder — AI Agentic Workflow Automation System
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [idoforgod/SaaS-AgenticWorkflow](https://github.com/idoforgod/SaaS-AgenticWorkflow).
+Original source: `AGENTS.md` in [idoforgod/SaaS-AgenticWorkflow](https://github.com/idoforgod/SaaS-AgenticWorkflow).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
