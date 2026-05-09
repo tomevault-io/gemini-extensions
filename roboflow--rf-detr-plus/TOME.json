@@ -4,7 +4,7 @@
   "repo": "rf-detr_plus",
   "description": "An extension of RF-DETR that unlocks larger, more powerful detection models for when you need the highest possible accuracy.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/roboflow/rf-detr_plus",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T16:24:13Z"
+  "distributed_at": "2026-05-09T05:03:23Z"
 }
