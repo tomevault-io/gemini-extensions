@@ -1,21 +1,21 @@
 # actual-assist
 
-> Tome by [mathewab](https://github.com/mathewab/actual-assist) — distributed by [TomeVault](https://tomevault.io/claim/mathewab)
+> Tome by [mathewab](https://github.com/mathewab/actual-assist) — distributed by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [mathewab/actual-assist](https://github.com/mathewab/actual-assist).
+Original source: `AGENTS.md` in [mathewab/actual-assist](https://github.com/mathewab/actual-assist).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/mathewab)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/mathewab/actual-assist](https://github.com/mathewab/actual-assist)
 
 ---
 
@@ -23,6 +23,6 @@ Install this config instantly:
 ```
 npx tomevault install mathewab/actual-assist
 ```
-Or browse all formats at [https://tomevault.io/claim/mathewab](https://tomevault.io/claim/mathewab).
+Source: [github.com/mathewab/actual-assist](https://github.com/mathewab/actual-assist).
 
 <!-- genome:t-i-p -->
