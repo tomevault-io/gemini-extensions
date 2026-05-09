@@ -7,12 +7,12 @@ A production-grade PowerShell script module template designed to standardize mod
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [WarehouseFinds/PSScriptModule](https://github.com/WarehouseFinds/PSScriptModule).
+Original source: `AGENTS.md` in [WarehouseFinds/PSScriptModule](https://github.com/WarehouseFinds/PSScriptModule).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
