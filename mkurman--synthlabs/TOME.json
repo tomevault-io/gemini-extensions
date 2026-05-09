@@ -4,7 +4,7 @@
   "repo": "synthlabs",
   "description": "Create synthetic datasets from scratch using AI-powered generation. Define topics, customize prompts, and generate high-quality reasoning traces in the SYNTH format.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mkurman/synthlabs",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T20:05:53Z"
+  "distributed_at": "2026-05-09T13:15:04Z"
 }
