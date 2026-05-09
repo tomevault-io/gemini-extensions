@@ -7,13 +7,13 @@ The immune system for AI coding agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [rigour-labs/rigour](https://github.com/rigour-labs/rigour).
+Original source: `AGENTS.md` in [rigour-labs/rigour](https://github.com/rigour-labs/rigour).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
