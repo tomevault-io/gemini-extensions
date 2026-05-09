@@ -7,11 +7,11 @@ Interactive Calculator App with Dynamic Theme Switching📟
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [codingwithriha/calculator-app-main](https://github.com/codingwithriha/calculator-app-main).
+Original source: `CLAUDE.md` in [codingwithriha/calculator-app-main](https://github.com/codingwithriha/calculator-app-main).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
