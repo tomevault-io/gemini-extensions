@@ -7,12 +7,12 @@ Simple terminal UI for nginx management
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [giacomomasseron/lazynginx](https://github.com/giacomomasseron/lazynginx).
+Original source: `AGENTS.md` in [giacomomasseron/lazynginx](https://github.com/giacomomasseron/lazynginx).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
