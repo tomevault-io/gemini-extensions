@@ -7,11 +7,11 @@ A professional zero-latency broadcast-oriented limiter plugin. for VST/AU/AAX
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Jun-Murakami/ZeroLimit](https://github.com/Jun-Murakami/ZeroLimit).
+Original source: `CLAUDE.md` in [Jun-Murakami/ZeroLimit](https://github.com/Jun-Murakami/ZeroLimit).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
