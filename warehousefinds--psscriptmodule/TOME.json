@@ -4,7 +4,7 @@
   "repo": "PSScriptModule",
   "description": "A production-grade PowerShell script module template designed to standardize module development. It integrates automated builds, dependency management, static code analysis, testing, documentation, and CI/CD workflows aligned with modern PowerShell best practices.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/WarehouseFinds/PSScriptModule",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T23:44:20Z"
+  "distributed_at": "2026-05-09T16:51:48Z"
 }
