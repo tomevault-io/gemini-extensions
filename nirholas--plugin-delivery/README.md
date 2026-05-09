@@ -7,12 +7,12 @@ AI plugin marketplace. SDK, gateway & developer tools for building function-call
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [nirholas/plugin.delivery](https://github.com/nirholas/plugin.delivery).
+Original source: `AGENTS.md` in [nirholas/plugin.delivery](https://github.com/nirholas/plugin.delivery).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
