@@ -7,11 +7,11 @@ Deterministic firmware-to-exploit evidence engine. Drop a firmware blob, get has
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [R00T-Kim/SCOUT](https://github.com/R00T-Kim/SCOUT).
+Original source: `CLAUDE.md` in [R00T-Kim/SCOUT](https://github.com/R00T-Kim/SCOUT).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
