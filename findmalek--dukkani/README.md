@@ -7,13 +7,13 @@ Create your online shop in minutes — no code, no stress.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [FindMalek/dukkani](https://github.com/FindMalek/dukkani).
+Original source: `CLAUDE.md` in [FindMalek/dukkani](https://github.com/FindMalek/dukkani).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
