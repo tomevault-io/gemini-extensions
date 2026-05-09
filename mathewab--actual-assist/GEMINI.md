@@ -1,18 +1,24 @@
 ## actual-assist
 
-> Auto-generated from all feature plans. Last updated: 2025-12-26
+> Last updated: 2026-01-02
 
 # actual-assist Development Guidelines
 
-Auto-generated from all feature plans. Last updated: 2025-12-26
+Last updated: 2026-01-02
+
+## Project Summary
+Single-app Actual Budget assistant (Express API + React UI) with AI-driven category/payee suggestions, duplicate payee merge tooling, and budget template management.
 
 ## Active Technologies
-
-- Node.js 20.x, TypeScript 5.x (ES modules) + Express, React 18, Vite, TanStack Query, @actual-app/api, OpenAI SDK, better-sqlite3, zod, winston (003-add-jobs-workflow)
+- Node.js 24.x, TypeScript 5.x (ES modules)
+- Express 5, React 19, Vite 7, TanStack Query, MUI + Tailwind
+- @actual-app/api, OpenAI SDK (Responses API), zod, winston
+- SQLite via better-sqlite3 with knex migrations
 
 ## Project Structure
 
 ```text
+docs/
 src/
 tests/
 ```
@@ -23,15 +29,14 @@ npm test && npm run lint
 
 ## Code Style
 
-Node.js 20.x, TypeScript 5.x (ES modules): Follow standard conventions
+Node.js 24.x with TypeScript 5.x (ES modules): Follow standard conventions.
 
-## Recent Changes
+## Documentation
+- Follow [`.specify/memory/constitution.md`](.specify/memory/constitution.md) for engineering principles and documentation guidance.
 
-- 003-add-jobs-workflow: Added Node.js 20.x, TypeScript 5.x (ES modules) + Express, React 18, Vite, TanStack Query, @actual-app/api, OpenAI SDK, better-sqlite3, zod, winston
-
-<!-- MANUAL ADDITIONS START -->
-<!-- MANUAL ADDITIONS END -->
+## Product Expectations
+- Jobs and audit coverage are required for all features (ensure job tracking and audit logging remain supported across workflows).
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/mathewab) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-09 -->
+> Source: [mathewab/actual-assist](https://github.com/mathewab/actual-assist) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-03 -->
