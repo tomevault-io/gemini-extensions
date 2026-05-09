@@ -7,12 +7,12 @@ A modern Spin on titanium backup with alot more support
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [canuk40/ObsidianBackup](https://github.com/canuk40/ObsidianBackup).
+Original source: `CLAUDE.md` in [canuk40/ObsidianBackup](https://github.com/canuk40/ObsidianBackup).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
