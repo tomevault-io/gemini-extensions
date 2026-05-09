@@ -7,11 +7,11 @@ AI coding safety CLI for vibe coding workflows. Checkpoints, undo, anchors, MCP,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yesonsys03-web/VibeLign](https://github.com/yesonsys03-web/VibeLign).
+Original source: `CLAUDE.md` in [yesonsys03-web/VibeLign](https://github.com/yesonsys03-web/VibeLign).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
