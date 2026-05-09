@@ -7,11 +7,11 @@ Terminal UI AWS Resource Manager — browse, inspect, and manage 60+ AWS resourc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [k2m30/a9s](https://github.com/k2m30/a9s).
+Original source: `CLAUDE.md` in [k2m30/a9s](https://github.com/k2m30/a9s).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
