@@ -4,7 +4,7 @@
   "repo": "github-repo-banner",
   "description": "URL-based repository banners. Think shields.io, but for headers. \u2728",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/warengonzaga/github-repo-banner",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T16:13:10Z"
+  "distributed_at": "2026-05-09T02:49:56Z"
 }
