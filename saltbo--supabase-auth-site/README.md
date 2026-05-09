@@ -7,11 +7,11 @@ A production-ready, fully configurable authentication portal powered by Supabase
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [saltbo/supabase-auth-site](https://github.com/saltbo/supabase-auth-site).
+Original source: `CLAUDE.md` in [saltbo/supabase-auth-site](https://github.com/saltbo/supabase-auth-site).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
