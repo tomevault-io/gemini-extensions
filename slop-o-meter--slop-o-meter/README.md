@@ -7,11 +7,11 @@ An experiment in measuring software slop
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [slop-o-meter/slop-o-meter](https://github.com/slop-o-meter/slop-o-meter).
+Original source: `CLAUDE.md` in [slop-o-meter/slop-o-meter](https://github.com/slop-o-meter/slop-o-meter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
