@@ -4,7 +4,7 @@
   "repo": "graffiti",
   "description": "A minimal CSS framework with utilities that are actually useful.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/stolinski/graffiti",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T02:03:40Z"
+  "distributed_at": "2026-05-09T19:46:52Z"
 }
