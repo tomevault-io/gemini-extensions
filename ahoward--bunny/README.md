@@ -7,11 +7,11 @@ why are you wearing that stupid man suit? — a dark factory where AI agents bui
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ahoward/bunny](https://github.com/ahoward/bunny).
+Original source: `CLAUDE.md` in [ahoward/bunny](https://github.com/ahoward/bunny).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
