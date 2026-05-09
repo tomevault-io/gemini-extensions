@@ -7,11 +7,11 @@ Run multiple Claude Code sessions through Telegram forum topics. Each topic = is
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [knyazev741/telegram-multi-thread-router](https://github.com/knyazev741/telegram-multi-thread-router).
+Original source: `CLAUDE.md` in [knyazev741/telegram-multi-thread-router](https://github.com/knyazev741/telegram-multi-thread-router).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
