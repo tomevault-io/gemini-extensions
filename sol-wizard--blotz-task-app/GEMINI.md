@@ -1,4 +1,4 @@
-## blotz-task-app
+## main
 
 > <!-- See .ai/instructions.md for shared team conventions -->
 
