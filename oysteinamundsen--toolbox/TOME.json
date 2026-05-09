@@ -4,7 +4,7 @@
   "repo": "toolbox",
   "description": "A no-dependency component library for the web",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/OysteinAmundsen/toolbox",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T23:45:53Z"
+  "distributed_at": "2026-05-09T17:07:28Z"
 }
