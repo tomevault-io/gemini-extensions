@@ -7,11 +7,11 @@ Dutch auction job market for ERC-8004 AI agents. Powered by CLAWD token on Base.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [clawdbotatg/agent-bounty-board](https://github.com/clawdbotatg/agent-bounty-board).
+Original source: `CLAUDE.md` in [clawdbotatg/agent-bounty-board](https://github.com/clawdbotatg/agent-bounty-board).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
