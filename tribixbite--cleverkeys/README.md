@@ -1,21 +1,23 @@
-# CleverKeys — distributed by TomeVault
+# CleverKeys
 
-> Originally from [tribixbite/CleverKeys](https://github.com/tribixbite/CleverKeys). Converted and distributed by [TomeVault](https://tomevault.io)
+> Source: [tribixbite/CleverKeys](https://github.com/tribixbite/CleverKeys) — distributed by [TomeVault](https://tomevault.io)
+
+Privacy-first neural Android keyboard with advanced swipe prediction
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [tribixbite/CleverKeys](https://github.com/tribixbite/CleverKeys).
+Original source: `AGENTS.md` in [tribixbite/CleverKeys](https://github.com/tribixbite/CleverKeys).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/tribixbite)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/tribixbite/CleverKeys](https://github.com/tribixbite/CleverKeys)
 
 ---
 
@@ -23,6 +25,6 @@ Install this config instantly:
 ```
 npx tomevault install tribixbite/CleverKeys
 ```
-Or browse all formats at [https://tomevault.io/claim/tribixbite](https://tomevault.io/claim/tribixbite).
+Source: [github.com/tribixbite/CleverKeys](https://github.com/tribixbite/CleverKeys).
 
 <!-- genome:d-i-p -->
