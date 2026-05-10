@@ -7,11 +7,11 @@ use ai analysis Performance issue with perfetto
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Gracker/SmartPerfetto](https://github.com/Gracker/SmartPerfetto).
+Original source: `CLAUDE.md` in [Gracker/SmartPerfetto](https://github.com/Gracker/SmartPerfetto).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
