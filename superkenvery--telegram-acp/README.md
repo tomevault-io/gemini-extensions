@@ -7,11 +7,11 @@ Control any agent from telegram
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [SuperKenVery/Telegram-ACP](https://github.com/SuperKenVery/Telegram-ACP).
+Original source: `CLAUDE.md` in [SuperKenVery/Telegram-ACP](https://github.com/SuperKenVery/Telegram-ACP).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
