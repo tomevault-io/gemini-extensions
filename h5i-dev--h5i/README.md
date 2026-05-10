@@ -7,11 +7,11 @@ Next-Gen AI-Aware Git
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [h5i-dev/h5i](https://github.com/h5i-dev/h5i).
+Original source: `CLAUDE.md` in [h5i-dev/h5i](https://github.com/h5i-dev/h5i).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
