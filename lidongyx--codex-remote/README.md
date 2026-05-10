@@ -7,11 +7,11 @@ Local-first remote Codex workspace with bridge, relay, and iOS client
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lidongyx/codex-remote](https://github.com/lidongyx/codex-remote).
+Original source: `CLAUDE.md` in [lidongyx/codex-remote](https://github.com/lidongyx/codex-remote).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
