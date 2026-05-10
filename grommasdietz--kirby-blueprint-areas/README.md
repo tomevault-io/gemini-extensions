@@ -7,12 +7,12 @@ Blueprint based Panel areas for Kirby CMS
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [grommasdietz/kirby-blueprint-areas](https://github.com/grommasdietz/kirby-blueprint-areas).
+Original source: `AGENTS.md` in [grommasdietz/kirby-blueprint-areas](https://github.com/grommasdietz/kirby-blueprint-areas).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
