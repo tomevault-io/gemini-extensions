@@ -7,11 +7,11 @@ AI-powered content hub for Xbuilders — curated feeds, summaries, and signals.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [digging-airfare-4u/briefinglab](https://github.com/digging-airfare-4u/briefinglab).
+Original source: `CLAUDE.md` in [digging-airfare-4u/briefinglab](https://github.com/digging-airfare-4u/briefinglab).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
