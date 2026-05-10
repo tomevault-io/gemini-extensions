@@ -2,6 +2,8 @@
 
 > Source: [chatbotgang/ai-coding-workshop-250712](https://github.com/chatbotgang/ai-coding-workshop-250712) — distributed by [TomeVault](https://tomevault.io)
 
+Workshop on developing product features with agentic coding practices 
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
