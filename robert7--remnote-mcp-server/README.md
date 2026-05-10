@@ -7,11 +7,11 @@ RemNote MCP server
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [robert7/remnote-mcp-server](https://github.com/robert7/remnote-mcp-server).
+Original source: `CLAUDE.md` in [robert7/remnote-mcp-server](https://github.com/robert7/remnote-mcp-server).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
