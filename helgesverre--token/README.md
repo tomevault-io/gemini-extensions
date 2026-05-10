@@ -7,11 +7,11 @@ Minimal text editor in Rust using the Elm Architecture
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [HelgeSverre/token](https://github.com/HelgeSverre/token).
+Original source: `CLAUDE.md` in [HelgeSverre/token](https://github.com/HelgeSverre/token).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
