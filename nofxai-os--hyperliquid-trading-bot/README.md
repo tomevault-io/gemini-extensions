@@ -7,11 +7,11 @@ hyperliquid grid trading bot dex perpetuals l1 crypto typescript nodejs automate
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NoFxAi-OS/hyperliquid-trading-bot](https://github.com/NoFxAi-OS/hyperliquid-trading-bot).
+Original source: `CLAUDE.md` in [NoFxAi-OS/hyperliquid-trading-bot](https://github.com/NoFxAi-OS/hyperliquid-trading-bot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
