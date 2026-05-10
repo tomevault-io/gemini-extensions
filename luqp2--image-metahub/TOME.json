@@ -4,7 +4,7 @@
   "repo": "Image-MetaHub",
   "description": "A desktop application for browsing, searching, and organizing AI-generated images locally. Designed for performance with large collections, focusing on powerful metadata filtering and complete privacy.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/LuqP2/Image-MetaHub",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T08:30:51Z"
+  "distributed_at": "2026-05-10T12:06:24Z"
 }
