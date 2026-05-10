@@ -7,11 +7,11 @@ Type‑safe LLM output for Clojure. Works with any text‑only model.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Blockether/svar](https://github.com/Blockether/svar).
+Original source: `CLAUDE.md` in [Blockether/svar](https://github.com/Blockether/svar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
