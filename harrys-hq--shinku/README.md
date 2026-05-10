@@ -1,0 +1,30 @@
+# ShinKu
+
+> Source: [Harrys-HQ/ShinKu](https://github.com/Harrys-HQ/ShinKu) — distributed by [TomeVault](https://tomevault.io)
+
+a modern, rebranded, and enhanced fork of TachiyomiSY/Mihon, designed for a immersive and intelligent manga-reading experience.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [Harrys-HQ/ShinKu](https://github.com/Harrys-HQ/ShinKu).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/Harrys-HQ/ShinKu](https://github.com/Harrys-HQ/ShinKu)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install Harrys-HQ/ShinKu
+```
+Source: [github.com/Harrys-HQ/ShinKu](https://github.com/Harrys-HQ/ShinKu).
+
+<!-- genome:d-i-q -->
