@@ -7,11 +7,11 @@ This is a presentation on embeddings for CodeMash 2026
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jrgleason/embeddings-demystified](https://github.com/jrgleason/embeddings-demystified).
+Original source: `CLAUDE.md` in [jrgleason/embeddings-demystified](https://github.com/jrgleason/embeddings-demystified).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
