@@ -7,13 +7,13 @@ Build production-ready Angular apps with ngXpress — a full-stack starter kit p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [angularcafe/ngXpress](https://github.com/angularcafe/ngXpress).
+Original source: `.cursor/rules/*.mdc` in [angularcafe/ngXpress](https://github.com/angularcafe/ngXpress).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
