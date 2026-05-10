@@ -4,7 +4,7 @@
   "repo": "tsu-stack",
   "description": "Vite Plus (Vite+) TanStack Start monorepo with Paraglide.js (i18n), Hono, oRPC, drizzle-orm, better-auth, Feature-Sliced Design (FSD), and more. Dockerized and opinionated.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tsu-moe/tsu-stack",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T04:52:20Z"
+  "distributed_at": "2026-05-10T01:02:03Z"
 }
