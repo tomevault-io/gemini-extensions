@@ -7,11 +7,11 @@ The orchestrator for Claws
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [clawnetes/Clawnetes](https://github.com/clawnetes/Clawnetes).
+Original source: `CLAUDE.md` in [clawnetes/Clawnetes](https://github.com/clawnetes/Clawnetes).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
