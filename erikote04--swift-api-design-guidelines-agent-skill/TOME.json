@@ -4,7 +4,7 @@
   "repo": "Swift-API-Design-Guidelines-Agent-Skill",
   "description": "Swift API Design Guidelines Agent Skill for AI coding tools that support the Agent Skills open format. It provides practical, structured guidance for API naming, argument labels, terminology, documentation comments, and conventions, with a workflow-driven `SKILL.md`, focused reference modules, and plugin/workflow support for team adoption.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Erikote04/Swift-API-Design-Guidelines-Agent-Skill",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T11:59:02Z"
+  "distributed_at": "2026-05-10T17:32:53Z"
 }
