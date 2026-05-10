@@ -1,24 +1,39 @@
 # Codex-Workspace
 
-> Tome by [RichardGeorgeDavis](https://github.com/RichardGeorgeDavis/Codex-Workspace) — distributed by [TomeVault](https://tomevault.io/claim/RichardGeorgeDavis)
+> Tome by [RichardGeorgeDavis](https://github.com/RichardGeorgeDavis/Codex-Workspace) — distributed by [TomeVault](https://tomevault.io)
+
+AI instruction skills by RichardGeorgeDavis
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [RichardGeorgeDavis/Codex-Workspace](https://github.com/RichardGeorgeDavis/Codex-Workspace).
+Original source: `AGENTS.md` in [RichardGeorgeDavis/Codex-Workspace](https://github.com/RichardGeorgeDavis/Codex-Workspace).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/RichardGeorgeDavis)
+## Bundled Skills (10)
+
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/agent-tooling-doctor/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/quality-gate/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/repo-onboarding/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/runtime-triage/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/security-check/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/typescript-review/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/workspace-maintenance/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/.agents/skills/workspace-quality-gate/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/shared/skills/runtime-triage/SKILL.md)
+- [SKILL.md](https://github.com/RichardGeorgeDavis/Codex-Workspace/tree/main/shared/skills/workspace-maintenance/SKILL.md)
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/RichardGeorgeDavis/Codex-Workspace](https://github.com/RichardGeorgeDavis/Codex-Workspace)
 
 ---
 
-Is this your repo? [Claim it](https://tomevault.io/claim/RichardGeorgeDavis) to manage distribution and track installs.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
 
 <!-- genome:t-c-p -->
