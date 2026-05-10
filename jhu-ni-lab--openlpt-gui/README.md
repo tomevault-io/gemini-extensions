@@ -7,11 +7,11 @@ OpenLPT: An open-source Lagrangian Particle Tracking (LPT) GUI for 3D fluid flow
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [JHU-NI-LAB/OpenLPT_GUI](https://github.com/JHU-NI-LAB/OpenLPT_GUI).
+Original source: `CLAUDE.md` in [JHU-NI-LAB/OpenLPT_GUI](https://github.com/JHU-NI-LAB/OpenLPT_GUI).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
