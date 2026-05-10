@@ -7,11 +7,11 @@ The bare minimum deployable Gista.js website. React Router v7 + Tailwind + daisy
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gistajs/website](https://github.com/gistajs/website).
+Original source: `CLAUDE.md` in [gistajs/website](https://github.com/gistajs/website).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
