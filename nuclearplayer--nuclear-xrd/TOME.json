@@ -4,7 +4,7 @@
   "repo": "nuclear-xrd",
   "description": "Moved to nukeop/nuclear",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/NuclearPlayer/nuclear-xrd",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T17:43:01Z"
+  "distributed_at": "2026-05-10T22:44:24Z"
 }
