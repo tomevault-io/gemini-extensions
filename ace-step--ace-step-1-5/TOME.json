@@ -4,7 +4,7 @@
   "repo": "ACE-Step-1.5",
   "description": "The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/ace-step/ACE-Step-1.5",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T10:56:01Z"
+  "distributed_at": "2026-05-10T14:00:54Z"
 }
