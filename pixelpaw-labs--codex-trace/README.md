@@ -7,11 +7,11 @@ Real-time viewer for Codex session logs — desktop app, web
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PixelPaw-Labs/codex-trace](https://github.com/PixelPaw-Labs/codex-trace).
+Original source: `CLAUDE.md` in [PixelPaw-Labs/codex-trace](https://github.com/PixelPaw-Labs/codex-trace).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
