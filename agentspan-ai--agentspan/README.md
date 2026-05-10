@@ -7,11 +7,11 @@ Durable, Distributed runtime for ALL of your agents - OpenAI, ADK, Langchain, Ve
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [agentspan-ai/agentspan](https://github.com/agentspan-ai/agentspan).
+Original source: `CLAUDE.md` in [agentspan-ai/agentspan](https://github.com/agentspan-ai/agentspan).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
