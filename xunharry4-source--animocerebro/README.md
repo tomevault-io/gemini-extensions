@@ -7,11 +7,11 @@ Universal cognitive engine for AI. Features autonomy, self-reflection, and conti
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [xunharry4-source/AnimoCerebro](https://github.com/xunharry4-source/AnimoCerebro).
+Original source: `CLAUDE.md` in [xunharry4-source/AnimoCerebro](https://github.com/xunharry4-source/AnimoCerebro).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
