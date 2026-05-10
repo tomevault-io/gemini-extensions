@@ -7,11 +7,11 @@ Design thinking agentic engineering framework
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [CGSOG-JumpStarts/JumpStart-AutoNav](https://github.com/CGSOG-JumpStarts/JumpStart-AutoNav).
+Original source: `CLAUDE.md` in [CGSOG-JumpStarts/JumpStart-AutoNav](https://github.com/CGSOG-JumpStarts/JumpStart-AutoNav).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
