@@ -1,0 +1,377 @@
+## rules
+
+> project rules
+
+
+# Cursor Rules
+
+---
+
+## 1. 🎯 Introduction & Purpose
+
+**Mission**  
+Enable **end-to-end development inside Cursor chat** with minimal context. Cursor should:
+
+- Understand the boilerplate architecture.
+- Enforce rules and structure from `docs/architecture.md`.
+- Validate and generate Hygen JSON schemas.
+- Run the correct Hygen commands automatically.
+- Maintain adherence to hexagonal architecture.
+- Guide developers through project creation inside Cursor.
+
+---
+
+## 2. 🧭 Core Principles & Naming Conventions
+
+### Core Principles
+
+- **Single source of truth**: Adhere to `docs/architecture.md`; don’t invent new patterns.
+- **Type safety first**: Avoid `any`. Every public API must have explicit types.
+- **Hexagonal architecture**: Services ↔ domain, repositories ↔ persistence, mappers handle conversions.
+- **Small, focused changes**: Scope edits to one concern.
+- **Cursor as assistant**: Act as a domain-aware guide—not a generic code generator.
+
+### Naming & File Conventions
+
+- **Classes / Types / Interfaces**: `PascalCase`
+- **Variables / Functions / Methods**: `camelCase`
+- **Files & Directories**: `kebab-case`
+- **Environment Variables**: `UPPER_SNAKE_CASE`
+
+Other guidelines:
+
+- Avoid magic numbers—define constants.
+- Boolean variables use verbs: `isLoading`, `hasError`, `canDelete`.
+
+## 3. 🏗️ Architecture & Module Layout
+
+Keep modules consistently structured:
+
+### Parent Module Layout
+
+```
+src/[module]/
+├── domain/[DOMAIN].ts
+├── dto/
+│   ├── create.dto.ts
+│   ├── find-all.dto.ts
+│   └── update.dto.ts
+├── infrastructure/persistence/
+│   ├── [PORT].repository.ts
+│   ├── relational/
+│   │   ├── entities/[ENTITY].ts
+│   │   ├── mappers/[MAPPER].ts
+│   │   ├── repositories/[ADAPTER].repository.ts
+│   │   └── relational-persistence.module.ts
+│   └── document/
+├── controller.ts
+├── service.ts
+└── module.ts
+```
+
+### Sub-entity Structure
+
+- Shares parent’s controller, service, module, and repository port/adapter.
+- Adds:
+  - `domain/[Child].ts`
+  - `infrastructure/persistence/relational/entities/[child_entity].ts`
+  - `infrastructure/persistence/relational/mappers/[child_mapper].ts`
+
+---
+
+## 4. 🧩 Hygen Generators
+
+Cursor must know and run Hygen generators from `docs/hygen/`.
+
+### Batch Generator
+
+The batch generator supports comprehensive code generation from a single JSON file:
+
+- **Supports**: entities, sub-entities, relationships, and enums independently or in combination
+- **Input**: Array of objects in `.hygen-entities-generator/entities-generator.json`
+- **Command**: `npm run generate:entities`
+- **File**: `.hygen-entities-generator/index.js`
+- **Samples**: `.hygen-sample-files/`
+
+**Key Features:**
+
+- Generates parent resources, sub-entities, relationships, and enums in correct order
+- Supports partial input (only entities, only relationships, only enums, or any combination)
+- Idempotent runs - skips existing files
+- Automatic cleanup and linting after generation
+
+#### SQL to JSON Conversion
+
+When users provide SQL `CREATE TABLE` statements and ask to create JSON schemas, use the [SQL to JSON Entities Prompt](docs/hygen/sql-to-json-entities-prompt.md) to generate complex or simple JSON based on the provided SQL and use it in `.hygen-entities-generator/entities-generator.json`
+
+### Individual Generators
+
+Each generator supports both interactive prompts and JSON-driven generation:
+
+**Multi-Support Generators** (Interactive + JSON):
+
+- **Resource-entity**: `npm run generate:resource`
+- **Sub-entity**: `npm run generate:sub-entity`
+- **Relationship**: `npm run generate:relationship`
+- **Enum**: `npm run generate:enum`
+
+**Interactive-Only Generators** (Command prompts only):
+
+- **Property**: `npm run add:property`
+- **Raw Query**: `npm run generate:raw-query`
+- **Version**: see `docs/hygen/version.md`
+
+**JSON Usage**: When using JSON, generators accept a single JSON object via `DATA_FILE` environment variable.
+
+### 📑 JSON Schemas & Validation
+
+Cursor should validate/generate json objects based on following schema examples:
+
+```jsonc
+// Resource-Entity
+{
+  "parent": null,
+  "name": "EntityName",
+  "functionalities": ["create","findAll","findAllWithSearch","findOne","update","delete"],
+  "fields": [{
+        "name": "name",
+        "type": "varchar",
+        "customType": "",
+        "optional": false,
+        "example": "League",
+        "dto": true,
+        "associatedEnumName": "MatchCategory",
+        "unique": true
+      }],
+  "relations": [], // may have values depending upon the requirements
+  "enums": [] // may have values depending upon the requirements
+}
+
+// Sub-entity
+{
+  "parent": "ParentEntityName",
+  "name": "ChildEntityName",
+  "functionalities": ["create","findAll","findAllWithSearch","findOne","update","delete"],
+  "fields": [{
+        "name": "name",
+        "type": "varchar",
+        "customType": "",
+        "optional": false,
+        "example": "League",
+        "dto": true,
+        "associatedEnumName": "MatchCategory",
+        "unique": true
+      }],
+  "enums": [], // may have values depending upon the requirements
+  "relations": [] // may have values depending upon the requirements
+}
+
+// Relationship
+{
+  "sourceEntityName": "Coach",
+  "sourceEntityParent": null,
+  "relationType": "OneToOne",
+  "relationEntityParent": null,
+  "relationEntityName": "Team",
+  "sourceColumnName": "team_id",
+  "relationFieldName": null
+}
+
+// Enum
+{
+  "entityName": "User",
+  "entityParent": null,
+  "enumName": "UserRole",
+  "enumValues": ["ADMIN", "USER"]
+}
+```
+
+> **Note on Functionalities**: You can add either `"findAll"` or `"findAllWithSearch"` in the functionalities array. If both are present, `findAllWithSearch` will be used and `findAll` will be automatically removed during processing.
+
+**Validation Rules**
+
+- Resource: must have `name`, `functionalities[]`, and `fields[]` with `name` + `type`
+- Sub-entity: must have `parent` + `name`
+- Relationship: requires `sourceEntityName`, `relationEntityName`, `relationType`
+- Enum: requires `entityName`, `enumName`, and `enumValues[]` array
+- **Functionalities**: You can include either `"findAll"` or `"findAllWithSearch"` (or both, but `findAllWithSearch` will be preferred and `findAll` will be removed automatically)
+- **Field attributes**: `unique` is optional boolean, set to `true` to add a unique constraint to the database column (maps to SQL `UNIQUE` constraint and TypeORM's `unique: true` option)
+
+---
+
+## 5. 🚀 Project Setup Script
+
+The setup script provides **end-to-end project initialization** from clone to running server:
+
+- **Command**: `npm run setup`
+- **Purpose**: Complete project setup with working server + Swagger
+- **Process**: Environment → Dependencies → Database → Customization → Entity Generation → Build & Start
+- **Prerequisites**: Docker, Node.js, PostgreSQL database, updated `env-example-relational`
+- **Output**: Fully functional API server at `http://localhost:3000` with Swagger docs
+
+**Setup Types**:
+
+- **Boilerplate**: Base application with default modules
+- **Custom**: Add your own entities via migration file + JSON schema
+  - **Custom Migration File**: Add your custom schema to a new migration file
+    - Reference: [create-a-new-migration-file](docs/database.md#create-a-new-migration-without-existing-entities)
+  - **Entity Schema JSON**: Create `.hygen-entities-generator/entities-generator.json`
+    - Sample: `.hygen-sample-files/sample-entities-generator.json`
+    - Reference Prompt: [SQL to JSON Conversion](#sql-to-json-conversion)
+
+## 6. 🧪 Testing Rules
+
+This project provides comprehensive testing support with multiple testing strategies:
+
+- **Unit Tests**: Individual component testing with Jest
+- **E2E Tests**: End-to-end integration testing with Docker support
+- **Load Tests**: Performance testing with Artillery
+- **Docker Testing**: Containerized test environments for CI/CD
+
+**Key Commands**: `npm run test`, `npm run test:e2e`, `artillery run <file-path>`
+**File Locations**:
+
+1. **Unit tests**: Create `<file>.spec.ts` at same level as source file
+2. **E2E tests**: Create `test/<module>/<file>.e2e-spec.ts`
+3. **Load tests**: Create `load-test/<module>/<module>-load-test.yml`
+4. **Generate reports for load tests**: Load test reports in `load-test/<module>/<module>-load-test-report.md`
+
+---
+
+## 7. ⚙️ Cursor Workflow Sequence
+
+### General
+
+1. Always keep the **hexagonal architecture** and `docs/architecture.md` rules in context.
+2. While adding new APIs, business logic, or modifying existing ones, ensure that **domain, application, and infrastructure boundaries remain intact**.
+3. Avoid **direct dependencies** between layers (e.g., services/controllers importing persistence entities).
+4. Follow **naming conventions consistently** (camelCase for DTOs/API, snake_case for persistence, entities).
+5. When in doubt, prefer **explicitness over magic** (clear function names, explicit mappers).
+
+### Hygen
+
+Cursor must follow a clear, ordered process:
+
+1. **Detect intent**: [Batch Generator](#batch-generator) OR [Individual Generators](#individual-generators)
+2. **Validate input JSON**: check shape; propose minimal valid version if needed.
+3. **Generate JSON**: place under `.hygen-entities-generator/`.
+4. **Run appropriate Hygen generator**.
+5. **Enforce architecture**:
+   - Services/controllers must not import persistence entities.
+   - DTOs/API use camelCase; persistence uses snake_case.
+   - Repositories are focused, not generic.
+   - Mappers handle conversions.
+6. **Lint & test**: enforce import order, no unused vars, no floating promises.
+7. **Suggest next steps**: tests, load tests, related entities.
+
+**Quick Flow**: Intent → JSON → Generation → Architecture validation → Lint/tests → Guidance.
+
+### Setup Script
+
+When users need complete project setup from clone to running server:
+
+1. **Check prerequisites**: Docker, Node.js, PostgreSQL database
+2. **Update environment**: Ensure `env-example-relational` has correct database credentials
+3. **Run setup**: `npm run setup`
+4. **Custom setup type**: Ensure prerequisites files are present when user choose custom setup type
+5. **Verify output**: Server running at `http://localhost:3000/docs` with Swagger docs
+
+---
+
+## 8. 🔗 Links (single source of truth)
+
+- Architecture: [docs/architecture.md](docs/architecture.md)
+- Hygen: [docs/hygen/index.md](docs/hygen/index.md)
+  - SQL to JSON Entities Prompt: [docs/hygen/sql-to-json-entities-prompt.md](docs/hygen/sql-to-json-entities-prompt.md)
+  - Entities (Batch): [docs/hygen/entities.md](docs/hygen/entities.md)
+  - Resource: [docs/hygen/resource-entity.md](docs/hygen/resource-entity.md)
+  - Sub-entity: [docs/hygen/sub-entity.md](docs/hygen/sub-entity.md)
+  - Relationship: [docs/hygen/relationship.md](docs/hygen/relationship.md)
+  - Enum: [docs/hygen/enum.md](docs/hygen/enum.md)
+  - Property: [docs/hygen/property.md](docs/hygen/property.md)
+  - Raw queries: [docs/hygen/raw-query.md](docs/hygen/raw-query.md)
+  - Version: [docs/hygen/version.md](docs/hygen/version.md)
+- Tests: [docs/tests.md](docs/tests.md)
+- Load Testing: [docs/artillery.md](docs/artillery.md)
+- Project rename: [docs/project-rename.md](docs/project-rename.md)
+- Setup Script: [docs/setup-script.md](docs/setup-script.md)
+
+---
+
+## 9. 🚨 Critical Items
+
+**MANDATORY: ALWAYS review `.cursorrules` before executing ANY user request:**
+
+- **BEFORE** responding to any user question, query, or request
+- **READ** the complete `.cursorrules` context and all linked documentation
+- **FOLLOW** the specific workflows and rules outlined in this document
+- **NEVER** proceed without understanding the project's architecture and requirements
+
+**SQL to JSON Conversion MUST follow the exact prompt:**
+
+- **ALWAYS** read and follow [SQL to JSON Entities Prompt](docs/hygen/sql-to-json-entities-prompt.md)
+- **NEVER** generate JSON from SQL without following the prompt's exact specifications
+- **USE** the prompt's field naming conventions (snake_case), relation structures, and required keys
+- **INCLUDE** all required keys: name, parent, isAddTestCase, functionalities, fields, relations, enums
+- **VALIDATE** against the prompt's specifications before proceeding
+
+**ALL commands involving `npm run` MUST be executed using bash login shell:**
+
+```bash
+# ✅ CORRECT - Use source ~/.bashrc && for npm commands
+source ~/.bashrc && npm run project:rename -- my-cool-project my-test-project
+source ~/.bashrc && npm run generate:resource
+
+# ❌ WRONG - Direct npm commands may fail in chat tool
+npm run generate:resource
+```
+
+**When JSON is provided for Hygen commands, ALWAYS use DATA_FILE environment variable:**
+
+```bash
+# ✅ CORRECT - Use DATA_FILE for JSON-based Hygen commands
+source ~/.bashrc && DATA_FILE=.hygen-entities-generator/match-stadium.json npm run generate:relationship
+
+# ❌ WRONG - Direct commands without DATA_FILE will trigger interactive mode
+source ~/.bashrc && npm run generate:relationship
+```
+
+**After ANY Hygen command execution, ALWAYS run build check:**
+
+```bash
+# ✅ REQUIRED after Hygen commands
+source ~/.bashrc && npm run build
+```
+
+**After ANY Hygen command execution, ALWAYS run eslint check:**
+
+```bash
+# ✅ REQUIRED after Hygen commands
+source ~/.bashrc && npm run lint --fix
+```
+
+## 10. ✅ Developer Checklist
+
+Ensure everything is in place before finalizing:
+
+- DTOs exist for all operations, validated with `class-validator` + `ValidationPipe`, and follow camelCase naming.
+- Services depend only on repository ports; no persistence imports allowed.
+- Business logic is implemented strictly in the service/domain layer.
+- Mappers exist for every domain ↔ persistence conversion; no implicit conversions.
+- All APIs and repositories are explicitly typed; no usage of `any`.
+- Input JSON is validated and stored under `.hygen-entities-generator/`.
+- Generators handle resources, sub-entities, and relationships independently or in combination.
+- ESLint and Prettier checks pass (import order, formatting, no floating promises).
+- Unit tests exist for public methods; E2E/load tests are added where required.
+- A summary of generated files is included in the response.
+
+### Review Process
+
+- Self-review documentation and code.
+- Review the items mentioned in the 🚨 Critical section
+- Peer technical review.
+- Final formatting and style check.
+
+---
+> Source: [hhsadiq/NestForge](https://github.com/hhsadiq/NestForge) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-05 -->
