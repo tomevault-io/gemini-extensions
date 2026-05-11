@@ -7,12 +7,12 @@ VS Code Extension that shows information about the estimated token usage of GitH
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [rajbos/ai-engineering-fluency](https://github.com/rajbos/ai-engineering-fluency).
+Original source: `AGENTS.md` in [rajbos/ai-engineering-fluency](https://github.com/rajbos/ai-engineering-fluency).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
