@@ -4,7 +4,7 @@
   "repo": "obsidian-easy-tracker",
   "description": "An Obsidian plugin for ultra-simple goal and habit tracking in any note.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/hunter-ji/obsidian-easy-tracker",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T18:24:38Z"
+  "distributed_at": "2026-05-11T16:47:18Z"
 }
