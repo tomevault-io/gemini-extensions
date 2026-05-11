@@ -1,40 +1,41 @@
 ## esupgrade
 
-> When writing code, you MUST ALWAYS follow the [naming guidelines](https://raw.githubusercontent.com/codingjoe/naming-things/refs/heads/main/README.md).
+> The package includes transformers for upgrading JavaScript syntax.
 
-When writing code, you MUST ALWAYS follow the [naming guidelines](https://raw.githubusercontent.com/codingjoe/naming-things/refs/heads/main/README.md).
+# esupgrade
 
-Usage:
+The package includes transformers for upgrading JavaScript syntax.
 
-```console
-curl -sL https://raw.githubusercontent.com/codingjoe/naming-things/refs/heads/main/README.md
+## Categories
+
+- [Widely Available](./src/widelyAvailable/): Transformers for features available in all major browsers for at least 30 months.
+- [Newly Available](./src/newlyAvailable/): Transformers for features available in all major browsers for 0-30 months.
+
+For a full list of transformations, see [README.md](./README.md).
+
+## Package Structure
+
+- [bin/](./bin/): Command-line interface script.
+- [src/](./src/): Source code and transformers.
+- [tests/](./tests/): Test suite.
+
+For contributing guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Instructions
+
+Use EOF syntax to run node scripts directly from the command line. For example:
+
+```bash
+node --input-type=module <<'EOF'
+import { transform } from './src/index.js';
+
+const sample = "const v = $(input).val();";
+const res = transform(sample);
+console.log('modified:', res.modified);
+console.log('code:\n' + res.code);
+EOF
 ```
 
-All code must be fully tested with a 100% coverage. Unreachable code must be removed.
-Follow the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines for testing and linting.
-The test suite will fail if the line coverage is below 100%.
-The test coverage will be written to stdout when running the tests via `npm test | grep -v '100.00'`.
-
-All transformers must be documented in the README.md.
-
-Use class syntax for all object-oriented code.
-Use named functions instead of anonymous functions whenever possible.
-Use `#` for private methods.
-
-Avoid overly complex functions. Break them into smaller functions if necessary.
-
-Write docstrings with jsdoc type annotations for all functions, classes, and methods.
-Docstrings should be written in present tense imperative mood.
-They must start with a capital letter and end with a period.
-Docstrings must describe the external behavior of the function, class, or method.
-Docstrings should avoid redundant phrases like "This function" or "This method".
-Class docstrings must not repeat the class name or start with a verb since they don't do anything themselves.
-Avoid code comments unless they describe behavior of 3rd party code or complex algorithms.
-Avoid loops in favor of recursive functions or generator functions.
-Avoid functions or other code inside functions.
-Avoid if-statements in favor of switch-statements or polymorphism.
-Do not assign names to objects which are returned in the next line.
-
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/codingjoe) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-10 -->
+> Source: [codingjoe/esupgrade](https://github.com/codingjoe/esupgrade) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-04 -->
