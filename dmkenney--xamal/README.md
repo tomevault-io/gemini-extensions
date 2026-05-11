@@ -7,11 +7,11 @@ Deploy Elixir apps to bare metal servers. Like Kamal, but with native releases +
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dmkenney/xamal](https://github.com/dmkenney/xamal).
+Original source: `CLAUDE.md` in [dmkenney/xamal](https://github.com/dmkenney/xamal).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
