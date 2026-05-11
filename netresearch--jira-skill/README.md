@@ -7,11 +7,11 @@ AI agent plugin for Jira — CLI tools for issues, worklogs, sprints, and more |
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [netresearch/jira-skill](https://github.com/netresearch/jira-skill).
+Original source: `CLAUDE.md` in [netresearch/jira-skill](https://github.com/netresearch/jira-skill).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
