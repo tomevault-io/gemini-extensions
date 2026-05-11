@@ -7,11 +7,11 @@ The most compact professional VU meter plugin available. for VST/AU/AAX/LV2/CLAP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Jun-Murakami/TinyVU](https://github.com/Jun-Murakami/TinyVU).
+Original source: `CLAUDE.md` in [Jun-Murakami/TinyVU](https://github.com/Jun-Murakami/TinyVU).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
