@@ -2,14 +2,16 @@
 
 > Sourced from [ManageXR/claude-unity-bridge](https://github.com/ManageXR/claude-unity-bridge) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+A file-based Command Protocol enabling Claude Code to trigger Unity Editor operations. Built for multi-agent and highly parallelized workflows.
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ManageXR/claude-unity-bridge](https://github.com/ManageXR/claude-unity-bridge).
+Original source: `AGENTS.md` in [ManageXR/claude-unity-bridge](https://github.com/ManageXR/claude-unity-bridge).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
