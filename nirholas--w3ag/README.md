@@ -7,11 +7,11 @@ Web3 Accessibility Guidelines (W3AG) is the first open standard for making block
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nirholas/w3ag](https://github.com/nirholas/w3ag).
+Original source: `CLAUDE.md` in [nirholas/w3ag](https://github.com/nirholas/w3ag).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
