@@ -7,11 +7,11 @@ Yet another awesome NotebookLM driver for Claude Code, Codex, OpenCode, Antigrav
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [magicseek/nblm](https://github.com/magicseek/nblm).
+Original source: `CLAUDE.md` in [magicseek/nblm](https://github.com/magicseek/nblm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
