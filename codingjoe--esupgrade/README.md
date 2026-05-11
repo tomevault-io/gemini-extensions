@@ -1,21 +1,23 @@
 # esupgrade
 
-> Tome by [codingjoe](https://github.com/codingjoe/esupgrade) — distributed by [TomeVault](https://tomevault.io/claim/codingjoe)
+> Tome by [codingjoe](https://github.com/codingjoe/esupgrade) — distributed by [TomeVault](https://tomevault.io)
+
+Auto-upgrade your JavaScript syntax
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [codingjoe/esupgrade](https://github.com/codingjoe/esupgrade).
+Original source: `AGENTS.md` in [codingjoe/esupgrade](https://github.com/codingjoe/esupgrade).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/codingjoe)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/codingjoe/esupgrade](https://github.com/codingjoe/esupgrade)
 
 ---
 
