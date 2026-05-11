@@ -7,11 +7,11 @@ A monorepo of MCPE related tools in Rust. Transport layers, game protocol and se
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [axolotl-stack/axolotl-stack](https://github.com/axolotl-stack/axolotl-stack).
+Original source: `CLAUDE.md` in [axolotl-stack/axolotl-stack](https://github.com/axolotl-stack/axolotl-stack).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
