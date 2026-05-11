@@ -1,0 +1,30 @@
+# wansan-studio
+
+> Source: [wansanai/wansan-studio](https://github.com/wansanai/wansan-studio) — distributed by [TomeVault](https://tomevault.io)
+
+A Local-First, AI-driven BI desktop app | 一款本地优先的智能商业分析桌面端。Turn local data into professional charts privately via natural language.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [wansanai/wansan-studio](https://github.com/wansanai/wansan-studio).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/wansanai/wansan-studio](https://github.com/wansanai/wansan-studio)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install wansanai/wansan-studio
+```
+Source: [github.com/wansanai/wansan-studio](https://github.com/wansanai/wansan-studio).
+
+<!-- genome:d-i-q -->
