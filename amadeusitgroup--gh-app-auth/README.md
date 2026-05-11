@@ -7,12 +7,12 @@ GitHub CLI extension for Git credential authentication using GitHub Apps and PAT
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [AmadeusITGroup/gh-app-auth](https://github.com/AmadeusITGroup/gh-app-auth).
+Original source: `AGENTS.md` in [AmadeusITGroup/gh-app-auth](https://github.com/AmadeusITGroup/gh-app-auth).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
