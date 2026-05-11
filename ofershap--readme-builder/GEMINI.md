@@ -1,0 +1,81 @@
+## project
+
+> Visual drag-and-drop README editor. React 19 + TypeScript strict + Tailwind 4 + Vite 7.
+
+# readme-builder
+
+Visual drag-and-drop README editor. React 19 + TypeScript strict + Tailwind 4 + Vite 7.
+
+## Architecture
+
+```
+src/
+  store.ts           — Zustand + zundo. Single store: blocks[], markdown string, selectedBlockId
+  types.ts           — Block, BlockType, all *Props interfaces, SocialLink
+  blocks/
+    registry.ts      — BLOCK_DEFINITIONS array: type, label, icon, defaultProps
+    markdown.ts      — blockToMarkdown() + generateMarkdown(): Block[] → GFM string
+    parser.ts        — parseMarkdown(): markdown string → Block[] (lossy for unsupported nodes)
+  components/
+    Canvas.tsx       — @dnd-kit sortable block list (top 35%) + BlockEditor panel (bottom 65%)
+    BlockEditor.tsx  — Per-type editor: one function per BlockType, all in one file
+    BlockPalette.tsx — Left sidebar icon strip for adding blocks
+    Preview.tsx      — react-markdown + remark-gfm + rehype-raw, dark/light toggle
+    Toolbar.tsx      — Top bar: tabs, undo/redo, reset, templates, import/export/copy, GitHub link
+    TemplateModal.tsx— 4 templates: Minimal Library, Full Project, CLI Tool, GitHub Profile
+    MarkdownTab.tsx  — CodeMirror 6 readonly markdown view
+    ImportModal.tsx  — Import from paste, file upload, or GitHub repo URL
+```
+
+## Key patterns
+
+- Block lifecycle: palette click → addBlock(type) → Canvas shows it → click to select → editor opens → updateBlock(id, props) → store recalculates markdown → Preview re-renders
+- All state in one Zustand store with temporal (zundo) middleware for undo/redo
+- Blocks persist to localStorage on every mutation
+- Markdown generation is synchronous, runs on every block change
+- No backend, no auth, no tracking — fully client-side SPA
+
+## React compiler lint rules (IMPORTANT)
+
+ESLint uses react-hooks/refs and react-hooks/set-state-in-effect from the React compiler plugin. These are strict:
+
+- **Cannot read/write ref.current during render** — use useEffect or key-based remounting instead
+- **Cannot call setState synchronously inside useEffect** — derive state from props or use key to reset
+- Pattern for resetting state on prop change: `<Inner key={prop} />` (remounts component, resets all state)
+
+## Adding a new block type
+
+1. Add type name to `BlockType` union in `types.ts`
+2. Add props interface to `types.ts`, add to `BlockProps` union
+3. Add entry to `BLOCK_DEFINITIONS` in `blocks/registry.ts` (type, label, icon, defaultProps)
+4. Add `case` to `blockToMarkdown()` in `blocks/markdown.ts`
+5. Add editor function to `BlockEditor.tsx`, add to `EDITORS` record
+6. Optionally add parsing support in `blocks/parser.ts`
+7. Optionally add to templates in `TemplateModal.tsx` and defaults in `store.ts`
+
+## Deployment
+
+- GitHub Pages via `.github/workflows/deploy.yml` on push to main
+- Vite base path: `/readme-builder/`
+- Live at: https://ofershap.github.io/readme-builder/
+- Branch protection requires CI checks (build 20, build 22) to pass
+
+## SEO/GEO/LLM
+
+- `index.html` has OG tags, Twitter card, Schema.org JSON-LD
+- `public/llms.txt` served at /readme-builder/llms.txt
+- `.ai/CONTEXT.md` for AI coding assistants
+- Templates are SEO-optimized: proper heading hierarchy, descriptive alt text, FAQ sections
+
+## Self-promotion defaults
+
+All templates and default blocks use `ofershap` as the default username for GitShow card and social links. This is intentional — free exposure when users don't change it.
+
+## Demo GIF
+
+Regenerate with: `npm install --no-save playwright && node demo/capture.mjs`
+Requires dev server running and ffmpeg installed. See `.cursor/skills/capture-demo-gif/SKILL.md`.
+
+---
+> Source: [ofershap/readme-builder](https://github.com/ofershap/readme-builder) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-10 -->
