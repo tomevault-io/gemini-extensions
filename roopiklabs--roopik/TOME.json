@@ -4,7 +4,7 @@
   "repo": "roopik",
   "description": "A canvas-first, agentic IDE for designers and developers, for fully autonomous web app development",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/RoopikLabs/roopik",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T15:11:27Z"
+  "distributed_at": "2026-05-11T14:22:09Z"
 }
