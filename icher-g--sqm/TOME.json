@@ -4,7 +4,7 @@
   "repo": "sqm",
   "description": "SQM (Structured Query Model) is a Java framework for representing SQL as a typed immutable model and running end-to-end SQL pipelines. It supports parse, validate, transform/rewrite, render, serialize, and runtime policy enforcement across multiple dialects and transports.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/icher-g/sqm",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T07:35:55Z"
+  "distributed_at": "2026-05-11T20:58:06Z"
 }
