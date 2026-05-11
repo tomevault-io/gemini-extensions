@@ -1,0 +1,26 @@
+# cov-loupe
+
+> Tome by [keithrbennett](https://github.com/keithrbennett/cov-loupe) — distributed by [TomeVault](https://tomevault.io)
+
+Refines Ruby Simplecov test coverage data as CLI, MCP server, and library
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [keithrbennett/cov-loupe](https://github.com/keithrbennett/cov-loupe).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [keithrbennett/cov-loupe](https://github.com/keithrbennett/cov-loupe) — a repo with 44+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:t-e-s -->
