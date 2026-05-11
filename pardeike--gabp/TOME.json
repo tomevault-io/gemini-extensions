@@ -4,7 +4,7 @@
   "repo": "GABP",
   "description": "Game Agent Bridge Protocol",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/pardeike/GABP",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T07:48:10Z"
+  "distributed_at": "2026-05-11T21:11:30Z"
 }
