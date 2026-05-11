@@ -7,11 +7,11 @@ Template ChatGPT app - Designed to be modified by Claude Code or other coding ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [sebderhy/mcp-app-template](https://github.com/sebderhy/mcp-app-template).
+Original source: `CLAUDE.md` in [sebderhy/mcp-app-template](https://github.com/sebderhy/mcp-app-template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
