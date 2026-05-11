@@ -7,13 +7,13 @@ AI Code Review for GitHub - OSS Coderabbit and Greptile
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [eersnington/diff0](https://github.com/eersnington/diff0).
+Original source: `AGENTS.md` in [eersnington/diff0](https://github.com/eersnington/diff0).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
