@@ -7,12 +7,12 @@ Lucia is your whole home assistant that you always wanted
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [seiggy/lucia-dotnet](https://github.com/seiggy/lucia-dotnet).
+Original source: `AGENTS.md` in [seiggy/lucia-dotnet](https://github.com/seiggy/lucia-dotnet).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
