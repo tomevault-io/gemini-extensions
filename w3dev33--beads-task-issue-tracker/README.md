@@ -7,11 +7,11 @@ This project's successor is PaiR (v0.25.0) — download at https://pair.w3dev.fr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [w3dev33/beads-task-issue-tracker](https://github.com/w3dev33/beads-task-issue-tracker).
+Original source: `CLAUDE.md` in [w3dev33/beads-task-issue-tracker](https://github.com/w3dev33/beads-task-issue-tracker).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
