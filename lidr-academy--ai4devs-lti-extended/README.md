@@ -7,13 +7,13 @@ Repository with several experiments from live sessions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [LIDR-academy/AI4Devs-LTI-extended](https://github.com/LIDR-academy/AI4Devs-LTI-extended).
+Original source: `AGENTS.md` in [LIDR-academy/AI4Devs-LTI-extended](https://github.com/LIDR-academy/AI4Devs-LTI-extended).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
