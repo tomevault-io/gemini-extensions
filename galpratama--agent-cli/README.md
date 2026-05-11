@@ -7,11 +7,11 @@ A beautiful Terminal UI for launching multiple AI providers from a single comman
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [galpratama/agent-cli](https://github.com/galpratama/agent-cli).
+Original source: `CLAUDE.md` in [galpratama/agent-cli](https://github.com/galpratama/agent-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
