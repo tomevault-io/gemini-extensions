@@ -4,7 +4,7 @@
   "repo": "ai-code-interface.el",
   "description": "Unified Emacs interface supporting OpenAI Codex, GitHub Copilot CLI, Claude Code, Gemini CLI, Opencode, and more",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tninja/ai-code-interface.el",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T18:19:16Z"
+  "distributed_at": "2026-05-11T01:47:03Z"
 }
