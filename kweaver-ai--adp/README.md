@@ -7,11 +7,11 @@ ADP is an intelligent data platform that bridges the gap between heterogeneous d
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kweaver-ai/adp](https://github.com/kweaver-ai/adp).
+Original source: `CLAUDE.md` in [kweaver-ai/adp](https://github.com/kweaver-ai/adp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
