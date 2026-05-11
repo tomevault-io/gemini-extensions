@@ -2,6 +2,8 @@
 
 > Tome by [dergigi](https://github.com/dergigi/boris) — distributed by [TomeVault](https://tomevault.io)
 
+Read with Boris.
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
