@@ -4,7 +4,7 @@
   "repo": "reactive-agents-ts",
   "description": "Composable TypeScript AI agent framework \u2014 Effect-TS type safety, 5 reasoning strategies, persistent gateway, real-time streaming, multi-agent A2A",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tylerjrbuell/reactive-agents-ts",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T15:34:51Z"
+  "distributed_at": "2026-05-11T14:58:28Z"
 }
