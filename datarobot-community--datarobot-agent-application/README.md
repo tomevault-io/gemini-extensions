@@ -7,13 +7,13 @@ DataRobot Agentic Starter Application Template
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [datarobot-community/datarobot-agent-application](https://github.com/datarobot-community/datarobot-agent-application).
+Original source: `AGENTS.md` in [datarobot-community/datarobot-agent-application](https://github.com/datarobot-community/datarobot-agent-application).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
