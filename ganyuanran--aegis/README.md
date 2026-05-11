@@ -1,0 +1,26 @@
+# AI instruction files for Aegis
+
+> Sourced from [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+让AI编码更严谨、更可控的架构驱动开发方法包，一键安装，提升代码质量！An upgraded Superpowers-based Architecture-Driven Development (ADD) Method Pack for AI coding agents: baseline-first, evidence-driven workflows, TLREF/DIVE/QA discipline, and dual-track governance across hosts.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis)
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:a-e-q -->
