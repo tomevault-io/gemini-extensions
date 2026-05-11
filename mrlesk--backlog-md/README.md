@@ -7,12 +7,12 @@ Backlog.md - A tool for managing project collaboration between humans and AI Age
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [MrLesk/Backlog.md](https://github.com/MrLesk/Backlog.md).
+Original source: `AGENTS.md` in [MrLesk/Backlog.md](https://github.com/MrLesk/Backlog.md).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
