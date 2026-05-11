@@ -7,12 +7,12 @@ SparkyFitness: Built for Families. Powered by AI. Track food, fitness, water, an
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness).
+Original source: `AGENTS.md` in [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
