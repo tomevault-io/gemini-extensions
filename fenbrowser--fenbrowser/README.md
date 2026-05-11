@@ -7,11 +7,11 @@ Fen Browser is an independent browser engine focused on correctness and clean ar
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FENBROWSER/fenbrowser](https://github.com/FENBROWSER/fenbrowser).
+Original source: `CLAUDE.md` in [FENBROWSER/fenbrowser](https://github.com/FENBROWSER/fenbrowser).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
