@@ -7,12 +7,12 @@ Define Claude Code hooks with full type safety.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [sushichan044/cc-hooks-ts](https://github.com/sushichan044/cc-hooks-ts).
+Original source: `AGENTS.md` in [sushichan044/cc-hooks-ts](https://github.com/sushichan044/cc-hooks-ts).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
