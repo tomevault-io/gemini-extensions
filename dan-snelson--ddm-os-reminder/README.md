@@ -7,12 +7,12 @@ Mac Admins’ new favorite, MDM-agnostic, “set-it-and-forget-it” end-user me
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [dan-snelson/DDM-OS-Reminder](https://github.com/dan-snelson/DDM-OS-Reminder).
+Original source: `AGENTS.md` in [dan-snelson/DDM-OS-Reminder](https://github.com/dan-snelson/DDM-OS-Reminder).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
