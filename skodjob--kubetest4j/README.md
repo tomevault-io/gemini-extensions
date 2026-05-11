@@ -7,11 +7,11 @@ Library for easy testing of kubernetes deployments and operators using fabric8 a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [skodjob/kubetest4j](https://github.com/skodjob/kubetest4j).
+Original source: `CLAUDE.md` in [skodjob/kubetest4j](https://github.com/skodjob/kubetest4j).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
