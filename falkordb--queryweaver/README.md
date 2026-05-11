@@ -7,12 +7,12 @@ An open-source Text2SQL tool that transforms natural language into SQL using gra
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [FalkorDB/QueryWeaver](https://github.com/FalkorDB/QueryWeaver).
+Original source: `AGENTS.md` in [FalkorDB/QueryWeaver](https://github.com/FalkorDB/QueryWeaver).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
