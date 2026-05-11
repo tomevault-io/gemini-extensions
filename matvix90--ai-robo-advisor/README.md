@@ -7,12 +7,12 @@ AI Robo-Advisor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [matvix90/ai-robo-advisor](https://github.com/matvix90/ai-robo-advisor).
+Original source: `AGENTS.md` in [matvix90/ai-robo-advisor](https://github.com/matvix90/ai-robo-advisor).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
