@@ -7,11 +7,11 @@ A minimal set of agent skills for high-quality UI and frontend work.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mblode/agent-skills](https://github.com/mblode/agent-skills).
+Original source: `CLAUDE.md` in [mblode/agent-skills](https://github.com/mblode/agent-skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
