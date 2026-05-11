@@ -4,7 +4,7 @@
   "repo": "emx-onnx-cgen",
   "description": "Deterministic ONNX-to-C compiler for embedded and safety-critical systems, generating static, auditable C code with no dynamic memory or runtime dependencies.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/emmtrix/emx-onnx-cgen",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T21:15:13Z"
+  "distributed_at": "2026-05-11T02:54:39Z"
 }
