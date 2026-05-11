@@ -7,11 +7,11 @@ A minimalist Stripe integration for Elixir.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [enoonan/pin_stripe](https://github.com/enoonan/pin_stripe).
+Original source: `CLAUDE.md` in [enoonan/pin_stripe](https://github.com/enoonan/pin_stripe).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
