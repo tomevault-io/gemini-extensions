@@ -4,7 +4,7 @@
   "repo": "awesome-netsuite-ai",
   "description": "A curated list of awesome NetSuite AI resources, tools, articles, and community contributions focused on the NetSuite AI Connector Service and MCP (Model Context Protocol) integration.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/michoelchaikin/awesome-netsuite-ai",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T14:25:38Z"
+  "distributed_at": "2026-05-11T23:10:36Z"
 }
