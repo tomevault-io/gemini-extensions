@@ -4,7 +4,7 @@
   "repo": "pg_exporter",
   "description": "A PostgreSQL metric exporter for Prometheus written in Rust",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/nbari/pg_exporter",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T21:40:04Z"
+  "distributed_at": "2026-05-11T17:57:09Z"
 }
