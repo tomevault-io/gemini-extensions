@@ -7,12 +7,12 @@ Technical Analysis Indicators - Pandas TA Classic is an easy to use Python 3 Pan
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [xgboosted/pandas-ta-classic](https://github.com/xgboosted/pandas-ta-classic).
+Original source: `AGENTS.md` in [xgboosted/pandas-ta-classic](https://github.com/xgboosted/pandas-ta-classic).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
