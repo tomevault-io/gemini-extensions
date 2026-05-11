@@ -4,7 +4,7 @@
   "repo": "ai-engineering-fluency",
   "description": "VS Code Extension that shows information about the estimated token usage of GitHub Copilot",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/rajbos/ai-engineering-fluency",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T21:30:56Z"
+  "distributed_at": "2026-05-11T17:49:59Z"
 }
