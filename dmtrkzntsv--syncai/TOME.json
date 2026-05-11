@@ -4,7 +4,7 @@
   "repo": "syncai",
   "description": "Sync AI rules and guidelines, and ignore files between agents",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/dmtrkzntsv/syncai",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T14:01:39Z"
+  "distributed_at": "2026-05-11T22:55:11Z"
 }
