@@ -2,9 +2,9 @@
   "name": "PRarena",
   "owner": "aavetis",
   "repo": "PRarena",
-  "description": "",
+  "description": "This repo tracks the opened and merged PRs by the top SWE coding agents by OpenAI, GitHub, and others. Updates regularly.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/aavetis",
+  "source_url": "https://github.com/aavetis/PRarena",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T19:51:10Z"
+  "distributed_at": "2026-05-11T10:26:53Z"
 }
