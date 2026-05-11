@@ -4,7 +4,7 @@
   "repo": "flint",
   "description": "[Experimental] A fast, friendly linter for JavaScript, TypeScript, and more. \u2764\ufe0f\u200d\ud83d\udd25",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/flint-fyi/flint",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T03:29:52Z"
+  "distributed_at": "2026-05-11T10:43:14Z"
 }
