@@ -7,12 +7,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [lsg1103275794/novel-writer-style-cn](https://github.com/lsg1103275794/novel-writer-style-cn).
+Original source: `CLAUDE.md` in [lsg1103275794/novel-writer-style-cn](https://github.com/lsg1103275794/novel-writer-style-cn).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
