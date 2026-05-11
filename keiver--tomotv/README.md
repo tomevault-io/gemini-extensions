@@ -7,11 +7,11 @@ Jellyfin media client for Apple TV
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [keiver/tomotv](https://github.com/keiver/tomotv).
+Original source: `CLAUDE.md` in [keiver/tomotv](https://github.com/keiver/tomotv).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
