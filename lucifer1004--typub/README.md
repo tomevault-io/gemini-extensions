@@ -7,11 +7,11 @@ Typub - A Typst-first local CMS
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lucifer1004/typub](https://github.com/lucifer1004/typub).
+Original source: `CLAUDE.md` in [lucifer1004/typub](https://github.com/lucifer1004/typub).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
