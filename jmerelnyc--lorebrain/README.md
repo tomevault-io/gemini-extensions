@@ -7,11 +7,11 @@ Local-first AI knowledge layer with vector embeddings and retrieval
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jmerelnyc/lorebrain](https://github.com/jmerelnyc/lorebrain).
+Original source: `CLAUDE.md` in [jmerelnyc/lorebrain](https://github.com/jmerelnyc/lorebrain).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
