@@ -7,11 +7,11 @@ macOS Calendar & Reminders MCP server with 28 tools - Native Swift EventKit inte
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PsychQuant/che-ical-mcp](https://github.com/PsychQuant/che-ical-mcp).
+Original source: `CLAUDE.md` in [PsychQuant/che-ical-mcp](https://github.com/PsychQuant/che-ical-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
