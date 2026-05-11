@@ -7,11 +7,11 @@ Skillful Agent System Builder helps you create custom AI agent teams without wri
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [houarnu166/skillful-agent-system-builder](https://github.com/houarnu166/skillful-agent-system-builder).
+Original source: `CLAUDE.md` in [houarnu166/skillful-agent-system-builder](https://github.com/houarnu166/skillful-agent-system-builder).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
