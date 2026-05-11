@@ -7,11 +7,11 @@ A modern, unofficial ProtonVPN Terminal User Interface (TUI) for Linux, written 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cdump/proton-tui](https://github.com/cdump/proton-tui).
+Original source: `CLAUDE.md` in [cdump/proton-tui](https://github.com/cdump/proton-tui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
