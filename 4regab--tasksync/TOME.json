@@ -4,7 +4,7 @@
   "repo": "TaskSync",
   "description": "Copilot chat sessions orchestrator. ",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/4regab/TaskSync",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T22:18:53Z"
+  "distributed_at": "2026-05-11T04:37:00Z"
 }
