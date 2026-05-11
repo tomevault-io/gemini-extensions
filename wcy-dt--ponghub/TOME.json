@@ -4,7 +4,7 @@
   "repo": "ponghub",
   "description": "Free endpoint monitoring. One-click deployment.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/WCY-dt/ponghub",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T18:17:26Z"
+  "distributed_at": "2026-05-11T01:45:45Z"
 }
