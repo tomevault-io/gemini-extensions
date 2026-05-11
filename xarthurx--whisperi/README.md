@@ -7,11 +7,11 @@ A fast, modern desktop dictation app. Speak naturally and have your words transc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [xarthurx/whisperi](https://github.com/xarthurx/whisperi).
+Original source: `CLAUDE.md` in [xarthurx/whisperi](https://github.com/xarthurx/whisperi).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
