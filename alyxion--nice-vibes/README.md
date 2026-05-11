@@ -7,13 +7,13 @@ NiceVibes - Teach AI agents to build beautiful NiceGUI applications
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Alyxion/nice-vibes](https://github.com/Alyxion/nice-vibes).
+Original source: `AGENTS.md` in [Alyxion/nice-vibes](https://github.com/Alyxion/nice-vibes).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
