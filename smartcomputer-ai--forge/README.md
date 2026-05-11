@@ -7,11 +7,11 @@ Implementation of StrongDM's Attractor spec (https://github.com/strongdm/attract
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [smartcomputer-ai/forge](https://github.com/smartcomputer-ai/forge).
+Original source: `CLAUDE.md` in [smartcomputer-ai/forge](https://github.com/smartcomputer-ai/forge).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
