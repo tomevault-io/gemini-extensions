@@ -7,11 +7,11 @@ Idiomatic Clojure wrapper for Playwright. Browser automation, API testing, Allur
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Blockether/spel](https://github.com/Blockether/spel).
+Original source: `CLAUDE.md` in [Blockether/spel](https://github.com/Blockether/spel).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
