@@ -7,13 +7,13 @@ All-in-one open-source platform for enterprise-grade multi-tenant and multi-tier
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [cyberfabric/cyberfabric-core](https://github.com/cyberfabric/cyberfabric-core).
+Original source: `AGENTS.md` in [cyberfabric/cyberfabric-core](https://github.com/cyberfabric/cyberfabric-core).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
