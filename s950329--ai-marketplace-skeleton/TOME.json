@@ -4,7 +4,7 @@
   "repo": "ai-marketplace-skeleton",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/s950329/ai-marketplace-skeleton",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-07T10:18:31Z"
+  "distributed_at": "2026-05-11T23:52:07Z"
 }
