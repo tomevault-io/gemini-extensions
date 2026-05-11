@@ -7,12 +7,12 @@ Deterministic ONNX-to-C compiler for embedded and safety-critical systems, gener
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [emmtrix/emx-onnx-cgen](https://github.com/emmtrix/emx-onnx-cgen).
+Original source: `AGENTS.md` in [emmtrix/emx-onnx-cgen](https://github.com/emmtrix/emx-onnx-cgen).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
