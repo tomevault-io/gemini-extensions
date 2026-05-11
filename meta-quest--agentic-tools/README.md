@@ -7,11 +7,11 @@ Agent Tool and Skills for VR Development on Meta Quest
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
+Original source: `CLAUDE.md` in [meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
