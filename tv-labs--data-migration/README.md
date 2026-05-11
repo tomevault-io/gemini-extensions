@@ -7,11 +7,11 @@ Data Migration runner for Elixir
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tv-labs/data-migration](https://github.com/tv-labs/data-migration).
+Original source: `CLAUDE.md` in [tv-labs/data-migration](https://github.com/tv-labs/data-migration).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
