@@ -7,11 +7,11 @@ Monitor AI Agents in Native MacOS app
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ppf/agentsmonitor](https://github.com/ppf/agentsmonitor).
+Original source: `CLAUDE.md` in [ppf/agentsmonitor](https://github.com/ppf/agentsmonitor).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
