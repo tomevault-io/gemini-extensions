@@ -7,11 +7,11 @@ A modern MUD driver using Node.js and Typescript that is inspired by many of the
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jasona/mudforge](https://github.com/jasona/mudforge).
+Original source: `CLAUDE.md` in [jasona/mudforge](https://github.com/jasona/mudforge).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
