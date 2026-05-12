@@ -7,11 +7,11 @@ GTM skills for AI agents. 240 plays across Marketing, Sales, and Product. Config
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tarkaai/gtm-skills](https://github.com/tarkaai/gtm-skills).
+Original source: `CLAUDE.md` in [tarkaai/gtm-skills](https://github.com/tarkaai/gtm-skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
