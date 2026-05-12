@@ -7,11 +7,11 @@ Lyra Registry is a standalone API + MCP service that catalogs, scores, and serve
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nirholas/lyra-registry](https://github.com/nirholas/lyra-registry).
+Original source: `CLAUDE.md` in [nirholas/lyra-registry](https://github.com/nirholas/lyra-registry).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
