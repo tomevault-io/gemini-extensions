@@ -7,11 +7,11 @@ An OpenClaw plugin that gives your AI agent a background reflection process and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [RogueCtrl/OpenClawDreams](https://github.com/RogueCtrl/OpenClawDreams).
+Original source: `CLAUDE.md` in [RogueCtrl/OpenClawDreams](https://github.com/RogueCtrl/OpenClawDreams).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
