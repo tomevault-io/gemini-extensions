@@ -7,11 +7,11 @@ OSS Projects are cool, vulnerabilities and threats arent. AI scan environment fo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [thresher-sh/thresher](https://github.com/thresher-sh/thresher).
+Original source: `CLAUDE.md` in [thresher-sh/thresher](https://github.com/thresher-sh/thresher).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
