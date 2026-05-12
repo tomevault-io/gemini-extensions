@@ -7,11 +7,11 @@ macOS menu bar utility showing Claude subscription 5h/7d session headroom at a g
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rajish/cc-hdrm](https://github.com/rajish/cc-hdrm).
+Original source: `CLAUDE.md` in [rajish/cc-hdrm](https://github.com/rajish/cc-hdrm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
