@@ -4,7 +4,7 @@
   "repo": "drift",
   "description": "Detect architectural erosion from AI-generated code. Static analyzer for pattern fragmentation, architecture violations & mutant duplicates.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mick-gsk/drift",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-07T07:57:52Z"
+  "distributed_at": "2026-05-12T06:00:00Z"
 }
