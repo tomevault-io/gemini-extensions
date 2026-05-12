@@ -7,11 +7,11 @@ AWARE Fund - Smart Money Index for Prediction Markets
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ent0n29/aware](https://github.com/ent0n29/aware).
+Original source: `CLAUDE.md` in [ent0n29/aware](https://github.com/ent0n29/aware).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
