@@ -7,11 +7,11 @@ An open source desktop & web app that expands what's possible with Monarch Money
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [312-dev/eclosion](https://github.com/312-dev/eclosion).
+Original source: `CLAUDE.md` in [312-dev/eclosion](https://github.com/312-dev/eclosion).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
