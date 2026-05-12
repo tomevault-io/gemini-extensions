@@ -7,12 +7,12 @@ Detect architectural erosion from AI-generated code. Static analyzer for pattern
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [mick-gsk/drift](https://github.com/mick-gsk/drift).
+Original source: `AGENTS.md` in [mick-gsk/drift](https://github.com/mick-gsk/drift).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
