@@ -7,11 +7,11 @@ AI-powered web automation agent for natural language testing. Built with Next.js
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [oursky/skytest-agent](https://github.com/oursky/skytest-agent).
+Original source: `CLAUDE.md` in [oursky/skytest-agent](https://github.com/oursky/skytest-agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
