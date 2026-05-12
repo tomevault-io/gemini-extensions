@@ -7,11 +7,11 @@ Real-time streaming ingestion (CDC) for HTAP in PostgreSQL
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [relytcloud/pg_duckpipe](https://github.com/relytcloud/pg_duckpipe).
+Original source: `CLAUDE.md` in [relytcloud/pg_duckpipe](https://github.com/relytcloud/pg_duckpipe).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
