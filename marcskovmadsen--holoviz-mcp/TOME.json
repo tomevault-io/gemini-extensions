@@ -4,7 +4,7 @@
   "repo": "holoviz-mcp",
   "description": "\u2728A MCP server that provides intelligent access to the HoloViz ecosystem for humans and AIs.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/MarcSkovMadsen/holoviz-mcp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T23:04:26Z"
+  "distributed_at": "2026-05-12T01:12:46Z"
 }
