@@ -7,11 +7,11 @@ The creation pipeline for Claude Code products — research, create, validate, p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [myclaude-sh/myclaude-creator-engine](https://github.com/myclaude-sh/myclaude-creator-engine).
+Original source: `CLAUDE.md` in [myclaude-sh/myclaude-creator-engine](https://github.com/myclaude-sh/myclaude-creator-engine).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
