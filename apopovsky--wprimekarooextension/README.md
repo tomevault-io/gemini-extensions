@@ -7,12 +7,12 @@ A Hammerhead Karoo extension to add a configurable W' (W Prime) data field
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [apopovsky/WPrimeKarooExtension](https://github.com/apopovsky/WPrimeKarooExtension).
+Original source: `AGENTS.md` in [apopovsky/WPrimeKarooExtension](https://github.com/apopovsky/WPrimeKarooExtension).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
