@@ -7,11 +7,11 @@ Amazon Working Backwards PR/FAQ process — generate well-grounded professional 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [punt-labs/prfaq](https://github.com/punt-labs/prfaq).
+Original source: `CLAUDE.md` in [punt-labs/prfaq](https://github.com/punt-labs/prfaq).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
