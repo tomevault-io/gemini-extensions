@@ -7,12 +7,12 @@ A .NET 10 desktop application and CLI for managing Microsoft Intune configuratio
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [adamgell/IntuneCommander](https://github.com/adamgell/IntuneCommander).
+Original source: `CLAUDE.md` in [adamgell/IntuneCommander](https://github.com/adamgell/IntuneCommander).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
