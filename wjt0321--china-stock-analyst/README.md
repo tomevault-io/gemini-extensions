@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wjt0321/china-stock-analyst](https://github.com/wjt0321/china-stock-analyst).
+Original source: `CLAUDE.md` in [wjt0321/china-stock-analyst](https://github.com/wjt0321/china-stock-analyst).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
