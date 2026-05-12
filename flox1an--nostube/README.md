@@ -7,12 +7,12 @@ Nostr based video platform
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [flox1an/nostube](https://github.com/flox1an/nostube).
+Original source: `AGENTS.md` in [flox1an/nostube](https://github.com/flox1an/nostube).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
