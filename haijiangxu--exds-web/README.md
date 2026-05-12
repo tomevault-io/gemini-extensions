@@ -1,0 +1,26 @@
+# AI instruction files for exds-web
+
+> Sourced from [haijiangxu/exds-web](https://github.com/haijiangxu/exds-web) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+电力交易辅助决策系统WEB端应用
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [haijiangxu/exds-web](https://github.com/haijiangxu/exds-web).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/haijiangxu/exds-web](https://github.com/haijiangxu/exds-web)
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:a-e-p -->
