@@ -7,11 +7,11 @@ Fulling is an AI-powered Full-stack Engineer Agent. Built with Next.js, Claude, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FullAgent/fulling](https://github.com/FullAgent/fulling).
+Original source: `CLAUDE.md` in [FullAgent/fulling](https://github.com/FullAgent/fulling).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
