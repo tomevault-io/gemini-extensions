@@ -4,7 +4,7 @@
   "repo": "r-shell",
   "description": "\ud83d\ude80  Lightweight open-source SSH/SFTP/FTP client built with Rust & Tauri 2. Only ~34 MB memory. Installer under 10 MB . Split terminals, SFTP, GPU monitoring. macOS/Windows/Linux.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/GOODBOY008/r-shell",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-07T06:10:53Z"
+  "distributed_at": "2026-05-12T05:19:08Z"
 }
