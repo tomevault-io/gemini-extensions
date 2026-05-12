@@ -4,7 +4,7 @@
   "repo": "aster-rust",
   "description": "aster rust \u7248\u672c",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/astercloud/aster-rust",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-08T04:36:39Z"
+  "distributed_at": "2026-05-12T09:58:09Z"
 }
