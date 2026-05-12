@@ -7,11 +7,11 @@ Pure Go bash implementation for agent sandboxes
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ewhauser/gbash](https://github.com/ewhauser/gbash).
+Original source: `CLAUDE.md` in [ewhauser/gbash](https://github.com/ewhauser/gbash).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
