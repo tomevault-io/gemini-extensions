@@ -4,7 +4,7 @@
   "repo": "FormalSLT",
   "description": "Machine-verified statistical learning theory in Lean 4 \u2014 45 modules, 19,521 lines, 0 sorry",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Robby955/FormalSLT",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-10T11:31:10Z"
+  "distributed_at": "2026-05-12T21:46:55Z"
 }
