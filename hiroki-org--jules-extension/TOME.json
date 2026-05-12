@@ -4,7 +4,7 @@
   "repo": "jules-extension",
   "description": "VSCode extension for google Jules API",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Hiroki-org/jules-extension",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-07T08:05:18Z"
+  "distributed_at": "2026-05-12T06:09:48Z"
 }
