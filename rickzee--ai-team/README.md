@@ -7,13 +7,13 @@ Autonomous multi-agent software development system — converts natural language
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [RickZee/ai-team](https://github.com/RickZee/ai-team).
+Original source: `CLAUDE.md` in [RickZee/ai-team](https://github.com/RickZee/ai-team).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
