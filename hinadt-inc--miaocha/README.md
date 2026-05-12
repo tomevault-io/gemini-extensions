@@ -7,13 +7,13 @@ MiaoCha - is an enterprise-level log analysis platform that can collect massive 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Hinadt-Inc/miaocha](https://github.com/Hinadt-Inc/miaocha).
+Original source: `AGENTS.md` in [Hinadt-Inc/miaocha](https://github.com/Hinadt-Inc/miaocha).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
