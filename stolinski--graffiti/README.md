@@ -7,11 +7,11 @@ A minimal CSS framework with utilities that are actually useful.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [stolinski/graffiti](https://github.com/stolinski/graffiti).
+Original source: `CLAUDE.md` in [stolinski/graffiti](https://github.com/stolinski/graffiti).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
