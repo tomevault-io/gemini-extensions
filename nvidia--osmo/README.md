@@ -7,11 +7,11 @@ The developer-first platform for scaling complex Physical AI workloads across he
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NVIDIA/OSMO](https://github.com/NVIDIA/OSMO).
+Original source: `CLAUDE.md` in [NVIDIA/OSMO](https://github.com/NVIDIA/OSMO).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
