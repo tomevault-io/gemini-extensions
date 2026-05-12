@@ -7,11 +7,11 @@ Early-stage Rust drop-in alternative frontend for vLLM
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Inferact/vllm-frontend-rs](https://github.com/Inferact/vllm-frontend-rs).
+Original source: `CLAUDE.md` in [Inferact/vllm-frontend-rs](https://github.com/Inferact/vllm-frontend-rs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
