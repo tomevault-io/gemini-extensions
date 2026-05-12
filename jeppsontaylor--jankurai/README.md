@@ -7,13 +7,13 @@ Slay repo jank with proof lanes, audit receipts, bounded agents, and no-proof-no
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [jeppsontaylor/Jankurai](https://github.com/jeppsontaylor/Jankurai).
+Original source: `AGENTS.md` in [jeppsontaylor/Jankurai](https://github.com/jeppsontaylor/Jankurai).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
