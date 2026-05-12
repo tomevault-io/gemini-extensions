@@ -7,12 +7,12 @@ A full-stack personal finance manager powered by Agentic AI, MCP, Next.js, Expre
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [hoangsonww/WealthWise-Finance-Tracker](https://github.com/hoangsonww/WealthWise-Finance-Tracker).
+Original source: `AGENTS.md` in [hoangsonww/WealthWise-Finance-Tracker](https://github.com/hoangsonww/WealthWise-Finance-Tracker).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
