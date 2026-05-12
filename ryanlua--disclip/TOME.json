@@ -4,7 +4,7 @@
   "repo": "disclip",
   "description": "Save precious messages and funny moments with Disclip. Turn any Discord message into a high-quality image to share across friends and social media.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/ryanlua/disclip",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-07T22:45:25Z"
+  "distributed_at": "2026-05-12T09:27:23Z"
 }
