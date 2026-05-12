@@ -7,11 +7,11 @@ encrypted/remote secret manager
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jdx/fnox](https://github.com/jdx/fnox).
+Original source: `CLAUDE.md` in [jdx/fnox](https://github.com/jdx/fnox).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
