@@ -7,11 +7,11 @@ An agentic AI assistant built with Rust 🦀 , inspired by OpenClaw, NanoClaw, N
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rayclaw/rayclaw](https://github.com/rayclaw/rayclaw).
+Original source: `CLAUDE.md` in [rayclaw/rayclaw](https://github.com/rayclaw/rayclaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
