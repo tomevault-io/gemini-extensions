@@ -7,11 +7,11 @@ An MCP (Model Context Protocol) server that exposes Gate.io trading API as tools
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gate/gate-mcp](https://github.com/gate/gate-mcp).
+Original source: `CLAUDE.md` in [gate/gate-mcp](https://github.com/gate/gate-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
