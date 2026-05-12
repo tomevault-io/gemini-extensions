@@ -221,6 +221,5 @@ Notes
 > * Keep coverage ≥90%; add edge/corner-case tests for every feature.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/Shaurya-Sethi)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/Shaurya-Sethi)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Source: [Shaurya-Sethi/circuitron](https://github.com/Shaurya-Sethi/circuitron) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-06 -->
