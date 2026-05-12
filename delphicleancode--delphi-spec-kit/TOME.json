@@ -4,7 +4,7 @@
   "repo": "delphi-spec-kit",
   "description": "An opinionated ecosystem of rules, skills, and steerings to elevate Delphi development to a state-of-the-art level with Artificial Intelligence.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/delphicleancode/delphi-spec-kit",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-09T06:42:41Z"
+  "distributed_at": "2026-05-12T15:07:28Z"
 }
