@@ -7,13 +7,13 @@ REIN is a lightweight and hands-off harness for stricter, more explicit agentic 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [jstxn/rein](https://github.com/jstxn/rein).
+Original source: `AGENTS.md` in [jstxn/rein](https://github.com/jstxn/rein).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
