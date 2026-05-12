@@ -7,11 +7,11 @@ Node.js SDK for the Ceph RADOS Gateway Admin Ops API — manage users, buckets, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nycanshu/radosgw-admin](https://github.com/nycanshu/radosgw-admin).
+Original source: `CLAUDE.md` in [nycanshu/radosgw-admin](https://github.com/nycanshu/radosgw-admin).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
