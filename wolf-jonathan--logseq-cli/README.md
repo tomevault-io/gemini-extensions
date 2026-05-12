@@ -7,11 +7,11 @@ A Unix-composable CLI for the Logseq local HTTP API - built for humans and AI ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wolf-jonathan/logseq-cli](https://github.com/wolf-jonathan/logseq-cli).
+Original source: `CLAUDE.md` in [wolf-jonathan/logseq-cli](https://github.com/wolf-jonathan/logseq-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
