@@ -1,0 +1,30 @@
+# torc
+
+> Tome by [NatLabRockies](https://github.com/NatLabRockies/torc) — distributed by [TomeVault](https://tomevault.io)
+
+Workflow management system
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [NatLabRockies/torc](https://github.com/NatLabRockies/torc).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/NatLabRockies/torc](https://github.com/NatLabRockies/torc)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install NatLabRockies/torc
+```
+Source: [github.com/NatLabRockies/torc](https://github.com/NatLabRockies/torc).
+
+<!-- genome:t-i-q -->
