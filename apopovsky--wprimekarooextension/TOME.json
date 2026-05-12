@@ -4,7 +4,7 @@
   "repo": "WPrimeKarooExtension",
   "description": "A Hammerhead Karoo extension to add a configurable W' (W Prime) data field",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/apopovsky/WPrimeKarooExtension",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-08T00:43:46Z"
+  "distributed_at": "2026-05-12T09:41:36Z"
 }
