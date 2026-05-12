@@ -7,12 +7,12 @@ Hook-driven multi-agent CLI — one prompt to specs, code, tests, and a shipped 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [lucapohl-angel/ATLAS_OS](https://github.com/lucapohl-angel/ATLAS_OS).
+Original source: `AGENTS.md` in [lucapohl-angel/ATLAS_OS](https://github.com/lucapohl-angel/ATLAS_OS).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
