@@ -7,11 +7,11 @@ Free and open-source premium quality shadcn/ui components and blocks.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [shadcncraft/shadcncraft-free](https://github.com/shadcncraft/shadcncraft-free).
+Original source: `CLAUDE.md` in [shadcncraft/shadcncraft-free](https://github.com/shadcncraft/shadcncraft-free).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
