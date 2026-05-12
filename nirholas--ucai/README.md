@@ -7,11 +7,11 @@ Universal Contract AI Interface (UCAI) 🔗 ABI to MCP | The open standard for c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nirholas/UCAI](https://github.com/nirholas/UCAI).
+Original source: `CLAUDE.md` in [nirholas/UCAI](https://github.com/nirholas/UCAI).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
