@@ -7,11 +7,11 @@ Complete AI coding agent harness for React Native and Expo development
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [JubaKitiashvili/everything-react-native-expo](https://github.com/JubaKitiashvili/everything-react-native-expo).
+Original source: `CLAUDE.md` in [JubaKitiashvili/everything-react-native-expo](https://github.com/JubaKitiashvili/everything-react-native-expo).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
