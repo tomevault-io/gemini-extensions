@@ -7,11 +7,11 @@ A flexible, reusable logging module for Bash scripts that provides standardized 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [GingerGraham/bash-logger](https://github.com/GingerGraham/bash-logger).
+Original source: `CLAUDE.md` in [GingerGraham/bash-logger](https://github.com/GingerGraham/bash-logger).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
