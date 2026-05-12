@@ -7,11 +7,11 @@ Repository with Gemini Extensions useful for teams and Claude Code marketplace
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dezkareid/ai-team](https://github.com/dezkareid/ai-team).
+Original source: `CLAUDE.md` in [dezkareid/ai-team](https://github.com/dezkareid/ai-team).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
