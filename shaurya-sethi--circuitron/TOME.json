@@ -2,9 +2,9 @@
   "name": "circuitron",
   "owner": "Shaurya-Sethi",
   "repo": "circuitron",
-  "description": "",
+  "description": "Circuitron: Agentic PCB Design Accelerator \u2014 Generate, plan, and layout circuits from natural language prompts.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/Shaurya-Sethi",
+  "source_url": "https://github.com/Shaurya-Sethi/circuitron",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-10T02:49:47Z"
+  "distributed_at": "2026-05-12T02:52:15Z"
 }
