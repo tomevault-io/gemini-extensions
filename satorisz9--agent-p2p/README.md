@@ -7,11 +7,11 @@ Peer-to-peer data transfer protocol for autonomous agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [satorisz9/agent-p2p](https://github.com/satorisz9/agent-p2p).
+Original source: `CLAUDE.md` in [satorisz9/agent-p2p](https://github.com/satorisz9/agent-p2p).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
