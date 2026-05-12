@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Our2ndBrain/2ndBrain-Template](https://github.com/Our2ndBrain/2ndBrain-Template).
+Original source: `CLAUDE.md` in [Our2ndBrain/2ndBrain-Template](https://github.com/Our2ndBrain/2ndBrain-Template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
