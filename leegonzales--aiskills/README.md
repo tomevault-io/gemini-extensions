@@ -1,0 +1,30 @@
+# AISkills
+
+> Source: [leegonzales/AISkills](https://github.com/leegonzales/AISkills) — distributed by [TomeVault](https://tomevault.io)
+
+Skills to pay the AI bills
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [leegonzales/AISkills](https://github.com/leegonzales/AISkills).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [leegonzales/AISkills](https://github.com/leegonzales/AISkills) — a repo with 25+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install leegonzales/AISkills
+```
+Source: [github.com/leegonzales/AISkills](https://github.com/leegonzales/AISkills).
+
+<!-- genome:d-i-s -->
