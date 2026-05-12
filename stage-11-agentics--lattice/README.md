@@ -7,11 +7,11 @@ task tracking. upgraded for the agent-native era. event-sourced. file-based. for
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Stage-11-Agentics/lattice](https://github.com/Stage-11-Agentics/lattice).
+Original source: `CLAUDE.md` in [Stage-11-Agentics/lattice](https://github.com/Stage-11-Agentics/lattice).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
