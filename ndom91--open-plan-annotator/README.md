@@ -7,11 +7,11 @@ Agent Plan Annotator
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ndom91/open-plan-annotator](https://github.com/ndom91/open-plan-annotator).
+Original source: `CLAUDE.md` in [ndom91/open-plan-annotator](https://github.com/ndom91/open-plan-annotator).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
