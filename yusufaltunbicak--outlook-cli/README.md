@@ -7,11 +7,11 @@ Outlook 365 CLI — read, send, and manage emails, calendar, and contacts from t
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yusufaltunbicak/outlook-cli](https://github.com/yusufaltunbicak/outlook-cli).
+Original source: `CLAUDE.md` in [yusufaltunbicak/outlook-cli](https://github.com/yusufaltunbicak/outlook-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
