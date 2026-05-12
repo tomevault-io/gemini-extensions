@@ -1,0 +1,30 @@
+# youtube-for-ai-agents
+
+> Source: [JCodesMore/youtube-for-ai-agents](https://github.com/JCodesMore/youtube-for-ai-agents) — distributed by [TomeVault](https://tomevault.io)
+
+YouTube for AI Agents — search, transcripts, video info, channel browsing, reel creation
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [JCodesMore/youtube-for-ai-agents](https://github.com/JCodesMore/youtube-for-ai-agents).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/JCodesMore/youtube-for-ai-agents](https://github.com/JCodesMore/youtube-for-ai-agents)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install JCodesMore/youtube-for-ai-agents
+```
+Source: [github.com/JCodesMore/youtube-for-ai-agents](https://github.com/JCodesMore/youtube-for-ai-agents).
+
+<!-- genome:d-i-p -->
