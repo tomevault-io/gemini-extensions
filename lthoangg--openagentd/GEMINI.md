@@ -70,5 +70,5 @@ Start at [`documents/docs/index.md`](documents/docs/index.md).
 | Tracked tech debt | [`techdebts/`](documents/techdebts/) |
 
 ---
-> Source: [lthoangg/openagentd](https://github.com/lthoangg/openagentd) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-01 -->
+> Source: [lthoangg/OpenAgentd](https://github.com/lthoangg/OpenAgentd) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-07 -->
