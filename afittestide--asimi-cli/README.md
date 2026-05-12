@@ -1,0 +1,30 @@
+# asimi-cli
+
+> Tome by [afittestide](https://github.com/afittestide/asimi-cli) — distributed by [TomeVault](https://tomevault.io)
+
+An opinionated, safe & fast coding agent
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [afittestide/asimi-cli](https://github.com/afittestide/asimi-cli).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [afittestide/asimi-cli](https://github.com/afittestide/asimi-cli) — a repo with 14+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install afittestide/asimi-cli
+```
+Source: [github.com/afittestide/asimi-cli](https://github.com/afittestide/asimi-cli).
+
+<!-- genome:t-i-s -->
