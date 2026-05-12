@@ -1,0 +1,30 @@
+# NexJob
+
+> Tome by [oluciano](https://github.com/oluciano/NexJob) — distributed by [TomeVault](https://tomevault.io)
+
+Lightweight background job scheduler for .NET — install, implement, run.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [oluciano/NexJob](https://github.com/oluciano/NexJob).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [oluciano/NexJob](https://github.com/oluciano/NexJob) — a repo with 10+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install oluciano/NexJob
+```
+Source: [github.com/oluciano/NexJob](https://github.com/oluciano/NexJob).
+
+<!-- genome:t-i-s -->
