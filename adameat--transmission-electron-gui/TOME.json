@@ -4,7 +4,7 @@
   "repo": "transmission-electron-gui",
   "description": "Modern Electron desktop GUI for Transmission daemon RPC.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/adameat/transmission-electron-gui",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-13T10:32:54Z"
+  "distributed_at": "2026-05-13T10:40:30Z"
 }
