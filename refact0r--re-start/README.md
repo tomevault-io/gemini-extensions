@@ -7,11 +7,11 @@ a tui-style browser startpage
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [refact0r/re-start](https://github.com/refact0r/re-start).
+Original source: `CLAUDE.md` in [refact0r/re-start](https://github.com/refact0r/re-start).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
