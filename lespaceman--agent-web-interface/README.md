@@ -7,11 +7,11 @@ A unified perception and interaction interface that enables AI agents to use the
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lespaceman/agent-web-interface](https://github.com/lespaceman/agent-web-interface).
+Original source: `CLAUDE.md` in [lespaceman/agent-web-interface](https://github.com/lespaceman/agent-web-interface).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
