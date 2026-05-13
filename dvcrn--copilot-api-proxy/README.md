@@ -1,0 +1,30 @@
+# AI instruction files for copilot-api-proxy
+
+> Sourced from [dvcrn/copilot-api-proxy](https://github.com/dvcrn/copilot-api-proxy) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+Proxy server to translate /v1/chat/completions request to Copilot API
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [dvcrn/copilot-api-proxy](https://github.com/dvcrn/copilot-api-proxy).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/dvcrn/copilot-api-proxy](https://github.com/dvcrn/copilot-api-proxy)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install dvcrn/copilot-api-proxy
+```
+Source: [github.com/dvcrn/copilot-api-proxy](https://github.com/dvcrn/copilot-api-proxy).
+
+<!-- genome:a-i-p -->
