@@ -7,11 +7,11 @@ Fast CLI tool for finding and resuming Claude Code sessions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cc-deck/cc-session](https://github.com/cc-deck/cc-session).
+Original source: `CLAUDE.md` in [cc-deck/cc-session](https://github.com/cc-deck/cc-session).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
