@@ -7,11 +7,11 @@ The Marmot Protocol is a messaging protocol that specifies how to do efficient e
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [marmot-protocol/marmot](https://github.com/marmot-protocol/marmot).
+Original source: `CLAUDE.md` in [marmot-protocol/marmot](https://github.com/marmot-protocol/marmot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
