@@ -4,7 +4,7 @@
   "repo": "obsidian-book-simulator",
   "description": "This is a plugin for Obsidian which helps you to combine your notes from the folder hierarchy in a single contineous note and create virtual version of it.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tu2-atmanand/obsidian-book-simulator",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-13T08:31:28Z"
+  "distributed_at": "2026-05-13T08:48:47Z"
 }
