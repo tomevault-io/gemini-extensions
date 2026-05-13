@@ -7,12 +7,12 @@ A free, open-source C++23 3D game engine for FPS and beyond — DirectX 12, Vulk
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Krilliac/SparkEngine](https://github.com/Krilliac/SparkEngine).
+Original source: `AGENTS.md` in [Krilliac/SparkEngine](https://github.com/Krilliac/SparkEngine).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
