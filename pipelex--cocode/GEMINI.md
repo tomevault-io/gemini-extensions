@@ -2083,6 +2083,5 @@ You can override the predefined llm presets by setting them in `.pipelex/inferen
 <!-- END_PIPELEX_RULES -->
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/Pipelex)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/Pipelex)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Source: [Pipelex/cocode](https://github.com/Pipelex/cocode) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-13 -->
