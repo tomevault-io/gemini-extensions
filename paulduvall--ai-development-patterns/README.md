@@ -7,11 +7,11 @@ A comprehensive collection of AI development patterns for building software with
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PaulDuvall/ai-development-patterns](https://github.com/PaulDuvall/ai-development-patterns).
+Original source: `CLAUDE.md` in [PaulDuvall/ai-development-patterns](https://github.com/PaulDuvall/ai-development-patterns).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
