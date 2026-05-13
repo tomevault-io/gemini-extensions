@@ -1,4 +1,4 @@
-## ultracite
+## regist
 
 > Ultracite Rules
 
