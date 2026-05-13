@@ -7,11 +7,11 @@ Zero-Config Code Flow for Claude code & Codex
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [UfoMiao/zcf](https://github.com/UfoMiao/zcf).
+Original source: `CLAUDE.md` in [UfoMiao/zcf](https://github.com/UfoMiao/zcf).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
