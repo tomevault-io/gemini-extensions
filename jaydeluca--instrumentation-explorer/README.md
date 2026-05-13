@@ -7,12 +7,12 @@ Experimental demo using the java instrumentation metadata
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [jaydeluca/instrumentation-explorer](https://github.com/jaydeluca/instrumentation-explorer).
+Original source: `AGENTS.md` in [jaydeluca/instrumentation-explorer](https://github.com/jaydeluca/instrumentation-explorer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
