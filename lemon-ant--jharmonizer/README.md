@@ -7,12 +7,12 @@ Make Java source layout deterministic: reorder class members safely, keep access
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [lemon-ant/JHarmonizer](https://github.com/lemon-ant/JHarmonizer).
+Original source: `AGENTS.md` in [lemon-ant/JHarmonizer](https://github.com/lemon-ant/JHarmonizer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
