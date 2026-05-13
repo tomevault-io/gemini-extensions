@@ -7,11 +7,11 @@ Declarative language for composable Al workflows. Devtool for agents and mere hu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Pipelex/pipelex](https://github.com/Pipelex/pipelex).
+Original source: `CLAUDE.md` in [Pipelex/pipelex](https://github.com/Pipelex/pipelex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
