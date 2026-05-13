@@ -1,9 +1,9 @@
-## napkin
+## quality-gate-failures
 
-> Keep the napkin capture loop active
+> Quality gate failures are always blocking
 
 
-Read and follow `.agent/rules/napkin.md`.
+Read and follow `.agent/rules/quality-gate-failures.md`.
 
 ---
 > Source: [EngraphCode/castr](https://github.com/EngraphCode/castr) — distributed by [TomeVault](https://tomevault.io).
