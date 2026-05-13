@@ -4,7 +4,7 @@
   "repo": "JHarmonizer",
   "description": "Make Java source layout deterministic: reorder class members safely, keep accessors together, format java-source, and enforce style in CI.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/lemon-ant/JHarmonizer",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-13T20:50:18Z"
+  "distributed_at": "2026-05-13T21:15:11Z"
 }
