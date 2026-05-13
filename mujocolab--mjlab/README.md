@@ -7,11 +7,11 @@ Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mujocolab/mjlab](https://github.com/mujocolab/mjlab).
+Original source: `CLAUDE.md` in [mujocolab/mjlab](https://github.com/mujocolab/mjlab).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
