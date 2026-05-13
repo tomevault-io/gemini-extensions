@@ -7,13 +7,13 @@ Ingest schemas in formats such as OpenAPI or Zod, convert to Canonical Ast Repre
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [EngraphCode/castr](https://github.com/EngraphCode/castr).
+Original source: `AGENTS.md` in [EngraphCode/castr](https://github.com/EngraphCode/castr).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
