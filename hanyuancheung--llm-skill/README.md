@@ -7,11 +7,11 @@ A minimal three-layer SKILL system for LLM agents, inspired by Karpathy's LLM-Wi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hanyuancheung/llm-skill](https://github.com/hanyuancheung/llm-skill).
+Original source: `CLAUDE.md` in [hanyuancheung/llm-skill](https://github.com/hanyuancheung/llm-skill).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
