@@ -7,11 +7,11 @@ Convert web pages, YouTube videos, PDFs, Google Docs, video/audio files, and ima
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mblode/allmd](https://github.com/mblode/allmd).
+Original source: `CLAUDE.md` in [mblode/allmd](https://github.com/mblode/allmd).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
