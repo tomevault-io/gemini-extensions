@@ -7,11 +7,11 @@ Repo-native AI orchestration engine — connects issue trackers (GitHub, GitLab,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [penso/polyphony](https://github.com/penso/polyphony).
+Original source: `CLAUDE.md` in [penso/polyphony](https://github.com/penso/polyphony).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
