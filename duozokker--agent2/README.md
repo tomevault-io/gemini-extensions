@@ -7,11 +7,11 @@ Turn domain experts into production AI agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [duozokker/agent2](https://github.com/duozokker/agent2).
+Original source: `CLAUDE.md` in [duozokker/agent2](https://github.com/duozokker/agent2).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
