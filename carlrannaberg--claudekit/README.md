@@ -7,11 +7,11 @@ A toolkit of custom commands, hooks, and utilities for Claude Code
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit).
+Original source: `CLAUDE.md` in [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
