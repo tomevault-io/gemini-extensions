@@ -7,11 +7,11 @@ Get 10X more out of Claude Code, Codex or any coding agent
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban).
+Original source: `CLAUDE.md` in [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
