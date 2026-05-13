@@ -7,11 +7,11 @@ Local-first issue tracking for AI-assisted software work, with an agent-friendly
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wesm/kata](https://github.com/wesm/kata).
+Original source: `CLAUDE.md` in [wesm/kata](https://github.com/wesm/kata).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
