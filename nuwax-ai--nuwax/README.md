@@ -7,11 +7,11 @@ Nuwax Agent OS - The world's first universal agent operating system, building yo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nuwax-ai/nuwax](https://github.com/nuwax-ai/nuwax).
+Original source: `CLAUDE.md` in [nuwax-ai/nuwax](https://github.com/nuwax-ai/nuwax).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
