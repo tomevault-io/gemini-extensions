@@ -7,11 +7,11 @@ Comprehensive Hugging Face Hub Library for rust
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [huggingface/huggingface_hub_rust](https://github.com/huggingface/huggingface_hub_rust).
+Original source: `CLAUDE.md` in [huggingface/huggingface_hub_rust](https://github.com/huggingface/huggingface_hub_rust).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
