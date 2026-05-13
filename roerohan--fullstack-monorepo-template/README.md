@@ -7,11 +7,11 @@ Fullstack monorepo template using Tanstack Start and Cloudflare Workers.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [roerohan/fullstack-monorepo-template](https://github.com/roerohan/fullstack-monorepo-template).
+Original source: `CLAUDE.md` in [roerohan/fullstack-monorepo-template](https://github.com/roerohan/fullstack-monorepo-template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
