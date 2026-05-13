@@ -7,11 +7,11 @@ A Linear CLI tool built with agents in mind (but useful to humans too).  Impleme
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dorkitude/linctl](https://github.com/dorkitude/linctl).
+Original source: `CLAUDE.md` in [dorkitude/linctl](https://github.com/dorkitude/linctl).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
