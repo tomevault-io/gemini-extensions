@@ -7,11 +7,11 @@ Local speech synthesis for Apple Silicon — TTS, voice cloning, dialogue, and s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [appautomaton/mlx-speech](https://github.com/appautomaton/mlx-speech).
+Original source: `CLAUDE.md` in [appautomaton/mlx-speech](https://github.com/appautomaton/mlx-speech).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
