@@ -7,11 +7,11 @@ Coding Agent Session Manager for Claude Code / Gemini CLI / Codex CLI / Cursor A
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kbwo/ccmanager](https://github.com/kbwo/ccmanager).
+Original source: `CLAUDE.md` in [kbwo/ccmanager](https://github.com/kbwo/ccmanager).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
