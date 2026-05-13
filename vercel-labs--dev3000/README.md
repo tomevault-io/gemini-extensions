@@ -7,11 +7,11 @@ Captures your web app's complete development timeline - server logs, browser eve
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [vercel-labs/dev3000](https://github.com/vercel-labs/dev3000).
+Original source: `CLAUDE.md` in [vercel-labs/dev3000](https://github.com/vercel-labs/dev3000).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
