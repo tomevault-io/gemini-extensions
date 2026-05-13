@@ -7,11 +7,11 @@ A high-performance inference engine for LLM, VLM, DiT and REC models, optimized 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jd-opensource/xllm](https://github.com/jd-opensource/xllm).
+Original source: `CLAUDE.md` in [jd-opensource/xllm](https://github.com/jd-opensource/xllm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
