@@ -7,11 +7,11 @@ An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/g
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge).
+Original source: `CLAUDE.md` in [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
