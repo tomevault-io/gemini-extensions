@@ -7,11 +7,11 @@ A2A agent server enabling Google Calendar scheduling, retrieval, and automation
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [inference-gateway/google-calendar-agent](https://github.com/inference-gateway/google-calendar-agent).
+Original source: `CLAUDE.md` in [inference-gateway/google-calendar-agent](https://github.com/inference-gateway/google-calendar-agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
