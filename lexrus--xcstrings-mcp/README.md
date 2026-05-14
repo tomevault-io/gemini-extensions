@@ -7,11 +7,11 @@ A Rust implementation of a Model Context Protocol (MCP) server designed for work
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lexrus/xcstrings_mcp](https://github.com/lexrus/xcstrings_mcp).
+Original source: `CLAUDE.md` in [lexrus/xcstrings_mcp](https://github.com/lexrus/xcstrings_mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
