@@ -7,11 +7,11 @@ A Ragnarok Online Client written in Rust and Bevy
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [EndurnyrProject/lifthrasir](https://github.com/EndurnyrProject/lifthrasir).
+Original source: `CLAUDE.md` in [EndurnyrProject/lifthrasir](https://github.com/EndurnyrProject/lifthrasir).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
