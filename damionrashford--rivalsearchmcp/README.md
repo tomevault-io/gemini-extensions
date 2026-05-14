@@ -7,11 +7,11 @@ Deterministic research MCP server on FastMCP 3 — 5-engine web search, 9-platfo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [damionrashford/RivalSearchMCP](https://github.com/damionrashford/RivalSearchMCP).
+Original source: `CLAUDE.md` in [damionrashford/RivalSearchMCP](https://github.com/damionrashford/RivalSearchMCP).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
