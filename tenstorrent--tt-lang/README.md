@@ -7,11 +7,11 @@ A Python-based Domain-Specific Language (DSL) for authoring custom operations on
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tenstorrent/tt-lang](https://github.com/tenstorrent/tt-lang).
+Original source: `CLAUDE.md` in [tenstorrent/tt-lang](https://github.com/tenstorrent/tt-lang).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
