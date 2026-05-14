@@ -7,11 +7,11 @@ PinMeTo MCP server that enables users with authorized credentials to unlock thei
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PinMeTo/pinmeto-location-mcp](https://github.com/PinMeTo/pinmeto-location-mcp).
+Original source: `CLAUDE.md` in [PinMeTo/pinmeto-location-mcp](https://github.com/PinMeTo/pinmeto-location-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
