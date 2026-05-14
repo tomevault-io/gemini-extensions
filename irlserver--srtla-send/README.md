@@ -7,11 +7,11 @@ SRTLA bonding sender in Rust - aggregate bandwidth and add redundancy across mul
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [irlserver/srtla_send](https://github.com/irlserver/srtla_send).
+Original source: `CLAUDE.md` in [irlserver/srtla_send](https://github.com/irlserver/srtla_send).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
