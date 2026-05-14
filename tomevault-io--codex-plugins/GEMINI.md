@@ -1,104 +1,56 @@
 ## agents-md
 
-> This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+> Core CLI code lives in `src/` (commands, API client, services, auth, server, TDD, and shared utils).
 
-# CLAUDE.md
+# Repository Guidelines
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## Project Structure & Module Organization
+Core CLI code lives in `src/` (commands, API client, services, auth, server, TDD, and shared utils).  
+UI for local/static reports lives in `src/reporter/` (Vite + React).  
+Tests live in `tests/` with suites grouped by domain (`tests/commands`, `tests/server`, `tests/services`, etc.).  
+Type definition tests live in `test-d/`.  
+Framework integrations and SDK clients live in `clients/` (`storybook`, `static-site`, `vitest`, `ember`, `ruby`, `swift`).  
+Reference docs are in `docs/`, examples in `examples/`, and built artifacts output to `dist/`.
 
-## Project Overview
+## Build, Test, and Development Commands
+- `npm run build`: clean and compile CLI + reporter bundles into `dist/`.
+- `npm test`: run Node test runner suites with coverage enabled.
+- `npm run test:watch`: watch mode for fast local iteration.
+- `npm run test:reporter`: run Playwright reporter workflow tests.
+- `npm run test:types`: validate published type definitions with `tsd`.
+- `npm run lint` / `npm run format:check`: enforce Biome lint/format rules.
+- `npm run fix`: run formatter + safe lint fixes.
+- `npm run cli -- <args>`: run local CLI entrypoint (example: `npm run cli -- status`).
 
-**llm-agents-from-scratch** is a Python library for building LLM agents from the ground up, designed to accompany a technical book on creating intelligent agents with Model Context Protocol (MCP) integration. It provides abstract base classes and concrete implementations for LLMs, tools, and agents.
+## Coding Style & Naming Conventions
+Use ESM JavaScript with top-level imports. Prefer functional modules and explicit inputs/outputs over class-heavy designs.  
+Project convention: prefer `let` over `const`.  
+Biome is the source of truth: 2-space indent, single quotes, semicolons, trailing commas (`es5`), 80-char line width.  
+File names are lowercase with hyphens where needed (example: `config-service.js`); tests use `*.test.js`.
 
-## Commands
+## Testing Guidelines
+Primary frameworks: Node’s built-in test runner (`node --test`), Playwright (reporter E2E), and `tsd` (types).  
+Write tests around user outcomes and observable behavior; avoid mocking internal modules.  
+Mock only external boundaries (network/time/randomness).  
+No arbitrary sleeps; wait on concrete state/events.  
+There is no strict coverage percentage gate today, but changed behavior should include focused tests.
 
-```bash
-# Install dependencies
-uv sync --all-extras --dev
+## Commit & Pull Request Guidelines
+Follow existing history style: gitmoji-prefixed, action-oriented commit subjects (examples: `✨`, `🐛`, `🔧`, `🔖`, `⚡️`).  
+Keep subjects concise; include issue/PR refs when relevant (example: `(#217)`).  
+PRs should include:
+- Why the change is needed.
+- A clear summary of all meaningful diff areas.
+- A test plan with exact commands run.
+- Screenshots or terminal output for UI/reporting changes when helpful.
 
-# Run all tests
-make test                    # or: pytest tests -v --capture=no
-
-# Run a single test file
-pytest tests/test_file.py -v --capture=no
-
-# Run a specific test
-pytest tests/test_file.py::test_function_name -v
-
-# Lint and format (runs pre-commit hooks: ruff, mypy)
-make lint
-
-# Format only (ruff)
-make format
-
-# Coverage
-make coverage                # Generate XML report
-make coverage-report         # Terminal summary
-make coverage-html           # HTML report in htmlcov/
-
-# Generate UML diagrams
-make diagrams
-```
-
-## Architecture
-
-### Core Abstractions
-
-The library uses abstract base classes with type aliases for flexibility:
-
-- **`BaseLLM`** (`base/llm.py`) → Type alias `LLM`
-  - Abstract methods: `complete()`, `structured_output()`, `chat()`, `continue_chat_with_tool_results()`
-  - Implementation: `OllamaLLM` (primary), `OpenAILLM` (optional extra)
-
-- **`BaseTool` / `AsyncBaseTool`** (`base/tool.py`) → Type alias `Tool = BaseTool | AsyncBaseTool`
-  - Required properties: `name`, `description`, `parameters_json_schema`
-  - Implementations:
-    - `SimpleFunctionTool` / `AsyncSimpleFunctionTool` - Direct function wrapping with JSON schema generation
-    - `PydanticFunctionTool` / `AsyncPydanticFunctionTool` - Type-safe functions using Pydantic models
-    - `MCPTool` / `MCPToolProvider` - Model Context Protocol integration
-
-### Agent Layer
-
-- **`LLMAgent`** (`agent/llm_agent.py`) - Main agent class managing LLM and tool registry
-  - Contains nested `TaskHandler` class extending `asyncio.Future` for async task execution
-  - Step-based execution with rollout tracking
-
-- **`LLMAgentBuilder`** (`agent/builder.py`) - Fluent builder pattern for agent construction
-
-### Data Structures (Pydantic Models)
-
-All in `data_structures/`:
-
-- **Task pipeline**: `Task` → `TaskStep` → `TaskStepResult` → `TaskResult`
-- **LLM communication**: `ChatMessage`, `ChatRole`, `CompleteResult`
-- **Tool invocation**: `ToolCall`, `ToolCallResult`
-- **Decision making**: `NextStepDecision`
-
-### Error Hierarchy
-
-Base: `LLMAgentsFromScratchError` (`errors/core.py`)
-
-- `LLMAgentError` → `LLMAgentBuilderError`, `MaxStepsReachedError`
-- `MCPError` → `MissingMCPServerParamsError`
-- `TaskHandlerError`
-- `MissingExtraError`
-
-## Code Style
-
-- **Line length**: 80 characters
-- **Docstrings**: Google style (enforced by ruff)
-- **Type hints**: Required throughout (mypy strict mode with `disallow_untyped_defs`)
-- **Imports**: Sorted by ruff (isort rules, black profile, line-length 79)
-
-## Testing
-
-- Uses pytest with `pytest-asyncio` (asyncio_mode=auto in pytest.ini)
-- Tests in `tests/` directory mirror source structure
-- Docstrings not required in test files (ruff D rules ignored)
+## Security & Configuration Tips
+Use Node.js `>=22`. Keep secrets (for example `VIZZLY_TOKEN`) out of git.  
+For local development, isolate CLI state with `VIZZLY_HOME` (for example `~/.vizzly.dev`) to avoid mutating real user config.
 
 ---
-> Source: [nerdai/llm-agents-from-scratch](https://github.com/nerdai/llm-agents-from-scratch) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:agents_md:2026-05-06 -->
+> Source: [vizzly-testing/cli](https://github.com/vizzly-testing/cli) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:agents_md:2026-05-14 -->
 
 ---
 > Source: [tomevault-io/codex-plugins](https://github.com/tomevault-io/codex-plugins) — distributed by [TomeVault](https://tomevault.io).
