@@ -7,11 +7,11 @@ Dagster SLURM integration
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ascii-supply-networks/dagster-slurm](https://github.com/ascii-supply-networks/dagster-slurm).
+Original source: `CLAUDE.md` in [ascii-supply-networks/dagster-slurm](https://github.com/ascii-supply-networks/dagster-slurm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
