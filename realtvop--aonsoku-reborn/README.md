@@ -7,11 +7,11 @@ A modern desktop client for Navidrome/Subsonic servers built with React and Elec
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [realtvop/aonsoku-reborn](https://github.com/realtvop/aonsoku-reborn).
+Original source: `CLAUDE.md` in [realtvop/aonsoku-reborn](https://github.com/realtvop/aonsoku-reborn).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
