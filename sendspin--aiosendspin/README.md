@@ -7,11 +7,11 @@ Async Python library implementing the Sendspin Protocol.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Sendspin/aiosendspin](https://github.com/Sendspin/aiosendspin).
+Original source: `CLAUDE.md` in [Sendspin/aiosendspin](https://github.com/Sendspin/aiosendspin).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
