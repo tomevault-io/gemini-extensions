@@ -7,11 +7,11 @@ Soft Scroll is a free, open‑source Windows utility that delivers smooth scroll
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rafaelsg-01/soft-scroll](https://github.com/rafaelsg-01/soft-scroll).
+Original source: `CLAUDE.md` in [rafaelsg-01/soft-scroll](https://github.com/rafaelsg-01/soft-scroll).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
