@@ -7,11 +7,11 @@ My Development container
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [caic-xyz/md](https://github.com/caic-xyz/md).
+Original source: `CLAUDE.md` in [caic-xyz/md](https://github.com/caic-xyz/md).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
