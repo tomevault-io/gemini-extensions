@@ -7,11 +7,11 @@ MLIR-in as a compiler stack for ucb-bar
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ucb-bar/merlin](https://github.com/ucb-bar/merlin).
+Original source: `CLAUDE.md` in [ucb-bar/merlin](https://github.com/ucb-bar/merlin).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
