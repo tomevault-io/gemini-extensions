@@ -7,11 +7,11 @@ Private, local‑first translation using Chrome's built‑in AI Translator & Lan
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zh30/native-translate](https://github.com/zh30/native-translate).
+Original source: `CLAUDE.md` in [zh30/native-translate](https://github.com/zh30/native-translate).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
