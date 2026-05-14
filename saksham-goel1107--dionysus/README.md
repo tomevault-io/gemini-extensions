@@ -7,13 +7,13 @@ Dionysus is a modern SaaS platform that streamlines team collaboration with AI-p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Saksham-Goel1107/Dionysus](https://github.com/Saksham-Goel1107/Dionysus).
+Original source: `copilot-instructions.md` in [Saksham-Goel1107/Dionysus](https://github.com/Saksham-Goel1107/Dionysus).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
