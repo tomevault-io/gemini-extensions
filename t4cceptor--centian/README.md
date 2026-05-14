@@ -7,11 +7,11 @@ Give your AI agents structure, guardrails, and full observability — the Agent 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [T4cceptor/centian](https://github.com/T4cceptor/centian).
+Original source: `CLAUDE.md` in [T4cceptor/centian](https://github.com/T4cceptor/centian).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
