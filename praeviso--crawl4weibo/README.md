@@ -7,11 +7,11 @@ An out-of-the-box Weibo scraper Python library, based on a successfully tested s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Praeviso/crawl4weibo](https://github.com/Praeviso/crawl4weibo).
+Original source: `CLAUDE.md` in [Praeviso/crawl4weibo](https://github.com/Praeviso/crawl4weibo).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
