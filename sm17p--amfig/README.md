@@ -7,11 +7,11 @@ Figma-like Layout Inspector For Web
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [sm17p/amfig](https://github.com/sm17p/amfig).
+Original source: `CLAUDE.md` in [sm17p/amfig](https://github.com/sm17p/amfig).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
