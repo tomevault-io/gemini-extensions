@@ -7,11 +7,11 @@ A high-performance Python SDK for the ProjectX Trading Platform Gateway API. Thi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TexasCoding/project-x-py](https://github.com/TexasCoding/project-x-py).
+Original source: `CLAUDE.md` in [TexasCoding/project-x-py](https://github.com/TexasCoding/project-x-py).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
