@@ -7,11 +7,11 @@ A frontend for Keygen Open Source license server.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [orcunbaslak/keygen-ui](https://github.com/orcunbaslak/keygen-ui).
+Original source: `CLAUDE.md` in [orcunbaslak/keygen-ui](https://github.com/orcunbaslak/keygen-ui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
