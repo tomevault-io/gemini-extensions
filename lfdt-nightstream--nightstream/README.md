@@ -7,11 +7,11 @@ Lattice zkVM (post-quantum zkVM)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LFDT-Nightstream/Nightstream](https://github.com/LFDT-Nightstream/Nightstream).
+Original source: `CLAUDE.md` in [LFDT-Nightstream/Nightstream](https://github.com/LFDT-Nightstream/Nightstream).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
