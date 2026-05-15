@@ -7,11 +7,11 @@ A Open-source Visual Frontend Platform blending blueprints, node graphs, and cod
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Mdr-Tutorials/Mdr-Front-Engine](https://github.com/Mdr-Tutorials/Mdr-Front-Engine).
+Original source: `CLAUDE.md` in [Mdr-Tutorials/Mdr-Front-Engine](https://github.com/Mdr-Tutorials/Mdr-Front-Engine).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
