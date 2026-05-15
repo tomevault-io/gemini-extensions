@@ -7,11 +7,11 @@ A utility library for type-safe mocking of OpenAPI-based oRPC contracts using Mo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DanSnow/orpc-msw](https://github.com/DanSnow/orpc-msw).
+Original source: `CLAUDE.md` in [DanSnow/orpc-msw](https://github.com/DanSnow/orpc-msw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
