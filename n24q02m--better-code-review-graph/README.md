@@ -7,11 +7,11 @@ Knowledge graph for token-efficient code reviews -- fixed search, configurable e
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [n24q02m/better-code-review-graph](https://github.com/n24q02m/better-code-review-graph).
+Original source: `CLAUDE.md` in [n24q02m/better-code-review-graph](https://github.com/n24q02m/better-code-review-graph).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
