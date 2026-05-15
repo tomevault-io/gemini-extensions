@@ -7,11 +7,11 @@ Agent Harness best for your project. All in one workspace.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DotHarness/dotcraft](https://github.com/DotHarness/dotcraft).
+Original source: `CLAUDE.md` in [DotHarness/dotcraft](https://github.com/DotHarness/dotcraft).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
