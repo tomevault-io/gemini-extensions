@@ -7,11 +7,11 @@ Claude Code plugin that autonomously searches job boards, auto-fills application
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [suxrobGM/jobpilot](https://github.com/suxrobGM/jobpilot).
+Original source: `CLAUDE.md` in [suxrobGM/jobpilot](https://github.com/suxrobGM/jobpilot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
