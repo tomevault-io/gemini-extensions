@@ -7,11 +7,11 @@ Production-ready iOS SwiftUI guidance for AI coding agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill).
+Original source: `CLAUDE.md` in [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
