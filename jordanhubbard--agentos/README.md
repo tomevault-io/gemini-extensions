@@ -7,11 +7,11 @@ The world's first operating system for agents, not humans. Built on seL4 microke
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jordanhubbard/agentos](https://github.com/jordanhubbard/agentos).
+Original source: `CLAUDE.md` in [jordanhubbard/agentos](https://github.com/jordanhubbard/agentos).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
