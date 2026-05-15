@@ -7,11 +7,11 @@ Meraki Dashboard Prometheus & OTEL Exporter / Collector
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rknightion/meraki-dashboard-exporter](https://github.com/rknightion/meraki-dashboard-exporter).
+Original source: `CLAUDE.md` in [rknightion/meraki-dashboard-exporter](https://github.com/rknightion/meraki-dashboard-exporter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
