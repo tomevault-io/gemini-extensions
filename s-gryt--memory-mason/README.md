@@ -7,11 +7,11 @@ Memory Mason automatically captures AI conversations and turns them into structu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [s-gryt/memory-mason](https://github.com/s-gryt/memory-mason).
+Original source: `CLAUDE.md` in [s-gryt/memory-mason](https://github.com/s-gryt/memory-mason).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
