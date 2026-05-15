@@ -7,11 +7,11 @@ Open-source, self-hosted log management platform built with SvelteKit and Quickw
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [oleksandr-zhyhalo/logwiz](https://github.com/oleksandr-zhyhalo/logwiz).
+Original source: `CLAUDE.md` in [oleksandr-zhyhalo/logwiz](https://github.com/oleksandr-zhyhalo/logwiz).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
