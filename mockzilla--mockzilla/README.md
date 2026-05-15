@@ -7,11 +7,11 @@ OpenAPI mock server generator with portable and codegen modes, realistic respons
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mockzilla/mockzilla](https://github.com/mockzilla/mockzilla).
+Original source: `CLAUDE.md` in [mockzilla/mockzilla](https://github.com/mockzilla/mockzilla).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
