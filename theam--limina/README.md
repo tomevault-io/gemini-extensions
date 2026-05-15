@@ -7,11 +7,11 @@ Autonomous research harness for AI agents. Give it a measurable goal — it hypo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [theam/limina](https://github.com/theam/limina).
+Original source: `CLAUDE.md` in [theam/limina](https://github.com/theam/limina).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
