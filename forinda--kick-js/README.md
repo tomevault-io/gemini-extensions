@@ -7,11 +7,11 @@ A declarative progressive backend framework
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [forinda/kick-js](https://github.com/forinda/kick-js).
+Original source: `CLAUDE.md` in [forinda/kick-js](https://github.com/forinda/kick-js).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
