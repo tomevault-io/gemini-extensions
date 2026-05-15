@@ -4,7 +4,7 @@
   "repo": "meta-wearables-webapp",
   "description": "AI-assisted development toolkit for building web applications on Meta Ray-Ban Display glasses.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/facebookincubator/meta-wearables-webapp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-15T04:19:01Z"
+  "distributed_at": "2026-05-15T06:19:47Z"
 }
