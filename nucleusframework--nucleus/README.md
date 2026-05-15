@@ -7,11 +7,11 @@ Nucleus is the native desktop platform for the JVM. Combined with Compose Multip
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NucleusFramework/Nucleus](https://github.com/NucleusFramework/Nucleus).
+Original source: `CLAUDE.md` in [NucleusFramework/Nucleus](https://github.com/NucleusFramework/Nucleus).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
