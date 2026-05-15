@@ -7,11 +7,11 @@ Codex + Claude Code Integration: Use OpenAI Codex for planning/reasoning and Cla
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rachittshah/cc-codex](https://github.com/rachittshah/cc-codex).
+Original source: `CLAUDE.md` in [rachittshah/cc-codex](https://github.com/rachittshah/cc-codex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
