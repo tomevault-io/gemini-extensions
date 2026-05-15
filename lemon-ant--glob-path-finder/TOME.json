@@ -4,7 +4,7 @@
   "repo": "glob-path-finder",
   "description": "Recursive file tree scanner with include/exclude glob patterns and extension filters",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/lemon-ant/glob-path-finder",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-15T01:58:25Z"
+  "distributed_at": "2026-05-15T03:02:26Z"
 }
