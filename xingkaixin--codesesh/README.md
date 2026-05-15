@@ -7,11 +7,11 @@ One place to see every AI coding session you've ever had.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [xingkaixin/codesesh](https://github.com/xingkaixin/codesesh).
+Original source: `CLAUDE.md` in [xingkaixin/codesesh](https://github.com/xingkaixin/codesesh).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
