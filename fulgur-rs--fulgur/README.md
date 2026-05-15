@@ -7,11 +7,11 @@ Blazing fast HTML to PDF engine built on blitz and krilla
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [fulgur-rs/fulgur](https://github.com/fulgur-rs/fulgur).
+Original source: `CLAUDE.md` in [fulgur-rs/fulgur](https://github.com/fulgur-rs/fulgur).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
