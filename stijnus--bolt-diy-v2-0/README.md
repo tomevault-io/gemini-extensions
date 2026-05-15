@@ -7,11 +7,11 @@ AI-powered web development tool - Enhanced version of bolt.new with authenticati
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Stijnus/bolt.diy_V2.0](https://github.com/Stijnus/bolt.diy_V2.0).
+Original source: `CLAUDE.md` in [Stijnus/bolt.diy_V2.0](https://github.com/Stijnus/bolt.diy_V2.0).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
