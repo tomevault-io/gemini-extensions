@@ -7,11 +7,11 @@ AI eyes that roll through video footage — watch, understand, act
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mnvsk97/eyeroll](https://github.com/mnvsk97/eyeroll).
+Original source: `CLAUDE.md` in [mnvsk97/eyeroll](https://github.com/mnvsk97/eyeroll).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
