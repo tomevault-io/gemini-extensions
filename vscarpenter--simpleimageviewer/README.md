@@ -1,0 +1,26 @@
+# AI instruction files for SimpleImageViewer
+
+> Sourced from [vscarpenter/SimpleImageViewer](https://github.com/vscarpenter/SimpleImageViewer) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+A minimalist, elegant image viewer designed specifically for macOS users who want a clean, distraction-free way to browse through image collections. Built with SwiftUI and optimized for the Mac App Store.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `copilot-instructions.md` in [vscarpenter/SimpleImageViewer](https://github.com/vscarpenter/SimpleImageViewer).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [vscarpenter/SimpleImageViewer](https://github.com/vscarpenter/SimpleImageViewer) — a repo with 8+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:a-e-s -->
