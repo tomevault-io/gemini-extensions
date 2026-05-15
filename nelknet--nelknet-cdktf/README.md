@@ -7,11 +7,11 @@ F# Computation Expression Interface for CDKTF
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nelknet/Nelknet.Cdktf](https://github.com/nelknet/Nelknet.Cdktf).
+Original source: `CLAUDE.md` in [nelknet/Nelknet.Cdktf](https://github.com/nelknet/Nelknet.Cdktf).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
