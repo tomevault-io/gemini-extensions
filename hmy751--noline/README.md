@@ -7,11 +7,11 @@ Noline은 No + Offline을 결합한 이름으로, 해외 여행 중 불안정한
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hmy751/noline](https://github.com/hmy751/noline).
+Original source: `CLAUDE.md` in [hmy751/noline](https://github.com/hmy751/noline).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
