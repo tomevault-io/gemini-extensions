@@ -7,11 +7,11 @@ MCP server: Claude Code as team lead coordinating worker agents, with true push 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jessepwj/agent-teams-mcp](https://github.com/jessepwj/agent-teams-mcp).
+Original source: `CLAUDE.md` in [jessepwj/agent-teams-mcp](https://github.com/jessepwj/agent-teams-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
