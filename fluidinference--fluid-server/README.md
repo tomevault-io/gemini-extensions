@@ -7,11 +7,11 @@ Local AI server for your Windows apps.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FluidInference/fluid-server](https://github.com/FluidInference/fluid-server).
+Original source: `CLAUDE.md` in [FluidInference/fluid-server](https://github.com/FluidInference/fluid-server).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
