@@ -7,11 +7,11 @@ A novel, bytecode generation based Java regular expression library
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DataDog/java-reggie](https://github.com/DataDog/java-reggie).
+Original source: `CLAUDE.md` in [DataDog/java-reggie](https://github.com/DataDog/java-reggie).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
