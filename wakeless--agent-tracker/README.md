@@ -7,11 +7,11 @@ A way to track where and what your agents are doing!
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wakeless/agent-tracker](https://github.com/wakeless/agent-tracker).
+Original source: `CLAUDE.md` in [wakeless/agent-tracker](https://github.com/wakeless/agent-tracker).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
