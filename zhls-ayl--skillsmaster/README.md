@@ -7,11 +7,11 @@ SkillsMaster 是一个面向 macOS 的原生应用，用统一的图形界面管
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zhls-ayl/SkillsMaster](https://github.com/zhls-ayl/SkillsMaster).
+Original source: `CLAUDE.md` in [zhls-ayl/SkillsMaster](https://github.com/zhls-ayl/SkillsMaster).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
