@@ -7,11 +7,11 @@ Open-source MCP Server for web search, content extraction, library docs & multim
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [n24q02m/wet-mcp](https://github.com/n24q02m/wet-mcp).
+Original source: `CLAUDE.md` in [n24q02m/wet-mcp](https://github.com/n24q02m/wet-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
