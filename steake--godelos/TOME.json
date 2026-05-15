@@ -2,9 +2,9 @@
   "name": "GodelOS",
   "owner": "Steake",
   "repo": "GodelOS",
-  "description": "",
+  "description": "AGI runtime for bounded recursive self-awareness. Attempting machine consciousness at the G\u00f6del\u2013Turing\u2013Hofstadter Nexus.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/Steake",
+  "source_url": "https://github.com/Steake/GodelOS",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-10T04:15:32Z"
+  "distributed_at": "2026-05-15T06:53:14Z"
 }
