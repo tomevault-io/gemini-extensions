@@ -7,11 +7,11 @@ VBI, AI-oriented intelligent BI system.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [VisActor/VBI](https://github.com/VisActor/VBI).
+Original source: `CLAUDE.md` in [VisActor/VBI](https://github.com/VisActor/VBI).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
