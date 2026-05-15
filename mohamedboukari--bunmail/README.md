@@ -7,13 +7,13 @@ Self-hosted email API for developers  free alternative to SendGrid/Resend
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [mohamedboukari/bunmail](https://github.com/mohamedboukari/bunmail).
+Original source: `CLAUDE.md` in [mohamedboukari/bunmail](https://github.com/mohamedboukari/bunmail).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
