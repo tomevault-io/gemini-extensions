@@ -7,11 +7,11 @@ Collaborate and iterate on documents with Claude Code
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Ch00k/claude-review](https://github.com/Ch00k/claude-review).
+Original source: `CLAUDE.md` in [Ch00k/claude-review](https://github.com/Ch00k/claude-review).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
