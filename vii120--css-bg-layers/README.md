@@ -7,11 +7,11 @@ A playground to split, visualize, and edit complex CSS background layers
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [vii120/css-bg-layers](https://github.com/vii120/css-bg-layers).
+Original source: `CLAUDE.md` in [vii120/css-bg-layers](https://github.com/vii120/css-bg-layers).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
