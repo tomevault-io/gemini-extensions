@@ -7,11 +7,11 @@ Instant hosting for AI agents — turn output into pages worth sharing
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AdirAmsalem/easl](https://github.com/AdirAmsalem/easl).
+Original source: `CLAUDE.md` in [AdirAmsalem/easl](https://github.com/AdirAmsalem/easl).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
