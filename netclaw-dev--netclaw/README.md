@@ -7,11 +7,11 @@ Simple, secure, reliable agents. Self-hosted. Open source. Built with .NET.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [netclaw-dev/netclaw](https://github.com/netclaw-dev/netclaw).
+Original source: `CLAUDE.md` in [netclaw-dev/netclaw](https://github.com/netclaw-dev/netclaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
