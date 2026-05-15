@@ -7,11 +7,11 @@ CLI debugger that lets coding agents inspect live Python runtime state, with opt
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [illscience/vibe-debug](https://github.com/illscience/vibe-debug).
+Original source: `CLAUDE.md` in [illscience/vibe-debug](https://github.com/illscience/vibe-debug).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
