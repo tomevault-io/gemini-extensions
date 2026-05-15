@@ -7,11 +7,11 @@ A pure rusts port of LVGL for embedded use
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [SoftOboros/rlvgl](https://github.com/SoftOboros/rlvgl).
+Original source: `CLAUDE.md` in [SoftOboros/rlvgl](https://github.com/SoftOboros/rlvgl).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
