@@ -7,11 +7,11 @@ A modern macOS menu bar application for managing AeroSpace window manager spaces
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rdrkr/AeroSpaceBar](https://github.com/rdrkr/AeroSpaceBar).
+Original source: `CLAUDE.md` in [rdrkr/AeroSpaceBar](https://github.com/rdrkr/AeroSpaceBar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
