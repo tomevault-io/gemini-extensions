@@ -7,11 +7,11 @@ Full feature nostr client found at nostr.blue
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [patrickulrich/nostr.blue](https://github.com/patrickulrich/nostr.blue).
+Original source: `CLAUDE.md` in [patrickulrich/nostr.blue](https://github.com/patrickulrich/nostr.blue).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
