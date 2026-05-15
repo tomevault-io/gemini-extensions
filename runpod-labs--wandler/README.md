@@ -7,11 +7,11 @@ transformers.js inference server
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [runpod-labs/wandler](https://github.com/runpod-labs/wandler).
+Original source: `CLAUDE.md` in [runpod-labs/wandler](https://github.com/runpod-labs/wandler).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
