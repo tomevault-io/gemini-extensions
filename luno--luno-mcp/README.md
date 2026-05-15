@@ -7,12 +7,12 @@ MCP Server for the Luno Cryptocurrency API
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [luno/luno-mcp](https://github.com/luno/luno-mcp).
+Original source: `CLAUDE.md` in [luno/luno-mcp](https://github.com/luno/luno-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
