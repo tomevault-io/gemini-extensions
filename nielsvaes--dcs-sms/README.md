@@ -7,11 +7,11 @@ Lightweight DCS World scripting framework + DCS Mission Editor improvements
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nielsvaes/dcs-sms](https://github.com/nielsvaes/dcs-sms).
+Original source: `CLAUDE.md` in [nielsvaes/dcs-sms](https://github.com/nielsvaes/dcs-sms).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
