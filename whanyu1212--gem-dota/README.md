@@ -7,11 +7,11 @@ Python replay parser for Dota 2
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [whanyu1212/gem-dota](https://github.com/whanyu1212/gem-dota).
+Original source: `CLAUDE.md` in [whanyu1212/gem-dota](https://github.com/whanyu1212/gem-dota).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
