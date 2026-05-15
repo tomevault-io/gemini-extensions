@@ -7,13 +7,13 @@ n8n community nodes for Yandex Cloud services integration
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [nikolaymatrosov/n8n-nodes-yc](https://github.com/nikolaymatrosov/n8n-nodes-yc).
+Original source: `CLAUDE.md` in [nikolaymatrosov/n8n-nodes-yc](https://github.com/nikolaymatrosov/n8n-nodes-yc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
