@@ -7,11 +7,11 @@ A powerful LIFX lighting control system with many effects both 1D and 2D as well
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [pkivolowitz/glowup](https://github.com/pkivolowitz/glowup).
+Original source: `CLAUDE.md` in [pkivolowitz/glowup](https://github.com/pkivolowitz/glowup).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
