@@ -1,0 +1,26 @@
+# thinkrank
+
+> Tome by [clduab11](https://github.com/clduab11/thinkrank) — distributed by [TomeVault](https://tomevault.io)
+
+Revolutionizing collaborative thinking and problem-solving through intelligent ranking systems and gamified AI research contribution. A hybrid gaming-educational mobile platform that combines engaging game mechanics with generative AI education and research.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [clduab11/thinkrank](https://github.com/clduab11/thinkrank).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [clduab11/thinkrank](https://github.com/clduab11/thinkrank) — a repo with 26+ stars on GitHub.
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-s -->
