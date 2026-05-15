@@ -7,11 +7,11 @@ Give your agent a knowledge graph that compounds.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Labhund/lacuna-wiki](https://github.com/Labhund/lacuna-wiki).
+Original source: `CLAUDE.md` in [Labhund/lacuna-wiki](https://github.com/Labhund/lacuna-wiki).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
