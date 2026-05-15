@@ -7,11 +7,11 @@ Nevermined Documentation
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nevermined-io/docs](https://github.com/nevermined-io/docs).
+Original source: `CLAUDE.md` in [nevermined-io/docs](https://github.com/nevermined-io/docs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
