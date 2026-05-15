@@ -7,11 +7,11 @@ Supervised agent execution for software teams. Kanban-driven, tmux-native, test-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [battysh/batty](https://github.com/battysh/batty).
+Original source: `CLAUDE.md` in [battysh/batty](https://github.com/battysh/batty).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
