@@ -7,12 +7,12 @@ A minimalist, elegant image viewer designed specifically for macOS users who wan
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [vscarpenter/SimpleImageViewer](https://github.com/vscarpenter/SimpleImageViewer).
+Original source: `AGENTS.md` in [vscarpenter/SimpleImageViewer](https://github.com/vscarpenter/SimpleImageViewer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
