@@ -7,11 +7,11 @@ The most systematic harness system for Claude Code. Constitutional, file-based e
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ZIONISREAL/Claude-Praxis](https://github.com/ZIONISREAL/Claude-Praxis).
+Original source: `CLAUDE.md` in [ZIONISREAL/Claude-Praxis](https://github.com/ZIONISREAL/Claude-Praxis).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
