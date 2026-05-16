@@ -7,11 +7,11 @@ Shared config, skills, and update scripts for Claude Code, Codex, and Gemini CLI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [MiaoDX/intuitive-flow](https://github.com/MiaoDX/intuitive-flow).
+Original source: `CLAUDE.md` in [MiaoDX/intuitive-flow](https://github.com/MiaoDX/intuitive-flow).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
