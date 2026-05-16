@@ -7,11 +7,11 @@ IntelliStock is a self-hosted algorithmic trading platform you run on your own i
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Th3-H4xx0r/IntelliStock](https://github.com/Th3-H4xx0r/IntelliStock).
+Original source: `CLAUDE.md` in [Th3-H4xx0r/IntelliStock](https://github.com/Th3-H4xx0r/IntelliStock).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
