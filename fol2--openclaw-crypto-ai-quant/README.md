@@ -7,11 +7,11 @@ AI-powered crypto perpetual futures trading engine with GPU-accelerated backtest
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [fol2/openclaw-crypto-ai-quant](https://github.com/fol2/openclaw-crypto-ai-quant).
+Original source: `CLAUDE.md` in [fol2/openclaw-crypto-ai-quant](https://github.com/fol2/openclaw-crypto-ai-quant).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
