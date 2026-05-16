@@ -7,11 +7,11 @@ Ambient intelligence that sees what you see, hears what you hear, and acts on yo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [anthillnet/sinain-hud](https://github.com/anthillnet/sinain-hud).
+Original source: `CLAUDE.md` in [anthillnet/sinain-hud](https://github.com/anthillnet/sinain-hud).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
