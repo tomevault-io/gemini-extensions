@@ -1,0 +1,30 @@
+# ceph-doctor
+
+> Tome by [oetiker](https://github.com/oetiker/ceph-doctor) — distributed by [TomeVault](https://tomevault.io)
+
+Tool to show extra information while ceph is repairing itself
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [oetiker/ceph-doctor](https://github.com/oetiker/ceph-doctor).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [oetiker/ceph-doctor](https://github.com/oetiker/ceph-doctor) — a repo with 12+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install oetiker/ceph-doctor
+```
+Source: [github.com/oetiker/ceph-doctor](https://github.com/oetiker/ceph-doctor).
+
+<!-- genome:t-i-s -->
