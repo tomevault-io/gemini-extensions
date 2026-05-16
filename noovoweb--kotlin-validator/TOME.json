@@ -4,7 +4,7 @@
   "repo": "kotlin-validator",
   "description": "A high-performance, type-safe, coroutine-native validation library for Kotlin. Validators are generated at compile time with KSP, eliminating runtime reflection, annotation scanning, and hidden behavior. Each validator is a `suspend` function, enabling parallel field validation and non-blocking execution of I/O-bound custom validators. ",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/noovoweb/kotlin-validator",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-16T14:31:17Z"
+  "distributed_at": "2026-05-16T14:33:39Z"
 }
