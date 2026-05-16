@@ -7,11 +7,11 @@ Voxel based world with Rust and Bevy
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [danielsobrado/drusniel-voxels-bevy](https://github.com/danielsobrado/drusniel-voxels-bevy).
+Original source: `CLAUDE.md` in [danielsobrado/drusniel-voxels-bevy](https://github.com/danielsobrado/drusniel-voxels-bevy).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
