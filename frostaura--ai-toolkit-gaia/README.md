@@ -7,11 +7,11 @@ A toolkit for building full-stack systems. Battle-tested with Copilot in VS Code
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [frostaura/ai.toolkit.gaia](https://github.com/frostaura/ai.toolkit.gaia).
+Original source: `CLAUDE.md` in [frostaura/ai.toolkit.gaia](https://github.com/frostaura/ai.toolkit.gaia).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
