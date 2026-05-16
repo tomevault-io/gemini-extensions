@@ -7,11 +7,11 @@ A community event platform for organizing and discovering local huddlz (gatherin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [huddlz-hq/huddlz](https://github.com/huddlz-hq/huddlz).
+Original source: `CLAUDE.md` in [huddlz-hq/huddlz](https://github.com/huddlz-hq/huddlz).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
