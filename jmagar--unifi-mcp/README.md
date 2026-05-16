@@ -7,11 +7,11 @@ UniFi network management via MCP tools. Monitor devices, clients, network health
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jmagar/unifi-mcp](https://github.com/jmagar/unifi-mcp).
+Original source: `CLAUDE.md` in [jmagar/unifi-mcp](https://github.com/jmagar/unifi-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
