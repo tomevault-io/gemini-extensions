@@ -4,7 +4,7 @@
   "repo": "php-parser",
   "description": "A fast PHP parser written in Rust",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/wudi/php-parser",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-16T14:33:10Z"
+  "distributed_at": "2026-05-16T14:34:34Z"
 }
