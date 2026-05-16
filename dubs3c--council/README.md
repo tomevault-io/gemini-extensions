@@ -7,11 +7,11 @@ The Council - Multi-agent discussion system for reaching consensus through struc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dubs3c/council](https://github.com/dubs3c/council).
+Original source: `CLAUDE.md` in [dubs3c/council](https://github.com/dubs3c/council).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
