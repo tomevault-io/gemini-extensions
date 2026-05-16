@@ -7,11 +7,11 @@ TypeScript framework for building AI agents — multi-provider (Anthropic, OpenA
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [woojubb/robota](https://github.com/woojubb/robota).
+Original source: `CLAUDE.md` in [woojubb/robota](https://github.com/woojubb/robota).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
