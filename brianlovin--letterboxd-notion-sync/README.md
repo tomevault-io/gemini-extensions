@@ -7,11 +7,11 @@ Sync your Letterboxd diary and watchlist into a Notion database
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [brianlovin/letterboxd-notion-sync](https://github.com/brianlovin/letterboxd-notion-sync).
+Original source: `CLAUDE.md` in [brianlovin/letterboxd-notion-sync](https://github.com/brianlovin/letterboxd-notion-sync).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
