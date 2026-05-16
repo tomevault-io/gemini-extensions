@@ -7,11 +7,11 @@ Protein prediction models implemented with Modal
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [softnanolab/boileroom](https://github.com/softnanolab/boileroom).
+Original source: `CLAUDE.md` in [softnanolab/boileroom](https://github.com/softnanolab/boileroom).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
