@@ -7,11 +7,11 @@ IPFS Pinning Service API implementation that pins to Filecoin's PDP service
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [filecoin-project/filecoin-pin](https://github.com/filecoin-project/filecoin-pin).
+Original source: `CLAUDE.md` in [filecoin-project/filecoin-pin](https://github.com/filecoin-project/filecoin-pin).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
