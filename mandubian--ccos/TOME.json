@@ -4,7 +4,7 @@
   "repo": "ccos",
   "description": "CCOS Causal Cognitive Operating System + RTFS (Reason the Fucking Spec) core language",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": ".cursor/rules/*.mdc",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mandubian/ccos",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-16T00:45:03Z"
+  "distributed_at": "2026-05-16T01:46:42Z"
 }
