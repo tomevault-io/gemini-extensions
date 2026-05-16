@@ -7,11 +7,11 @@ Japan Post Service API Client / 郵便番号・デジタルアドレス API ク�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [seratch/japanpost-api-ts](https://github.com/seratch/japanpost-api-ts).
+Original source: `CLAUDE.md` in [seratch/japanpost-api-ts](https://github.com/seratch/japanpost-api-ts).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
