@@ -4,7 +4,7 @@
   "repo": "triage-bot",
   "description": "An OpenAI-powered triage bot for a slack support channel designed to tag oncalls, prioritize issues, suggest solutions, and streamline communication.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/twitchax/triage-bot",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-16T00:39:33Z"
+  "distributed_at": "2026-05-16T00:42:14Z"
 }
