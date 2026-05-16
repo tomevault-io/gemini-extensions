@@ -7,11 +7,11 @@ Bash scripts to enhance LLM agent capabilities: task tracking, architecture docu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [alchemiststudiosDOTai/llm-agent-tools](https://github.com/alchemiststudiosDOTai/llm-agent-tools).
+Original source: `CLAUDE.md` in [alchemiststudiosDOTai/llm-agent-tools](https://github.com/alchemiststudiosDOTai/llm-agent-tools).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
