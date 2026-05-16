@@ -7,11 +7,11 @@ Universal setup for Claude Code & Codex CLI — security guard, TTS notification
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DefaultPerson/agent-setup](https://github.com/DefaultPerson/agent-setup).
+Original source: `CLAUDE.md` in [DefaultPerson/agent-setup](https://github.com/DefaultPerson/agent-setup).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
