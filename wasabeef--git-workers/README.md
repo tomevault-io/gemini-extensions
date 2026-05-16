@@ -7,11 +7,11 @@ An interactive CLI tool for managing Git worktrees with ease.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wasabeef/git-workers](https://github.com/wasabeef/git-workers).
+Original source: `CLAUDE.md` in [wasabeef/git-workers](https://github.com/wasabeef/git-workers).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
