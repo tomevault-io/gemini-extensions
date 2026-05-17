@@ -7,13 +7,13 @@ AI Platform Team Tracker — Vue 3 dashboard for Jira sprint metrics
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [red-hat-data-services/rhai-org-pulse](https://github.com/red-hat-data-services/rhai-org-pulse).
+Original source: `AGENTS.md` in [red-hat-data-services/rhai-org-pulse](https://github.com/red-hat-data-services/rhai-org-pulse).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
