@@ -4,7 +4,7 @@
   "repo": "geistty",
   "description": "Native iOS/iPadOS SSH terminal powered by Ghostty's terminal engine",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/daiimus/geistty",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-17T04:33:30Z"
+  "distributed_at": "2026-05-17T04:41:33Z"
 }
