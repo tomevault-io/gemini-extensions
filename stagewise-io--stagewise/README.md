@@ -7,11 +7,11 @@ The Open Source Agentic IDE. Create and orchestrate coding agents, show app prev
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [stagewise-io/stagewise](https://github.com/stagewise-io/stagewise).
+Original source: `AGENTS.md` in [stagewise-io/stagewise](https://github.com/stagewise-io/stagewise).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
