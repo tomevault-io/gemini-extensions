@@ -7,12 +7,12 @@ Breakster is a real-time multiplayer music party game. Players listen to short p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ffoerster/breakster](https://github.com/ffoerster/breakster).
+Original source: `CLAUDE.md` in [ffoerster/breakster](https://github.com/ffoerster/breakster).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
