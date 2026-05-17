@@ -4,7 +4,7 @@
   "repo": "CameraCapture",
   "description": "ccap `(C)amera(CAP)ture` is a simple and easy-to-use C/C++ camera capture library designed to provide you with simple and efficient camera data access. It currently supports Windows macOS and Linux.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/wysaid/CameraCapture",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-17T21:53:47Z"
+  "distributed_at": "2026-05-17T22:52:44Z"
 }
