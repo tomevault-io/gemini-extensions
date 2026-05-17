@@ -7,11 +7,11 @@ Official Java SDK for the Agent2Agent (A2A) Protocol
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java).
+Original source: `AGENTS.md` in [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
