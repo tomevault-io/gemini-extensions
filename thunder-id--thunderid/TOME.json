@@ -4,7 +4,7 @@
   "repo": "thunderid",
   "description": "ThunderID is a high-performance, open-source identity stack designed for developers to secure and manage access for humans, AI agents, and workloads through fully composable identity flows.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/thunder-id/thunderid",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-17T21:55:36Z"
+  "distributed_at": "2026-05-17T22:54:06Z"
 }
