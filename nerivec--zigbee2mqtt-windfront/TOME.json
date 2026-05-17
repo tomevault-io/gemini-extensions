@@ -4,7 +4,7 @@
   "repo": "zigbee2mqtt-windfront",
   "description": "Open Source frontend for Zigbee2MQTT",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Nerivec/zigbee2mqtt-windfront",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-17T22:10:35Z"
+  "distributed_at": "2026-05-17T23:05:45Z"
 }
