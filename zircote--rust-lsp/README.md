@@ -7,12 +7,12 @@ Claude Code plugin for Rust development with rust-analyzer, clippy, rustfmt, and
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [zircote/rust-lsp](https://github.com/zircote/rust-lsp).
+Original source: `CLAUDE.md` in [zircote/rust-lsp](https://github.com/zircote/rust-lsp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
