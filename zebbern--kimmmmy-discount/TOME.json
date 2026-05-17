@@ -4,7 +4,7 @@
   "repo": "kimmmmy-discount",
   "description": "How I convinced the AI kimmmmy to give me Membership for Just $0.99!",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/zebbern/kimmmmy-discount",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-17T12:31:14Z"
+  "distributed_at": "2026-05-17T12:42:33Z"
 }
