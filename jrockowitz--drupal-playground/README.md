@@ -7,11 +7,11 @@ Drupal (AI) Playground for experimenting with Drupal AI capabilities and AI driv
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jrockowitz/drupal_playground](https://github.com/jrockowitz/drupal_playground).
+Original source: `CLAUDE.md` in [jrockowitz/drupal_playground](https://github.com/jrockowitz/drupal_playground).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
