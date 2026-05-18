@@ -7,11 +7,11 @@ VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recip
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ByteDance-Seed/VeOmni](https://github.com/ByteDance-Seed/VeOmni).
+Original source: `CLAUDE.md` in [ByteDance-Seed/VeOmni](https://github.com/ByteDance-Seed/VeOmni).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
