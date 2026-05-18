@@ -7,11 +7,11 @@ AgentSociety 2 is a modern, LLM-native agent simulation platform designed for so
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety).
+Original source: `CLAUDE.md` in [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
