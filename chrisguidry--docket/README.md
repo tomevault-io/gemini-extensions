@@ -7,11 +7,11 @@ docket is a distributed background task system for Python
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [chrisguidry/docket](https://github.com/chrisguidry/docket).
+Original source: `CLAUDE.md` in [chrisguidry/docket](https://github.com/chrisguidry/docket).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
