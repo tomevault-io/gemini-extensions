@@ -7,12 +7,12 @@ Hashbrown is a framework for building agents that run the browser. Built for Ang
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [liveloveapp/hashbrown](https://github.com/liveloveapp/hashbrown).
+Original source: `AGENTS.md` in [liveloveapp/hashbrown](https://github.com/liveloveapp/hashbrown).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
