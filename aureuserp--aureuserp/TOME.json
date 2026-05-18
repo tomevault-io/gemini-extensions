@@ -4,7 +4,7 @@
   "repo": "aureuserp",
   "description": "Free and Open Source ERP platform",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/aureuserp/aureuserp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T15:57:03Z"
+  "distributed_at": "2026-05-18T21:26:47Z"
 }
