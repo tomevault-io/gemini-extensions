@@ -2,9 +2,9 @@
   "name": "Generative-AI-for-beginners-dotnet",
   "owner": "microsoft",
   "repo": "Generative-AI-for-beginners-dotnet",
-  "description": "",
+  "description": "Five lessons, learn how to really apply AI to your .NET Applications",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/microsoft",
+  "source_url": "https://github.com/microsoft/Generative-AI-for-beginners-dotnet",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T06:00:15Z"
+  "distributed_at": "2026-05-18T17:51:58Z"
 }
