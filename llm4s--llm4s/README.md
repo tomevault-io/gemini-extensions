@@ -7,11 +7,11 @@ Agentic  and LLM Programming in Scala
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [llm4s/llm4s](https://github.com/llm4s/llm4s).
+Original source: `CLAUDE.md` in [llm4s/llm4s](https://github.com/llm4s/llm4s).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
