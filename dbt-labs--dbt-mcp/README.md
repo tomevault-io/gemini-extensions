@@ -7,11 +7,11 @@ A MCP (Model Context Protocol) server for interacting with dbt.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp).
+Original source: `CLAUDE.md` in [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
