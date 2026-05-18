@@ -7,13 +7,13 @@ MCP server for Coolify — 38 optimized tools for managing self-hosted PaaS thro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [StuMason/coolify-mcp](https://github.com/StuMason/coolify-mcp).
+Original source: `.cursor/rules/*.mdc` in [StuMason/coolify-mcp](https://github.com/StuMason/coolify-mcp).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
