@@ -7,11 +7,11 @@ A opponiated Laravel 12 Livewire Components Starter Kit, with user, role and per
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mortenebak/tallstarter](https://github.com/mortenebak/tallstarter).
+Original source: `CLAUDE.md` in [mortenebak/tallstarter](https://github.com/mortenebak/tallstarter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
