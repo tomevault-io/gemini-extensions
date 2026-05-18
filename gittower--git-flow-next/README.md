@@ -7,11 +7,11 @@ A modern reimplementation of git-flow in Go that offers greater flexibility whil
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gittower/git-flow-next](https://github.com/gittower/git-flow-next).
+Original source: `CLAUDE.md` in [gittower/git-flow-next](https://github.com/gittower/git-flow-next).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
