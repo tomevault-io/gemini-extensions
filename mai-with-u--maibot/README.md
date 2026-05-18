@@ -7,11 +7,11 @@ MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to unders
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Mai-with-u/MaiBot](https://github.com/Mai-with-u/MaiBot).
+Original source: `CLAUDE.md` in [Mai-with-u/MaiBot](https://github.com/Mai-with-u/MaiBot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
