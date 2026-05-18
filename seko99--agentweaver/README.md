@@ -7,11 +7,11 @@ AgentWeaver is a TypeScript/Node.js CLI for harness engineering around coding ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [seko99/AgentWeaver](https://github.com/seko99/AgentWeaver).
+Original source: `CLAUDE.md` in [seko99/AgentWeaver](https://github.com/seko99/AgentWeaver).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
