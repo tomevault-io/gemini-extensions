@@ -7,13 +7,13 @@ A modern, privacy-focused browser with a minimalistic design.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [MultiboxLabs/flow-browser](https://github.com/MultiboxLabs/flow-browser).
+Original source: `.cursor/rules/*.mdc` in [MultiboxLabs/flow-browser](https://github.com/MultiboxLabs/flow-browser).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
