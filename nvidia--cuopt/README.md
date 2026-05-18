@@ -7,12 +7,12 @@ GPU accelerated decision optimization
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [NVIDIA/cuopt](https://github.com/NVIDIA/cuopt).
+Original source: `AGENTS.md` in [NVIDIA/cuopt](https://github.com/NVIDIA/cuopt).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
