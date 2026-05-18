@@ -4,7 +4,7 @@
   "repo": "azure-ai-travel-agents",
   "description": "A robust enterprise application sample (deployed on ACA) that leverages MCP and multiple AI agents orchestrated by Langchain.js, Llamaindex.TS and Microsoft Agent Framework.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Azure-Samples/azure-ai-travel-agents",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T07:52:04Z"
+  "distributed_at": "2026-05-18T08:32:05Z"
 }
