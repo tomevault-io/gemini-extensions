@@ -4,7 +4,7 @@
   "repo": "mcp-linear",
   "description": "MCP server that enables AI assistants to interact with Linear project management system through natural language, allowing users to retrieve, create, and update issues, projects, and teams.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tacticlaunch/mcp-linear",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T08:07:26Z"
+  "distributed_at": "2026-05-18T11:42:55Z"
 }
