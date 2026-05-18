@@ -4,7 +4,7 @@
   "repo": "next16-async-react-blog",
   "description": "An interactive blog demo exploring Async React patterns with Cache Components and streaming using Next.js 16, React 19, Tailwind CSS, Prisma and shadcn/ui.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/aurorascharff/next16-async-react-blog",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T15:38:26Z"
+  "distributed_at": "2026-05-18T20:53:06Z"
 }
