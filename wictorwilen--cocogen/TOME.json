@@ -4,7 +4,7 @@
   "repo": "cocogen",
   "description": "\ud83e\udd65 TypeSpec \u2192 Microsoft 365 Copilot connector scaffolding",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/wictorwilen/cocogen",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T11:37:44Z"
+  "distributed_at": "2026-05-18T14:19:32Z"
 }
