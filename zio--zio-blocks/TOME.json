@@ -4,7 +4,7 @@
   "repo": "zio-blocks",
   "description": "Powerful, joyful building blocks for modern cloud-native applications.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/zio/zio-blocks",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T05:48:29Z"
+  "distributed_at": "2026-05-18T06:15:22Z"
 }
