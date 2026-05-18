@@ -7,11 +7,11 @@ AgentX 致力于让小白也能无门槛通过自然语言打造属于自己的 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lucky-aeon/AgentX](https://github.com/lucky-aeon/AgentX).
+Original source: `CLAUDE.md` in [lucky-aeon/AgentX](https://github.com/lucky-aeon/AgentX).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
