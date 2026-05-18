@@ -7,11 +7,11 @@ Generate "Rules for AI". Quickly ✨
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [przeprogramowani/ai-rules-builder](https://github.com/przeprogramowani/ai-rules-builder).
+Original source: `CLAUDE.md` in [przeprogramowani/ai-rules-builder](https://github.com/przeprogramowani/ai-rules-builder).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
