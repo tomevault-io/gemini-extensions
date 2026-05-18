@@ -7,13 +7,13 @@ Magic to turn Cursor/Windsurf as 90% of Devin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules).
+Original source: `copilot-instructions.md` in [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
