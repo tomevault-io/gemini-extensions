@@ -1,0 +1,30 @@
+# simply
+
+> Source: [google-deepmind/simply](https://github.com/google-deepmind/simply) — distributed by [TomeVault](https://tomevault.io)
+
+Minimal and scalable research codebase in JAX, designed for rapid iteration on frontier research in LLM and other autoregressive models.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [google-deepmind/simply](https://github.com/google-deepmind/simply).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/google-deepmind/simply](https://github.com/google-deepmind/simply)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install google-deepmind/simply
+```
+Source: [github.com/google-deepmind/simply](https://github.com/google-deepmind/simply).
+
+<!-- genome:d-i-p -->
