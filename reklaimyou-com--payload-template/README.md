@@ -7,11 +7,11 @@ A modern Next.js 16 + PayloadCMS 3 starter template with TailwindCSS 4, shadcn/u
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ReklaimYou-com/payload-template](https://github.com/ReklaimYou-com/payload-template).
+Original source: `CLAUDE.md` in [ReklaimYou-com/payload-template](https://github.com/ReklaimYou-com/payload-template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
