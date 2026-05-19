@@ -7,11 +7,11 @@ AI-friendly project starter pack — multi-agent ready, stack-neutral, with auto
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wesleysimplicio/llm-project-mapper](https://github.com/wesleysimplicio/llm-project-mapper).
+Original source: `CLAUDE.md` in [wesleysimplicio/llm-project-mapper](https://github.com/wesleysimplicio/llm-project-mapper).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
