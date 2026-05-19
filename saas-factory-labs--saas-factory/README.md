@@ -7,12 +7,12 @@ Enterprise-grade .NET SaaS framework for rapid B2B/B2C SaaS app development. Fea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [saas-factory-labs/Saas-Factory](https://github.com/saas-factory-labs/Saas-Factory).
+Original source: `AGENTS.md` in [saas-factory-labs/Saas-Factory](https://github.com/saas-factory-labs/Saas-Factory).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
