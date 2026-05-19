@@ -7,12 +7,12 @@ Client-side proving benchmarks
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [privacy-ethereum/csp-benchmarks](https://github.com/privacy-ethereum/csp-benchmarks).
+Original source: `CLAUDE.md` in [privacy-ethereum/csp-benchmarks](https://github.com/privacy-ethereum/csp-benchmarks).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
