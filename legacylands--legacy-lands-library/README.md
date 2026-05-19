@@ -7,11 +7,11 @@ Enterprise-grade modular framework for Minecraft server development with multi-t
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LegacyLands/legacy-lands-library](https://github.com/LegacyLands/legacy-lands-library).
+Original source: `CLAUDE.md` in [LegacyLands/legacy-lands-library](https://github.com/LegacyLands/legacy-lands-library).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
