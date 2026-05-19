@@ -7,11 +7,11 @@ My personal website - find all my work and blogs here
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [urdadx/personal-website](https://github.com/urdadx/personal-website).
+Original source: `CLAUDE.md` in [urdadx/personal-website](https://github.com/urdadx/personal-website).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
