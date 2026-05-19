@@ -7,11 +7,11 @@ Decentralized lending and borrowing protocol on Flow. Token-agnostic Cadence sma
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [onflow/FlowALP](https://github.com/onflow/FlowALP).
+Original source: `CLAUDE.md` in [onflow/FlowALP](https://github.com/onflow/FlowALP).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
