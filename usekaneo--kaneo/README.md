@@ -2,6 +2,8 @@
 
 > Sourced from [usekaneo/kaneo](https://github.com/usekaneo/kaneo) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
