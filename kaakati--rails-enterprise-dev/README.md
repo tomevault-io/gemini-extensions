@@ -7,11 +7,11 @@ Enterprise-grade Rails development workflow with multi-agent orchestration, bead
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Kaakati/rails-enterprise-dev](https://github.com/Kaakati/rails-enterprise-dev).
+Original source: `CLAUDE.md` in [Kaakati/rails-enterprise-dev](https://github.com/Kaakati/rails-enterprise-dev).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
