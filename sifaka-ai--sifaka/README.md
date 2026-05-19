@@ -7,11 +7,11 @@ Sifaka is an open-source framework that adds reflection and reliability to large
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [sifaka-ai/sifaka](https://github.com/sifaka-ai/sifaka).
+Original source: `CLAUDE.md` in [sifaka-ai/sifaka](https://github.com/sifaka-ai/sifaka).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
