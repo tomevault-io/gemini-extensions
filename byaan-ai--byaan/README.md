@@ -7,11 +7,11 @@ Open-Source data analyst your team actually owns. Ask in Slack, on Mac, or via M
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [byaan-ai/byaan](https://github.com/byaan-ai/byaan).
+Original source: `CLAUDE.md` in [byaan-ai/byaan](https://github.com/byaan-ai/byaan).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
