@@ -2,6 +2,8 @@
 
 > Source: [dsnchz/solid-lightweight-charts](https://github.com/dsnchz/solid-lightweight-charts) — distributed by [TomeVault](https://tomevault.io)
 
+TradingView Lightweight Charts™ as SolidJS components
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
@@ -15,7 +17,7 @@ Original source: `.cursor/rules/*.mdc` in [dsnchz/solid-lightweight-charts](http
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [dsnchz/solid-lightweight-charts](https://github.com/dsnchz/solid-lightweight-charts) — a repo with 0+ stars on GitHub.
+From [dsnchz/solid-lightweight-charts](https://github.com/dsnchz/solid-lightweight-charts) — a repo with 17+ stars on GitHub.
 
 ---
 
