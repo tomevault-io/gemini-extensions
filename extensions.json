@@ -205588,6 +205588,14 @@
       "quality": "bronze"
     },
     {
+      "name": "yulonglin--dotfiles",
+      "description": "Highly-opinionated setup for AI safety research with coding agents (Claude Code, Codex, Gemini CLI)",
+      "author": "yulonglin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yulonglin--dotfiles",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -237300,6 +237308,14 @@
       "quality": "gold"
     },
     {
+      "name": "crewrig--crewrig",
+      "description": "A layered AI assistant configuration with shared skill sandbox and built-in harness engineering loop.",
+      "author": "crewrig",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/crewrig--crewrig",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -252636,6 +252652,38 @@
       "quality": "gold"
     },
     {
+      "name": "mc3545dada--mspm0-skill",
+      "description": "\u9762\u5411\u7535\u8d5b\u7684 MSPM0 + CCS + SysConfig Agent Skill",
+      "author": "mc3545dada",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mc3545dada--mspm0-skill",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "md-mushfiqur123--mxclaw",
+      "description": "mxclaw",
+      "author": "MD-Mushfiqur123",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/md-mushfiqur123--mxclaw",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "mc3545dada--mspm0-skill",
+      "description": "\u9762\u5411\u7535\u8d5b\u7684 MSPM0 + CCS + SysConfig Agent Skill",
+      "author": "mc3545dada",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mc3545dada--mspm0-skill",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "igorwarzocha--opencode-extensions-tui",
+      "description": "A TUI-based Opencode Extensions Manager",
+      "author": "IgorWarzocha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/igorwarzocha--opencode-extensions-tui",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -256080,6 +256128,22 @@
       "description": "CodingAgentIM",
       "author": "MichaelJayW",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michaeljayw--codingagentim",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "entropyvortex--meta-llm-charter",
+      "description": "Compact operational charter that turns LLM coding agents into disciplined principal engineers. Eleven rules + one meta-rule.",
+      "author": "entropyvortex",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/entropyvortex--meta-llm-charter",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "cap-go--capacitor-native-navigation",
+      "description": "Capacitor plugin for Liquid glass native navigation tabs",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-native-navigation",
       "stars": 7,
       "quality": "silver"
     },
@@ -416984,6 +417048,14 @@
       "description": "Agent-Trading",
       "author": "meiyaobuyao123-hash",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meiyaobuyao123-hash--agent-trading",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "oghenerukevwe5--simple-blog-app",
+      "description": "simple-blog-app",
+      "author": "Oghenerukevwe5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oghenerukevwe5--simple-blog-app",
       "stars": 0,
       "quality": "silver"
     }
