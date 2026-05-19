@@ -7,11 +7,11 @@ PostgreSQL connection pooler, load balancer and database sharder.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [pgdogdev/pgdog](https://github.com/pgdogdev/pgdog).
+Original source: `CLAUDE.md` in [pgdogdev/pgdog](https://github.com/pgdogdev/pgdog).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
