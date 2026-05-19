@@ -7,13 +7,13 @@ Self-hosted open source newsletter platform for managing subscribers and sending
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dcodesdev/LetterSpace](https://github.com/dcodesdev/LetterSpace).
+Original source: `.cursor/rules/*.mdc` in [dcodesdev/LetterSpace](https://github.com/dcodesdev/LetterSpace).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
