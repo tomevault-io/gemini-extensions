@@ -7,13 +7,13 @@ Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [MigoXLab/dingo](https://github.com/MigoXLab/dingo).
+Original source: `.cursor/rules/*.mdc` in [MigoXLab/dingo](https://github.com/MigoXLab/dingo).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
