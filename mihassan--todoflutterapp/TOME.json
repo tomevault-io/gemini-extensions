@@ -4,7 +4,7 @@
   "repo": "TodoFlutterApp",
   "description": "Offline-first Flutter Android todo app with Firebase backend, clean architecture, and 398 tests",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mihassan/TodoFlutterApp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-19T04:41:02Z"
+  "distributed_at": "2026-05-19T06:51:53Z"
 }
