@@ -7,11 +7,11 @@ Formally Verified Arguments of Knowledge in Lean
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Verified-zkEVM/ArkLib](https://github.com/Verified-zkEVM/ArkLib).
+Original source: `CLAUDE.md` in [Verified-zkEVM/ArkLib](https://github.com/Verified-zkEVM/ArkLib).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
