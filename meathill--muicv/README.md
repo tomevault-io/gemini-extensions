@@ -7,11 +7,11 @@ Smart AI agent for building CV and finding jobs
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [meathill/muicv](https://github.com/meathill/muicv).
+Original source: `CLAUDE.md` in [meathill/muicv](https://github.com/meathill/muicv).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
