@@ -7,13 +7,13 @@ Kura is a simple reproduction of the CLIO paper which uses language models to la
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [jxnl/kura](https://github.com/jxnl/kura).
+Original source: `CLAUDE.md` in [jxnl/kura](https://github.com/jxnl/kura).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
