@@ -7,11 +7,11 @@ OpenAI-Compatible Proxy Middleware for the Wyoming Protocol
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [roryeckel/wyoming_openai](https://github.com/roryeckel/wyoming_openai).
+Original source: `CLAUDE.md` in [roryeckel/wyoming_openai](https://github.com/roryeckel/wyoming_openai).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
