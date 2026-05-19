@@ -7,11 +7,11 @@ Open source operating system for animal health
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [YosemiteCrew/Yosemite-Crew](https://github.com/YosemiteCrew/Yosemite-Crew).
+Original source: `CLAUDE.md` in [YosemiteCrew/Yosemite-Crew](https://github.com/YosemiteCrew/Yosemite-Crew).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
