@@ -1,4 +1,4 @@
-## connect-ecommerce-shopify
+## development
 
 > General rules for Shopify Apps Development
 
