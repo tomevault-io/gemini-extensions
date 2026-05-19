@@ -121188,6 +121188,22 @@
       "quality": "silver"
     },
     {
+      "name": "conveyal--osmix",
+      "description": "OpenStreetMap reader, writer, and merge tool. Written in TypeScript.",
+      "author": "conveyal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/conveyal--osmix",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
+      "name": "conveyal--osmix",
+      "description": "OpenStreetMap reader, writer, and merge tool. Written in TypeScript.",
+      "author": "conveyal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/conveyal--osmix",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "description": "Inventory API Skills",
       "author": "Laskewitz",
@@ -123312,6 +123328,14 @@
       "description": "IDA Taskr is a pure Python library for IDA Pro related parallel computing. It lets you use the power of Qt (built-in to IDA!) and Python's powerful multiprocessing and asyncio systems to quickly proce",
       "author": "mahmoudimus",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mahmoudimus--ida-taskr",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "reddit--devvit-template-react",
+      "description": "devvit-template-react",
+      "author": "reddit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/reddit--devvit-template-react",
       "stars": 29,
       "quality": "silver"
     },
@@ -128586,6 +128610,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/platformatic--php",
       "stars": 27,
       "quality": "silver"
+    },
+    {
+      "name": "mfe-orchestrator--mfe-orchestrator",
+      "description": "Micro Frontend Orchestrator",
+      "author": "mfe-orchestrator",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mfe-orchestrator--mfe-orchestrator",
+      "stars": 27,
+      "quality": "gold"
     },
     {
       "name": "10xchengtu--mux0",
@@ -171596,6 +171628,14 @@
       "quality": "silver"
     },
     {
+      "name": "parallax-framework--parallax",
+      "description": "Parallax is a modular roleplay framework for Garry's Mod, built for performance, structure, and developer clarity.",
+      "author": "Parallax-Framework",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/parallax-framework--parallax",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -176464,6 +176504,30 @@
       "description": "> Transform Claude Code CLI into your AI development companion with voice control, background processing, and intelligent automation.",
       "author": "joryeugene",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joryeugene--calmhive-cli",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "clerk--clerk-android",
+      "description": "Android SDK for Clerk",
+      "author": "clerk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clerk--clerk-android",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "wirasm--pipedrive-mcp",
+      "description": "pipedrive-mcp",
+      "author": "Wirasm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wirasm--pipedrive-mcp",
+      "stars": 14,
+      "quality": "gold"
+    },
+    {
+      "name": "clerk--clerk-android",
+      "description": "Android SDK for Clerk",
+      "author": "clerk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clerk--clerk-android",
       "stars": 14,
       "quality": "silver"
     },
@@ -196228,6 +196292,22 @@
       "quality": "silver"
     },
     {
+      "name": "kaelio--ktx",
+      "description": "KTX is the context layer for analytics agents",
+      "author": "Kaelio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaelio--ktx",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "kaelio--ktx",
+      "description": "KTX is the context layer for analytics agents",
+      "author": "Kaelio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaelio--ktx",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -205592,6 +205672,14 @@
       "description": "Highly-opinionated setup for AI safety research with coding agents (Claude Code, Codex, Gemini CLI)",
       "author": "yulonglin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yulonglin--dotfiles",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cloudflare--claude-managed-agents",
+      "description": "claude-managed-agents",
+      "author": "cloudflare",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloudflare--claude-managed-agents",
       "stars": 10,
       "quality": "silver"
     },
