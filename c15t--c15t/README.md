@@ -7,13 +7,13 @@ The Developer-First Cookie Banner
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [c15t/c15t](https://github.com/c15t/c15t).
+Original source: `CLAUDE.md` in [c15t/c15t](https://github.com/c15t/c15t).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
