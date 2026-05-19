@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [HenryZABA/globe-dotmatrix](https://github.com/HenryZABA/globe-dotmatrix).
+Original source: `CLAUDE.md` in [HenryZABA/globe-dotmatrix](https://github.com/HenryZABA/globe-dotmatrix).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
