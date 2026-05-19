@@ -7,11 +7,11 @@ git hooks and project lints
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jdx/hk](https://github.com/jdx/hk).
+Original source: `CLAUDE.md` in [jdx/hk](https://github.com/jdx/hk).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
