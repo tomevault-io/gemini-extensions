@@ -7,12 +7,12 @@ VS Code AI Agent Interactive Programming. Tools for CoPIlot and other assistants
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [BetterThanTomorrow/calva-backseat-driver](https://github.com/BetterThanTomorrow/calva-backseat-driver).
+Original source: `AGENTS.md` in [BetterThanTomorrow/calva-backseat-driver](https://github.com/BetterThanTomorrow/calva-backseat-driver).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
