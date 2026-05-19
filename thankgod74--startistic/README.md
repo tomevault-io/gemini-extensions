@@ -1,0 +1,30 @@
+# AI instruction files for startistic
+
+> Sourced from [THANKGOD74/startistic](https://github.com/THANKGOD74/startistic) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+start
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [THANKGOD74/startistic](https://github.com/THANKGOD74/startistic).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/THANKGOD74/startistic](https://github.com/THANKGOD74/startistic)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install THANKGOD74/startistic
+```
+Source: [github.com/THANKGOD74/startistic](https://github.com/THANKGOD74/startistic).
+
+<!-- genome:a-i-p -->
