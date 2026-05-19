@@ -7,13 +7,13 @@ Open-source context retrieval layer for AI agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [airweave-ai/airweave](https://github.com/airweave-ai/airweave).
+Original source: `CLAUDE.md` in [airweave-ai/airweave](https://github.com/airweave-ai/airweave).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
