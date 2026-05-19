@@ -7,13 +7,13 @@ Bootstrap of Cursor rules (.mdc) and mirror documentation (.md) for AI agent-gui
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tecnomanu/agent-rules-kit](https://github.com/tecnomanu/agent-rules-kit).
+Original source: `.cursor/rules/*.mdc` in [tecnomanu/agent-rules-kit](https://github.com/tecnomanu/agent-rules-kit).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
