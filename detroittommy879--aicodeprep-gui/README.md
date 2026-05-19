@@ -7,11 +7,11 @@ Surgical context engineering with a nice UI, Windows, Mac, Linux, BSD, anywhere 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [detroittommy879/aicodeprep-gui](https://github.com/detroittommy879/aicodeprep-gui).
+Original source: `CLAUDE.md` in [detroittommy879/aicodeprep-gui](https://github.com/detroittommy879/aicodeprep-gui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
