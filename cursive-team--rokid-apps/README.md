@@ -7,11 +7,11 @@ Apps for Rokid AI glasses
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cursive-team/rokid-apps](https://github.com/cursive-team/rokid-apps).
+Original source: `CLAUDE.md` in [cursive-team/rokid-apps](https://github.com/cursive-team/rokid-apps).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
