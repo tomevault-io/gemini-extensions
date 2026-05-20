@@ -17,5 +17,5 @@
 If changing this file then ensure to always keep `AGENTS.md`, `GEMINI.md` and `.github/copilot-instructions.md` in sync
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/dave1010) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-13 -->
+> Source: [dave1010/wardley-leadership-strategies](https://github.com/dave1010/wardley-leadership-strategies) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-20 -->
