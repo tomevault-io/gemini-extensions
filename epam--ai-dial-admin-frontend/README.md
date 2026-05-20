@@ -7,13 +7,13 @@ A UI for AI DIAL Admin Panel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [epam/ai-dial-admin-frontend](https://github.com/epam/ai-dial-admin-frontend).
+Original source: `.cursor/rules/*.mdc` in [epam/ai-dial-admin-frontend](https://github.com/epam/ai-dial-admin-frontend).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
