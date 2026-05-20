@@ -7,11 +7,11 @@ Automatic streaming record tool. Live stream and bullet comments recorder. 多�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hua0512/rust-srec](https://github.com/hua0512/rust-srec).
+Original source: `CLAUDE.md` in [hua0512/rust-srec](https://github.com/hua0512/rust-srec).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
