@@ -7,13 +7,13 @@ Discord RSS bot
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [mergd/discorss](https://github.com/mergd/discorss).
+Original source: `.cursor/rules/*.mdc` in [mergd/discorss](https://github.com/mergd/discorss).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
