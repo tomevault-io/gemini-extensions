@@ -4,7 +4,7 @@
   "repo": "bordful",
   "description": "Bordful is a modern job board starter kit built with Next.js and Airtable.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/craftled/bordful",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-20T22:41:21Z"
+  "distributed_at": "2026-05-20T23:25:16Z"
 }
