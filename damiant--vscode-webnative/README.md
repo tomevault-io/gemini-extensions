@@ -7,12 +7,12 @@ Create and maintain web and native projects
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [damiant/vscode-webnative](https://github.com/damiant/vscode-webnative).
+Original source: `AGENTS.md` in [damiant/vscode-webnative](https://github.com/damiant/vscode-webnative).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
