@@ -4,7 +4,7 @@
   "repo": "night-routine",
   "description": "A Go application that manages night routine scheduling between two parents, with Google Calendar integration for automated event creation.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Belphemur/night-routine",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-20T06:43:43Z"
+  "distributed_at": "2026-05-20T07:16:49Z"
 }
