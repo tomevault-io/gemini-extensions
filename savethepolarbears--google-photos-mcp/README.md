@@ -7,11 +7,11 @@ A Model Context Protocol repository for Google Photos API
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [savethepolarbears/google-photos-mcp](https://github.com/savethepolarbears/google-photos-mcp).
+Original source: `CLAUDE.md` in [savethepolarbears/google-photos-mcp](https://github.com/savethepolarbears/google-photos-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
