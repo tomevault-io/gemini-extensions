@@ -7,12 +7,12 @@ AZ AI DevContainer: Prebuilt AI Developer DevContainer/Codespace Environment inc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Azure-Samples/az-ai-devcontainer](https://github.com/Azure-Samples/az-ai-devcontainer).
+Original source: `AGENTS.md` in [Azure-Samples/az-ai-devcontainer](https://github.com/Azure-Samples/az-ai-devcontainer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
