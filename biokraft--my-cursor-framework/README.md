@@ -2,6 +2,8 @@
 
 > Source: [biokraft/my-cursor-framework](https://github.com/biokraft/my-cursor-framework) — distributed by [TomeVault](https://tomevault.io)
 
+In-depth guide containing best practices for supercharging your productivity with Cursor AI
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
