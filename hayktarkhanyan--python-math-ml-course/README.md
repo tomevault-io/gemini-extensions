@@ -7,11 +7,11 @@ Course materials for a free online Python, Math & Machine Learning course. Websi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [HaykTarkhanyan/python_math_ml_course](https://github.com/HaykTarkhanyan/python_math_ml_course).
+Original source: `CLAUDE.md` in [HaykTarkhanyan/python_math_ml_course](https://github.com/HaykTarkhanyan/python_math_ml_course).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
