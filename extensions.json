@@ -64148,6 +64148,14 @@
       "quality": "silver"
     },
     {
+      "name": "buildonspark--spark",
+      "description": "The Spark Bitcoin layer 2 protocol",
+      "author": "buildonspark",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/buildonspark--spark",
+      "stars": 99,
+      "quality": "silver"
+    },
+    {
       "name": "okikusan-public--stock-skills",
       "description": "stock_skills",
       "author": "okikusan-public",
@@ -66212,6 +66220,22 @@
       "quality": "silver"
     },
     {
+      "name": "oval-tutu--shove",
+      "description": "A powerful resolution-handler and rendering library for L\u00d6VE \ud83d\udcd0",
+      "author": "Oval-Tutu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oval-tutu--shove",
+      "stars": 93,
+      "quality": "silver"
+    },
+    {
+      "name": "thiagokokada--gh-gfm-preview",
+      "description": "A standalone/GitHub CLI extension to preview GitHub Flavored Markdown, even offline.",
+      "author": "thiagokokada",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thiagokokada--gh-gfm-preview",
+      "stars": 93,
+      "quality": "silver"
+    },
+    {
       "name": "frumu-ai--tandem",
       "description": "Your AI coworker for any folder: local-first, secure by design, cross-platform, and built for supervised automation.",
       "author": "frumu-ai",
@@ -66592,6 +66616,14 @@
       "description": "DeejNG",
       "author": "jimmyeao",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jimmyeao--deejng",
+      "stars": 92,
+      "quality": "silver"
+    },
+    {
+      "name": "bwz96sco--or-llm-agent",
+      "description": "OR-LLM-Agent: Automating Modeling and Solving of Operations Research Optimization Problems with Reasoning LLM",
+      "author": "bwz96sco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bwz96sco--or-llm-agent",
       "stars": 92,
       "quality": "silver"
     },
@@ -68028,6 +68060,14 @@
       "quality": "silver"
     },
     {
+      "name": "aj47--chaos-coder",
+      "description": "9 separate websites IN SECONDS for you to chaotically edit!",
+      "author": "aj47",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aj47--chaos-coder",
+      "stars": 88,
+      "quality": "gold"
+    },
+    {
       "name": "pikapikaspeedup--antigravity-mobility-cli",
       "description": "\u4e00\u4e2a\u5b9e\u73b0 antigravity \u81ea\u7531\u7684\u9879\u76ee\uff0c\u4f60\u7684 OpenClaw \u4f55\u5fc5\u662f OpenClaw",
       "author": "pikapikaspeedup",
@@ -68812,6 +68852,14 @@
       "quality": "silver"
     },
     {
+      "name": "codingworkflow--ai-code-fusion",
+      "description": "Desktop app to process repository content into one file",
+      "author": "codingworkflow",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codingworkflow--ai-code-fusion",
+      "stars": 86,
+      "quality": "silver"
+    },
+    {
       "name": "mag123c--toktrack",
       "description": "Ultra-fast token & cost tracker for LLM Token Usage (e.g. Claude Code)",
       "author": "mag123c",
@@ -69236,6 +69284,14 @@
       "quality": "bronze"
     },
     {
+      "name": "neondatabase--ai-rules",
+      "description": "ai-rules",
+      "author": "neondatabase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neondatabase--ai-rules",
+      "stars": 85,
+      "quality": "silver"
+    },
+    {
       "name": "sandermuller--laravel-fluent-validation",
       "description": "Fluent and extremely fast validation for Laravel",
       "author": "SanderMuller",
@@ -69656,6 +69712,14 @@
       "description": "Add memory superpowers to your Cursor workflow",
       "author": "ipenywis",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ipenywis--aimemory",
+      "stars": 84,
+      "quality": "silver"
+    },
+    {
+      "name": "credal-ai--actions-sdk",
+      "description": "actions-sdk",
+      "author": "Credal-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/credal-ai--actions-sdk",
       "stars": 84,
       "quality": "silver"
     },
@@ -73204,6 +73268,22 @@
       "quality": "silver"
     },
     {
+      "name": "ruslanlap--powertoysrun-videodownloader",
+      "description": "PowerToysRun-VideoDownloader is a plugin for Microsoft PowerToys Run that allows you to quickly download videos from various platforms (primarily YouTube) directly from your PowerToys Run interface. S",
+      "author": "ruslanlap",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ruslanlap--powertoysrun-videodownloader",
+      "stars": 77,
+      "quality": "silver"
+    },
+    {
+      "name": "kaburajadul--kaburajadulu",
+      "description": "kaburajadulu",
+      "author": "KaburAjaDul",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaburajadul--kaburajadulu",
+      "stars": 77,
+      "quality": "gold"
+    },
+    {
       "name": "docmancer--docmancer",
       "description": "Give your AI coding agents documentation superpowers. Fetch, embed, and query any public docs locally.",
       "author": "docmancer",
@@ -75124,6 +75204,22 @@
       "quality": "bronze"
     },
     {
+      "name": "quka-ai--quka-ai",
+      "description": "Golang based RAG application. Use QukaAI, build your second brain.",
+      "author": "quka-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quka-ai--quka-ai",
+      "stars": 74,
+      "quality": "silver"
+    },
+    {
+      "name": "toxsam--open-source-avatars",
+      "description": "A curated registry of free 3D VRM avatars for games, VR, and the metaverse",
+      "author": "ToxSam",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/toxsam--open-source-avatars",
+      "stars": 74,
+      "quality": "silver"
+    },
+    {
       "name": "moneat-io--moneat",
       "description": "moneat",
       "author": "moneat-io",
@@ -75804,6 +75900,14 @@
       "quality": "silver"
     },
     {
+      "name": "manusa--podman-mcp-server",
+      "description": "Model Context Protocol (MCP) server for container runtimes (Podman and Docker)",
+      "author": "manusa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/manusa--podman-mcp-server",
+      "stars": 73,
+      "quality": "gold"
+    },
+    {
       "name": "geekjourneyx--md2wechat-lite",
       "description": "AI Agent \u81ea\u52a8\u6392\u7248\u516c\u4f17\u53f7 \u2014\u2014 Markdown \u8f6c\u5fae\u4fe1\u6392\u7248 CLI \u5de5\u5177",
       "author": "geekjourneyx",
@@ -76176,6 +76280,14 @@
       "description": "A vault-specific agent equipped with agentic capacity, fast search, flexible commands, vault management, and terminals to \"jump\" into other CLI agents, such as Claude, Gemini, etc.",
       "author": "googlicius",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/googlicius--obsidian-steward",
+      "stars": 72,
+      "quality": "bronze"
+    },
+    {
+      "name": "azure-samples--semantic-kernel-advanced-usage",
+      "description": "Collection of advanced usage scenarios for Semantic Kernel",
+      "author": "Azure-Samples",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/azure-samples--semantic-kernel-advanced-usage",
       "stars": 72,
       "quality": "bronze"
     },
@@ -76712,6 +76824,14 @@
       "description": "Python SDK that enables developers to build and deploy LangGraph agents to the UiPath Cloud Platform",
       "author": "UiPath",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/uipath--uipath-langchain-python",
+      "stars": 71,
+      "quality": "silver"
+    },
+    {
+      "name": "openadaptai--omnimcp",
+      "description": "OmniMCP uses Microsoft OmniParser and Model Context Protocol (MCP) to provide AI models with rich UI context and powerful interaction capabilities.",
+      "author": "OpenAdaptAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openadaptai--omnimcp",
       "stars": 71,
       "quality": "silver"
     },
@@ -77924,6 +78044,22 @@
       "quality": "silver"
     },
     {
+      "name": "realmorrisliu--openrouter-rs",
+      "description": "A type-safe OpenRouter Rust SDK.",
+      "author": "realmorrisliu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/realmorrisliu--openrouter-rs",
+      "stars": 69,
+      "quality": "silver"
+    },
+    {
+      "name": "abc3--hydra-srt",
+      "description": "HydraSRT \u2013 An Open Source Alternative to Haivision SRT Gateway",
+      "author": "abc3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abc3--hydra-srt",
+      "stars": 69,
+      "quality": "silver"
+    },
+    {
       "name": "0xranx--agentbrief",
       "description": "Pluggable role definitions for AI coding agents \u2014 one command turns Claude Code / Cursor / OpenCode / Codex into a specialized professional",
       "author": "0xranx",
@@ -78690,6 +78826,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shin-sibainu--shincode-tech-stack-rules",
       "stars": 68,
       "quality": "bronze"
+    },
+    {
+      "name": "pydantic--logfire-js",
+      "description": "JavaScript and TypeScript SDK for Logfire",
+      "author": "pydantic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pydantic--logfire-js",
+      "stars": 68,
+      "quality": "silver"
     },
     {
       "name": "simonkurtz-msft--drawio-mcp-server",
@@ -79524,6 +79668,14 @@
       "quality": "silver"
     },
     {
+      "name": "whenmoon-afk--claude-memory-mcp",
+      "description": "Local Memory MCP Server",
+      "author": "WhenMoon-afk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whenmoon-afk--claude-memory-mcp",
+      "stars": 67,
+      "quality": "gold"
+    },
+    {
       "name": "olorehq--olore",
       "description": "Turn library docs into local Agent Skills",
       "author": "olorehq",
@@ -80308,6 +80460,30 @@
       "quality": "silver"
     },
     {
+      "name": "david-sola--aigaming",
+      "description": "AIGamingToturial",
+      "author": "David-Sola",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/david-sola--aigaming",
+      "stars": 66,
+      "quality": "bronze"
+    },
+    {
+      "name": "woolball-xyz--woolball-server",
+      "description": "Your own browser-based inference infrastructure by turning idle browsers into compute nodes.",
+      "author": "woolball-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/woolball-xyz--woolball-server",
+      "stars": 66,
+      "quality": "silver"
+    },
+    {
+      "name": "yokingma--time-mcp",
+      "description": "\u23f0 Time MCP Server: Giving LLMs Time Awareness Capabilities",
+      "author": "yokingma",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yokingma--time-mcp",
+      "stars": 66,
+      "quality": "silver"
+    },
+    {
       "name": "chongdashu--phaserjs-oakwoods",
       "description": "A vibe coded implementation of an RPG platformer",
       "author": "chongdashu",
@@ -80802,6 +80978,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/becutandavid--firefly-receipt-scanner",
       "stars": 65,
       "quality": "silver"
+    },
+    {
+      "name": "hua0512--rust-srec",
+      "description": "Automatic streaming record tool. Live stream and bullet comments recorder. \u591a\u5e73\u53f0\u76f4\u64ad\uff0c\u5f39\u5e55\u81ea\u52a8\u5f55\u5236",
+      "author": "hua0512",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hua0512--rust-srec",
+      "stars": 65,
+      "quality": "bronze"
     },
     {
       "name": "v-iole-t--tab-harbor",
@@ -81610,6 +81794,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/scafoldr--scafoldr",
       "stars": 64,
       "quality": "silver"
+    },
+    {
+      "name": "nao1215--sqluv",
+      "description": "simple terminal UI for RDBMS & CSV/TSV/LTSV at local/https/s3 ",
+      "author": "nao1215",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nao1215--sqluv",
+      "stars": 64,
+      "quality": "gold"
     },
     {
       "name": "claude-world--claude-skill-antivirus",
@@ -83044,6 +83236,14 @@
       "quality": "silver"
     },
     {
+      "name": "sdimitrov--mcp-memory",
+      "description": "MCP Memory Server with PostgreSQL and pgvector for long-term memory capabilities",
+      "author": "sdimitrov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sdimitrov--mcp-memory",
+      "stars": 62,
+      "quality": "silver"
+    },
+    {
       "name": "hunvreus--pullnotes",
       "description": "A Notion-like editor for your GitHub repos.",
       "author": "hunvreus",
@@ -83808,6 +84008,14 @@
       "description": "A chrome extension that with auto - reject cookie banners and pop ups",
       "author": "mitch292",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mitch292--reject-cookies",
+      "stars": 61,
+      "quality": "silver"
+    },
+    {
+      "name": "bikeread--dify-wechat-plugin",
+      "description": "Dify\u63d2\u4ef6\u5e02\u573a\u5e94\u7528\uff0c\u5f00\u7bb1\u5373\u7528\uff0c\u7528\u4e8e\u5feb\u901f\u5bf9\u63a5\u5fae\u4fe1\u516c\u4f17\u53f7",
+      "author": "bikeread",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bikeread--dify-wechat-plugin",
       "stars": 61,
       "quality": "silver"
     },
@@ -84724,6 +84932,22 @@
       "quality": "silver"
     },
     {
+      "name": "tinybirdco--llm-performance-tracker",
+      "description": "llm-performance-tracker",
+      "author": "tinybirdco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tinybirdco--llm-performance-tracker",
+      "stars": 60,
+      "quality": "bronze"
+    },
+    {
+      "name": "bcollazo--deckgym-core",
+      "description": "Open-source Pok\u00e9mon TCG Pocket (PTCGP) game engine written in Rust.",
+      "author": "bcollazo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bcollazo--deckgym-core",
+      "stars": 60,
+      "quality": "bronze"
+    },
+    {
       "name": "zhangloveyan--backend-skill",
       "description": "\u540e\u7aef java \u5f00\u53d1\u7684 claude \u89c4\u5219\u6587\u6863\u548c skill \u6280\u80fd\u6587\u6863\uff0c\u53ef\u4ee5\u4e00\u53e5\u8bdd\u5b9e\u73b0\u4ee3\u7801\u81ea\u52a8\u5f00\u53d1\u3001\u6d4b\u8bd5\u3001\u63d0\u4ea4\u3002",
       "author": "zhangloveyan",
@@ -85450,6 +85674,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shredengineer--archive-agent",
       "stars": 59,
       "quality": "silver"
+    },
+    {
+      "name": "mailtrap--mailtrap-mcp",
+      "description": "Official mailtrap.io MCP server",
+      "author": "mailtrap",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mailtrap--mailtrap-mcp",
+      "stars": 59,
+      "quality": "silver"
+    },
+    {
+      "name": "yarenty--kowalski",
+      "description": "High performance Rust based AI Agent.",
+      "author": "yarenty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yarenty--kowalski",
+      "stars": 59,
+      "quality": "gold"
     },
     {
       "name": "asakin--llm-context-base",
@@ -86304,6 +86544,38 @@
       "description": "AITuber OnAir Toolkit",
       "author": "shinshin86",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinshin86--aituber-onair",
+      "stars": 58,
+      "quality": "silver"
+    },
+    {
+      "name": "tan-yong-sheng--triliumnext-mcp",
+      "description": "MCP server for TriliumNext Notes",
+      "author": "tan-yong-sheng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tan-yong-sheng--triliumnext-mcp",
+      "stars": 58,
+      "quality": "silver"
+    },
+    {
+      "name": "karalix--micro-cafe",
+      "description": "A tiny PWA to open your Coffee House at Home",
+      "author": "Karalix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/karalix--micro-cafe",
+      "stars": 58,
+      "quality": "silver"
+    },
+    {
+      "name": "shinshin86--aituber-onair",
+      "description": "AITuber OnAir Toolkit",
+      "author": "shinshin86",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinshin86--aituber-onair",
+      "stars": 58,
+      "quality": "gold"
+    },
+    {
+      "name": "yl8976--email-to-rss",
+      "description": "A guide to host your own \"kill-the-newsletter.com\"-like email to RSS service using only free platforms (Cloudflare and ForwardEmail.net).",
+      "author": "yl8976",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yl8976--email-to-rss",
       "stars": 58,
       "quality": "silver"
     },
@@ -87308,6 +87580,30 @@
       "quality": "silver"
     },
     {
+      "name": "andrewhopper--dotai",
+      "description": "Tired of scattered Cursor files and messy AI projects? .ai gives you streamlined governance with templates for the entire development lifecycle - from customer discovery to deployment",
+      "author": "andrewhopper",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrewhopper--dotai",
+      "stars": 57,
+      "quality": "silver"
+    },
+    {
+      "name": "nakaokarei--swift-mcp-gui",
+      "description": "MCP server that can execute commands such as keyboard input and mouse movement on macOS",
+      "author": "NakaokaRei",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nakaokarei--swift-mcp-gui",
+      "stars": 57,
+      "quality": "silver"
+    },
+    {
+      "name": "riemannzeta--patent-mcp-server",
+      "description": "FastMCP Server for USPTO data",
+      "author": "riemannzeta",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/riemannzeta--patent-mcp-server",
+      "stars": 57,
+      "quality": "silver"
+    },
+    {
       "name": "eduardo-sl--go-agent-skills",
       "description": "Curated AI agent skills for Go projects.",
       "author": "eduardo-sl",
@@ -88064,6 +88360,22 @@
       "description": "QUITS: A modular Qldpc code circUIT Simulator",
       "author": "mkangquantum",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mkangquantum--quits",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "ohand--eos-connect",
+      "description": "EOS Connect is a tool designed to easily collect the needed data for optimize energy usage by interacting with the EOS system or evopt. And will be used as controller for a PV / Battery System and int",
+      "author": "ohAnd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ohand--eos-connect",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "wildekek--ansible-homelab",
+      "description": "Ansible for managing my homelab",
+      "author": "wildekek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wildekek--ansible-homelab",
       "stars": 56,
       "quality": "silver"
     },
@@ -89884,6 +90196,30 @@
       "quality": "gold"
     },
     {
+      "name": "vijayk1989--thestorynexustauriapp",
+      "description": "TheStoryNexusTauriApp",
+      "author": "vijayk1989",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vijayk1989--thestorynexustauriapp",
+      "stars": 54,
+      "quality": "silver"
+    },
+    {
+      "name": "oaklight--toolregistry",
+      "description": "ToolRegistry: A Protocol-Agnostic Tool Management Library for Function-Calling LLMs (OpenAI, Anthropic, Gemini, LangChain, MCP)",
+      "author": "Oaklight",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oaklight--toolregistry",
+      "stars": 54,
+      "quality": "gold"
+    },
+    {
+      "name": "vijayk1989--thestorynexustauriapp",
+      "description": "TheStoryNexusTauriApp",
+      "author": "vijayk1989",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vijayk1989--thestorynexustauriapp",
+      "stars": 54,
+      "quality": "silver"
+    },
+    {
       "name": "monarchjuno--vibe-investing",
       "description": "Vibe Investing Skill Library",
       "author": "monarchjuno",
@@ -91196,6 +91532,14 @@
       "quality": "silver"
     },
     {
+      "name": "monteslu--vibe-eyes",
+      "description": "  description: \"An MCP server that enables LLMs to 'see' what's happening in browser-based games and applications through vectorized canvas visualization and debug information.",
+      "author": "monteslu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/monteslu--vibe-eyes",
+      "stars": 53,
+      "quality": "silver"
+    },
+    {
       "name": "isaaccorley--geospatial-skills",
       "description": "geospatial-skills",
       "author": "isaaccorley",
@@ -92224,6 +92568,110 @@
       "description": "Modern vibecoding Three.js Starter Kit with Cloudflare Deployment",
       "author": "benallfree",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/benallfree--goodvibes",
+      "stars": 52,
+      "quality": "silver"
+    },
+    {
+      "name": "benallfree--goodvibes",
+      "description": "Modern vibecoding Three.js Starter Kit with Cloudflare Deployment",
+      "author": "benallfree",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/benallfree--goodvibes",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "silver"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "silver"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "bronze"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
+      "stars": 52,
+      "quality": "gold"
+    },
+    {
+      "name": "localrivet--gomcp",
+      "description": "gomcp provides a Go implementation of the Model Context Protocol (MCP), enabling communication between language models/agents and external tools or resources via a standardized protocol.",
+      "author": "localrivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/localrivet--gomcp",
       "stars": 52,
       "quality": "silver"
     },
@@ -93496,6 +93944,30 @@
       "description": "A modern, local first AI chat app for your browser. ",
       "author": "DimitriGilbert",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dimitrigilbert--litechat",
+      "stars": 51,
+      "quality": "silver"
+    },
+    {
+      "name": "libraries-openly-fused--fusedkernellibrary",
+      "description": "We aim to redefine Data Parallel libraries portabiliy, performance, programability and maintainability, by using C++ standard features, instead of creating new compilers.",
+      "author": "Libraries-Openly-Fused",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/libraries-openly-fused--fusedkernellibrary",
+      "stars": 51,
+      "quality": "silver"
+    },
+    {
+      "name": "dremio--dremio-mcp",
+      "description": "Dremio MCP server",
+      "author": "dremio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dremio--dremio-mcp",
+      "stars": 51,
+      "quality": "silver"
+    },
+    {
+      "name": "jhd3197--after-effects-automation",
+      "description": "After Effects Automation is a powerful Python-based tool that automates the creation and rendering",
+      "author": "jhd3197",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jhd3197--after-effects-automation",
       "stars": 51,
       "quality": "silver"
     },
@@ -95052,6 +95524,70 @@
       "quality": "gold"
     },
     {
+      "name": "noodlemctwoodle--sentinel-as-code",
+      "description": "An automation framework for deploying Microsoft Sentinel environments using pipelines. This project combines infrastructure-as-code (Bicep) with PowerShell automation to streamline the deployment of S",
+      "author": "noodlemctwoodle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/noodlemctwoodle--sentinel-as-code",
+      "stars": 50,
+      "quality": "gold"
+    },
+    {
+      "name": "gabimoncha--cursor-rules-cli",
+      "description": "A CLI for boostrapping Cursor AI rules in your project",
+      "author": "gabimoncha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabimoncha--cursor-rules-cli",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "gabimoncha--cursor-rules-cli",
+      "description": "A CLI for boostrapping Cursor AI rules in your project",
+      "author": "gabimoncha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabimoncha--cursor-rules-cli",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "gabimoncha--cursor-rules-cli",
+      "description": "A CLI for boostrapping Cursor AI rules in your project",
+      "author": "gabimoncha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabimoncha--cursor-rules-cli",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "gabimoncha--cursor-rules-cli",
+      "description": "A CLI for boostrapping Cursor AI rules in your project",
+      "author": "gabimoncha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabimoncha--cursor-rules-cli",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "yoda-digital--mcp-gitlab-server",
+      "description": "Production-grade GitLab MCP server with 86 tools \u2014 full GitLab control from any AI agent (Claude, Cursor, Zed).",
+      "author": "yoda-digital",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yoda-digital--mcp-gitlab-server",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "noodlemctwoodle--sentinel-as-code",
+      "description": "An automation framework for deploying Microsoft Sentinel environments using pipelines. This project combines infrastructure-as-code (Bicep) with PowerShell automation to streamline the deployment of S",
+      "author": "noodlemctwoodle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/noodlemctwoodle--sentinel-as-code",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "promptfoo--modelaudit",
+      "description": "Security scanner for AI/ML model files. Detects malicious code, backdoors, and vulnerabilities before deployment",
+      "author": "promptfoo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/promptfoo--modelaudit",
+      "stars": 50,
+      "quality": "gold"
+    },
+    {
       "name": "chimedeck--chimedeck",
       "description": "A full-stack workspace and card management app with boards, lists, comments, attachments, pricing tools, CLI commands, and automated tests. Built with React, Bun/TypeScript, and an extensible server/c",
       "author": "Chimedeck",
@@ -96604,6 +97140,38 @@
       "quality": "silver"
     },
     {
+      "name": "tikoci--mikropkl",
+      "description": "`pkl` packaged UTM virtual machines, including RouterOS CHR",
+      "author": "tikoci",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tikoci--mikropkl",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
+      "name": "wemodulate--bitwig-mcp-server",
+      "description": "MCP Server for Bitwig Studio",
+      "author": "WeModulate",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wemodulate--bitwig-mcp-server",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
+      "name": "beekeeper-studio--queryleaf",
+      "description": "SQL for Mongo (in Node JS)",
+      "author": "beekeeper-studio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/beekeeper-studio--queryleaf",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
+      "name": "tikoci--mikropkl",
+      "description": "`pkl` packaged UTM virtual machines, including RouterOS CHR",
+      "author": "tikoci",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tikoci--mikropkl",
+      "stars": 49,
+      "quality": "gold"
+    },
+    {
       "name": "mikkelkrogsholm--skills",
       "description": "skills",
       "author": "mikkelkrogsholm",
@@ -97808,6 +98376,14 @@
       "description": "A Rust library for decoupling concurrency from application logic, following the model used by Erlang and the BEAM VM",
       "author": "lambdaclass",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lambdaclass--spawned",
+      "stars": 48,
+      "quality": "silver"
+    },
+    {
+      "name": "lumitech-co--lumitech-node-fastify-template",
+      "description": "A scalable Node.js backend starter powered by Fastify, Swagger, Docker, and Awilix \u2014 built for clean architecture and future growth.",
+      "author": "lumitech-co",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lumitech-co--lumitech-node-fastify-template",
       "stars": 48,
       "quality": "silver"
     },
@@ -99050,6 +99626,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openagentplatform--dive-mcp-host",
       "stars": 47,
       "quality": "gold"
+    },
+    {
+      "name": "besoeasy--zeronote",
+      "description": "ZeroNote is an open-source, offline-first unified app that replaces your password manager, bookmark manager, notes app, and 2FA authenticator with a single encrypted note-taking system powered by smar",
+      "author": "besoeasy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/besoeasy--zeronote",
+      "stars": 47,
+      "quality": "silver"
     },
     {
       "name": "rust-works--succinctly",
@@ -101908,6 +102492,14 @@
       "quality": "bronze"
     },
     {
+      "name": "procload--dnd-mcp",
+      "description": "MCP Server implementation of the DnD 5e API using resources, tools, and prompts.",
+      "author": "procload",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/procload--dnd-mcp",
+      "stars": 45,
+      "quality": "bronze"
+    },
+    {
       "name": "izittmarvin--memcoach",
       "description": "\u4e00\u4e2aAI \u9762\u8bd5\u6559\u7ec3\u5e73\u53f0\uff1a\u7ad9\u5728\u5de8\u4eba\u80a9\u8180\u4e0a\uff0c\u878d\u5408\u7b80\u5386\u9762\u8bd5\u3001GitHub \u9879\u76ee\u5206\u6790\u4e0e\u6301\u4e45\u5316\u753b\u50cf\u8bb0\u5fc6\u4e09\u5927\u667a\u80fd\u95ed\u73af\uff0c\u63d0\u4f9b\u52a8\u6001\u8ffd\u95ee\u3001\u6e90\u7801\u8bc1\u636e\u9a71\u52a8\u7684\u95ee\u9898\u751f\u6210\u4e0e\u6301\u7eed   \u8fdb\u5316\u7684\u4e2a\u6027\u5316\u8bad\u7ec3\u8def\u5f84\u3002",
       "author": "iZiTTMarvin",
@@ -103170,6 +103762,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/panther-labs--mcp-panther",
       "stars": 44,
       "quality": "silver"
+    },
+    {
+      "name": "goldziher--uncomment",
+      "description": "Blazingly fast CLI to remove comments from code using tree-sitter grammers",
+      "author": "Goldziher",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goldziher--uncomment",
+      "stars": 44,
+      "quality": "gold"
+    },
+    {
+      "name": "xuzeyu91--mcpp-net",
+      "description": "Model Context Protocol Platform\uff0c\u7edf\u4e00\u7ba1\u7406\u4f60\u7684MCP\u670d\u52a1",
+      "author": "xuzeyu91",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xuzeyu91--mcpp-net",
+      "stars": 44,
+      "quality": "silver"
+    },
+    {
+      "name": "panther-labs--mcp-panther",
+      "description": "Write detections, investigate alerts, and query logs from your favorite AI agents",
+      "author": "panther-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/panther-labs--mcp-panther",
+      "stars": 44,
+      "quality": "bronze"
+    },
+    {
+      "name": "panther-labs--mcp-panther",
+      "description": "Write detections, investigate alerts, and query logs from your favorite AI agents",
+      "author": "panther-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/panther-labs--mcp-panther",
+      "stars": 44,
+      "quality": "bronze"
     },
     {
       "name": "agents-squads--squads-cli",
@@ -104448,6 +105072,78 @@
       "description": "A CLI tool for enhancing Claude Desktop with additional capabilities and workflows",
       "author": "d-kimuson",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/d-kimuson--claude-crew",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "silver"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "silver"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "droodotfoo--raxol",
+      "description": "Write one app. Render it to a terminal, a browser, or an agent. Multi-surface runtime for Elixir on OTP -- four render targets from one TEA module.",
+      "author": "DROOdotFOO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/droodotfoo--raxol",
+      "stars": 43,
+      "quality": "gold"
+    },
+    {
+      "name": "xmtplabs--convos-app",
+      "description": "convos-app",
+      "author": "xmtplabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtplabs--convos-app",
       "stars": 43,
       "quality": "bronze"
     },
@@ -105818,6 +106514,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rayfernando1337--vibestamps",
       "stars": 42,
       "quality": "gold"
+    },
+    {
+      "name": "andreratzenberger--cursor-rules",
+      "description": "My personal cursor rules. Requirements Engineering. Auto Commits. Auto everything.",
+      "author": "AndreRatzenberger",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andreratzenberger--cursor-rules",
+      "stars": 42,
+      "quality": "silver"
+    },
+    {
+      "name": "ypyf--deepseek-chat-exporter",
+      "description": "A Chrome extension that allows you to export your DeepSeek chat conversations to various file formats.",
+      "author": "ypyf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ypyf--deepseek-chat-exporter",
+      "stars": 42,
+      "quality": "bronze"
     },
     {
       "name": "nju-link--codetracer",
@@ -107308,6 +108020,14 @@
       "quality": "silver"
     },
     {
+      "name": "illyism--saasbooks",
+      "description": "SaaSBooks turns your Stripe and Mercury data into actionable financial insights without the accounting headache. Built by SaaS founders for SaaS founders, this open source tool auto-categorizes transa",
+      "author": "Illyism",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/illyism--saasbooks",
+      "stars": 41,
+      "quality": "bronze"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -108648,6 +109368,14 @@
       "description": "Testrail MCP Server",
       "author": "bun913",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bun913--mcp-testrail",
+      "stars": 40,
+      "quality": "gold"
+    },
+    {
+      "name": "synaptiai--prompt-decorators",
+      "description": "A standardized framework for enhancing how LLMs process and respond to prompts through composable decorators, featuring an official open standard specification and Python reference implementation. Cla",
+      "author": "synaptiai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/synaptiai--prompt-decorators",
       "stars": 40,
       "quality": "gold"
     },
@@ -114324,6 +115052,14 @@
       "quality": "gold"
     },
     {
+      "name": "steffen--git-metrics",
+      "description": "A tool to analyze the growth of Git repositories",
+      "author": "steffen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/steffen--git-metrics",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
       "name": "aregowe--magento2-module-polyshell-protection",
       "description": "Comprehensive defense-in-depth Magento 2 module that closes the PolyShell unrestricted file upload vulnerability (APSB25-94) \u2014 blocking polyglot webshell uploads across eight interception layers inclu",
       "author": "aregowe",
@@ -116000,6 +116736,14 @@
       "description": "FalkorDB-MCPServer is an MCP (Model Context Protocol) server that connects LLMs to FalkorDB",
       "author": "FalkorDB",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/falkordb--falkordb-mcpserver",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
+      "name": "microsoft--webui",
+      "description": "Server-side rendering for any language. No JavaScript runtime, no virtual DOM, no JSX. Just HTML, CSS, and JS",
+      "author": "microsoft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--webui",
       "stars": 35,
       "quality": "silver"
     },
@@ -117730,6 +118474,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microshift-io--microshift",
       "stars": 34,
       "quality": "silver"
+    },
+    {
+      "name": "wosherco--bashbuddy",
+      "description": "Monorepo containing all bashbuddy.run code",
+      "author": "wosherco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wosherco--bashbuddy",
+      "stars": 34,
+      "quality": "bronze"
     },
     {
       "name": "rajjjaryan--career-copilot",
@@ -125364,6 +126116,14 @@
       "quality": "silver"
     },
     {
+      "name": "eisenwave--cowel",
+      "description": "COWEL (Compact Web Language) is a markup language that provides easy access to HTML features while being much more convenient to write.",
+      "author": "eisenwave",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eisenwave--cowel",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "description": "Inventory API Skills",
       "author": "Laskewitz",
@@ -132994,6 +133754,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/picstome--picstome",
       "stars": 27,
       "quality": "gold"
+    },
+    {
+      "name": "nirvash--illustra",
+      "description": "Illustra",
+      "author": "nirvash",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nirvash--illustra",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "aisingapore--sea-helm",
+      "description": "A comprehensive evaluation framework for the SEA region",
+      "author": "aisingapore",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aisingapore--sea-helm",
+      "stars": 27,
+      "quality": "silver"
     },
     {
       "name": "10xchengtu--mux0",
@@ -141714,6 +142490,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hzoo--henry-ink",
       "stars": 24,
       "quality": "gold"
+    },
+    {
+      "name": "covesa--ifex-viewer",
+      "description": "The IFEX Viewer is a web component designed to display API specifications created with the Interface Exchange Framework (IFEX).",
+      "author": "COVESA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/covesa--ifex-viewer",
+      "stars": 24,
+      "quality": "silver"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -155852,6 +156636,14 @@
       "quality": "silver"
     },
     {
+      "name": "kaichen--mcp-local-router",
+      "description": "An MCP (Model Context Protocol) local router that serves as an aggregation proxy for MCP servers.",
+      "author": "kaichen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaichen--mcp-local-router",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -159456,6 +160248,22 @@
       "description": "YAICLI: A powerful command-line AI assistant with 25+ LLM providers. Features chat, command execution, quick queries, function calling, MCP support, and persistent history. Seamlessly integrates into ",
       "author": "belingud",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/belingud--yaicli",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "nguyenvulong--devenv-linux",
+      "description": "one script to run them all",
+      "author": "nguyenvulong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nguyenvulong--devenv-linux",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "anaethelion--escli-rs",
+      "description": "Proof of Concept Command line tool for Elasticsearch",
+      "author": "Anaethelion",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anaethelion--escli-rs",
       "stars": 19,
       "quality": "silver"
     },
@@ -163672,6 +164480,30 @@
       "description": "A drizzle ORM client for use with DuckDB. Based on drizzle's Postgres client.",
       "author": "leonardovida",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leonardovida--drizzle-duckdb",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "0xpd33--sonori",
+      "description": "Sonori is a fully local STT app for Linux (Wayland).",
+      "author": "0xPD33",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/0xpd33--sonori",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "loonghao--dcc-mcp-core",
+      "description": "Core library for DCC Model Context Protocol (MCP) providing common utilities and base classes.",
+      "author": "loonghao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/loonghao--dcc-mcp-core",
+      "stars": 18,
+      "quality": "gold"
+    },
+    {
+      "name": "azure-samples--az-ai-devcontainer",
+      "description": "AZ AI DevContainer: Prebuilt AI Developer DevContainer/Codespace Environment including Python, Jupyter, Infra as Code deployment, AI Foundry, Testing, Evaluation, etc.",
+      "author": "Azure-Samples",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/azure-samples--az-ai-devcontainer",
       "stars": 18,
       "quality": "silver"
     },
@@ -168620,6 +169452,14 @@
       "quality": "silver"
     },
     {
+      "name": "tijs--love2d-cursor-template",
+      "description": "A comprehensive project template to get started with L\u00f6ve 2D and the Cursor AI code editor",
+      "author": "tijs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tijs--love2d-cursor-template",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -173528,6 +174368,22 @@
       "description": "HTTP-4-MCP configuration tool allows you to easily convert HTTP API to MCP tool without writing code. With simple interface operations, you can quickly configure an mcp-server.",
       "author": "Tght1211",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tght1211--http-4-mcp",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "eleven-day--quant-trading-platform",
+      "description": "\u91cf\u5316\u4ea4\u6613\u5b66\u4e60\u5e73\u53f0\u662f\u4e00\u4e2a\u5168\u6808\u5e94\u7528\u7a0b\u5e8f\uff0c\u65e8\u5728\u4e3a\u91cf\u5316\u4ea4\u6613\u7231\u597d\u8005\u548c\u5b66\u4e60\u8005\u63d0\u4f9b\u4e00\u4e2a\u7efc\u5408\u6027\u7684\u5b66\u4e60\u548c\u5b9e\u8df5\u73af\u5883\u3002\u8be5\u5e73\u53f0\u7ed3\u5408\u4e86\u80a1\u7968\u6570\u636e\u83b7\u53d6\u3001\u7b56\u7565\u5f00\u53d1\u3001\u56de\u6d4b\u5206\u6790\u3001\u5b66\u4e60\u8d44\u6e90\u548c\u53ef\u89c6\u5316\u4eea\u8868\u76d8\u7b49\u529f\u80fd\uff0c\u5e2e\u52a9\u7528\u6237\u7cfb\u7edf\u6027\u5730\u5b66\u4e60\u548c\u5b9e\u8df5\u91cf\u5316\u4ea4\u6613\u77e5\u8bc6\u3002",
+      "author": "eleven-day",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eleven-day--quant-trading-platform",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "gray878--wx-clinic",
+      "description": "wx_clinic",
+      "author": "Gray878",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gray878--wx-clinic",
       "stars": 16,
       "quality": "bronze"
     },
@@ -183344,6 +184200,22 @@
       "description": "`cxx_modules_converter.py` is a Python script to convert C++ sources and headers to C++20 modules.",
       "author": "zowers",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zowers--cxx-modules-converter",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "vieitesss--command-nvim",
+      "description": "Run commands in a builtin Neovim terminal, follow compilation errors and much more",
+      "author": "vieitesss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vieitesss--command-nvim",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "zauberzeug--nicegui-template",
+      "description": "A copier template for a basic NiceGUI project",
+      "author": "zauberzeug",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zauberzeug--nicegui-template",
       "stars": 14,
       "quality": "silver"
     },
@@ -196650,6 +197522,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chnmig--art-design-pro-edge-go-server",
       "stars": 12,
       "quality": "bronze"
+    },
+    {
+      "name": "integromat--make-typescript-sdk",
+      "description": "Make TypeScript SDK",
+      "author": "integromat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/integromat--make-typescript-sdk",
+      "stars": 12,
+      "quality": "silver"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -213618,6 +214498,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dave1010--wardley-leadership-strategies",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "solvro--web-topwr",
+      "description": "An administrator panel for the ToPWR mobile app",
+      "author": "Solvro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/solvro--web-topwr",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "cdesktop-ai--cdesktop",
+      "description": "Open-source Claude Code Desktop alternative. Use any provider/model. Web UI for Claude Code, Codex, Gemini CLI, OpenCode, Hermes.",
+      "author": "cdesktop-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cdesktop-ai--cdesktop",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
