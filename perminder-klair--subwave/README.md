@@ -7,11 +7,11 @@ Personal internet radio: Icecast + Liquidsoap + AI DJ
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [perminder-klair/subwave](https://github.com/perminder-klair/subwave).
+Original source: `CLAUDE.md` in [perminder-klair/subwave](https://github.com/perminder-klair/subwave).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
