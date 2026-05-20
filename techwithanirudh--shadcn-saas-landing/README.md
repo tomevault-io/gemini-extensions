@@ -7,11 +7,11 @@ A SaaS Landing template built using Next.JS 15, shadcn/ui, and fumadocs.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [techwithanirudh/shadcn-saas-landing](https://github.com/techwithanirudh/shadcn-saas-landing).
+Original source: `CLAUDE.md` in [techwithanirudh/shadcn-saas-landing](https://github.com/techwithanirudh/shadcn-saas-landing).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
