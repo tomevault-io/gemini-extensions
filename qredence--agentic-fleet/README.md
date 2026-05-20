@@ -7,12 +7,12 @@ Adaptive Agentic AI Reasoning using Microsoft Agent Framework -- Join the Discor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Qredence/agentic-fleet](https://github.com/Qredence/agentic-fleet).
+Original source: `AGENTS.md` in [Qredence/agentic-fleet](https://github.com/Qredence/agentic-fleet).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
