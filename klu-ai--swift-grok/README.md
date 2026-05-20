@@ -7,13 +7,13 @@ unofficial grok api library
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [klu-ai/swift-grok](https://github.com/klu-ai/swift-grok).
+Original source: `.cursor/rules/*.mdc` in [klu-ai/swift-grok](https://github.com/klu-ai/swift-grok).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
