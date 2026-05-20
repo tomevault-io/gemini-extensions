@@ -7,11 +7,11 @@ Lance Namespace is an open specification for describing access and operations ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lance-format/lance-namespace](https://github.com/lance-format/lance-namespace).
+Original source: `CLAUDE.md` in [lance-format/lance-namespace](https://github.com/lance-format/lance-namespace).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
