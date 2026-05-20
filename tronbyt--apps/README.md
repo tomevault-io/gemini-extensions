@@ -1,0 +1,26 @@
+# apps
+
+> Tome by [tronbyt](https://github.com/tronbyt/apps) — distributed by [TomeVault](https://tomevault.io)
+
+Hard Fork of Tidbyt Community Repo
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [tronbyt/apps](https://github.com/tronbyt/apps).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [tronbyt/apps](https://github.com/tronbyt/apps) — a repo with 41+ stars on GitHub.
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-s -->
