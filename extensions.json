@@ -64820,6 +64820,14 @@
       "quality": "silver"
     },
     {
+      "name": "ai4scientist--nano-scientist",
+      "description": "An autonomous research agent that turns a topic into a peer-reviewed technical report",
+      "author": "AI4Scientist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ai4scientist--nano-scientist",
+      "stars": 97,
+      "quality": "silver"
+    },
+    {
       "name": "espennilsen--pi",
       "description": "pi",
       "author": "espennilsen",
@@ -65162,6 +65170,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/berlinbra--alpha-vantage-mcp",
       "stars": 96,
       "quality": "silver"
+    },
+    {
+      "name": "eliheuer--bezy",
+      "description": "A font editor built with Bevy",
+      "author": "eliheuer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eliheuer--bezy",
+      "stars": 96,
+      "quality": "gold"
     },
     {
       "name": "xiashao--kaiyantool",
@@ -67244,6 +67260,14 @@
       "quality": "silver"
     },
     {
+      "name": "daangn--graplix",
+      "description": "Authorization framework for implementing Relation-based Access Control (ReBAC) with the Resolver (Inspired by GraphQL)",
+      "author": "daangn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/daangn--graplix",
+      "stars": 91,
+      "quality": "silver"
+    },
+    {
       "name": "ubundi--claw-journal",
       "description": "claw-journal",
       "author": "Ubundi",
@@ -68524,6 +68548,14 @@
       "quality": "silver"
     },
     {
+      "name": "gasstationmanager--leantool",
+      "description": "A \"code intepreter\" for Lean",
+      "author": "GasStationManager",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gasstationmanager--leantool",
+      "stars": 88,
+      "quality": "silver"
+    },
+    {
       "name": "pikapikaspeedup--antigravity-mobility-cli",
       "description": "\u4e00\u4e2a\u5b9e\u73b0 antigravity \u81ea\u7531\u7684\u9879\u76ee\uff0c\u4f60\u7684 OpenClaw \u4f55\u5fc5\u662f OpenClaw",
       "author": "pikapikaspeedup",
@@ -69452,6 +69484,14 @@
       "quality": "silver"
     },
     {
+      "name": "reown-com--appkit-web-examples",
+      "description": "Web dApp examples implementing Reown AppKit",
+      "author": "reown-com",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/reown-com--appkit-web-examples",
+      "stars": 86,
+      "quality": "silver"
+    },
+    {
       "name": "mag123c--toktrack",
       "description": "Ultra-fast token & cost tracker for LLM Token Usage (e.g. Claude Code)",
       "author": "mag123c",
@@ -69930,6 +69970,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haru--redmine-ai-helper",
       "stars": 85,
       "quality": "gold"
+    },
+    {
+      "name": "jhb-software--payload-plugins",
+      "description": "Powerful plugins designed to enhance Payload CMS",
+      "author": "jhb-software",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jhb-software--payload-plugins",
+      "stars": 85,
+      "quality": "silver"
     },
     {
       "name": "sandermuller--laravel-fluent-validation",
@@ -71684,6 +71732,270 @@
       "quality": "silver"
     },
     {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivangrynenko--cursorrules",
+      "description": "A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript and Drupal-specific rules",
+      "author": "ivangrynenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivangrynenko--cursorrules",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
       "name": "pureween--polypilot",
       "description": "PolyPilot",
       "author": "PureWeen",
@@ -72776,6 +73088,14 @@
       "description": "iotsploit",
       "author": "TKXB",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tkxb--iotsploit",
+      "stars": 80,
+      "quality": "bronze"
+    },
+    {
+      "name": "jkitchin--litdb",
+      "description": "A literature database",
+      "author": "jkitchin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jkitchin--litdb",
       "stars": 80,
       "quality": "bronze"
     },
@@ -76508,6 +76828,14 @@
       "quality": "silver"
     },
     {
+      "name": "gradion-ai--ipybox",
+      "description": "Unified execution environment for Python code, shell commands, and programmatic MCP tool calls.",
+      "author": "gradion-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gradion-ai--ipybox",
+      "stars": 74,
+      "quality": "silver"
+    },
+    {
       "name": "moneat-io--moneat",
       "description": "moneat",
       "author": "moneat-io",
@@ -77228,6 +77556,14 @@
       "quality": "silver"
     },
     {
+      "name": "hooshyar--flutter-gen-ai-chat-ui",
+      "description": "A modern, customizable chat UI package for Flutter applications, optimized for AI interactions.",
+      "author": "hooshyar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hooshyar--flutter-gen-ai-chat-ui",
+      "stars": 73,
+      "quality": "silver"
+    },
+    {
       "name": "geekjourneyx--md2wechat-lite",
       "description": "AI Agent \u81ea\u52a8\u6392\u7248\u516c\u4f17\u53f7 \u2014\u2014 Markdown \u8f6c\u5fae\u4fe1\u6392\u7248 CLI \u5de5\u5177",
       "author": "geekjourneyx",
@@ -77672,6 +78008,14 @@
       "description": "Set alarms for a specific date in the future (alarm, not a reminder!)",
       "author": "VishnuSanal",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vishnusanal--remindme",
+      "stars": 72,
+      "quality": "silver"
+    },
+    {
+      "name": "ruchernchong--mcp-server-google-analytics",
+      "description": "Model Context Protocol server for Google Analytics, enabling LLMs to fetch and analyze web analytics data",
+      "author": "ruchernchong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ruchernchong--mcp-server-google-analytics",
       "stars": 72,
       "quality": "silver"
     },
@@ -78298,6 +78642,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleyel--cloudmark",
       "stars": 71,
       "quality": "bronze"
+    },
+    {
+      "name": "mamertofabian--bolt-to-github",
+      "description": "bolt-to-github",
+      "author": "mamertofabian",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mamertofabian--bolt-to-github",
+      "stars": 71,
+      "quality": "silver"
     },
     {
       "name": "dceoy--speckit-agent-skills",
@@ -84716,6 +85068,14 @@
       "quality": "silver"
     },
     {
+      "name": "xiaomingx--awesome-llm",
+      "description": "Awesome-LLM: a curated list of Large Language Model.\ud83d\udd25 \u5927\u578b\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u5df2\u7ecf\u5e2d\u5377\u4e86 \u5168\u7403\uff0c\u4e0d\u518d\u5c40\u9650\u4e8e NLP \u6216 AI \u793e\u533a\u3002\u8fd9\u91cc\u6574\u7406\u4e86\u4e00\u4e9b\u5173\u4e8e\u5927\u578b\u8bed\u8a00\u6a21\u578b\uff0c\u7279\u522b\u662f\u4e0e ChatGPT \u76f8\u5173\u7684\u7814\u7a76\u8bba\u6587\uff0c\u6db5\u76d6\u4e86 LLM \u8bad\u7ec3\u6846\u67b6\u3001\u90e8\u7f72\u5de5\u5177\u3001\u8bfe\u7a0b\u4e0e\u6559\u7a0b\uff0c\u4ee5\u53ca\u6240\u6709\u516c\u5f00\u7684 LLM \u68c0\u67e5\u70b9\u548c API\u3002",
+      "author": "XiaomingX",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xiaomingx--awesome-llm",
+      "stars": 63,
+      "quality": "silver"
+    },
+    {
       "name": "doodledood--manifest-dev",
       "description": "Stop iterating with the model after implementation. Define what you'd accept, run two commands, ship it.",
       "author": "doodledood",
@@ -87324,6 +87684,30 @@
       "quality": "silver"
     },
     {
+      "name": "ivo-toby--contentful-mcp",
+      "description": "MCP (Model Context Protocol) server for the Contentful Management API",
+      "author": "ivo-toby",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivo-toby--contentful-mcp",
+      "stars": 60,
+      "quality": "silver"
+    },
+    {
+      "name": "flamingo-stack--openframe-oss-tenant",
+      "description": "Code base for OSS OpenFrame single tenant version",
+      "author": "flamingo-stack",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flamingo-stack--openframe-oss-tenant",
+      "stars": 60,
+      "quality": "silver"
+    },
+    {
+      "name": "delegateas--xrmbedrock",
+      "description": "XrmBedrock replaces XrmFramework as a starting ground for our Dataverse projects",
+      "author": "delegateas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/delegateas--xrmbedrock",
+      "stars": 60,
+      "quality": "silver"
+    },
+    {
       "name": "zhangloveyan--backend-skill",
       "description": "\u540e\u7aef java \u5f00\u53d1\u7684 claude \u89c4\u5219\u6587\u6863\u548c skill \u6280\u80fd\u6587\u6863\uff0c\u53ef\u4ee5\u4e00\u53e5\u8bdd\u5b9e\u73b0\u4ee3\u7801\u81ea\u52a8\u5f00\u53d1\u3001\u6d4b\u8bd5\u3001\u63d0\u4ea4\u3002",
       "author": "zhangloveyan",
@@ -88112,6 +88496,14 @@
       "description": "Local GUI and Data Canvas as a DuckDB extension",
       "author": "gropaul",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gropaul--dash",
+      "stars": 59,
+      "quality": "silver"
+    },
+    {
+      "name": "ncx-community--ncx",
+      "description": "\u8f7b\u91cf\u7ea7\u3001\u7a33\u5b9a\u3001\u9ad8\u6027\u80fd\u7684\u5185\u7f51\u7a7f\u900f\u5de5\u5177\uff0c\u4e0efrp\u7c7b\u4f3c\uff0c\u65e8\u5728\u5e2e\u52a9\u7528\u6237\u8f7b\u677e\u5c06\u672c\u5730\u670d\u52a1\u66b4\u9732\u5230\u516c\u7f51\u3002A lightweight, stable and high-performance intranet penetration tool. Like frp, Ncx is desighed to help users easily expose local services to the public net",
+      "author": "NCX-Community",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ncx-community--ncx",
       "stars": 59,
       "quality": "silver"
     },
@@ -91008,6 +91400,14 @@
       "description": "The purpose of this repository only to share various ComfyUI workflows time to time",
       "author": "cseti007",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cseti007--comfyui-workflows",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "zhe-qi--uniez-template",
+      "description": "uniez-template\uff0c\u4e00\u4e2a\u201c\u529f\u80fd\u201d\u548c\u201c\u5f00\u53d1\u4f53\u9a8c\u201d\u4f18\u5148\u7684 uniapp \u6a21\u677f",
+      "author": "zhe-qi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhe-qi--uniez-template",
       "stars": 56,
       "quality": "silver"
     },
@@ -104460,6 +104860,14 @@
       "quality": "silver"
     },
     {
+      "name": "spiko-tech--effect-messaging",
+      "description": "A message broker toolkit for Effect",
+      "author": "spiko-tech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/spiko-tech--effect-messaging",
+      "stars": 46,
+      "quality": "bronze"
+    },
+    {
       "name": "zhaono1--agent-playbook",
       "description": "agent-playbook",
       "author": "zhaono1",
@@ -110572,6 +110980,14 @@
       "quality": "silver"
     },
     {
+      "name": "pfrankov--whisper-server",
+      "description": "macOS menu bar app providing a local HTTP server compatible with the OpenAI Whisper API for fast and private audio transcription.",
+      "author": "pfrankov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pfrankov--whisper-server",
+      "stars": 42,
+      "quality": "silver"
+    },
+    {
       "name": "nju-link--codetracer",
       "description": "CodeTracer",
       "author": "NJU-LINK",
@@ -113682,6 +114098,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kazuph--mcp-fetch",
       "stars": 40,
       "quality": "silver"
+    },
+    {
+      "name": "kasarlabs--cairo-coder",
+      "description": "Vibe. Prove. Verify.",
+      "author": "KasarLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kasarlabs--cairo-coder",
+      "stars": 40,
+      "quality": "bronze"
     },
     {
       "name": "w3cj--ruta",
@@ -118216,6 +118640,14 @@
       "description": "Opinionated Cursor editor rules to improve and speed up Ruby on Rails development.",
       "author": "wintermeyer",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wintermeyer--cursor-rails-rules",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "realtvop--saltnet",
+      "description": "SaltNet: \u821e\u840cDX\u6210\u7ee9\u67e5\u8be2\u7f51\u7ad9&APP | maimai DX Prober (Intl. and JP ver. support developing)",
+      "author": "realtvop",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/realtvop--saltnet",
       "stars": 37,
       "quality": "silver"
     },
@@ -123676,6 +124108,14 @@
       "quality": "gold"
     },
     {
+      "name": "trifall--chat-export",
+      "description": "Browser extension that allows you to export chat conversations from the LLM sites ChatGPT and Claude to Markdown, XML, JSON, and HTML. ",
+      "author": "Trifall",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trifall--chat-export",
+      "stars": 34,
+      "quality": "silver"
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI",
       "author": "RajjjAryan",
@@ -125386,6 +125826,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mirendev--runtime",
       "stars": 33,
       "quality": "gold"
+    },
+    {
+      "name": "haers--zhao-resource",
+      "description": "\u4e2a\u4eba\u8d44\u6e90\u7ad9\uff0c\u5305\u62ec\u5938\u514b\uff0c\u767e\u5bb6\u8bb2\u575b\uff0ck12\u8d44\u6e90\uff0c\u6444\u5f71\u526a\u8f91\uff0c\u8003\u516c\u8003\u7814\uff0c\u82f1\u8bed\u5b66\u4e60\u89c6\u9891\uff0c\u53ef\u4ee5\u76f4\u63a5\u6d4f\u89c8\u5668\u641c\u7d22\u5373\u53ef\u627e\u5230",
+      "author": "haers",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haers--zhao-resource",
+      "stars": 33,
+      "quality": "silver"
     },
     {
       "name": "skywind3000--gamesample",
@@ -127392,6 +127840,46 @@
       "description": "A simple implementation of approval testing for the JVM",
       "author": "mkutz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mkutz--approvej",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
+      "name": "huaibaobao--mobilemanger",
+      "description": "MobileManager \u662f\u4e00\u4e2a\u5f3a\u5927\u7684\u79fb\u52a8\u8bbe\u5907\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8e ADB (Android Debug Bridge) \u5b9e\u73b0\u8bbe\u5907\u63a7\u5236\u548c\u7ba1\u7406\u3002\u7cfb\u7edf\u91c7\u7528 GoFrame + Vue3 Pure Admin + WebScrcpy \u6280\u672f\u6808\uff0c\u63d0\u4f9b\u8bbe\u5907\u7ba1\u7406\u3001\u5e94\u7528\u7ba1\u7406\u3001\u8fdc\u7a0b\u63a7\u5236\u7b49\u529f\u80fd\u3002",
+      "author": "huaibaobao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huaibaobao--mobilemanger",
+      "stars": 32,
+      "quality": "bronze"
+    },
+    {
+      "name": "magarcia--mcp-server-giphy",
+      "description": "An implementation of Giphy integration with Model Context Protocol",
+      "author": "magarcia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/magarcia--mcp-server-giphy",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
+      "name": "pointertobios--asco",
+      "description": "Coroutine based async framework.",
+      "author": "pointertobios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pointertobios--asco",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
+      "name": "mai-with-u--amaidesu",
+      "description": "Amadeus\u7684Typo\u5f62\u6001\uff1aA Mai De Su\uff08\u4e00\u53ea\u9ea6\u9ea6\u54e6\uff09\u3002MaiBot\u7684Vtuber\u9879\u76ee",
+      "author": "Mai-with-u",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mai-with-u--amaidesu",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
+      "name": "minggh--demo-mock-server",
+      "description": "\u4e00\u4e2a\u6280\u672f\u6f14\u793a\u5408\u96c6\uff0c\u7528\u53ef\u89c6\u5316\u548c\u4ea4\u4e92\u7684\u65b9\u5f0f\u89e3\u91ca\u7f16\u7a0b\u6982\u5ff5\u3001\u7b97\u6cd5\u539f\u7406\u548c\u751f\u6d3b\u4e2d\u7684\u6570\u5b66\u95ee\u9898\u3002",
+      "author": "MingGH",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minggh--demo-mock-server",
       "stars": 32,
       "quality": "silver"
     },
@@ -132026,6 +132514,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lymestack--simpleauth4net",
       "stars": 30,
       "quality": "silver"
+    },
+    {
+      "name": "alti3--stk-mcp",
+      "description": "An MCP server allowing LLMs to interact with Ansys/AGI STK - Digital Mission Engineering Software",
+      "author": "alti3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alti3--stk-mcp",
+      "stars": 30,
+      "quality": "bronze"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -143340,6 +143836,22 @@
       "quality": "silver"
     },
     {
+      "name": "martinhrvn--hive-pal",
+      "description": "A comprehensive mobile-first beekeeping management application to track hives, inspections, and colony health.",
+      "author": "martinhrvn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/martinhrvn--hive-pal",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "flywhl--cyantic",
+      "description": "Build complex types from simple blueprints with Pydantic",
+      "author": "flywhl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flywhl--cyantic",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -146516,6 +147028,30 @@
       "quality": "silver"
     },
     {
+      "name": "mycelia-tech--mycelia",
+      "description": "Privacy-First AI Memory ",
+      "author": "mycelia-tech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mycelia-tech--mycelia",
+      "stars": 25,
+      "quality": "bronze"
+    },
+    {
+      "name": "envision-research--fractflow",
+      "description": "FractFlow",
+      "author": "EnVision-Research",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/envision-research--fractflow",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "inpsyde--multisyde",
+      "description": "A WordPress plugin that explores potential improvements for WordPress Multisite.",
+      "author": "inpsyde",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inpsyde--multisyde",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -149602,6 +150138,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lastbotinc--nextjs-supabase-ai-webapp",
       "stars": 24,
       "quality": "gold"
+    },
+    {
+      "name": "atomdeniz--server",
+      "description": "server",
+      "author": "atomdeniz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atomdeniz--server",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
+      "name": "fastfony--fastfony",
+      "description": "Pragmatic boilerplate and starter-kit for fastly start a project with PHP and Symfony",
+      "author": "fastfony",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fastfony--fastfony",
+      "stars": 24,
+      "quality": "bronze"
+    },
+    {
+      "name": "adamprime--comiccaster",
+      "description": "RSS feed service for daily funnies and political cartoons",
+      "author": "adamprime",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adamprime--comiccaster",
+      "stars": 24,
+      "quality": "silver"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -152920,6 +153480,30 @@
       "description": "aws-sso-manager",
       "author": "cfircoo",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cfircoo--aws-sso-manager",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "puppyone-ai--puppyone",
+      "description": "Context drive for your AI agents",
+      "author": "puppyone-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/puppyone-ai--puppyone",
+      "stars": 23,
+      "quality": "bronze"
+    },
+    {
+      "name": "sovranbitcoin--sovran",
+      "description": "A mobile Cashu wallet",
+      "author": "SovranBitcoin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sovranbitcoin--sovran",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "marcominerva--pdfsmith",
+      "description": "A powerful REST API service that generates PDF documents from dynamic HTML templates.",
+      "author": "marcominerva",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marcominerva--pdfsmith",
       "stars": 23,
       "quality": "silver"
     },
@@ -161128,6 +161712,30 @@
       "description": "Home Assistant integration for Hoymiles Cloud API, primarily developed for HYT inverters with battery storage systems. This integration provides monitoring of solar production, energy flows, and batte",
       "author": "Philra94",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/philra94--homeassistant-hoymiles-cloud",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "caleb68864--slingmd",
+      "description": "Tools for Use with ObsidianMD",
+      "author": "Caleb68864",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caleb68864--slingmd",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "quadbio--cell-annotator",
+      "description": "Automatically annotate cell types, consistently across samples.",
+      "author": "quadbio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quadbio--cell-annotator",
+      "stars": 21,
+      "quality": "bronze"
+    },
+    {
+      "name": "getnao--sylph",
+      "description": "The open-source company brain. Run your entire company with AI agents, skills, and a self-improving context.",
+      "author": "getnao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/getnao--sylph",
       "stars": 21,
       "quality": "silver"
     },
@@ -178620,6 +179228,14 @@
       "quality": "bronze"
     },
     {
+      "name": "timothywarner-org--ai102",
+      "description": "Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution (Video) Course Repository",
+      "author": "timothywarner-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/timothywarner-org--ai102",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -183772,6 +184388,22 @@
       "quality": "gold"
     },
     {
+      "name": "navisbio--aact-clinicaltrials-mcp",
+      "description": "AACT_clinicaltrials_MCP",
+      "author": "navisbio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/navisbio--aact-clinicaltrials-mcp",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "jiaqianjing--comfyui-midjourneyhub",
+      "description": "ComfyUI \u4e2d\u4f7f\u7528\u5546\u4e1a\u6a21\u578b\u7ed8\u56fe\uff08GPT-Image, MJ, Recraft, Ideogram \u7b49\uff09",
+      "author": "jiaqianjing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jiaqianjing--comfyui-midjourneyhub",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -188752,6 +189384,38 @@
       "description": "Ash Neo4j datalayer",
       "author": "diffo-dev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/diffo-dev--ash-neo4j",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "tx3-lang--trix",
+      "description": "The Tx3 package manager",
+      "author": "tx3-lang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tx3-lang--trix",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
+      "name": "jialechen7--luckygo",
+      "description": "LuckyGo\uff1a\u57fa\u4e8e go-zero \u6846\u67b6\u7684\u62bd\u5956\u7cfb\u7edf\u540e\u53f0",
+      "author": "jialechen7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jialechen7--luckygo",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "minorcell--perfedge",
+      "description": "PerfEdge \u96c6Web\u6027\u80fd\u4f18\u5316\u5b66\u4e60\u3001\u4f53\u9a8c\u4e3a\u4e3b\u7684\u5f00\u6e90\u77e5\u8bc6\u5e93\u3002",
+      "author": "minorcell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minorcell--perfedge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "middaysan--cpu-affinity-tool",
+      "description": "Cross-platform GUI application for managing CPU affinity of processes",
+      "author": "middaysan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/middaysan--cpu-affinity-tool",
       "stars": 15,
       "quality": "silver"
     },
@@ -194338,6 +195002,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/logicshao--autovoicecollation",
       "stars": 14,
       "quality": "gold"
+    },
+    {
+      "name": "niznik-dev--cruijff-kit",
+      "description": "Tools for conducting social research with LLMs",
+      "author": "niznik-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/niznik-dev--cruijff-kit",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "tosun-si--world-cup-qatar-elt-airflow-dbt",
+      "description": "This repo via a real world use case, shows how to launch dbt models from a DAG in Apache Airflow.",
+      "author": "tosun-si",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tosun-si--world-cup-qatar-elt-airflow-dbt",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "epoko77-ai--design-diversity",
+      "description": "Claude Code \uc0b0\ucd9c\ubb3c\uc758 \ub514\uc790\uc778 \ub2e4\uc591\uc131 \ud655\ubcf4 \u2014 \uacf5\uac1c \ub514\uc790\uc778 \uc2dc\uc2a4\ud15c\uc744 \uc99d\ub958\ud55c \ud504\ub86c\ud504\ud2b8\ud615 \ub514\uc790\uc778 \ud329 40\uc885 \uce74\ud0c8\ub85c\uadf8 (PPT 20 + \uc6f9 20)",
+      "author": "epoko77-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/epoko77-ai--design-diversity",
+      "stars": 14,
+      "quality": "bronze"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -201066,6 +201754,94 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/loufe--ab-av1-gui",
       "stars": 13,
       "quality": "gold"
+    },
+    {
+      "name": "kettleofketchup--draftforge",
+      "description": "Dota 2 Event Coordinator",
+      "author": "kettleofketchup",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kettleofketchup--draftforge",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "vishaltelangre--aitext",
+      "description": "Use AI to do anything with the selected text!",
+      "author": "vishaltelangre",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vishaltelangre--aitext",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "havonz--xxtcloudcontrol",
+      "description": "\u7528\u4e8e XXTouch 1.3.8+ \u7684\u4e91\u63a7\u670d\u52a1\u7aef\uff08WebSocket + \u9759\u6001\u524d\u7aef\uff09\u4e0e\u7ba1\u7406\u9762\u677f\u3002",
+      "author": "havonz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/havonz--xxtcloudcontrol",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "sergiobayona--vector-mcp",
+      "description": "A server implementation for the Model Context Protocol (MCP) in Ruby.",
+      "author": "sergiobayona",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sergiobayona--vector-mcp",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "aretw0--vault-seed",
+      "description": "Template para um vault no Obsidian ou Visual Studio Code (Foam), combinando estrutura m\u00ednima com flexibilidade, inspirado nos m\u00e9todos PARA e Zettelkasten.",
+      "author": "aretw0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aretw0--vault-seed",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "emanuelefaja--habits",
+      "description": "Build any habit in 30 days.",
+      "author": "emanuelefaja",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emanuelefaja--habits",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "samefarrar--mcp-ankiconnect",
+      "description": "mcp-ankiconnect",
+      "author": "samefarrar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samefarrar--mcp-ankiconnect",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "cloudcarver--anclax",
+      "description": "Anclax is a framework for building serverless and reliable applications in speed of light with confidence",
+      "author": "cloudcarver",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloudcarver--anclax",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "gwen31792--ehentai-toplist-archive",
+      "description": "ehentai-toplist-archive",
+      "author": "gwen31792",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gwen31792--ehentai-toplist-archive",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "aretw0--vault-seed",
+      "description": "Template para um vault no Obsidian ou Visual Studio Code (Foam), combinando estrutura m\u00ednima com flexibilidade, inspirado nos m\u00e9todos PARA e Zettelkasten.",
+      "author": "aretw0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aretw0--vault-seed",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "z-fetch--z-fetch",
+      "description": "The pragmatic native fetch API wrapper for JavaScript.",
+      "author": "z-fetch",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/z-fetch--z-fetch",
+      "stars": 13,
+      "quality": "silver"
     },
     {
       "name": "scardoso-lu--google-antigravity-settings",
@@ -216100,6 +216876,38 @@
       "quality": "bronze"
     },
     {
+      "name": "sukechannnn--giff",
+      "description": "Interactive terminal UI for staging Git diffs.",
+      "author": "sukechannnn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sukechannnn--giff",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "dev-asterix--pgstudio",
+      "description": "Intelligent PostgreSQL tooling for VS Code | Build, explore, and query Postgres faster",
+      "author": "dev-asterix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dev-asterix--pgstudio",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "soyplane-io--soyplane",
+      "description": "A GitOps-first Terraform operator for Kubernetes. Secure, declarative, and OpenTofu-ready.",
+      "author": "soyplane-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/soyplane-io--soyplane",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "lgcarrier--xrpl-mcp-server",
+      "description": "XRP Ledger MCP Server",
+      "author": "lgcarrier",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lgcarrier--xrpl-mcp-server",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -226434,6 +227242,78 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/one-eyed-fish--devflow-skills",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "qredence--agentic-kernel",
+      "description": "A flexible foundation AI system for creating A2A-compatible autonomous AI agents that can collaborate, reason, and execute complex tasks through standardized agent-to-agent communication protocols.",
+      "author": "Qredence",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qredence--agentic-kernel",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "ladykerr--devflow-landing",
+      "description": "a developer landing page built with GitHub Copilot Agent",
+      "author": "LadyKerr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ladykerr--devflow-landing",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ak1ra-lab--sing-box-tproxy",
+      "description": "configure sing-box as a transparent proxy with Ansible",
+      "author": "ak1ra-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ak1ra-lab--sing-box-tproxy",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "zauberzeug--feldfreund-devkit-ros",
+      "description": "Control your Feldfreund autonomous weeding platform with ROS2",
+      "author": "zauberzeug",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zauberzeug--feldfreund-devkit-ros",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "openverse-iiitk--dsa-website",
+      "description": "A wonderful data structures and algorithms visualization tool",
+      "author": "Openverse-iiitk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openverse-iiitk--dsa-website",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "tomribbens--factorios",
+      "description": "A joke Linux distribution whose only purpose is playing Factorio.",
+      "author": "tomribbens",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tomribbens--factorios",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "jacksonpires--rails-realtime-erd",
+      "description": "Live Mermaid ERD viewer for any Rails app, mounted as a real-time route, powered by Hotwire.",
+      "author": "jacksonpires",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacksonpires--rails-realtime-erd",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "zauberzeug--feldfreund-devkit-ros",
+      "description": "Control your Feldfreund autonomous weeding platform with ROS2",
+      "author": "zauberzeug",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zauberzeug--feldfreund-devkit-ros",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "annmys--goclaw",
+      "description": "goclaw",
+      "author": "Annmys",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/annmys--goclaw",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
