@@ -7,11 +7,11 @@ React Render for Phoenix Framework
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gsmlg-dev/phoenix-react](https://github.com/gsmlg-dev/phoenix-react).
+Original source: `CLAUDE.md` in [gsmlg-dev/phoenix-react](https://github.com/gsmlg-dev/phoenix-react).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
