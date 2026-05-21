@@ -7,13 +7,13 @@ Montelimar - Extract text from anywhere
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [julien-blanchon/Montelimar](https://github.com/julien-blanchon/Montelimar).
+Original source: `CLAUDE.md` in [julien-blanchon/Montelimar](https://github.com/julien-blanchon/Montelimar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
