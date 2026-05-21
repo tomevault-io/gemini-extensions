@@ -7,11 +7,11 @@ Stream text back to a client over HTTP while persisting it on the server for rel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [get-convex/persistent-text-streaming](https://github.com/get-convex/persistent-text-streaming).
+Original source: `CLAUDE.md` in [get-convex/persistent-text-streaming](https://github.com/get-convex/persistent-text-streaming).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
