@@ -7,11 +7,11 @@ Documentation for the Aptos Blockchain
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aptos-labs/aptos-docs](https://github.com/aptos-labs/aptos-docs).
+Original source: `CLAUDE.md` in [aptos-labs/aptos-docs](https://github.com/aptos-labs/aptos-docs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
