@@ -7,11 +7,11 @@ AutoVoiceCollation 是一个功能强大的自动语音识别（ASR）和文本�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LogicShao/AutoVoiceCollation](https://github.com/LogicShao/AutoVoiceCollation).
+Original source: `CLAUDE.md` in [LogicShao/AutoVoiceCollation](https://github.com/LogicShao/AutoVoiceCollation).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
