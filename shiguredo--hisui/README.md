@@ -7,11 +7,11 @@ Recording Composition Tool Hisui
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [shiguredo/hisui](https://github.com/shiguredo/hisui).
+Original source: `CLAUDE.md` in [shiguredo/hisui](https://github.com/shiguredo/hisui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
