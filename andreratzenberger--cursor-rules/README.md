@@ -7,13 +7,13 @@ My personal cursor rules. Requirements Engineering. Auto Commits. Auto everythin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [AndreRatzenberger/cursor-rules](https://github.com/AndreRatzenberger/cursor-rules).
+Original source: `.cursor/rules/*.mdc` in [AndreRatzenberger/cursor-rules](https://github.com/AndreRatzenberger/cursor-rules).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
