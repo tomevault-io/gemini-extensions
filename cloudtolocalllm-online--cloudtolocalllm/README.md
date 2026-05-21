@@ -7,12 +7,12 @@ Privacy-first desktop AI companion with 5 pillars: unified chat, OpenClaw Gatewa
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [CloudToLocalLLM-online/CloudToLocalLLM](https://github.com/CloudToLocalLLM-online/CloudToLocalLLM).
+Original source: `AGENTS.md` in [CloudToLocalLLM-online/CloudToLocalLLM](https://github.com/CloudToLocalLLM-online/CloudToLocalLLM).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
