@@ -7,11 +7,11 @@ Desktop Video Wallpaper 是一款 macOS 上运行的轻量级mac动态壁纸应�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TzJ2006/desktop-video-for-mac](https://github.com/TzJ2006/desktop-video-for-mac).
+Original source: `CLAUDE.md` in [TzJ2006/desktop-video-for-mac](https://github.com/TzJ2006/desktop-video-for-mac).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
