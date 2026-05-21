@@ -2,6 +2,8 @@
 
 > Tome by [amazon-science](https://github.com/amazon-science/concurry) — distributed by [TomeVault](https://tomevault.io)
 
+Easy scaling for AI research and production workloads
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
