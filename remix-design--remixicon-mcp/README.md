@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Remix-Design/RemixIcon-MCP](https://github.com/Remix-Design/RemixIcon-MCP).
+Original source: `CLAUDE.md` in [Remix-Design/RemixIcon-MCP](https://github.com/Remix-Design/RemixIcon-MCP).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
