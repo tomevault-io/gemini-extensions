@@ -7,13 +7,13 @@ Flarekit is a scalable, modular, and developer-friendly monorepo ecosystem desig
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Atyantik/flarekit](https://github.com/Atyantik/flarekit).
+Original source: `.cursor/rules/*.mdc` in [Atyantik/flarekit](https://github.com/Atyantik/flarekit).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
