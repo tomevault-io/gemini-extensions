@@ -1,7 +1,6 @@
-## pytest-playwright-visual-snapshot
+## general
 
 > Coding instructions for all programming languages:
-
 
 Coding instructions for all programming languages:
 
