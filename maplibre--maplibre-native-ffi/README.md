@@ -7,11 +7,11 @@ An experimental C API for MapLibre Native, built for low-level language bindings
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [maplibre/maplibre-native-ffi](https://github.com/maplibre/maplibre-native-ffi).
+Original source: `CLAUDE.md` in [maplibre/maplibre-native-ffi](https://github.com/maplibre/maplibre-native-ffi).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
