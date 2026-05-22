@@ -7,13 +7,13 @@ Control your Feldfreund autonomous weeding platform with ROS2
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zauberzeug/feldfreund_devkit_ros](https://github.com/zauberzeug/feldfreund_devkit_ros).
+Original source: `.cursor/rules/*.mdc` in [zauberzeug/feldfreund_devkit_ros](https://github.com/zauberzeug/feldfreund_devkit_ros).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
