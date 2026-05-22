@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hoangsonww/AI-Gov-Content-Curator](https://github.com/hoangsonww/AI-Gov-Content-Curator).
+Original source: `CLAUDE.md` in [hoangsonww/AI-Gov-Content-Curator](https://github.com/hoangsonww/AI-Gov-Content-Curator).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
