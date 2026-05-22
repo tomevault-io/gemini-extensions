@@ -7,11 +7,11 @@ A command-line interface for Atlassian JIRA with issue management and workflow c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [pchuri/jira-cli](https://github.com/pchuri/jira-cli).
+Original source: `CLAUDE.md` in [pchuri/jira-cli](https://github.com/pchuri/jira-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
