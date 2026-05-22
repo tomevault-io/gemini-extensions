@@ -53532,6 +53532,14 @@
       "quality": "silver"
     },
     {
+      "name": "moonshotai--kimi-code",
+      "description": "The Starting Point for Next-Gen Agents",
+      "author": "MoonshotAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moonshotai--kimi-code",
+      "stars": 130,
+      "quality": "silver"
+    },
+    {
       "name": "currycan--hatickets",
       "description": "\u5927\u9ea6\u7f51\u62a2\u7968\u81ea\u52a8\u5316 \u2014 Mobile(U2) / Desktop(Tauri+Rust) \u65b9\u6848",
       "author": "currycan",
@@ -236314,6 +236322,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/savasp--graphmodel-dotnet",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "1pitaph--claude-stats",
+      "description": "Native macOS menu-bar stats, terminal, Notch Island, and network debugging for AI coding work.",
+      "author": "1pitaph",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/1pitaph--claude-stats",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "1pitaph--claude-stats",
+      "description": "Native macOS menu-bar stats, terminal, Notch Island, and network debugging for AI coding work.",
+      "author": "1pitaph",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/1pitaph--claude-stats",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "sh11235--rshogi",
+      "description": "Rust\u88fd\u5c06\u68cb\u30a8\u30f3\u30b8\u30f3 / \u958b\u767a\u8005\u30c4\u30fc\u30eb",
+      "author": "SH11235",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sh11235--rshogi",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "sh11235--rshogi",
+      "description": "Rust\u88fd\u5c06\u68cb\u30a8\u30f3\u30b8\u30f3 / \u958b\u767a\u8005\u30c4\u30fc\u30eb",
+      "author": "SH11235",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sh11235--rshogi",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
