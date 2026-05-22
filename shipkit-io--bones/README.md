@@ -2,6 +2,8 @@
 
 > Source: [shipkit-io/bones](https://github.com/shipkit-io/bones) — distributed by [TomeVault](https://tomevault.io)
 
+Shipkit (bones), a starter kit for building React/Next.js sites fast.
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
