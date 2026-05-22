@@ -7,11 +7,11 @@ An MCP server to extract Youtube captions and summarize videos
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mrgoonie/vidcap-mcp-server](https://github.com/mrgoonie/vidcap-mcp-server).
+Original source: `CLAUDE.md` in [mrgoonie/vidcap-mcp-server](https://github.com/mrgoonie/vidcap-mcp-server).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
