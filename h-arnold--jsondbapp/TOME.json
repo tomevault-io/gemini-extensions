@@ -4,7 +4,7 @@
   "repo": "JsonDbApp",
   "description": "A document database implemented in Google App Script using the Google Drive API. Recommended for masochists.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/h-arnold/JsonDbApp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-22T14:50:50Z"
+  "distributed_at": "2026-05-22T14:56:29Z"
 }
