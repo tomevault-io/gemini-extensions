@@ -7,11 +7,11 @@ Local-first beat library for music producers. MCP server (Claude Code / Claude D
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [averatec0773/beatos](https://github.com/averatec0773/beatos).
+Original source: `CLAUDE.md` in [averatec0773/beatos](https://github.com/averatec0773/beatos).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
