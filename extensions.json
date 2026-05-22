@@ -268668,6 +268668,278 @@
       "quality": "gold"
     },
     {
+      "name": "angiehinrichs--viral-usher",
+      "description": "Easily build an UShER tree of genomes for any virus in RefSeq/GenBank",
+      "author": "AngieHinrichs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/angiehinrichs--viral-usher",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "anipotts--chained-chat",
+      "description": "durably chain your chats",
+      "author": "anipotts",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anipotts--chained-chat",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "djm81--log-analyzer-mcp",
+      "description": "Log Analyzer MCP is a powerful Python-based toolkit designed to streamline the way you interact with log files.",
+      "author": "djm81",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djm81--log-analyzer-mcp",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dogusteknoloji--elasticsearchtraining",
+      "description": "This repository contains comprehensive Elasticsearch training materials designed for developers, including a practical .NET 9.0 log simulator application for hands-on learning.",
+      "author": "DogusTeknoloji",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dogusteknoloji--elasticsearchtraining",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "djm81--log-analyzer-mcp",
+      "description": "Log Analyzer MCP is a powerful Python-based toolkit designed to streamline the way you interact with log files.",
+      "author": "djm81",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djm81--log-analyzer-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ton-ai-core--ton-api-indexing",
+      "description": "ton-api-indexing",
+      "author": "ton-ai-core",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ton-ai-core--ton-api-indexing",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "helehanprivate--pbtwithcodegen",
+      "description": "PBTwithCodeGen",
+      "author": "HeLeHanPrivate",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/helehanprivate--pbtwithcodegen",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "djm81--log-analyzer-mcp",
+      "description": "Log Analyzer MCP is a powerful Python-based toolkit designed to streamline the way you interact with log files.",
+      "author": "djm81",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djm81--log-analyzer-mcp",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "chauhan17nitin--tnt",
+      "description": "team-new-tab",
+      "author": "chauhan17nitin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chauhan17nitin--tnt",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "friendsofredaxo--multinewsletter",
+      "description": "multinewsletter",
+      "author": "FriendsOfREDAXO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/friendsofredaxo--multinewsletter",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "teomastro--next-launch-kit",
+      "description": "An open source NextJs+PostgreSQL boilerplate with various integrations needed for a Saas.",
+      "author": "TeoMastro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/teomastro--next-launch-kit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "djm81--log-analyzer-mcp",
+      "description": "Log Analyzer MCP is a powerful Python-based toolkit designed to streamline the way you interact with log files.",
+      "author": "djm81",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djm81--log-analyzer-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "appian-design--aurora-mcp",
+      "description": "This is a Model Context Protocol (MCP) server that provides access to Appian's design system documentation through GitHub repositories. It supports both public and internal documentation sources, allo",
+      "author": "appian-design",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/appian-design--aurora-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tommyyau--wispr-flow-lite",
+      "description": "A powerful voice-to-text transcription app that works system-wide. Simply hold down the Option/Alt key while speaking, and release it to have your words transcribed directly where your cursor is posit",
+      "author": "tommyyau",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tommyyau--wispr-flow-lite",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "guilhermemigliano--doutor-agenda",
+      "description": "doutor-agenda",
+      "author": "guilhermemigliano",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guilhermemigliano--doutor-agenda",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "tinyproxy-org--tinyproxy-zig",
+      "description": "Rewrite TinyProxy in Zig",
+      "author": "tinyproxy-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tinyproxy-org--tinyproxy-zig",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mstampfer--anki-duolingo-scraper",
+      "description": "Scrape duolingo vocabulary from duome.eu create Anki decks for multiple languages",
+      "author": "mstampfer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mstampfer--anki-duolingo-scraper",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deuz-ai--deuz-chat",
+      "description": "Deuz-Chat",
+      "author": "Deuz-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deuz-ai--deuz-chat",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "solutionforest--workflow-engine-core",
+      "description": "A powerful, framework-agnostic workflow engine for PHP applications. This core library provides comprehensive workflow definition, execution, and state management capabilities without any framework de",
+      "author": "solutionforest",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/solutionforest--workflow-engine-core",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "doctorinaai--service-worker-generator",
+      "description": "Service Worker Generator",
+      "author": "DoctorinaAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doctorinaai--service-worker-generator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deuz-ai--deuz-chat",
+      "description": "Deuz-Chat",
+      "author": "Deuz-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deuz-ai--deuz-chat",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "niracler--bokushi",
+      "description": "Personal blog documenting tech & life | \u535a\u7269\u5fd7\uff1a\u8bb0\u5f55\u6280\u672f\u4e0e\u751f\u6d3b\u7684\u8bdd\u5520\u535a\u5ba2",
+      "author": "niracler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/niracler--bokushi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "markov-root--atlas",
+      "description": "atlas",
+      "author": "markov-root",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/markov-root--atlas",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deuz-ai--deuz-chat",
+      "description": "Deuz-Chat",
+      "author": "Deuz-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deuz-ai--deuz-chat",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "crzykidd--docker-api-notifier",
+      "description": "watch docker notifications and updates different notifiers on events.",
+      "author": "crzykidd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/crzykidd--docker-api-notifier",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deuz-ai--deuz-chat",
+      "description": "Deuz-Chat",
+      "author": "Deuz-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deuz-ai--deuz-chat",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "angrysky56--emotion-ai",
+      "description": "The Aura Emotion AI system has chroma with a local embedding model, memvid qr code mp4 infinite memory, brainwave and neurochemical simulations, sociobiological reasoning, autonomous subsystem process",
+      "author": "angrysky56",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/angrysky56--emotion-ai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deuz-ai--deuz-chat",
+      "description": "Deuz-Chat",
+      "author": "Deuz-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deuz-ai--deuz-chat",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dogusteknoloji--elasticsearchtraining",
+      "description": "This repository contains comprehensive Elasticsearch training materials designed for developers, including a practical .NET 9.0 log simulator application for hands-on learning.",
+      "author": "DogusTeknoloji",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dogusteknoloji--elasticsearchtraining",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ben-spoonradio--raycast-scripts",
+      "description": "raycast_scripts",
+      "author": "ben-spoonradio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ben-spoonradio--raycast-scripts",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "solutionforest--workflow-engine-core",
+      "description": "A powerful, framework-agnostic workflow engine for PHP applications. This core library provides comprehensive workflow definition, execution, and state management capabilities without any framework de",
+      "author": "solutionforest",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/solutionforest--workflow-engine-core",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "renfald--tail-tagger",
+      "description": "An application to make manual e621 tag curation for datasets easier to perform, through an efficient workflow and with image classifier assistance ",
+      "author": "renfald",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/renfald--tail-tagger",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "niracler--bokushi",
+      "description": "Personal blog documenting tech & life | \u535a\u7269\u5fd7\uff1a\u8bb0\u5f55\u6280\u672f\u4e0e\u751f\u6d3b\u7684\u8bdd\u5520\u535a\u5ba2",
+      "author": "niracler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/niracler--bokushi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "pinellolab--chorus",
+      "description": "chorus",
+      "author": "pinellolab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pinellolab--chorus",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -284660,6 +284932,46 @@
       "quality": "gold"
     },
     {
+      "name": "infiniumtek--terraform-review-agent",
+      "description": "Reusable GitHub Action that reviews Terraform PRs for security, cost, and style using a LangGraph multi-agent system, posting a single severity-ranked comment.",
+      "author": "infiniumtek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/infiniumtek--terraform-review-agent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "infiniumtek--terraform-review-agent",
+      "description": "Reusable GitHub Action that reviews Terraform PRs for security, cost, and style using a LangGraph multi-agent system, posting a single severity-ranked comment.",
+      "author": "infiniumtek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/infiniumtek--terraform-review-agent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "davimalor3--saas-clinic-appointments",
+      "description": "saas_clinic_appointments",
+      "author": "davimalor3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davimalor3--saas-clinic-appointments",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ianmacartney--code-organization-pattern",
+      "description": "A way to separate code definition from public api organization",
+      "author": "ianmacartney",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ianmacartney--code-organization-pattern",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "makeplane--plane-python-sdk",
+      "description": "Python SDK for plane.so",
+      "author": "makeplane",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/makeplane--plane-python-sdk",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -288344,6 +288656,30 @@
       "description": "Lightweight server monitoring panel with real-time metrics, agent management, and web dashboard",
       "author": "XiNian-dada",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xinian-dada--nodelite",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "jaswalmohit8-collab--weasel",
+      "description": "A tiny CLAUDE.md for keeping long-running AI coding agents useful.",
+      "author": "jaswalmohit8-collab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaswalmohit8-collab--weasel",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "lwinmoepaing--idea-starter",
+      "description": "idea-starter",
+      "author": "lwinmoepaing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lwinmoepaing--idea-starter",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "jaswalmohit8-collab--weasel",
+      "description": "A tiny CLAUDE.md for keeping long-running AI coding agents useful.",
+      "author": "jaswalmohit8-collab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaswalmohit8-collab--weasel",
       "stars": 7,
       "quality": "silver"
     },
@@ -451114,6 +451450,422 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omygodwin--seasons-study-app",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "bartoszm--sample-generator",
+      "description": "Generates realistic JSON samples from json schemas or OAS models. Allows for definition of scenarios that drive shape of generated data",
+      "author": "bartoszm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bartoszm--sample-generator",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "thepapallot--jocpro",
+      "description": "joc de la Piramide amb la raspi i els esp32",
+      "author": "thepapallot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thepapallot--jocpro",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "victormeireles--valepan-interno",
+      "description": "valepan-interno",
+      "author": "victormeireles",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/victormeireles--valepan-interno",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ty-hayes-82--crm-assistant",
+      "description": "crm-assistant",
+      "author": "ty-hayes-82",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ty-hayes-82--crm-assistant",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "blogas190--one-sweep",
+      "description": "Graduation game project",
+      "author": "blogas190",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blogas190--one-sweep",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "atticusjxn--flynnaiapp",
+      "description": "Flynn AI - Mobile app for service providers to automatically capture job details from screenshots and phone calls",
+      "author": "atticusjxn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atticusjxn--flynnaiapp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sonorousduck--foodtracker",
+      "description": "Started August 30th, 2025",
+      "author": "sonorousduck",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonorousduck--foodtracker",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sakuro--foxtail",
+      "description": "Ruby implementation of Project Fluent localization system",
+      "author": "sakuro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sakuro--foxtail",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "stritti--nak-tut-bezirksfest-2025",
+      "description": "nak-tut-bezirksfest-2025",
+      "author": "stritti",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stritti--nak-tut-bezirksfest-2025",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "c3ny--users-service",
+      "description": "Microsservi\u00e7o de usu\u00e1rio do projeto Sangue Solid\u00e1rio.",
+      "author": "c3ny",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/c3ny--users-service",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "vkeslarek--pixors",
+      "description": "Open Source image editos",
+      "author": "vkeslarek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vkeslarek--pixors",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "c3ny--users-service",
+      "description": "Microsservi\u00e7o de usu\u00e1rio do projeto Sangue Solid\u00e1rio.",
+      "author": "c3ny",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/c3ny--users-service",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "esnya--resobotgw",
+      "description": "WIP",
+      "author": "esnya",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/esnya--resobotgw",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "c3ny--users-service",
+      "description": "Microsservi\u00e7o de usu\u00e1rio do projeto Sangue Solid\u00e1rio.",
+      "author": "c3ny",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/c3ny--users-service",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "raphael-kr--dgkmaweb",
+      "description": "\ub3d9\uad6d\ub300\ud559\uad50 \ud55c\uc758\uacfc\ub300\ud559 \uc6f9 \ud50c\ub7ab\ud3fc",
+      "author": "Raphael-KR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/raphael-kr--dgkmaweb",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "bartoszm--sample-generator",
+      "description": "Generates realistic JSON samples from json schemas or OAS models. Allows for definition of scenarios that drive shape of generated data",
+      "author": "bartoszm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bartoszm--sample-generator",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "balintsoos--m4sport",
+      "description": "Containerized M4 Sport Stream",
+      "author": "balintsoos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/balintsoos--m4sport",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "schofield-lab--schofield-lab-github-io",
+      "description": "UCL Schofield Research Group website (quantum nanoscience, STM)",
+      "author": "schofield-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schofield-lab--schofield-lab-github-io",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "atticusjxn--flynnaiapp",
+      "description": "Flynn AI - Mobile app for service providers to automatically capture job details from screenshots and phone calls",
+      "author": "atticusjxn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atticusjxn--flynnaiapp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "roberto-muricy--astroquiz",
+      "description": "Astronomy Quiz - Strapi",
+      "author": "roberto-muricy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roberto-muricy--astroquiz",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nick130920--fintech-backend",
+      "description": "fintech-backend",
+      "author": "nick130920",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nick130920--fintech-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lhak1341--script-portfolio",
+      "description": "script-portfolio",
+      "author": "lhak1341",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lhak1341--script-portfolio",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hnykda--kokorovsky-dvur",
+      "description": "kokorovsky-dvur",
+      "author": "hnykda",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hnykda--kokorovsky-dvur",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hnykda--kokorovsky-dvur",
+      "description": "kokorovsky-dvur",
+      "author": "hnykda",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hnykda--kokorovsky-dvur",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ty-hayes-82--crm-assistant",
+      "description": "crm-assistant",
+      "author": "ty-hayes-82",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ty-hayes-82--crm-assistant",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "sakuro--foxtail",
+      "description": "Ruby implementation of Project Fluent localization system",
+      "author": "sakuro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sakuro--foxtail",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sscba--sscba-github-io",
+      "description": "sscba.github.io",
+      "author": "sscba",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sscba--sscba-github-io",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "krenuds--earpiece",
+      "description": "High-performance TTS and STT services for Toji Discord bot",
+      "author": "Krenuds",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/krenuds--earpiece",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "encryptabit--ams",
+      "description": "AudioBook Mastering Suite using Zig + AvaloniaUI",
+      "author": "Encryptabit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/encryptabit--ams",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "vkeslarek--pixors",
+      "description": "Open Source image editos",
+      "author": "vkeslarek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vkeslarek--pixors",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ponywen0819--ienf-q",
+      "description": "ienf_q",
+      "author": "Ponywen0819",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ponywen0819--ienf-q",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "omidrahmati2000--tug",
+      "description": "TUG",
+      "author": "omidrahmati2000",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omidrahmati2000--tug",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ba912--discord-boss-bot-v3",
+      "description": "discord-boss-bot-v3",
+      "author": "ba912",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ba912--discord-boss-bot-v3",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cateiru--sesami-2-mackerel",
+      "description": "SESAMI \u306e\u30c7\u30d0\u30a4\u30b9\u3092 Mackerel \u3067\u76e3\u8996\u3059\u308b\u305f\u3081\u306e\u30c4\u30fc\u30eb\u3067\u3059\u3002",
+      "author": "cateiru",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cateiru--sesami-2-mackerel",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shinytsing--modeshift-django",
+      "description": "A Django-based project for mode shifting functionality",
+      "author": "shinytsing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinytsing--modeshift-django",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "umbalaconmeogia--chatwork-thread",
+      "description": "A tool that help display relative chats of Chatworks in group.",
+      "author": "umbalaconmeogia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/umbalaconmeogia--chatwork-thread",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
