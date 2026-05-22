@@ -7,11 +7,11 @@ Open-source async report generation service in Go — define templates (Pongo2/D
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LerianStudio/reporter](https://github.com/LerianStudio/reporter).
+Original source: `CLAUDE.md` in [LerianStudio/reporter](https://github.com/LerianStudio/reporter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
