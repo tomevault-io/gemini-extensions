@@ -7,11 +7,11 @@ MCP server for Gmail, Google Calendar, and Google Drive integration using fastmc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tumf/fastmcp-gsuite](https://github.com/tumf/fastmcp-gsuite).
+Original source: `CLAUDE.md` in [tumf/fastmcp-gsuite](https://github.com/tumf/fastmcp-gsuite).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
