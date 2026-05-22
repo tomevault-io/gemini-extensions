@@ -7,12 +7,12 @@ Windows‑native clone of Linux mtr! It's a cross‑platform Rust CLI that deliv
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [benjisho/windows-mtr](https://github.com/benjisho/windows-mtr).
+Original source: `AGENTS.md` in [benjisho/windows-mtr](https://github.com/benjisho/windows-mtr).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
