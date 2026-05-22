@@ -1,21 +1,15 @@
-# TomeVault Gemini CLI extensions
+# TomeVault Gemini Extensions
 
-Instruction files in `GEMINI.md` format, packaged as Gemini CLI extensions by [TomeVault](https://tomevault.io).
-
-Every extension here was indexed from a public GitHub repository, scanned for credential leaks, prompt injection, and unsafe shell patterns, and graded before publication. The same files are converted and published in parallel for Claude Code, Codex, GitHub Copilot, Cursor, and Windsurf, so behaviour authored for one agent runs on all of them.
+AI instruction files converted to `GEMINI.md` format and packaged as Gemini CLI extensions by [TomeVault](https://tomevault.io).
 
 ## Install
 
-```bash
-gemini extensions install https://github.com/tomevault-io/gemini-extensions
-```
-
-Or browse the per-extension directories and install one by name.
+Browse the per-extension directories and copy a plugin's `GEMINI.md` into your project root, or follow the per-extension README for Gemini CLI setup steps.
 
 ## Browse
 
-Search, filter, and check the scan grade for any file at [tomevault.io](https://tomevault.io).
+Search, filter, and discover instruction files across every platform at [tomevault.io](https://tomevault.io).
 
 ---
 
-Indexed, verified, and distributed by TomeVault.
+> Converted and distributed by [TomeVault](https://tomevault.io) - your instructions deserve a bigger audience.
