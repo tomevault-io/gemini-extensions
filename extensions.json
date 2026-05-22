@@ -236252,6 +236252,14 @@
       "quality": "bronze"
     },
     {
+      "name": "lwgray--marcus",
+      "description": "marcus",
+      "author": "lwgray",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lwgray--marcus",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -268428,6 +268436,86 @@
       "quality": "bronze"
     },
     {
+      "name": "incuvolve--ivblock",
+      "description": "Safari Port of LeechBlockNG",
+      "author": "incuvolve",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/incuvolve--ivblock",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mikecann--video-to-markdown",
+      "description": "Convex project to creates markdown friendly thumbs for youtube videos",
+      "author": "mikecann",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikecann--video-to-markdown",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mikecann--video-to-markdown",
+      "description": "Convex project to creates markdown friendly thumbs for youtube videos",
+      "author": "mikecann",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikecann--video-to-markdown",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "pchuri--jira-cli",
+      "description": "A command-line interface for Atlassian JIRA with issue management and workflow capabilities",
+      "author": "pchuri",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pchuri--jira-cli",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "pchuri--jira-cli",
+      "description": "A command-line interface for Atlassian JIRA with issue management and workflow capabilities",
+      "author": "pchuri",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pchuri--jira-cli",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "freelygive--drupal-ai-dev-tracker",
+      "description": "Website for tracking Drupal AI Issues from D.o",
+      "author": "FreelyGive",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freelygive--drupal-ai-dev-tracker",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "cyanheads--pubchem-mcp-server",
+      "description": "MCP server for the PubChem chemical database. Search compounds, fetch properties, safety data, bioactivity, cross-references, and entity summaries. STDIO & Streamable HTTP",
+      "author": "cyanheads",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cyanheads--pubchem-mcp-server",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "insight-services-apac--insight-ingenious-for-fabric",
+      "description": "Framework for Accelerated Microsoft Fabric Development, Testing and Deployment",
+      "author": "Insight-Services-APAC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/insight-services-apac--insight-ingenious-for-fabric",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "freelygive--drupal-ai-dev-tracker",
+      "description": "Website for tracking Drupal AI Issues from D.o",
+      "author": "FreelyGive",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freelygive--drupal-ai-dev-tracker",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "insight-services-apac--insight-ingenious-for-fabric",
+      "description": "Framework for Accelerated Microsoft Fabric Development, Testing and Deployment",
+      "author": "Insight-Services-APAC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/insight-services-apac--insight-ingenious-for-fabric",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -284380,6 +284468,38 @@
       "quality": "silver"
     },
     {
+      "name": "jzb1006--claude-vigil",
+      "description": "A vigil is a watch kept while others rest. Vigil keeps your tasks moving forward while you sleep, eat, travel, or just step away from the keyboard. It picks tasks off your queue, isolates each one in ",
+      "author": "jzb1006",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jzb1006--claude-vigil",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "1brucben--terratomic",
+      "description": "Terratomic",
+      "author": "1brucben",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/1brucben--terratomic",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "gizmodata--quack-jdbc",
+      "description": "JDBC driver for DuckDB's Quack remote protocol (quack:// URI scheme). Lets any JVM tool query a remote DuckDB server over HTTP.",
+      "author": "gizmodata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gizmodata--quack-jdbc",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "willliang713--globalscript",
+      "description": "GlobalScript \u662f\u4e00\u4efd\u9762\u5411 Clash Meta / Mihomo \u7684\u7cbe\u7b80\u5206\u6d41\u6a21\u677f\u3002\u5b83\u91c7\u7528\u201c\u56fd\u5185\u4e0e\u6e38\u620f\u76f4\u8fde\uff0c\u5176\u4ed6\u975e\u4e2d\u56fd\u5927\u9646\u6d41\u91cf\u7edf\u4e00\u8fdb\u5165\u4ee3\u7406\u51fa\u53e3\u201d\u7684\u8bbe\u8ba1\uff0c\u51cf\u5c11\u670d\u52a1\u7c7b\u7b56\u7565\u7ec4\u5e26\u6765\u7684\u9009\u62e9\u8d1f\u62c5\uff0c\u540c\u65f6\u4fdd\u7559\u9999\u6e2f\u3001\u7f8e\u56fd\u3001\u65e5\u672c\u3001\u65b0\u52a0\u5761\u7b49\u5730\u533a\u51fa\u53e3\uff0c\u65b9\u4fbf\u5728\u63a7\u5236\u9762\u677f\u4e2d\u5feb\u901f\u5207\u6362\u4ee3\u7406\u7ebf\u8def\u3002\u914d\u7f6e\u4e0d\u5305\u542b\u8282\u70b9\uff0c\u9700\u8981\u642d\u914d\u4e2a\u4eba\u8ba2\u9605\u6216\u914d\u7f6e\u5408\u5e76\u529f\u80fd\u4f7f\u7528\u3002",
+      "author": "WillLiang713",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/willliang713--globalscript",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -288040,6 +288160,22 @@
       "description": "AI team workflow for Codex that turns ideas into product briefs, implementation tasks, quality reviews, documentation, and launch-ready product messaging",
       "author": "Tsmar",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tsmar--4dreamteam",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "standardagents--composer-api",
+      "description": "OpenAI-compatible API proxy for Cursor Composer",
+      "author": "standardagents",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/standardagents--composer-api",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "themattberman--shortform-idea-engine",
+      "description": "shortform-idea-engine",
+      "author": "TheMattBerman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themattberman--shortform-idea-engine",
       "stars": 7,
       "quality": "silver"
     },
@@ -450434,6 +450570,174 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ghostexe-cloud--nextjs-ai-chatbot",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "c-basso--volumeboosting",
+      "description": "volumeboosting",
+      "author": "c-basso",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/c-basso--volumeboosting",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "neo4su--r-workspace",
+      "description": "R-Workspace",
+      "author": "Neo4Su",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neo4su--r-workspace",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "o2ter--jscore",
+      "description": "JSCore",
+      "author": "o2ter",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/o2ter--jscore",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "netanelhadad2009-bit--gymbro",
+      "description": "gymbro",
+      "author": "netanelhadad2009-bit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/netanelhadad2009-bit--gymbro",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "kmransom56--job-search-agent",
+      "description": "job-search-agent - Python automation and development tool.",
+      "author": "kmransom56",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kmransom56--job-search-agent",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lersam--machine-learning",
+      "description": "machine-learning",
+      "author": "lersam",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lersam--machine-learning",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zyeh0001--willup",
+      "description": "willup",
+      "author": "zyeh0001",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zyeh0001--willup",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zyeh0001--willup",
+      "description": "willup",
+      "author": "zyeh0001",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zyeh0001--willup",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "gamustea--seq",
+      "description": "SeQ",
+      "author": "gamustea",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gamustea--seq",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "arthur-debert--treex",
+      "description": "treex",
+      "author": "arthur-debert",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arthur-debert--treex",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "c-basso--volumeboosting",
+      "description": "volumeboosting",
+      "author": "c-basso",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/c-basso--volumeboosting",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zafrem--data-detector",
+      "description": "Data-detector is a Python-based PII detection and protection framework featuring multi-language NLP support, RAG security, and data tokenization capabilities.",
+      "author": "zafrem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zafrem--data-detector",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "emiperez95--claude-agents",
+      "description": "Specialized Claude Code agents for automating information gathering from Jira, GitHub, and Notion",
+      "author": "emiperez95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emiperez95--claude-agents",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "dgarhdez--dbt-ie",
+      "description": "Repo containing the material for Analytics Engineering with dbt",
+      "author": "dgarhdez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dgarhdez--dbt-ie",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jsaenz03--cliniciq",
+      "description": "cliniciq",
+      "author": "jsaenz03",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jsaenz03--cliniciq",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "netanelhadad2009-bit--gymbro",
+      "description": "gymbro",
+      "author": "netanelhadad2009-bit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/netanelhadad2009-bit--gymbro",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bioatmosphere--ggap",
+      "description": "A scalable GPU-enabled agent-based forest model--Make Gap Model (GAPpy) Great Again",
+      "author": "bioatmosphere",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bioatmosphere--ggap",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "emiperez95--claude-agents",
+      "description": "Specialized Claude Code agents for automating information gathering from Jira, GitHub, and Notion",
+      "author": "emiperez95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emiperez95--claude-agents",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jsaenz03--cliniciq",
+      "description": "cliniciq",
+      "author": "jsaenz03",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jsaenz03--cliniciq",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nmswainston--portfolio",
+      "description": "portfolio",
+      "author": "nmswainston",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nmswainston--portfolio",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hungtruongquoc--fast-api-beetrack",
+      "description": "Fast API Prototype to connect with Beetrack",
+      "author": "hungtruongquoc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hungtruongquoc--fast-api-beetrack",
+      "stars": 0,
+      "quality": "gold"
     }
   ]
 }
