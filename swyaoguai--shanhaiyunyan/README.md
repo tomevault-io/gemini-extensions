@@ -7,11 +7,11 @@ AI 小说创作工作台，纯本地数据储存，支持项目级资料库、�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [swyaoguai/shanhaiyunyan](https://github.com/swyaoguai/shanhaiyunyan).
+Original source: `CLAUDE.md` in [swyaoguai/shanhaiyunyan](https://github.com/swyaoguai/shanhaiyunyan).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
