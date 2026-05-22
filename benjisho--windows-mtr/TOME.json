@@ -4,7 +4,7 @@
   "repo": "windows-mtr",
   "description": "Windows\u2011native clone of Linux mtr! It's a cross\u2011platform Rust CLI that delivers ICMP/TCP/UDP traceroute & ping in a single portable executable (`mtr.exe`). | Built by Benji Shohet (benjisho).",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/benjisho/windows-mtr",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-22T16:45:49Z"
+  "distributed_at": "2026-05-22T17:17:25Z"
 }
