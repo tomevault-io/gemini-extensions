@@ -7,13 +7,13 @@ A performance insights and knowledge assistant agent built on top of Chrome DevT
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [PerfLab-io/perfagent](https://github.com/PerfLab-io/perfagent).
+Original source: `.cursor/rules/*.mdc` in [PerfLab-io/perfagent](https://github.com/PerfLab-io/perfagent).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
