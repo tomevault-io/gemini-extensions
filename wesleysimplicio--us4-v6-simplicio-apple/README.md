@@ -7,12 +7,12 @@ US4 V6 — Apple Edition. Universal State Runtime for local LLM inference on App
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [wesleysimplicio/us4-v6-simplicio-apple](https://github.com/wesleysimplicio/us4-v6-simplicio-apple).
+Original source: `AGENTS.md` in [wesleysimplicio/us4-v6-simplicio-apple](https://github.com/wesleysimplicio/us4-v6-simplicio-apple).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
