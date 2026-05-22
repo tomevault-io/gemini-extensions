@@ -7,13 +7,13 @@ The Cape Verdean Network for Creators, Thinkers, and Builders. Hunter is more th
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kidiatoliny/hunter](https://github.com/kidiatoliny/hunter).
+Original source: `.cursor/rules/*.mdc` in [kidiatoliny/hunter](https://github.com/kidiatoliny/hunter).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
