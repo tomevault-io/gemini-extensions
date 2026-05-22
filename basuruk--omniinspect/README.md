@@ -7,12 +7,12 @@ Oracle Event Queues based application to observe database events and custom mess
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [BasuruK/OmniInspect](https://github.com/BasuruK/OmniInspect).
+Original source: `AGENTS.md` in [BasuruK/OmniInspect](https://github.com/BasuruK/OmniInspect).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
