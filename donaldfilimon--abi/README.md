@@ -7,11 +7,11 @@ ABI Agent + WDBX Database: A high-speed, fully optimized AI and ML training stac
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [donaldfilimon/abi](https://github.com/donaldfilimon/abi).
+Original source: `CLAUDE.md` in [donaldfilimon/abi](https://github.com/donaldfilimon/abi).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
