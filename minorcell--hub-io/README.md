@@ -7,11 +7,11 @@ Hub-IO is a headless application for generating stable contributor SVG links for
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [minorcell/hub-io](https://github.com/minorcell/hub-io).
+Original source: `CLAUDE.md` in [minorcell/hub-io](https://github.com/minorcell/hub-io).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
