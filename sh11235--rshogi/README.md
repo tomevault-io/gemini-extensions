@@ -7,11 +7,11 @@ Rust製将棋エンジン / 開発者ツール
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [SH11235/rshogi](https://github.com/SH11235/rshogi).
+Original source: `AGENTS.md` in [SH11235/rshogi](https://github.com/SH11235/rshogi).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
