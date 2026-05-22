@@ -7,11 +7,11 @@ Scriptable Render Pipeline (SRP) featuring modern high fidelity rendering techni
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [af8a2a/VividRP](https://github.com/af8a2a/VividRP).
+Original source: `CLAUDE.md` in [af8a2a/VividRP](https://github.com/af8a2a/VividRP).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
