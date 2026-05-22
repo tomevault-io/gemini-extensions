@@ -7,11 +7,11 @@ Open Source image editos
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [vkeslarek/pixors](https://github.com/vkeslarek/pixors).
+Original source: `CLAUDE.md` in [vkeslarek/pixors](https://github.com/vkeslarek/pixors).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
