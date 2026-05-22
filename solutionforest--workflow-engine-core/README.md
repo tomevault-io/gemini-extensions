@@ -7,11 +7,11 @@ A powerful, framework-agnostic workflow engine for PHP applications. This core l
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [solutionforest/workflow-engine-core](https://github.com/solutionforest/workflow-engine-core).
+Original source: `CLAUDE.md` in [solutionforest/workflow-engine-core](https://github.com/solutionforest/workflow-engine-core).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
