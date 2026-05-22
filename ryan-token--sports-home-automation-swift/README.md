@@ -7,11 +7,11 @@ Serveless Swift on AWS to remotely control Philips Hue bulbs whenever my favorit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ryan-token/sports-home-automation-swift](https://github.com/ryan-token/sports-home-automation-swift).
+Original source: `CLAUDE.md` in [ryan-token/sports-home-automation-swift](https://github.com/ryan-token/sports-home-automation-swift).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
