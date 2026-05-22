@@ -225244,6 +225244,22 @@
       "quality": "bronze"
     },
     {
+      "name": "majiayu000--claude-skill-registry-core",
+      "description": "claude-skill-registry-core",
+      "author": "majiayu000",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/majiayu000--claude-skill-registry-core",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "majiayu000--claude-skill-registry-core",
+      "description": "claude-skill-registry-core",
+      "author": "majiayu000",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/majiayu000--claude-skill-registry-core",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -268556,6 +268572,62 @@
       "quality": "silver"
     },
     {
+      "name": "alexlmiller--cf-mail-relay",
+      "description": "Turnkey SMTP-to-Cloudflare-Email-Sending bridge: Docker SMTP relay + Cloudflare Worker + Pages admin UI. Pre-MVP.",
+      "author": "alexlmiller",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexlmiller--cf-mail-relay",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "rameshwar-amancha--flutter-audio-toolkit",
+      "description": "flutter_audio_toolkit",
+      "author": "Rameshwar-Amancha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rameshwar-amancha--flutter-audio-toolkit",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "kangsive--mahjong",
+      "description": "\u9ebb\u5c06\u6e38\u620f\u5e26\u8bad\u7ec3\u6a21\u5f0f\u4e0e\u7ade\u6280\u6a21\u5f0f\uff08\u652f\u6301\u56db\u5ddd\u9ebb\u5c06\u548c\u56fd\u6807\u9ebb\u5c06\uff09",
+      "author": "kangsive",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kangsive--mahjong",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mrpunyapal--laravel-client-validation",
+      "description": "Laravel package providing client-side validation with Alpine.js integration and server-side rule synchronization",
+      "author": "MrPunyapal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrpunyapal--laravel-client-validation",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ropnfop--usekit",
+      "description": "# how to usekit  **Position-aware data I/O toolkit**   Minimal input. Auto path tracking. No config needed.   Use safely and intuitively:   `use.read.json()`, `usf.read.json()`, `u.rj()`, `uf.rj()`  u",
+      "author": "ropnfop",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ropnfop--usekit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ezhou89--medical-research-mcp-suite",
+      "description": "AI-Enhanced Medical Research API unifying ClinicalTrials.gov, PubMed, and FDA databases with intelligent cross-database analysis",
+      "author": "ezhou89",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ezhou89--medical-research-mcp-suite",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "alamanda-projects--beescout",
+      "description": "beescout is an open-source data contract registry and validation tool.",
+      "author": "alamanda-projects",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alamanda-projects--beescout",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -284540,6 +284612,14 @@
       "quality": "silver"
     },
     {
+      "name": "neurawork-git--n8n-autopilot",
+      "description": "Claude Code plugin for building, validating, and deploying n8n workflows via n8nac CLI",
+      "author": "neurawork-git",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neurawork-git--n8n-autopilot",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -288216,6 +288296,14 @@
       "description": "shortform-idea-engine",
       "author": "TheMattBerman",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themattberman--shortform-idea-engine",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "xinian-dada--nodelite",
+      "description": "Lightweight server monitoring panel with real-time metrics, agent management, and web dashboard",
+      "author": "XiNian-dada",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xinian-dada--nodelite",
       "stars": 7,
       "quality": "silver"
     },
@@ -450778,6 +450866,214 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hungtruongquoc--fast-api-beetrack",
       "stars": 0,
       "quality": "gold"
+    },
+    {
+      "name": "donsteve777--trainhub",
+      "description": "trainhub",
+      "author": "DonSteve777",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/donsteve777--trainhub",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "estibenlicona--scan-pypi",
+      "description": "scan-pypi",
+      "author": "estibenlicona",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/estibenlicona--scan-pypi",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jrrome--extract-tiktok-recipe",
+      "description": "extract-tiktok-recipe",
+      "author": "jrrome",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jrrome--extract-tiktok-recipe",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "joorapp--joorappv2",
+      "description": "React js",
+      "author": "joorapp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joorapp--joorappv2",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "tomgoren--dotfiles",
+      "description": "dotfiles",
+      "author": "tomgoren",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tomgoren--dotfiles",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hassanrehman9393--fresh-ml",
+      "description": "FRESH_ML",
+      "author": "HassanRehman9393",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hassanrehman9393--fresh-ml",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "allentown521--daily-email-scraping",
+      "description": "\u624b\u52a8\u6253\u5f00\u6bcf\u4e00\u4e2a\u9700\u8981\u6293\u53d6\u7684\u7f51\u7ad9\uff0c\u7ed3\u5408email scrap \u6d4f\u89c8\u5668\u6269\u5c55\u6293\u53d6\u7f51\u9875\u4e2d\u7684\u90ae\u4ef6\u5730\u5740",
+      "author": "allentown521",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allentown521--daily-email-scraping",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "adrenaline2389--x-bot",
+      "description": "X_bot",
+      "author": "adrenaline2389",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adrenaline2389--x-bot",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "carljohan-schnell--sso-login",
+      "description": "React Native SSO Login",
+      "author": "carljohan-schnell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/carljohan-schnell--sso-login",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "enzocatorano--tesis-habla-imaginada",
+      "description": "Proyecto de tesis + primera vez haciendo un repositorio quasi-descente",
+      "author": "enzocatorano",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/enzocatorano--tesis-habla-imaginada",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "jockesv--simball-simple",
+      "description": "simball_simple",
+      "author": "jockesv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jockesv--simball-simple",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "neudzulab--aunsorm-security-platform",
+      "description": "Unified Post-Quantum Security Platform providing cryptography, identity, RNG and calibration services for modern distributed systems.",
+      "author": "Neudzulab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neudzulab--aunsorm-security-platform",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "tomgoren--dotfiles",
+      "description": "dotfiles",
+      "author": "tomgoren",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tomgoren--dotfiles",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "yunosukeyoshino--nanatau",
+      "description": "nanatau",
+      "author": "YunosukeYoshino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yunosukeyoshino--nanatau",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nexiouscaliver--agenticos",
+      "description": "Production-ready multi-agent AI system with 8 specialized agents, coordinated research teams, and automated workflows \u2014 built on the Agno Framework",
+      "author": "nexiouscaliver",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nexiouscaliver--agenticos",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sonwwall--cs61b-learning",
+      "description": "cs61b-learning",
+      "author": "sonwwall",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonwwall--cs61b-learning",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "binsarjr--svelte-shadcn-mcp",
+      "description": "svelte-shadcn-mcp",
+      "author": "binsarjr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/binsarjr--svelte-shadcn-mcp",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "zackzhou-work--stickers",
+      "description": "stickers",
+      "author": "zackzhou-work",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zackzhou-work--stickers",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jagadeesh52423--confluencemcp",
+      "description": "MCP server with 84 tools for Jira, Confluence, and Bitbucket Cloud -- full CRUD, smart transitions, and snapshot safety for AI assistants",
+      "author": "jagadeesh52423",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jagadeesh52423--confluencemcp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jockesv--simball-simple",
+      "description": "simball_simple",
+      "author": "jockesv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jockesv--simball-simple",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "purewhitevk--opengl-examples",
+      "description": "OpenGL recap. (again?!)",
+      "author": "PureWhiteVK",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/purewhitevk--opengl-examples",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "just-another-muensterhack--aichhoernchen-backend",
+      "description": "aichhoernchen-backend",
+      "author": "Just-another-Muensterhack",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/just-another-muensterhack--aichhoernchen-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alan-ari-mahendra--elevare-saas",
+      "description": "Elevare-SaaS",
+      "author": "alan-ari-mahendra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alan-ari-mahendra--elevare-saas",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "whaeuser--splitflap",
+      "description": "Split-flap display simulator with 6-line support and HTTP API",
+      "author": "whaeuser",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whaeuser--splitflap",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "yunosukeyoshino--nanatau",
+      "description": "nanatau",
+      "author": "YunosukeYoshino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yunosukeyoshino--nanatau",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "omygodwin--seasons-study-app",
+      "description": "seasons-study-app",
+      "author": "omygodwin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omygodwin--seasons-study-app",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
