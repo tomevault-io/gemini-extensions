@@ -2,7 +2,7 @@
   "name": "bones",
   "owner": "shipkit-io",
   "repo": "bones",
-  "description": "",
+  "description": "Shipkit (bones), a starter kit for building React/Next.js sites fast.",
   "type": "config",
   "source_format": ".cursor/rules/*.mdc",
   "formats": [
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/shipkit-io/bones",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-23T12:59:27Z"
+  "distributed_at": "2026-05-22T00:44:28Z"
 }
