@@ -274988,6 +274988,70 @@
       "quality": "gold"
     },
     {
+      "name": "mizuka-wu--y-mxgraph",
+      "description": "A tool library for bidirectional binding and conversion between draw.io (mxGraph) XML and Yjs CRDT, accompanied by a runnable demo that supports collaborative cursor and selection rendering",
+      "author": "mizuka-wu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mizuka-wu--y-mxgraph",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "redoop--riscv-ai-accelerator",
+      "description": "RISC-V AI Accelerator SoC with innovative BitNet multiplier-free architecture. Features PicoRV32 CPU, dual AI accelerators (6.4 GOPS), and supports open-source EDA toolchains. Designed for edge AI inf",
+      "author": "redoop",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/redoop--riscv-ai-accelerator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "kapernikov--headscale-helm",
+      "description": "a helm chart for headscale",
+      "author": "Kapernikov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kapernikov--headscale-helm",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "strahe--bwh",
+      "description": "Go SDK, CLI, and MCP server for managing BandwagonHost/bwg/\u642c\u74e6\u5de5 (KiwiVM) VPS, with command-line and programmatic access to most features.",
+      "author": "strahe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/strahe--bwh",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "gleanwork--mcp-config",
+      "description": "Type-safe schemas and builders for MCP client configurations",
+      "author": "gleanwork",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gleanwork--mcp-config",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "viktorfa--finn-mcp",
+      "description": "Unofficial MCP for the Norwegian secondhand marketplace FINN.no",
+      "author": "viktorfa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/viktorfa--finn-mcp",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "drasi-project--drasi-server",
+      "description": "drasi-server",
+      "author": "drasi-project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/drasi-project--drasi-server",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "wrike--promabbix",
+      "description": "A real magic of Prometheus and Zabbix being together",
+      "author": "wrike",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrike--promabbix",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -291844,6 +291908,70 @@
       "quality": "silver"
     },
     {
+      "name": "pony-maggie--computer-use-for-deepseek",
+      "description": "computer-use-for-deepseek",
+      "author": "pony-maggie",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pony-maggie--computer-use-for-deepseek",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dongzhang84--sea2-demo",
+      "description": "\u9006\u5411\u300a\u5927\u822a\u6d77\u6642\u4ee3II\u300b(KOEI, 1993, PC-9801) \u8d44\u6e90\u6587\u4ef6",
+      "author": "dongzhang84",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dongzhang84--sea2-demo",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "saroircommunity--spiderbrain-v3",
+      "description": "SpiderBrain v3 is a multi-platform skill/framework to reduce token usage and AI hallucinations across Claude, Cursor, and other AI tools.",
+      "author": "SaroirCommunity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saroircommunity--spiderbrain-v3",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "andrealbuquerque--claude-config",
+      "description": "claude-config",
+      "author": "AndreAlbuquerque",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrealbuquerque--claude-config",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "csvance--luximm-jl",
+      "description": "Julia Image Models",
+      "author": "csvance",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/csvance--luximm-jl",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "longcipher--typstify",
+      "description": "Leptos + Tantivy + Typst + Markdown + Tailwind CSS + SSG",
+      "author": "longcipher",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/longcipher--typstify",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dzivenu--aquakit",
+      "description": "AI SaaS Starter Kit - Next.js, Convex, Trigger.dev, Better Auth, Polar.sh (Stripe)",
+      "author": "Dzivenu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dzivenu--aquakit",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "withmodulabs--blog-agent",
+      "description": "blog-agent",
+      "author": "WithModulabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/withmodulabs--blog-agent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -295672,6 +295800,14 @@
       "description": "Fallback keeps the GitHub context your repo work depends on available locally, even when GitHub is down or you have no internet.",
       "author": "galz10",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/galz10--fallback",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ha7ch--job-pro",
+      "description": "Query Chinese big-tech campus recruiting from your terminal. Tencent live, more coming.",
+      "author": "HA7CH",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ha7ch--job-pro",
       "stars": 7,
       "quality": "silver"
     },
@@ -459704,6 +459840,110 @@
       "description": "claudecodetest",
       "author": "Ferymad",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferymad--claudecodetest",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "angelo-manalo--portfolio-082025",
+      "description": "Fast, accessible, and production-ready Next.js portfolio for developers and designers.",
+      "author": "angelo-manalo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/angelo-manalo--portfolio-082025",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "angelo-manalo--portfolio-082025",
+      "description": "Fast, accessible, and production-ready Next.js portfolio for developers and designers.",
+      "author": "angelo-manalo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/angelo-manalo--portfolio-082025",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "s-rahul-naik--smartfarm-weather-based-crop-recommendation-and-yield-prediction",
+      "description": "SmartFarm is a web application that helps farmers make informed decisions by providing weather-based crop recommendations, yield predictions, and flood risk assessments for their location and selected",
+      "author": "S-Rahul-Naik",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/s-rahul-naik--smartfarm-weather-based-crop-recommendation-and-yield-prediction",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "hyunwook20230402--math-learning-management",
+      "description": "math-learning-management",
+      "author": "hyunwook20230402",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyunwook20230402--math-learning-management",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hyunwook20230402--math-learning-management",
+      "description": "math-learning-management",
+      "author": "hyunwook20230402",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyunwook20230402--math-learning-management",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hyunwook20230402--math-learning-management",
+      "description": "math-learning-management",
+      "author": "hyunwook20230402",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyunwook20230402--math-learning-management",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hyunwook20230402--math-learning-management",
+      "description": "math-learning-management",
+      "author": "hyunwook20230402",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyunwook20230402--math-learning-management",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hyunwook20230402--math-learning-management",
+      "description": "math-learning-management",
+      "author": "hyunwook20230402",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyunwook20230402--math-learning-management",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "imarfanc--test-25-8-16",
+      "description": "test-25.8.16",
+      "author": "imarfanc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/imarfanc--test-25-8-16",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "appdotbuilder--damkar-morowali-utara",
+      "description": "Created by App.build",
+      "author": "appdotbuilder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/appdotbuilder--damkar-morowali-utara",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bharathraj73--pro1",
+      "description": "pro1",
+      "author": "BharathRaj73",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bharathraj73--pro1",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "appdotbuilder--damkar-morowali-utara",
+      "description": "Created by App.build",
+      "author": "appdotbuilder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/appdotbuilder--damkar-morowali-utara",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "keef75--sefas-gpt5",
+      "description": "Self-Evolving Federated Agent System with GPT5",
+      "author": "keef75",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/keef75--sefas-gpt5",
       "stars": 0,
       "quality": "silver"
     }
