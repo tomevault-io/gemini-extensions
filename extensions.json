@@ -14336,6 +14336,22 @@
       "description": "MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codeb",
       "author": "bgauryy",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgauryy--octocode",
+      "stars": 845,
+      "quality": "silver"
+    },
+    {
+      "name": "bgauryy--octocode",
+      "description": "MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codeb",
+      "author": "bgauryy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgauryy--octocode",
+      "stars": 845,
+      "quality": "bronze"
+    },
+    {
+      "name": "bgauryy--octocode",
+      "description": "MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codeb",
+      "author": "bgauryy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgauryy--octocode",
       "stars": 844,
       "quality": "bronze"
     },
@@ -240586,6 +240602,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mirage20--ccstatus-go",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "floci-io--floci-gcp",
+      "description": "Light, fluffy, and always free - GCP Local Emulator",
+      "author": "floci-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/floci-io--floci-gcp",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
