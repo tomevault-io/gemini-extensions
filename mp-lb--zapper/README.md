@@ -7,13 +7,13 @@ Run your projects without the need to think. For busy devs.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [mp-lb/zapper](https://github.com/mp-lb/zapper).
+Original source: `AGENTS.md` in [mp-lb/zapper](https://github.com/mp-lb/zapper).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
