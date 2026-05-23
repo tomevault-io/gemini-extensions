@@ -3,8 +3,8 @@
   "owner": "microsoft",
   "repo": "mcp",
   "description": "Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration",
-  "type": "tome",
-  "source_format": "AGENTS.md",
+  "type": "config",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,15 +37,8 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [
-    {
-      "name": "mcp-builder",
-      "path": ".github/skills/mcp-builder",
-      "github_url": "https://github.com/microsoft/mcp/tree/main/.github/skills/mcp-builder",
-      "description": ""
-    }
-  ],
+  "skills": [],
   "source_url": "https://github.com/microsoft/mcp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-17T21:33:31Z"
+  "distributed_at": "2026-05-23T08:51:30Z"
 }
