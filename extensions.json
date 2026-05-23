@@ -275052,6 +275052,14 @@
       "quality": "gold"
     },
     {
+      "name": "cap-go--capacitor-persistent-account",
+      "description": "Capacitor plugin to persist account data between app install",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-persistent-account",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -291972,6 +291980,38 @@
       "quality": "silver"
     },
     {
+      "name": "heoblitz--loupe",
+      "description": "Loupe",
+      "author": "heoblitz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/heoblitz--loupe",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "rms80--video-vision",
+      "description": "a front-end for running (local) Vision models on videos",
+      "author": "rms80",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rms80--video-vision",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "burn-sours--tomb-raider-remastered-multiplayer",
+      "description": "Tomb Raider Remastered I-V mod that implements Multiplayer, Super Jump, No Fall Damage, Perma Damage, and much more...",
+      "author": "burn-sours",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/burn-sours--tomb-raider-remastered-multiplayer",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "omar-dulaimi--prisma-valibot-generator",
+      "description": "Auto-generate type-safe, tree-shakeable Valibot validators from your Prisma schema",
+      "author": "omar-dulaimi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omar-dulaimi--prisma-valibot-generator",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -295808,6 +295848,14 @@
       "description": "Query Chinese big-tech campus recruiting from your terminal. Tencent live, more coming.",
       "author": "HA7CH",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ha7ch--job-pro",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "jeffgreen311--eve-agent-v2-unleashed",
+      "description": "Eve Agent V2 Unleashed \u2014 local-first autonomous AI coding agent powered by Ollama",
+      "author": "JeffGreen311",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeffgreen311--eve-agent-v2-unleashed",
       "stars": 7,
       "quality": "silver"
     },
@@ -459946,6 +459994,54 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/keef75--sefas-gpt5",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "ustinian-wang--ai-prompt-adm",
+      "description": "ai-prompt-adm",
+      "author": "ustinian-wang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ustinian-wang--ai-prompt-adm",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ustinian-wang--ai-prompt-adm",
+      "description": "ai-prompt-adm",
+      "author": "ustinian-wang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ustinian-wang--ai-prompt-adm",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bvnk--oss-ai-slack-thread-summarizer",
+      "description": "oss-ai-slack-thread-summarizer",
+      "author": "bvnk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bvnk--oss-ai-slack-thread-summarizer",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "xuelun999-hue--branchhelios-game",
+      "description": "branchhelios-game",
+      "author": "xuelun999-hue",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xuelun999-hue--branchhelios-game",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kieransaunders--familyforagingv3",
+      "description": "familyforagingv3",
+      "author": "Kieransaunders",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kieransaunders--familyforagingv3",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kieransaunders--familyforagingv3",
+      "description": "familyforagingv3",
+      "author": "Kieransaunders",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kieransaunders--familyforagingv3",
+      "stars": 0,
+      "quality": "gold"
     }
   ]
 }
