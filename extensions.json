@@ -198516,6 +198516,14 @@
       "quality": "silver"
     },
     {
+      "name": "ionic-team--capacitor-local-llm",
+      "description": "A Capacitor plugin for running on-device LLMs, with support for text generation, image generation, and session management on iOS and Android.",
+      "author": "ionic-team",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ionic-team--capacitor-local-llm",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -204674,6 +204682,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/linkml--linkml-reference-validator",
       "stars": 14,
       "quality": "bronze"
+    },
+    {
+      "name": "jacksen168sub--syncclipboard-android",
+      "description": "Jeric-X/SyncClipboard \u7684 Android \u5ba2\u6237\u7aef\uff0c\u652f\u6301\u4f7f\u7528 Xposed \u5728\u540e\u53f0\u81ea\u52a8\u540c\u6b65\u526a\u8d34\u677f | Android client for Jeric-X/SyncClipboard, supports using Xposed to automatically sync the clipboard in the background",
+      "author": "jacksen168sub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacksen168sub--syncclipboard-android",
+      "stars": 14,
+      "quality": "silver"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -274852,6 +274868,54 @@
       "quality": "gold"
     },
     {
+      "name": "chajus1--proxmox-mcp-enhanced",
+      "description": "Enhanced Proxmox MCP server with 70+ tools for comprehensive infrastructure management, security automation, and lab orchestration",
+      "author": "chajus1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chajus1--proxmox-mcp-enhanced",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "theapo--compile",
+      "description": "Solo AI adaptation of the cyberpunk card game Compile: Main 1 & 2 by Michael Yang.",
+      "author": "TheApo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/theapo--compile",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "gayathri070706--clapt",
+      "description": "CLAPT",
+      "author": "gayathri070706",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gayathri070706--clapt",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "ghelleks--email-agent",
+      "description": "A simple Google Apps Script that labels Gmail threads. You can guide it with a rules document in Google Drive, and trigger additional actions with a plug-in agent framework.",
+      "author": "ghelleks",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ghelleks--email-agent",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "hypercerts-org--hypercerts-lexicon",
+      "description": "Lexicon definitions for Hypercerts v0.2",
+      "author": "hypercerts-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hypercerts-org--hypercerts-lexicon",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "waylaidwanderer--background-process-mcp",
+      "description": "background-process-mcp",
+      "author": "waylaidwanderer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/waylaidwanderer--background-process-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -291564,6 +291628,94 @@
       "quality": "silver"
     },
     {
+      "name": "huanyingtianhe--agents-chat",
+      "description": "agents-chat",
+      "author": "huanyingtianhe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huanyingtianhe--agents-chat",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "allofmeng--streamline-project",
+      "description": "streamline_project",
+      "author": "allofmeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allofmeng--streamline-project",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "fradser--foundationmodelstranslator",
+      "description": "A macOS translation app using Apple's Foundation Models framework with custom adapter for English to Chinese translation",
+      "author": "FradSer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fradser--foundationmodelstranslator",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "doeixd--gpui-ts",
+      "description": "A JavaScript library inspired by gpui and solid-events",
+      "author": "doeixd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doeixd--gpui-ts",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "thieso2--moremaid",
+      "description": "A powerful Markdown viewer with full Mermaid diagram support",
+      "author": "thieso2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thieso2--moremaid",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "fradser--foundationmodelstranslator",
+      "description": "A macOS translation app using Apple's Foundation Models framework with custom adapter for English to Chinese translation",
+      "author": "FradSer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fradser--foundationmodelstranslator",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "tangentdomain--excel-mcp-server",
+      "description": "\ud83c\udfae \u6e38\u620f\u5f00\u53d1\u4e13\u7528Excel\u914d\u7f6e\u8868MCP\u670d\u52a1\u5668 | 42\u4e2a\u4e13\u4e1a\u5de5\u5177 | uvx excel-mcp-server-fastmcp \u4e00\u952e\u542f\u52a8 | calamine\u5f15\u64ce 2300x\u8bfb\u53d6\u52a0\u901f | PyPI: pypi.org/project/excel-mcp-server-fastmcp",
+      "author": "TangentDomain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tangentdomain--excel-mcp-server",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "doeixd--gpui-ts",
+      "description": "A JavaScript library inspired by gpui and solid-events",
+      "author": "doeixd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doeixd--gpui-ts",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "allofmeng--streamline-project",
+      "description": "streamline_project",
+      "author": "allofmeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allofmeng--streamline-project",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "mrgig7--multi-agent-enterprise-crm",
+      "description": "\ud83e\udd16 AI-Native Enterprise CRM with autonomous agents for sales, support, and compliance. Built with LangGraph, Kafka, Next.js, and Ollama. Features event-driven architecture, multi-tenant security, and h",
+      "author": "Mrgig7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrgig7--multi-agent-enterprise-crm",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "cap-go--capacitor-launch-navigator",
+      "description": "Capacitor plugin which launches native route navigation apps for Android, iOS",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-launch-navigator",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -295384,6 +295536,14 @@
       "description": "pi provider extension for Factory Droid models via @factory/droid-sdk",
       "author": "bentossell",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bentossell--pi-droid-sdk",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "galz10--fallback",
+      "description": "Fallback keeps the GitHub context your repo work depends on available locally, even when GitHub is down or you have no internet.",
+      "author": "galz10",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/galz10--fallback",
       "stars": 7,
       "quality": "silver"
     },
