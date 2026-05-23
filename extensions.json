@@ -7300,6 +7300,22 @@
       "quality": "silver"
     },
     {
+      "name": "bethington--ghidra-mcp",
+      "description": "Ghidra MCP Server \u2014 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker ",
+      "author": "bethington",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bethington--ghidra-mcp",
+      "stars": 2050,
+      "quality": "silver"
+    },
+    {
+      "name": "bethington--ghidra-mcp",
+      "description": "Ghidra MCP Server \u2014 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker ",
+      "author": "bethington",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bethington--ghidra-mcp",
+      "stars": 2050,
+      "quality": "gold"
+    },
+    {
       "name": "always-further--nono",
       "description": "nono - a capability-based, multiplexing sandbox tool, built for developers - lift'n'shift seamless path to prod. Run agents securely without needing any additional infra, zero setup, zero latency. ",
       "author": "always-further",
@@ -228964,6 +228980,14 @@
       "quality": "gold"
     },
     {
+      "name": "modulabs-personalab--psyctl",
+      "description": "psyctl",
+      "author": "modulabs-personalab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/modulabs-personalab--psyctl",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -240474,6 +240498,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--agentic-agile-template",
       "stars": 10,
       "quality": "gold"
+    },
+    {
+      "name": "geoffdavis--omnifocus-claude-extension",
+      "description": "Omnifocus integration in Desktop Extension Format suitable for Claude Desktop on Mac",
+      "author": "geoffdavis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/geoffdavis--omnifocus-claude-extension",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "mirage20--ccstatus-go",
+      "description": "\ud83c\udfad Over-engineered statusline for Claude Code with provider-component architecture, TTL-based caching, parallel goroutines, and YAML configs. Because printf is for quitters.",
+      "author": "Mirage20",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mirage20--ccstatus-go",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
