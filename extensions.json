@@ -198492,6 +198492,14 @@
       "quality": "silver"
     },
     {
+      "name": "plasmonized--containerized-mioty-service-center",
+      "description": "This is a basic implementation of the mioty BSSCI protocol into an open source servicecenter with GUI. The serviccenter connects automatically to basestations over BSSCI and aggregates the data onto a",
+      "author": "plasmonized",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plasmonized--containerized-mioty-service-center",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -212176,6 +212184,14 @@
       "description": "Supercharge Claude Code with 109 specialized components \u2014 22 agents, 32 commands, 55 skills across 13 modular plugins. Deep reasoning, autonomous dev loops, DDD architecture, design system enforcement",
       "author": "joaquimscosta",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joaquimscosta--arkhe-claude-plugins",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "rohan-prasen--audioreconstruction",
+      "description": "An adversarial neural network that restores the high fideliity audio lost during lossy compression",
+      "author": "rohan-prasen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rohan-prasen--audioreconstruction",
       "stars": 13,
       "quality": "silver"
     },
@@ -274748,6 +274764,54 @@
       "quality": "silver"
     },
     {
+      "name": "vercel--workflow-builder-starter",
+      "description": "workflow-builder-starter",
+      "author": "vercel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vercel--workflow-builder-starter",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "joshjohanning--bulk-github-repo-settings-sync-action",
+      "description": "\u2699\ufe0f Bulk configure GitHub repository settings (squash/merge, branch deletion, features) across multiple repos or organizations",
+      "author": "joshjohanning",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joshjohanning--bulk-github-repo-settings-sync-action",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dreed47--iptv-manager",
+      "description": "A web-based tool for managing, filtering, and serving IPTV playlists and EPG data, with HDHomeRun emulation for seamless Plex, Jellyfin, and Emby Live TV integration.",
+      "author": "dreed47",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dreed47--iptv-manager",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "binbinsh--sketchybar-config",
+      "description": "My sketchybar configuration files",
+      "author": "binbinsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/binbinsh--sketchybar-config",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "cap-go--capacitor-sim",
+      "description": "Capacitor plugin to get information from device's sim cards",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-sim",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "why15w--hw-img-host",
+      "description": "HW\u56fe\u5e8a | \u8f7b\u91cf\u65e0\u670d\u52a1\u5668\u56fe\u5e8a\uff0c\u91c7\u7528 EdgeOne Pages Functions + cnb.cool API \u5b9e\u73b0\u96f6\u6210\u672c\u90e8\u7f72",
+      "author": "WhY15w",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/why15w--hw-img-host",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -291452,6 +291516,14 @@
       "quality": "silver"
     },
     {
+      "name": "devliang24--drun",
+      "description": "Declarative HTTP API testing framework: handling verification, orchestration, and reporting in YAML.",
+      "author": "Devliang24",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devliang24--drun",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -295256,6 +295328,22 @@
       "description": "\u4e00\u4e2a\u80fd\u5bf9\u590d\u6742\u73af\u5883\u4e0b\u7684\u6570\u5b66\u516c\u5f0f\u8fdb\u884c\u8bc6\u522b\u5e76\u8f6c\u6362\u4e3aLatesx\u4ee3\u7801\u7684\u5de5\u5177\uff08\u8bfe\u8bbe\u9879\u76ee\uff0c\u6a21\u578b\u7cbe\u5ea6\u5c1a\u6709\u63d0\u9ad8\u7a7a\u95f4\uff0c\u6570\u636e\u6765\u6e90\u4e8e2025\u8baf\u98de\u5f00\u53d1\u8005\u5927\u8d5b\uff09\u3002  /  A tool capable of recognizing and converting mathematical formulas in complex environments into LaTeX code (course project, mod",
       "author": "RroundeFK",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rroundefk---latex",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ningzimu--image-to-editable-ppt-skill",
+      "description": "Codex skill for converting slide images, PDFs, and image-based PPTX files into editable PowerPoint decks.",
+      "author": "ningzimu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ningzimu--image-to-editable-ppt-skill",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "bentossell--pi-droid-sdk",
+      "description": "pi provider extension for Factory Droid models via @factory/droid-sdk",
+      "author": "bentossell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bentossell--pi-droid-sdk",
       "stars": 7,
       "quality": "silver"
     },
@@ -459282,6 +459370,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sotoplatero--tv",
       "stars": 0,
       "quality": "gold"
+    },
+    {
+      "name": "ferymad--claudecodetest",
+      "description": "claudecodetest",
+      "author": "Ferymad",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferymad--claudecodetest",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
