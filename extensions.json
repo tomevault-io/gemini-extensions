@@ -273892,6 +273892,30 @@
       "quality": "silver"
     },
     {
+      "name": "vonrobak--fedora-homelab-containers",
+      "description": "Self-hosted services on Fedora with Podman quadlets - a learning journey",
+      "author": "vonrobak",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vonrobak--fedora-homelab-containers",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "andotherstuff--otherstuff-relay",
+      "description": "Redis/OpenSearch relay designed for scalability and advanced search",
+      "author": "andotherstuff",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andotherstuff--otherstuff-relay",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "hereliesaz--ideaz",
+      "description": "Mobile development that feels like it's just you and your IDEaz -- The Post-Code IDE for Android.",
+      "author": "HereLiesAz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hereliesaz--ideaz",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -290404,6 +290428,94 @@
       "quality": "silver"
     },
     {
+      "name": "pawel-cell--llm-wiki-agent",
+      "description": "Markdown wiki agent instructions and starter workspace.",
+      "author": "pawel-cell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pawel-cell--llm-wiki-agent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "plucky923--criticalresearch",
+      "description": "CriticalResearch",
+      "author": "Plucky923",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plucky923--criticalresearch",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "migueltvms--tplink-omada-mcp",
+      "description": "MCP server for TP-Link Omada Controller. Use your prefered AI agent to see all the information on your TP-Link Omada Controller.",
+      "author": "MiguelTVMS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/migueltvms--tplink-omada-mcp",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "freelawproject--litigant-portal",
+      "description": "Access to Justice portal",
+      "author": "freelawproject",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freelawproject--litigant-portal",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "distrihub--distri",
+      "description": "Distri is A2A compatible OpenClaw like agent framework built in Rust. ",
+      "author": "distrihub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/distrihub--distri",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "distrihub--distri",
+      "description": "Distri is A2A compatible OpenClaw like agent framework built in Rust. ",
+      "author": "distrihub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/distrihub--distri",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "migueltvms--tplink-omada-mcp",
+      "description": "MCP server for TP-Link Omada Controller. Use your prefered AI agent to see all the information on your TP-Link Omada Controller.",
+      "author": "MiguelTVMS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/migueltvms--tplink-omada-mcp",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "kjdotio--innex1-rover",
+      "description": "The University of Leicesters rover for the 2026 UK Lunabotics competition.",
+      "author": "KJdotIO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kjdotio--innex1-rover",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "leondev1024--opentcs-plus-web",
+      "description": "OpenTCS Plus Web\u57fa\u4e8e Vue 3\u3001TypeScript \u548c Element Plus \u6784\u5efa\uff0c\u96c6\u6210\u4e86\u5f3a\u5927\u7684\u5730\u56fe\u7f16\u8f91\u5668\u548c\u5b9e\u65f6\u76d1\u63a7\u529f\u80fd\u3002",
+      "author": "LeonDev1024",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leondev1024--opentcs-plus-web",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "migueltvms--tplink-omada-mcp",
+      "description": "MCP server for TP-Link Omada Controller. Use your prefered AI agent to see all the information on your TP-Link Omada Controller.",
+      "author": "MiguelTVMS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/migueltvms--tplink-omada-mcp",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "jharting--home-assistant-muli",
+      "description": "Home Assistant integration for Muli electric cargo bikes",
+      "author": "jharting",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jharting--home-assistant-muli",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -294186,6 +294298,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yttrium400--reducethemtokens",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "perplexityai--codescythe",
+      "description": "Codescythe is a focused TypeScript dead-code analyzer and remover",
+      "author": "perplexityai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perplexityai--codescythe",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -458178,6 +458298,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/walek20--adversary-story-generator",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "0xazanul--clipping-waitlst-and-landingf",
+      "description": "fsdfsd",
+      "author": "0xazanul",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/0xazanul--clipping-waitlst-and-landingf",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ktucodingdojo--2025-10-27-gate-assignment",
+      "description": "2025-10-27-gate-assignment",
+      "author": "KTUCodingDojo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ktucodingdojo--2025-10-27-gate-assignment",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "the400milliondollarcorp--mcpay",
+      "description": "mcpay",
+      "author": "The400MillionDollarCorp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/the400milliondollarcorp--mcpay",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sotoplatero--tv",
+      "description": "tv",
+      "author": "sotoplatero",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sotoplatero--tv",
+      "stars": 0,
+      "quality": "gold"
     }
   ]
 }
