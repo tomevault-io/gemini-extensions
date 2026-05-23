@@ -7,12 +7,12 @@ ToolHive Cloud UI surfaces MCP servers running in your infrastructure, highlight
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [stacklok/toolhive-cloud-ui](https://github.com/stacklok/toolhive-cloud-ui).
+Original source: `AGENTS.md` in [stacklok/toolhive-cloud-ui](https://github.com/stacklok/toolhive-cloud-ui).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
