@@ -198564,6 +198564,14 @@
       "quality": "silver"
     },
     {
+      "name": "sahiee-dev--agentops-replay",
+      "description": "Cryptographically verifiable audit infrastructure for AI agents. AgentOps Replay produces tamper-evident, hash-chained event logs that prove what an agent did, in what order, with no possibility of po",
+      "author": "sahiee-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sahiee-dev--agentops-replay",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -274956,6 +274964,22 @@
       "quality": "silver"
     },
     {
+      "name": "spaceorc--z3wrap",
+      "description": "Z3Wrap",
+      "author": "spaceorc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/spaceorc--z3wrap",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ameyxd--obsidian-tiktoker",
+      "description": "A Tiktok parser and saver for Obsidian",
+      "author": "ameyxd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ameyxd--obsidian-tiktoker",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -291752,6 +291776,62 @@
       "description": "Capacitor plugin which launches native route navigation apps for Android, iOS",
       "author": "Cap-go",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-launch-navigator",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "millionco--budge",
+      "description": "Tweak UI without going back-and-forth with AI",
+      "author": "millionco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/millionco--budge",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "realdotnetdave--dotnettips-spargine-10",
+      "description": ".NET 10 version of the Spargine OSS assemblies.",
+      "author": "RealDotNetDave",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/realdotnetdave--dotnettips-spargine-10",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "alibekshomurotov--my-first-next-js-project",
+      "description": "my-first-next.js-project",
+      "author": "alibekshomurotov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alibekshomurotov--my-first-next-js-project",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "santoshkshirsagar--fast-technical-indicators",
+      "description": "A high-performance, zero-dependency technical indicators library for JavaScript and TypeScript. **100% API-compatible** with the popular `technicalindicators` package, but with significant performance",
+      "author": "santoshkshirsagar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/santoshkshirsagar--fast-technical-indicators",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hyperremix--d2r-arcane-tracker",
+      "description": "Diablo 2 Resurrected Holy Grail Tracker - Automatic item tracking for D2R Holy Grail progress, unique items, sets, and runes",
+      "author": "hyperremix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperremix--d2r-arcane-tracker",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "rubincarter--ropcode",
+      "description": "A powerful GUI app for running AI coding agents in parallel - built with Electron and Go",
+      "author": "RubinCarter",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rubincarter--ropcode",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "rubincarter--ropcode",
+      "description": "A powerful GUI app for running AI coding agents in parallel - built with Electron and Go",
+      "author": "RubinCarter",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rubincarter--ropcode",
       "stars": 8,
       "quality": "silver"
     },
