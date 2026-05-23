@@ -275060,6 +275060,54 @@
       "quality": "silver"
     },
     {
+      "name": "silo-server--silo-server",
+      "description": "Self-hosted media streaming server with a Go backend, React web UI, Docker deployment, transcoding, and Jellyfin-compatible APIs.",
+      "author": "Silo-Server",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/silo-server--silo-server",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "silo-server--silo-server",
+      "description": "Self-hosted media streaming server with a Go backend, React web UI, Docker deployment, transcoding, and Jellyfin-compatible APIs.",
+      "author": "Silo-Server",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/silo-server--silo-server",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dna-seq--just-dna-lite",
+      "description": "lite and fast version of just-dna-seq personalized genomic platform",
+      "author": "dna-seq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dna-seq--just-dna-lite",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dna-seq--just-dna-lite",
+      "description": "lite and fast version of just-dna-seq personalized genomic platform",
+      "author": "dna-seq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dna-seq--just-dna-lite",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dna-seq--just-dna-lite",
+      "description": "lite and fast version of just-dna-seq personalized genomic platform",
+      "author": "dna-seq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dna-seq--just-dna-lite",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "cap-go--capacitor-gtm",
+      "description": "Capacitor plugin to use google tag manager (GMT) natively",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-gtm",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -292012,6 +292060,22 @@
       "quality": "silver"
     },
     {
+      "name": "sooraj-sky--improving-everyday",
+      "description": "Zero to Hero self-paced learning platform for DevOps engineers.",
+      "author": "sooraj-sky",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sooraj-sky--improving-everyday",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "cap-go--capacitor-twilio-voice",
+      "description": "Capacitor plugin to create and answer calls with twill voice SDK",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-twilio-voice",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -295856,6 +295920,22 @@
       "description": "Eve Agent V2 Unleashed \u2014 local-first autonomous AI coding agent powered by Ollama",
       "author": "JeffGreen311",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeffgreen311--eve-agent-v2-unleashed",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "leobr84p--wiki-llm",
+      "description": "wiki_llm",
+      "author": "LeoBR84p",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leobr84p--wiki-llm",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "leobr84p--wiki-llm",
+      "description": "wiki_llm",
+      "author": "LeoBR84p",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leobr84p--wiki-llm",
       "stars": 7,
       "quality": "silver"
     },
@@ -460040,6 +460120,38 @@
       "description": "familyforagingv3",
       "author": "Kieransaunders",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kieransaunders--familyforagingv3",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "chkim15--epigram",
+      "description": "Math learning platform",
+      "author": "chkim15",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chkim15--epigram",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "rivarjaol--dcbball",
+      "description": "DCBBALL",
+      "author": "rivarjaOL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rivarjaol--dcbball",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "vibec0re--w3bsite",
+      "description": "w3bsite",
+      "author": "vibec0re",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vibec0re--w3bsite",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "rivarjaol--dcbball",
+      "description": "DCBBALL",
+      "author": "rivarjaOL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rivarjaol--dcbball",
       "stars": 0,
       "quality": "gold"
     }
