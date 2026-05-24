@@ -106788,6 +106788,14 @@
       "quality": "bronze"
     },
     {
+      "name": "cliftonc--drizzle-cube",
+      "description": "An embeddable multi-dimensional semantic layer and self-service analytics module (built on Drizzle) - broadly compliant with cube-js concepts and semantic definitions.",
+      "author": "cliftonc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cliftonc--drizzle-cube",
+      "stars": 46,
+      "quality": "bronze"
+    },
+    {
       "name": "zhaono1--agent-playbook",
       "description": "agent-playbook",
       "author": "zhaono1",
@@ -275380,6 +275388,14 @@
       "quality": "silver"
     },
     {
+      "name": "hale-lang--hale",
+      "description": "hypergraph programming",
+      "author": "hale-lang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hale-lang--hale",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -292576,6 +292592,22 @@
       "description": "Get to know about commands before you execute them",
       "author": "codeprakhar25",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codeprakhar25--inspect",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ayush-that--rumik-hack",
+      "description": "Tara \u2014 voice-first astrology counselling, Hinglish, real-time.",
+      "author": "ayush-that",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ayush-that--rumik-hack",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ayush-that--rumik-hack",
+      "description": "Tara \u2014 voice-first astrology counselling, Hinglish, real-time.",
+      "author": "ayush-that",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ayush-that--rumik-hack",
       "stars": 8,
       "quality": "bronze"
     },
