@@ -204756,6 +204756,22 @@
       "quality": "silver"
     },
     {
+      "name": "jaytel0--taste",
+      "description": "Taste skill creation pipeline",
+      "author": "jaytel0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaytel0--taste",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "jaytel0--taste",
+      "description": "Taste skill creation pipeline",
+      "author": "jaytel0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaytel0--taste",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
@@ -220450,6 +220466,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kagenti--kagenti-operator",
       "stars": 12,
       "quality": "silver"
+    },
+    {
+      "name": "chittihq--duckling",
+      "description": "DuckDB server that replicates your MySQL data. Columnar storage makes analytical queries 100-13,000x faster",
+      "author": "chittihq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chittihq--duckling",
+      "stars": 12,
+      "quality": "gold"
+    },
+    {
+      "name": "chittihq--duckling",
+      "description": "DuckDB server that replicates your MySQL data. Columnar storage makes analytical queries 100-13,000x faster",
+      "author": "chittihq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chittihq--duckling",
+      "stars": 12,
+      "quality": "gold"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
