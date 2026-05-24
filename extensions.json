@@ -115060,6 +115060,14 @@
       "quality": "silver"
     },
     {
+      "name": "arthuryangx--nano-notebooklm",
+      "description": "An open-source AI study assistant that turns course materials into notes, knowledge graphs, cited answers, and exam prep questions.",
+      "author": "ArthurYangX",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arthuryangx--nano-notebooklm",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -240642,6 +240650,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/floci-io--floci-gcp",
       "stars": 10,
       "quality": "gold"
+    },
+    {
+      "name": "beatwad--xx-auto-jobs-applier",
+      "description": "XX_Auto_Jobs_Applier \u044d\u0442\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 hh.ru. \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044f \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442, \u043e\u043d\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e \u043e\u0442\u043a\u043b\u0438\u043a\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0439, \u043e\u0442\u0432\u0435\u0447\u0430\u0442\u044c \u043d\u0430 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "author": "beatwad",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/beatwad--xx-auto-jobs-applier",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "beatwad--xx-auto-jobs-applier",
+      "description": "XX_Auto_Jobs_Applier \u044d\u0442\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 hh.ru. \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044f \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442, \u043e\u043d\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e \u043e\u0442\u043a\u043b\u0438\u043a\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0439, \u043e\u0442\u0432\u0435\u0447\u0430\u0442\u044c \u043d\u0430 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "author": "beatwad",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/beatwad--xx-auto-jobs-applier",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
