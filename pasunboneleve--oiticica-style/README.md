@@ -7,11 +7,11 @@ A century-old style manual, converted into a taxonomy of Codex writing skills.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [pasunboneleve/oiticica-style](https://github.com/pasunboneleve/oiticica-style).
+Original source: `AGENTS.md` in [pasunboneleve/oiticica-style](https://github.com/pasunboneleve/oiticica-style).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
