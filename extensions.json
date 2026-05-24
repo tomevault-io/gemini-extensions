@@ -198620,6 +198620,14 @@
       "quality": "bronze"
     },
     {
+      "name": "weifeng2333--phistory",
+      "description": "Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes.",
+      "author": "WEIFENG2333",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/weifeng2333--phistory",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
