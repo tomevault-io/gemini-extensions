@@ -275292,6 +275292,22 @@
       "quality": "silver"
     },
     {
+      "name": "ivanwng97--ascii-agents",
+      "description": "Terminal pixel-art office for AI coding agents \u2014 watch your Claude Code sessions type, walk, and nap in a coworking lounge. Half-block rendering, A* pathfinding, per-tool monitor glow. Pure Rust, runs",
+      "author": "IvanWng97",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivanwng97--ascii-agents",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "secure-vector--securevector-ai-threat-monitor",
+      "description": "Real-time AI security. Protect your apps from prompt injection, leaks, and attacks in just a few lines of code. Compatible with OpenAI, Claude, and all major LLM APIs.",
+      "author": "Secure-Vector",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/secure-vector--securevector-ai-threat-monitor",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -296378,6 +296394,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/liu5540--reasonix-skill-powers",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "huanglong0719--ds2api-browser-proxy",
+      "description": "DS2API Browser Proxy - Safe DeepSeek API with browser automation, deep thinking, and smart search",
+      "author": "huanglong0719",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huanglong0719--ds2api-browser-proxy",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "dodolalorc--astro-navfolio",
+      "description": "A soft and modern personal dashboard template for developers, featuring cards, widgets, navigation, and digital identity.\uff08\u4e00\u4e2a\u67d4\u548c\u73b0\u4ee3\u7684\u5f00\u53d1\u8005\u4e2a\u4eba\u4e3b\u9875\u4eea\u8868\u76d8\u6a21\u677f\uff0c\u96c6\u6210\u5361\u7247\u5e03\u5c40\u3001\u5c0f\u7ec4\u4ef6\u3001\u5bfc\u822a\u4e0e\u6570\u5b57\u8eab\u4efd\u5c55\u793a\u3002\uff09\u60f3\u8981\u66f4\u591a\u4e0b\u4e00\u7248\u672c\u7684\u80fd\u529b\u53ef\u4ee5\u5728discussions/26\u7559\u8a00",
+      "author": "dodolalorc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dodolalorc--astro-navfolio",
+      "stars": 7,
+      "quality": "gold"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
