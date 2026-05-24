@@ -275324,6 +275324,30 @@
       "quality": "silver"
     },
     {
+      "name": "haskaomni--serenity",
+      "description": "serenity",
+      "author": "haskaomni",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haskaomni--serenity",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "agentic-layer--agent-runtime-operator",
+      "description": "A Kubernetes operator for the agentic layer agent runtime component.",
+      "author": "agentic-layer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agentic-layer--agent-runtime-operator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "agentic-layer--agent-runtime-operator",
+      "description": "A Kubernetes operator for the agentic layer agent runtime component.",
+      "author": "agentic-layer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agentic-layer--agent-runtime-operator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -292512,6 +292536,14 @@
       "description": "Low-level C++ performance guidelines for game-engine and embedded systems \u2014 the technique layer below the ISO C++ Core Guidelines",
       "author": "plainsight-systems",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plainsight-systems--cpp-perf-guidelines",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "codeprakhar25--inspect",
+      "description": "Get to know about commands before you execute them",
+      "author": "codeprakhar25",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codeprakhar25--inspect",
       "stars": 8,
       "quality": "bronze"
     },
