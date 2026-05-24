@@ -275404,6 +275404,14 @@
       "quality": "silver"
     },
     {
+      "name": "jvpalma--dotrun",
+      "description": "DotRun transforms scattered scripts, complex command sequences, and tribal knowledge into a unified, searchable, and shareable toolkit that works across all your projects.",
+      "author": "jvPalma",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jvpalma--dotrun",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -296568,6 +296576,14 @@
       "description": "Smavg \ud83d\udc32 reduces up to x1364 times your disk space, saves tokens and restores exact files.",
       "author": "aegiswizard",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aegiswizard--smavg",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "hyper-git--claude-code-sa-workflow",
+      "description": "Claude Code multi-agent workflow for Solution Architects \u2014 9 specialized AI agents covering discovery, architecture design, IaC, and validation",
+      "author": "Hyper-Git",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyper-git--claude-code-sa-workflow",
       "stars": 7,
       "quality": "silver"
     },
@@ -461224,6 +461240,94 @@
       "description": "reynox",
       "author": "Cherie05",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cherie05--reynox",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cepro--simt-flows-db",
+      "description": "simt-flows-db",
+      "author": "cepro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cepro--simt-flows-db",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ruoli7x5--ai-tuisong",
+      "description": "\u6293\u53d6\u7f51\u7ad9\u4fe1\u606f\u7ecfAI\u5206\u6790\u603b\u7ed3\u63d0\u70bc\u540e\u63a8\u9001\u81f3\u5fae\u4fe1\u8d26\u53f7",
+      "author": "RuoLi7X5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ruoli7x5--ai-tuisong",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "tmanimus--nft-vibe-test-restart",
+      "description": "NFT-Vibe-test-restart",
+      "author": "TMAnimus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tmanimus--nft-vibe-test-restart",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "kaleeswarans-cyber00--kaleeswarans-cyber00",
+      "description": "KALEESWARANS-CYBER00",
+      "author": "KALEESWARANS-CYBER00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaleeswarans-cyber00--kaleeswarans-cyber00",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "joshslade--upwork-analysis-project",
+      "description": "upwork-analysis-project",
+      "author": "joshslade",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joshslade--upwork-analysis-project",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexanderpico--icv",
+      "description": "Interactive curriculum vitae, or resum\u00e9",
+      "author": "AlexanderPico",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexanderpico--icv",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "neu-able-lab--able-workflow-copier",
+      "description": "Copier template for the ABLE workflow",
+      "author": "NEU-ABLE-LAB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neu-able-lab--able-workflow-copier",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "caangogi--consciousness-class",
+      "description": "Plataforma e-learning",
+      "author": "caangogi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caangogi--consciousness-class",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "co6tter--codex-v1",
+      "description": "codex-v1",
+      "author": "co6tter",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/co6tter--codex-v1",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ddebenedittis--differentiable-motion-planning",
+      "description": "differentiable_motion_planning",
+      "author": "ddebenedittis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ddebenedittis--differentiable-motion-planning",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "nimblelabs--rails-ai-starter",
+      "description": "rails-ai-starter",
+      "author": "NimbleLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nimblelabs--rails-ai-starter",
       "stars": 0,
       "quality": "silver"
     }
