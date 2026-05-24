@@ -48172,6 +48172,22 @@
       "quality": "gold"
     },
     {
+      "name": "phil65--agentpool",
+      "description": "A unified agent orchestration hub that lets you configure and manage multiple AI agents (native, ACP, AGUI, Claude Code) via YAML, and exposes them through standardized protocols (ACP/OpenCode Server)",
+      "author": "phil65",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phil65--agentpool",
+      "stars": 153,
+      "quality": "gold"
+    },
+    {
+      "name": "phil65--agentpool",
+      "description": "A unified agent orchestration hub that lets you configure and manage multiple AI agents (native, ACP, AGUI, Claude Code) via YAML, and exposes them through standardized protocols (ACP/OpenCode Server)",
+      "author": "phil65",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phil65--agentpool",
+      "stars": 153,
+      "quality": "bronze"
+    },
+    {
       "name": "jayminwest--agentic-engineering-book",
       "description": "Agentic Engineering: A comprehensive, growing guide to building agentic systems",
       "author": "jayminwest",
@@ -275352,6 +275368,14 @@
       "description": "A Kubernetes operator for the agentic layer agent runtime component.",
       "author": "agentic-layer",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agentic-layer--agent-runtime-operator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "hunkwu--book",
+      "description": "Codex\u5b9e\u6218\u84dd\u76ae\u4e66",
+      "author": "hunkwu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hunkwu--book",
       "stars": 9,
       "quality": "silver"
     },
