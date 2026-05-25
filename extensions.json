@@ -220668,6 +220668,14 @@
       "quality": "bronze"
     },
     {
+      "name": "leostera--riot",
+      "description": "There are many OCaml stacks, this one is mine.",
+      "author": "leostera",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leostera--riot",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -275612,6 +275620,14 @@
       "quality": "gold"
     },
     {
+      "name": "aman245002--eduflowfrontend",
+      "description": "eduflowfrontend",
+      "author": "aman245002",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aman245002--eduflowfrontend",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293004,6 +293020,62 @@
       "quality": "silver"
     },
     {
+      "name": "2234839--llm-gateway",
+      "description": "llm_gateway",
+      "author": "2234839",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/2234839--llm-gateway",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ertra--pm-brain-for-cursor",
+      "description": "AI for Product Managers",
+      "author": "ertra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ertra--pm-brain-for-cursor",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ertra--pm-brain-for-cursor",
+      "description": "AI for Product Managers",
+      "author": "ertra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ertra--pm-brain-for-cursor",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "itaober--atst",
+      "description": "a(i)-text-select-translate \u2014 a tiny menu-bar translator for macOS.",
+      "author": "itaober",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itaober--atst",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ertra--pm-brain-for-cursor",
+      "description": "AI for Product Managers",
+      "author": "ertra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ertra--pm-brain-for-cursor",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "partment--opencode-cloak-fetch",
+      "description": "OpenCode plugin that replaces webfetch with CloakBrowser-backed fetching.",
+      "author": "partment",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/partment--opencode-cloak-fetch",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "jackg825--claude-code-agents",
+      "description": "claude-code-agents",
+      "author": "jackg825",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jackg825--claude-code-agents",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297120,6 +297192,14 @@
       "description": "AstralOps",
       "author": "oines",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oines--astralops",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "theshued--ss14-redactor",
+      "description": "ss14-redactor",
+      "author": "TheShuEd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/theshued--ss14-redactor",
       "stars": 7,
       "quality": "silver"
     },
