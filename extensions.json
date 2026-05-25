@@ -198668,6 +198668,14 @@
       "quality": "bronze"
     },
     {
+      "name": "bgreenwell--jotdown-rs",
+      "description": "A minimalist, command-line jotting utility that's fast, private, git-friendly, and written in Rust.",
+      "author": "bgreenwell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgreenwell--jotdown-rs",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -275428,6 +275436,30 @@
       "quality": "silver"
     },
     {
+      "name": "syedsaif666--designrift",
+      "description": "designrift",
+      "author": "syedsaif666",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/syedsaif666--designrift",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "syedsaif666--designrift",
+      "description": "designrift",
+      "author": "syedsaif666",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/syedsaif666--designrift",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "cortesi--clonetree",
+      "description": "Fast copy-on-write directory duplication for Rust",
+      "author": "cortesi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cortesi--clonetree",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -292644,6 +292676,38 @@
       "quality": "bronze"
     },
     {
+      "name": "eamonxg--luci-theme-shadcn",
+      "description": "A modern LuCI theme for OpenWrt, built with shadcn/ui design language",
+      "author": "eamonxg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eamonxg--luci-theme-shadcn",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kawasima--ai-in-the-human-loop",
+      "description": "ai-in-the-human-loop",
+      "author": "kawasima",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kawasima--ai-in-the-human-loop",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sidarora28--build-with-claude-code",
+      "description": "build-with-claude-code",
+      "author": "sidarora28",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sidarora28--build-with-claude-code",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "handley-lab--workshop-blackjax-nested-sampling",
+      "description": "workshop-blackjax-nested-sampling",
+      "author": "handley-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/handley-lab--workshop-blackjax-nested-sampling",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -296602,6 +296666,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyper-git--claude-code-sa-workflow",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "sonnysangha--papamart",
+      "description": "papamart",
+      "author": "sonnysangha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonnysangha--papamart",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "sonnysangha--papamart",
+      "description": "papamart",
+      "author": "sonnysangha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonnysangha--papamart",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "sonnysangha--papamart",
+      "description": "papamart",
+      "author": "sonnysangha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonnysangha--papamart",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -461344,6 +461432,54 @@
       "description": "rails-ai-starter",
       "author": "NimbleLabs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nimblelabs--rails-ai-starter",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "issdandavis--aethromoor-novel",
+      "description": "Aethermoor novel, ChoiceScript game, and fiction & arts training data for SCBE-AETHERMOORE",
+      "author": "issdandavis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/issdandavis--aethromoor-novel",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "gregorycatteau--pixelprowlers-frontend",
+      "description": "frontend part of pixelprowlers",
+      "author": "gregorycatteau",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gregorycatteau--pixelprowlers-frontend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ralphlavelle--illustratedbook",
+      "description": "ASP.NET Core Blazor version of old Illustrated Book",
+      "author": "RalphLavelle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ralphlavelle--illustratedbook",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "mou2xie--speakingpass-v3",
+      "description": "SpeakingPass_v3",
+      "author": "Mou2xie",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mou2xie--speakingpass-v3",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexkeycodes--portfolio",
+      "description": "portfolio",
+      "author": "AlexKeyCodes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexkeycodes--portfolio",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "joaopires3642--mkt-gus",
+      "description": "MKT GUS \u00e9 um sistema de autoatendimento de mercado, desenvolvido com foco em agilidade, experi\u00eancia do usu\u00e1rio e automa\u00e7\u00e3o de processos no ponto de venda.  A aplica\u00e7\u00e3o foi constru\u00edda utilizando Java (",
+      "author": "JoaoPires3642",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joaopires3642--mkt-gus",
       "stars": 0,
       "quality": "silver"
     }
