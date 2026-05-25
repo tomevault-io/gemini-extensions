@@ -187556,6 +187556,14 @@
       "quality": "silver"
     },
     {
+      "name": "officecli--officedex",
+      "description": "OfficeDex is the AI desktop workspace for documents, slides, and spreadsheets \u2014 Wails v2 + React 19 client for OfficeCLI",
+      "author": "officecli",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/officecli--officedex",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -297113,6 +297121,22 @@
       "author": "oines",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oines--astralops",
       "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ancplua--ancplua-claude-plugins",
+      "description": "ancplua-claude-plugins",
+      "author": "ANcpLua",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
+      "stars": 5,
+      "quality": "silver"
+    },
+    {
+      "name": "ancplua--ancplua-claude-plugins",
+      "description": "ancplua-claude-plugins",
+      "author": "ANcpLua",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
+      "stars": 5,
       "quality": "silver"
     },
     {
