@@ -220572,6 +220572,14 @@
       "quality": "gold"
     },
     {
+      "name": "tx230--winproc-tui",
+      "description": "Rust/Ratatui TUI for Windows 11 process investigation with live metrics, time-series graphs, A/B comparison, recording.",
+      "author": "TX230",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tx230--winproc-tui",
+      "stars": 12,
+      "quality": "gold"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
