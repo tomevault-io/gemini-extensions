@@ -14924,6 +14924,14 @@
       "quality": "bronze"
     },
     {
+      "name": "bgauryy--octocode-mcp",
+      "description": "MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codeb",
+      "author": "bgauryy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgauryy--octocode-mcp",
+      "stars": 806,
+      "quality": "silver"
+    },
+    {
       "name": "anthropics--claude-code-base-action",
       "description": "This repo is a mirror of the contents of base-action in https://github.com/anthropics/claude-code-action.",
       "author": "anthropics",
@@ -220610,6 +220618,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tx230--winproc-tui",
       "stars": 12,
       "quality": "gold"
+    },
+    {
+      "name": "kishormorol--skillsallyouneed",
+      "description": "A curated directory of every first-party skill, capability, and tool across Claude, ChatGPT, Gemini, Codex & DeepSeek \u2014 searchable, filterable, deep-linkable.",
+      "author": "kishormorol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kishormorol--skillsallyouneed",
+      "stars": 12,
+      "quality": "bronze"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
