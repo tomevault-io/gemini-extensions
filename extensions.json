@@ -275468,6 +275468,14 @@
       "quality": "silver"
     },
     {
+      "name": "duolahypercho--andrej-karpathy-skills",
+      "description": "Codex-first conversion of Karpathy-inspired coding agent guidelines.",
+      "author": "duolahypercho",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/duolahypercho--andrej-karpathy-skills",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -292716,6 +292724,22 @@
       "quality": "silver"
     },
     {
+      "name": "ojansen--co-driver",
+      "description": "Forza telementry visualizing for tuning",
+      "author": "Ojansen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ojansen--co-driver",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "emfpdlzj--django-deploy-probes",
+      "description": "HTTP deployment probes for Django applications.",
+      "author": "emfpdlzj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emfpdlzj--django-deploy-probes",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -296698,6 +296722,86 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonnysangha--papamart",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "dlsc-software-consulting-gmbh--atlantafx-themes",
+      "description": "Themes for AtlantaFX.",
+      "author": "dlsc-software-consulting-gmbh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dlsc-software-consulting-gmbh--atlantafx-themes",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "kemalersin--kurtarma-plani",
+      "description": "Bor\u00e7lar\u0131 kay\u0131t alt\u0131na alan, gelir-gider dengesini izleyen ve analiz eden tek dosyal\u0131k statik SPA.",
+      "author": "kemalersin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kemalersin--kurtarma-plani",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "hugin-z--agentic-kb-lite",
+      "description": "\u57fa\u4e8e ripgrep + LLM \u7684\u8f7b\u91cf\u4e2a\u4eba/\u90e8\u95e8\u77e5\u8bc6\u5e93\uff1bLightweight local knowledge base using ripgrep + LLM (agent loop, multi-modal, no vectors, no external API)",
+      "author": "Hugin-Z",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hugin-z--agentic-kb-lite",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "kemalersin--kurtarma-plani",
+      "description": "Bor\u00e7lar\u0131 kay\u0131t alt\u0131na alan, gelir-gider dengesini izleyen ve analiz eden tek dosyal\u0131k statik SPA.",
+      "author": "kemalersin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kemalersin--kurtarma-plani",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "mrcatnapper--fps",
+      "description": "Experimental L3 VPN/tunnel framework working above a real, already-running TLS traffic",
+      "author": "mrcatnapper",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrcatnapper--fps",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "kemalersin--kurtarma-plani",
+      "description": "Bor\u00e7lar\u0131 kay\u0131t alt\u0131na alan, gelir-gider dengesini izleyen ve analiz eden tek dosyal\u0131k statik SPA.",
+      "author": "kemalersin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kemalersin--kurtarma-plani",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "djlougen--honey-comb",
+      "description": "CPU-only inline context compression for agent harnesses. Keep the honey, drop the wax.",
+      "author": "DJLougen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djlougen--honey-comb",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "kemalersin--kurtarma-plani",
+      "description": "Bor\u00e7lar\u0131 kay\u0131t alt\u0131na alan, gelir-gider dengesini izleyen ve analiz eden tek dosyal\u0131k statik SPA.",
+      "author": "kemalersin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kemalersin--kurtarma-plani",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "pulssart--vellem",
+      "description": "Vellem \u2014 a quiet, native macOS notes app with built-in MCP support",
+      "author": "pulssart",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pulssart--vellem",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "kemalersin--kurtarma-plani",
+      "description": "Bor\u00e7lar\u0131 kay\u0131t alt\u0131na alan, gelir-gider dengesini izleyen ve analiz eden tek dosyal\u0131k statik SPA.",
+      "author": "kemalersin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kemalersin--kurtarma-plani",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -461490,6 +461594,270 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joaopires3642--mkt-gus",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nguend-arthur--paradise-nursery-shopping-app",
+      "description": "paradise-nursery-shopping-app",
+      "author": "NGUEND-ARTHUR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nguend-arthur--paradise-nursery-shopping-app",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "smalliceplay--hodlo-solona-hackathon",
+      "description": "hodlo-solona-hackathon",
+      "author": "SmallICeplay",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/smalliceplay--hodlo-solona-hackathon",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nhnammldlnlpcvrs--custom-spark",
+      "description": "Apache Spark source code study repository focused on big data processing and distributed computing.",
+      "author": "nhnammldlnlpcvrs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nhnammldlnlpcvrs--custom-spark",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "andytoizer--crm-dedupe-plugin",
+      "description": "crm-dedupe-plugin",
+      "author": "Andytoizer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andytoizer--crm-dedupe-plugin",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cocyuhao--openclaw-forge-agentops",
+      "description": "Interview-focused AI autonomous development AgentOps demo and OpenClaw Skill Store.",
+      "author": "cocyuhao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cocyuhao--openclaw-forge-agentops",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "nsvoltage--nyc-snap-eval",
+      "description": "nyc-snap-eval",
+      "author": "NSvoltage",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nsvoltage--nyc-snap-eval",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nhnammldlnlpcvrs--custom-spark",
+      "description": "Apache Spark source code study repository focused on big data processing and distributed computing.",
+      "author": "nhnammldlnlpcvrs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nhnammldlnlpcvrs--custom-spark",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "srbentostk--skill-de-criador",
+      "description": "Plugin multiagente para escrever roteiros de v\u00eddeo curto em PT-BR",
+      "author": "srbentostk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/srbentostk--skill-de-criador",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "charlielwatson--mcjcup",
+      "description": "mcjcup",
+      "author": "charlielwatson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/charlielwatson--mcjcup",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "xuhq111--pdf-ai-blueprint",
+      "description": "AI-powered PDF engineering drawing text recognition pipeline \u2014 renders, segments, and reads blueprint wiring diagrams.",
+      "author": "XuHq111",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xuhq111--pdf-ai-blueprint",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "soldierofme--portfolio20260512",
+      "description": "portfolio20260512",
+      "author": "soldierofme",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/soldierofme--portfolio20260512",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ai-savvy-nl--ai-platform",
+      "description": "ai-platform",
+      "author": "AI-Savvy-NL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ai-savvy-nl--ai-platform",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "deepu325--tavelgo",
+      "description": "tavelgo",
+      "author": "Deepu325",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deepu325--tavelgo",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "mnogodumalon--6a02bdc65053cf8234a6bd0a",
+      "description": "6a02bdc65053cf8234a6bd0a",
+      "author": "mnogodumalon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mnogodumalon--6a02bdc65053cf8234a6bd0a",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "srbentostk--skill-de-criador",
+      "description": "Plugin multiagente para escrever roteiros de v\u00eddeo curto em PT-BR",
+      "author": "srbentostk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/srbentostk--skill-de-criador",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "biraj-dahal--nvidia-nematron-agentic-workflow",
+      "description": "Nvidia Agentic Workflow",
+      "author": "biraj-dahal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/biraj-dahal--nvidia-nematron-agentic-workflow",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "rpatel1303--claims-control-tower",
+      "description": "Claims Control Tower",
+      "author": "rpatel1303",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rpatel1303--claims-control-tower",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "varnionjgj--varnion-qr-generator",
+      "description": "Create customizable QR codes with advanced styling options",
+      "author": "varnionjgj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/varnionjgj--varnion-qr-generator",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "letmehelpyourealty--opportunityzonespecialists-com",
+      "description": "Dr. Jan Duffy | Las Vegas Real Estate | opportunityzonespecialists.com",
+      "author": "LetMeHelpYouREALTY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letmehelpyourealty--opportunityzonespecialists-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "karelnig--infra",
+      "description": "infra",
+      "author": "KarelNig",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/karelnig--infra",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "de-freitas--the-wedding-gallery",
+      "description": "the-wedding-gallery",
+      "author": "de-freitas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/de-freitas--the-wedding-gallery",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "tymursoseliia--bodya-zayvki",
+      "description": "Bodya-zayvki",
+      "author": "tymursoseliia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tymursoseliia--bodya-zayvki",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "juaampi--leonorpropiedades",
+      "description": "leonorpropiedades",
+      "author": "Juaampi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/juaampi--leonorpropiedades",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "team8-toyproject4--tai-python-backend",
+      "description": "llm controller",
+      "author": "Team8-ToyProject4",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/team8-toyproject4--tai-python-backend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chemiseblanc--pareidolia",
+      "description": "Agentic prompt compiler",
+      "author": "Chemiseblanc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chemiseblanc--pareidolia",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "a01749675--obsidianassistantplugin",
+      "description": "ObsidianAssistantPlugin",
+      "author": "A01749675",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/a01749675--obsidianassistantplugin",
+      "stars": 0,
+      "quality": "gold"
     }
   ]
 }
