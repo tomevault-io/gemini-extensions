@@ -275564,6 +275564,14 @@
       "quality": "bronze"
     },
     {
+      "name": "adambien--zsmith",
+      "description": "Plain Java Agent with Claude LLM",
+      "author": "AdamBien",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adambien--zsmith",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -462168,6 +462176,38 @@
       "description": "minitodo",
       "author": "kanodap",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kanodap--minitodo",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ivanm696--remix-remix-3-0-0-alpha-0",
+      "description": "remix-remix-3.0.0-alpha.0",
+      "author": "ivanm696",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivanm696--remix-remix-3-0-0-alpha-0",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mojakaz--nextjs-dashboard",
+      "description": "nextjs-dashboard",
+      "author": "mojakaz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mojakaz--nextjs-dashboard",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "joechung2008--json-kt",
+      "description": "json-kt",
+      "author": "joechung2008",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joechung2008--json-kt",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "619135593--car-soa",
+      "description": "car-soa",
+      "author": "619135593",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/619135593--car-soa",
       "stars": 0,
       "quality": "bronze"
     }
