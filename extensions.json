@@ -275716,6 +275716,14 @@
       "quality": "silver"
     },
     {
+      "name": "souravroy-etl--duckle",
+      "description": "Local-first ETL/ELT studio: a drag-and-drop visual pipeline designer that compiles to SQL and runs on DuckDB. Tiny desktop app, no servers, git-friendly workspaces.",
+      "author": "SouravRoy-ETL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/souravroy-etl--duckle",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293162,6 +293170,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jackg825--claude-code-agents",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "kingbootoshi--rgr",
+      "description": "Strict Red-Green-Refactor CLI gate for coding agents",
+      "author": "kingbootoshi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kingbootoshi--rgr",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "grafana--grafana-ui-mcp-server",
+      "description": " An mcp server to allow LLMS gain context about grafana-ui component structure, usage and installation ",
+      "author": "grafana",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grafana--grafana-ui-mcp-server",
+      "stars": 8,
+      "quality": "bronze"
     },
     {
       "name": "cheerhuan--save-your-token",
