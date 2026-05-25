@@ -275596,6 +275596,14 @@
       "quality": "bronze"
     },
     {
+      "name": "ca-srg--ragent",
+      "description": "CLI tool for building production RAG systems from Markdown, CSV, and PDF documents using hybrid search (BM25 + vector) with OpenSearch. Features MCP server, Slack bot, Web UI, multi-source ingestion (",
+      "author": "ca-srg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ca-srg--ragent",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -292972,6 +292980,22 @@
       "quality": "silver"
     },
     {
+      "name": "acatovic--ai-game-studio",
+      "description": "AI generation of 2d game assets such as spritesheets",
+      "author": "acatovic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/acatovic--ai-game-studio",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "jayhome137--deepseekmonitor",
+      "description": "DeepSeekMonitor",
+      "author": "JayHome137",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jayhome137--deepseekmonitor",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297080,6 +297104,14 @@
       "description": "SmartAdmin open-source Hyperf administration framework",
       "author": "zoujingli",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zoujingli--smartadmin",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "oines--astralops",
+      "description": "AstralOps",
+      "author": "oines",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oines--astralops",
       "stars": 7,
       "quality": "silver"
     },
