@@ -292820,6 +292820,22 @@
       "quality": "silver"
     },
     {
+      "name": "halfsweet--rusbview",
+      "description": "rusbview is a desktop application for inspecting USB enum",
+      "author": "HalfSweet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/halfsweet--rusbview",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ddsyasas--llm-wiki",
+      "description": "Open source local-first knowledge base maintained by an LLM agent. Implements Andrej Karpathy's LLM Wiki pattern.",
+      "author": "ddsyasas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ddsyasas--llm-wiki",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -296898,6 +296914,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ruoyu123123--ruoyuai",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "sanjeev23oct--zap",
+      "description": "1. Skill-First Approach \u2014 Context That Earns Its Place Most AI coding agents front-load a massive system prompt every request \u2014 language conventions, architecture notes, team rules, API patterns, all ",
+      "author": "sanjeev23oct",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanjeev23oct--zap",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
