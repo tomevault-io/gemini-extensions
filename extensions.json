@@ -26956,6 +26956,22 @@
       "quality": "gold"
     },
     {
+      "name": "openguardrails--openguardrails",
+      "description": "AI Agent Firewall",
+      "author": "openguardrails",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openguardrails--openguardrails",
+      "stars": 344,
+      "quality": "silver"
+    },
+    {
+      "name": "openguardrails--openguardrails",
+      "description": "AI Agent Firewall",
+      "author": "openguardrails",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openguardrails--openguardrails",
+      "stars": 344,
+      "quality": "silver"
+    },
+    {
       "name": "michaelliv--napkin",
       "description": "\ud83e\uddfb Knowledge system for agents. Local-first, file-based, progressively disclosed.",
       "author": "Michaelliv",
@@ -172812,6 +172828,14 @@
       "quality": "silver"
     },
     {
+      "name": "realrossmanngroup--no-ai-slop-writing-rules",
+      "description": "Claude Code reference: write in Louis Rossmann's voice, never like AI slop. Portable CLAUDE.md plus skills.",
+      "author": "realrossmanngroup",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/realrossmanngroup--no-ai-slop-writing-rules",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -240770,6 +240794,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vuejs-ai--vue-tui",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "zk-jackultra--zk-creative-process-skill",
+      "description": "\u4e70\u91cf\u7d20\u6750\u5904\u7406\u6d41\u7a0b",
+      "author": "ZK-JackUltra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zk-jackultra--zk-creative-process-skill",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
