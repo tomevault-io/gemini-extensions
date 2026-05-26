@@ -99124,6 +99124,14 @@
       "quality": "gold"
     },
     {
+      "name": "demonixis--oxrsys",
+      "description": "OXRSys",
+      "author": "demonixis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/demonixis--oxrsys",
+      "stars": 51,
+      "quality": "silver"
+    },
+    {
       "name": "shashankswe2020-ux--whoop-mcp",
       "description": "MCP server to connect to whoop API",
       "author": "shashankswe2020-ux",
@@ -143656,14 +143664,6 @@
       "description": "Toolkit for launching and observing MaxText training on Slurm-managed GPU clusters",
       "author": "AMD-AGI",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amd-agi--maxtext-slurm",
-      "stars": 27,
-      "quality": "bronze"
-    },
-    {
-      "name": "xg-gh-25--swarmai",
-      "description": "SwarmAI - Your Agentic OS - Remembers everything. Learns every session. Gets better every time.",
-      "author": "xg-gh-25",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xg-gh-25--swarmai",
       "stars": 27,
       "quality": "bronze"
     },
