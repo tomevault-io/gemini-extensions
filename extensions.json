@@ -275788,6 +275788,14 @@
       "quality": "bronze"
     },
     {
+      "name": "mofesto--fubon-api-mcp-server",
+      "description": "fubon-api-mcp-server",
+      "author": "Mofesto",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mofesto--fubon-api-mcp-server",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293340,6 +293348,22 @@
       "quality": "silver"
     },
     {
+      "name": "cartodb--carto-agentic-deckgl",
+      "description": "carto-agentic-deckgl",
+      "author": "CartoDB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cartodb--carto-agentic-deckgl",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "vgreg--quarto-comments",
+      "description": "Quarto extension to support inline comments that are shown on rendered documents.",
+      "author": "vgreg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vgreg--quarto-comments",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297490,6 +297514,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snakeguitar--layla-writing-platform",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "q974491089--filter-manage",
+      "description": "ICC\u8272\u5f69\u914d\u7f6e\u6587\u4ef6\u7ba1\u7406\u5668 & NVIDIA\u663e\u5361\u989c\u8272\u8bbe\u7f6e\u5de5\u5177 | Windows\u684c\u9762\u5e94\u7528 (Tauri 2 + React)",
+      "author": "q974491089",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/q974491089--filter-manage",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "q974491089--filter-manage",
+      "description": "ICC\u8272\u5f69\u914d\u7f6e\u6587\u4ef6\u7ba1\u7406\u5668 & NVIDIA\u663e\u5361\u989c\u8272\u8bbe\u7f6e\u5de5\u5177 | Windows\u684c\u9762\u5e94\u7528 (Tauri 2 + React)",
+      "author": "q974491089",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/q974491089--filter-manage",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
@@ -462722,6 +462762,262 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phonbopit--snake-game-html-with-claude",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "oceanfromthewave--codely",
+      "description": "codely",
+      "author": "oceanfromthewave",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oceanfromthewave--codely",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "senngami--real-reason",
+      "description": "Real_reason",
+      "author": "SENNGAMI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/senngami--real-reason",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ethara-ai--microsoft--playwright-62d1ea1a",
+      "description": "microsoft__playwright.62d1ea1a",
+      "author": "Ethara-Ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ethara-ai--microsoft--playwright-62d1ea1a",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "pcsr0760--rustdesk-a",
+      "description": "rustdesk_A",
+      "author": "pcsr0760",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pcsr0760--rustdesk-a",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "badebalci--module5",
+      "description": "Module5",
+      "author": "badebalci",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/badebalci--module5",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "tlejay--joymail",
+      "description": "Concept demo: control a Gmail-style inbox with a PS5 DualSense controller, as a PWA on iPad. Mock mode, no real email needed \u2014 see joymail-dosx.vercel.app.",
+      "author": "tlejay",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tlejay--joymail",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "senngami--real-reason",
+      "description": "Real_reason",
+      "author": "SENNGAMI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/senngami--real-reason",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "gunjwaghmare--raychel-ai-app",
+      "description": "Raychel AI \u26a1\ud83e\udde0 is a smart chat agent that answers questions on weather, sports, politics, and more. Get fast, factual responses in a modern, user-friendly interface. Newest messages appear at the top, ",
+      "author": "gunjwaghmare",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gunjwaghmare--raychel-ai-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kuznichena--map-visualisation",
+      "description": "map-visualisation",
+      "author": "kuznichena",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kuznichena--map-visualisation",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "keiterandco--groundwork",
+      "description": "groundwork",
+      "author": "KeiterandCo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/keiterandco--groundwork",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "rimpi5603--nextjs-deployment-vercel",
+      "description": "nextjs-deployment-vercel",
+      "author": "Rimpi5603",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rimpi5603--nextjs-deployment-vercel",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ethara-ai--microsoft--playwright-62d1ea1a",
+      "description": "microsoft__playwright.62d1ea1a",
+      "author": "Ethara-Ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ethara-ai--microsoft--playwright-62d1ea1a",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "djh0311--agent-safety-harness",
+      "description": "agent-safety-harness",
+      "author": "Djh0311",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djh0311--agent-safety-harness",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "tlejay--joymail",
+      "description": "Concept demo: control a Gmail-style inbox with a PS5 DualSense controller, as a PWA on iPad. Mock mode, no real email needed \u2014 see joymail-dosx.vercel.app.",
+      "author": "tlejay",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tlejay--joymail",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ricadogz--hospital",
+      "description": "Hospital",
+      "author": "RicadoGz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ricadogz--hospital",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "vmcguire--bwa-click",
+      "description": "VST3 instrument: plays the user's captured groove as a click. Replaces the host metronome in practice.",
+      "author": "vmcguire",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vmcguire--bwa-click",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "lakshyarajsinghsisodiya--cinematic-h2o",
+      "description": "cinematic-h2o",
+      "author": "lakshyarajsinghsisodiya",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lakshyarajsinghsisodiya--cinematic-h2o",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "vmcguire--bwa-lufs",
+      "description": "BS.1770 LUFS meter (display-only). Short/mid/integrated. Streaming target overlays + group aggregate.",
+      "author": "vmcguire",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vmcguire--bwa-lufs",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "rodrigomicrosiga--k8s-operator-challenge",
+      "description": "K8S-OPERATOR-CHALLENGE",
+      "author": "rodrigomicrosiga",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rodrigomicrosiga--k8s-operator-challenge",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "experience-extension-community--user-information-ids",
+      "description": "Display student/employee identification credentials from Ethos Data Connect. Parameterizable community sample.",
+      "author": "experience-extension-community",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/experience-extension-community--user-information-ids",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "riqthedev--nonlinear",
+      "description": "nonlinear",
+      "author": "riqthedev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/riqthedev--nonlinear",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "pre-ceo--ceo",
+      "description": "Pre CEO",
+      "author": "pre-ceo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pre-ceo--ceo",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "riazhaq--lazy-note",
+      "description": "lazy-note",
+      "author": "riazhaq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/riazhaq--lazy-note",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "marcuskyril-dev--expenses-tracking",
+      "description": "expenses-tracking",
+      "author": "marcuskyril-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marcuskyril-dev--expenses-tracking",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "luchobonatti--docs",
+      "description": "docs",
+      "author": "luchobonatti",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luchobonatti--docs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "akobashikawa--astro-starlight-hola",
+      "description": "Jugando con Astro Starlight",
+      "author": "akobashikawa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/akobashikawa--astro-starlight-hola",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "proactive-coder--1--personal-blog-platform-frontend",
+      "description": "1.-Personal-Blog-Platform-frontend",
+      "author": "Proactive-Coder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/proactive-coder--1--personal-blog-platform-frontend",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "nh-mizan--sunha-care-fundation",
+      "description": "Use a clean, premium, humanitarian style similar to Al Sunha Foundation website.",
+      "author": "NH-Mizan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nh-mizan--sunha-care-fundation",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alessandrobourke2-svg--ghost-ai",
+      "description": "Chris Deyar is the Interactive Systems Architect Builder. ",
+      "author": "alessandrobourke2-svg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alessandrobourke2-svg--ghost-ai",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alien1484929973-max--xiu",
+      "description": "xiu",
+      "author": "alien1484929973-max",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alien1484929973-max--xiu",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "benclawbot--yoga-flow-builder",
+      "description": "yoga-flow-builder",
+      "author": "benclawbot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/benclawbot--yoga-flow-builder",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "star618848--roleplay-chat",
+      "description": "roleplay-chat",
+      "author": "STAR618848",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/star618848--roleplay-chat",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
