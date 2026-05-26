@@ -275900,6 +275900,38 @@
       "quality": "gold"
     },
     {
+      "name": "intellicia-public--parastore",
+      "description": "Draw a store, generate LLM personas, and watch them shop \u2014 an isometric 3D sandbox for synthetic-consumer experiments.",
+      "author": "intellicia-public",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/intellicia-public--parastore",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "alexbbt--ha-moen-smart-water",
+      "description": "\ud83c\udfe0 Home Assistant integration for Moen Smart Water Network faucets. Control faucets with preset volumes, custom dispensing, and automation support.",
+      "author": "alexbbt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexbbt--ha-moen-smart-water",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "animegolem--rmpc-auto-theme",
+      "description": "generates RMPC themes based on the most common colors in a tracks a album art. Leans on the \"Execute on song change\" functionality.",
+      "author": "animegolem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/animegolem--rmpc-auto-theme",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "clockworknet--codex-status",
+      "description": "Keep an eye on capacity for your codex-cli using this CLI",
+      "author": "ClockworkNet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clockworknet--codex-status",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293516,6 +293548,38 @@
       "quality": "silver"
     },
     {
+      "name": "zjuhechao--exam-porridge-assistant",
+      "description": "\u8003\u8bd5\u7ca5\u52a9\u624b - AI\u9a71\u52a8\u7684\u5b66\u4e60\u4e0e\u8003\u8bd5\u8f85\u52a9\u5de5\u5177\uff08\u8c03\u7528API\uff09",
+      "author": "zjuhechao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zjuhechao--exam-porridge-assistant",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hacklyc--cameo",
+      "description": "An image-first canvas for your local Codex agent.",
+      "author": "hAcKlyc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hacklyc--cameo",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hacklyc--cameo",
+      "description": "An image-first canvas for your local Codex agent.",
+      "author": "hAcKlyc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hacklyc--cameo",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dannemanfan1--asterdex-trading-bot",
+      "description": "Automated Crypto Trading Bot on Aster DEX",
+      "author": "dannemanfan1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dannemanfan1--asterdex-trading-bot",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297730,6 +297794,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wuguirongsg--my-hermes-desktop",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "zxpmail--reqforge",
+      "description": "ReqForge \u2014 From requirements to shippable products. Open-source Agent Harness for Claude Code, Cursor & OpenCode. Spec\u2192Plan\u2192Build, hooks, review. /change-manager for brownfield.",
+      "author": "zxpmail",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zxpmail--reqforge",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "fg-static--small-dlio",
+      "description": "test",
+      "author": "FG-static",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fg-static--small-dlio",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "pzzzzz5142--fh-radio-studio",
+      "description": "FH Radio Studio CLI and desktop tooling",
+      "author": "Pzzzzz5142",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pzzzzz5142--fh-radio-studio",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
