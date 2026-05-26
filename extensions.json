@@ -276020,6 +276020,14 @@
       "quality": "silver"
     },
     {
+      "name": "coscup--2026",
+      "description": "WIP Official page of COSCUP 2026",
+      "author": "COSCUP",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coscup--2026",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293740,6 +293748,38 @@
       "quality": "silver"
     },
     {
+      "name": "nerovix--kouhai-bot",
+      "description": "mar-mar-mar-marble soda~~^^duweduweaeo-o-duweduweduweaeo*OOO*",
+      "author": "Nerovix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nerovix--kouhai-bot",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "sametkum--klustr",
+      "description": "A native Kubernetes desktop client \u2014 nothing in your cluster, Helm + Argo CD + Gateway API built in. Free and MIT.",
+      "author": "SametKUM",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sametkum--klustr",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "nocentino--sql-mcp-server",
+      "description": "SQL Server MCP demo - two MCP server patterns on SQL Server 2025: Data API Builder for CRUD and a custom TypeScript DBA monitoring server with 30 DMV-backed tools. Runs in Docker Compose.",
+      "author": "nocentino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nocentino--sql-mcp-server",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "alibekshomurotov--blogapp-next-js",
+      "description": "Blogapp-next.js-",
+      "author": "alibekshomurotov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alibekshomurotov--blogapp-next-js",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297984,6 +298024,14 @@
       "description": "class comes data",
       "author": "ytygxfmgzx",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ytygxfmgzx--class2data",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "luolangaga--tubatool",
+      "description": "tubatool",
+      "author": "luolangaga",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luolangaga--tubatool",
       "stars": 7,
       "quality": "silver"
     },
