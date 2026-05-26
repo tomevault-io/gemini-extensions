@@ -79628,6 +79628,14 @@
       "quality": "bronze"
     },
     {
+      "name": "butterbase-ai--butterbase-oss",
+      "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
+      "author": "butterbase-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/butterbase-ai--butterbase-oss",
+      "stars": 71,
+      "quality": "bronze"
+    },
+    {
       "name": "dceoy--speckit-agent-skills",
       "description": "Agent skills for Spec Kit",
       "author": "dceoy",
@@ -139194,6 +139202,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/otokonoizumi--adskip",
       "stars": 29,
       "quality": "bronze"
+    },
+    {
+      "name": "rm-rfd--rm-sni-spoofer",
+      "description": "rm-sni-spoofer",
+      "author": "rm-rfd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rm-rfd--rm-sni-spoofer",
+      "stars": 29,
+      "quality": "silver"
     },
     {
       "name": "ahekot--comfyui-hyworld2",
@@ -198876,6 +198892,14 @@
       "quality": "silver"
     },
     {
+      "name": "zhaojingru-ai--multimodal-interview-system",
+      "description": "Multimodal interview system with Coze workflow exports",
+      "author": "zhaojingru-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhaojingru-ai--multimodal-interview-system",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -241112,6 +241136,14 @@
       "description": "\uad11\uc8fc\uc18c\ud504\ud2b8\uc6e8\uc5b4\ub9c8\uc774\uc2a4\ud130\uace0\ub4f1\ud559\uad50 OpenAPI & OAuth \ud50c\ub7ab\ud3fc",
       "author": "themoment-team",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themoment-team--datagsm-server",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "human-avatar--skills-for-humanity",
+      "description": "Structured reasoning methodologies from history's most rigorous thinkers, packaged as Claude Code skills.",
+      "author": "human-avatar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/human-avatar--skills-for-humanity",
       "stars": 10,
       "quality": "silver"
     },
