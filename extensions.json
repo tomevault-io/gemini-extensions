@@ -276132,6 +276132,30 @@
       "quality": "silver"
     },
     {
+      "name": "melin-engine--melin",
+      "description": "Deterministic, replicated sequencer for latency-critical applications. Rust, io_uring, LMAX-inspired. Ships with an exchange core.",
+      "author": "melin-engine",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/melin-engine--melin",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "cbioportal--cbioportal-mcp",
+      "description": "cbioportal-mcp",
+      "author": "cBioPortal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cbioportal--cbioportal-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "callmarcus--dji-drone-metadata-embedder",
+      "description": "Python CLI for embedding DJI drone telemetry from SRT logs into MP4 videos. Batch processes folders, preserves subtitles, and exports flight data to JSON, GPX, or CSV.",
+      "author": "CallMarcus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/callmarcus--dji-drone-metadata-embedder",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293930,6 +293954,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yadokari1130--enderlink-lite",
       "stars": 8,
       "quality": "bronze"
+    },
+    {
+      "name": "sdeonvacation--opencode-x",
+      "description": "Open-source Claude Code alternative. Provider-agnostic, MIT licensed. Native Claude Code hook/plugin compatibility.",
+      "author": "sdeonvacation",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sdeonvacation--opencode-x",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "phonenumberkit--phonenumberkit",
+      "description": "Swift framework for parsing, formatting and validating international phone numbers.",
+      "author": "PhoneNumberKit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phonenumberkit--phonenumberkit",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "leostera--lintbook",
+      "description": ":book: a fast, reproducible, flexible multi-language linter for the ai age",
+      "author": "leostera",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leostera--lintbook",
+      "stars": 8,
+      "quality": "silver"
     },
     {
       "name": "cheerhuan--save-your-token",
