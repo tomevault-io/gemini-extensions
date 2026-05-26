@@ -241084,6 +241084,38 @@
       "quality": "silver"
     },
     {
+      "name": "boogy--iam-policy-validator",
+      "description": "\u26a1 Stop IAM misconfigurations before they become breaches \u2014 Catch overprivileged permissions, dangerous wildcards, and policy errors before deployment.",
+      "author": "boogy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/boogy--iam-policy-validator",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "themoment-team--datagsm-server",
+      "description": "\uad11\uc8fc\uc18c\ud504\ud2b8\uc6e8\uc5b4\ub9c8\uc774\uc2a4\ud130\uace0\ub4f1\ud559\uad50 OpenAPI & OAuth \ud50c\ub7ab\ud3fc",
+      "author": "themoment-team",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themoment-team--datagsm-server",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "themoment-team--datagsm-server",
+      "description": "\uad11\uc8fc\uc18c\ud504\ud2b8\uc6e8\uc5b4\ub9c8\uc774\uc2a4\ud130\uace0\ub4f1\ud559\uad50 OpenAPI & OAuth \ud50c\ub7ab\ud3fc",
+      "author": "themoment-team",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themoment-team--datagsm-server",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "themoment-team--datagsm-server",
+      "description": "\uad11\uc8fc\uc18c\ud504\ud2b8\uc6e8\uc5b4\ub9c8\uc774\uc2a4\ud130\uace0\ub4f1\ud559\uad50 OpenAPI & OAuth \ud50c\ub7ab\ud3fc",
+      "author": "themoment-team",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themoment-team--datagsm-server",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -275940,6 +275972,22 @@
       "quality": "silver"
     },
     {
+      "name": "athaxv--saulm",
+      "description": "SauLM - AI powered persona based Legal Assistant",
+      "author": "Athaxv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/athaxv--saulm",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "cdklabs--genai-idp",
+      "description": "GenAI Intelligent Document Processing (IDP) Accelerator for AWS CDK is designed to transform unstructured documents into structured data at scale using AWS's latest AI/ML services",
+      "author": "cdklabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cdklabs--genai-idp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293588,6 +293636,30 @@
       "quality": "silver"
     },
     {
+      "name": "yoyooyooo--goal-diffusion",
+      "description": "AI Coding Project OS for long-running AI coding: Goal Diffusion Goal Packs, receipt-backed execution, docs governance, and headless product harnesses.",
+      "author": "yoyooyooo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yoyooyooo--goal-diffusion",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "mjason--long",
+      "description": "Single-binary LLM agent runtime built on Elixir/OTP: chat UI, 4-tier memory, Anthropic-compatible Skills, scheduled tasks, multi-provider LLM routing, and platform bots.",
+      "author": "mjason",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mjason--long",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "vadimche--ai-agent-rails-pack",
+      "description": "Practical guardrails for Codex, Claude Code, Cursor and GenAI coding agents.",
+      "author": "vadimche",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vadimche--ai-agent-rails-pack",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297824,6 +297896,14 @@
       "description": "FH Radio Studio CLI and desktop tooling",
       "author": "Pzzzzz5142",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pzzzzz5142--fh-radio-studio",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ytygxfmgzx--class2data",
+      "description": "class comes data",
+      "author": "ytygxfmgzx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ytygxfmgzx--class2data",
       "stars": 7,
       "quality": "silver"
     },
