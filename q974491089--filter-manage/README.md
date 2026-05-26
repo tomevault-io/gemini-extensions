@@ -7,11 +7,11 @@ ICC色彩配置文件管理器 & NVIDIA显卡颜色设置工具 | Windows桌面�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [q974491089/filter-manage](https://github.com/q974491089/filter-manage).
+Original source: `CLAUDE.md` in [q974491089/filter-manage](https://github.com/q974491089/filter-manage).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
