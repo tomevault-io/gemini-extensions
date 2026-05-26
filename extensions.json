@@ -182108,6 +182108,14 @@
       "quality": "silver"
     },
     {
+      "name": "llmmart--paperclip-adapter",
+      "description": "A Paperclip adapter that lets you run Hermes Agent as a managed employee in a Paperclip company.",
+      "author": "LLMmart",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/llmmart--paperclip-adapter",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -187712,6 +187720,14 @@
       "description": "Help Pope Leo fight big tech, while learning the latest encyclic",
       "author": "pieroit",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pieroit--spiritual-vibes",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "mdsayedtg--asterdex-trading-bot",
+      "description": "Aster DEX and Hyperliquid trading bot. Bun-powered trend, maker, and offset-maker engines with Ink UI for Aster, GRVT, and Hyperliquid perpetual futures.",
+      "author": "mdsayedtg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mdsayedtg--asterdex-trading-bot",
       "stars": 17,
       "quality": "silver"
     },
@@ -193336,6 +193352,14 @@
       "description": "Azure Cost Calculator AI capability (Plugin) to provide deterministic and accurate estimations of Azure services costs",
       "author": "ahmadabdalla",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahmadabdalla--azure-cost-calculator",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "tensorcast-ai--tensorcast",
+      "description": "The high-performance distributed tensor layer \u2014 load once, share everywhere.",
+      "author": "tensorcast-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tensorcast-ai--tensorcast",
       "stars": 16,
       "quality": "silver"
     },
@@ -229508,6 +229532,14 @@
       "quality": "silver"
     },
     {
+      "name": "masterix21--laravel-entitlements",
+      "description": "Simple and flexible entitlement management for Laravel applications, with support for plans, features, limits, and usage tracking.",
+      "author": "masterix21",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masterix21--laravel-entitlements",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -241168,6 +241200,22 @@
       "description": "Structured reasoning methodologies from history's most rigorous thinkers, packaged as Claude Code skills.",
       "author": "human-avatar",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/human-avatar--skills-for-humanity",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "kitsunekode--arche",
+      "description": "Arche -- preset-led scaffold CLI and full-stack TypeScript monorepo (Next.js, Express, tRPC, Better Auth, Rust,  Solana)",
+      "author": "KitsuneKode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kitsunekode--arche",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "kitsunekode--arche",
+      "description": "Arche -- preset-led scaffold CLI and full-stack TypeScript monorepo (Next.js, Express, tRPC, Better Auth, Rust,  Solana)",
+      "author": "KitsuneKode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kitsunekode--arche",
       "stars": 10,
       "quality": "silver"
     },
@@ -276052,6 +276100,38 @@
       "quality": "bronze"
     },
     {
+      "name": "live-ctf--livectf-defcon34",
+      "description": "LiveCTF-DEFCON34",
+      "author": "Live-CTF",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/live-ctf--livectf-defcon34",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "devagrawal09--specter",
+      "description": "specter",
+      "author": "devagrawal09",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devagrawal09--specter",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "devagrawal09--specter",
+      "description": "specter",
+      "author": "devagrawal09",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devagrawal09--specter",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "portdeveloper--docusaurus-plugin-copy-page-button",
+      "description": "Docusaurus plugin that adds a copy page button to extract documentation content as markdown for AI tools like ChatGPT, Claude, and Gemini",
+      "author": "portdeveloper",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/portdeveloper--docusaurus-plugin-copy-page-button",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293804,6 +293884,54 @@
       "quality": "bronze"
     },
     {
+      "name": "theshued--ss14editor",
+      "description": "A standalone prototype editor for any SS14 fork",
+      "author": "TheShuEd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/theshued--ss14editor",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ofux--lauren",
+      "description": "Autonomous AI agent loop that keeps working through your project while you keep planning what comes next.",
+      "author": "ofux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ofux--lauren",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "aritusama--betterwords",
+      "description": "Model-agnostic skill for improved writing with AI",
+      "author": "aritusama",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aritusama--betterwords",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "pcmantz--vtermux",
+      "description": "Embed and manage multiple named instances of the same terminal application in Emacs.",
+      "author": "pcmantz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pcmantz--vtermux",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "elberrd--cc-harness-iai",
+      "description": "cc-harness-iai",
+      "author": "elberrd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elberrd--cc-harness-iai",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "yadokari1130--enderlink-lite",
+      "description": "EnderLink-Lite",
+      "author": "yadokari1130",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yadokari1130--enderlink-lite",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -298056,6 +298184,22 @@
       "description": "tubatool",
       "author": "luolangaga",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luolangaga--tubatool",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "lihan3238--speckit-superpowers-bridge",
+      "description": "Hands Spec Kit tasks to Superpowers for implementation without running speckit.implement",
+      "author": "lihan3238",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lihan3238--speckit-superpowers-bridge",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "lihan3238--speckit-superpowers-bridge",
+      "description": "Hands Spec Kit tasks to Superpowers for implementation without running speckit.implement",
+      "author": "lihan3238",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lihan3238--speckit-superpowers-bridge",
       "stars": 7,
       "quality": "silver"
     },
