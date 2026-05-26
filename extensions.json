@@ -172964,6 +172964,22 @@
       "quality": "silver"
     },
     {
+      "name": "starling-browser--starling",
+      "description": "Managed-first .NET web browser engine, built from primitives",
+      "author": "starling-browser",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/starling-browser--starling",
+      "stars": 20,
+      "quality": "gold"
+    },
+    {
+      "name": "openbmb--forgetrain",
+      "description": "ForgeTrain",
+      "author": "OpenBMB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openbmb--forgetrain",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -187690,6 +187706,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/officecli--officedex",
       "stars": 17,
       "quality": "bronze"
+    },
+    {
+      "name": "pieroit--spiritual-vibes",
+      "description": "Help Pope Leo fight big tech, while learning the latest encyclic",
+      "author": "pieroit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pieroit--spiritual-vibes",
+      "stars": 17,
+      "quality": "silver"
     },
     {
       "name": "13point5--agent-canvas",
