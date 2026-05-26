@@ -275860,6 +275860,30 @@
       "quality": "silver"
     },
     {
+      "name": "baskduf--harness-starter-kit",
+      "description": "Repo-native harness engineering starter kit for coding agents.",
+      "author": "baskduf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baskduf--harness-starter-kit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "haoict--tinilinux",
+      "description": "\"Tini\" Linux distro for H700, RK3326 & RK3566 SOC devices",
+      "author": "haoict",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haoict--tinilinux",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "yapie0--carboncode",
+      "description": "Chinese-first DeepSeek-powered terminal coding agent",
+      "author": "Yapie0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yapie0--carboncode",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -293468,6 +293492,14 @@
       "quality": "gold"
     },
     {
+      "name": "theoutdoorprogrammer--crate",
+      "description": "Self-hosted music manager. Search, watch, and download your music library via Deezer/MusicBrainz + slskd.",
+      "author": "TheOutdoorProgrammer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/theoutdoorprogrammer--crate",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -297642,6 +297674,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/powerycy--bosshunter",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "wuguirongsg--my-hermes-desktop",
+      "description": "A desktop UI crafted for Hermes Agent, built on Tauri 2 and React. Positioning: A native companion application for macOS, featuring zero-terminal operation and Apple-style intuitive interaction.",
+      "author": "wuguirongsg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wuguirongsg--my-hermes-desktop",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "wuguirongsg--my-hermes-desktop",
+      "description": "A desktop UI crafted for Hermes Agent, built on Tauri 2 and React. Positioning: A native companion application for macOS, featuring zero-terminal operation and Apple-style intuitive interaction.",
+      "author": "wuguirongsg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wuguirongsg--my-hermes-desktop",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "wuguirongsg--my-hermes-desktop",
+      "description": "A desktop UI crafted for Hermes Agent, built on Tauri 2 and React. Positioning: A native companion application for macOS, featuring zero-terminal operation and Apple-style intuitive interaction.",
+      "author": "wuguirongsg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wuguirongsg--my-hermes-desktop",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "anggaprytn--forge-core",
+      "description": "Single-node control plane for safely deploying, inspecting, recovering, and configuring AI-generated apps.",
+      "author": "anggaprytn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anggaprytn--forge-core",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "wuguirongsg--my-hermes-desktop",
+      "description": "A desktop UI crafted for Hermes Agent, built on Tauri 2 and React. Positioning: A native companion application for macOS, featuring zero-terminal operation and Apple-style intuitive interaction.",
+      "author": "wuguirongsg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wuguirongsg--my-hermes-desktop",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
