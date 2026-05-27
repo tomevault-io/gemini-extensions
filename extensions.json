@@ -1908,6 +1908,14 @@
       "quality": "silver"
     },
     {
+      "name": "qodo-ai--pr-agent",
+      "description": "pr-agent",
+      "author": "qodo-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qodo-ai--pr-agent",
+      "stars": 11365,
+      "quality": "silver"
+    },
+    {
       "name": "tirth8205--code-review-graph",
       "description": "Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters \u2014 6.8\u00d7 fewer tokens on reviews and up to 49\u00d7 on daily coding tasks.",
       "author": "tirth8205",
@@ -13136,6 +13144,14 @@
       "description": "\ud83d\udcfb The missing YouTube Music macOS app",
       "author": "sozercan",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sozercan--kaset",
+      "stars": 972,
+      "quality": "silver"
+    },
+    {
+      "name": "nrslib--takt",
+      "description": "TAKT Agent Koordination Topology - Define how AI agents coordinate, where humans intervene, and what gets recorded \u2014 in YAML",
+      "author": "nrslib",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nrslib--takt",
       "stars": 972,
       "quality": "silver"
     },
@@ -106916,6 +106932,30 @@
       "quality": "bronze"
     },
     {
+      "name": "novywave--novywave",
+      "description": "Modern GTKWave alternative",
+      "author": "NovyWave",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/novywave--novywave",
+      "stars": 46,
+      "quality": "gold"
+    },
+    {
+      "name": "inugamidev--ultrathink-oss",
+      "description": "ultrathink-oss",
+      "author": "InugamiDev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inugamidev--ultrathink-oss",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "novywave--novywave",
+      "description": "Modern GTKWave alternative",
+      "author": "NovyWave",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/novywave--novywave",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
       "name": "zhaono1--agent-playbook",
       "description": "agent-playbook",
       "author": "zhaono1",
@@ -108584,6 +108624,30 @@
       "description": "gutenberg-control-blocks-lite",
       "author": "wordpress-gcb",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wordpress-gcb--gutenberg-control-blocks-lite",
+      "stars": 45,
+      "quality": "silver"
+    },
+    {
+      "name": "thomasahle--latex2png",
+      "description": "Convert LaTeX math equations to PNG/JPEG/SVG images",
+      "author": "thomasahle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thomasahle--latex2png",
+      "stars": 45,
+      "quality": "silver"
+    },
+    {
+      "name": "goplausible--algorand-mcp",
+      "description": "Algorand Local Model Context Protocol (Server & Client)",
+      "author": "GoPlausible",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goplausible--algorand-mcp",
+      "stars": 45,
+      "quality": "silver"
+    },
+    {
+      "name": "ophydami--mcp-google-doc",
+      "description": "MCP Google Doc",
+      "author": "ophydami",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ophydami--mcp-google-doc",
       "stars": 45,
       "quality": "silver"
     },
@@ -111776,6 +111840,14 @@
       "description": "visualyaml",
       "author": "RamiShehadeh",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ramishehadeh--visualyaml",
+      "stars": 43,
+      "quality": "silver"
+    },
+    {
+      "name": "patelnav--ctrlspeak",
+      "description": "Turn your voice into text with a triple-tap \u2014 minimal, fast, and macOS-native.",
+      "author": "patelnav",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/patelnav--ctrlspeak",
       "stars": 43,
       "quality": "silver"
     },
@@ -115212,6 +115284,14 @@
       "quality": "silver"
     },
     {
+      "name": "laurentvv--crawl4ai-mcp",
+      "description": "Web crawling tool that integrates with AI assistants via the MCP",
+      "author": "laurentvv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/laurentvv--crawl4ai-mcp",
+      "stars": 41,
+      "quality": "bronze"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -118348,6 +118428,22 @@
       "quality": "bronze"
     },
     {
+      "name": "idoru--influxdb-mcp-server",
+      "description": "An MCP Server for querying InfluxDB",
+      "author": "idoru",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/idoru--influxdb-mcp-server",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
+      "name": "idoru--influxdb-mcp-server",
+      "description": "An MCP Server for querying InfluxDB",
+      "author": "idoru",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/idoru--influxdb-mcp-server",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
       "name": "bobmatnyc--claude-mpm-skills",
       "description": "Curated collection of Claude Code skills for intelligent project development with progressive loading and toolchain detection",
       "author": "bobmatnyc",
@@ -119728,6 +119824,86 @@
       "description": "UI Builder is an open-source blockchain development tool that helps developers and non-developers create user-friendly interfaces for smart contract interaction by providing a chain-agnostic form buil",
       "author": "OpenZeppelin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openzeppelin--ui-builder",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "gold"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "zeybek--camouflage",
+      "description": "Camouflage is a VS Code extension that helps protect sensitive environment variables by hiding their values in .env files",
+      "author": "zeybek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeybek--camouflage",
       "stars": 38,
       "quality": "silver"
     },
@@ -121660,6 +121836,30 @@
       "quality": "silver"
     },
     {
+      "name": "wandb--vibes",
+      "description": "A repo with a devcontainer ready to vibe with Claude, Codex or Gemini",
+      "author": "wandb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wandb--vibes",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "wandb--vibes",
+      "description": "A repo with a devcontainer ready to vibe with Claude, Codex or Gemini",
+      "author": "wandb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wandb--vibes",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "wandb--vibes",
+      "description": "A repo with a devcontainer ready to vibe with Claude, Codex or Gemini",
+      "author": "wandb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wandb--vibes",
+      "stars": 37,
+      "quality": "gold"
+    },
+    {
       "name": "affitor--open-affiliate",
       "description": "The open registry of affiliate programs. Built for developers and AI agents.",
       "author": "Affitor",
@@ -123576,6 +123776,22 @@
       "description": "Compare how different AI models perform on Thailand\u2019s standardized exams",
       "author": "dtinth",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dtinth--thaiexamjs",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
+      "name": "quarto-dev--quarto-markdown",
+      "description": "Standalone front-end parser for Quarto Markdown. NOT READY FOR PRODUCTION USE",
+      "author": "quarto-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quarto-dev--quarto-markdown",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
+      "name": "zeeno-atl--claude-code",
+      "description": "Claude-code containerized to isolate it, written by Claude-code",
+      "author": "Zeeno-atl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeeno-atl--claude-code",
       "stars": 36,
       "quality": "silver"
     },
@@ -127748,6 +127964,14 @@
       "quality": "silver"
     },
     {
+      "name": "jettjaniak--chainscope",
+      "description": "Repository for the \"Chain-of-Thought Reasoning In The Wild Is Not Always Faithful\" paper",
+      "author": "jettjaniak",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jettjaniak--chainscope",
+      "stars": 34,
+      "quality": "bronze"
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI",
       "author": "RajjjAryan",
@@ -129600,6 +129824,22 @@
       "description": "\u66f4\u52a0\u73b0\u4ee3\u5316\u7684GUI\u754c\u9762\u5e93\uff0c\u8ba9\u60a8\u50cf\u4f7f\u7528js\u6784\u5efaHTML\u7f51\u9875\u4e00\u6837\u4fbf\u6377\uff01\u9644\u5e26\u66f4\u73b0\u4ee3\u5316\u7684\u5b57\u4f53\u6e32\u67d3\u5668\u3002",
       "author": "QuanhuZeYu",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quanhuzeyu--qz-uilib",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
+      "name": "alonronin--orbit",
+      "description": "orbit",
+      "author": "alonronin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alonronin--orbit",
+      "stars": 33,
+      "quality": "bronze"
+    },
+    {
+      "name": "k2--olol",
+      "description": "# Ollama<=>Ollama Inference Cluster",
+      "author": "K2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/k2--olol",
       "stars": 33,
       "quality": "silver"
     },
@@ -193380,6 +193620,14 @@
       "quality": "silver"
     },
     {
+      "name": "agneym--pi-honcho-memory",
+      "description": "Honcho persistent memory extension for pi coding agent",
+      "author": "agneym",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agneym--pi-honcho-memory",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -222260,14 +222508,6 @@
       "quality": "silver"
     },
     {
-      "name": "agneym--pi-honcho-memory",
-      "description": "Honcho persistent memory extension for pi coding agent",
-      "author": "agneym",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agneym--pi-honcho-memory",
-      "stars": 11,
-      "quality": "bronze"
-    },
-    {
       "name": "conflicthq--boilerworks-django-nextjs",
       "description": "Django + React platform base for AI-assisted business app development",
       "author": "ConflictHQ",
@@ -229634,6 +229874,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/waifufun--waifu-fun",
       "stars": 11,
       "quality": "bronze"
+    },
+    {
+      "name": "jdubois--boot-ui",
+      "description": "The missing developer UI for Spring Boot!",
+      "author": "jdubois",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jdubois--boot-ui",
+      "stars": 11,
+      "quality": "silver"
     },
     {
       "name": "makenowjust--naraku",
@@ -241618,6 +241866,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qoham--experiment-code-template",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "stared--rusted-doom-launcher",
+      "description": "Steam-like experience for DOOM mods and wads - works with GZDoom - with Rust and Tauri 2",
+      "author": "stared",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stared--rusted-doom-launcher",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "sir-mmd--dataproxy",
+      "description": "Turn your Android phone into a SOCKS5 proxy whose traffic always goes out over mobile data",
+      "author": "Sir-MmD",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sir-mmd--dataproxy",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -294628,6 +294892,54 @@
       "quality": "silver"
     },
     {
+      "name": "seangalliher--coworkcookbook",
+      "description": "Cowork Cookbook",
+      "author": "seangalliher",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seangalliher--coworkcookbook",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "saleem-shaik-git--salford-bin-community-app",
+      "description": "Community-focused application for bin collection reminders and waste-sorting guidance",
+      "author": "saleem-shaik-git",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saleem-shaik-git--salford-bin-community-app",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "saleem-shaik-git--salford-bin-community-app",
+      "description": "Community-focused application for bin collection reminders and waste-sorting guidance",
+      "author": "saleem-shaik-git",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saleem-shaik-git--salford-bin-community-app",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ammarcodes--eslint-plugin-tailwind-rtl",
+      "description": "ESLint plugin for RTL-safe Tailwind CSS \u2014 catches physical direction classes and suggests logical alternatives",
+      "author": "AmmarCodes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ammarcodes--eslint-plugin-tailwind-rtl",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "openmaxnet--termax",
+      "description": "\u73b0\u4ee3\u5316\u7684\u8de8\u5e73\u53f0 SSH \u7ec8\u7aef\u5ba2\u6237\u7aef\uff0c\u57fa\u4e8e Tauri v2 \u6784\u5efa",
+      "author": "openmaxnet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openmaxnet--termax",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "ychampion--edgebase",
+      "description": "Git-native, provenance-backed context capsules for coding agents.",
+      "author": "ychampion",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ychampion--edgebase",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -299012,6 +299324,14 @@
       "quality": "silver"
     },
     {
+      "name": "m4xx3d0ut--1337-board",
+      "description": "1337 Board is a desktop-style Android keyboard for terminals, editors, tablets, and power-user text entry. It is inspired by the practical layout ideas in Hacker's Keyboard, but implemented as a moder",
+      "author": "m4xx3d0ut",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/m4xx3d0ut--1337-board",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
       "name": "ancplua--ancplua-claude-plugins",
       "description": "ancplua-claude-plugins",
       "author": "ANcpLua",
@@ -299025,6 +299345,22 @@
       "author": "ANcpLua",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
       "stars": 5,
+      "quality": "silver"
+    },
+    {
+      "name": "ncaq---zsh-d",
+      "description": ".zsh.d",
+      "author": "ncaq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ncaq---zsh-d",
+      "stars": 4,
+      "quality": "silver"
+    },
+    {
+      "name": "ldmoxeii--only-engine",
+      "description": "only-engine",
+      "author": "LDmoxeii",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ldmoxeii--only-engine",
+      "stars": 2,
       "quality": "silver"
     },
     {
@@ -299122,6 +299458,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pererikgronvik--easy-claude-math-tutor",
       "stars": 1,
       "quality": "silver"
+    },
+    {
+      "name": "dominiquepaul--search-substack-semantically",
+      "description": "search-substack-semantically",
+      "author": "DominiquePaul",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dominiquepaul--search-substack-semantically",
+      "stars": 1,
+      "quality": "bronze"
     },
     {
       "name": "constellos--claude-code",
@@ -312484,14 +312828,6 @@
       "quality": "gold"
     },
     {
-      "name": "alonronin--orbit",
-      "description": "orbit",
-      "author": "alonronin",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alonronin--orbit",
-      "stars": 0,
-      "quality": "bronze"
-    },
-    {
       "name": "razamirxa--google-deepmind---vibe-code-with-gemini-3-pro-in-ai-studio",
       "description": "Google-DeepMind---Vibe-Code-with-Gemini-3-Pro-in-AI-Studio",
       "author": "Razamirxa",
@@ -316340,14 +316676,6 @@
       "quality": "bronze"
     },
     {
-      "name": "qodo-ai--pr-agent",
-      "description": "pr-agent",
-      "author": "qodo-ai",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qodo-ai--pr-agent",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
       "name": "matthiasn--lotti",
       "description": "lotti",
       "author": "matthiasn",
@@ -318752,14 +319080,6 @@
       "description": "mlkit-markdown-translator-android",
       "author": "godsarmy",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/godsarmy--mlkit-markdown-translator-android",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "hasna--contacts",
-      "description": "contacts",
-      "author": "hasna",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hasna--contacts",
       "stars": 0,
       "quality": "silver"
     },
@@ -324162,14 +324482,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bypr1--gx-toko-kue",
       "stars": 0,
       "quality": "silver"
-    },
-    {
-      "name": "savicsly--loe-mini-engine-api",
-      "description": "loe-mini-engine-api",
-      "author": "savicsly",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/savicsly--loe-mini-engine-api",
-      "stars": 0,
-      "quality": "gold"
     },
     {
       "name": "davraf-amuro--dr-mcp-dbschema",
@@ -344700,14 +345012,6 @@
       "quality": "silver"
     },
     {
-      "name": "raushan728--studyhub-express-ejs-app",
-      "description": "studyhub-express-ejs-app",
-      "author": "raushan728",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/raushan728--studyhub-express-ejs-app",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
       "name": "victordaz07--xthegospel",
       "description": "XtheGospel",
       "author": "Victordaz07",
@@ -345434,14 +345738,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oleg121203--mvp",
       "stars": 0,
       "quality": "silver"
-    },
-    {
-      "name": "mnem0nic7--diabetes-2025",
-      "description": "diabetes-2025",
-      "author": "mnem0nic7",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mnem0nic7--diabetes-2025",
-      "stars": 0,
-      "quality": "gold"
     },
     {
       "name": "jonasneves--shipctl",
@@ -348146,14 +348442,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/themistletoe--memutrader",
       "stars": 0,
       "quality": "gold"
-    },
-    {
-      "name": "ldmoxeii--only-engine",
-      "description": "only-engine",
-      "author": "LDmoxeii",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ldmoxeii--only-engine",
-      "stars": 0,
-      "quality": "silver"
     },
     {
       "name": "rileypb--fweep",
@@ -356506,14 +356794,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jairosoft-com--mcp-server-outlook-calendar",
       "stars": 0,
       "quality": "bronze"
-    },
-    {
-      "name": "makfly--ghostchrome",
-      "description": "ghostchrome",
-      "author": "MakFly",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/makfly--ghostchrome",
-      "stars": 0,
-      "quality": "silver"
     },
     {
       "name": "edulger90--ptrainer",
@@ -366212,14 +366492,6 @@
       "quality": "gold"
     },
     {
-      "name": "tanmay-e-patil--tchat",
-      "description": "tchat",
-      "author": "tanmay-e-patil",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tanmay-e-patil--tchat",
-      "stars": 0,
-      "quality": "gold"
-    },
-    {
       "name": "shittuay--cursortemplate",
       "description": "Cursortemplate",
       "author": "shittuay",
@@ -369548,14 +369820,6 @@
       "quality": "silver"
     },
     {
-      "name": "pangbit--spoa",
-      "description": "spoa",
-      "author": "pangbit",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pangbit--spoa",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
       "name": "qindral--hydrogel-data-analysis",
       "description": "Hydrogel-Data-Analysis",
       "author": "Qindral",
@@ -370394,14 +370658,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prof-ramos--intranet",
       "stars": 0,
       "quality": "gold"
-    },
-    {
-      "name": "ncaq---zsh-d",
-      "description": ".zsh.d",
-      "author": "ncaq",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ncaq---zsh-d",
-      "stars": 0,
-      "quality": "silver"
     },
     {
       "name": "aditya-autoomstudio--anubhuta-jogamala",
@@ -401916,14 +402172,6 @@
       "quality": "bronze"
     },
     {
-      "name": "inugamidev--ultrathink-oss",
-      "description": "ultrathink-oss",
-      "author": "InugamiDev",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inugamidev--ultrathink-oss",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
       "name": "samuel1-ona--genie",
       "description": "Genie",
       "author": "Samuel1-ona",
@@ -431364,14 +431612,6 @@
       "quality": "silver"
     },
     {
-      "name": "pekkanikander--nocfo-api-tool",
-      "description": "nocfo-api-tool",
-      "author": "pekkanikander",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pekkanikander--nocfo-api-tool",
-      "stars": 0,
-      "quality": "gold"
-    },
-    {
       "name": "stiliajohny--pasteportal",
       "description": "pasteportal",
       "author": "stiliajohny",
@@ -439048,14 +439288,6 @@
       "description": "pdf-tools",
       "author": "MrHuangJser",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrhuangjser--pdf-tools",
-      "stars": 0,
-      "quality": "silver"
-    },
-    {
-      "name": "thehardway15--10x-cards",
-      "description": "10x-cards",
-      "author": "thehardway15",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thehardway15--10x-cards",
       "stars": 0,
       "quality": "silver"
     },
@@ -464898,6 +465130,118 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/heyfarai--tryouts-next",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "urban-tech-creative--utc-website",
+      "description": "Website for Urban Tech Creative",
+      "author": "urban-tech-creative",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/urban-tech-creative--utc-website",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "piotrmigaj--na-lp",
+      "description": "na-lp",
+      "author": "PiotrMigaj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/piotrmigaj--na-lp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "savicsly--loe-mini-engine-api",
+      "description": "loe-mini-engine-api",
+      "author": "savicsly",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/savicsly--loe-mini-engine-api",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "thehardway15--10x-cards",
+      "description": "10x-cards",
+      "author": "thehardway15",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thehardway15--10x-cards",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hasna--contacts",
+      "description": "contacts",
+      "author": "hasna",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hasna--contacts",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "raushan728--studyhub-express-ejs-app",
+      "description": "studyhub-express-ejs-app",
+      "author": "raushan728",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/raushan728--studyhub-express-ejs-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mnem0nic7--diabetes-2025",
+      "description": "diabetes-2025",
+      "author": "mnem0nic7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mnem0nic7--diabetes-2025",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "makfly--ghostchrome",
+      "description": "ghostchrome",
+      "author": "MakFly",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/makfly--ghostchrome",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "tanmay-e-patil--tchat",
+      "description": "tchat",
+      "author": "tanmay-e-patil",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tanmay-e-patil--tchat",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "pangbit--spoa",
+      "description": "spoa",
+      "author": "pangbit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pangbit--spoa",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "pekkanikander--nocfo-api-tool",
+      "description": "nocfo-api-tool",
+      "author": "pekkanikander",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pekkanikander--nocfo-api-tool",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "axuanhogan--quarkus-kotlin-clean-arch-template",
+      "description": "Clean Architecture template using Quarkus with Kotlin",
+      "author": "axuanhogan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/axuanhogan--quarkus-kotlin-clean-arch-template",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "drasticstatic--crowdsale",
+      "description": "\ud83c\udf93 DappU-Mentorship \ud83e\uddfe an Ethereum-based token crowdsale system using Hardhat and React",
+      "author": "drasticstatic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/drasticstatic--crowdsale",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "luissanchez0305--ghl-de-duper",
+      "description": "Search duplicates in Go High Level",
+      "author": "luissanchez0305",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luissanchez0305--ghl-de-duper",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
