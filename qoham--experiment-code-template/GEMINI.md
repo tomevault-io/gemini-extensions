@@ -1,26 +1,21 @@
-## project
+## tasks
 
-> Project-wide rules. Read AGENTS.md first.
+> Rules for editing Task implementations.
 
 
-# expkit Project Rules
+# Task Implementation Rules
 
-This project uses [`AGENTS.md`](../../AGENTS.md) as the **single source of truth**.
-Always read AGENTS.md before acting.
-
-## Hard rules
-
-- Execution unit is `Task` (`expkit/core/task.py`). Register with `@register_task("name")`.
-- Compose Tasks via `Pipeline` (`expkit/core/pipeline.py`). Do not invent new orchestration layers.
-- All hyperparameters live in `configs/`. Code reads config, never hardcodes.
-- Outputs go to `projects/<paper>/runs/<date>/<time>/` (Hydra working dir,
-  immutable) and `projects/<paper>/experiments/<exp>/results/` (canonical
-  metrics view). Never overwrite — each invocation creates a new run dir.
-- Every run writes `metrics.json`, `env.json`, and `run_signature.json` into
-  `results/` (handled by `expkit.core.bootstrap.bootstrap_run`, invoked from
-  each `projects/<slug>/experiments/exp_NNN_<name>/run.py`).
-- Use `expkit.utils.*` instead of reinventing logging/cache/hashing/git/checkpoint.
-- Optional deps are lazy: domain code lives behind `try/except ImportError`.
+- Inherit from `BaseTask`. Implement `setup` and `run`. `teardown` is optional.
+- Register via `@register_task("snake_case_name")`. Registered name must match
+  the file basename.
+- `run()` returns a `TaskResult(metrics=..., artifacts=...)`. Status defaults to SUCCESS.
+- Use `self.ctx.tracker.log(...)` for metrics during training, not `print`.
+- Use `self.ctx.checkpoints_dir` / `self.ctx.artifacts_dir` / `self.ctx.results_dir`
+  for output paths. Don't construct paths from cwd.
+- For HF Trainer-based tasks, configure with `report_to="none"` and `seed=self.ctx.seed`,
+  and let the Trainer own the loop inside `run()`. No "dual mode" needed.
+- For mixins (federated/agent), inherit them additionally:
+  `class MyTask(BaseTask, FederatedMixin): ...`
 
 ---
 > Source: [qoham/experiment_code_template](https://github.com/qoham/experiment_code_template) — distributed by [TomeVault](https://tomevault.io).
