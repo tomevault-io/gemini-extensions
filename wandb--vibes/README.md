@@ -7,11 +7,11 @@ A repo with a devcontainer ready to vibe with Claude, Codex or Gemini
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wandb/vibes](https://github.com/wandb/vibes).
+Original source: `CLAUDE.md` in [wandb/vibes](https://github.com/wandb/vibes).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
