@@ -8,4 +8,4 @@
 
 ---
 > Source: [agneym/pi-honcho-memory](https://github.com/agneym/pi-honcho-memory) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-03 -->
+<!-- tomevault:4.0:gemini_md:2026-05-27 -->
