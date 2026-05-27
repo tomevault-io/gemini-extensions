@@ -212716,6 +212716,14 @@
       "quality": "bronze"
     },
     {
+      "name": "openclaw--libopus-wasm",
+      "description": "Small, modern WASM bindings for libopus raw packet encode/decode.",
+      "author": "openclaw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openclaw--libopus-wasm",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
