@@ -1,4 +1,4 @@
-## wisp
+## laravel-boost
 
 > <laravel-boost-guidelines>
 
