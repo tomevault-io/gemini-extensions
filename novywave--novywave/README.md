@@ -7,11 +7,11 @@ Modern GTKWave alternative
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NovyWave/NovyWave](https://github.com/NovyWave/NovyWave).
+Original source: `CLAUDE.md` in [NovyWave/NovyWave](https://github.com/NovyWave/NovyWave).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
