@@ -276180,6 +276180,22 @@
       "quality": "silver"
     },
     {
+      "name": "anthropics--defending-code-reference-harness",
+      "description": "A reference implementation for autonomous vulnerability discovery and human-reviewed remediation with Claude",
+      "author": "anthropics",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anthropics--defending-code-reference-harness",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "glekner--il-bank-mcp",
+      "description": "A Model Context Protocol (MCP) server that provides financial data access through automated Israeli bank and credit card data scraping. Supports all major Israeli financial institutions dynamically ba",
+      "author": "glekner",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/glekner--il-bank-mcp",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -294044,6 +294060,62 @@
       "quality": "gold"
     },
     {
+      "name": "charlie12345--rocmfp4-llama",
+      "description": "NEW ROCmfp4 format for llama.cpp",
+      "author": "charlie12345",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/charlie12345--rocmfp4-llama",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wesleysimplicio--simplicio-cli",
+      "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
+      "author": "wesleysimplicio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wesleysimplicio--simplicio-cli",
+      "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
+      "author": "wesleysimplicio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "charlie12345--rocmfp4-llama",
+      "description": "NEW ROCmfp4 format for llama.cpp",
+      "author": "charlie12345",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/charlie12345--rocmfp4-llama",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "waynechou-bot--llm-wiki-agent-workflow-demo",
+      "description": "LLM-Wiki-Agent-Workflow-Demo",
+      "author": "WayneChou-bot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/waynechou-bot--llm-wiki-agent-workflow-demo",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wesleysimplicio--simplicio-cli",
+      "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
+      "author": "wesleysimplicio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "inventoros--inventoros",
+      "description": "Open source PHP based Inventory / WMS management for the rest of us",
+      "author": "Inventoros",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inventoros--inventoros",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -298320,6 +298392,14 @@
       "description": "Claude Code Growth Operating System (OS): Sales, Marketing, Product and Retention as one Revenue system",
       "author": "etrebels",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/etrebels--claude-code-growth-os",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ralsina--esposito",
+      "description": "esposito",
+      "author": "ralsina",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ralsina--esposito",
       "stars": 7,
       "quality": "silver"
     },
