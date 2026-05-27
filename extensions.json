@@ -136988,6 +136988,14 @@
       "quality": "silver"
     },
     {
+      "name": "gofreelee--spaceserve",
+      "description": "SpaceServe",
+      "author": "gofreelee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gofreelee--spaceserve",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "description": "Inventory API Skills",
       "author": "Laskewitz",
@@ -139464,6 +139472,22 @@
       "description": "rm-sni-spoofer",
       "author": "rm-rfd",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rm-rfd--rm-sni-spoofer",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "mk3008--rawsql-ts",
+      "description": "SQL-first lifecycle toolkit for testing, inspecting, and evolving database applications.",
+      "author": "mk3008",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mk3008--rawsql-ts",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "ianmacartney--reactflow-demo",
+      "description": "reactflow + convex example",
+      "author": "ianmacartney",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ianmacartney--reactflow-demo",
       "stars": 29,
       "quality": "silver"
     },
@@ -142648,6 +142672,14 @@
       "description": "novel-write \u7684Openspec \u65b9\u6cd5\u8bba\u7248\u672c\u7684\u63a2\u7d22",
       "author": "wordflowlab",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wordflowlab--novel-writer-openspec",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "lakr233--alertcontroller",
+      "description": "Simple AlertViewController",
+      "author": "Lakr233",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lakr233--alertcontroller",
       "stars": 28,
       "quality": "silver"
     },
@@ -145912,6 +145944,30 @@
       "description": "[DEPRECATED] Unity MCP server \u2014 successor: akiojin/unity-cli",
       "author": "akiojin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/akiojin--unity-mcp-server",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "openathleteorg--openathlete",
+      "description": "The open-source European alternative to TrainingPeaks. Self-hostable endurance training platform. Your data stays yours.",
+      "author": "openathleteorg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openathleteorg--openathlete",
+      "stars": 27,
+      "quality": "bronze"
+    },
+    {
+      "name": "liukaixiong--expression-mind-map-engine",
+      "description": "\u4e00\u6b3e\u57fa\u4e8e aviator\u6df1\u5ea6\u5c01\u88c5\u7684\u53ef\u89c6\u5316\u52a8\u6001\u89c4\u5219\u5f15\u64ce\u3002\u5b83\u521b\u65b0\u6027\u5730\u5c06\u601d\u7ef4\u5bfc\u56fe\u5f15\u5165\u89c4\u5219\u7f16\u6392\uff0c\u652f\u6301\u52a8\u6001\u914d\u7f6e\u51fd\u6570\u4e0e\u53d8\u91cf\uff0c\u652f\u6301AI\u95ee\u7b54\uff0c\u63d0\u4f9b\u5168\u94fe\u8def\u6267\u884c\u8ffd\u8e2a\u4e0e\u641c\u7d22\u80fd\u529b\u3002",
+      "author": "liukaixiong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/liukaixiong--expression-mind-map-engine",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "barisgit--kilm",
+      "description": "KiCad Library Manager | Easily manage global libraries with github",
+      "author": "barisgit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/barisgit--kilm",
       "stars": 27,
       "quality": "silver"
     },
@@ -149412,6 +149468,54 @@
       "quality": "silver"
     },
     {
+      "name": "yym68686--uni-api-web",
+      "description": "uni-api web frontend",
+      "author": "yym68686",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yym68686--uni-api-web",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "fouteox--fadogen",
+      "description": "Build and deploy applications easily.",
+      "author": "fouteox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fouteox--fadogen",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository",
+      "author": "tumf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tumf--grafana-loki-mcp",
+      "stars": 26,
+      "quality": "gold"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository",
+      "author": "tumf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tumf--grafana-loki-mcp",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository",
+      "author": "tumf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tumf--grafana-loki-mcp",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository",
+      "author": "tumf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tumf--grafana-loki-mcp",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -152906,6 +153010,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prathamarchives--creative-brain",
       "stars": 25,
       "quality": "gold"
+    },
+    {
+      "name": "init4tech--signet-sdk",
+      "description": "Signet ecosystem crates",
+      "author": "init4tech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/init4tech--signet-sdk",
+      "stars": 25,
+      "quality": "silver"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -156492,6 +156604,38 @@
       "quality": "silver"
     },
     {
+      "name": "kv9898--positron-r-package-manager",
+      "description": "Manage your R extensions from within Positron \u2014 the RStudio-style package manager for the modern data science IDE.",
+      "author": "kv9898",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kv9898--positron-r-package-manager",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "jlevy--kash",
+      "description": "The knowledge agent shell",
+      "author": "jlevy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jlevy--kash",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "jlevy--kash",
+      "description": "The knowledge agent shell",
+      "author": "jlevy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jlevy--kash",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
+      "name": "ismail-kattakath--nix-mcp-servers",
+      "description": "A nix flake for configuring Model Context Protocol (MCP) servers across supported AI assistant clients",
+      "author": "ismail-kattakath",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ismail-kattakath--nix-mcp-servers",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -160066,6 +160210,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/squads-protocol--public-v4-client",
       "stars": 23,
       "quality": "gold"
+    },
+    {
+      "name": "wujiabao77--shipany-template-one",
+      "description": "nextjs-template",
+      "author": "wujiabao77",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wujiabao77--shipany-template-one",
+      "stars": 23,
+      "quality": "silver"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -164956,6 +165108,22 @@
       "quality": "silver"
     },
     {
+      "name": "chenm1xuexi--feifei-deep-research",
+      "description": "\u6539\u9020langchain\u56e2\u961f open-deep-research, \u7ed3\u5408chainlit \u4e3a\u56fd\u5185\u5f00\u53d1\u8005\u63d0\u4f9b\u4fbf\u6377\u4f7f\u7528",
+      "author": "chenm1xuexi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenm1xuexi--feifei-deep-research",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "playwithllm--store",
+      "description": "A RAG-driven image product search that showcases MERN, Milvus for vector indexing, Transformers, and a local Ollama Gemma LLM. Explore integrated embeddings, store vectors in Milvus, and manipulate qu",
+      "author": "playwithllm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/playwithllm--store",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -169010,6 +169178,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeremylongshore--iam-bobs-brain",
       "stars": 21,
       "quality": "silver"
+    },
+    {
+      "name": "ronald-willems--dewarmte-homeassistant",
+      "description": "Home Assistant Integration for DeWarmte Heatpump",
+      "author": "ronald-willems",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ronald-willems--dewarmte-homeassistant",
+      "stars": 21,
+      "quality": "gold"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -173226,6 +173402,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openbmb--forgetrain",
       "stars": 20,
       "quality": "silver"
+    },
+    {
+      "name": "rm2thaddeus--pixel-detective",
+      "description": "A repository for the Pixel Detective project.",
+      "author": "rm2thaddeus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rm2thaddeus--pixel-detective",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "davis7dotsh--quick-svg-bg",
+      "description": "Quickly add a background box to an svg. Super useful for making thumbnails",
+      "author": "davis7dotsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davis7dotsh--quick-svg-bg",
+      "stars": 20,
+      "quality": "bronze"
+    },
+    {
+      "name": "amdresearch--intellikit",
+      "description": "IntelliKit is a collection of intelligent tools designed to make GPU kernel development, profiling, and validation accessible to LLMs and human developers alike. Built for AMD ROCm, these tools provid",
+      "author": "AMDResearch",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amdresearch--intellikit",
+      "stars": 20,
+      "quality": "gold"
     },
     {
       "name": "tomoyaf--logifai",
@@ -177448,6 +177648,38 @@
       "description": "The repository for Android Stream Desk project",
       "author": "aniadev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aniadev--android-stream-desk",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "luzhiyu-econ--econllm-lab",
+      "description": "\u7ecf\u6d4e\u5b66AI\u4f7f\u7528\u6307\u5357",
+      "author": "luzhiyu-econ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luzhiyu-econ--econllm-lab",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "moonwell-fi--mamo-contracts",
+      "description": "mamo-contracts",
+      "author": "moonwell-fi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moonwell-fi--mamo-contracts",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "j3k0--mcp-brain-tools",
+      "description": "A powerful MCP memory using a knowledge graph powered by elastic search",
+      "author": "j3k0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/j3k0--mcp-brain-tools",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "bastian-js--dropnote",
+      "description": "Simple and fast: Notes in the macOS menu bar. Free & source-available.",
+      "author": "bastian-js",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bastian-js--dropnote",
       "stars": 19,
       "quality": "silver"
     },
@@ -182368,6 +182600,14 @@
       "description": "A Paperclip adapter that lets you run Hermes Agent as a managed employee in a Paperclip company.",
       "author": "LLM-Mart",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/llm-mart--paperclip-adapter",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "bigwhite--local-gitingest",
+      "description": "a command-line tool that converts a local Git repository into a single text file.",
+      "author": "bigwhite",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bigwhite--local-gitingest",
       "stars": 18,
       "quality": "silver"
     },
@@ -187984,6 +188224,102 @@
       "description": "Aster DEX and Hyperliquid trading bot. Bun-powered trend, maker, and offset-maker engines with Ink UI for Aster, GRVT, and Hyperliquid perpetual futures.",
       "author": "mdsayedtg",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mdsayedtg--asterdex-trading-bot",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "gigcymru--architecture",
+      "description": "NHS Wales Architecture",
+      "author": "GIGCymru",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gigcymru--architecture",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "ctrl-cheeb-del--playwright-extension",
+      "description": "Chrome extension to record, import, and run playwright scripts directly in your browser",
+      "author": "ctrl-cheeb-del",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctrl-cheeb-del--playwright-extension",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "gigcymru--architecture",
+      "description": "NHS Wales Architecture",
+      "author": "GIGCymru",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gigcymru--architecture",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "arclab-mit--beavr-app",
+      "description": "BeaVR-app",
+      "author": "ARCLab-MIT",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arclab-mit--beavr-app",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "penxle--typie",
+      "description": "\uc791\uac00\ub97c \uc704\ud55c \uc62c\uc778\uc6d0 \uae00\uc4f0\uae30 \ub3c4\uad6c",
+      "author": "penxle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/penxle--typie",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "gigcymru--architecture",
+      "description": "NHS Wales Architecture",
+      "author": "GIGCymru",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gigcymru--architecture",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "penxle--typie",
+      "description": "\uc791\uac00\ub97c \uc704\ud55c \uc62c\uc778\uc6d0 \uae00\uc4f0\uae30 \ub3c4\uad6c",
+      "author": "penxle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/penxle--typie",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "cablehead--anthropic-text-editor",
+      "description": "A micro-CLI to apply tool calls from Anthropic for their text_editor_20250124 built-in computer use tool",
+      "author": "cablehead",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cablehead--anthropic-text-editor",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "nwiizo--3shake-marp-templates",
+      "description": "Collection of Marp-based presentation templates for 3-SHAKE. Features standardized designs, citation styles, and custom layouts for cloud-native technology and enterprise solution presentations, ensur",
+      "author": "nwiizo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nwiizo--3shake-marp-templates",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "phonepe--sentinel-ai",
+      "description": "AI agent framework written in java",
+      "author": "PhonePe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phonepe--sentinel-ai",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "nwiizo--3shake-marp-templates",
+      "description": "Collection of Marp-based presentation templates for 3-SHAKE. Features standardized designs, citation styles, and custom layouts for cloud-native technology and enterprise solution presentations, ensur",
+      "author": "nwiizo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nwiizo--3shake-marp-templates",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "nwiizo--3shake-marp-templates",
+      "description": "Collection of Marp-based presentation templates for 3-SHAKE. Features standardized designs, citation styles, and custom layouts for cloud-native technology and enterprise solution presentations, ensur",
+      "author": "nwiizo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nwiizo--3shake-marp-templates",
       "stars": 17,
       "quality": "silver"
     },
@@ -193628,6 +193964,70 @@
       "quality": "bronze"
     },
     {
+      "name": "jiangsi--cloudflare-workflow-rr7",
+      "description": "cloudflare-workflow-rr7",
+      "author": "jiangsi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jiangsi--cloudflare-workflow-rr7",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "tomer-w--ha-nmea2000",
+      "description": "NMEA 2000 Home Assistant Integration",
+      "author": "tomer-w",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tomer-w--ha-nmea2000",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "chenglibiao--cursor-auto-rules-agile-workflow",
+      "description": "cursor-auto-rules-agile-workflow",
+      "author": "chenglibiao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenglibiao--cursor-auto-rules-agile-workflow",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "adamwulf--mcp-template",
+      "description": "A barebones MCP server implementation in Swift using loopwork-ai's mcp-swift-sdk.",
+      "author": "adamwulf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adamwulf--mcp-template",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "atzufuki--html-props",
+      "description": "Props API for Web Components",
+      "author": "atzufuki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atzufuki--html-props",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "modelcontextprotocol-servers--google-search-mcp",
+      "description": "google-search-mcp",
+      "author": "modelcontextprotocol-servers",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/modelcontextprotocol-servers--google-search-mcp",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "cornworld--vanblog",
+      "description": "A stand-alone fork of vanblog, providing BUG fixing and totally refracting",
+      "author": "CornWorld",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cornworld--vanblog",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "adamwulf--mcp-template",
+      "description": "A barebones MCP server implementation in Swift using loopwork-ai's mcp-swift-sdk.",
+      "author": "adamwulf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adamwulf--mcp-template",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -199224,6 +199624,70 @@
       "description": "IJFW \u2014 It Just F*cking Works. Ferrox Labs' local-first infrastructure for AI coding agents: shared memory, smart routing, multi-AI cross-audits, disciplined workflow.",
       "author": "FerroxLabs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferroxlabs--ijfw",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)",
+      "author": "frostlogic-ab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostlogic-ab--agent-forge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "bsobkowicz1096--football-xg-predictor",
+      "description": "A football Expected Goals (xG) prediction model leveraging advanced machine learning techniques.",
+      "author": "bsobkowicz1096",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bsobkowicz1096--football-xg-predictor",
       "stars": 15,
       "quality": "silver"
     },
@@ -205426,6 +205890,174 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brotzky--performance-skills",
       "stars": 14,
       "quality": "gold"
+    },
+    {
+      "name": "yandex--go-linters",
+      "description": "Yandex battle proven set of Go static analyzers",
+      "author": "yandex",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yandex--go-linters",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "description": "ai-docs-sync",
+      "author": "him0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/him0--ai-docs-sync",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "projecttech4devai--kaapi-backend",
+      "description": "Responsible AI for the development sector",
+      "author": "ProjectTech4DevAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/projecttech4devai--kaapi-backend",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "description": "expo_template",
+      "author": "Rengod95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rengod95--expo-template",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "description": "expo_template",
+      "author": "Rengod95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rengod95--expo-template",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "description": "expo_template",
+      "author": "Rengod95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rengod95--expo-template",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "description": "expo_template",
+      "author": "Rengod95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rengod95--expo-template",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "description": "expo_template",
+      "author": "Rengod95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rengod95--expo-template",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "description": "ai-docs-sync",
+      "author": "him0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/him0--ai-docs-sync",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "description": "ai-docs-sync",
+      "author": "him0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/him0--ai-docs-sync",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "description": "ai-docs-sync",
+      "author": "him0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/him0--ai-docs-sync",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "description": "ai-docs-sync",
+      "author": "him0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/him0--ai-docs-sync",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "datagrok-ai--mol-track",
+      "description": "Chemical compound registration system: lightweight, flexible, hackable",
+      "author": "datagrok-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datagrok-ai--mol-track",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "datagrok-ai--mol-track",
+      "description": "Chemical compound registration system: lightweight, flexible, hackable",
+      "author": "datagrok-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datagrok-ai--mol-track",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "datagrok-ai--mol-track",
+      "description": "Chemical compound registration system: lightweight, flexible, hackable",
+      "author": "datagrok-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datagrok-ai--mol-track",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!",
+      "author": "whoisdsmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whoisdsmith--smartfileorganizer",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!",
+      "author": "whoisdsmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whoisdsmith--smartfileorganizer",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!",
+      "author": "whoisdsmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whoisdsmith--smartfileorganizer",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!",
+      "author": "whoisdsmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whoisdsmith--smartfileorganizer",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!",
+      "author": "whoisdsmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whoisdsmith--smartfileorganizer",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!",
+      "author": "whoisdsmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whoisdsmith--smartfileorganizer",
+      "stars": 14,
+      "quality": "bronze"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -212992,6 +213624,142 @@
       "description": "Small, modern WASM bindings for libopus raw packet encode/decode.",
       "author": "openclaw",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openclaw--libopus-wasm",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "matthansen0--azure-ai-security-sandbox",
+      "description": "Built on Bicep and AZD CLI, fully automated RAG chat app - AFD, APIM, ACA, AI Search, Azure Storage, Cosmos, and Azure Open AI with optional Defender Plans, and a full \"How it Works\" user learning gui",
+      "author": "matthansen0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matthansen0--azure-ai-security-sandbox",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "asdev-official--shopsync",
+      "description": "ShopSync is an app which lets you collaborate on shopping lists with family and friends.",
+      "author": "ASDev-Official",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/asdev-official--shopsync",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "matthansen0--azure-ai-security-sandbox",
+      "description": "Built on Bicep and AZD CLI, fully automated RAG chat app - AFD, APIM, ACA, AI Search, Azure Storage, Cosmos, and Azure Open AI with optional Defender Plans, and a full \"How it Works\" user learning gui",
+      "author": "matthansen0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matthansen0--azure-ai-security-sandbox",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "madskristensen--speak",
+      "description": "A Visual Studio extension",
+      "author": "madskristensen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/madskristensen--speak",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "vizioz--teamwork-mcp",
+      "description": "MCP server to connect to the Teamwork API",
+      "author": "Vizioz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vizioz--teamwork-mcp",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "vizioz--teamwork-mcp",
+      "description": "MCP server to connect to the Teamwork API",
+      "author": "Vizioz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vizioz--teamwork-mcp",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+      "author": "DXHeroes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxheroes--mcp-devtools",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "hans-solodit--solodit-checklist-blog-examples",
+      "description": "solodit-checklist-blog-examples",
+      "author": "hans-solodit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hans-solodit--solodit-checklist-blog-examples",
       "stars": 13,
       "quality": "bronze"
     },
@@ -221200,6 +221968,22 @@
       "description": "openstat",
       "author": "spankygod",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/spankygod--openstat",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "leonardogrig--n8n-nodes-firecrawl-scraper",
+      "description": "n8n-nodes-firecrawl-scraper",
+      "author": "leonardogrig",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leonardogrig--n8n-nodes-firecrawl-scraper",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "codycody31--squad-aegis",
+      "description": "A comprehensive control panel solution for administrating multiple Squad game servers in one place.",
+      "author": "Codycody31",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codycody31--squad-aegis",
       "stars": 12,
       "quality": "silver"
     },
@@ -229880,6 +230664,54 @@
       "description": "The missing developer UI for Spring Boot!",
       "author": "jdubois",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jdubois--boot-ui",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "phlowdotdev--phlow",
+      "description": "Phlow is a Low Code Rust runtime for modular backends \u2014 scalable, composable, and with native observability powered by OpenTelemetry.",
+      "author": "phlowdotdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phlowdotdev--phlow",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "regibyte--mcp-client-app",
+      "description": "A mcp client chat application built for learning purposes",
+      "author": "RegiByte",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/regibyte--mcp-client-app",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model",
+      "author": "dvquy13",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dvquy13--recsys-seq-model",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model",
+      "author": "dvquy13",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dvquy13--recsys-seq-model",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model",
+      "author": "dvquy13",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dvquy13--recsys-seq-model",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model",
+      "author": "dvquy13",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dvquy13--recsys-seq-model",
       "stars": 11,
       "quality": "silver"
     },
@@ -241882,6 +242714,78 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sir-mmd--dataproxy",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "jinmo100--aiwriting",
+      "description": "\u4e00\u4e2a\u57fa\u4e8eSpring Boot\u548cAI\u5927\u8bed\u8a00\u6a21\u578b\u7684\u82f1\u8bed\u4f5c\u6587\u81ea\u52a8\u8bc4\u5206\u7cfb\u7edf\u3002\u7cfb\u7edf\u80fd\u591f\u5bf9\u82f1\u8bed\u4f5c\u6587\u8fdb\u884c\u667a\u80fd\u5206\u6790\uff0c\u63d0\u4f9b\u5206\u6570\u8bc4\u5b9a\u3001\u4f18\u70b9\u5206\u6790\u548c\u6539\u8fdb\u5efa\u8bae\u3002",
+      "author": "jinmo100",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jinmo100--aiwriting",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ensono--eirctl",
+      "description": "The task runner for containers",
+      "author": "Ensono",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ensono--eirctl",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "thavarshan--wisp",
+      "description": "\ud83d\udd10 Wisp is a simple and secure platform for sharing encrypted, one-time secrets via protected links that automatically expire.",
+      "author": "Thavarshan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thavarshan--wisp",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "evansims--openfga-mcp",
+      "description": "Model Context Protocol server enabling querying and management of OpenFGA and Auth0 FGA authorization stores for automation, intelligent tooling, and natural language.",
+      "author": "evansims",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/evansims--openfga-mcp",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "bfl-lab--eukan",
+      "description": "A eukaryotic genome annotation pipeline",
+      "author": "BFL-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bfl-lab--eukan",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "farworld-labs--game-template",
+      "description": "game-template",
+      "author": "farworld-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/farworld-labs--game-template",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "farworld-labs--game-template",
+      "description": "game-template",
+      "author": "farworld-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/farworld-labs--game-template",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "farworld-labs--game-template",
+      "description": "game-template",
+      "author": "farworld-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/farworld-labs--game-template",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "thavarshan--wisp",
+      "description": "\ud83d\udd10 Wisp is a simple and secure platform for sharing encrypted, one-time secrets via protected links that automatically expire.",
+      "author": "Thavarshan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thavarshan--wisp",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
