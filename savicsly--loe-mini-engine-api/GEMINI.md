@@ -290,6 +290,5 @@ $pages->assertNoJavascriptErrors()->assertNoConsoleLogs();
 </laravel-boost-guidelines>
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/savicsly)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/savicsly)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Source: [savicsly/loe-mini-engine-api](https://github.com/savicsly/loe-mini-engine-api) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-27 -->
