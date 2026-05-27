@@ -7,12 +7,12 @@ An LLM-powered chatbot for fediverse. A tech demo for BotKit.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [fedify-dev/fedichatbot](https://github.com/fedify-dev/fedichatbot).
+Original source: `AGENTS.md` in [fedify-dev/fedichatbot](https://github.com/fedify-dev/fedichatbot).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
