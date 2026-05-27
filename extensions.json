@@ -123996,14 +123996,6 @@
       "quality": "bronze"
     },
     {
-      "name": "rawveg--trader-magic",
-      "description": "A local AI-powered automated trading system built with Python. The system uses Ollama for AI decision-making, TAAPI.io for technical indicators, and Alpaca for trade execution.",
-      "author": "rawveg",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rawveg--trader-magic",
-      "stars": 36,
-      "quality": "silver"
-    },
-    {
       "name": "dtinth--thaiexamjs",
       "description": "Compare how different AI models perform on Thailand\u2019s standardized exams",
       "author": "dtinth",
@@ -143212,6 +143204,14 @@
       "quality": "silver"
     },
     {
+      "name": "chryzsh--docker-cobaltstrike",
+      "description": "docker-cobaltstrike",
+      "author": "chryzsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chryzsh--docker-cobaltstrike",
+      "stars": 28,
+      "quality": "bronze"
+    },
+    {
       "name": "khangbdd--phoenix",
       "description": "phoenix",
       "author": "khangbdd",
@@ -146536,6 +146536,46 @@
       "description": "Old-school video feedback effect for Unity URP",
       "author": "keijiro",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/keijiro--kinofeedbackurp",
+      "stars": 27,
+      "quality": "bronze"
+    },
+    {
+      "name": "castorini--nuggetizer",
+      "description": "nuggetizer",
+      "author": "castorini",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/castorini--nuggetizer",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "ctxs-ai--ctxs-ai",
+      "description": "an open-source, community-curated directory of contexts for use with LLMs",
+      "author": "ctxs-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxs-ai--ctxs-ai",
+      "stars": 27,
+      "quality": "bronze"
+    },
+    {
+      "name": "castorini--nuggetizer",
+      "description": "nuggetizer",
+      "author": "castorini",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/castorini--nuggetizer",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "ctxs-ai--ctxs-ai",
+      "description": "an open-source, community-curated directory of contexts for use with LLMs",
+      "author": "ctxs-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxs-ai--ctxs-ai",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "ctxs-ai--ctxs-ai",
+      "description": "an open-source, community-curated directory of contexts for use with LLMs",
+      "author": "ctxs-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxs-ai--ctxs-ai",
       "stars": 27,
       "quality": "bronze"
     },
@@ -150100,6 +150140,30 @@
       "quality": "silver"
     },
     {
+      "name": "onmomo--squeeze-plex-hub",
+      "description": "Squeeze Plex Hub bridges Plexamp (Plex) with your Logitech / Lyrion Music Server ecosystem so you can play Plex audio on Squeezebox players.",
+      "author": "onmomo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onmomo--squeeze-plex-hub",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "onmomo--squeeze-plex-hub",
+      "description": "Squeeze Plex Hub bridges Plexamp (Plex) with your Logitech / Lyrion Music Server ecosystem so you can play Plex audio on Squeezebox players.",
+      "author": "onmomo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onmomo--squeeze-plex-hub",
+      "stars": 26,
+      "quality": "bronze"
+    },
+    {
+      "name": "stagsz--unconventional-thinking",
+      "description": "An MCP server for unconventional and boundary-breaking problem-solving through an advanced note-taking system.",
+      "author": "stagsz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stagsz--unconventional-thinking",
+      "stars": 26,
+      "quality": "gold"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -153634,6 +153698,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kazupon--args-tokens",
       "stars": 25,
       "quality": "silver"
+    },
+    {
+      "name": "miguelelgallo--iparq",
+      "description": "Display version and compression information about a parquet file",
+      "author": "MiguelElGallo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/miguelelgallo--iparq",
+      "stars": 25,
+      "quality": "bronze"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -157280,6 +157352,14 @@
       "description": "One click away from a locally downloaded, fine-tuned model, hosted on hugging face, with inference built in. In two hours. ",
       "author": "HarleyCoops",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/harleycoops--oneshotaquarat",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "saward--spawn",
+      "description": "spawn",
+      "author": "saward",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saward--spawn",
       "stars": 24,
       "quality": "silver"
     },
@@ -169988,6 +170068,22 @@
       "quality": "silver"
     },
     {
+      "name": "kitakkun--jetwhale",
+      "description": "A next-generation extensible debugger for modern apps, powered by Jetpack Compose.",
+      "author": "kitakkun",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kitakkun--jetwhale",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "minami110--godot-signal-extensions",
+      "description": "Godot 4 plugin that extends GDScript's Signal and Callable.",
+      "author": "minami110",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minami110--godot-signal-extensions",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs.",
       "author": "develite98",
@@ -178580,6 +178676,14 @@
       "quality": "silver"
     },
     {
+      "name": "thanhdaon--clean-arch-go",
+      "description": "Clean Architecture, DDD, CQRS with testings in Go",
+      "author": "thanhdaon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thanhdaon--clean-arch-go",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon",
       "author": "nirholas",
@@ -183568,6 +183672,30 @@
       "description": "NaLaMap is an open-source application to create webmaps and analyze geospatial data using natural language. ",
       "author": "nalamap",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nalamap--nalamap",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "hoper-j--cpolar-connect",
+      "description": "\ud83d\ude80 A command-line tool for automating cpolar tunnel management and SSH connections.  \u81ea\u52a8\u5316\u7ba1\u7406 cpolar \u514d\u8d39\u7248\u5185\u7f51\u7a7f\u900f\u8fde\u63a5\u7684\u547d\u4ee4\u884c\u5de5\u5177\u3002",
+      "author": "Hoper-J",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hoper-j--cpolar-connect",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "komlev--darksouls-notifications",
+      "description": "Dark Souls themed email notification extension",
+      "author": "komlev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/komlev--darksouls-notifications",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "hoper-j--cpolar-connect",
+      "description": "\ud83d\ude80 A command-line tool for automating cpolar tunnel management and SSH connections.  \u81ea\u52a8\u5316\u7ba1\u7406 cpolar \u514d\u8d39\u7248\u5185\u7f51\u7a7f\u900f\u8fde\u63a5\u7684\u547d\u4ee4\u884c\u5de5\u5177\u3002",
+      "author": "Hoper-J",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hoper-j--cpolar-connect",
       "stars": 18,
       "quality": "silver"
     },
@@ -189384,6 +189512,14 @@
       "description": "A prototype of a codetracer recorder for Ruby",
       "author": "metacraft-labs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/metacraft-labs--codetracer-ruby-recorder",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "tayfunerbilen--prototurk-go-backend",
+      "description": "prototurk-go-backend",
+      "author": "tayfunerbilen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tayfunerbilen--prototurk-go-backend",
       "stars": 17,
       "quality": "silver"
     },
@@ -200804,6 +200940,14 @@
       "quality": "gold"
     },
     {
+      "name": "rambip--plant-mesh",
+      "description": "Mesh generation for tree and plants, using volumetric invigoration",
+      "author": "rambip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rambip--plant-mesh",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -207210,6 +207354,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lowrezstudio--tempest",
       "stars": 14,
       "quality": "gold"
+    },
+    {
+      "name": "wandlerai--wandler",
+      "description": "run ai in your browser",
+      "author": "wandlerai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wandlerai--wandler",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "srizzon--my-barbershop",
+      "description": "my-barbershop",
+      "author": "srizzon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/srizzon--my-barbershop",
+      "stars": 14,
+      "quality": "silver"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -223274,6 +223434,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omarelhassanialaoui--flutcn-ui",
       "stars": 12,
       "quality": "silver"
+    },
+    {
+      "name": "georgejeffers--gemini-mcp-server",
+      "description": "A Model Context Protocol (MCP) server that integrates with Google's Gemini Pro model, can be used in Claude Desktop App.",
+      "author": "georgejeffers",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/georgejeffers--gemini-mcp-server",
+      "stars": 12,
+      "quality": "bronze"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
