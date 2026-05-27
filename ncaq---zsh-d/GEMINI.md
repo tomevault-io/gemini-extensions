@@ -54,5 +54,5 @@ CLAUDE.md -> .github/copilot-instructions.md
 これにより各種LLM向けのドキュメントを一元管理しています。
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/ncaq) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-10 -->
+> Source: [ncaq/.zsh.d](https://github.com/ncaq/.zsh.d) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-05-27 -->
