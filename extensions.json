@@ -229572,6 +229572,22 @@
       "quality": "silver"
     },
     {
+      "name": "solpbc--solstone-journal",
+      "description": "Navigate Life Intelligently",
+      "author": "solpbc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/solpbc--solstone-journal",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "solpbc--solstone-journal",
+      "description": "Navigate Life Intelligently",
+      "author": "solpbc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/solpbc--solstone-journal",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -294456,6 +294472,22 @@
       "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
       "author": "wesleysimplicio",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-dev-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "zibouddd--reposcry",
+      "description": "reposcry",
+      "author": "zibouddd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zibouddd--reposcry",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ctoth--mcp-server-code-extractor",
+      "description": "\ud83c\udfaf Precise code extraction for AI assistants - MCP server using tree-sitter to extract functions, classes & snippets from 30+ languages without manual parsing",
+      "author": "ctoth",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctoth--mcp-server-code-extractor",
       "stars": 8,
       "quality": "silver"
     },
