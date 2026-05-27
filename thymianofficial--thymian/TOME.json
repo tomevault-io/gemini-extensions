@@ -4,7 +4,7 @@
   "repo": "thymian",
   "description": "Thymian is a language-agnostic, open-source HTTP conformance and API governance tool. It validates your APIs against RFC standards and your OpenAPI specification \u2014 statically, against live endpoints, and in recorded production traffic. Fully extensible with plugins and shareable custom rules.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/thymianofficial/thymian",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-27T21:37:27Z"
+  "distributed_at": "2026-05-27T21:46:48Z"
 }
