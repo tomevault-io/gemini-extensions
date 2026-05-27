@@ -7,11 +7,11 @@ NEW ROCmfp4 format for llama.cpp
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [charlie12345/rocmfp4-llama](https://github.com/charlie12345/rocmfp4-llama).
+Original source: `CLAUDE.md` in [charlie12345/rocmfp4-llama](https://github.com/charlie12345/rocmfp4-llama).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
