@@ -4,7 +4,7 @@
   "repo": "azure-ai-security-sandbox",
   "description": "Built on Bicep and AZD CLI, fully automated RAG chat app - AFD, APIM, ACA, AI Search, Azure Storage, Cosmos, and Azure Open AI with optional Defender Plans, and a full \"How it Works\" user learning guide.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/matthansen0/azure-ai-security-sandbox",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-27T14:39:40Z"
+  "distributed_at": "2026-05-27T14:47:32Z"
 }
