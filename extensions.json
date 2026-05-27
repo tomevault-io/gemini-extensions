@@ -276524,6 +276524,22 @@
       "quality": "silver"
     },
     {
+      "name": "opencut-app--opencut-classic",
+      "description": "Original OpenCut codebase",
+      "author": "OpenCut-app",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opencut-app--opencut-classic",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "opencut-app--opencut-classic",
+      "description": "Original OpenCut codebase",
+      "author": "OpenCut-app",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opencut-app--opencut-classic",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -298832,6 +298848,54 @@
       "description": "\u96f6\u6469\u64e6\u8bed\u97f3\u6355\u6349\u7ba1\u9053 \u2014 Tauri 2.0 (Rust + Web)",
       "author": "MuChengZJU",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muchengzju--flash-idea",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "curryfromuestc--autoysyx",
+      "description": "autoysyx",
+      "author": "curryfromuestc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/curryfromuestc--autoysyx",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "skawld--skawld-agent",
+      "description": "Skawld Agent Core & SDK",
+      "author": "skawld",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skawld--skawld-agent",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "skawld--skawld-agent",
+      "description": "Skawld Agent Core & SDK",
+      "author": "skawld",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skawld--skawld-agent",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "duosl--weread-skill-desktop",
+      "description": "\u57fa\u4e8e\u5fae\u4fe1\u8bfb\u4e66 SKill \u5f00\u53d1\u7684\u684c\u9762\u5ba2\u6237\u7aef\uff0c\u652f\u6301 Windows, Mac, Linux \u5168\u5e73\u53f0",
+      "author": "Duosl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/duosl--weread-skill-desktop",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "sanchitsahni--damn-vulnerable-active-directory",
+      "description": "A reproducible, multi-forest Windows Active Directory lab intentionally misconfigured for offensive security training and red teaming. Features 382 vulnerabilities across Kerberos, ADCS, Trusts, and m",
+      "author": "sanchitsahni",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanchitsahni--damn-vulnerable-active-directory",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "sanchitsahni--damn-vulnerable-active-directory",
+      "description": "A reproducible, multi-forest Windows Active Directory lab intentionally misconfigured for offensive security training and red teaming. Features 382 vulnerabilities across Kerberos, ADCS, Trusts, and m",
+      "author": "sanchitsahni",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanchitsahni--damn-vulnerable-active-directory",
       "stars": 7,
       "quality": "silver"
     },
