@@ -73884,6 +73884,14 @@
       "quality": "silver"
     },
     {
+      "name": "ivanwng97--pixtuoid",
+      "description": "Terminal pixel-art office for AI coding agents \u2014 watch your Claude Code sessions type, walk, and nap in a coworking lounge. Half-block rendering, A* pathfinding, per-tool monitor glow. Pure Rust, runs",
+      "author": "IvanWng97",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivanwng97--pixtuoid",
+      "stars": 80,
+      "quality": "gold"
+    },
+    {
       "name": "keep-starknet-strange--starknet-agentic",
       "description": "Smart contracts, tools, and skills for AI agents that transact on Starknet",
       "author": "keep-starknet-strange",
@@ -166324,6 +166332,14 @@
       "quality": "bronze"
     },
     {
+      "name": "vivganes--kanbanstr",
+      "description": "Kanban on Nostr [Public events only]",
+      "author": "vivganes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vivganes--kanbanstr",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -170456,6 +170472,22 @@
       "description": "A hands-on learning platform for understanding and testing LLM security vulnerabilities",
       "author": "tomabai",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tomabai--llm-sec",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "wpinfusion--astro-hyperdrive",
+      "description": "An Astro template designed for Automotive dealerships",
+      "author": "wpinfusion",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wpinfusion--astro-hyperdrive",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "autoarchive--webnr",
+      "description": "A modern, feature-rich reading web app for txt novels built with Next.js and TypeScript. https://app.webnovel.win",
+      "author": "AutoArchive",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/autoarchive--webnr",
       "stars": 21,
       "quality": "silver"
     },
@@ -179164,6 +179196,22 @@
       "quality": "gold"
     },
     {
+      "name": "mickgiles--homebridge-tsvesync",
+      "description": "Homebridge plugin for Etekcity, Vesync, and Levoit smart devices",
+      "author": "mickgiles",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mickgiles--homebridge-tsvesync",
+      "stars": 19,
+      "quality": "bronze"
+    },
+    {
+      "name": "mickgiles--homebridge-tsvesync",
+      "description": "Homebridge plugin for Etekcity, Vesync, and Levoit smart devices",
+      "author": "mickgiles",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mickgiles--homebridge-tsvesync",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon",
       "author": "nirholas",
@@ -184288,6 +184336,14 @@
       "description": "The Hack Club streaming service.",
       "author": "SrIzan10",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/srizan10--hctv",
+      "stars": 18,
+      "quality": "gold"
+    },
+    {
+      "name": "jaal-yantra-textiles--v2",
+      "description": "Launch your design and artisanal garment marketplace with e-commerce, pre-production and operations management without writing a single line of code.",
+      "author": "Jaal-Yantra-Textiles",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaal-yantra-textiles--v2",
       "stars": 18,
       "quality": "gold"
     },
@@ -201708,6 +201764,46 @@
       "quality": "silver"
     },
     {
+      "name": "thorinside--nt-helper",
+      "description": "nt_helper",
+      "author": "thorinside",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thorinside--nt-helper",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "thorinside--nt-helper",
+      "description": "nt_helper",
+      "author": "thorinside",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thorinside--nt-helper",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "stef1949--lumifur-controller",
+      "description": "ESP32 controller code for an LED matrix display designed for a Protogen mask. It features various facial expressions and animations, which can be controlled via Bluetooth Low Energy (BLE) using an ESP",
+      "author": "stef1949",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stef1949--lumifur-controller",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "lastbotinc--nextjs-ai-webpage",
+      "description": "nextjs-ai-webpage",
+      "author": "LastBotInc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lastbotinc--nextjs-ai-webpage",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "leapward-koex--namida-ocr",
+      "description": "A purely browser based OCR tool designed recognizing, copying, and pronouncing Japanese text",
+      "author": "Leapward-Koex",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leapward-koex--namida-ocr",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -208176,6 +208272,46 @@
       "description": "An LLM-powered chatbot for fediverse. A tech demo for BotKit.",
       "author": "fedify-dev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fedify-dev--fedichatbot",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "johnlindquist--script-generator",
+      "description": "script-generator",
+      "author": "johnlindquist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/johnlindquist--script-generator",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "johnlindquist--script-generator",
+      "description": "script-generator",
+      "author": "johnlindquist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/johnlindquist--script-generator",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "johnlindquist--script-generator",
+      "description": "script-generator",
+      "author": "johnlindquist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/johnlindquist--script-generator",
+      "stars": 14,
+      "quality": "gold"
+    },
+    {
+      "name": "fedi-libs--apkit",
+      "description": "Powerful Toolkit for ActivityPub Implementations.",
+      "author": "fedi-libs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fedi-libs--apkit",
+      "stars": 14,
+      "quality": "gold"
+    },
+    {
+      "name": "jameshanlon--slang-netlist",
+      "description": "A tool for analysing the source-level static connectivity of a SystemVerilog design",
+      "author": "jameshanlon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jameshanlon--slang-netlist",
       "stars": 14,
       "quality": "silver"
     },
@@ -215952,6 +216088,22 @@
       "description": "DTLS 1.2/1.3 implementation (Sans\u2011IO, Sync)",
       "author": "algesten",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/algesten--dimpl",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "vechain--vechain-kit",
+      "description": "An all-in-one library for building VeChain applications.",
+      "author": "vechain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vechain--vechain-kit",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "vechain--vechain-kit",
+      "description": "An all-in-one library for building VeChain applications.",
+      "author": "vechain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vechain--vechain-kit",
       "stars": 13,
       "quality": "silver"
     },
@@ -224352,6 +224504,14 @@
       "description": "A Simple Autonomous Perps Trading Agent for Hyperliquid L1",
       "author": "algo-traders-club",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/algo-traders-club--baby-smith",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "reqvire-org--reqvire",
+      "description": "Semantic engineering graph for building verifiable and traceable systems.",
+      "author": "reqvire-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/reqvire-org--reqvire",
       "stars": 12,
       "quality": "silver"
     },
@@ -233312,6 +233472,14 @@
       "description": "Free, open-source first-customer-discovery tool for indie AI builders. Paste your idea, get 15 verified prospects with outreach hooks in 30s.",
       "author": "clickspider",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clickspider--icpfinder",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "kuro96--coc-ai",
+      "description": "AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim, built on top of coc.nvim's extension system, with support for DeepSeek-R1(deepseek-reasoner)",
+      "author": "Kuro96",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kuro96--coc-ai",
       "stars": 11,
       "quality": "gold"
     },
@@ -245560,6 +245728,38 @@
       "description": "\ud83e\udded \u7ed9 Claude Code / Cursor / Codex \u7528\u7684\u300e\u67b6\u6784\u526f\u9a7e\u300fskill \u2014\u2014 \u5f00\u65b0\u9879\u76ee\u65f6\u7528\u6301\u7eed\u6df1\u5ea6\u63d0\u95ee\u5f15\u5bfc\u4f60\u5728\u5199\u4ee3\u7801\u524d\u60f3\u6e05\u695a\u67b6\u6784(\u4ea7\u51fa\u67b6\u6784\u56fe / ADR / \u6f14\u8fdb\u8def\u7ebf)\u3002\u77e5\u8bc6\u6e90\u81ea awesome-architecture\u3002\u4e2d\u82f1\u53cc\u8bed\u3002",
       "author": "study8677",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/study8677--architecture-copilot",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "oribarilan--vimcode",
+      "description": "vimcode",
+      "author": "oribarilan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oribarilan--vimcode",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "edu4rdshl--strata",
+      "description": "A robust GNOME clipboard manager with a Rust daemon backend",
+      "author": "Edu4rdSHL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/edu4rdshl--strata",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "tobyilee--team-bigfive",
+      "description": "team-bigfive",
+      "author": "tobyilee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tobyilee--team-bigfive",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "natrontech--openvpn-exporter",
+      "description": "A prometheus exporter for OpenVPN",
+      "author": "natrontech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/natrontech--openvpn-exporter",
       "stars": 10,
       "quality": "silver"
     },
