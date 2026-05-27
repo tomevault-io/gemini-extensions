@@ -2,15 +2,17 @@
 
 > Tome by [thomasht86](https://github.com/thomasht86/httpr) — distributed by [TomeVault](https://tomevault.io)
 
+Python http client with async and sync interface that mimics httpx, in rust for performance
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [thomasht86/httpr](https://github.com/thomasht86/httpr).
+Original source: `copilot-instructions.md` in [thomasht86/httpr](https://github.com/thomasht86/httpr).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
