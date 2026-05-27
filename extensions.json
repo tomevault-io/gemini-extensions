@@ -276204,6 +276204,22 @@
       "quality": "bronze"
     },
     {
+      "name": "goroman--nullevi03",
+      "description": "nullevi03",
+      "author": "GOROman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goroman--nullevi03",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "haga0531--service-bus-explorer",
+      "description": "Modern cross-platform Azure Service Bus management tool",
+      "author": "haga0531",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haga0531--service-bus-explorer",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -294124,6 +294140,54 @@
       "quality": "gold"
     },
     {
+      "name": "firewalker06--tycho",
+      "description": "Its Factorio for coding agents",
+      "author": "firewalker06",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/firewalker06--tycho",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wesleysimplicio--simplicio-dev-cli",
+      "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
+      "author": "wesleysimplicio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-dev-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wesleysimplicio--simplicio-dev-cli",
+      "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
+      "author": "wesleysimplicio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-dev-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "firewalker06--tycho",
+      "description": "Its Factorio for coding agents",
+      "author": "firewalker06",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/firewalker06--tycho",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "fundamental-research-labs--mog",
+      "description": "Programmable spreadsheet platform with a TypeScript/Rust engine, SDK, and embeddable workbook runtime.",
+      "author": "fundamental-research-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fundamental-research-labs--mog",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wesleysimplicio--simplicio-dev-cli",
+      "description": "Your tasks with 99% accuracy using any LLM (Claude, DeepSeek, Codex, Gemini, Hermes, OpenClaw, Cursor).",
+      "author": "wesleysimplicio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wesleysimplicio--simplicio-dev-cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -298408,6 +298472,46 @@
       "description": "esposito",
       "author": "ralsina",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ralsina--esposito",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "xrip--uo-client",
+      "description": "Ultima Online T2A client recreated from Origin's 2.0.7 client decompilation",
+      "author": "xrip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xrip--uo-client",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "xrip--uo-client",
+      "description": "Ultima Online T2A client recreated from Origin's 2.0.7 client decompilation",
+      "author": "xrip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xrip--uo-client",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "hermeticbuild--actiond",
+      "description": "A fully hermetic local \"remote executor\"",
+      "author": "hermeticbuild",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hermeticbuild--actiond",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "777vv--plain-view",
+      "description": "\u57fa\u4e8e Chromium \u7684\u6d4f\u89c8\u5668\u6269\u5c55\u3002\u628a\u6d4f\u89c8\u5668\u53d8\u6210 JSON / Markdown / SQL / YAML / CSV / LOG \u7b49\u6587\u4ef6\u7684\u53cb\u597d\u67e5\u770b\u5668:\u81ea\u52a8\u7f8e\u5316\u3001\u8bed\u6cd5\u9ad8\u4eae\u3001\u53ef\u6298\u53e0\u6811\u3001\u53ef\u6392\u5e8f\u53ef\u7f16\u8f91\u7684\u8868\u683c\u3001\u4eae\u767d/\u6697\u9ed1\u53cc\u4e3b\u9898 \u2014\u2014 \u96f6\u8fd0\u884c\u65f6\u4f9d\u8d56\u3001\u7eaf\u624b\u5199\u3001\u65e0\u6253\u5305\u5668",
+      "author": "777vv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/777vv--plain-view",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "muchengzju--flash-idea",
+      "description": "\u96f6\u6469\u64e6\u8bed\u97f3\u6355\u6349\u7ba1\u9053 \u2014 Tauri 2.0 (Rust + Web)",
+      "author": "MuChengZJU",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muchengzju--flash-idea",
       "stars": 7,
       "quality": "silver"
     },
@@ -464120,6 +464224,166 @@
       "description": "Intentionally simple multimedia file manager",
       "author": "zootella",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zootella--fuji",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mthandazoemmanuel2-oss--portfolio",
+      "description": "Portfolio",
+      "author": "mthandazoemmanuel2-oss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mthandazoemmanuel2-oss--portfolio",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "tonio0--test",
+      "description": "test",
+      "author": "tonio0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tonio0--test",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "knathip01--the-bottle-club-ai",
+      "description": "The-bottle-club-AI",
+      "author": "Knathip01",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/knathip01--the-bottle-club-ai",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "justjhong609--obsidian-alike",
+      "description": "A minimalist, Obsidian-inspired personal knowledge base web app built with Next.js, React Flow, and Zustand.",
+      "author": "JustJhong609",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/justjhong609--obsidian-alike",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "agui-coder--lieguo",
+      "description": "lieguo",
+      "author": "agui-coder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agui-coder--lieguo",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "tejassreerr--javascript-2",
+      "description": "javascript-2",
+      "author": "TEJASSREERR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tejassreerr--javascript-2",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "vincertp--hollywood-script-stack",
+      "description": "hollywood-script-stack",
+      "author": "vincertp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vincertp--hollywood-script-stack",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "arafat7r5--taskflow",
+      "description": "taskFlow",
+      "author": "Arafat7r5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arafat7r5--taskflow",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "thinhltdev--pocket-clash",
+      "description": "pocket-clash",
+      "author": "thinhltdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thinhltdev--pocket-clash",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "actionistdev--docs",
+      "description": "docs",
+      "author": "actionistdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/actionistdev--docs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kajcsaerno--tradingview-mcp",
+      "description": "tradingview-mcp",
+      "author": "KajcsaErno",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kajcsaerno--tradingview-mcp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "almunawar12--madrasah-cbt",
+      "description": "madrasah-cbt",
+      "author": "almunawar12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/almunawar12--madrasah-cbt",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jens-v88--kosmos0",
+      "description": "kosmos0",
+      "author": "jens-v88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jens-v88--kosmos0",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "viezfactor--luxe-estate",
+      "description": "Luxe-Estate",
+      "author": "VIEZFactor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/viezfactor--luxe-estate",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "almunawar12--madrasah-cbt",
+      "description": "madrasah-cbt",
+      "author": "almunawar12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/almunawar12--madrasah-cbt",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "thriveer--echoes-of-honor",
+      "description": "KCN\u8363\u8a89\u5c55\u793a\u4ea4\u4e92\u7cfb\u7edf",
+      "author": "Thriveer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thriveer--echoes-of-honor",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "thriveer--echoes-of-honor",
+      "description": "KCN\u8363\u8a89\u5c55\u793a\u4ea4\u4e92\u7cfb\u7edf",
+      "author": "Thriveer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thriveer--echoes-of-honor",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "yydjh--cf-worker-mihomo",
+      "description": "cf-worker-mihomo",
+      "author": "yydjh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yydjh--cf-worker-mihomo",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "yashv-cruv--brand-control-center",
+      "description": "Brand-Control-Center",
+      "author": "yashv-cruv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yashv-cruv--brand-control-center",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "maorshapiro--thebestapp",
+      "description": "THEBESTAPP",
+      "author": "MaorShapiro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maorshapiro--thebestapp",
       "stars": 0,
       "quality": "silver"
     }
