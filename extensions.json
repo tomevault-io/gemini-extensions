@@ -276580,6 +276580,22 @@
       "quality": "silver"
     },
     {
+      "name": "milktang0128--myskills",
+      "description": "AI Skill Hub \u2014 unified management of AI agent skills across Claude, Codex and other platforms (spec phase)",
+      "author": "Milktang0128",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milktang0128--myskills",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "divitmittal--awesome",
+      "description": "Personal Awesome list",
+      "author": "DivitMittal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/divitmittal--awesome",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -294564,6 +294580,22 @@
       "quality": "silver"
     },
     {
+      "name": "donrington--thecybersage",
+      "description": "My Portfolio Version 3",
+      "author": "Donrington",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/donrington--thecybersage",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "aiunlocked1412--boxbox",
+      "description": "A Claude Code plugin that turns any codebase into a beautiful, zoomable HTML system diagram for non-coders. by AI UNLOCKED",
+      "author": "aiunlocked1412",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aiunlocked1412--boxbox",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -298936,6 +298968,14 @@
       "description": "A reproducible, multi-forest Windows Active Directory lab intentionally misconfigured for offensive security training and red teaming. Features 382 vulnerabilities across Kerberos, ADCS, Trusts, and m",
       "author": "sanchitsahni",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanchitsahni--damn-vulnerable-active-directory",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "kuliantnt--cc-switch-simple",
+      "description": "Bash CLI for switching Claude Code config profiles on WSL/Linux",
+      "author": "kuliantnt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kuliantnt--cc-switch-simple",
       "stars": 7,
       "quality": "silver"
     },
