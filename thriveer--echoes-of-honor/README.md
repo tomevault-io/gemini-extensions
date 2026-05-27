@@ -7,11 +7,11 @@ KCN荣誉展示交互系统
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Thriveer/Echoes-of-Honor](https://github.com/Thriveer/Echoes-of-Honor).
+Original source: `CLAUDE.md` in [Thriveer/Echoes-of-Honor](https://github.com/Thriveer/Echoes-of-Honor).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
