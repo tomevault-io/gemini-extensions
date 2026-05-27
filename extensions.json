@@ -220916,6 +220916,14 @@
       "quality": "silver"
     },
     {
+      "name": "anantbhandarkar--make-it-right",
+      "description": "Make It Right \u2014 constraint-first backend reliability skills for AI coding agents. 3 tiers (generic \u2192 runtime \u2192 framework) across 9 runtimes; stops AI shipping confident-but-wrong backend code. Apache-",
+      "author": "anantbhandarkar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anantbhandarkar--make-it-right",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
