@@ -281020,6 +281020,30 @@
       "quality": "bronze"
     },
     {
+      "name": "qigangc--trpg-agent",
+      "description": "A TRPG Agent with a UI for a better solo gaming experience.",
+      "author": "qigangc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qigangc--trpg-agent",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jiaran-king--re-zero---starting-llm",
+      "description": "Re-Zero---Starting-LLM-",
+      "author": "jiaran-king",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jiaran-king--re-zero---starting-llm",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "aicayzer--companies-house-mcp",
+      "description": "CLI and MCP server for the UK Companies House API \u2014 company search, profiles, officers, filings, ownership, and due diligence",
+      "author": "aicayzer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aicayzer--companies-house-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -299188,6 +299212,62 @@
       "quality": "silver"
     },
     {
+      "name": "kaijie0074-art--ip-website-studio",
+      "description": "\u5728\u6d4f\u89c8\u5668\u91cc\u7528 AI \u9020\u4e00\u4e2a\u5355\u6587\u4ef6\u7f51\u7ad9\u3002BYOK \u00b7 Single-file HTML output",
+      "author": "kaijie0074-art",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaijie0074-art--ip-website-studio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "aipccode--pa",
+      "description": "pa",
+      "author": "AipcCode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aipccode--pa",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "x-isdoingreat--canvas-pilot-public",
+      "description": "An agent lives in Canvas that does all of your homework",
+      "author": "X-isdoingreat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/x-isdoingreat--canvas-pilot-public",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "danwahlin--copilot-mission-control",
+      "description": "Tauri 2 + Phaser 4 desktop dashboard that visualizes live GitHub Copilot CLI activity.",
+      "author": "DanWahlin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danwahlin--copilot-mission-control",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "yiyifred--cloud-phone",
+      "description": "A project for online screen mirroring of mobile phones.",
+      "author": "yiyifred",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yiyifred--cloud-phone",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "x-isdoingreat--canvas-pilot-public",
+      "description": "An agent lives in Canvas that does all of your homework",
+      "author": "X-isdoingreat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/x-isdoingreat--canvas-pilot-public",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "danwahlin--copilot-mission-control",
+      "description": "Tauri 2 + Phaser 4 desktop dashboard that visualizes live GitHub Copilot CLI activity.",
+      "author": "DanWahlin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danwahlin--copilot-mission-control",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -303610,6 +303690,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/engine-room-games--mgenerators",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "ehsankolivand--speakloop",
+      "description": "Offline English interview practice CLI with grammar feedback for Persian L1 speakers, built for Apple Silicon",
+      "author": "ehsankolivand",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ehsankolivand--speakloop",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "jegovpn--sbcv",
+      "description": "sbcv \u2014 sing-box configuration visualizer. Build, inspect, validate, import, and export sing-box JSON configurations through a visual canvas backed by a canonical config model.",
+      "author": "JegoVPN",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jegovpn--sbcv",
+      "stars": 7,
+      "quality": "gold"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
@@ -469610,6 +469706,182 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yismen--ecco-invoicing",
       "stars": 0,
       "quality": "gold"
+    },
+    {
+      "name": "serajang99--test3",
+      "description": "test3",
+      "author": "serajang99",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/serajang99--test3",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "trosfros--registre",
+      "description": "Registre",
+      "author": "Trosfros",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trosfros--registre",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ryan1712--ai-invoice-workflow",
+      "description": "ai-invoice-workflow",
+      "author": "Ryan1712",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ryan1712--ai-invoice-workflow",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zekeriyakaraca-pixel--cut-opt-pro",
+      "description": "Cut_opt_pro",
+      "author": "zekeriyakaraca-pixel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zekeriyakaraca-pixel--cut-opt-pro",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "appneural-boilerplates--laravel-php-monolithic-boilerplate",
+      "description": "Production-ready Laravel modular monolith boilerplate with API routes, validation, services, repositories, tests, and Docker.",
+      "author": "APPNEURAL-Boilerplates",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/appneural-boilerplates--laravel-php-monolithic-boilerplate",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ange47740--baofeng-business-card",
+      "description": "\u5bf6\u8c50\u96fb\u5b50\u540d\u7247 - Vue 3 + TypeScript + Tailwind CSS v4",
+      "author": "ange47740",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ange47740--baofeng-business-card",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cupcakkejiafeina--pekpekkowalana",
+      "description": "yokonpo",
+      "author": "CupcakkeJiafeina",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cupcakkejiafeina--pekpekkowalana",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wodud6423--nextjs-supabase-app",
+      "description": "nextjs-supabase-app",
+      "author": "wodud6423",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wodud6423--nextjs-supabase-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mikewang68--gc-ems-dngl-fastapi",
+      "description": "GC-EMS FastAPI project",
+      "author": "mikewang68",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikewang68--gc-ems-dngl-fastapi",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kapiljangid8290--cladseo",
+      "description": "CLADSEO",
+      "author": "kapiljangid8290",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kapiljangid8290--cladseo",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "williamxhero--task-center",
+      "description": "\u5b9a\u65f6\u4efb\u52a1\u7ba1\u63a7\u4e2d\u5fc3",
+      "author": "williamxhero",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/williamxhero--task-center",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "hemantbangarip2e--custodialdapp",
+      "description": "custodialDapp",
+      "author": "HemantBangariP2E",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hemantbangarip2e--custodialdapp",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "skghhshh10-droid--sensitive-project",
+      "description": "\uac10\uc131 \ubd84\uc11d \uc6f9\uc0ac\uc774\ud2b8",
+      "author": "skghhshh10-droid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skghhshh10-droid--sensitive-project",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "carlos060798--repositorio-prueba",
+      "description": "prueba de plugin",
+      "author": "carlos060798",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/carlos060798--repositorio-prueba",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sagarpanwarwork--std-app",
+      "description": "std-app",
+      "author": "sagarpanwarwork",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sagarpanwarwork--std-app",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "justjahnabi--dev-events-platform",
+      "description": "dev-events-platform",
+      "author": "justjahnabi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/justjahnabi--dev-events-platform",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "kapiljangid8290--cladseo",
+      "description": "CLADSEO",
+      "author": "kapiljangid8290",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kapiljangid8290--cladseo",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "qarzi-man--rsshub-news",
+      "description": "rsshub-news",
+      "author": "Qarzi-man",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qarzi-man--rsshub-news",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alishkakmnv--autodetailing",
+      "description": "autodetailing",
+      "author": "alishkakmnv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alishkakmnv--autodetailing",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "aishwarya-m-260803--api-tester",
+      "description": "A web-based tool to test APIs with support for multiple HTTP methods, built using Next.js with a backend proxy for seamless data fetching.",
+      "author": "aishwarya-m-260803",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aishwarya-m-260803--api-tester",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "shajidul-sobuj--smartenroll",
+      "description": "SmartEnroll",
+      "author": "shajidul-sobuj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shajidul-sobuj--smartenroll",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "yonas-mengesha--fintech-chatbot",
+      "description": "fintech-chatbot",
+      "author": "Yonas-Mengesha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yonas-mengesha--fintech-chatbot",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
