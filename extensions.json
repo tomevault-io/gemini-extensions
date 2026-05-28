@@ -120196,6 +120196,14 @@
       "quality": "silver"
     },
     {
+      "name": "morpho-org--midnight",
+      "description": "midnight",
+      "author": "morpho-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/morpho-org--midnight",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore.",
       "author": "nikolasburk",
@@ -196308,6 +196316,14 @@
       "quality": "gold"
     },
     {
+      "name": "vxltersmith--lyri",
+      "description": "AI tool for musical audio and lyrics processing",
+      "author": "vxltersmith",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vxltersmith--lyri",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -202216,6 +202232,14 @@
       "description": "O3 Code brings the Codex desktop experience to a local browser with bridge-powered access to your Mac, workspace, tools, and running agent sessions.",
       "author": "o3dotdev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/o3dotdev--o3-code",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "bjornmelin--stardex",
+      "description": "\ud83c\udf1f Stardex: Explore GitHub Stars Intelligently. Stardex is a powerful web app that lets you search, filter, and cluster any GitHub user's starred repositories. Discover hidden patterns and find your ne",
+      "author": "BjornMelin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bjornmelin--stardex",
       "stars": 15,
       "quality": "silver"
     },
@@ -208810,6 +208834,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/event-catalog--generators",
       "stars": 14,
       "quality": "bronze"
+    },
+    {
+      "name": "denolfe--hacker-news-highlights",
+      "description": "Daily podcast summarizing the Top 10 posts/comments on Hacker News",
+      "author": "denolfe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/denolfe--hacker-news-highlights",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "dschewchenko--permask",
+      "description": "A lightweight utility library for managing permission bitmasks with groups and access levels",
+      "author": "dschewchenko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dschewchenko--permask",
+      "stars": 14,
+      "quality": "gold"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -225396,6 +225436,38 @@
       "quality": "silver"
     },
     {
+      "name": "zowe--zowex",
+      "description": "Open-source, native code for z/OS mainframe operations usable via source, DLLs, native CLI (zowex), or callable over SSH via JSON-RPC.",
+      "author": "zowe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zowe--zowex",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "ecomfe--sse-kit",
+      "description": "A generic server-sent-event handling library with dedicated package for microapp, taro, etc...",
+      "author": "ecomfe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ecomfe--sse-kit",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "orenoid--yeeks",
+      "description": "Your year in weeks.",
+      "author": "Orenoid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/orenoid--yeeks",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "302ai--ai-sdk",
+      "description": "302's AI SDK for everyone",
+      "author": "302ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/302ai--ai-sdk",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -234520,6 +234592,30 @@
       "description": "Dew Point Ventilation based on Zigbee with ESP32C6",
       "author": "AndunHH",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andunhh--dew-point-ventilation-zigbee",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "reduction-dev--reduction",
+      "description": "Stateful stream engine for software engineers",
+      "author": "reduction-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/reduction-dev--reduction",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "moonladderstudios--moonmind",
+      "description": "Run Claude Code and Codex with superior safety, resiliency, and observability.",
+      "author": "MoonLadderStudios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moonladderstudios--moonmind",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "moonladderstudios--moonmind",
+      "description": "Run Claude Code and Codex with superior safety, resiliency, and observability.",
+      "author": "MoonLadderStudios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moonladderstudios--moonmind",
       "stars": 11,
       "quality": "silver"
     },
@@ -247264,6 +247360,46 @@
       "description": "Experimental tools for image description interaction.",
       "author": "kellylford",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kellylford--image-description-toolkit",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "openanolis--trustee",
+      "description": "trustee",
+      "author": "openanolis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openanolis--trustee",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "tdeck--3dmake",
+      "description": "Non-visual 3D design and 3D printing tool",
+      "author": "tdeck",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tdeck--3dmake",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "tdeck--3dmake",
+      "description": "Non-visual 3D design and 3D printing tool",
+      "author": "tdeck",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tdeck--3dmake",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "sherlemious--igcse-pseudocode-online-compiler",
+      "description": "IGCSE-Pseudocode-Online-Compiler",
+      "author": "Sherlemious",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sherlemious--igcse-pseudocode-online-compiler",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "co-cddo--gds-idea-llmbo",
+      "description": "gds-idea-llmbo",
+      "author": "co-cddo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/co-cddo--gds-idea-llmbo",
       "stars": 10,
       "quality": "gold"
     },
@@ -282716,6 +282852,302 @@
       "quality": "gold"
     },
     {
+      "name": "netapp--innovation-labs",
+      "description": "Early Access to NetApp Innovation Software | https://netapp.github.io/Innovation-Labs/",
+      "author": "NetApp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/netapp--innovation-labs",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "hssqz--a-share-technical-genius",
+      "description": "\u6167\u773c\u8bc6\u80a1\uff1a\u60a8\u7684\u667a\u80fd\u80a1\u7968\u5206\u6790\u52a9\u624b\uff0c\u5229\u7528 AI \u89e3\u8bfb Tushare Pro \u6570\u636e\uff0c\u52a9\u60a8\u8f7b\u677e\u770b\u61c2\u80a1\u5e02\uff0c\u628a\u63e1\u6295\u8d44\u673a\u9047\u3002",
+      "author": "hssqz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hssqz--a-share-technical-genius",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "klirix--albedo",
+      "description": "albedo",
+      "author": "klirix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/klirix--albedo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "platzi--cursor-ai",
+      "description": "cursor-ai",
+      "author": "platzi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/platzi--cursor-ai",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH",
+      "author": "DCC-BS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-bs--transcribo-frontend",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "r44vc0rp--qr-exon-dev",
+      "description": "qr codes, made easier, without the hassle!",
+      "author": "R44VC0RP",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/r44vc0rp--qr-exon-dev",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "kolosalai--kolosal-automl",
+      "description": "Genta Auto-ML, develop your own machine learning development progress",
+      "author": "KolosalAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kolosalai--kolosal-automl",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "mona-actions--gh-repo-stats-plus",
+      "description": "TypeScript version of repo-stats to collect statistics from GitHub repositories, organizations, and enterprises",
+      "author": "mona-actions",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mona-actions--gh-repo-stats-plus",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "gianlucamazza--mcp-python-toolbox",
+      "description": "A Model Context Protocol (MCP) server that provides a comprehensive set of tools for Python development",
+      "author": "gianlucamazza",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gianlucamazza--mcp-python-toolbox",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "portfedh--codi-api",
+      "description": "  Express.js API for Mexican CoDi digital payments with QR code generation and Banxico integration.",
+      "author": "portfedh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/portfedh--codi-api",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "schibum--camnc",
+      "description": "web app that visualizes CNC G-code on a live camera feed",
+      "author": "Schibum",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schibum--camnc",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dojoengine--katana",
+      "description": "High-performant sequencer for Dojo",
+      "author": "dojoengine",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dojoengine--katana",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "schibum--camnc",
+      "description": "web app that visualizes CNC G-code on a live camera feed",
+      "author": "Schibum",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schibum--camnc",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "magicmicky--lovelace-calendar-heatmap-card",
+      "description": "Lovelace card to display a sensor over a heatmap calendar (similar to github comit)",
+      "author": "MagicMicky",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/magicmicky--lovelace-calendar-heatmap-card",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH",
+      "author": "DCC-BS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-bs--transcribo-frontend",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dojoengine--katana",
+      "description": "High-performant sequencer for Dojo",
+      "author": "dojoengine",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dojoengine--katana",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "luckenco--rsai",
+      "description": "Predictable development for unpredictable models. Let the compiler handle the chaos.",
+      "author": "luckenco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luckenco--rsai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH",
+      "author": "DCC-BS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-bs--transcribo-frontend",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "januarylabs--sdk-it",
+      "description": "SDK-IT generates type-safe client SDKs from OpenAPI specifications and creates OpenAPI specs from TypeScript code.",
+      "author": "JanuaryLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/januarylabs--sdk-it",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "madnessengineering--omnispindle",
+      "description": "A comprehensive MCP-based todo management system, that serves as a central nervous system for Madness Interactive, a multi-project task coordination workshop.",
+      "author": "MadnessEngineering",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/madnessengineering--omnispindle",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "platzi--cursor-ai",
+      "description": "cursor-ai",
+      "author": "platzi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/platzi--cursor-ai",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "klirix--albedo",
+      "description": "albedo",
+      "author": "klirix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/klirix--albedo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ender-wiggin2019--seti",
+      "description": "card list website for board game SETI",
+      "author": "Ender-Wiggin2019",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ender-wiggin2019--seti",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "schibum--camnc",
+      "description": "web app that visualizes CNC G-code on a live camera feed",
+      "author": "Schibum",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schibum--camnc",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "lukesupercoder--cesium-lite",
+      "description": "A lightweight 3D map plug-in developed based on Cesium(\u4e00\u6b3e\u57fa\u4e8ecesium\u5f00\u53d1\u7684\u8f7b\u91cf\u53163d\u5730\u56fe\u63d2\u4ef6)",
+      "author": "lukeSuperCoder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lukesupercoder--cesium-lite",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "luckenco--rsai",
+      "description": "Predictable development for unpredictable models. Let the compiler handle the chaos.",
+      "author": "luckenco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luckenco--rsai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "warrenbuckley--umbraco-community-contentlock",
+      "description": "Umbraco Community ContentLock is an open-source package for Umbraco CMS that prevents content conflicts by enabling content editors to lock nodes while editing.",
+      "author": "warrenbuckley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/warrenbuckley--umbraco-community-contentlock",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ender-wiggin2019--seti",
+      "description": "card list website for board game SETI",
+      "author": "Ender-Wiggin2019",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ender-wiggin2019--seti",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "b-a-m-n--sheppard",
+      "description": "Sheppard is an AI agent for Ollama, handling memory, automation, and knowledge distillation using Redis, PostgreSQL, and ChromaDB. ",
+      "author": "B-A-M-N",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/b-a-m-n--sheppard",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "astrovm--ytmusicfs",
+      "description": "YouTube Music FUSE Filesystem",
+      "author": "astrovm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/astrovm--ytmusicfs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jorgeg94--pic",
+      "description": "A collection of commonly used Fortran native programs for reusability ",
+      "author": "JorgeG94",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jorgeg94--pic",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH",
+      "author": "DCC-BS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-bs--transcribo-frontend",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jonaylor89--freqmoda",
+      "description": "audio editing server and playground",
+      "author": "jonaylor89",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jonaylor89--freqmoda",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "darkstarstrix--pyc",
+      "description": "A AI compiler ToolChain Infrastructure ",
+      "author": "DarkStarStrix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/darkstarstrix--pyc",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "apache--superset-kubernetes-operator",
+      "description": "Apache Superset Kubernetes Operator",
+      "author": "apache",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apache--superset-kubernetes-operator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jonaylor89--freqmoda",
+      "description": "audio editing server and playground",
+      "author": "jonaylor89",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jonaylor89--freqmoda",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "apache--superset-kubernetes-operator",
+      "description": "Apache Superset Kubernetes Operator",
+      "author": "apache",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apache--superset-kubernetes-operator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -301288,6 +301720,102 @@
       "description": "groupby-lib",
       "author": "eoincondron",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eoincondron--groupby-lib",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group.",
+      "author": "SamalehZen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samalehzen--hyperfix-kanban",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "atakmaps--tak-meshcore",
+      "description": "ATAK MeshCore plugin",
+      "author": "atakmaps",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atakmaps--tak-meshcore",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "thu-chorus--tacos",
+      "description": "TaCOS: Tsinghua Chorus Online System for member management, sheet music access, events, and internal operations.",
+      "author": "thu-chorus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thu-chorus--tacos",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "cybersthang--agent-toolkit",
+      "description": "agent-toolkit",
+      "author": "cybersthang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cybersthang--agent-toolkit",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "atakmaps--tak-meshcore",
+      "description": "ATAK MeshCore plugin",
+      "author": "atakmaps",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atakmaps--tak-meshcore",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "pr1m8--haive-agents",
+      "description": "Production-ready agent implementations: SimpleAgent, ReactAgent, MultiAgent, MemoryAgent, RAG variants, and more",
+      "author": "pr1m8",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pr1m8--haive-agents",
       "stars": 8,
       "quality": "silver"
     },
@@ -472040,6 +472568,22 @@
       "description": "dollar-game",
       "author": "declanshanaghy",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/declanshanaghy--dollar-game",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kpessa--ea-python",
+      "description": "ea-python",
+      "author": "kpessa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kpessa--ea-python",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alxsuv--katomato",
+      "description": "katomato",
+      "author": "alxsuv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alxsuv--katomato",
       "stars": 0,
       "quality": "silver"
     }
