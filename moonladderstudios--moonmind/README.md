@@ -7,11 +7,11 @@ Run Claude Code and Codex with superior safety, resiliency, and observability.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [MoonLadderStudios/MoonMind](https://github.com/MoonLadderStudios/MoonMind).
+Original source: `CLAUDE.md` in [MoonLadderStudios/MoonMind](https://github.com/MoonLadderStudios/MoonMind).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
