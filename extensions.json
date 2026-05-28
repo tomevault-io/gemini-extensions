@@ -281092,6 +281092,38 @@
       "quality": "silver"
     },
     {
+      "name": "yoyooyooo--ai-coding-os",
+      "description": "AI Coding Project OS for long-running AI coding: Goal Diffusion Goal Packs, receipt-backed execution, docs governance, and headless product harnesses.",
+      "author": "yoyooyooo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yoyooyooo--ai-coding-os",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "koblers--python-webflow-exporter",
+      "description": "A command-line tool to recursively scrape and download all assets (HTML, CSS, JS, images, media) from a public .webflow.io website. It also provides the option to automatically remove the Webflow badg",
+      "author": "KoblerS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koblers--python-webflow-exporter",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "vaibhavkhushalani--cinematic-portfolio",
+      "description": "cinematic-portfolio",
+      "author": "VaibhavKhushalani",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vaibhavkhushalani--cinematic-portfolio",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "ubicloud--ubiblk",
+      "description": "ubiblk",
+      "author": "ubicloud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ubicloud--ubiblk",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -299368,6 +299400,78 @@
       "description": "A Flutter template project designed to support   AI-powered Flutter app development, with Claude Code   as its core foundation.",
       "author": "r0227n",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/r0227n--flutter-template-project",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "top3d-ai--world-builder",
+      "description": "Get a full interactive 3D scene assembled in Blender",
+      "author": "Top3d-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/top3d-ai--world-builder",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "reactivebayes--cortex-jl",
+      "description": "A next generation message passing engine for Bayesian inference - successor of ReactiveMP.jl",
+      "author": "ReactiveBayes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/reactivebayes--cortex-jl",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "inflowpayai--inflow-node",
+      "description": "inflow-node",
+      "author": "inflowpayai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inflowpayai--inflow-node",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "lvpengfei1--novelforge-agent",
+      "description": "novelforge-agent",
+      "author": "LvPengfei1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lvpengfei1--novelforge-agent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "crazymsn--academic-shcolar-skills",
+      "description": "\u6df1\u5ea6\u4e91\u521b\u79d1\u6280\uff0c\u4e13\u6ce8\u5f00\u53d1 AI \u667a\u80fd\u4f53\u3001AI \u5e94\u7528\u8f85\u52a9\u79d1\u7814\u3001\u5de5\u4f5c\u3001\u5b66\u4e60\uff01",
+      "author": "crazymsn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/crazymsn--academic-shcolar-skills",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "richkershaw--ha-lightdash",
+      "description": "A lightweight dashboard rendering add-on / app for Home Assistant",
+      "author": "richkershaw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/richkershaw--ha-lightdash",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ynfra--yai",
+      "description": "yAI stack",
+      "author": "ynfra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ynfra--yai",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "signalkraft--ebusd-vaillant-component",
+      "description": "Home Assistant custom component for Vaillant heating devices over ebusd MQTT",
+      "author": "signalkraft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/signalkraft--ebusd-vaillant-component",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "top3d-ai--world-builder",
+      "description": "Get a full interactive 3D scene assembled in Blender",
+      "author": "Top3d-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/top3d-ai--world-builder",
       "stars": 8,
       "quality": "silver"
     },
