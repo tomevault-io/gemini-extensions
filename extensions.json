@@ -184356,6 +184356,14 @@
       "quality": "gold"
     },
     {
+      "name": "stagas--hallucinate",
+      "description": "hallucinate",
+      "author": "stagas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stagas--hallucinate",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -233676,6 +233684,14 @@
       "quality": "silver"
     },
     {
+      "name": "onlyterp--prompt-cache-skills",
+      "description": "Drop-in prompt-caching fixes for the LLM agent harness you use. Point your AI coding agent at this repo and it ships the patches.",
+      "author": "OnlyTerp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onlyterp--prompt-cache-skills",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -246026,6 +246042,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fastnear--js-monorepo",
       "stars": 10,
       "quality": "gold"
+    },
+    {
+      "name": "coleam00--harness-engineering-demo",
+      "description": "harness-engineering-demo",
+      "author": "coleam00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coleam00--harness-engineering-demo",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
