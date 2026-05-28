@@ -7,11 +7,11 @@ card list website for board game SETI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Ender-Wiggin2019/seti](https://github.com/Ender-Wiggin2019/seti).
+Original source: `AGENTS.md` in [Ender-Wiggin2019/seti](https://github.com/Ender-Wiggin2019/seti).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
