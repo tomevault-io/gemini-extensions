@@ -4484,6 +4484,14 @@
       "quality": "silver"
     },
     {
+      "name": "galaxy-dawn--claude-scholar",
+      "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, OpenCode, and Codex CLI across ideation, coding, experiments, writing, and publication.",
+      "author": "Galaxy-Dawn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/galaxy-dawn--claude-scholar",
+      "stars": 4032,
+      "quality": "silver"
+    },
+    {
       "name": "rorkai--app-store-connect-cli",
       "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
       "author": "rorkai",
@@ -5082,14 +5090,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/midudev--autoskills",
       "stars": 3447,
       "quality": "silver"
-    },
-    {
-      "name": "galaxy-dawn--claude-scholar",
-      "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, OpenCode, and Codex CLI across ideation, coding, experiments, writing, and publication.",
-      "author": "Galaxy-Dawn",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/galaxy-dawn--claude-scholar",
-      "stars": 3446,
-      "quality": "gold"
     },
     {
       "name": "dmno-dev--varlock",
@@ -53348,14 +53348,6 @@
       "quality": "bronze"
     },
     {
-      "name": "21pounder--terminalagent",
-      "description": "A powerful terminal coding agent based on Claude Agent SDK. Better then Claude Code when start up a new project, or u have no idea. Just try it.",
-      "author": "21pounder",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/21pounder--terminalagent",
-      "stars": 131,
-      "quality": "silver"
-    },
-    {
       "name": "softpudding--openbrowser",
       "description": "A visual AI assistant powered by Qwen3.5 for browser automation",
       "author": "softpudding",
@@ -56192,6 +56184,14 @@
       "description": "AI \u5bfc\u822a\u662f\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684\u4eba\u5de5\u667a\u80fd\u7f51\u7ad9\u5bfc\u822a\u7cfb\u7edf\uff0c\u81f4\u529b\u4e8e\u5e2e\u52a9\u7528\u6237\u53d1\u73b0\u3001\u5206\u4eab\u548c\u7ba1\u7406\u4f18\u8d28\u7684 AI \u5de5\u5177\u4e0e\u8d44\u6e90\u3002\u9879\u76ee\u91c7\u7528\u6700\u65b0\u7684 Web \u6280\u672f\u6808\u6784\u5efa\uff0c\u63d0\u4f9b\u6d41\u7545\u7684\u7528\u6237\u4f53\u9a8c\u548c\u5f3a\u5927\u7684\u7ba1\u7406\u529f\u80fd\u3002",
       "author": "liyown",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/liyown--ai-navigation",
+      "stars": 122,
+      "quality": "silver"
+    },
+    {
+      "name": "21pounder--terminalagent",
+      "description": "A powerful terminal coding agent based on Claude Agent SDK. Better then Claude Code when start up a new project, or u have no idea. Just try it.",
+      "author": "21pounder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/21pounder--terminalagent",
       "stars": 122,
       "quality": "silver"
     },
@@ -87124,6 +87124,14 @@
       "quality": "gold"
     },
     {
+      "name": "ignatovv--vibepad",
+      "description": "\ud83d\udecb\ufe0f Ship code from your couch. Control your AI coding assistant with a gamepad \ud83c\udfae",
+      "author": "ignatovv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ignatovv--vibepad",
+      "stars": 62,
+      "quality": "silver"
+    },
+    {
       "name": "hunvreus--pullnotes",
       "description": "A Notion-like editor for your GitHub repos.",
       "author": "hunvreus",
@@ -91250,14 +91258,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/claude-world--claude-world-studio",
       "stars": 57,
       "quality": "bronze"
-    },
-    {
-      "name": "ignatovv--vibepad",
-      "description": "\ud83d\udecb\ufe0f Ship code from your couch. Control your AI coding assistant with a gamepad \ud83c\udfae",
-      "author": "ignatovv",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ignatovv--vibepad",
-      "stars": 57,
-      "quality": "silver"
     },
     {
       "name": "yoloshii--privacy-first-network",
@@ -216178,6 +216178,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lukeslp--alt-text-local-llm",
       "stars": 13,
       "quality": "bronze"
+    },
+    {
+      "name": "russmckendrick--tokenuse",
+      "description": "A Rust TUI and Desktop app for exploring AI coding tool token and cost usage",
+      "author": "russmckendrick",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/russmckendrick--tokenuse",
+      "stars": 13,
+      "quality": "silver"
     },
     {
       "name": "scardoso-lu--google-antigravity-settings",
@@ -388076,14 +388084,6 @@
       "quality": "silver"
     },
     {
-      "name": "tyson-hu--food-scanner-app",
-      "description": "Food-Scanner-App",
-      "author": "tyson-hu",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tyson-hu--food-scanner-app",
-      "stars": 0,
-      "quality": "gold"
-    },
-    {
       "name": "emelleby--ilca-kns",
       "description": "ilca-kns",
       "author": "emelleby",
@@ -469944,6 +469944,14 @@
       "description": "CLI tool for ContextMesh - npm-like package manager for MCP connectors",
       "author": "cloudfloo",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloudfloo--contextmesh-cli",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "tyson-hu--food-scanner-app",
+      "description": "Food-Scanner-App",
+      "author": "tyson-hu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tyson-hu--food-scanner-app",
       "stars": 0,
       "quality": "silver"
     }
