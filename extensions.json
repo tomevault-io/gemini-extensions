@@ -117060,6 +117060,22 @@
       "quality": "bronze"
     },
     {
+      "name": "kieranp--github-releases-feed",
+      "description": "Github homepage releases feed is always broken - so I created my own",
+      "author": "KieranP",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kieranp--github-releases-feed",
+      "stars": 40,
+      "quality": "silver"
+    },
+    {
+      "name": "kieranp--github-releases-feed",
+      "description": "Github homepage releases feed is always broken - so I created my own",
+      "author": "KieranP",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kieranp--github-releases-feed",
+      "stars": 40,
+      "quality": "silver"
+    },
+    {
       "name": "w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx",
       "author": "w3cj",
@@ -120204,6 +120220,30 @@
       "quality": "silver"
     },
     {
+      "name": "magics-lab--genoarmory",
+      "description": "GenoArmory: A Unified Evaluation Framework for Adversarial Attacks on Genomic Foundation Models",
+      "author": "MAGICS-LAB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/magics-lab--genoarmory",
+      "stars": 38,
+      "quality": "bronze"
+    },
+    {
+      "name": "openswiftuiproject--darwinprivateframeworks",
+      "description": "DarwinPrivateFrameworks",
+      "author": "OpenSwiftUIProject",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openswiftuiproject--darwinprivateframeworks",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "openswiftuiproject--darwinprivateframeworks",
+      "description": "DarwinPrivateFrameworks",
+      "author": "OpenSwiftUIProject",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openswiftuiproject--darwinprivateframeworks",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore.",
       "author": "nikolasburk",
@@ -122168,6 +122208,30 @@
       "description": " An example Discord chatbot built on the Letta API, which uses a stateful agent (agent with memory) under the hood. ",
       "author": "letta-ai",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/letta-ai--letta-discord-bot-example",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "meain--esa",
+      "description": "Fastest way to create personalized AI agents",
+      "author": "meain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meain--esa",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "ericrosenberg1--citybot2",
+      "description": "Bot to Share News and Relevant Information for a City or Geographic Area",
+      "author": "ericrosenberg1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ericrosenberg1--citybot2",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "francescoborzi--ngx-page-object-model",
+      "description": "Angular Component Tests made easy",
+      "author": "FrancescoBorzi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/francescoborzi--ngx-page-object-model",
       "stars": 37,
       "quality": "silver"
     },
@@ -126356,6 +126420,14 @@
       "quality": "silver"
     },
     {
+      "name": "marvinvr--truenas-auto-update",
+      "description": "Automatically update your TrueNAS apps on a schedule.",
+      "author": "marvinvr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marvinvr--truenas-auto-update",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
       "name": "r44vc0rp--itui",
       "description": "itui",
       "author": "R44VC0RP",
@@ -128354,6 +128426,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datadog--dd-trace-rs",
       "stars": 34,
       "quality": "bronze"
+    },
+    {
+      "name": "eonseed--perspt",
+      "description": "Perspt: **Per**sonal **S**pectrum **P**ertaining **T**houghts \u2013 the human lens through which we explore the enigma of AI and its implications for humanity.",
+      "author": "eonseed",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eonseed--perspt",
+      "stars": 34,
+      "quality": "silver"
     },
     {
       "name": "rajjjaryan--career-copilot",
@@ -132426,6 +132506,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devclate--custom-maester-tests",
       "stars": 32,
       "quality": "silver"
+    },
+    {
+      "name": "wellcrafted-dev--wellcrafted",
+      "description": "wellcrafted",
+      "author": "wellcrafted-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wellcrafted-dev--wellcrafted",
+      "stars": 32,
+      "quality": "bronze"
+    },
+    {
+      "name": "jens62--geberit-aquaclean",
+      "description": "Home automation bridge for Geberit AquaClean toilets: BLE connectivity (direct or ESPHome proxy), MQTT, REST API, web UI, and native Home Assistant integration via HACS",
+      "author": "jens62",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jens62--geberit-aquaclean",
+      "stars": 32,
+      "quality": "gold"
     },
     {
       "name": "inureyes--gyeol",
@@ -140116,6 +140212,14 @@
       "quality": "silver"
     },
     {
+      "name": "tiritibambix--imaguick",
+      "description": "ImaGUIck is a free and open-source software, using ImageMagick\u00ae, used for editing and manipulating digital images. It can be used to edit or convert images, and supports a wide range of file formats, ",
+      "author": "Tiritibambix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tiritibambix--imaguick",
+      "stars": 29,
+      "quality": "gold"
+    },
+    {
       "name": "ahekot--comfyui-hyworld2",
       "description": "ComfyUI_HYWorld2",
       "author": "AHEKOT",
@@ -143378,6 +143482,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivlad003--mcp-newrelic",
       "stars": 28,
       "quality": "bronze"
+    },
+    {
+      "name": "marmot-protocol--keycast",
+      "description": "keycast",
+      "author": "marmot-protocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marmot-protocol--keycast",
+      "stars": 28,
+      "quality": "gold"
+    },
+    {
+      "name": "hoppscotch--helm-charts",
+      "description": "Scalable Kubernetes Deployments for Hoppscotch",
+      "author": "hoppscotch",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hoppscotch--helm-charts",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "marmot-protocol--keycast",
+      "description": "keycast",
+      "author": "marmot-protocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marmot-protocol--keycast",
+      "stars": 28,
+      "quality": "gold"
     },
     {
       "name": "khangbdd--phoenix",
@@ -146768,6 +146896,22 @@
       "description": "manylatents",
       "author": "latent-reasoning-works",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/latent-reasoning-works--manylatents",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "flexprice--flexprice-front",
+      "description": "Open source pricing and billing infrastructure to support any pricing model, from usage-based to subscription and everything in between.",
+      "author": "flexprice",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flexprice--flexprice-front",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "spiceai--cookbook",
+      "description": "Cookbook recipes to get up and running with Spice.ai quickly \ud83d\ude80",
+      "author": "spiceai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/spiceai--cookbook",
       "stars": 27,
       "quality": "silver"
     },
@@ -153932,6 +154076,22 @@
       "quality": "silver"
     },
     {
+      "name": "edspencer--bragdoc-ai",
+      "description": "bragdoc-ai",
+      "author": "edspencer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/edspencer--bragdoc-ai",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "edspencer--bragdoc-ai",
+      "description": "bragdoc-ai",
+      "author": "edspencer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/edspencer--bragdoc-ai",
+      "stars": 25,
+      "quality": "gold"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -157632,6 +157792,14 @@
       "description": "talk-to-my-data-agent",
       "author": "datarobot-community",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datarobot-community--talk-to-my-data-agent",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "amanhigh--vaak",
+      "description": "Vaak is a AI Enabled Dictation keyboard. In Punjabi Vaak Refers to Utterance or Speech.",
+      "author": "amanhigh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amanhigh--vaak",
       "stars": 24,
       "quality": "silver"
     },
@@ -161376,6 +161544,30 @@
       "description": "Web-based file manager",
       "author": "bingud",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bingud--filemat",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "dbohdan--pago",
+      "description": "Command-line password manager",
+      "author": "dbohdan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dbohdan--pago",
+      "stars": 23,
+      "quality": "gold"
+    },
+    {
+      "name": "dbohdan--pago",
+      "description": "Command-line password manager",
+      "author": "dbohdan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dbohdan--pago",
+      "stars": 23,
+      "quality": "gold"
+    },
+    {
+      "name": "dexrobot--dexrobot-isaac",
+      "description": "Isaac Gym environments and training for DexHand",
+      "author": "DexRobot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dexrobot--dexrobot-isaac",
       "stars": 23,
       "quality": "silver"
     },
@@ -166380,6 +166572,22 @@
       "quality": "silver"
     },
     {
+      "name": "tiliajs--tilia",
+      "description": "Monorepo for tilia, Domain-Driven State Management.",
+      "author": "tiliajs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tiliajs--tilia",
+      "stars": 22,
+      "quality": "bronze"
+    },
+    {
+      "name": "aisystant--docs",
+      "description": "docs",
+      "author": "aisystant",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aisystant--docs",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -170560,6 +170768,14 @@
       "description": "Create Node SEA binaries across platforms with ease",
       "author": "BYK",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/byk--fossilize",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "rkpontes--flutter-official-architecture",
+      "description": "flutter_official_architecture",
+      "author": "rkpontes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rkpontes--flutter-official-architecture",
       "stars": 21,
       "quality": "silver"
     },
@@ -174952,6 +175168,14 @@
       "description": "VRC Worlds Manager is a Windows application designed to help VRChat users organize and store their favorite worlds more easily.",
       "author": "Raifa21",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/raifa21--vrc-worlds-manager-v2",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "plan2net--typo3-update-check",
+      "description": "Composer plugin to detect breaking changes and security updates during TYPO3 CMS core updates",
+      "author": "plan2net",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plan2net--typo3-update-check",
       "stars": 20,
       "quality": "silver"
     },
@@ -247402,6 +247626,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/co-cddo--gds-idea-llmbo",
       "stars": 10,
       "quality": "gold"
+    },
+    {
+      "name": "thesnappingdog--gtm-context-os",
+      "description": "gtm-context-os",
+      "author": "thesnappingdog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thesnappingdog--gtm-context-os",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
