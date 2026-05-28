@@ -11460,6 +11460,14 @@
       "quality": "gold"
     },
     {
+      "name": "mbailey--voicemode",
+      "description": "Natural (2-way) voice conversations with Claude Code",
+      "author": "mbailey",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mbailey--voicemode",
+      "stars": 1147,
+      "quality": "gold"
+    },
+    {
       "name": "ido-levi--hephaestus",
       "description": "Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront.",
       "author": "Ido-Levi",
@@ -299268,6 +299276,30 @@
       "quality": "silver"
     },
     {
+      "name": "ubugeeei--awesome-vite-plus",
+      "description": "\ud83c\udf89 A curated list of awesome things related to Vite+",
+      "author": "ubugeeei",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ubugeeei--awesome-vite-plus",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "darrylmorley--whatport",
+      "description": "macOS menu bar utility showing real-time USB-C port status (protocol, speed, power). Apple Silicon only.",
+      "author": "darrylmorley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/darrylmorley--whatport",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "unclecheng-li--hello-ai",
+      "description": "Hello-AI\u662f\u4e00\u4e2a\u9762\u5411\u5c0f\u767d\u7684 AI / LLM \u5b66\u4e60\u5165\u53e3\u5e73\u53f0\uff1a\u628a AI \u57fa\u7840\u3001\u63d0\u793a\u8bcd\u3001\u5de5\u5177\u4f7f\u7528\u3001RAG\u3001Agent\u3001\u90e8\u7f72\u3001\u8bc4\u6d4b\u548c\u5b89\u5168\u5e38\u8bc6\u4e32\u6210\u4e00\u6761\u80fd\u8d70\u901a\u7684\u8def\uff0c\u5e76\u63d0\u4f9b\u6848\u4f8b\u3001\u7ec3\u4e60\u548c\u53ef\u590d\u73b0\u9879\u76ee\u8ba9\u5c0f\u767d\u628a\u8fd9\u6761\u8def\u8d70\u901a\u3002",
+      "author": "Unclecheng-li",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/unclecheng-li--hello-ai",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -469882,6 +469914,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yonas-mengesha--fintech-chatbot",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "bachlor2025-cvm--multithreading",
+      "description": "Multithreading",
+      "author": "Bachlor2025-CVM",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bachlor2025-cvm--multithreading",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "rayyangtw--pdca",
+      "description": "pdca",
+      "author": "RayYangTW",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rayyangtw--pdca",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mjibansingh--procurement-flow",
+      "description": "Created with Builder.io",
+      "author": "mjibansingh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mjibansingh--procurement-flow",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cloudfloo--contextmesh-cli",
+      "description": "CLI tool for ContextMesh - npm-like package manager for MCP connectors",
+      "author": "cloudfloo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloudfloo--contextmesh-cli",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
