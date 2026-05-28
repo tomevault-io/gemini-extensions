@@ -1,4 +1,4 @@
-# terminal
+# terminalAgent
 
 > Source: [21pounder/terminalAgent](https://github.com/21pounder/terminalAgent) — distributed by [TomeVault](https://tomevault.io)
 
