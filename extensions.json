@@ -154092,6 +154092,14 @@
       "quality": "gold"
     },
     {
+      "name": "przeblysk--next-starter",
+      "description": "A modern, feature-rich Next.js starter template to kickstart your web development projects with best practices and powerful tools pre-configured.",
+      "author": "Przeblysk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/przeblysk--next-starter",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -157800,6 +157808,30 @@
       "description": "Vaak is a AI Enabled Dictation keyboard. In Punjabi Vaak Refers to Utterance or Speech.",
       "author": "amanhigh",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amanhigh--vaak",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "jmikedupont2--openlightllm",
+      "description": "fork of litellm that is open source",
+      "author": "jmikedupont2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jmikedupont2--openlightllm",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "jmikedupont2--openlightllm",
+      "description": "fork of litellm that is open source",
+      "author": "jmikedupont2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jmikedupont2--openlightllm",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "rowlhouse--picasim",
+      "description": "Flight simulator for radio-controlled planes",
+      "author": "Rowlhouse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rowlhouse--picasim",
       "stars": 24,
       "quality": "silver"
     },
@@ -161568,6 +161600,14 @@
       "description": "Isaac Gym environments and training for DexHand",
       "author": "DexRobot",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dexrobot--dexrobot-isaac",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "sini--nix-config",
+      "description": "NixOS Configuration",
+      "author": "sini",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sini--nix-config",
       "stars": 23,
       "quality": "silver"
     },
@@ -175180,6 +175220,22 @@
       "quality": "silver"
     },
     {
+      "name": "skatkov--webhukhs",
+      "description": "Webhook processing engine for Rails apps",
+      "author": "skatkov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skatkov--webhukhs",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "ethereumidentitykit--docs",
+      "description": "Site for Ethereum Identity Kit",
+      "author": "ethereumidentitykit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ethereumidentitykit--docs",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -179632,6 +179688,38 @@
       "description": "Spec First, Agents Second: Engineering AI Systems with Discipline. Slides and code from the Open Source North 2026 Conference.",
       "author": "justingrammens",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/justingrammens--osn-2026",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "productofamerica--turbo-starter",
+      "description": "\ud83d\ude80 Kickstart Next.js 16 projects with Turborepo, Shadcn UI, Biome.js, and Docker\u2014monorepo magic awaits!",
+      "author": "ProductOfAmerica",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/productofamerica--turbo-starter",
+      "stars": 19,
+      "quality": "gold"
+    },
+    {
+      "name": "chideat--valkey-operator",
+      "description": "ValKeyOperator is a Kubernetes operator designed to simplify the deployment and management of Valkey cluster, Valkey failover, and Valkey replica instance.",
+      "author": "chideat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chideat--valkey-operator",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "ideaconnect--symfony-nats-messenger",
+      "description": "Symfony NATS Messenger Bridge (with JetStream persistence support).",
+      "author": "ideaconnect",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ideaconnect--symfony-nats-messenger",
+      "stars": 19,
+      "quality": "bronze"
+    },
+    {
+      "name": "ideaconnect--symfony-nats-messenger",
+      "description": "Symfony NATS Messenger Bridge (with JetStream persistence support).",
+      "author": "ideaconnect",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ideaconnect--symfony-nats-messenger",
       "stars": 19,
       "quality": "silver"
     },
@@ -190740,6 +190828,14 @@
       "quality": "silver"
     },
     {
+      "name": "tscircuit--cli",
+      "description": "Create electronics with React with a local development server",
+      "author": "tscircuit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tscircuit--cli",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -196544,6 +196640,22 @@
       "description": "AI tool for musical audio and lyrics processing",
       "author": "vxltersmith",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vxltersmith--lyri",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "vonage--vonage-video-react-app",
+      "description": "Vonage Video API JS React reference application",
+      "author": "Vonage",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vonage--vonage-video-react-app",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "paukraft--ui",
+      "description": "ui",
+      "author": "paukraft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/paukraft--ui",
       "stars": 16,
       "quality": "silver"
     },
@@ -202464,6 +202576,22 @@
       "description": "\ud83c\udf1f Stardex: Explore GitHub Stars Intelligently. Stardex is a powerful web app that lets you search, filter, and cluster any GitHub user's starred repositories. Discover hidden patterns and find your ne",
       "author": "BjornMelin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bjornmelin--stardex",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "emschwartz--hamming-bitwise-fast",
+      "description": "Benchmarking Hamming Distance implementations in Rust",
+      "author": "emschwartz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emschwartz--hamming-bitwise-fast",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "agentjido--jido-chat-deprecated",
+      "description": "[DEPRECATED] Use jido_messaging",
+      "author": "agentjido",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agentjido--jido-chat-deprecated",
       "stars": 15,
       "quality": "silver"
     },
@@ -209074,6 +209202,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dschewchenko--permask",
       "stars": 14,
       "quality": "gold"
+    },
+    {
+      "name": "johnsaigle--anchor-version-detector",
+      "description": "Detect or infer  the Anchor, Solana, and Rust versions needed for an Anchor project.",
+      "author": "johnsaigle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/johnsaigle--anchor-version-detector",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "aexol-studio--dev-translate",
+      "description": "Translate i18 JSON files automatically with best translating engine in the world without losing format",
+      "author": "aexol-studio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aexol-studio--dev-translate",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "zachlagden--spotify-listening-insights",
+      "description": "Analyze your Spotify listening history with rich terminal output. Processes privacy data exports into detailed stats, artist breakdowns, temporal patterns, and more.",
+      "author": "zachlagden",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zachlagden--spotify-listening-insights",
+      "stars": 14,
+      "quality": "silver"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -217018,6 +217170,62 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kebechet--maui-health",
       "stars": 13,
       "quality": "gold"
+    },
+    {
+      "name": "alexhuszagh--i256-rs",
+      "description": "Optimized implementation for fixed-width, large integers in Rust.",
+      "author": "Alexhuszagh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexhuszagh--i256-rs",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexhuszagh--i256-rs",
+      "description": "Optimized implementation for fixed-width, large integers in Rust.",
+      "author": "Alexhuszagh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexhuszagh--i256-rs",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "finblobs--kissbt",
+      "description": "The \"keep it simple\" backtesting framework",
+      "author": "FinBlobs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/finblobs--kissbt",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "vlm-run--vlmrun-python-sdk",
+      "description": "Official Python SDK for VLM Run",
+      "author": "vlm-run",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vlm-run--vlmrun-python-sdk",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "flite999--techpdx-calendar",
+      "description": "Calagator reboot",
+      "author": "Flite999",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flite999--techpdx-calendar",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "vlm-run--vlmrun-python-sdk",
+      "description": "Official Python SDK for VLM Run",
+      "author": "vlm-run",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vlm-run--vlmrun-python-sdk",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "mixedbread-ai--mixedbread-ts",
+      "description": "mixedbread-ts",
+      "author": "mixedbread-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mixedbread-ai--mixedbread-ts",
+      "stars": 13,
+      "quality": "silver"
     },
     {
       "name": "scardoso-lu--google-antigravity-settings",
@@ -225688,6 +225896,46 @@
       "description": "302's AI SDK for everyone",
       "author": "302ai",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/302ai--ai-sdk",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "comfy-deploy--app",
+      "description": "app",
+      "author": "comfy-deploy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/comfy-deploy--app",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "comfy-deploy--app",
+      "description": "app",
+      "author": "comfy-deploy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/comfy-deploy--app",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "openswiftuiproject--openrenderbox",
+      "description": "OpenRenderBox",
+      "author": "OpenSwiftUIProject",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openswiftuiproject--openrenderbox",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "thednp--vite-plugin-vanjs",
+      "description": "A mini meta-framework for VanJS powered by Vite",
+      "author": "thednp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thednp--vite-plugin-vanjs",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "comfy-deploy--app",
+      "description": "app",
+      "author": "comfy-deploy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/comfy-deploy--app",
       "stars": 12,
       "quality": "silver"
     },
@@ -234842,6 +235090,150 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moonladderstudios--moonmind",
       "stars": 11,
       "quality": "silver"
+    },
+    {
+      "name": "get-convex--shop-talk",
+      "description": "A demo showing off daily-bots realtime voice and convex",
+      "author": "get-convex",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/get-convex--shop-talk",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "molaorg--mola-state-estimation",
+      "description": "MOLA implementations of the virtual state estimation API for robots / vehicles",
+      "author": "MOLAorg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/molaorg--mola-state-estimation",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "aegixx--obsidian-contact-cards",
+      "description": "Obsidian Plugin for @mention support of People, Companies, or any other entity.",
+      "author": "aegixx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aegixx--obsidian-contact-cards",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "answerdotai--pshnb",
+      "description": "An IPython magic for persistent bash",
+      "author": "AnswerDotAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/answerdotai--pshnb",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "rainyt--hxmaker",
+      "description": "A unified game engine written in Haxe that can run on any game engine.",
+      "author": "rainyt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rainyt--hxmaker",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "radzionc--crypto",
+      "description": "A TypeScript monorepo with tools for crypto trading, price monitoring, and trading analysis.",
+      "author": "radzionc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radzionc--crypto",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "eratolab--erato",
+      "description": "The Open Source AI Platform",
+      "author": "EratoLab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eratolab--erato",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "imio--helm-odoo",
+      "description": "Helm Chart for Odoo",
+      "author": "IMIO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/imio--helm-odoo",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "eratolab--erato",
+      "description": "The Open Source AI Platform",
+      "author": "EratoLab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eratolab--erato",
+      "stars": 11,
+      "quality": "bronze"
     },
     {
       "name": "makenowjust--naraku",
@@ -247634,6 +248026,70 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thesnappingdog--gtm-context-os",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "biyard--ratel",
+      "description": "ratel",
+      "author": "biyard",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/biyard--ratel",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "hobbytp--hobbytp-github-io",
+      "description": "Peng Tan's AI Blog",
+      "author": "hobbytp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hobbytp--hobbytp-github-io",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "hobbytp--hobbytp-github-io",
+      "description": "Peng Tan's AI Blog",
+      "author": "hobbytp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hobbytp--hobbytp-github-io",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "hobbytp--hobbytp-github-io",
+      "description": "Peng Tan's AI Blog",
+      "author": "hobbytp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hobbytp--hobbytp-github-io",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "winst0niuss--ai-ready-pw-codegen",
+      "description": "Offline Playwright recorder with AI-ready snapshots ",
+      "author": "winst0niuss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/winst0niuss--ai-ready-pw-codegen",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "biyard--ratel",
+      "description": "ratel",
+      "author": "biyard",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/biyard--ratel",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "iiiyu--tradingview-ws-client-old",
+      "description": "A Go library for receiving real-time market data from TradingView's WebSocket API.",
+      "author": "iiiyu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/iiiyu--tradingview-ws-client-old",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ccev--diadem",
+      "description": "\ud83c\udf20 Next-gen map frontend for Pok\u00e9mon GO",
+      "author": "ccev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ccev--diadem",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
