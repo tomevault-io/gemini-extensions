@@ -281060,6 +281060,14 @@
       "quality": "silver"
     },
     {
+      "name": "sanqiufong--slides-from-anything",
+      "description": "Turn anything into slides",
+      "author": "sanqiufong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanqiufong--slides-from-anything",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -299308,6 +299316,38 @@
       "quality": "silver"
     },
     {
+      "name": "m3talux--superbrain",
+      "description": "Session memory for Claude Code. Auto-captures every session into a plain Obsidian markdown vault. Zero config. MIT. macOS + Linux.",
+      "author": "m3talux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/m3talux--superbrain",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "r0227n--flutter-template-project",
+      "description": "A Flutter template project designed to support   AI-powered Flutter app development, with Claude Code   as its core foundation.",
+      "author": "r0227n",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/r0227n--flutter-template-project",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "jerrywu001--cc-sessions-viewer",
+      "description": "support cc/codex/gemini sessions viewer, token usage statistics, global search, resume, and export to html",
+      "author": "jerrywu001",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jerrywu001--cc-sessions-viewer",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "r0227n--flutter-template-project",
+      "description": "A Flutter template project designed to support   AI-powered Flutter app development, with Claude Code   as its core foundation.",
+      "author": "r0227n",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/r0227n--flutter-template-project",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -303746,6 +303786,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jegovpn--sbcv",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "younghoandrewchaa--m-note",
+      "description": "m-note",
+      "author": "younghoandrewchaa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/younghoandrewchaa--m-note",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
