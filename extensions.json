@@ -179380,6 +179380,14 @@
       "quality": "silver"
     },
     {
+      "name": "justingrammens--osn-2026",
+      "description": "Spec First, Agents Second: Engineering AI Systems with Discipline. Slides and code from the Open Source North 2026 Conference.",
+      "author": "justingrammens",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/justingrammens--osn-2026",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon",
       "author": "nirholas",
@@ -225304,6 +225312,14 @@
       "description": "PlusUi",
       "author": "BernhardPollerspoeck",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bernhardpollerspoeck--plusui",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "kezuflow--openstat",
+      "description": "openstat",
+      "author": "kezuflow",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kezuflow--openstat",
       "stars": 12,
       "quality": "silver"
     },
