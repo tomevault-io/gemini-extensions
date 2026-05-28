@@ -283148,6 +283148,166 @@
       "quality": "silver"
     },
     {
+      "name": "celestiaorg--talis",
+      "description": "\ud83e\udd8d Talis is a cloud-agnostic infrastructure orchestration platform for w3 to manage VMs at scale.",
+      "author": "celestiaorg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/celestiaorg--talis",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "moyuan10086--webcard-ai",
+      "description": "\u4e00\u4e2a\u7b80\u5355\u6613\u7528\u7684 Chrome \u6d4f\u89c8\u5668\u6269\u5c55,\u53ef\u4ee5\u5c06\u7f51\u9875\u5185\u5bb9\u751f\u6210\u7cbe\u7f8e\u7684\u5206\u4eab\u5361\u7247\u3002\u652f\u6301 AI \u667a\u80fd\u603b\u7ed3\u3001\u591a\u79cd\u5361\u7247\u6a21\u677f\u548c\u81ea\u5b9a\u4e49\u6837\u5f0f\u3002",
+      "author": "moyuan10086",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moyuan10086--webcard-ai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "embers-of-the-fire--eve-fit-assistant",
+      "description": "Mobile fitting utility for EVE Online\u00ae, built with Flutter",
+      "author": "Embers-of-the-Fire",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/embers-of-the-fire--eve-fit-assistant",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "amirrezasalimi--aify",
+      "description": "Aify is a browser extension leveraging AI to modify the style of selected text on webpages. It offers seamless integration with OpenAI-compatible APIs, providing users with the ability to translate, s",
+      "author": "amirrezasalimi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amirrezasalimi--aify",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "celestiaorg--talis",
+      "description": "\ud83e\udd8d Talis is a cloud-agnostic infrastructure orchestration platform for w3 to manage VMs at scale.",
+      "author": "celestiaorg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/celestiaorg--talis",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "meng0329--exam",
+      "description": "\u57fa\u4e8eJava+Vue+DeepSeek-R1\u7684\u5728\u7ebf\u8003\u8bd5\u7cfb\u7edf",
+      "author": "Meng0329",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meng0329--exam",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "youzhiran--counters",
+      "description": "\u4e00\u4e2aflutter\u8ba1\u5206\u677f\u5e94\u7528\uff0c\u652f\u6301\u591a\u5e73\u53f0\u8fd0\u884c\u3002",
+      "author": "youzhiran",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/youzhiran--counters",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "lamngockhuong--loan-calculator",
+      "description": "Loan Calculator is a banking loan interest calculator application. It helps users estimate loan repayments based on factors such as loan amount, interest rate, and repayment period",
+      "author": "lamngockhuong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lamngockhuong--loan-calculator",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mneuhaus--wall-e-dora",
+      "description": "Dora-based control stack for a custom WALL-E robot with tracked drive, SC-series servos, camera features, diagnostics, and a mobile-first web UI.",
+      "author": "mneuhaus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mneuhaus--wall-e-dora",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "sbesh91--hono-preact",
+      "description": "hono-preact",
+      "author": "sbesh91",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sbesh91--hono-preact",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "marawangamal--papers",
+      "description": "ML conference paper browser",
+      "author": "marawangamal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marawangamal--papers",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "embers-of-the-fire--eve-fit-assistant",
+      "description": "Mobile fitting utility for EVE Online\u00ae, built with Flutter",
+      "author": "Embers-of-the-Fire",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/embers-of-the-fire--eve-fit-assistant",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mojtabaimani--iranian-alternatives",
+      "description": "iranian-alternatives",
+      "author": "mojtabaimani",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mojtabaimani--iranian-alternatives",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "openanolis--cryptpilot",
+      "description": "cryptpilot",
+      "author": "openanolis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openanolis--cryptpilot",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jitzulang--jitzu",
+      "description": "An interactive shell and a typed scripting language written in .NET",
+      "author": "jitzulang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jitzulang--jitzu",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mneuhaus--wall-e-dora",
+      "description": "Dora-based control stack for a custom WALL-E robot with tracked drive, SC-series servos, camera features, diagnostics, and a mobile-first web UI.",
+      "author": "mneuhaus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mneuhaus--wall-e-dora",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "irreducibleoss--tracing-profile",
+      "description": "Rust tracing extension for profiling one-shot program executions",
+      "author": "IrreducibleOSS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/irreducibleoss--tracing-profile",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jsilve24--aldex3",
+      "description": "ALDEx3",
+      "author": "jsilve24",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jsilve24--aldex3",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "edgegap--nakama-edgegap",
+      "description": "Edgegap's integration for Nakama using the Fleet Manager",
+      "author": "edgegap",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/edgegap--nakama-edgegap",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "sfcal--homelab",
+      "description": "Multi environment homelab setup for deploying Kubernetes from infrastructure as code. ",
+      "author": "sfcal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sfcal--homelab",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -301820,6 +301980,22 @@
       "quality": "silver"
     },
     {
+      "name": "modelstudioai--cli",
+      "description": "Official Aliyun Model Studio CLI built for AI Agent frameworks, exposing models, search, multimodal, and workflow capabilities as structured tool calls.",
+      "author": "modelstudioai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/modelstudioai--cli",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "jpeoples5--jeremiahs-jarvis",
+      "description": "claude automation to research and create content",
+      "author": "JPeoples5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jpeoples5--jeremiahs-jarvis",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -306300,6 +306476,14 @@
       "quality": "silver"
     },
     {
+      "name": "naniiluja--ccf",
+      "description": "A context-first, spec-driven, strictly sequential development workflow plugin for Claude Code \u2014 keeps your CLAUDE.md/.claude spec always fresh and grounds every decision in Context7 + Microsoft Learn.",
+      "author": "naniiluja",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/naniiluja--ccf",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
       "name": "ancplua--ancplua-claude-plugins",
       "description": "ancplua-claude-plugins",
       "author": "ANcpLua",
@@ -306314,6 +306498,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
       "stars": 5,
       "quality": "silver"
+    },
+    {
+      "name": "ancplua--ancplua-claude-plugins",
+      "description": "ancplua-claude-plugins",
+      "author": "ANcpLua",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
+      "stars": 5,
+      "quality": "gold"
     },
     {
       "name": "ncaq---zsh-d",
@@ -472584,6 +472776,30 @@
       "description": "katomato",
       "author": "alxsuv",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alxsuv--katomato",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lcj0304--hellorust",
+      "description": "hellorust",
+      "author": "lcj0304",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lcj0304--hellorust",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "snupai--heymiizu-fm-site",
+      "description": "heymiizu-fm-site",
+      "author": "Snupai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snupai--heymiizu-fm-site",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "festion--hass-ab-ble-gateway-suite",
+      "description": "Home Assistant integration suite for April Brother BLE Gateway with dashboard",
+      "author": "festion",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/festion--hass-ab-ble-gateway-suite",
       "stars": 0,
       "quality": "silver"
     }
