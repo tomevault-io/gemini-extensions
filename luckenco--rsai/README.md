@@ -7,11 +7,11 @@ Predictable development for unpredictable models. Let the compiler handle the ch
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [luckenco/rsai](https://github.com/luckenco/rsai).
+Original source: `AGENTS.md` in [luckenco/rsai](https://github.com/luckenco/rsai).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
