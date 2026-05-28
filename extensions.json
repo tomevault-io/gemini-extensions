@@ -120188,6 +120188,14 @@
       "quality": "silver"
     },
     {
+      "name": "goobyfrs--goobydesk-legacy",
+      "description": "Simple, Lightweight, Databaseless Service Desk for Small MSPs and Home Labbers",
+      "author": "GoobyFRS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goobyfrs--goobydesk-legacy",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore.",
       "author": "nikolasburk",
@@ -161356,6 +161364,14 @@
       "quality": "silver"
     },
     {
+      "name": "bingud--filemat",
+      "description": "Web-based file manager",
+      "author": "bingud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bingud--filemat",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill",
       "author": "lucianaib0318",
@@ -196284,6 +196300,14 @@
       "quality": "silver"
     },
     {
+      "name": "automattic--php-toolkit",
+      "description": "php-toolkit",
+      "author": "Automattic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/automattic--php-toolkit",
+      "stars": 16,
+      "quality": "gold"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -202178,6 +202202,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/one-ie--astro-shadcn",
       "stars": 15,
       "quality": "gold"
+    },
+    {
+      "name": "pyhub-kr--django-pyhub-rag",
+      "description": "\ube60\ub978 RAG \uad6c\ud604\uc744 \uc704\ud55c \uc7a5\uace0 \ub77c\uc774\ube0c\ub7ec\ub9ac",
+      "author": "pyhub-kr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pyhub-kr--django-pyhub-rag",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "o3dotdev--o3-code",
+      "description": "O3 Code brings the Codex desktop experience to a local browser with bridge-powered access to your Mac, workspace, tools, and running agent sessions.",
+      "author": "o3dotdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/o3dotdev--o3-code",
+      "stars": 15,
+      "quality": "silver"
     },
     {
       "name": "hyaway--hyaway",
@@ -208760,6 +208800,14 @@
       "description": "AI drawing picture, just for fun",
       "author": "jay6697117",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jay6697117--we-drawing-nuxt",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "event-catalog--generators",
+      "description": "Plugin integrations for EventCatalog",
+      "author": "event-catalog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/event-catalog--generators",
       "stars": 14,
       "quality": "bronze"
     },
@@ -225324,6 +225372,30 @@
       "quality": "silver"
     },
     {
+      "name": "cap-go--capacitor-streamcall",
+      "description": "Capacitor plugin for streamcall SDK for capacitor",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-streamcall",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "helgesverre--rust-vst3-host",
+      "description": "rust-vst3-host",
+      "author": "HelgeSverre",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/helgesverre--rust-vst3-host",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "ali-hussein-dev--deepreact",
+      "description": "Deep dive into the React ecosystem",
+      "author": "Ali-Hussein-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ali-hussein-dev--deepreact",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -234416,6 +234488,38 @@
       "description": "An Obsidian plugin that maintains a cache of your notes\u2019 embedded external images.",
       "author": "mntno",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mntno--obsidian-come-down",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "bioimage-io--bioimage-io",
+      "description": "Website for the BioImage Model zoo -- a model zoo for bioimage analysis.",
+      "author": "bioimage-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bioimage-io--bioimage-io",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "bioimage-io--bioimage-io",
+      "description": "Website for the BioImage Model zoo -- a model zoo for bioimage analysis.",
+      "author": "bioimage-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bioimage-io--bioimage-io",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "bioimage-io--bioimage-io",
+      "description": "Website for the BioImage Model zoo -- a model zoo for bioimage analysis.",
+      "author": "bioimage-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bioimage-io--bioimage-io",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "andunhh--dew-point-ventilation-zigbee",
+      "description": "Dew Point Ventilation based on Zigbee with ESP32C6",
+      "author": "AndunHH",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andunhh--dew-point-ventilation-zigbee",
       "stars": 11,
       "quality": "silver"
     },
@@ -247074,6 +247178,94 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/longhorn-developers--ut-dining",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "isaaccorley--goldeneye",
+      "description": "GoldenEye is a library of geospatial vision-language models -- run any geospatial VLM in three lines of code",
+      "author": "isaaccorley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/isaaccorley--goldeneye",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "bluetape4k--exposed-workshop",
+      "description": "Kotlin Exposed \uc5d0 \ub300\ud55c \ud559\uc2b5 \uc790\ub8cc",
+      "author": "bluetape4k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluetape4k--exposed-workshop",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "bluetape4k--exposed-workshop",
+      "description": "Kotlin Exposed \uc5d0 \ub300\ud55c \ud559\uc2b5 \uc790\ub8cc",
+      "author": "bluetape4k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluetape4k--exposed-workshop",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "thegatesbrowser--world-hoppers",
+      "description": "world-hoppers",
+      "author": "thegatesbrowser",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thegatesbrowser--world-hoppers",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "bluetape4k--exposed-workshop",
+      "description": "Kotlin Exposed \uc5d0 \ub300\ud55c \ud559\uc2b5 \uc790\ub8cc",
+      "author": "bluetape4k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluetape4k--exposed-workshop",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "astera-org--simplexity",
+      "description": "simplexity",
+      "author": "Astera-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/astera-org--simplexity",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "deepgroundwater--ddr",
+      "description": "Distributed Differentiable Routing ",
+      "author": "DeepGroundwater",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deepgroundwater--ddr",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "mateusznakodach--heroesofdomaindrivendesign-eventsourcing-java-axon-spring",
+      "description": "Shows how to use Domain-Driven Design, Event Storming, Event Modeling and Event Sourcing in Heroes of Might & Magic III domain.",
+      "author": "MateuszNaKodach",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mateusznakodach--heroesofdomaindrivendesign-eventsourcing-java-axon-spring",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "sd-inst--cozyui",
+      "description": "A frontend for ComfyUI to generate AI content comfortably",
+      "author": "SD-inst",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sd-inst--cozyui",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "kellylford--image-description-toolkit",
+      "description": "Experimental tools for image description interaction.",
+      "author": "kellylford",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kellylford--image-description-toolkit",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "kellylford--image-description-toolkit",
+      "description": "Experimental tools for image description interaction.",
+      "author": "kellylford",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kellylford--image-description-toolkit",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -282220,6 +282412,310 @@
       "quality": "silver"
     },
     {
+      "name": "bcjordan--gravity",
+      "description": "Gravitational lensing and prism simulation using Three.js",
+      "author": "bcjordan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bcjordan--gravity",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "vojtaholik--dither-lab",
+      "description": "A fast, interactive tool for experimenting with dithering algorithms. Supports real-time previews, adjustable parameters, and SVG export.",
+      "author": "vojtaholik",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vojtaholik--dither-lab",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "intuition-box--extension",
+      "description": "Extension",
+      "author": "intuition-box",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/intuition-box--extension",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "dacay--eventkit-node",
+      "description": "Node.js native addon to access macOS EventKit for calendars and events",
+      "author": "dacay",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dacay--eventkit-node",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "bsv-blockchain--go-wallet-toolbox",
+      "description": "Tools for building effective, compliant BRC-100 wallets in Go language.",
+      "author": "bsv-blockchain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bsv-blockchain--go-wallet-toolbox",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dacay--eventkit-node",
+      "description": "Node.js native addon to access macOS EventKit for calendars and events",
+      "author": "dacay",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dacay--eventkit-node",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "practicalparticle--bloxchain-protocol",
+      "description": "Enterprise smart contract security framework that eliminates single\u2011point failures using EngineBlox multi\u2011phase workflows, mandatory multi\u2011sig, time\u2011locks, meta\u2011transactions, and dynamic RBAC. \u26a0\ufe0f Audi",
+      "author": "PracticalParticle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/practicalparticle--bloxchain-protocol",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "devtalles-corp--react-router-framework",
+      "description": "Repositorio del curso de React Router como Framework",
+      "author": "DevTalles-corp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devtalles-corp--react-router-framework",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "openxapi--openxapi",
+      "description": "OpenAPI and AsyncAPI specifications for cryptocurrency exchanges and DeFi protocols",
+      "author": "openxapi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openxapi--openxapi",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "cavinhuang--cursor-auto-gui",
+      "description": "cursor auto register gui tool",
+      "author": "CavinHuang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cavinhuang--cursor-auto-gui",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "josectoscano--smart-docs",
+      "description": "smart-docs",
+      "author": "JoseCToscano",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/josectoscano--smart-docs",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "dyj-naj--agentic-rag-knowledge-assistant",
+      "description": " \u672c\u9879\u76ee\u662f\u4e00\u4e2a\u57fa\u4e8e Agentic RAG \u67b6\u6784\u7684\u667a\u80fd\u77e5\u8bc6\u95ee\u7b54\u7cfb\u7edf\uff0c\u91c7\u7528\u524d\u540e\u7aef\u5206\u79bb\u8bbe\u8ba1\u3002\u540e\u7aef\u57fa\u4e8e FastAPI \u6784\u5efa\uff0c\u524d\u7aef\u4f7f\u7528 React + Vite\uff0c\u96c6\u6210 Qdrant \u5411\u91cf\u6570\u636e\u5e93\u3001BM25 \u5173\u952e\u8bcd\u68c0\u7d22\u3001MySQL \u7ed3\u6784\u5316\u67e5\u8be2\u548c Serper \u7f51\u7edc\u641c\u7d22\u56db\u5927\u77e5\u8bc6\u6e90\u3002\u7cfb\u7edf\u6838\u5fc3\u4e3a\u4e00\u6761 7  \u9636\u6bb5\u6d41\u6c34\u7ebf\uff1a\u67e5\u8be2\u4f18\u5316\u3001\u610f\u56fe\u8bc6\u522b\u3001\u4efb\u52a1\u62c6\u89e3\u3001ReAct \u4ee3\u7406\u68c0\u7d22\u3001\u76f8\u5173\u6027\u68c0\u67e5\u3001\u7b54\u6848\u751f\u6210\u53ca Self-RAG \u8d28",
+      "author": "dyj-naj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dyj-naj--agentic-rag-knowledge-assistant",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "faircompute--energy-monitoring-tool",
+      "description": "Enabling Digital Sustainability Through Granular Energy Measurement ",
+      "author": "FairCompute",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/faircompute--energy-monitoring-tool",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "stacksjs--ts-maps",
+      "description": "\ud83d\uddfa\ufe0f Modern & lightweight TypeScript library for creating interactive vector maps.",
+      "author": "stacksjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacksjs--ts-maps",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "qdu-robomaster--bsp-dev-c",
+      "description": "bsp-dev-c",
+      "author": "QDU-Robomaster",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qdu-robomaster--bsp-dev-c",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "etiennedi--vibe-col",
+      "description": "A columnar index that is 100% vibe-coded",
+      "author": "etiennedi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/etiennedi--vibe-col",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "faircompute--energy-monitoring-tool",
+      "description": "Enabling Digital Sustainability Through Granular Energy Measurement ",
+      "author": "FairCompute",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/faircompute--energy-monitoring-tool",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "imphnen--imphnen-frontend-service",
+      "description": "IMPHNEN Frontend Service",
+      "author": "IMPHNEN",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/imphnen--imphnen-frontend-service",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "liquidium-inc--liquidium-sdk",
+      "description": "Docs",
+      "author": "Liquidium-Inc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/liquidium-inc--liquidium-sdk",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "bcjordan--gravity",
+      "description": "Gravitational lensing and prism simulation using Three.js",
+      "author": "bcjordan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bcjordan--gravity",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "rm2thaddeus--promptgramming",
+      "description": "A framework to structure thoughts and shape them into production code",
+      "author": "rm2thaddeus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rm2thaddeus--promptgramming",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "obolnetwork--obol-stack",
+      "description": "A Kubernetes-based Ethereum stack for running decentralised applications.",
+      "author": "ObolNetwork",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/obolnetwork--obol-stack",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deepflame-ai--dfode-kit",
+      "description": "DFODE-kit",
+      "author": "deepflame-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deepflame-ai--dfode-kit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "stacksjs--vite-plugin-layouts",
+      "description": "\ud83e\udde9 Router-based layouts for your application.",
+      "author": "stacksjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacksjs--vite-plugin-layouts",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "docxology--quadcraft",
+      "description": "MineCraft with Tetrahedra (Quadray coordinates)",
+      "author": "docxology",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/docxology--quadcraft",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "sv--mcp-paradex-py",
+      "description": "Connect AI agents to the Paradex trading platform. Retrieve market data, manage accounts, and execute trades seamlessly. Enhance your trading experience with automated tools and real-time insights.",
+      "author": "sv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sv--mcp-paradex-py",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "practicalparticle--bloxchain-protocol",
+      "description": "Enterprise smart contract security framework that eliminates single\u2011point failures using EngineBlox multi\u2011phase workflows, mandatory multi\u2011sig, time\u2011locks, meta\u2011transactions, and dynamic RBAC. \u26a0\ufe0f Audi",
+      "author": "PracticalParticle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/practicalparticle--bloxchain-protocol",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "bbleae--maimbot-webui",
+      "description": "MaiMBot-WebUI",
+      "author": "BBleae",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bbleae--maimbot-webui",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "perosb--qvantum-custom-component",
+      "description": "Qvantum Exhaust Air Heat Pump Integration for Home Assistant",
+      "author": "perosb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perosb--qvantum-custom-component",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tottenjordan--zghost",
+      "description": "a multi-agent system finding the intersection between product, trend, and audience",
+      "author": "tottenjordan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tottenjordan--zghost",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "openxapi--openxapi",
+      "description": "OpenAPI and AsyncAPI specifications for cryptocurrency exchanges and DeFi protocols",
+      "author": "openxapi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openxapi--openxapi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "openxapi--openxapi",
+      "description": "OpenAPI and AsyncAPI specifications for cryptocurrency exchanges and DeFi protocols",
+      "author": "openxapi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openxapi--openxapi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "stackpress--reactus",
+      "description": "Reactive React Template Engine",
+      "author": "stackpress",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stackpress--reactus",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dacarson--navienmanager",
+      "description": "HomeKit and diagnostics for Navien Tankless Water Heater using ESP32 + RS485",
+      "author": "dacarson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dacarson--navienmanager",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "rnmjs--pm",
+      "description": "\ud83d\udce6 Unified Package Manager for Node.js (npm, yarn, pnpm)",
+      "author": "rnmjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rnmjs--pm",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "rnmjs--pm",
+      "description": "\ud83d\udce6 Unified Package Manager for Node.js (npm, yarn, pnpm)",
+      "author": "rnmjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rnmjs--pm",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "lichess-org--dart-multistockfish",
+      "description": "Multiple flavors of Stockfish Chess Engine",
+      "author": "lichess-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lichess-org--dart-multistockfish",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jasnonaz--vibe-worldbuilding-mcp",
+      "description": "Vibe Worldbuilding",
+      "author": "jasnonaz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jasnonaz--vibe-worldbuilding-mcp",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -300700,6 +301196,102 @@
       "quality": "silver"
     },
     {
+      "name": "kiranklabs--hermes-memory-wiki",
+      "description": "A browsable, searchable memory layer for Hermes AI agent conversations \u2014 automatically captured, summarized, and injected as context into every new session.",
+      "author": "kiranklabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kiranklabs--hermes-memory-wiki",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "andrea-cavallo--adomnia",
+      "description": "A local-first desktop toolbox for API testing, protocol debugging, mocking, and enterprise/legacy system integration. One app, every protocol.",
+      "author": "Andrea-Cavallo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrea-cavallo--adomnia",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "xmtp--smart-contracts",
+      "description": "XMTP Smart Contracts",
+      "author": "xmtp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtp--smart-contracts",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "79e--auto-openai-account",
+      "description": "\u81ea\u52a8\u5316\u6ce8\u518c Openai / ChatGpt \u8d26\u53f7",
+      "author": "79E",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/79e--auto-openai-account",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "andrea-cavallo--adomnia",
+      "description": "A local-first desktop toolbox for API testing, protocol debugging, mocking, and enterprise/legacy system integration. One app, every protocol.",
+      "author": "Andrea-Cavallo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrea-cavallo--adomnia",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "lightrock--drbones",
+      "description": "Repo-native project memory for AI-assisted development: workorders, playbooks, examples, checks, handoff rules, and release-readiness discipline.",
+      "author": "lightrock",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lightrock--drbones",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "blackwell-systems--knowing",
+      "description": "Permanent code intelligence layer. Learns what matters, expires what changed, proves what existed. Content-addressed graph with Merkle proofs, 25 extractors, 23 MCP tools. Gets smarter with use.",
+      "author": "blackwell-systems",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blackwell-systems--knowing",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "minghou-lei--codex-context-used-meter",
+      "description": "Codex++ user script for showing Codex context usage in the app UI.",
+      "author": "Minghou-Lei",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minghou-lei--codex-context-used-meter",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "tyuts--xiaobai-skills",
+      "description": "Beginner-friendly Codex skills starter pack and library curator",
+      "author": "Tyuts",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tyuts--xiaobai-skills",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "neolee--neb",
+      "description": "A project to seek the real power of AI agents",
+      "author": "neolee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neolee--neb",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "xmtp--smart-contracts",
+      "description": "XMTP Smart Contracts",
+      "author": "xmtp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xmtp--smart-contracts",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "eoincondron--groupby-lib",
+      "description": "groupby-lib",
+      "author": "eoincondron",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eoincondron--groupby-lib",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -305160,6 +305752,22 @@
       "description": "computer_vision_book",
       "author": "SuibeAI",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/suibeai--computer-vision-book",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "chinjure--deepseek-copilot",
+      "description": "automatically complementing code in idea with model deepseek",
+      "author": "Chinjure",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chinjure--deepseek-copilot",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "haaarshsingh--loomix",
+      "description": "Drop-in video player for React \u269b\ufe0f",
+      "author": "haaarshsingh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haaarshsingh--loomix",
       "stars": 7,
       "quality": "silver"
     },
@@ -471400,6 +472008,38 @@
       "description": "hexalife",
       "author": "sztanko",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sztanko--hexalife",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "declanshanaghy--dollar-game",
+      "description": "dollar-game",
+      "author": "declanshanaghy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/declanshanaghy--dollar-game",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "declanshanaghy--dollar-game",
+      "description": "dollar-game",
+      "author": "declanshanaghy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/declanshanaghy--dollar-game",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "declanshanaghy--dollar-game",
+      "description": "dollar-game",
+      "author": "declanshanaghy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/declanshanaghy--dollar-game",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "declanshanaghy--dollar-game",
+      "description": "dollar-game",
+      "author": "declanshanaghy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/declanshanaghy--dollar-game",
       "stars": 0,
       "quality": "silver"
     }
