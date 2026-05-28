@@ -201868,6 +201868,14 @@
       "quality": "silver"
     },
     {
+      "name": "pennydinh--marketing-pineline-share",
+      "description": "H\u1ec7 th\u1ed1ng t\u1ef1 \u0111\u1ed9ng h\u00f3a Content s\u1ed1 1: T\u1eeb Research, L\u00ean K\u1ecbch B\u1ea3n, \u0110\u0103ng Page t\u1ef1 \u0111\u1ed9ng \u0111\u1ebfn Generate Video!",
+      "author": "pennydinh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pennydinh--marketing-pineline-share",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -246400,6 +246408,14 @@
       "description": "shellmates: Unlike typical co-founder matching platforms, we ensure both partners are technical. No more \"idea person seeking coder\" - just technical people seeking other technical people.  With shell",
       "author": "andrewarrow",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrewarrow--shellmates",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "handsomejustin--easy-tdx",
+      "description": "\u901a\u8fbe\u4fe1python SDK\uff0c\u652f\u6301\u5728\u7ebf\u83b7\u53d6\u6570\u636e\u53ca\u79bb\u7ebf\u672c\u5730\u6570\u636e\u8bfb\u53d6\u3002\u5168\u9762\u4f18\u5316\u63a5\u53e3\u3002",
+      "author": "handsomejustin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/handsomejustin--easy-tdx",
       "stars": 10,
       "quality": "silver"
     },
@@ -315480,14 +315496,6 @@
       "description": "claude-session-manager",
       "author": "danilotorrisi",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danilotorrisi--claude-session-manager",
-      "stars": 0,
-      "quality": "gold"
-    },
-    {
-      "name": "sztanko--hexalife",
-      "description": "hexalife",
-      "author": "sztanko",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sztanko--hexalife",
       "stars": 0,
       "quality": "gold"
     },
@@ -470650,6 +470658,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pawel-kuznik--underhive-bookies",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "sztanko--hexalife",
+      "description": "hexalife",
+      "author": "sztanko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sztanko--hexalife",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
