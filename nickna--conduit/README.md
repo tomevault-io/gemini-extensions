@@ -1,0 +1,30 @@
+# Conduit
+
+> Source: [nickna/Conduit](https://github.com/nickna/Conduit) — distributed by [TomeVault](https://tomevault.io)
+
+A unified API gateway for multiple LLM providers with OpenAI-compatible endpoints
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [nickna/Conduit](https://github.com/nickna/Conduit).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/nickna/Conduit](https://github.com/nickna/Conduit)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install nickna/Conduit
+```
+Source: [github.com/nickna/Conduit](https://github.com/nickna/Conduit).
+
+<!-- genome:d-i-p -->
