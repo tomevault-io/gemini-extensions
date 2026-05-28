@@ -7,11 +7,11 @@ Enabling Digital Sustainability Through Granular Energy Measurement
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [FairCompute/energy-monitoring-tool](https://github.com/FairCompute/energy-monitoring-tool).
+Original source: `AGENTS.md` in [FairCompute/energy-monitoring-tool](https://github.com/FairCompute/energy-monitoring-tool).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
