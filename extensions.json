@@ -208340,6 +208340,14 @@
       "quality": "silver"
     },
     {
+      "name": "compartmentdev--compartment",
+      "description": "Compartment is a self-hosted application deployment system for teams that want to ship and share internal, private, or public web apps without building their own platform stack.",
+      "author": "compartmentdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/compartmentdev--compartment",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
@@ -224680,6 +224688,38 @@
       "description": "nixos",
       "author": "arsfeld",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arsfeld--nixos",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "dash0hq--dash0-cli",
+      "description": "Command line utility to interact with Dash0",
+      "author": "dash0hq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dash0hq--dash0-cli",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "dash0hq--dash0-cli",
+      "description": "Command line utility to interact with Dash0",
+      "author": "dash0hq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dash0hq--dash0-cli",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "divitmittal--professionalstay-site",
+      "description": "Professional Stay Homepage",
+      "author": "DivitMittal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/divitmittal--professionalstay-site",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "xingwangzhe--rustedwarfaremodsupport",
+      "description": "\u6b63\u5728\u5f00\u53d1\u7684vscode\u63d2\u4ef6,\u5e0c\u671b\u5b9e\u73b0\u4ee3\u7801\u8865\u5168\u63d0\u793a,\u53ef\u89c6\u5316\u56fe\u7247\u7b49..",
+      "author": "xingwangzhe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xingwangzhe--rustedwarfaremodsupport",
       "stars": 12,
       "quality": "silver"
     },
