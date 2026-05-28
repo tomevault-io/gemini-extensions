@@ -7,11 +7,11 @@ Github homepage releases feed is always broken - so I created my own
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [KieranP/Github-Releases-Feed](https://github.com/KieranP/Github-Releases-Feed).
+Original source: `CLAUDE.md` in [KieranP/Github-Releases-Feed](https://github.com/KieranP/Github-Releases-Feed).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
