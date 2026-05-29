@@ -158220,14 +158220,6 @@
       "quality": "gold"
     },
     {
-      "name": "baekenough--oh-my-customcode",
-      "description": "oh-my-zsh style customization framework for Claude Code",
-      "author": "baekenough",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
-      "stars": 23,
-      "quality": "silver"
-    },
-    {
       "name": "darkroomengineering--cc-settings",
       "description": "Vulcan may be a good name",
       "author": "darkroomengineering",
@@ -161912,6 +161904,22 @@
       "description": "Forked version of rust-sourcemap",
       "author": "oxc-project",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oxc-project--oxc-sourcemap",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "baekenough--oh-my-customcode",
+      "description": "oh-my-zsh style customization framework for Claude Code",
+      "author": "baekenough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "baekenough--oh-my-customcode",
+      "description": "oh-my-zsh style customization framework for Claude Code",
+      "author": "baekenough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
       "stars": 23,
       "quality": "silver"
     },
@@ -209764,6 +209772,30 @@
       "quality": "silver"
     },
     {
+      "name": "matgla--tinycc",
+      "description": "tinycc",
+      "author": "matgla",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matgla--tinycc",
+      "stars": 14,
+      "quality": "gold"
+    },
+    {
+      "name": "matgla--tinycc",
+      "description": "tinycc",
+      "author": "matgla",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matgla--tinycc",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "matgla--tinycc",
+      "description": "tinycc",
+      "author": "matgla",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matgla--tinycc",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
@@ -217800,6 +217832,30 @@
       "description": "Human-guided Research Agent Skill for Master and PhD students in CS, AI, math, and engineering: literature grounding, novelty gates, math formalization, experiment planning, reviewer simulation, and c",
       "author": "ngtiendong",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ngtiendong--academic-research-agent-skill",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "lowlydba--sustainable-npm",
+      "description": "\ud83c\udf31 GitHub Action that globally sets npm configurations to optimize speed, increase security, and reduce CO\u2082 emissions.",
+      "author": "lowlydba",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lowlydba--sustainable-npm",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "respeer-ai--linera-meme",
+      "description": "Minable meme microchain on Linera.",
+      "author": "respeer-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/respeer-ai--linera-meme",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "hxyulin--hadris",
+      "description": "A filesystem crate, written in rust. Designed to be fast, portable, and supports no-std environments. ",
+      "author": "hxyulin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hxyulin--hadris",
       "stars": 13,
       "quality": "silver"
     },
@@ -226560,6 +226616,14 @@
       "description": "qqmusicdownloader",
       "author": "yuqie6",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuqie6--qqmusicdownloader",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "furkankayadev--react-native-spotlight-guide",
+      "description": "react-native-spotlight-guide",
+      "author": "FurkanKayaDev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/furkankayadev--react-native-spotlight-guide",
       "stars": 12,
       "quality": "silver"
     },
@@ -235882,6 +235946,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codeaashu--lucide-motion",
       "stars": 11,
       "quality": "bronze"
+    },
+    {
+      "name": "danfoa--symmetric-learning",
+      "description": "Torch-based library for ML problems with symmetry priors. It provides equivariant neural network modules, models, and utilities for leveraging group symmetries in data.",
+      "author": "Danfoa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danfoa--symmetric-learning",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "iwangbowen--vue-expression-editor",
+      "description": "\u57fa\u4e8eVue 3\u5f00\u53d1\u7684\u516c\u5f0f\u7f16\u8f91\u5668\uff0c\u652f\u6301\u952e\u76d8\u548c\u6309\u952e\u8f93\u5165\uff0c\u652f\u6301\u53d8\u91cf\u8f93\u5165\u548c\u6c42\u503c ",
+      "author": "iwangbowen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/iwangbowen--vue-expression-editor",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "iwangbowen--vue-expression-editor",
+      "description": "\u57fa\u4e8eVue 3\u5f00\u53d1\u7684\u516c\u5f0f\u7f16\u8f91\u5668\uff0c\u652f\u6301\u952e\u76d8\u548c\u6309\u952e\u8f93\u5165\uff0c\u652f\u6301\u53d8\u91cf\u8f93\u5165\u548c\u6c42\u503c ",
+      "author": "iwangbowen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/iwangbowen--vue-expression-editor",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "nocentino--hammerdb",
+      "description": "hammerdb",
+      "author": "nocentino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nocentino--hammerdb",
+      "stars": 11,
+      "quality": "silver"
     },
     {
       "name": "makenowjust--naraku",
@@ -248842,6 +248938,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blackzhanzhan--novel-agent",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "guidovizoso--z1",
+      "description": "An open-source starter kit with Tanstack Start, Supabase, Tailwind and Bun.",
+      "author": "guidovizoso",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guidovizoso--z1",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -284996,6 +285100,14 @@
       "quality": "silver"
     },
     {
+      "name": "kmnhan--xarray-lmfit",
+      "description": "Fit lmfit models to xarray objects",
+      "author": "kmnhan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kmnhan--xarray-lmfit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -303900,6 +304012,70 @@
       "quality": "gold"
     },
     {
+      "name": "fuwenhao12--academic-ref-inserter",
+      "description": "academic-ref-inserter",
+      "author": "fuwenhao12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fuwenhao12--academic-ref-inserter",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "fuwenhao12--academic-ref-inserter",
+      "description": "academic-ref-inserter",
+      "author": "fuwenhao12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fuwenhao12--academic-ref-inserter",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "fuwenhao12--academic-ref-inserter",
+      "description": "academic-ref-inserter",
+      "author": "fuwenhao12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fuwenhao12--academic-ref-inserter",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "fuwenhao12--academic-ref-inserter",
+      "description": "academic-ref-inserter",
+      "author": "fuwenhao12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fuwenhao12--academic-ref-inserter",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "hypercoherence--pocketdaemon",
+      "description": "Experimental Android-native AI phone agent with voice, calls, memory, tools, and Magisk-based privileged integration.",
+      "author": "HyperCoherence",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hypercoherence--pocketdaemon",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "duliangkuan--fengyun-publish",
+      "description": "End-to-end AI ship pipeline for WeChat Official Accounts \u00b7 \u5377\u300c\u7814\u7a76 Agent \u7684\u4e91\u300d",
+      "author": "duliangkuan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/duliangkuan--fengyun-publish",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "viktorkav--kav-command-center",
+      "description": "Obsidian plugin: personal command center for YouTube content creators, powered by Claude Code slash commands",
+      "author": "viktorkav",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/viktorkav--kav-command-center",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "fuwenhao12--academic-ref-inserter",
+      "description": "academic-ref-inserter",
+      "author": "fuwenhao12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fuwenhao12--academic-ref-inserter",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -308480,6 +308656,30 @@
       "description": "A funny and easy AI desk pet \u2014 bring the most powerful tools to the most curious minds",
       "author": "lennonkc",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lennonkc--openbuddy",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "davidchicano--presuntamente",
+      "description": "Archivo p\u00fablico e interactivo de casos de corrupci\u00f3n en Espa\u00f1a. Cronolog\u00edas, actores, documentaci\u00f3n oficial y el grafo de qui\u00e9n est\u00e1 conectado con qui\u00e9n. Imputados, procesados, archivados y condenados",
+      "author": "davidchicano",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidchicano--presuntamente",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "hsablonniere--musiq",
+      "description": "Web components for rendering musical instruments, chords, and scales",
+      "author": "hsablonniere",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hsablonniere--musiq",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "davidchicano--presuntamente",
+      "description": "Archivo p\u00fablico e interactivo de casos de corrupci\u00f3n en Espa\u00f1a. Cronolog\u00edas, actores, documentaci\u00f3n oficial y el grafo de qui\u00e9n est\u00e1 conectado con qui\u00e9n. Imputados, procesados, archivados y condenados",
+      "author": "davidchicano",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidchicano--presuntamente",
       "stars": 7,
       "quality": "silver"
     },
@@ -475144,6 +475344,46 @@
       "description": "flare-safeguard",
       "author": "saremeskandary",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saremeskandary--flare-safeguard",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "mikhailsemichev--next15-study",
+      "description": "next15-study",
+      "author": "MikhailSemichev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikhailsemichev--next15-study",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mikhailsemichev--next15-study",
+      "description": "next15-study",
+      "author": "MikhailSemichev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikhailsemichev--next15-study",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "arunabhcode--gov-fetch",
+      "description": "App to get data from govt websites like USCIS and export control classifications",
+      "author": "arunabhcode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arunabhcode--gov-fetch",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "arunabhcode--gov-fetch",
+      "description": "App to get data from govt websites like USCIS and export control classifications",
+      "author": "arunabhcode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arunabhcode--gov-fetch",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "manavtriv--personal-website",
+      "description": "personal-website",
+      "author": "ManavTriv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/manavtriv--personal-website",
       "stars": 0,
       "quality": "gold"
     }
