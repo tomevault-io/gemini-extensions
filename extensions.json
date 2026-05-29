@@ -285244,6 +285244,222 @@
       "quality": "silver"
     },
     {
+      "name": "run-llama--liteparse-cloudflare-worker-quickstart",
+      "description": "Quickstart on how to deploy LiteParse as a CloudFlare worker",
+      "author": "run-llama",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/run-llama--liteparse-cloudflare-worker-quickstart",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "fortytwoservices--powershell-module-entraidaccesstoken",
+      "description": "A module for simplifying the process of getting an access token from Entra ID",
+      "author": "fortytwoservices",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fortytwoservices--powershell-module-entraidaccesstoken",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "mongorolls--dgut-cs-wiki",
+      "description": "A comprehensive learning guide for computer science students at DGUT, featuring resources, courses, and community support for aspiring developers.",
+      "author": "MongoRolls",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mongorolls--dgut-cs-wiki",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "superfly--flyssh",
+      "description": "SSH to WebSocket bridge - expose WebSocket servers via SSH",
+      "author": "superfly",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/superfly--flyssh",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "rpuls--zap-owasp-web-interface",
+      "description": "Simple web interface for zaproxy OWASP scanner",
+      "author": "rpuls",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rpuls--zap-owasp-web-interface",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "tungstenautomationlabs--totalagility-msteams-agent",
+      "description": "Provides a lightweight MS Teams / Bot Framework UI to front a TotalAgility Automation Agent, proxying user interactions via Teams to the Agent running in TotalAgility, then displaying the Agent's resp",
+      "author": "TungstenAutomationLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tungstenautomationlabs--totalagility-msteams-agent",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "babylonlabs-io--babylon-toolkit",
+      "description": "Babylon\u2019s frontend monorepo contains everything you need to build a world-class staking dApp.",
+      "author": "babylonlabs-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/babylonlabs-io--babylon-toolkit",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "surendranb--second-brain",
+      "description": "Your AI-Powered Knowledge Archive",
+      "author": "surendranb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/surendranb--second-brain",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "govorunb--gary",
+      "description": "Backend implementation for the Neuro-sama SDK",
+      "author": "Govorunb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/govorunb--gary",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "inlab-geo--pytransc",
+      "description": "Library of Trans-Conceptual sampling routines.",
+      "author": "inlab-geo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inlab-geo--pytransc",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "fajarrh--express-prisma-starter",
+      "description": "express prisma postgres starterkits",
+      "author": "fajarrh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fajarrh--express-prisma-starter",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "graphprotocol--grc-20-ts",
+      "description": "grc-20-ts",
+      "author": "graphprotocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--grc-20-ts",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "publicrust--cui-builder",
+      "description": "cui-builder",
+      "author": "publicrust",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/publicrust--cui-builder",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "graphprotocol--grc-20-ts",
+      "description": "grc-20-ts",
+      "author": "graphprotocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--grc-20-ts",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "valibali--hamledger",
+      "description": "Modern logger program for ham radio amateurs",
+      "author": "valibali",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/valibali--hamledger",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "maptiler--maptiler-sdk-swift",
+      "description": "Complete mobile mapping experience with Swift",
+      "author": "maptiler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maptiler--maptiler-sdk-swift",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "philwilliammee--tool-bot",
+      "description": "tool-bot",
+      "author": "philwilliammee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/philwilliammee--tool-bot",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "fc6a1b03--json-helper",
+      "description": "Json Helper \u662f\u4e00\u6b3e\u5f3a\u5927\u7684 IntelliJ IDEA \u63d2\u4ef6\uff0c\u652f\u6301\u7528\u6237\u81ea\u7531\u7f16\u8f91 JSON \u6570\u636e\u3001\u4ece JSON \u6570\u636e\u751f\u6210 Java \u7c7b\u4ee5\u53ca\u4ece Java \u7c7b\u590d\u5236 JSON \u6570\u636e\uff0c\u8fd8\u652f\u6301\u901a\u8fc7 JsonPath \u8fdb\u884c\u9ad8\u6548\u67e5\u8be2\u548c\u5904\u7406\u3002",
+      "author": "fc6a1b03",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fc6a1b03--json-helper",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "llnl--protlib-designer",
+      "description": "Integer Linear Programming for Protein Library Design",
+      "author": "llnl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/llnl--protlib-designer",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "disobeyfi--disobey-badge-2025-game-firmware",
+      "description": "Repository for 2025 badge firmware",
+      "author": "disobeyfi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/disobeyfi--disobey-badge-2025-game-firmware",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "philwilliammee--tool-bot",
+      "description": "tool-bot",
+      "author": "philwilliammee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/philwilliammee--tool-bot",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "stacksjs--buddy-bot",
+      "description": "\ud83d\udc36 Automated & optimized dependency updates for JavaScript & TypeScript projects. Like Renovate & Dependabot.",
+      "author": "stacksjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacksjs--buddy-bot",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "l0g0ff--kompassos",
+      "description": "KompassOS builds upon Aurora, specifically tailored for DevOps engineers, System Administrators and Network Engineers. Get a ready-to-use workstation with all the tools you need without extensive conf",
+      "author": "L0g0ff",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/l0g0ff--kompassos",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "redhat-developer--rhdh-plugin-export-overlays",
+      "description": "rhdh-plugin-export-overlays",
+      "author": "redhat-developer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/redhat-developer--rhdh-plugin-export-overlays",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "babylonlabs-io--babylon-toolkit",
+      "description": "Babylon\u2019s frontend monorepo contains everything you need to build a world-class staking dApp.",
+      "author": "babylonlabs-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/babylonlabs-io--babylon-toolkit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "kelvin6365--plane-discord-bot",
+      "description": "plane-discord-bot",
+      "author": "kelvin6365",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kelvin6365--plane-discord-bot",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "graphprotocol--grc-20-ts",
+      "description": "grc-20-ts",
+      "author": "graphprotocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--grc-20-ts",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -304236,6 +304452,126 @@
       "quality": "silver"
     },
     {
+      "name": "cenxiv--cenxiv",
+      "description": "cenXiv \u662f\u4e00\u4e2a\u57fa\u4e8e Django \u7684\u7535\u5b50\u9884\u5370\u672c\u5b58\u6863\uff0c\u65e8\u5728\u4e3a\u7528\u6237\u63d0\u4f9b\u4e2d\u6587(CN)\u548c\u82f1\u6587(EN)\u53cc\u8bed\u754c\u9762\u7684 arXiv \u8bba\u6587\u6d4f\u89c8\u3001\u641c\u7d22\u548c\u4e0b\u8f7d\u529f\u80fd\u3002\u8be5\u9879\u76ee\u5141\u8bb8\u7528\u6237\u6d4f\u89c8\u3001\u641c\u7d22\u548c\u83b7\u53d6\u79d1\u5b66\u8bba\u6587\u7684\u5404\u79cd\u683c\u5f0f\uff0c\u5305\u62ec\u4e2d\u6587\u5168\u6587 PDF\u3001\u82f1\u6587\u5168\u6587 PDF\u3001HTML\u3001DVI \u548c\u6e90\u6587\u4ef6\u7b49\u3002",
+      "author": "cenXiv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cenxiv--cenxiv",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "bean980310--ai-companion",
+      "description": "AI companions including generative AI such as chatbots, image generation, text generation, and audio generation.",
+      "author": "bean980310",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bean980310--ai-companion",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ba5ik7--ngx-editorjs2",
+      "description": "Ngx-EditorJs2 is an Angular-based, highly extensible block-style editor inspired by Editor.js. It allows users to create and manage rich text content using a variety of customizable blocks while lever",
+      "author": "Ba5ik7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ba5ik7--ngx-editorjs2",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "255bits--ai-agent-toolbox",
+      "description": "Easily add tool use to your AI Agents and Workflows. Framework and model provider agnostic.",
+      "author": "255BITS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/255bits--ai-agent-toolbox",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexey-pkv--godotlighter",
+      "description": "Godot GDExtension for SQLite",
+      "author": "alexey-pkv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexey-pkv--godotlighter",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "bean980310--ai-companion",
+      "description": "AI companions including generative AI such as chatbots, image generation, text generation, and audio generation.",
+      "author": "bean980310",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bean980310--ai-companion",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
+      "author": "psd401",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -308848,6 +309184,22 @@
       "description": "A super simple window switcher for macOS",
       "author": "jaydenfyi",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaydenfyi--scrolodex",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "joyzhang14-14--my-portrait",
+      "description": "My-Portrait",
+      "author": "joyzhang14-14",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joyzhang14-14--my-portrait",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "puck-security--puck-scout",
+      "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
+      "author": "puck-security",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/puck-security--puck-scout",
       "stars": 7,
       "quality": "gold"
     },
@@ -359658,14 +360010,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blopit--cursor-template-repo",
       "stars": 0,
       "quality": "bronze"
-    },
-    {
-      "name": "gdamalis--idc-redentor-web",
-      "description": "idc-redentor-web",
-      "author": "gdamalis",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gdamalis--idc-redentor-web",
-      "stars": 0,
-      "quality": "gold"
     },
     {
       "name": "ma3u--dust-mcp-server-postman-railway",
@@ -475648,6 +475992,62 @@
       "description": "habits",
       "author": "therealsuji",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/therealsuji--habits",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "lzj960515--taskmaster",
+      "description": "TaskMaster",
+      "author": "lzj960515",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lzj960515--taskmaster",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ecsavigne--client-wa-oficial",
+      "description": "Implementacion para manipular Whatsapp Api oficial",
+      "author": "ecsavigne",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ecsavigne--client-wa-oficial",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "cungen--notes",
+      "description": "notes",
+      "author": "cungen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cungen--notes",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "dashhuang--my-homepage",
+      "description": "my-homepage",
+      "author": "dashhuang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dashhuang--my-homepage",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "2048khz-gachi-rmx--dotto",
+      "description": "get it? botto on dotn- oh forget it",
+      "author": "2048khz-gachi-rmx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/2048khz-gachi-rmx--dotto",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexdalgleishmorel--mortgage-calculator",
+      "description": "mortgage-calculator",
+      "author": "alexdalgleishmorel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexdalgleishmorel--mortgage-calculator",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "waynezhang--dotr",
+      "description": "A simple dotfile manager.",
+      "author": "waynezhang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/waynezhang--dotr",
       "stars": 0,
       "quality": "bronze"
     }
