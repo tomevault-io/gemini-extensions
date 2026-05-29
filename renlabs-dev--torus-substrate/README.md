@@ -7,11 +7,11 @@ The Torus Blockchain implementation.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [renlabs-dev/torus-substrate](https://github.com/renlabs-dev/torus-substrate).
+Original source: `CLAUDE.md` in [renlabs-dev/torus-substrate](https://github.com/renlabs-dev/torus-substrate).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
