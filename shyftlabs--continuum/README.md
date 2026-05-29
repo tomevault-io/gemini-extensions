@@ -7,11 +7,11 @@ Continuum — the agent runtime by ShyftLabs. Build, orchestrate, ship.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [shyftlabs/continuum](https://github.com/shyftlabs/continuum).
+Original source: `CLAUDE.md` in [shyftlabs/continuum](https://github.com/shyftlabs/continuum).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
