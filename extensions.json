@@ -284916,6 +284916,78 @@
       "quality": "silver"
     },
     {
+      "name": "dergigi--vibeline-ui",
+      "description": "Call 555-vibe to vibe it into existence \ud83e\udd19",
+      "author": "dergigi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dergigi--vibeline-ui",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "pprunty--deltacomponents-dev",
+      "description": "Free and Open-Source TailwindCSS styled components designed for integration with shadcn, v0 and React/Next.js projects.",
+      "author": "pprunty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pprunty--deltacomponents-dev",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "chainstack--dev-portal",
+      "description": "Chainstack Developer Portal",
+      "author": "chainstack",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chainstack--dev-portal",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "chainstack--dev-portal",
+      "description": "Chainstack Developer Portal",
+      "author": "chainstack",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chainstack--dev-portal",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "pprunty--deltacomponents-dev",
+      "description": "Free and Open-Source TailwindCSS styled components designed for integration with shadcn, v0 and React/Next.js projects.",
+      "author": "pprunty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pprunty--deltacomponents-dev",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "onre-finance--onre-sol",
+      "description": "Solana program for the ONRE app",
+      "author": "onre-finance",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onre-finance--onre-sol",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "pprunty--deltacomponents-dev",
+      "description": "Free and Open-Source TailwindCSS styled components designed for integration with shadcn, v0 and React/Next.js projects.",
+      "author": "pprunty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pprunty--deltacomponents-dev",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "pprunty--deltacomponents-dev",
+      "description": "Free and Open-Source TailwindCSS styled components designed for integration with shadcn, v0 and React/Next.js projects.",
+      "author": "pprunty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pprunty--deltacomponents-dev",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "pprunty--deltacomponents-dev",
+      "description": "Free and Open-Source TailwindCSS styled components designed for integration with shadcn, v0 and React/Next.js projects.",
+      "author": "pprunty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pprunty--deltacomponents-dev",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -308368,6 +308440,38 @@
       "description": "\ud83d\udcbb \u4e45\u5750\u63d0\u9192\uff0c\u952e\u76d8\u9f20\u6807\u8f7b\u91cf\u76d1\u6d4b\uff0c\u9ed8\u9ed8\u63d0\u9192\u4f60\u4fdd\u62a4\u8eab\u4f53/ A privacy-first break reminder driven by keyboard & mouse activity. ",
       "author": "lanxiuyun",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lanxiuyun--catrace",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "samuelhm--42jobs",
+      "description": "AI-powered job search platform for junior software engineers: job fetching, smart filtering, keyword extraction, and ATS-optimized CV generation. Built with .NET 10, ASP.NET Core, React 19, and Postgr",
+      "author": "samuelhm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samuelhm--42jobs",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "schuettc--now-playing",
+      "description": "Raspberry Pi vinyl now-playing kiosk \u2014 Sonos line-in + Shazam + Discogs/MusicBrainz catalog enrichment + local fingerprint cascade",
+      "author": "schuettc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schuettc--now-playing",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "maanfa--kuiper",
+      "description": "kuiper",
+      "author": "maanfa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maanfa--kuiper",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "lennonkc--openbuddy",
+      "description": "A funny and easy AI desk pet \u2014 bring the most powerful tools to the most curious minds",
+      "author": "lennonkc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lennonkc--openbuddy",
       "stars": 7,
       "quality": "silver"
     },
@@ -475010,6 +475114,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cday-with-ai--simple-fics-interface",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "runic-studios--rr-game",
+      "description": "RR-Game",
+      "author": "Runic-Studios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/runic-studios--rr-game",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "homesh33p--rag-project",
+      "description": "a sample rag project",
+      "author": "homesh33p",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/homesh33p--rag-project",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "saremeskandary--flare-safeguard",
+      "description": "flare-safeguard",
+      "author": "saremeskandary",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saremeskandary--flare-safeguard",
+      "stars": 0,
+      "quality": "gold"
     }
   ]
 }
