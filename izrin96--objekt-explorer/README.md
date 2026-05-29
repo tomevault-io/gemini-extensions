@@ -7,11 +7,11 @@ Simple Modhaus Cosmo's K-POP NFT Objekt web explorer
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [izrin96/objekt-explorer](https://github.com/izrin96/objekt-explorer).
+Original source: `CLAUDE.md` in [izrin96/objekt-explorer](https://github.com/izrin96/objekt-explorer).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
