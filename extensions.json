@@ -150732,6 +150732,14 @@
       "quality": "silver"
     },
     {
+      "name": "sophomoresty--wechat-mp-harvest",
+      "description": "WeChat MP article harvester with DLL injection for no-GUI automation",
+      "author": "Sophomoresty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sophomoresty--wechat-mp-harvest",
+      "stars": 26,
+      "quality": "bronze"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -217780,6 +217788,14 @@
       "quality": "silver"
     },
     {
+      "name": "ngtiendong--academic-research-agent-skill",
+      "description": "Human-guided Research Agent Skill for Master and PhD students in CS, AI, math, and engineering: literature grounding, novelty gates, math formalization, experiment planning, reviewer simulation, and c",
+      "author": "ngtiendong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ngtiendong--academic-research-agent-skill",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
@@ -248768,6 +248784,22 @@
       "description": "open-lutra",
       "author": "fastlabel",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fastlabel--open-lutra",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "seaony--momento",
+      "description": "An Eagle-like MacOS image management app based on SwiftUI",
+      "author": "Seaony",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seaony--momento",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cadela-dev--projectatlas",
+      "description": "Claude Code workflow for mapping projects into clean-room behavior docs, file maps, batch reports, verification, and rebuild-ready blueprints.",
+      "author": "cadela-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cadela-dev--projectatlas",
       "stars": 10,
       "quality": "silver"
     },
