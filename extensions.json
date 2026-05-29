@@ -8588,6 +8588,14 @@
       "quality": "bronze"
     },
     {
+      "name": "open-gsd--gsd-core",
+      "description": "Getting Shit Done, the Aftermath",
+      "author": "open-gsd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/open-gsd--gsd-core",
+      "stars": 1710,
+      "quality": "silver"
+    },
+    {
       "name": "parruda--swarm",
       "description": "Ruby gems for general-purpose AI agent systems: automation, research, data processing, customer support, content creation. SwarmSDK provides single-process orchestration, persistent memory with semant",
       "author": "parruda",
