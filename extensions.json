@@ -284652,6 +284652,22 @@
       "quality": "silver"
     },
     {
+      "name": "ubugeeei-prod--awesome-vite-plus",
+      "description": "\ud83c\udf89 A curated list of awesome things related to Vite+",
+      "author": "ubugeeei-prod",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ubugeeei-prod--awesome-vite-plus",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "helloxz--zsend",
+      "description": "A Cloudflare Workers email gateway with multi-SMTP support and a unified HTTP sending API.",
+      "author": "helloxz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/helloxz--zsend",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -303400,6 +303416,46 @@
       "description": "Composable computational-science methodology skills for AI research agents \u2014 pre-registration over TDD. A science-domain reimplementation of Superpowers.",
       "author": "K-Dense-AI",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/k-dense-ai--science-superpowers",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "huangpustar--fenixagent",
+      "description": "FenixAgent",
+      "author": "HuangPuStar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huangpustar--fenixagent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "franckyb--voice-clone-studio-dramabox",
+      "description": "A simplified DramaBox version of Voice Clone Studio. Allows for Lora Generation that can also be used in ComfyUi.",
+      "author": "FranckyB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/franckyb--voice-clone-studio-dramabox",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hyperyond--hover",
+      "description": "Local-first, open-source AI testing for the web. The widget rides on the coding-agent CLI you already have (Claude Code / OpenAI Codex \u2014 no API key) to drive your real Chrome via Playwright MCP. Verif",
+      "author": "Hyperyond",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperyond--hover",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "huangpustar--fenixagent",
+      "description": "FenixAgent",
+      "author": "HuangPuStar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huangpustar--fenixagent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "foundationagents--ai-link-net",
+      "description": "Build AI teams that work together \u2014 agents, humans, and tools connected through a unified protocol.",
+      "author": "FoundationAgents",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/foundationagents--ai-link-net",
       "stars": 8,
       "quality": "silver"
     },
