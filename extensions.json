@@ -191236,6 +191236,14 @@
       "quality": "silver"
     },
     {
+      "name": "xerk--xerk",
+      "description": "Senior Software Engineer | Portfolio & Blog built with Next.js 14, TypeScript, and TailwindCSS | Showcasing projects, skills & experience",
+      "author": "xerk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xerk--xerk",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -236004,6 +236012,30 @@
       "quality": "silver"
     },
     {
+      "name": "voicelinkvr--voicelinkserver",
+      "description": "api server using faster-whisper and libreTranslate (design for VRCHAT)",
+      "author": "VoiceLinkVR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/voicelinkvr--voicelinkserver",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "limbicnation--multi-vision-toolkit",
+      "description": "A comprehensive Python toolkit for local deployment of Microsoft's Florence-2 vision model. Process images with state-of-the-art computer vision capabilities including object detection, image captioni",
+      "author": "Limbicnation",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/limbicnation--multi-vision-toolkit",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "voicelinkvr--voicelinkserver",
+      "description": "api server using faster-whisper and libreTranslate (design for VRCHAT)",
+      "author": "VoiceLinkVR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/voicelinkvr--voicelinkserver",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -248994,6 +249026,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rcolfin--catholic-mass-readings",
       "stars": 10,
       "quality": "gold"
+    },
+    {
+      "name": "gabrielmaialva33--flora-music-bot",
+      "description": "Flora Music Bot is a powerful music and video bot for Telegram, built with Python using Pyrogram and Py-Tgcalls. With it, you can stream music, videos, and even live broadcasts in group calls from var",
+      "author": "gabrielmaialva33",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabrielmaialva33--flora-music-bot",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -285500,6 +285540,246 @@
       "quality": "silver"
     },
     {
+      "name": "vladiliescu--clipit",
+      "description": "Web page downloader for humans and large language models alike",
+      "author": "vladiliescu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vladiliescu--clipit",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "therealdreg--pico-ps2-sniffer",
+      "description": "A simple PS2 sniffer based on Raspberry PI PICO RP2040 (pico-sdk)",
+      "author": "therealdreg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/therealdreg--pico-ps2-sniffer",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "saigontechnology--rn-base-project-expo",
+      "description": "rn-base-project-expo",
+      "author": "saigontechnology",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saigontechnology--rn-base-project-expo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dougwithseismic--gtm-crawler",
+      "description": "Hook Clay.com, N8n, Make.com up to your machine. Run code locally. Win at GTM.",
+      "author": "dougwithseismic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dougwithseismic--gtm-crawler",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "kcosr--aw-gateway",
+      "description": "Convenience gateway for disposable or reusable container workspaces with CLI, SSH, and JSON HTTP interfaces; starts/reuses targets, supervises in-container services, and bridges clients to container-l",
+      "author": "kcosr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kcosr--aw-gateway",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "aaravkashyap12--advise-project-approach",
+      "description": "A Claude/Codex skill that researches the best way to build your project before you commit to the wrong stack.",
+      "author": "AaravKashyap12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aaravkashyap12--advise-project-approach",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "emipa606--usethisinstead",
+      "description": "Repository for the Rimworld mod named Use This Instead",
+      "author": "emipa606",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emipa606--usethisinstead",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "saigontechnology--rn-base-project-expo",
+      "description": "rn-base-project-expo",
+      "author": "saigontechnology",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saigontechnology--rn-base-project-expo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "brycewg--trackflow",
+      "description": "AI\u65f6\u95f4\u8f74\u8bb0\u5f55\u8f6f\u4ef6",
+      "author": "BryceWG",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brycewg--trackflow",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "kunchenguid--baby-menu",
+      "description": "Personalized, self-evolving menu bar icon.",
+      "author": "kunchenguid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kunchenguid--baby-menu",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "kunchenguid--baby-menu",
+      "description": "Personalized, self-evolving menu bar icon.",
+      "author": "kunchenguid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kunchenguid--baby-menu",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "saigontechnology--rn-base-project-expo",
+      "description": "rn-base-project-expo",
+      "author": "saigontechnology",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saigontechnology--rn-base-project-expo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "cmcguinness--meshtastic-nodes-monitor",
+      "description": "Monitors the Meshtastic Network",
+      "author": "cmcguinness",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cmcguinness--meshtastic-nodes-monitor",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "izrin96--objekt-explorer",
+      "description": "Simple Modhaus Cosmo's K-POP NFT Objekt web explorer",
+      "author": "izrin96",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/izrin96--objekt-explorer",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "izrin96--objekt-explorer",
+      "description": "Simple Modhaus Cosmo's K-POP NFT Objekt web explorer",
+      "author": "izrin96",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/izrin96--objekt-explorer",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "elsejj--gpt",
+      "description": "a cli tool use to send GPT request",
+      "author": "elsejj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elsejj--gpt",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "jhd3197--cacaodocs",
+      "description": "CacaoDocs is a lightweight Python package that effortlessly extracts API documentation directly from your code's docstrings",
+      "author": "jhd3197",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jhd3197--cacaodocs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mikepenz--convention",
+      "description": "Re-useable convention plugin",
+      "author": "mikepenz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikepenz--convention",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "umarprogrammer19--b11-final-backend",
+      "description": "B11-Final-Backend",
+      "author": "umarprogrammer19",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/umarprogrammer19--b11-final-backend",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "kristofferr--bonusvarsler",
+      "description": "BonusVarsler er en minimalistisk web extension/userscript som gir deg varslel n\u00e5r du er inne p\u00e5 en nettbutikk som gir bonus p\u00e5 Trumf/re:member/OBOS/DNB m.m.",
+      "author": "kristofferR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kristofferr--bonusvarsler",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "comfygit-ai--comfydock-cli",
+      "description": "A CLI tool to help manage ComfyUI environments",
+      "author": "comfygit-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/comfygit-ai--comfydock-cli",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "davis7dotsh--davis7dotsh",
+      "description": "My personal site",
+      "author": "davis7dotsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davis7dotsh--davis7dotsh",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "full-metal-bagel--overlook-game-framework",
+      "description": "overlook-game-framework",
+      "author": "Full-Metal-Bagel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/full-metal-bagel--overlook-game-framework",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "wenrolland--textenhanceai",
+      "description": "A user-friendly, Python-based Markdown editor that leverages a locally hosted LLM (via Ollama right now) for simple text enhancements, proofreading, and rewriting. ",
+      "author": "wenrolland",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenrolland--textenhanceai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "kristofferr--bonusvarsler",
+      "description": "BonusVarsler er en minimalistisk web extension/userscript som gir deg varslel n\u00e5r du er inne p\u00e5 en nettbutikk som gir bonus p\u00e5 Trumf/re:member/OBOS/DNB m.m.",
+      "author": "kristofferR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kristofferr--bonusvarsler",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "wadvanced--aurora-uix",
+      "description": "Low code UI for the elixir's Phoenix Framework",
+      "author": "wadvanced",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wadvanced--aurora-uix",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "routecraftjs--routecraft",
+      "description": "Define TypeScript capabilities that send emails, manage calendars, and automate work. Expose them to the Routecraft agent, Claude, ChatGPT, Cursor, or any AI agent via MCP. AI uses your capabilities, ",
+      "author": "routecraftjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/routecraftjs--routecraft",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "linhnguyen-gt--new-react-native-zustand-react-query",
+      "description": "\u2728 A React Native boilerplate with Zustand for client state, React Query for server state, and modern development practices",
+      "author": "linhnguyen-gt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/linhnguyen-gt--new-react-native-zustand-react-query",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "allora-network--allora-sdk-py",
+      "description": "SDK for interacting with the Allora Network in Python.",
+      "author": "allora-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allora-network--allora-sdk-py",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "doughaber--lair",
+      "description": "CLI tools for working with generative AI",
+      "author": "DougHaber",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doughaber--lair",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -304608,6 +304888,110 @@
       "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure",
       "author": "psd401",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psd401--aistudio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "illegal-xd--webtool-deepseek",
+      "description": "\u4e3a [DeepSeek](https://chat.deepseek.com) \u7f51\u9875\u7248\u6ce8\u5165 Agentic \u8bb0\u5fc6\u7cfb\u7edf\u3001Skill \u6280\u80fd\u7cfb\u7edf \u3001 \u7cfb\u7edf\u63d0\u793a\u8bcd\u9884\u8bbe \u3001\u5bf9\u8bdd\u7ba1\u7406 \u548c Mcp \u670d\u52a1\u7cfb\u7edf \u7684 Chrome \u6269\u5c55\u3002",
+      "author": "illegal-xd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/illegal-xd--webtool-deepseek",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "mrgoonie--searchapi",
+      "description": "An open-source API Gateway for Google Search, Youtube Search, Yahoo Search, Bing Search,...",
+      "author": "mrgoonie",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrgoonie--searchapi",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "notblubbll--free-buff-lol",
+      "description": "free-buff-lol",
+      "author": "notBlubbll",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/notblubbll--free-buff-lol",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "starlake-ai--quack-on-demand",
+      "description": "Production-grade Arrow FlightSQL gateway in front of DuckDB Quack + DuckLake. Multi-tenant pools, pluggable auth (DB/JWT/OIDC), table-level ACLs, role-aware routing, and a live admin console",
+      "author": "starlake-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/starlake-ai--quack-on-demand",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "0xbebis--hyperpay",
+      "description": "Omnichain payments system that allows AI Agents to fund their Hyperliquid margin from anywhere & use that margin to pay for compute and other services.",
+      "author": "0xBebis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/0xbebis--hyperpay",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "formthefog--formation",
+      "description": "Infra for the Autonomous Age: Powering the Agent Workforce of tomorrow",
+      "author": "formthefog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/formthefog--formation",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "hellno--vibes-engineering-mini-app-template",
+      "description": "vibes engineering mini app template",
+      "author": "hellno",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hellno--vibes-engineering-mini-app-template",
       "stars": 8,
       "quality": "silver"
     },
@@ -476090,6 +476474,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/waynezhang--dotr",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "dnakhla--everything-bot",
+      "description": "An AI assistant inside telegram",
+      "author": "dnakhla",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dnakhla--everything-bot",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "stuartlynne--racedbcli",
+      "description": "RaceDB command line programs for managing competitions, license holders and registration",
+      "author": "stuartlynne",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stuartlynne--racedbcli",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
