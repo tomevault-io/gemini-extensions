@@ -96540,6 +96540,14 @@
       "quality": "silver"
     },
     {
+      "name": "shirakaba--expo-desktop",
+      "description": "Userland support for using Expo with out-of-tree platforms",
+      "author": "shirakaba",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shirakaba--expo-desktop",
+      "stars": 53,
+      "quality": "silver"
+    },
+    {
       "name": "isaaccorley--geospatial-skills",
       "description": "geospatial-skills",
       "author": "isaaccorley",
@@ -248800,6 +248808,22 @@
       "description": "Claude Code workflow for mapping projects into clean-room behavior docs, file maps, batch reports, verification, and rebuild-ready blueprints.",
       "author": "cadela-dev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cadela-dev--projectatlas",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ritesh0888--kroma-studio",
+      "description": "kroma-studio",
+      "author": "Ritesh0888",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ritesh0888--kroma-studio",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "ritesh0888--kroma-studio",
+      "description": "kroma-studio",
+      "author": "Ritesh0888",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ritesh0888--kroma-studio",
       "stars": 10,
       "quality": "silver"
     },
