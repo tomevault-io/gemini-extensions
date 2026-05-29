@@ -285108,6 +285108,134 @@
       "quality": "silver"
     },
     {
+      "name": "simongino--aicommit",
+      "description": "\ud83e\udd16 AI-powered git commit message generator supporting multiple LLM providers (OpenAI, Azure OpenAI). Generate meaningful commit messages from your staged changes with a beautiful CLI interface.",
+      "author": "SimonGino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/simongino--aicommit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "infonomic--uikit",
+      "description": "Infonomic UI Kit - An opinionated UI kit.",
+      "author": "infonomic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/infonomic--uikit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tribes-protocol--ayaos",
+      "description": "AyaOS",
+      "author": "tribes-protocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tribes-protocol--ayaos",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "ngutech21--vipr-wallet",
+      "description": "Fedimint web wallet for ecash and Lightning payments on mobile and desktop",
+      "author": "ngutech21",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ngutech21--vipr-wallet",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "arcadia-eternity--arcadia-eternity",
+      "description": "A turn-based battle simulator of seer2(\u8d5b\u5c14\u53f72,\u7ea6\u745f\u4f20\u8bf4).",
+      "author": "arcadia-eternity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arcadia-eternity--arcadia-eternity",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ornl-amo--measur-tools-suite",
+      "description": "MEASUR-Tools-Suite is an energy efficiency calculation library in C++ with WebAssembly (WASM) for the MEASUR application.",
+      "author": "ORNL-AMO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ornl-amo--measur-tools-suite",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "tribes-protocol--ayaos",
+      "description": "AyaOS",
+      "author": "tribes-protocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tribes-protocol--ayaos",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "gexec--gexec",
+      "description": "Generic execution platform for Ansible/OpenTofu/Terraform",
+      "author": "gexec",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gexec--gexec",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "rickthehat--datastarexamples",
+      "description": "Built using ASP.NET Core & Datastar",
+      "author": "RickTheHat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rickthehat--datastarexamples",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tribes-protocol--ayaos",
+      "description": "AyaOS",
+      "author": "tribes-protocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tribes-protocol--ayaos",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "poveroh--poveroh",
+      "description": "A Open-Source platform to track personal finance, built for clarity.",
+      "author": "Poveroh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/poveroh--poveroh",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "seanome--kmerseek",
+      "description": "Efficient protein domain annotation search with reduced amino acid k-mers",
+      "author": "seanome",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seanome--kmerseek",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "lsqkk--lsqkk-github-io",
+      "description": "\u5938\u514b\u535a\u5ba2 | \u57fa\u4e8e\u539f\u751f\u6280\u672f\u6808\u7684\u4e2a\u4eba\u7f51\u7ad9\uff0c\u5206\u4eab\u7b14\u8bb0\u3001\u5de5\u5177\u3001\u6e38\u620f\u3001\u524d\u7aef\u5b9e\u9a8c\u7b49\u3002",
+      "author": "lsqkk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lsqkk--lsqkk-github-io",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "seanome--kmerseek",
+      "description": "Efficient protein domain annotation search with reduced amino acid k-mers",
+      "author": "seanome",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seanome--kmerseek",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "xykong--prometheus-remote-writer",
+      "description": "A Python package to send data using Prometheus remote write protocol.",
+      "author": "xykong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xykong--prometheus-remote-writer",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "seanome--kmerseek",
+      "description": "Efficient protein domain annotation search with reduced amino acid k-mers",
+      "author": "seanome",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seanome--kmerseek",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -308706,6 +308834,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidchicano--presuntamente",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "jaydenfyi--scrolodex",
+      "description": "A super simple window switcher for macOS",
+      "author": "jaydenfyi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaydenfyi--scrolodex",
+      "stars": 7,
+      "quality": "gold"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
@@ -475466,6 +475602,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ncolesummers--enterprise-intelligence-portfolio",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "dendyswaran--cinelight-api-ts",
+      "description": "A TypeScript API for Cinelight with strict TypeScript and SOLID principles following clean architecture",
+      "author": "dendyswaran",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dendyswaran--cinelight-api-ts",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "basi--docbase-cli",
+      "description": "Docbase CLI",
+      "author": "basi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/basi--docbase-cli",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "paulmeurer--parse-cg3",
+      "description": "Constraint grammar parsing interface",
+      "author": "paulmeurer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/paulmeurer--parse-cg3",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "brandonchastain--rss-reader",
+      "description": "RSS Reader application",
+      "author": "brandonchastain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brandonchastain--rss-reader",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "therealsuji--habits",
+      "description": "habits",
+      "author": "therealsuji",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/therealsuji--habits",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
