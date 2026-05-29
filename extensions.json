@@ -226636,6 +226636,14 @@
       "quality": "silver"
     },
     {
+      "name": "explore-de--rage4j",
+      "description": "Evaluate your LLM based Java Apps",
+      "author": "explore-de",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/explore-de--rage4j",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -235984,6 +235992,14 @@
       "description": "hammerdb",
       "author": "nocentino",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nocentino--hammerdb",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "electrocucaracha--kubevirt-actions-runner",
+      "description": "GitHub self-host actions project for creation of KubeVirt runners",
+      "author": "electrocucaracha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/electrocucaracha--kubevirt-actions-runner",
       "stars": 11,
       "quality": "silver"
     },
@@ -248954,6 +248970,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guidovizoso--z1",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "donmutti--career-repo",
+      "description": "Career Repo is a local-first, private career tracking tool that runs entirely on your machine.",
+      "author": "donmutti",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/donmutti--career-repo",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "iteratetograceness--dotelier",
+      "description": "dotelier",
+      "author": "iteratetograceness",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/iteratetograceness--dotelier",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "rcolfin--catholic-mass-readings",
+      "description": "Provides an API for querying the Daily Mass populated from https://bible.usccb.org/bible/readings/",
+      "author": "rcolfin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rcolfin--catholic-mass-readings",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
