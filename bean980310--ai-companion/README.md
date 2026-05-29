@@ -7,11 +7,11 @@ AI companions including generative AI such as chatbots, image generation, text g
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [bean980310/ai-companion](https://github.com/bean980310/ai-companion).
+Original source: `CLAUDE.md` in [bean980310/ai-companion](https://github.com/bean980310/ai-companion).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
