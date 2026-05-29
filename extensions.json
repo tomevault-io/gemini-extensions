@@ -284620,6 +284620,30 @@
       "quality": "silver"
     },
     {
+      "name": "cadela-dev--anything-reversal-template",
+      "description": "Claude Code clean-room workflow for turning source trees into behavior-focused mirror docs, batch reports, verification, and rebuild plans.",
+      "author": "cadela-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cadela-dev--anything-reversal-template",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jacobaraujo7--remote-pi",
+      "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent \u2014 even when you're away from your computer.",
+      "author": "jacobaraujo7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacobaraujo7--remote-pi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "italia--dev-kit-italia",
+      "description": "Toolkit che implementa il Design system .italia",
+      "author": "italia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/italia--dev-kit-italia",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -303308,6 +303332,70 @@
       "quality": "silver"
     },
     {
+      "name": "tim-osterhus--interactive-resume",
+      "description": "A way to locally host a public-facing interactive resume. Requires 8GB VRAM, minimum.",
+      "author": "tim-osterhus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tim-osterhus--interactive-resume",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "maitrungduc1410--react-native-signature-ink",
+      "description": "\u270d\ufe0f True-native signature capture for React Native",
+      "author": "maitrungduc1410",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maitrungduc1410--react-native-signature-ink",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "sathvik-rao--stackresume",
+      "description": "Self-hosted, open-source AI resume builder for software developers.",
+      "author": "Sathvik-Rao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sathvik-rao--stackresume",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "santazuki--unblind",
+      "description": "unblind",
+      "author": "Santazuki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/santazuki--unblind",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ramimbo--mergework",
+      "description": "Open-source work ledger where contributors and AI agents earn MRWK",
+      "author": "ramimbo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ramimbo--mergework",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kapishdima--whichly",
+      "description": "Code multiple variants of a section, let clients pick the winner live on your real staging site",
+      "author": "kapishdima",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kapishdima--whichly",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "k-dense-ai--science-superpowers",
+      "description": "Composable computational-science methodology skills for AI research agents \u2014 pre-registration over TDD. A science-domain reimplementation of Superpowers.",
+      "author": "K-Dense-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/k-dense-ai--science-superpowers",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "k-dense-ai--science-superpowers",
+      "description": "Composable computational-science methodology skills for AI research agents \u2014 pre-registration over TDD. A science-domain reimplementation of Superpowers.",
+      "author": "K-Dense-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/k-dense-ai--science-superpowers",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -307792,6 +307880,54 @@
       "description": "A context-first, spec-driven, strictly sequential development workflow plugin for Claude Code \u2014 keeps your CLAUDE.md/.claude spec always fresh and grounds every decision in Context7 + Microsoft Learn.",
       "author": "naniiluja",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/naniiluja--ccf",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "catchen--knowledge-wiki-template",
+      "description": "knowledge-wiki-template",
+      "author": "CatChen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/catchen--knowledge-wiki-template",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "nersc--workflow-automation-tutorial",
+      "description": "Functioning workflow examples and documentation for use during the \"Automating HPC Research Workflows on Perlmutter\" being held on May 28th, 2026",
+      "author": "NERSC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nersc--workflow-automation-tutorial",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ohhhhhhei--taac2026",
+      "description": "TAAC2026",
+      "author": "OHHHHHHei",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ohhhhhhei--taac2026",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "catchen--knowledge-wiki-template",
+      "description": "knowledge-wiki-template",
+      "author": "CatChen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/catchen--knowledge-wiki-template",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "siliconpeasant--silicon-agents",
+      "description": "silicon-agents",
+      "author": "siliconpeasant",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/siliconpeasant--silicon-agents",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "leoncrispybacon--full-auto-forza-edition",
+      "description": "Full automated AFK script for grinding mastery points and unlocking 22B-STI's mastery tree",
+      "author": "Leoncrispybacon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leoncrispybacon--full-auto-forza-edition",
       "stars": 7,
       "quality": "silver"
     },
@@ -474114,6 +474250,310 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/festion--hass-ab-ble-gateway-suite",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "trkaydo44--model-lukas",
+      "description": "MODEL.LUKAS",
+      "author": "trkaydo44",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trkaydo44--model-lukas",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "martin-gomola--beskarfolio",
+      "description": "Privacy-first stock portfolio tracker. Transactions in localStorage, prices from 4 providers with fallback. No database, no accounts. FastAPI + React + Docker.",
+      "author": "martin-gomola",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/martin-gomola--beskarfolio",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "leoan698-tom--yuannew-v1",
+      "description": "yuannew_v1",
+      "author": "leoan698-tom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leoan698-tom--yuannew-v1",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "emassive--playa",
+      "description": "playa",
+      "author": "Emassive",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emassive--playa",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "kevindougherty1--armchairgms",
+      "description": "armchair GMs repo",
+      "author": "kevindougherty1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kevindougherty1--armchairgms",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "topoftheridge--lyons-detailing-site",
+      "description": "Lyons Detailing website \u2014 built from CarCandy template",
+      "author": "topoftheridge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/topoftheridge--lyons-detailing-site",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "pitalock--pitalock",
+      "description": "zero-knowledge secret sharing for teams",
+      "author": "pitalock",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pitalock--pitalock",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "leoan698-tom--yuannew-v1",
+      "description": "yuannew_v1",
+      "author": "leoan698-tom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leoan698-tom--yuannew-v1",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "hatefmas--claude-tutorial",
+      "description": "Personal sandbox for testing and exploring Claude Code capabilities",
+      "author": "HatefMas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hatefmas--claude-tutorial",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "minilangchain--gutsypooptrackerapp",
+      "description": "GutsyPoopTrackerApp",
+      "author": "minilangchain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minilangchain--gutsypooptrackerapp",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "escapeprograms--fourierinstrument",
+      "description": "FourierInstrument",
+      "author": "escapeprograms",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/escapeprograms--fourierinstrument",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "matheusr28--digital-finance-54",
+      "description": "digital-finance-54",
+      "author": "Matheusr28",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matheusr28--digital-finance-54",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "marinirin909-lang--marketingskills",
+      "description": "marketingskills",
+      "author": "marinirin909-lang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marinirin909-lang--marketingskills",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "notchbrown--classlan",
+      "description": "ClassLAN",
+      "author": "NotchBrown",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/notchbrown--classlan",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bkuebler--spec-kit-discovery",
+      "description": "A spec-kit extension that adds the discovery phase that happens before specify",
+      "author": "bkuebler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bkuebler--spec-kit-discovery",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "saimon-rocha--portfolio",
+      "description": "portfolio",
+      "author": "saimon-rocha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saimon-rocha--portfolio",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "achen20030701--start",
+      "description": "start",
+      "author": "achen20030701",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/achen20030701--start",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "nkiliyumwami--mathaidatascience",
+      "description": "mathAIDatascience",
+      "author": "nkiliyumwami",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nkiliyumwami--mathaidatascience",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "guide1121--better-self-habits-tracker",
+      "description": "better-self-habits-tracker",
+      "author": "guide1121",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guide1121--better-self-habits-tracker",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alpha-tronex--api",
+      "description": "api",
+      "author": "alpha-tronex",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alpha-tronex--api",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jaxbcoffee-crypto--japan-trip",
+      "description": "japan-trip",
+      "author": "jaxbcoffee-crypto",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaxbcoffee-crypto--japan-trip",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "pitalock--pitalock",
+      "description": "zero-knowledge secret sharing for teams",
+      "author": "pitalock",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pitalock--pitalock",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "namskt--medikaprima",
+      "description": "Supplier Alat Kesehatan B2B",
+      "author": "Namskt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/namskt--medikaprima",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "andresgonzales2002--chutopremios",
+      "description": "chutopremios",
+      "author": "AndresGonzales2002",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andresgonzales2002--chutopremios",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "usamakaleem322--testing",
+      "description": "testing",
+      "author": "UsamaKaleem322",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/usamakaleem322--testing",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "whayu901--poc-bank-aeon-mvp",
+      "description": "poc-bank-aeon-mvp",
+      "author": "whayu901",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whayu901--poc-bank-aeon-mvp",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "marinirin909-lang--marketingskills",
+      "description": "marketingskills",
+      "author": "marinirin909-lang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marinirin909-lang--marketingskills",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "anwitachirravuri-cmd--fashion-portfolio",
+      "description": "fashion-portfolio",
+      "author": "anwitachirravuri-cmd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anwitachirravuri-cmd--fashion-portfolio",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "navaneethk99--purplsky-ecomm",
+      "description": "purplsky-ecomm",
+      "author": "navaneethk99",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/navaneethk99--purplsky-ecomm",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wanrvk303-cello--web-terminal",
+      "description": "Terminal-themed CLI portfolio with progressive reveal, typing effects, and interactive chat",
+      "author": "wanrvk303-cello",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wanrvk303-cello--web-terminal",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "mr-balaji2594--docs",
+      "description": "docs",
+      "author": "Mr-Balaji2594",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mr-balaji2594--docs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cedzi-95--e-commerce-frontend",
+      "description": "E-Commerce-Frontend",
+      "author": "Cedzi-95",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cedzi-95--e-commerce-frontend",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "stnmrshx--go-processmanager",
+      "description": "Process manager for Go \u2014 start, monitor, and stop subprocesses with graceful shutdown, process group management, and PID-based state persistence for self purpose yhaaaaa.",
+      "author": "stnmrshx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stnmrshx--go-processmanager",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "guide1121--better-self-habits-tracker",
+      "description": "better-self-habits-tracker",
+      "author": "guide1121",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guide1121--better-self-habits-tracker",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "gud8238--rego-spike",
+      "description": "rego-spike",
+      "author": "gud8238",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gud8238--rego-spike",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "martin-gomola--beskarfolio",
+      "description": "Privacy-first stock portfolio tracker. Transactions in localStorage, prices from 4 providers with fallback. No database, no accounts. FastAPI + React + Docker.",
+      "author": "martin-gomola",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/martin-gomola--beskarfolio",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "codewithoz--og-proxy-worker",
+      "description": "og-proxy-worker",
+      "author": "CodeWithOz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codewithoz--og-proxy-worker",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "gamussa--robocoders-kagematch-2026",
+      "description": "robocoders-kagematch-2026",
+      "author": "gAmUssA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gamussa--robocoders-kagematch-2026",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
