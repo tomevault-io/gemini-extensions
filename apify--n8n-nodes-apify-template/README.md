@@ -7,11 +7,11 @@ This is a template repo for the n8n single Actor apps.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [apify/n8n-nodes-apify-template](https://github.com/apify/n8n-nodes-apify-template).
+Original source: `CLAUDE.md` in [apify/n8n-nodes-apify-template](https://github.com/apify/n8n-nodes-apify-template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
