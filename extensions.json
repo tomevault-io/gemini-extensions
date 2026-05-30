@@ -96556,6 +96556,14 @@
       "quality": "silver"
     },
     {
+      "name": "kriegcloud--beep-effect",
+      "description": "beep-effect",
+      "author": "kriegcloud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kriegcloud--beep-effect",
+      "stars": 53,
+      "quality": "silver"
+    },
+    {
       "name": "isaaccorley--geospatial-skills",
       "description": "geospatial-skills",
       "author": "isaaccorley",
@@ -97890,6 +97898,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oylbin--obsidian-external-file-embed-and-link",
       "stars": 52,
       "quality": "bronze"
+    },
+    {
+      "name": "perrystreetsoftware--rubyzen",
+      "description": "Rubyzen is a modern linter for Ruby that allows you to write architectural lint rules as unit tests. In the era of AI-generated code, Rubyzen provides your team with deterministic guardrails to keep y",
+      "author": "perrystreetsoftware",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perrystreetsoftware--rubyzen",
+      "stars": 52,
+      "quality": "silver"
+    },
+    {
+      "name": "perrystreetsoftware--rubyzen",
+      "description": "Rubyzen is a modern linter for Ruby that allows you to write architectural lint rules as unit tests. In the era of AI-generated code, Rubyzen provides your team with deterministic guardrails to keep y",
+      "author": "perrystreetsoftware",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perrystreetsoftware--rubyzen",
+      "stars": 52,
+      "quality": "silver"
     },
     {
       "name": "lktiep--cortex-hub",
@@ -124276,6 +124300,30 @@
       "quality": "bronze"
     },
     {
+      "name": "cartographer3d--cartographer3d-plugin",
+      "description": "cartographer3d-plugin",
+      "author": "Cartographer3D",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cartographer3d--cartographer3d-plugin",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
+      "name": "deastl--3d-htmx-game",
+      "description": "3d-htmx-game",
+      "author": "DeaSTL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deastl--3d-htmx-game",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
+      "name": "cartographer3d--cartographer3d-plugin",
+      "description": "cartographer3d-plugin",
+      "author": "Cartographer3D",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cartographer3d--cartographer3d-plugin",
+      "stars": 36,
+      "quality": "gold"
+    },
+    {
       "name": "aregowe--magento2-module-polyshell-protection",
       "description": "Comprehensive defense-in-depth Magento 2 module that closes the PolyShell unrestricted file upload vulnerability (APSB25-94) \u2014 blocking polyglot webshell uploads across eight interception layers inclu",
       "author": "aregowe",
@@ -143732,6 +143780,14 @@
       "quality": "silver"
     },
     {
+      "name": "xdevplatform--docs",
+      "description": "docs",
+      "author": "xdevplatform",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xdevplatform--docs",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
       "name": "khangbdd--phoenix",
       "description": "phoenix",
       "author": "khangbdd",
@@ -158124,6 +158180,14 @@
       "quality": "silver"
     },
     {
+      "name": "salvinoto--nextjs-ultimate-saas",
+      "description": "The all in one Next.js template. https://kabobtech.com/",
+      "author": "salvinoto",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/salvinoto--nextjs-ultimate-saas",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -161928,6 +161992,30 @@
       "description": "oh-my-zsh style customization framework for Claude Code",
       "author": "baekenough",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "utsmannn--commitah",
+      "description": "Generating commit messages using Generative AI",
+      "author": "utsmannn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/utsmannn--commitah",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "utsmannn--commitah",
+      "description": "Generating commit messages using Generative AI",
+      "author": "utsmannn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/utsmannn--commitah",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "jamesdavid--inreader",
+      "description": "A modern, keyboard-driven RSS feed reader that brings back the magic of Google Reader with AI! \ud83d\ude80",
+      "author": "JamesDavid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jamesdavid--inreader",
       "stars": 23,
       "quality": "silver"
     },
@@ -166972,6 +167060,14 @@
       "quality": "gold"
     },
     {
+      "name": "canonical--jubilant",
+      "description": "Jubilant is a Pythonic wrapper around the Juju CLI, primarily for charm integration testing.",
+      "author": "canonical",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/canonical--jubilant",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -171168,6 +171264,22 @@
       "description": "Haxe dependencies viewer.",
       "author": "Antriel",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/antriel--haxe-deps-viewer",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "picamator--transfer-object",
+      "description": "A modern Symfony-compatible Transfer Object Generator with property hooks, FixedArray, and asymmetric visibilities.",
+      "author": "picamator",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/picamator--transfer-object",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "operaton--web-apps",
+      "description": "New web apps for Operaton",
+      "author": "operaton",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/operaton--web-apps",
       "stars": 21,
       "quality": "silver"
     },
@@ -175600,6 +175712,22 @@
       "description": "Msgpack serialization for Zig / msgpack.org[Zig]",
       "author": "lalinsky",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lalinsky--msgpack-zig",
+      "stars": 20,
+      "quality": "bronze"
+    },
+    {
+      "name": "kindfi-org--kindfi",
+      "description": "KindFi is an open-source Web3 crowdfunding platform built on Stellar. Featuring milestone-based escrows, gamified engagement, and LLM tools. GUIDE: https://kindfis-organization.gitbook.io/development",
+      "author": "kindfi-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kindfi-org--kindfi",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "xemantic--xemantic-kotlin-test",
+      "description": "An AX-first (AI/Agent Experience) Kotlin multiplatform testing library with power-assert compatible assertions DSL and other testing goodies.",
+      "author": "xemantic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xemantic--xemantic-kotlin-test",
       "stars": 20,
       "quality": "bronze"
     },
@@ -180114,6 +180242,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jocmp--mercury-parser",
       "stars": 19,
       "quality": "bronze"
+    },
+    {
+      "name": "synadia-io--connect",
+      "description": "Connect Client SDK and CLI",
+      "author": "synadia-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/synadia-io--connect",
+      "stars": 19,
+      "quality": "silver"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -185288,6 +185424,22 @@
       "description": "OpenQase is a community resource for curated quantum computing case studies and associated algorithms.",
       "author": "openqase",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openqase--openqase",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "uwumilabs--uwumi",
+      "description": "A feature-rich anime, manga and movie streaming app built with React Native and Expo",
+      "author": "uwumilabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/uwumilabs--uwumi",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "childrengreens--multi-source-spring-boot-starter",
+      "description": "Spring Boot Starter for Multi Data Source.",
+      "author": "ChildrenGreens",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/childrengreens--multi-source-spring-boot-starter",
       "stars": 18,
       "quality": "silver"
     },
@@ -191244,6 +191396,14 @@
       "quality": "bronze"
     },
     {
+      "name": "d7z-project--gitea-pages",
+      "description": "gitea-pages",
+      "author": "d7z-project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/d7z-project--gitea-pages",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -197080,6 +197240,46 @@
       "description": "120+ Claude Code / Codex  skills. Production-grade  skills system for web apps & mobile architecture, APIs, databases, web, mobile, AI, security, UX, SaaS, and ERP engineering. Encodes reusable engine",
       "author": "peterbamuhigire",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/peterbamuhigire--skills-web-dev",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "myhelperhub--myhelper",
+      "description": "\ud83d\udd25\u8de8\u5e73\u53f0\u684c\u9762\u6548\u7387\u5de5\u5177 - \u652f\u6301\u53ef\u4e0a\u4f20\u3001\u4e0b\u8f7d\u7684\u63d2\u4ef6\u5e02\u573a",
+      "author": "MyHelperHub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myhelperhub--myhelper",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "myhelperhub--myhelper",
+      "description": "\ud83d\udd25\u8de8\u5e73\u53f0\u684c\u9762\u6548\u7387\u5de5\u5177 - \u652f\u6301\u53ef\u4e0a\u4f20\u3001\u4e0b\u8f7d\u7684\u63d2\u4ef6\u5e02\u573a",
+      "author": "MyHelperHub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myhelperhub--myhelper",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "myhelperhub--myhelper",
+      "description": "\ud83d\udd25\u8de8\u5e73\u53f0\u684c\u9762\u6548\u7387\u5de5\u5177 - \u652f\u6301\u53ef\u4e0a\u4f20\u3001\u4e0b\u8f7d\u7684\u63d2\u4ef6\u5e02\u573a",
+      "author": "MyHelperHub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myhelperhub--myhelper",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "rymcu--mortise",
+      "description": "mortise \u2014\u2014 \u4e00\u6b3e\u73b0\u4ee3\u5316\u7684\u540e\u53f0\u7ba1\u7406\u811a\u624b\u67b6\u9879\u76ee\uff0c\u4f7f\u7528 SpringBoot 3 + Spring Security + MyBatis Flex + JWT + Redis \u5b9e\u73b0",
+      "author": "rymcu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rymcu--mortise",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "rymcu--mortise",
+      "description": "mortise \u2014\u2014 \u4e00\u6b3e\u73b0\u4ee3\u5316\u7684\u540e\u53f0\u7ba1\u7406\u811a\u624b\u67b6\u9879\u76ee\uff0c\u4f7f\u7528 SpringBoot 3 + Spring Security + MyBatis Flex + JWT + Redis \u5b9e\u73b0",
+      "author": "rymcu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rymcu--mortise",
       "stars": 16,
       "quality": "silver"
     },
@@ -203088,6 +203288,22 @@
       "description": "A minimalist Android widget that lets you lock your screen with a double tap. Perfect for one-handed use and quick screen locking.",
       "author": "modelorona",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/modelorona--taplock",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "banodoco--brain-of-bndc",
+      "description": "brain-of-bndc",
+      "author": "banodoco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/banodoco--brain-of-bndc",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "iamshobe--cruncher",
+      "description": "Your logs, Your data - crunch it however you like",
+      "author": "IamShobe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/iamshobe--cruncher",
       "stars": 15,
       "quality": "silver"
     },
@@ -209808,6 +210024,62 @@
       "description": "tinycc",
       "author": "matgla",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matgla--tinycc",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "danielcorin--delta",
+      "description": "Delta: LLM conversation branching",
+      "author": "danielcorin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danielcorin--delta",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "shadowysupercode--gc-alexandria",
+      "description": "Please submit all issues to the Alexandria repo on Nostr. It can be found on https://gitcitadel.com/r/naddr1qvzqqqrhnypzplfq3m5v3u5r0q9f255fdeyz8nyac6lagssx8zy4wugxjs8ajf7pqyt8wumn8ghj7ur4wfcxcetjv4kx",
+      "author": "ShadowySupercode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shadowysupercode--gc-alexandria",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "shadowysupercode--gc-alexandria",
+      "description": "Please submit all issues to the Alexandria repo on Nostr. It can be found on https://gitcitadel.com/r/naddr1qvzqqqrhnypzplfq3m5v3u5r0q9f255fdeyz8nyac6lagssx8zy4wugxjs8ajf7pqyt8wumn8ghj7ur4wfcxcetjv4kx",
+      "author": "ShadowySupercode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shadowysupercode--gc-alexandria",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "shadowysupercode--gc-alexandria",
+      "description": "Please submit all issues to the Alexandria repo on Nostr. It can be found on https://gitcitadel.com/r/naddr1qvzqqqrhnypzplfq3m5v3u5r0q9f255fdeyz8nyac6lagssx8zy4wugxjs8ajf7pqyt8wumn8ghj7ur4wfcxcetjv4kx",
+      "author": "ShadowySupercode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shadowysupercode--gc-alexandria",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "shadowysupercode--gc-alexandria",
+      "description": "Please submit all issues to the Alexandria repo on Nostr. It can be found on https://gitcitadel.com/r/naddr1qvzqqqrhnypzplfq3m5v3u5r0q9f255fdeyz8nyac6lagssx8zy4wugxjs8ajf7pqyt8wumn8ghj7ur4wfcxcetjv4kx",
+      "author": "ShadowySupercode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shadowysupercode--gc-alexandria",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "shadowysupercode--gc-alexandria",
+      "description": "Please submit all issues to the Alexandria repo on Nostr. It can be found on https://gitcitadel.com/r/naddr1qvzqqqrhnypzplfq3m5v3u5r0q9f255fdeyz8nyac6lagssx8zy4wugxjs8ajf7pqyt8wumn8ghj7ur4wfcxcetjv4kx",
+      "author": "ShadowySupercode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shadowysupercode--gc-alexandria",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "aglowinthefield--mo2-fomod-plus",
+      "description": "mo2-fomod-plus",
+      "author": "aglowinthefield",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aglowinthefield--mo2-fomod-plus",
       "stars": 14,
       "quality": "silver"
     },
@@ -217872,6 +218144,38 @@
       "description": "A filesystem crate, written in rust. Designed to be fast, portable, and supports no-std environments. ",
       "author": "hxyulin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hxyulin--hadris",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "kingbootoshi--cypher",
+      "description": "Build AI agents that access the world through a computer interface",
+      "author": "kingbootoshi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kingbootoshi--cypher",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "agglayer--aggkit",
+      "description": "Connect any chain to the Agglayer",
+      "author": "agglayer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agglayer--aggkit",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "braintrustdata--terraform-aws-braintrust-data-plane",
+      "description": "Module to set up the Braintrust data plane in an AWS account",
+      "author": "braintrustdata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/braintrustdata--terraform-aws-braintrust-data-plane",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "agglayer--aggkit",
+      "description": "Connect any chain to the Agglayer",
+      "author": "agglayer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agglayer--aggkit",
       "stars": 13,
       "quality": "silver"
     },
@@ -236036,6 +236340,38 @@
       "quality": "silver"
     },
     {
+      "name": "joeyates--green",
+      "description": "Apply Elixir styling rules",
+      "author": "joeyates",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joeyates--green",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "mordachai--investigation-board",
+      "description": "A Foundry VTT module that lets everyone create, edit, and move sticky and photo notes on the scene as collaborative investigation tools.",
+      "author": "mordachai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mordachai--investigation-board",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "umarprogrammer19--furniro-e-commerce",
+      "description": "Modern eCommerce platform with product browsing, cart management, and secure checkout.",
+      "author": "umarprogrammer19",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/umarprogrammer19--furniro-e-commerce",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "data-dreamers-project--ds-lms-demo",
+      "description": "Programming Learning for Beginning Data Scientists",
+      "author": "Data-Dreamers-Project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/data-dreamers-project--ds-lms-demo",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -249034,6 +249370,78 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gabrielmaialva33--flora-music-bot",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "eclipse-pullpiri--pullpiri",
+      "description": "Eclipse Pullpiri provides efficient vehicle service orchestrator framework to realize the potential benefits of cloud native technologies for in-vehicle services and applications.",
+      "author": "eclipse-pullpiri",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eclipse-pullpiri--pullpiri",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "miskibin--sejmofil",
+      "description": "sejmofil",
+      "author": "miskibin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/miskibin--sejmofil",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "frankray78--netpace",
+      "description": "Network speed tester including server discovery, latency measurement, download and upload speed testing.",
+      "author": "FrankRay78",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frankray78--netpace",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "walofficial--wal-react-native",
+      "description": "Location based social network for iOS and Android",
+      "author": "walofficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/walofficial--wal-react-native",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "walofficial--wal-react-native",
+      "description": "Location based social network for iOS and Android",
+      "author": "walofficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/walofficial--wal-react-native",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "walofficial--wal-react-native",
+      "description": "Location based social network for iOS and Android",
+      "author": "walofficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/walofficial--wal-react-native",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "walofficial--wal-react-native",
+      "description": "Location based social network for iOS and Android",
+      "author": "walofficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/walofficial--wal-react-native",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "merzbild--merzbild-jl",
+      "description": "The Merzbild Variable-Weight DSMC/FP code",
+      "author": "merzbild",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/merzbild--merzbild-jl",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "tviskaron--cryri",
+      "description": "cryri",
+      "author": "Tviskaron",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tviskaron--cryri",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -285780,6 +286188,70 @@
       "quality": "silver"
     },
     {
+      "name": "ryokun6--three-playground",
+      "description": "three-playground",
+      "author": "ryokun6",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ryokun6--three-playground",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "djinilabs--timeclout",
+      "description": "timeclout",
+      "author": "djinilabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djinilabs--timeclout",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "jparkerweb--fast-topic-analysis",
+      "description": "\ud83c\udff7\ufe0f Fast Topic Analysis is a tool for analyzing text against predefined topics using average weight embeddings and cosine similarity",
+      "author": "jparkerweb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jparkerweb--fast-topic-analysis",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "djinilabs--timeclout",
+      "description": "timeclout",
+      "author": "djinilabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djinilabs--timeclout",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "djinilabs--timeclout",
+      "description": "timeclout",
+      "author": "djinilabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djinilabs--timeclout",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "djinilabs--timeclout",
+      "description": "timeclout",
+      "author": "djinilabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djinilabs--timeclout",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "krcpa--service-builder",
+      "description": "A lightweight, type-safe service construction pattern for Rust applications that leverages the builder pattern.",
+      "author": "krcpa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/krcpa--service-builder",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jparkerweb--fast-topic-analysis",
+      "description": "\ud83c\udff7\ufe0f Fast Topic Analysis is a tool for analyzing text against predefined topics using average weight embeddings and cosine similarity",
+      "author": "jparkerweb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jparkerweb--fast-topic-analysis",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -309626,6 +310098,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/puck-security--puck-scout",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "mareliberum--phoneproxy",
+      "description": "Proxy Server for android devi\u0441e that redirects incoming traffic through your VPN tunnel.",
+      "author": "mareliberum",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mareliberum--phoneproxy",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
