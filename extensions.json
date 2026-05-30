@@ -286516,6 +286516,30 @@
       "quality": "silver"
     },
     {
+      "name": "lagrangee--weread-deepreading",
+      "description": "\u5fae\u4fe1\u9605\u8bfb\u7f51\u7ad9\u7684Chrome\u63d2\u4ef6\uff0c\u901a\u8fc7AI\u670d\u52a1\u63d0\u5347\u6df1\u5ea6\u9605\u8bfb\u4f53\u9a8c",
+      "author": "lagrangee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lagrangee--weread-deepreading",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "lagrangee--weread-deepreading",
+      "description": "\u5fae\u4fe1\u9605\u8bfb\u7f51\u7ad9\u7684Chrome\u63d2\u4ef6\uff0c\u901a\u8fc7AI\u670d\u52a1\u63d0\u5347\u6df1\u5ea6\u9605\u8bfb\u4f53\u9a8c",
+      "author": "lagrangee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lagrangee--weread-deepreading",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deeplcom--api-docs",
+      "description": "Source code of the DeepL API documentation",
+      "author": "DeepLcom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deeplcom--api-docs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -305980,6 +306004,30 @@
       "quality": "silver"
     },
     {
+      "name": "freenowill--stock-fish",
+      "description": "\u8fd8\u5728\u4e3a\u5f53\u97ed\u83dc\u800c\u70e6\u607c\u5417\uff1f \u60f3\u8ba9\u5df4\u83f2\u7279\u3001\u67e5\u7406\u8292\u683c\u3001\u91cf\u5316\u5927\u5e08\u3001\u91d1\u878d\u4e13\u5bb6\u3001\u6e38\u8d44\u5927\u4f6c\u3001\u80a1\u6c11\u97ed\u83dc\u2026\u2026\u6765\u5de6\u53f3\u4e92\u535a\uff0c\u4e00\u8d77\u5f00\u4f1a\u5e2e\u4f60\u505a\u51fa\u51b3\u7b56\uff01 \u4e0d\u5982\u8bd5\u8bd5stock-fish!",
+      "author": "freenowill",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freenowill--stock-fish",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "minibear2021--rustshell",
+      "description": "rustshell",
+      "author": "minibear2021",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minibear2021--rustshell",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "maxwell2732--claudecode-research-harness-workflow",
+      "description": "Claude Code Research Harness Workflow turns Claude Code from a general coding agent into a controlled empirical research collaborator | by \u6731\u6668 | \u9057\u4f20\u793e\u79d1\u7814\u7a76",
+      "author": "maxwell2732",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maxwell2732--claudecode-research-harness-workflow",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -310624,6 +310672,22 @@
       "description": "https://github.com/microsoft/markitdown UI ",
       "author": "kigner",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kigner--markitdown-ui",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "zarl-prog--smart-git-commit",
+      "description": "Stop writing \"fix stuff\". AI agent skill for gold-standard git commits across Claude Code, Cursor, Codex & Windsurf",
+      "author": "Zarl-prog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zarl-prog--smart-git-commit",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "konradzaremba--betta",
+      "description": "ZeroTouch for Grasshopper: write plain C# functions, get real Grasshopper components \u2014 no GH_Component subclass, no manual wiring.",
+      "author": "KonradZaremba",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/konradzaremba--betta",
       "stars": 7,
       "quality": "silver"
     },
