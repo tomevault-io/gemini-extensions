@@ -7,11 +7,11 @@ glue is a collection of glue code that I often use in projects. Mainly for inter
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [maragudk/glue](https://github.com/maragudk/glue).
+Original source: `AGENTS.md` in [maragudk/glue](https://github.com/maragudk/glue).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
