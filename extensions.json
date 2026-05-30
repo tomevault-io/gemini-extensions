@@ -286444,6 +286444,14 @@
       "quality": "gold"
     },
     {
+      "name": "open-agent-tools--open-stocks-mcp",
+      "description": "MCP Server for stock market data - Robinhood, Schwab APIs with multi-broker support",
+      "author": "Open-Agent-Tools",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/open-agent-tools--open-stocks-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -305794,6 +305802,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahmedragab20--diffing",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "gy15901580825--argus",
+      "description": "Black-box, open-source red-team testing for AI agents. Point Argus at any HTTP, gRPC, or browser-using agent endpoint, run 500+ adversarial probes (OWASP LLM Top 10, MITRE ATLAS, NIST AI RMF, TAP/PAIR",
+      "author": "gy15901580825",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gy15901580825--argus",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "mks2508--mks-iptv-app",
+      "description": "My first Swift App: a Full IPTV App Implementation for iOS / MacOS / TV OS , built with Swift 6. Featuring options to View, Download or View in external player of each IPTV Playlist content. VOD & Str",
+      "author": "MKS2508",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mks2508--mks-iptv-app",
+      "stars": 8,
+      "quality": "gold"
     },
     {
       "name": "cheerhuan--save-your-token",
