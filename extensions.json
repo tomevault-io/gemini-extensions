@@ -286396,6 +286396,30 @@
       "quality": "silver"
     },
     {
+      "name": "linuxfoundation--lfx-self-serve",
+      "description": "LFX Self Serve UI",
+      "author": "linuxfoundation",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/linuxfoundation--lfx-self-serve",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "aaryan2304--cctv-video-anomaly-detection",
+      "description": "A production-grade, deep-learning-based anomaly detection system for CCTV surveillance footage. This project uses a PyTorch-based Convolutional Autoencoder to achieve high precision in identifying unu",
+      "author": "Aaryan2304",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aaryan2304--cctv-video-anomaly-detection",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "linuxfoundation--lfx-self-serve",
+      "description": "LFX Self Serve UI",
+      "author": "linuxfoundation",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/linuxfoundation--lfx-self-serve",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -305736,6 +305760,14 @@
       "description": "Modern successor to the Migaku Dictionary Addon, with improved dictionary, image search, and card-creation tools for Anki.",
       "author": "Alexander-Nilsson",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexander-nilsson--anki-dictionary-addon",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ahmedragab20--diffing",
+      "description": "A local-first code review tool with User <-> AI realtime communication",
+      "author": "ahmedragab20",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahmedragab20--diffing",
       "stars": 8,
       "quality": "silver"
     },
