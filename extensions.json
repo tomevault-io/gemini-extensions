@@ -286540,6 +286540,30 @@
       "quality": "silver"
     },
     {
+      "name": "truearken--valovault",
+      "description": "ValoVault: Agent Skin Presets and Loadout managing",
+      "author": "truearken",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/truearken--valovault",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "maragudk--glue",
+      "description": "glue is a collection of glue code that I often use in projects. Mainly for internal use, but feel free to use or be inspired.",
+      "author": "maragudk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maragudk--glue",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "maragudk--glue",
+      "description": "glue is a collection of glue code that I often use in projects. Mainly for internal use, but feel free to use or be inspired.",
+      "author": "maragudk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maragudk--glue",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -306024,6 +306048,22 @@
       "description": "Claude Code Research Harness Workflow turns Claude Code from a general coding agent into a controlled empirical research collaborator | by \u6731\u6668 | \u9057\u4f20\u793e\u79d1\u7814\u7a76",
       "author": "maxwell2732",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maxwell2732--claudecode-research-harness-workflow",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "phuryn--grok-build-vscode",
+      "description": "Grok Build Visual Studio Code extension. A full embedded chat UI \u2014 not a terminal launcher.",
+      "author": "phuryn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phuryn--grok-build-vscode",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "phuryn--grok-build-vscode",
+      "description": "Grok Build Visual Studio Code extension. A full embedded chat UI \u2014 not a terminal launcher.",
+      "author": "phuryn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phuryn--grok-build-vscode",
       "stars": 8,
       "quality": "silver"
     },
@@ -477944,6 +477984,78 @@
       "description": "pangan-be",
       "author": "naufaldi",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/naufaldi--pangan-be",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ricecrispyricky--neredy-portfolio",
+      "description": "neredy-portfolio",
+      "author": "ricecrispyricky",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ricecrispyricky--neredy-portfolio",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "shareefhadid--traak",
+      "description": "traak",
+      "author": "shareefhadid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shareefhadid--traak",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "consilience-dev--consensia-news-agent",
+      "description": "A Python agent for searching news articles by topic and date using NewsAPI and Google ADK. Includes robust error handling and LLM-friendly interfaces.",
+      "author": "consilience-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/consilience-dev--consensia-news-agent",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shareefhadid--traak",
+      "description": "traak",
+      "author": "shareefhadid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shareefhadid--traak",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "shareefhadid--traak",
+      "description": "traak",
+      "author": "shareefhadid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shareefhadid--traak",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "samheller--robotics-2024",
+      "description": "robotics_2024",
+      "author": "samheller",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samheller--robotics-2024",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "shareefhadid--traak",
+      "description": "traak",
+      "author": "shareefhadid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shareefhadid--traak",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ddarmon--regressr",
+      "description": "An R package for regression testing",
+      "author": "ddarmon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ddarmon--regressr",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "shareefhadid--traak",
+      "description": "traak",
+      "author": "shareefhadid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shareefhadid--traak",
       "stars": 0,
       "quality": "bronze"
     }
