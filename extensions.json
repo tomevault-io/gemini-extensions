@@ -286388,6 +286388,14 @@
       "quality": "silver"
     },
     {
+      "name": "danialhasan--electron-live-annotations",
+      "description": "Framework-agnostic live annotation layer for Electron apps",
+      "author": "danialhasan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danialhasan--electron-live-annotations",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -305696,6 +305704,38 @@
       "description": "This is a template repo for the n8n single Actor apps.",
       "author": "apify",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apify--n8n-nodes-apify-template",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "alexander-nilsson--anki-dictionary-addon",
+      "description": "Modern successor to the Migaku Dictionary Addon, with improved dictionary, image search, and card-creation tools for Anki.",
+      "author": "Alexander-Nilsson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexander-nilsson--anki-dictionary-addon",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "konflux-ci--konflux-devlake-mcp",
+      "description": "MCP server that bridges AI assistants with DevLake databases for natural language data querying and analysis.",
+      "author": "konflux-ci",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/konflux-ci--konflux-devlake-mcp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "konflux-ci--konflux-devlake-mcp",
+      "description": "MCP server that bridges AI assistants with DevLake databases for natural language data querying and analysis.",
+      "author": "konflux-ci",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/konflux-ci--konflux-devlake-mcp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "alexander-nilsson--anki-dictionary-addon",
+      "description": "Modern successor to the Migaku Dictionary Addon, with improved dictionary, image search, and card-creation tools for Anki.",
+      "author": "Alexander-Nilsson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexander-nilsson--anki-dictionary-addon",
       "stars": 8,
       "quality": "silver"
     },
