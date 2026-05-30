@@ -161988,14 +161988,6 @@
       "quality": "silver"
     },
     {
-      "name": "baekenough--oh-my-customcode",
-      "description": "oh-my-zsh style customization framework for Claude Code",
-      "author": "baekenough",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
-      "stars": 23,
-      "quality": "silver"
-    },
-    {
       "name": "utsmannn--commitah",
       "description": "Generating commit messages using Generative AI",
       "author": "utsmannn",
@@ -162016,6 +162008,14 @@
       "description": "A modern, keyboard-driven RSS feed reader that brings back the magic of Google Reader with AI! \ud83d\ude80",
       "author": "JamesDavid",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jamesdavid--inreader",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "baekenough--oh-my-customcode",
+      "description": "oh-my-zsh style customization framework for Claude Code",
+      "author": "baekenough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
       "stars": 23,
       "quality": "silver"
     },
@@ -249452,6 +249452,14 @@
       "quality": "bronze"
     },
     {
+      "name": "padgettholdings--circuitpythonsync",
+      "description": "VSCode extension for CircuitPython Development and Sync",
+      "author": "padgettholdings",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/padgettholdings--circuitpythonsync",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -286348,6 +286356,38 @@
       "quality": "silver"
     },
     {
+      "name": "2witstudios--pagespace",
+      "description": "Talk to your projects",
+      "author": "2witstudios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/2witstudios--pagespace",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "2witstudios--pagespace",
+      "description": "Talk to your projects",
+      "author": "2witstudios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/2witstudios--pagespace",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "pbs-assess--csasdown",
+      "description": "R package for generating CSAS reports with R Markdown in .docx format",
+      "author": "pbs-assess",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pbs-assess--csasdown",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "samwei12--usefulprompts",
+      "description": "\u4e2a\u4eba\u6536\u85cf\u4e00\u4e9b\u597d\u7528\u7684\u63d0\u793a\u8bcd",
+      "author": "samwei12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samwei12--usefulprompts",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -305592,6 +305632,70 @@
       "description": "A MCP Server to control your Govee Lights",
       "author": "joeynyc",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joeynyc--govee-mcp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dirge-code--dirge",
+      "description": "Dynamic Intent Resolution Grounding Engine",
+      "author": "dirge-code",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dirge-code--dirge",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dirge-code--dirge",
+      "description": "Dynamic Intent Resolution Grounding Engine",
+      "author": "dirge-code",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dirge-code--dirge",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sandraschi--blender-mcp",
+      "description": "Blender 3D automation via FastMCP 3.2 \u2014 41 portmanteau tools, 150+ operations. AI construction, VRM avatars, Gaussian splats, VSE video editing, Grease Pencil 2D animation, Tauri 2.0 desktop. React da",
+      "author": "sandraschi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandraschi--blender-mcp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sandraschi--blender-mcp",
+      "description": "Blender 3D automation via FastMCP 3.2 \u2014 41 portmanteau tools, 150+ operations. AI construction, VRM avatars, Gaussian splats, VSE video editing, Grease Pencil 2D animation, Tauri 2.0 desktop. React da",
+      "author": "sandraschi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandraschi--blender-mcp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sandraschi--blender-mcp",
+      "description": "Blender 3D automation via FastMCP 3.2 \u2014 41 portmanteau tools, 150+ operations. AI construction, VRM avatars, Gaussian splats, VSE video editing, Grease Pencil 2D animation, Tauri 2.0 desktop. React da",
+      "author": "sandraschi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandraschi--blender-mcp",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "sandraschi--blender-mcp",
+      "description": "Blender 3D automation via FastMCP 3.2 \u2014 41 portmanteau tools, 150+ operations. AI construction, VRM avatars, Gaussian splats, VSE video editing, Grease Pencil 2D animation, Tauri 2.0 desktop. React da",
+      "author": "sandraschi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandraschi--blender-mcp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "apify--n8n-nodes-apify-template",
+      "description": "This is a template repo for the n8n single Actor apps.",
+      "author": "apify",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apify--n8n-nodes-apify-template",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "apify--n8n-nodes-apify-template",
+      "description": "This is a template repo for the n8n single Actor apps.",
+      "author": "apify",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apify--n8n-nodes-apify-template",
       "stars": 8,
       "quality": "silver"
     },
@@ -477410,6 +477514,86 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maxf98--svetisite",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "krishna9827--cleubautomation",
+      "description": "CleubAutomation",
+      "author": "Krishna9827",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/krishna9827--cleubautomation",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "yu-326-ta--local-guided-trip",
+      "description": "local-guided-trip",
+      "author": "Yu-326-ta",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yu-326-ta--local-guided-trip",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "signdrive--shopsmart-pro-site",
+      "description": "ShopSmart-Pro-Site",
+      "author": "signdrive",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/signdrive--shopsmart-pro-site",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "naufaldi--pangan-be",
+      "description": "pangan-be",
+      "author": "naufaldi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/naufaldi--pangan-be",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "rd-trends--ai-proposals",
+      "description": "ai-proposals",
+      "author": "Rd-Trends",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rd-trends--ai-proposals",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "abazabaaa--agents-experiments",
+      "description": "agents_experiments",
+      "author": "abazabaaa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abazabaaa--agents-experiments",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "abazabaaa--agents-experiments",
+      "description": "agents_experiments",
+      "author": "abazabaaa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abazabaaa--agents-experiments",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "zekenewsom--hyperlocal",
+      "description": "hyperlocal",
+      "author": "zekenewsom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zekenewsom--hyperlocal",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "cabindev--civicspace",
+      "description": "civicspace",
+      "author": "cabindev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cabindev--civicspace",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "naufaldi--pangan-be",
+      "description": "pangan-be",
+      "author": "naufaldi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/naufaldi--pangan-be",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
