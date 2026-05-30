@@ -7,11 +7,11 @@ Grok Build Visual Studio Code extension. A full embedded chat UI — not a termi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [phuryn/grok-build-vscode](https://github.com/phuryn/grok-build-vscode).
+Original source: `CLAUDE.md` in [phuryn/grok-build-vscode](https://github.com/phuryn/grok-build-vscode).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
