@@ -130764,14 +130764,6 @@
       "quality": "silver"
     },
     {
-      "name": "saadshahd--moo-md",
-      "description": "Structured thinking for Claude Code \u2014 ask before building, search before writing, verify before shipping",
-      "author": "saadshahd",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saadshahd--moo-md",
-      "stars": 32,
-      "quality": "silver"
-    },
-    {
       "name": "pmgraham--claude-agents",
       "description": "Collection of specialized agent definitions for Claude Code",
       "author": "pmgraham",
@@ -132720,6 +132712,14 @@
       "description": "\ud83c\udfa8 Pretty development URLs, and HTTPS. Zero config, zero setup.",
       "author": "stacksjs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacksjs--vite-plugin-local",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
+      "name": "saadshahd--moo-md",
+      "description": "Structured thinking for Claude Code \u2014 ask before building, search before writing, verify before shipping",
+      "author": "saadshahd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saadshahd--moo-md",
       "stars": 32,
       "quality": "silver"
     },
