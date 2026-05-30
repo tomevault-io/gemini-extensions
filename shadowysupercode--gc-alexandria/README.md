@@ -7,13 +7,13 @@ Please submit all issues to the Alexandria repo on Nostr. It can be found on htt
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ShadowySupercode/gc-alexandria](https://github.com/ShadowySupercode/gc-alexandria).
+Original source: `.cursor/rules/*.mdc` in [ShadowySupercode/gc-alexandria](https://github.com/ShadowySupercode/gc-alexandria).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
