@@ -162004,14 +162004,6 @@
       "quality": "silver"
     },
     {
-      "name": "baekenough--oh-my-customcode",
-      "description": "oh-my-zsh style customization framework for Claude Code",
-      "author": "baekenough",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
-      "stars": 23,
-      "quality": "silver"
-    },
-    {
       "name": "utsmannn--commitah",
       "description": "Generating commit messages using Generative AI",
       "author": "utsmannn",
@@ -162032,6 +162024,14 @@
       "description": "A modern, keyboard-driven RSS feed reader that brings back the magic of Google Reader with AI! \ud83d\ude80",
       "author": "JamesDavid",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jamesdavid--inreader",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "baekenough--oh-my-customcode",
+      "description": "oh-my-zsh style customization framework for Claude Code",
+      "author": "baekenough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
       "stars": 23,
       "quality": "silver"
     },
@@ -286468,6 +286468,30 @@
       "quality": "gold"
     },
     {
+      "name": "lennondotw--llm-thinking-animation",
+      "description": "A ChatGPT-o3-like LLM thinking animation demo",
+      "author": "lennondotw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lennondotw--llm-thinking-animation",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "lennondotw--llm-thinking-animation",
+      "description": "A ChatGPT-o3-like LLM thinking animation demo",
+      "author": "lennondotw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lennondotw--llm-thinking-animation",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "liquibase--setup-liquibase",
+      "description": "Set up your GitHub Actions workflow with a specific version of Liquibase",
+      "author": "liquibase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/liquibase--setup-liquibase",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -305850,6 +305874,54 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/verhas--perag",
       "stars": 8,
       "quality": "gold"
+    },
+    {
+      "name": "plustar35--echo-reading",
+      "description": "\u8ddf Claude Code \u4e00\u8d77\u6df1\u8bfb\u4e00\u672c\u4e66\u7684\u7b14\u8bb0\u672c\u9aa8\u67b6\u2014\u2014\u8fd9\u662f\u4e00\u79cd\u5bf9\u8bdd\u5f0f\u6df1\u8bfb\u4e00\u672c\u4e66\u7684\u4f53\u9a8c\uff0c\u8ba9\u8bfb\u4e66\u53d8\u6210\u4e00\u6b21\u6b21\u4e0eclaude\u7684\u4fc3\u819d\u957f\u8c08\u3002",
+      "author": "plustar35",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plustar35--echo-reading",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "skyf0xx--pebble",
+      "description": "A Hermes UI",
+      "author": "skyf0xx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skyf0xx--pebble",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "plustar35--echo-reading",
+      "description": "\u8ddf Claude Code \u4e00\u8d77\u6df1\u8bfb\u4e00\u672c\u4e66\u7684\u7b14\u8bb0\u672c\u9aa8\u67b6\u2014\u2014\u8fd9\u662f\u4e00\u79cd\u5bf9\u8bdd\u5f0f\u6df1\u8bfb\u4e00\u672c\u4e66\u7684\u4f53\u9a8c\uff0c\u8ba9\u8bfb\u4e66\u53d8\u6210\u4e00\u6b21\u6b21\u4e0eclaude\u7684\u4fc3\u819d\u957f\u8c08\u3002",
+      "author": "plustar35",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plustar35--echo-reading",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "radimsem--forge-skills",
+      "description": "Combines the most-used agentic skills into one unified issue-fixing workflow \u2014 a true blacksmith from plan to shipped fix.",
+      "author": "radimsem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radimsem--forge-skills",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "goodprovider--skyrimnet-sexlab",
+      "description": "Adds simple SexLab support to SkyrimNet",
+      "author": "GoodProvider",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goodprovider--skyrimnet-sexlab",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kousen--osquerymcpserver",
+      "description": "MCP wrapper and Claude Code Skill for osquery",
+      "author": "kousen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kousen--osquerymcpserver",
+      "stars": 8,
+      "quality": "silver"
     },
     {
       "name": "cheerhuan--save-your-token",
