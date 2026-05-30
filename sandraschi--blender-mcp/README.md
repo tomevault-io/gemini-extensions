@@ -7,11 +7,11 @@ Blender 3D automation via FastMCP 3.2 — 41 portmanteau tools, 150+ operations.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [sandraschi/blender-mcp](https://github.com/sandraschi/blender-mcp).
+Original source: `CLAUDE.md` in [sandraschi/blender-mcp](https://github.com/sandraschi/blender-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
