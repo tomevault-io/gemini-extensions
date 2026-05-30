@@ -4,7 +4,7 @@
   "repo": "Anki-Dictionary-Addon",
   "description": "Modern successor to the Migaku Dictionary Addon, with improved dictionary, image search, and card-creation tools for Anki.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Alexander-Nilsson/Anki-Dictionary-Addon",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-30T06:31:05Z"
+  "distributed_at": "2026-05-30T06:32:33Z"
 }
