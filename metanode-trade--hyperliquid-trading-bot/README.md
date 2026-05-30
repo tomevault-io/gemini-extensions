@@ -7,11 +7,11 @@ hyperliquid trading bot, perp trading bot, hyperliquid profitable trading bot, h
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [metanode-trade/hyperliquid-trading-bot](https://github.com/metanode-trade/hyperliquid-trading-bot).
+Original source: `CLAUDE.md` in [metanode-trade/hyperliquid-trading-bot](https://github.com/metanode-trade/hyperliquid-trading-bot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
