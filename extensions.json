@@ -128636,6 +128636,14 @@
       "quality": "silver"
     },
     {
+      "name": "sandiiarov--skill-creator",
+      "description": "Turn any MCP server, OpenAPI spec, or GraphQL endpoint into a CLI at runtime.",
+      "author": "sandiiarov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandiiarov--skill-creator",
+      "stars": 34,
+      "quality": "silver"
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI",
       "author": "RajjjAryan",
