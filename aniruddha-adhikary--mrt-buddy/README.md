@@ -7,11 +7,11 @@ Check the Balance of your Dhaka MRT Pass or Rapid Pass
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aniruddha-adhikary/mrt-buddy](https://github.com/aniruddha-adhikary/mrt-buddy).
+Original source: `CLAUDE.md` in [aniruddha-adhikary/mrt-buddy](https://github.com/aniruddha-adhikary/mrt-buddy).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
