@@ -7,11 +7,11 @@ UniFace: A Unified Face Analysis Library for Python | A comprehensive suite of h
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yakhyo/uniface](https://github.com/yakhyo/uniface).
+Original source: `CLAUDE.md` in [yakhyo/uniface](https://github.com/yakhyo/uniface).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
