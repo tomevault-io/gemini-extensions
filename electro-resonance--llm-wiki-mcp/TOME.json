@@ -4,7 +4,7 @@
   "repo": "LLM-WIKI-MCP",
   "description": "LLM\u202fWiki\u202fMCP \u2013 the local\u2011first Markdown knowledge\u2011base with both MCP and CLI",
   "type": "config",
-  "source_format": "CLAUDE.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Electro-resonance/LLM-WIKI-MCP",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-31T08:31:01Z"
+  "distributed_at": "2026-05-31T08:33:54Z"
 }
