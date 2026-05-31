@@ -288052,6 +288052,14 @@
       "quality": "silver"
     },
     {
+      "name": "webprofusion--autotablature",
+      "description": "Automatic AI MP3 to Guitar Pro tablature. Possibly.",
+      "author": "webprofusion",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/webprofusion--autotablature",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -308066,6 +308074,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prinova--pi-evo-research",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "artwork278--artwork-cqrs",
+      "description": "Standalone CQRS primitives for TypeScript applications.",
+      "author": "artwork278",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artwork278--artwork-cqrs",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "bitslix--blxcode",
+      "description": "BLXCode is an open-source desktop workbench for running AI coding agents beside real terminals, project memory, tasks, and an embedded browser. It is built with Tauri 2, Rust, Leptos, and Trunk.",
+      "author": "Bitslix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bitslix--blxcode",
+      "stars": 8,
+      "quality": "gold"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -480656,6 +480680,62 @@
       "description": "cron",
       "author": "xvc-com",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xvc-com--cron",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "forreal360--specialonerexvilledash",
+      "description": "SpecialOneRexvilleDash",
+      "author": "Forreal360",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/forreal360--specialonerexvilledash",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "forreal360--specialonerexvilledash",
+      "description": "SpecialOneRexvilleDash",
+      "author": "Forreal360",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/forreal360--specialonerexvilledash",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "abnerborgonha--cappto-api",
+      "description": "cappto-api",
+      "author": "abnerborgonha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abnerborgonha--cappto-api",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "forreal360--specialonerexvilledash",
+      "description": "SpecialOneRexvilleDash",
+      "author": "Forreal360",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/forreal360--specialonerexvilledash",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "extrainjulian--assistant-api-test",
+      "description": "assistant-api-test",
+      "author": "extrainjulian",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/extrainjulian--assistant-api-test",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "braeddy--aura-tracker",
+      "description": "\ud83c\udfae AuraTracker - Full-stack webapp for tracking player aura points with real-time updates",
+      "author": "braeddy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/braeddy--aura-tracker",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sheacoding--python-learning-assistant-cli",
+      "description": "python_learning_assistant_cli",
+      "author": "sheacoding",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sheacoding--python-learning-assistant-cli",
       "stars": 0,
       "quality": "silver"
     }
