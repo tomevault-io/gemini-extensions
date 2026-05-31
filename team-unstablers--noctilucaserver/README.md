@@ -7,11 +7,11 @@ A New Remote Desktop for macOS
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [team-unstablers/NoctilucaServer](https://github.com/team-unstablers/NoctilucaServer).
+Original source: `AGENTS.md` in [team-unstablers/NoctilucaServer](https://github.com/team-unstablers/NoctilucaServer).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
