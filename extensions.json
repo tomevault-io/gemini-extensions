@@ -306908,6 +306908,30 @@
       "quality": "silver"
     },
     {
+      "name": "abai569--flvx",
+      "description": "Flvx\u8f6c\u53d1\u9762\u677f",
+      "author": "abai569",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abai569--flvx",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "nachtfux--claude-pocket",
+      "description": "Voice assistant for the M5Stack Cardputer ADV. Two API keys, no middleware \u2014 Claude in your pocket.",
+      "author": "Nachtfux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nachtfux--claude-pocket",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "henry3260--llm-fingerprinter",
+      "description": "LLM-Fingerprinter",
+      "author": "henry3260",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/henry3260--llm-fingerprinter",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -311632,6 +311656,14 @@
       "description": "shockwave",
       "author": "stephengpope",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stephengpope--shockwave",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "zeppelinpp--bilibili-streamer",
+      "description": "Bilibili live streaming tool built with Tauri + React",
+      "author": "Zeppelinpp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeppelinpp--bilibili-streamer",
       "stars": 7,
       "quality": "silver"
     },
@@ -479480,6 +479512,14 @@
       "description": "Autograd engine in TS/JS with operator overloading",
       "author": "arafathusayn",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arafathusayn--tinygrad",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "xvc-com--cron",
+      "description": "cron",
+      "author": "xvc-com",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xvc-com--cron",
       "stars": 0,
       "quality": "silver"
     }
