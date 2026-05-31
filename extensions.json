@@ -286852,6 +286852,14 @@
       "quality": "gold"
     },
     {
+      "name": "ngocthachtn--nogizaka46blogarchived",
+      "description": "A simple website that translates Nogizaka46 members\u2019 blog posts into English and Vietnamese",
+      "author": "NgocThachTN",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ngocthachtn--nogizaka46blogarchived",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -306716,6 +306724,30 @@
       "quality": "silver"
     },
     {
+      "name": "bo0tzz--pgmqtt",
+      "description": "Stateless and scalable MQTT broker backed by Postgres",
+      "author": "bo0tzz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bo0tzz--pgmqtt",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hjelev--lyrtui",
+      "description": "TUI for Lyrion Music Server",
+      "author": "hjelev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hjelev--lyrtui",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dscubed--connect3",
+      "description": "connect3",
+      "author": "dscubed",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dscubed--connect3",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -311416,6 +311448,14 @@
       "description": "Generate degraded speech datasets for noise-robust ASR benchmarking",
       "author": "karamouche",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/karamouche--noisekit",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "open-mercato--cezar",
+      "description": "Cezar is a team SaaS for running AI coding agents on GitHub issues. It's a cockpit: every agent run \u2014 queued, running, paused, failed, finished \u2014 is visible with controls. Incoming issues are auto-tri",
+      "author": "open-mercato",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/open-mercato--cezar",
       "stars": 7,
       "quality": "silver"
     },
