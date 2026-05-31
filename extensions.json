@@ -307324,6 +307324,46 @@
       "quality": "gold"
     },
     {
+      "name": "fatmuh--mocci-admin-template",
+      "description": "Accelerate your development with a sleek, admin dashboard built on, Next.js, Tailwind CSS, and Shadcn/UI which is fully customizable and production-ready.",
+      "author": "fatmuh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fatmuh--mocci-admin-template",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "msc5--tmux-smart-pane",
+      "description": "fzf-powered pane navigation and remote session management plugin for tmux.",
+      "author": "msc5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/msc5--tmux-smart-pane",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "relaydeck--relaydeck",
+      "description": "micro-agent orchestrator for local agents",
+      "author": "relaydeck",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/relaydeck--relaydeck",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "andyzasl--browserly",
+      "description": "A smart macOS menu bar app that routes URLs to the right browser based on custom rules",
+      "author": "andyzasl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andyzasl--browserly",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "prinova--pi-evo-research",
+      "description": "Population-guided evolutionary research for pi \u2014 evolve hypotheses, run measured experiments, keep what works.",
+      "author": "PriNova",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prinova--pi-evo-research",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
