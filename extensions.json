@@ -286692,6 +286692,70 @@
       "quality": "silver"
     },
     {
+      "name": "d-o-hub--rust-self-learning-memory",
+      "description": "A modular Rust-based self-learning episodic memory system for AI agents, featuring hybrid storage with Turso (SQL) and redb (KV), async execution tracking, reward scoring, reflection, and pattern-base",
+      "author": "d-o-hub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/d-o-hub--rust-self-learning-memory",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "fsans--fms-odata-mcp",
+      "description": "Model Context Protocol (MCP) server for FileMaker Server OData 4.01 API integration",
+      "author": "fsans",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fsans--fms-odata-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "n2wq--gocluster",
+      "description": "High performance Go-based DX cluster for amateur radio by N2WQ.",
+      "author": "N2WQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/n2wq--gocluster",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "narekmanukyan--cupertino-native-plus",
+      "description": "Native Liquid Glass widgets for iOS and macOS with pixel-perfect fidelity.",
+      "author": "NarekManukyan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/narekmanukyan--cupertino-native-plus",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "tuco86--iced-nodegraph",
+      "description": "A node graph editor widget for Iced",
+      "author": "tuco86",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tuco86--iced-nodegraph",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "n2wq--gocluster",
+      "description": "High performance Go-based DX cluster for amateur radio by N2WQ.",
+      "author": "N2WQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/n2wq--gocluster",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "aixgo-dev--aixgo",
+      "description": "AI-native agent framework for Go.",
+      "author": "aixgo-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aixgo-dev--aixgo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "n2wq--gocluster",
+      "description": "High performance Go-based DX cluster for amateur radio by N2WQ.",
+      "author": "N2WQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/n2wq--gocluster",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -306266,6 +306330,166 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/futuresolutiondev--deploy-center-server",
       "stars": 8,
       "quality": "gold"
+    },
+    {
+      "name": "weicj--2080ti-llm-toolbox",
+      "description": "Single-request LLM serving recipes, patches, and benchmarks for modified RTX 2080 Ti 22GB / SM75 systems",
+      "author": "weicj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/weicj--2080ti-llm-toolbox",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "rar--esphome-tigomonitor",
+      "description": "An ESPHome Based Tigo Monitor",
+      "author": "RAR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rar--esphome-tigomonitor",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "otispresley--snmp-switch-manager",
+      "description": "A Home Assistant integration using SNMP to manage a switch",
+      "author": "OtisPresley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/otispresley--snmp-switch-manager",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "strong-ai-lab--von",
+      "description": "Intelligent Agent System for Scientific Research Support",
+      "author": "Strong-AI-Lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/strong-ai-lab--von",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "strong-ai-lab--von",
+      "description": "Intelligent Agent System for Scientific Research Support",
+      "author": "Strong-AI-Lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/strong-ai-lab--von",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "rar--esphome-tigomonitor",
+      "description": "An ESPHome Based Tigo Monitor",
+      "author": "RAR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rar--esphome-tigomonitor",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "youversion--platform-sdk-kotlin",
+      "description": "Kotlin SDK for the YouVersion Platform",
+      "author": "youversion",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/youversion--platform-sdk-kotlin",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "dkapo88--hermeswhisper",
+      "description": "Voice AI Dictation + Hermes Manager ",
+      "author": "dkapo88",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkapo88--hermeswhisper",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "tally-evals--tally",
+      "description": "tally",
+      "author": "tally-evals",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tally-evals--tally",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "enriconunes--claude-autofix-action",
+      "description": "claude-autofix-action",
+      "author": "enriconunes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/enriconunes--claude-autofix-action",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "tally-evals--tally",
+      "description": "tally",
+      "author": "tally-evals",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tally-evals--tally",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "deriv-com--dtrader-template",
+      "description": "A white-label derivatives trading platform template. Fork it, configure your brand, and deploy.",
+      "author": "deriv-com",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deriv-com--dtrader-template",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "tally-evals--tally",
+      "description": "tally",
+      "author": "tally-evals",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tally-evals--tally",
+      "stars": 8,
+      "quality": "silver"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -478592,6 +478816,78 @@
       "description": "AI-powered virtual coding environment and development tools",
       "author": "Minnyat",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minnyat--ai4chill-vcode",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lennyrogers--bluetooth-monitor-app",
+      "description": "Full-stack Node.js web application for real-time Bluetooth device discovery and monitoring",
+      "author": "lennyrogers",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lennyrogers--bluetooth-monitor-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jasedbrown--jdb",
+      "description": "jason's debugger",
+      "author": "jasedbrown",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jasedbrown--jdb",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ai-hr-agent--ai-hr-agent",
+      "description": "ai-hr-agent",
+      "author": "ai-hr-agent",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ai-hr-agent--ai-hr-agent",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lean-enlan--pildhora-expoapp",
+      "description": "oc",
+      "author": "LEAN-EnLAN",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lean-enlan--pildhora-expoapp",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "agentagentwonder--eclipse-market-test",
+      "description": "Eclipse-Market-test",
+      "author": "AgentAgentwonder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agentagentwonder--eclipse-market-test",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bluesky78060--flutter-todo",
+      "description": "flutter-todo",
+      "author": "bluesky78060",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluesky78060--flutter-todo",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "deckyfx--dioxus-react-ipc",
+      "description": "Sample dioxus app that use react-integration and ipc",
+      "author": "deckyfx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deckyfx--dioxus-react-ipc",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "barenakeddev--walkscore-editor",
+      "description": "Walk Score Infographic Editor for hotel marketing materials",
+      "author": "barenakeddev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/barenakeddev--walkscore-editor",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ehwilhelmy--autopilottesting",
+      "description": "AutoPilotTesting",
+      "author": "ehwilhelmy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ehwilhelmy--autopilottesting",
       "stars": 0,
       "quality": "silver"
     }
