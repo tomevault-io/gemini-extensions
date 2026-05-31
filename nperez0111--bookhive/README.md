@@ -7,11 +7,11 @@ Track your books, share your shelves, see what others are reading
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nperez0111/bookhive](https://github.com/nperez0111/bookhive).
+Original source: `CLAUDE.md` in [nperez0111/bookhive](https://github.com/nperez0111/bookhive).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
