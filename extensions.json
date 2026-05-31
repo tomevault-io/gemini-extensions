@@ -286788,6 +286788,30 @@
       "quality": "silver"
     },
     {
+      "name": "genaicpa--skillsforaudit",
+      "description": "AI-assisted financial audit workflows using Claude Skills",
+      "author": "GenAICPA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genaicpa--skillsforaudit",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ktwu01--alphaearthhack",
+      "description": "UT Austin Geoscience Hackathon: `AlphaEarthHack` team",
+      "author": "ktwu01",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ktwu01--alphaearthhack",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "trenner1--hashicorp-vault-audit-analysis",
+      "description": "hashicorp-vault-audit-analysis",
+      "author": "trenner1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trenner1--hashicorp-vault-audit-analysis",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -306580,6 +306604,22 @@
       "quality": "silver"
     },
     {
+      "name": "open-gsd--gsd-browser",
+      "description": "A fast, native browser automation CLI built from the ground up for AI agents, powered by Chrome DevTools Protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network moc",
+      "author": "open-gsd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/open-gsd--gsd-browser",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "devfun-org--poker-arena-starter-kit",
+      "description": "Agent-driven poker bot starter kit for dev.fun Arena. Three paths (learn/build/iterate), four-stage curriculum, sandbox-safe.",
+      "author": "devfun-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devfun-org--poker-arena-starter-kit",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -311250,6 +311290,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/r0b0tlab--deepseek-v4-flash-nvfp4-gb10-benchmark",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "electro-resonance--llm-wiki-mcp",
+      "description": "LLM\u202fWiki\u202fMCP \u2013 the local\u2011first Markdown knowledge\u2011base with both MCP and CLI",
+      "author": "Electro-resonance",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/electro-resonance--llm-wiki-mcp",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "electro-resonance--llm-wiki-mcp",
+      "description": "LLM\u202fWiki\u202fMCP \u2013 the local\u2011first Markdown knowledge\u2011base with both MCP and CLI",
+      "author": "Electro-resonance",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/electro-resonance--llm-wiki-mcp",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
@@ -479024,6 +479080,46 @@
       "description": "auth-example",
       "author": "nissan",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nissan--auth-example",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "keihani--sentiment-analysis-api",
+      "description": "Production-ready REST API for sentiment analysis using Machine Learning",
+      "author": "keihani",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/keihani--sentiment-analysis-api",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "aiblockofficial--modelcontextprotocol",
+      "description": "An MCP server for the AIBlock API",
+      "author": "AIBlockOfficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aiblockofficial--modelcontextprotocol",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "aiblockofficial--modelcontextprotocol",
+      "description": "An MCP server for the AIBlock API",
+      "author": "AIBlockOfficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aiblockofficial--modelcontextprotocol",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "lanser0614--bianco",
+      "description": "bianco",
+      "author": "Lanser0614",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lanser0614--bianco",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "heron11--vibesdk-production",
+      "description": "vibesdk-production",
+      "author": "Heron11",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/heron11--vibesdk-production",
       "stars": 0,
       "quality": "silver"
     }
