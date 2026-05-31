@@ -236492,6 +236492,14 @@
       "quality": "silver"
     },
     {
+      "name": "mudler--parakeet-cpp",
+      "description": "Parakeet implementation in C++ with ggml",
+      "author": "mudler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mudler--parakeet-cpp",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
