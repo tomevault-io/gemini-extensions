@@ -306076,6 +306076,22 @@
       "quality": "silver"
     },
     {
+      "name": "am-will--lynk",
+      "description": "lynk",
+      "author": "am-will",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/am-will--lynk",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "psylsph--givenergy-local",
+      "description": "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network \u2014 no cloud account needed",
+      "author": "psylsph",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psylsph--givenergy-local",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -478074,6 +478090,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shareefhadid--traak",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "w3bsuki--elisbooks",
+      "description": "elisbooks",
+      "author": "w3bsuki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/w3bsuki--elisbooks",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "w3bsuki--elisbooks",
+      "description": "elisbooks",
+      "author": "w3bsuki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/w3bsuki--elisbooks",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "matthewabbott--traderbot",
+      "description": "Petty HFT intra-hour mean reversion tactic",
+      "author": "matthewabbott",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matthewabbott--traderbot",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
