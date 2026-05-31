@@ -7,12 +7,12 @@ ActivityPub-enabled social network for hackers
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [hackers-pub/hackerspub](https://github.com/hackers-pub/hackerspub).
+Original source: `AGENTS.md` in [hackers-pub/hackerspub](https://github.com/hackers-pub/hackerspub).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
