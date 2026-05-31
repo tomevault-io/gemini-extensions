@@ -37164,6 +37164,14 @@
       "quality": "silver"
     },
     {
+      "name": "luolangaga--tubatools",
+      "description": "\u56fe\u5427\u5de5\u5177\u7bb1 winUI3 \u7248",
+      "author": "luolangaga",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luolangaga--tubatools",
+      "stars": 219,
+      "quality": "silver"
+    },
+    {
       "name": "loulanyue--spec-kit-zh",
       "description": "\ud83d\udcab \u5e2e\u52a9\u4f60\u5feb\u901f\u4e0a\u624b\u89c4\u683c\u9a71\u52a8\u5f00\u53d1\u7684\u5de5\u5177\u5305\ud83d\udcab Toolkit to help you get started with Spec-Driven Development Works seamlessly across all major AI coding agents \u2014 Claude Code, Gemini CLI, Codex, GitHub Copilot, OpenCode, Cursor,",
       "author": "loulanyue",
@@ -197312,6 +197320,14 @@
       "description": "mortise \u2014\u2014 \u4e00\u6b3e\u73b0\u4ee3\u5316\u7684\u540e\u53f0\u7ba1\u7406\u811a\u624b\u67b6\u9879\u76ee\uff0c\u4f7f\u7528 SpringBoot 3 + Spring Security + MyBatis Flex + JWT + Redis \u5b9e\u73b0",
       "author": "rymcu",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rymcu--mortise",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "marekkowalczyk--breathe-cli",
+      "description": "Paced resonance breathing in your terminal",
+      "author": "marekkowalczyk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marekkowalczyk--breathe-cli",
       "stars": 16,
       "quality": "silver"
     },
