@@ -286828,6 +286828,22 @@
       "quality": "silver"
     },
     {
+      "name": "testably--mockolate",
+      "description": "A modern, strongly-typed, AOT-compatible mocking library for .NET, powered by source generators.",
+      "author": "Testably",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testably--mockolate",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "testably--mockolate",
+      "description": "A modern, strongly-typed, AOT-compatible mocking library for .NET, powered by source generators.",
+      "author": "Testably",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testably--mockolate",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -306636,6 +306652,62 @@
       "quality": "gold"
     },
     {
+      "name": "elixir-vibe--cringe",
+      "description": "OTP-native terminal UI toolkit for Elixir",
+      "author": "elixir-vibe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elixir-vibe--cringe",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "vanalmsick--sweepstake",
+      "description": "Football prediction webapp \u2013 compete with friends via private tournaments, submit match/group/tournament winner predictions, and watch the leaderboard update live as results come in.",
+      "author": "vanalmsick",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vanalmsick--sweepstake",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "inflightsec--agent-vault-proxy",
+      "description": "Zero-knowledge API keys for AI agents: the agent only ever sees a placeholder",
+      "author": "inflightsec",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inflightsec--agent-vault-proxy",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "inflightsec--agent-vault-proxy",
+      "description": "Zero-knowledge API keys for AI agents: the agent only ever sees a placeholder",
+      "author": "inflightsec",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inflightsec--agent-vault-proxy",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "djarvur--cc-websearch",
+      "description": "websearch tool for Claude Code to replace the standard one",
+      "author": "Djarvur",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djarvur--cc-websearch",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "outpoints--honcho-dashboard",
+      "description": "Self Hosted Dashboard for Honcho",
+      "author": "outpoints",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/outpoints--honcho-dashboard",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "jackhopkins--claude-code-plays-factorio",
+      "description": "A starter repo for getting Claude Code to play Factorio built by the FLE team.",
+      "author": "JackHopkins",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jackhopkins--claude-code-plays-factorio",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -311322,6 +311394,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/electro-resonance--llm-wiki-mcp",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "algorex-ph--stellarx-workshop-pup-may-2026",
+      "description": "StellarX-Workshop-PUP-May-2026",
+      "author": "ALGOREX-PH",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/algorex-ph--stellarx-workshop-pup-may-2026",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "karamouche--noisekit",
+      "description": "Generate degraded speech datasets for noise-robust ASR benchmarking",
+      "author": "karamouche",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/karamouche--noisekit",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
@@ -479136,6 +479224,38 @@
       "description": "vibesdk-production",
       "author": "Heron11",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/heron11--vibesdk-production",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "arafathusayn--tinygrad",
+      "description": "Autograd engine in TS/JS with operator overloading",
+      "author": "arafathusayn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arafathusayn--tinygrad",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "silasmontgomery--ddns-server-for-virtualmin",
+      "description": "A light-weight PHP-based DDNS server for Virtualmin",
+      "author": "silasmontgomery",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/silasmontgomery--ddns-server-for-virtualmin",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mediumwelldone4--open-api",
+      "description": "Connect open api to analyze data set",
+      "author": "Mediumwelldone4",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mediumwelldone4--open-api",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "arafathusayn--tinygrad",
+      "description": "Autograd engine in TS/JS with operator overloading",
+      "author": "arafathusayn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arafathusayn--tinygrad",
       "stars": 0,
       "quality": "silver"
     }
