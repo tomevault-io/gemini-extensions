@@ -1,0 +1,26 @@
+# Von
+
+> Tome by [Strong-AI-Lab](https://github.com/Strong-AI-Lab/Von) — distributed by [TomeVault](https://tomevault.io)
+
+Intelligent Agent System for Scientific Research Support
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `copilot-instructions.md` in [Strong-AI-Lab/Von](https://github.com/Strong-AI-Lab/Von).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [Strong-AI-Lab/Von](https://github.com/Strong-AI-Lab/Von) — a repo with 8+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:t-e-s -->
