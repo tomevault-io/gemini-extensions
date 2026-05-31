@@ -63732,6 +63732,14 @@
       "quality": "silver"
     },
     {
+      "name": "keys2023190905023--tinyedgebench",
+      "description": "TinyEdgeBench",
+      "author": "keys2023190905023",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/keys2023190905023--tinyedgebench",
+      "stars": 101,
+      "quality": "silver"
+    },
+    {
       "name": "mitchellh--go-libghostty",
       "description": "Go bindings for libghostty-vt.",
       "author": "mitchellh",
