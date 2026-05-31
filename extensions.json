@@ -76,6 +76,14 @@
       "quality": "silver"
     },
     {
+      "name": "browser-use--browser-use",
+      "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "author": "browser-use",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/browser-use--browser-use",
+      "stars": 96402,
+      "quality": "gold"
+    },
+    {
       "name": "github--spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "author": "github",
@@ -1012,12 +1020,28 @@
       "quality": "bronze"
     },
     {
+      "name": "roocodeinc--roo-code",
+      "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+      "author": "RooCodeInc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roocodeinc--roo-code",
+      "stars": 24177,
+      "quality": "bronze"
+    },
+    {
       "name": "qwenlm--qwen-code",
       "description": "An open-source AI agent that lives in your terminal.",
       "author": "QwenLM",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qwenlm--qwen-code",
       "stars": 24145,
       "quality": "gold"
+    },
+    {
+      "name": "lfnovo--open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "author": "lfnovo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lfnovo--open-notebook",
+      "stars": 23943,
+      "quality": "silver"
     },
     {
       "name": "alexsjones--llmfit",
@@ -1145,6 +1169,22 @@
       "author": "cjpais",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cjpais--handy",
       "stars": 21865,
+      "quality": "silver"
+    },
+    {
+      "name": "verl-project--verl",
+      "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework ",
+      "author": "verl-project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/verl-project--verl",
+      "stars": 21674,
+      "quality": "silver"
+    },
+    {
+      "name": "verl-project--verl",
+      "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework ",
+      "author": "verl-project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/verl-project--verl",
+      "stars": 21674,
       "quality": "silver"
     },
     {
@@ -2042,6 +2082,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--agent-framework",
       "stars": 10498,
       "quality": "bronze"
+    },
+    {
+      "name": "blinkospace--blinko",
+      "description": "An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .",
+      "author": "blinkospace",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blinkospace--blinko",
+      "stars": 10477,
+      "quality": "silver"
     },
     {
       "name": "runanywhereai--runanywhere-sdks",
@@ -8722,6 +8770,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidmonterocrespo24--velxio",
       "stars": 1658,
       "quality": "gold"
+    },
+    {
+      "name": "redwoodjs--sdk",
+      "description": "A simple framework for humans Server-first React, running on the Cloudflare platform. Simple to build. Easy to maintain.",
+      "author": "redwoodjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/redwoodjs--sdk",
+      "stars": 1652,
+      "quality": "bronze"
+    },
+    {
+      "name": "redwoodjs--sdk",
+      "description": "A simple framework for humans Server-first React, running on the Cloudflare platform. Simple to build. Easy to maintain.",
+      "author": "redwoodjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/redwoodjs--sdk",
+      "stars": 1652,
+      "quality": "bronze"
+    },
+    {
+      "name": "redwoodjs--sdk",
+      "description": "A simple framework for humans Server-first React, running on the Cloudflare platform. Simple to build. Easy to maintain.",
+      "author": "redwoodjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/redwoodjs--sdk",
+      "stars": 1652,
+      "quality": "bronze"
     },
     {
       "name": "revokslab--shipfree",
