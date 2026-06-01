@@ -309364,6 +309364,14 @@
       "quality": "bronze"
     },
     {
+      "name": "8b-is--kokoro-tiny",
+      "description": "kokoro-tiny",
+      "author": "8b-is",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/8b-is--kokoro-tiny",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -314120,6 +314128,14 @@
       "description": "Collective AI memory for multi-agent teams. 10-stage GAMR search engine, knowledge graph (Apache AGE), document ingestion, 22+ MCP tools.",
       "author": "josortmel",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/josortmel--ecodb",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "zhenheco--life-chart-engine",
+      "description": "\u4e09\u5408\u4e00\u6392\u76e4\u5f15\u64ce\uff1a\u897f\u6d0b\u661f\u76e4 + \u4eba\u985e\u5716 + \u7d2b\u5fae\u6597\u6578\uff0c\u539f\u751f\u5929\u6587/\u66c6\u6cd5\u8a08\u7b97\uff0cCLI + JSON(\u4f9b AI agent)\u3002AGPL-3.0\u3002",
+      "author": "zhenheco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhenheco--life-chart-engine",
       "stars": 7,
       "quality": "silver"
     },
@@ -482256,6 +482272,118 @@
       "description": "Next Js + Admin Functionality for Gospel-Hub: A Website for Gospel Playlists",
       "author": "sazypapi",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sazypapi--gospelhub",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "adamitt--sportpedia",
+      "description": "sportpedia",
+      "author": "Adamitt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adamitt--sportpedia",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "skalenetwork--ima-agent-v3",
+      "description": "Brand new IMA Agent, in Python",
+      "author": "skalenetwork",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skalenetwork--ima-agent-v3",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "damianstory--board-facing-careerlaunch101",
+      "description": "one-pager with all the info boards need to sign up",
+      "author": "damianstory",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/damianstory--board-facing-careerlaunch101",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "alicanyucel--alfa",
+      "description": "Alfa",
+      "author": "alicanyucel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alicanyucel--alfa",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "rais1712--kelas-kampus",
+      "description": "kelas_kampus",
+      "author": "rais1712",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rais1712--kelas-kampus",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "buster14a--buster",
+      "description": "Buster monorepository",
+      "author": "buster14a",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/buster14a--buster",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "buster14a--buster",
+      "description": "Buster monorepository",
+      "author": "buster14a",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/buster14a--buster",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "alexawilcox1120--testingcursor",
+      "description": "TestingCursor",
+      "author": "alexawilcox1120",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexawilcox1120--testingcursor",
       "stars": 0,
       "quality": "bronze"
     }
