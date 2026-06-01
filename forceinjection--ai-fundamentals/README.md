@@ -7,11 +7,11 @@ AI 基础知识 - GPU 架构、CUDA 编程、大模型基础及AI Agent 相关�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ForceInjection/AI-fundamentals](https://github.com/ForceInjection/AI-fundamentals).
+Original source: `CLAUDE.md` in [ForceInjection/AI-fundamentals](https://github.com/ForceInjection/AI-fundamentals).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
