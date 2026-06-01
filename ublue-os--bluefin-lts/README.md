@@ -7,12 +7,12 @@ Bluefin LTS, built on CentOS with bootc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ublue-os/bluefin-lts](https://github.com/ublue-os/bluefin-lts).
+Original source: `AGENTS.md` in [ublue-os/bluefin-lts](https://github.com/ublue-os/bluefin-lts).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
