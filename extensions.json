@@ -290388,6 +290388,38 @@
       "quality": "silver"
     },
     {
+      "name": "geo-ff--make-it-real",
+      "description": "A portable AI-agent skill that turns rough ideas into project specs, delivery scopes, and task handoffs.",
+      "author": "Geo-ff",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/geo-ff--make-it-real",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "yanhanruan--mutsumi",
+      "description": "Mutsumi",
+      "author": "yanhanruan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yanhanruan--mutsumi",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "geo-ff--make-it-real",
+      "description": "A portable AI-agent skill that turns rough ideas into project specs, delivery scopes, and task handoffs.",
+      "author": "Geo-ff",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/geo-ff--make-it-real",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "y-sunflower--ninejs",
+      "description": "Bringing \u2728interactivity\u2728 to plotnine",
+      "author": "y-sunflower",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/y-sunflower--ninejs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -310562,6 +310594,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sepehrbayat--sepcc",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "ffffhx--codex-snapshots",
+      "description": "codex-snapshots",
+      "author": "ffffhx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ffffhx--codex-snapshots",
+      "stars": 8,
+      "quality": "bronze"
     },
     {
       "name": "cheerhuan--save-your-token",
