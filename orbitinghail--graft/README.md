@@ -7,11 +7,11 @@ Graft is an open-source transactional storage engine optimized for lazy, partial
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [orbitinghail/graft](https://github.com/orbitinghail/graft).
+Original source: `CLAUDE.md` in [orbitinghail/graft](https://github.com/orbitinghail/graft).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
