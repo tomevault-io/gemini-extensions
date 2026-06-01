@@ -4,7 +4,7 @@
   "repo": "kaniop",
   "description": "Kubernetes operator for managing Kanidm",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/pando85/kaniop",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-01T09:54:21Z"
+  "distributed_at": "2026-06-01T10:08:37Z"
 }
