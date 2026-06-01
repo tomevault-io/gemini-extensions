@@ -7,11 +7,11 @@ on-my-mind: a keyboard-driven task manager for the command line
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dhth/omm](https://github.com/dhth/omm).
+Original source: `CLAUDE.md` in [dhth/omm](https://github.com/dhth/omm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
