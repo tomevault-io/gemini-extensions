@@ -7,12 +7,12 @@ TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observ
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero).
+Original source: `AGENTS.md` in [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
