@@ -106684,6 +106684,14 @@
       "quality": "silver"
     },
     {
+      "name": "mikker--social-construct",
+      "description": "Generate social sharing images directly in your Rails app",
+      "author": "mikker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikker--social-construct",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
       "name": "mikkelkrogsholm--skills",
       "description": "skills",
       "author": "mikkelkrogsholm",
@@ -311228,6 +311236,30 @@
       "quality": "bronze"
     },
     {
+      "name": "bevalz--veritas",
+      "description": "\u9ad8\u5ea6\u84b8\u998f\u84b8\u998f\u4e86\u803f\u540c\u5b66\u7684repo\uff0c\u5b66\u672f\u6253\u5047 \u00b7 \u4ee3\u7801\u8bc1\u636e \u00b7 \u5f00\u6e90\u6838\u67e5  \u79d1\u5b66\u9700\u8981\u5f00\u653e\uff0c\u9020\u5047\u5fc5\u987b\u89c1\u5149\u3002",
+      "author": "BevalZ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bevalz--veritas",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "vekui--weapp",
+      "description": "\u7c7breact+shadcn ui +tailwindcss \u5f00\u53d1\u4f53\u68c0\u7684 weapp \u5f00\u53d1\u7684AI \u4f18\u5316\u578b\u7ec4\u4ef6\u5e93",
+      "author": "vekui",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vekui--weapp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sdfgeoff--html-agent",
+      "description": "Why don't we allow agents to inject HTML directly into the chat?",
+      "author": "sdfgeoff",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sdfgeoff--html-agent",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -315992,6 +316024,22 @@
       "description": "\u4e09\u5408\u4e00\u6392\u76e4\u5f15\u64ce\uff1a\u897f\u6d0b\u661f\u76e4 + \u4eba\u985e\u5716 + \u7d2b\u5fae\u6597\u6578\uff0c\u539f\u751f\u5929\u6587/\u66c6\u6cd5\u8a08\u7b97\uff0cCLI + JSON(\u4f9b AI agent)\u3002AGPL-3.0\u3002",
       "author": "zhenheco",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhenheco--life-chart-engine",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "houmo-ai--houmo-examples",
+      "description": "Houmo AI Chip Example Repository. We supply users with a full suite of code and tools covering quantization, compilation, accuracy and performance assessment, as well as application deployment, so as ",
+      "author": "houmo-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/houmo-ai--houmo-examples",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "deonmenezes--tradingviewmcp",
+      "description": "Wholesale fork of tradesdontlie/tradingview-mcp (MIT) \u2014 original work by tradesdontlie. MCP bridge for TradingView Desktop via Chrome DevTools Protocol.",
+      "author": "deonmenezes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deonmenezes--tradingviewmcp",
       "stars": 7,
       "quality": "silver"
     },
