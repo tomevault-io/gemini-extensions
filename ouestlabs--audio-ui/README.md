@@ -7,13 +7,13 @@ A set of accessible and composable components for building audio interfaces in y
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ouestlabs/audio-ui](https://github.com/ouestlabs/audio-ui).
+Original source: `.cursor/rules/*.mdc` in [ouestlabs/audio-ui](https://github.com/ouestlabs/audio-ui).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
