@@ -7,11 +7,11 @@ Monitor and control your Unraid server directly from Home Assistant. Track syste
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ruaan-deysel/ha-unraid](https://github.com/ruaan-deysel/ha-unraid).
+Original source: `CLAUDE.md` in [ruaan-deysel/ha-unraid](https://github.com/ruaan-deysel/ha-unraid).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
