@@ -7,11 +7,11 @@ A portable AI-agent skill that turns rough ideas into project specs, delivery sc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Geo-ff/make-it-real](https://github.com/Geo-ff/make-it-real).
+Original source: `CLAUDE.md` in [Geo-ff/make-it-real](https://github.com/Geo-ff/make-it-real).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
