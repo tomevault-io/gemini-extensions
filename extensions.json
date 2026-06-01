@@ -257732,6 +257732,14 @@
       "quality": "silver"
     },
     {
+      "name": "labautomationandscreening--pyalab",
+      "description": "Library for generating Integra ViaLab files",
+      "author": "LabAutomationAndScreening",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/labautomationandscreening--pyalab",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -295132,6 +295140,54 @@
       "quality": "silver"
     },
     {
+      "name": "nwierzbowski--pivot-blender-bridge",
+      "description": "pivot-blender-bridge",
+      "author": "nwierzbowski",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nwierzbowski--pivot-blender-bridge",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "compuficial--apery",
+      "description": "Synthetic Data Generator for Agents",
+      "author": "compuficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/compuficial--apery",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jonhill90--vibes",
+      "description": "Vibes provides a shared set of skills, agents, and reference documentation for AI coding assistants. Write your agent instructions once in AGENTS.md, and every supported platform \u2014 Claude Code, GitHub",
+      "author": "jonhill90",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jonhill90--vibes",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "compuficial--apery",
+      "description": "Synthetic Data Generator for Agents",
+      "author": "compuficial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/compuficial--apery",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jonhill90--vibes",
+      "description": "Vibes provides a shared set of skills, agents, and reference documentation for AI coding assistants. Write your agent instructions once in AGENTS.md, and every supported platform \u2014 Claude Code, GitHub",
+      "author": "jonhill90",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jonhill90--vibes",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jonhill90--vibes",
+      "description": "Vibes provides a shared set of skills, agents, and reference documentation for AI coding assistants. Write your agent instructions once in AGENTS.md, and every supported platform \u2014 Claude Code, GitHub",
+      "author": "jonhill90",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jonhill90--vibes",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -315608,6 +315664,22 @@
       "description": "Live up/down heatmap for 40+ popular internet services. Built on Cloudflare Workers + D1.",
       "author": "Jaironlanda",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaironlanda--isupmap",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "digitalinnovationone--dio-agent",
+      "description": "Agente de IA criado pela DIO para apoiar seus estudos.",
+      "author": "digitalinnovationone",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/digitalinnovationone--dio-agent",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "digitalinnovationone--dio-agent",
+      "description": "Agente de IA criado pela DIO para apoiar seus estudos.",
+      "author": "digitalinnovationone",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/digitalinnovationone--dio-agent",
       "stars": 8,
       "quality": "silver"
     },
