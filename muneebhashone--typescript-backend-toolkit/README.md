@@ -7,11 +7,11 @@ Production-ready Express.js/TypeScript framework with auto-generated OpenAPI, Ar
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [muneebhashone/typescript-backend-toolkit](https://github.com/muneebhashone/typescript-backend-toolkit).
+Original source: `CLAUDE.md` in [muneebhashone/typescript-backend-toolkit](https://github.com/muneebhashone/typescript-backend-toolkit).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
