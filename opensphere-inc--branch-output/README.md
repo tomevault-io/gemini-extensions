@@ -7,11 +7,11 @@ This is an OBS Studio plugin that allows to transmit video and audio with RTMP /
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [OPENSPHERE-Inc/branch-output](https://github.com/OPENSPHERE-Inc/branch-output).
+Original source: `AGENTS.md` in [OPENSPHERE-Inc/branch-output](https://github.com/OPENSPHERE-Inc/branch-output).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
