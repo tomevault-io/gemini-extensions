@@ -7,11 +7,11 @@ Turn raw footage into brand-ready, platform-optimized video with one command. Lo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [BillLucky/echocut](https://github.com/BillLucky/echocut).
+Original source: `AGENTS.md` in [BillLucky/echocut](https://github.com/BillLucky/echocut).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
