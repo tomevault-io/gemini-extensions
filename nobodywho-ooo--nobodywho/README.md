@@ -7,11 +7,11 @@ NobodyWho is an inference engine that lets you run LLMs locally and efficiently 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nobodywho-ooo/nobodywho](https://github.com/nobodywho-ooo/nobodywho).
+Original source: `CLAUDE.md` in [nobodywho-ooo/nobodywho](https://github.com/nobodywho-ooo/nobodywho).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
