@@ -7,13 +7,13 @@ The developer community is beginning to show the world why Mixed Reality can be 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [oculus-samples/Unity-MRMotifs](https://github.com/oculus-samples/Unity-MRMotifs).
+Original source: `AGENTS.md` in [oculus-samples/Unity-MRMotifs](https://github.com/oculus-samples/Unity-MRMotifs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
