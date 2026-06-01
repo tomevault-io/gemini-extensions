@@ -288668,6 +288668,14 @@
       "quality": "silver"
     },
     {
+      "name": "auriora--activitywatch-mcp",
+      "description": "activitywatch-mcp",
+      "author": "Auriora",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/auriora--activitywatch-mcp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -308724,6 +308732,30 @@
       "quality": "silver"
     },
     {
+      "name": "othorizon--anytocontext-ce",
+      "description": "Turn anything into information your agent can query directly.",
+      "author": "othorizon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/othorizon--anytocontext-ce",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "othorizon--anytocontext-ce",
+      "description": "Turn anything into information your agent can query directly.",
+      "author": "othorizon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/othorizon--anytocontext-ce",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "constripacity--claude-bridge",
+      "description": "Real-time cross-machine MCP relay for Claude Code agents",
+      "author": "constripacity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/constripacity--claude-bridge",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -313456,6 +313488,22 @@
       "description": "Bilibili live streaming tool built with Tauri + React",
       "author": "Zeppelinpp",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeppelinpp--bilibili-streamer",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "boringstack-xyz--boringstack",
+      "description": "Arguably, the best production-ready starter on the internet. ",
+      "author": "boringstack-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/boringstack-xyz--boringstack",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "skhoroshavin--pi-supergsd",
+      "description": "pi-supergsd",
+      "author": "skhoroshavin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/skhoroshavin--pi-supergsd",
       "stars": 7,
       "quality": "silver"
     },
@@ -481370,6 +481418,230 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sheacoding--python-learning-assistant-cli",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "ayushsaini9876--helloivy-frontend",
+      "description": "HelloIvy_Frontend",
+      "author": "AYUSHSAINI9876",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ayushsaini9876--helloivy-frontend",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chc0331--composetoglance",
+      "description": "ComposeToGlance",
+      "author": "chc0331",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chc0331--composetoglance",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "aejaeshi--basic-learning-claude",
+      "description": "Basic_Learning_Claude",
+      "author": "Aejaeshi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aejaeshi--basic-learning-claude",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chior1--copythat",
+      "description": "copythat",
+      "author": "Chior1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chior1--copythat",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "anuska3435--ecodrop-web",
+      "description": "EcoDrop_Web",
+      "author": "Anuska3435",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anuska3435--ecodrop-web",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "fuqingyingbai-netizen--pomodoro-timer",
+      "description": "pomodoro-timer",
+      "author": "fuqingyingbai-netizen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fuqingyingbai-netizen--pomodoro-timer",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "indiaanilkumawat-blip--assignment",
+      "description": "assignment",
+      "author": "indiaanilkumawat-blip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/indiaanilkumawat-blip--assignment",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "aldhosutra--scraut",
+      "description": "Scraut: Scrum Automation",
+      "author": "aldhosutra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aldhosutra--scraut",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "yuvalarviv365--app-catalog",
+      "description": "app-catalog",
+      "author": "yuvalarviv365",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuvalarviv365--app-catalog",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "rafaelmelo007--ulm",
+      "description": "Unified CLI gateway for Claude, Codex, Gemini, and Ollama. Use your subscriptions, not API keys.",
+      "author": "rafaelmelo007",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rafaelmelo007--ulm",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sybatic--wealthyrealm",
+      "description": "a group of company for food, textile and real estate",
+      "author": "sybatic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sybatic--wealthyrealm",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "okface--iller8",
+      "description": "iller8",
+      "author": "okface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/okface--iller8",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "flysterpay-design--frs-bob",
+      "description": "frs_bob",
+      "author": "flysterpay-design",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flysterpay-design--frs-bob",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "samikshab3610--ai-app-generator",
+      "description": "ai-app-generator",
+      "author": "samikshab3610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samikshab3610--ai-app-generator",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "9brahiim--madina-traders",
+      "description": "Madina_Traders",
+      "author": "9brahiim",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/9brahiim--madina-traders",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wailin0--asone",
+      "description": "asone",
+      "author": "wailin0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wailin0--asone",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jobboat-fr--hermes-agent",
+      "description": "Hermes Agent fork \u2014 V-Board ops layer (routing pipeline, council, runner, meeting-room) built on top of Hermes Agent by NousResearch",
+      "author": "jobboat-fr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jobboat-fr--hermes-agent",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alisalman909--grocerylistproject",
+      "description": "GroceryListProject",
+      "author": "AliSalman909",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alisalman909--grocerylistproject",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jainam662010-boop--os",
+      "description": "OS",
+      "author": "jainam662010-boop",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jainam662010-boop--os",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "alexanderbn-pr--spa-devices-ts",
+      "description": "Proyecto de dispositivos en typescript",
+      "author": "alexanderbn-pr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexanderbn-pr--spa-devices-ts",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "migsii--portfolio",
+      "description": "portfolio",
+      "author": "migsii",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/migsii--portfolio",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "egonso--uni-seeburg-mba-2026-qual-01",
+      "description": "Temporary public MBA thesis bootstrap workspace",
+      "author": "Egonso",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/egonso--uni-seeburg-mba-2026-qual-01",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "olamide-thinker--hiveforce",
+      "description": "hiveforce",
+      "author": "olamide-thinker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/olamide-thinker--hiveforce",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "olesyastorchakprojects--thinking-memory-hub",
+      "description": "MCP-based memory server and LangGraph backend for note storage, search, and messenger integrations.",
+      "author": "olesyastorchakprojects",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/olesyastorchakprojects--thinking-memory-hub",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ws0x--nexflow",
+      "description": "NexFlow",
+      "author": "ws0x",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ws0x--nexflow",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "steven-s-francis--musicmigrator",
+      "description": "MusicMigrator",
+      "author": "Steven-S-Francis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/steven-s-francis--musicmigrator",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "khayson--ytdownloader",
+      "description": "ytdownloader",
+      "author": "khayson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/khayson--ytdownloader",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "sazypapi--gospelhub",
+      "description": "Next Js + Admin Functionality for Gospel-Hub: A Website for Gospel Playlists",
+      "author": "sazypapi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sazypapi--gospelhub",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
