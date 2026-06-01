@@ -7,11 +7,11 @@ Configure and enforce conventions for your dbt project.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [godatadriven/dbt-bouncer](https://github.com/godatadriven/dbt-bouncer).
+Original source: `CLAUDE.md` in [godatadriven/dbt-bouncer](https://github.com/godatadriven/dbt-bouncer).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
