@@ -1,0 +1,28 @@
+# Shanghai-swap
+
+> Tome by [daisukeman32](https://github.com/daisukeman32/Shanghai-swap) — distributed by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [daisukeman32/Shanghai-swap](https://github.com/daisukeman32/Shanghai-swap).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [daisukeman32/Shanghai-swap](https://github.com/daisukeman32/Shanghai-swap) — a repo with 0+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install daisukeman32/Shanghai-swap
+```
+Source: [github.com/daisukeman32/Shanghai-swap](https://github.com/daisukeman32/Shanghai-swap).
+
+<!-- genome:t-i-s -->
