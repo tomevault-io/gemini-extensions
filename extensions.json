@@ -296140,6 +296140,38 @@
       "quality": "silver"
     },
     {
+      "name": "operationt00--t-code",
+      "description": "\u4e00\u6b3e\u96c6\u6210\u4e86ReAct\uff0cPlan-and-Execute\u548cMulti-Agent\u7684coding agent",
+      "author": "OperationT00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/operationt00--t-code",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "operationt00--t-code",
+      "description": "\u4e00\u6b3e\u96c6\u6210\u4e86ReAct\uff0cPlan-and-Execute\u548cMulti-Agent\u7684coding agent",
+      "author": "OperationT00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/operationt00--t-code",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "chenchenyaqi--learn-anything",
+      "description": "AI-powered recursive learning system \u2014 Socratic deep-dives and TDD-style exercises integrated directly into your coding assistant.",
+      "author": "ChenChenyaqi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenchenyaqi--learn-anything",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "kjx-talesofai--md-agent-pro",
+      "description": "A minimal, standalone CLI agent demonstrating the core concepts of autonomous AI systems. Built with OpenAI's tool calling API, this project shows how simple file operations can enable powerful automa",
+      "author": "kjx-talesofai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kjx-talesofai--md-agent-pro",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -316676,6 +316708,22 @@
       "quality": "silver"
     },
     {
+      "name": "xiansa20--huoguang-voice-assistant",
+      "description": "\u706b\u5149 AI \u8bed\u97f3\u52a9\u624b\uff1aAI \u5bf9\u8bdd\u4e0e\u706b\u5c71\u5f15\u64ce\u8bed\u97f3\u751f\u6210\u5de5\u5177",
+      "author": "xiansa20",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xiansa20--huoguang-voice-assistant",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "yastman--rag",
+      "description": "AI real-estate automation platform: Telegram bot, RAG, apartment search, CRM workflows, voice agent, Langfuse observability, and Dockerized AI runtime.",
+      "author": "yastman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yastman--rag",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -321472,6 +321520,62 @@
       "description": "\u8ba9 AI \u4e3b\u52a8\u8bb0\u9519\u9898\u3001\u81ea\u6211\u8fed\u4ee3\u7684\u534f\u4f5c\u673a\u5236 \u00b7 A framework that makes your AI reflect on its own mistakes and stop repeating them",
       "author": "roam-bit",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roam-bit--ai-collaboration-notebook",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "nvidia-omniverse--usd-optimize",
+      "description": "usd-optimize",
+      "author": "NVIDIA-Omniverse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nvidia-omniverse--usd-optimize",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "nvidia-omniverse--usd-optimize",
+      "description": "usd-optimize",
+      "author": "NVIDIA-Omniverse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nvidia-omniverse--usd-optimize",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "leriart--nothingless",
+      "description": "A high-performance, deeply customizable Wayland shell built with Quickshell. ",
+      "author": "leriart",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leriart--nothingless",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "00prabalk00--continuum",
+      "description": "Local shared memory and controlled workflows for AI coding agents.",
+      "author": "00PrabalK00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/00prabalk00--continuum",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "breadddevv--feedbase",
+      "description": "Open source feedback management platform for product teams.",
+      "author": "breadddevv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/breadddevv--feedbase",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "vibe-coding-era--goal-teams",
+      "description": "goal-teams",
+      "author": "vibe-coding-era",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vibe-coding-era--goal-teams",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "00prabalk00--continuum",
+      "description": "Local shared memory and controlled workflows for AI coding agents.",
+      "author": "00PrabalK00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/00prabalk00--continuum",
       "stars": 7,
       "quality": "silver"
     },
@@ -489770,6 +489874,54 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gretenataliya--projektimperiet",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "deepdarkkid--sql-tutorial",
+      "description": "SQL-Tutorial",
+      "author": "DeepDarkKid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deepdarkkid--sql-tutorial",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "creariax5--m-tiers-de-bouche",
+      "description": "M-tiers-de-Bouche",
+      "author": "Creariax5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/creariax5--m-tiers-de-bouche",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "karem505--ailigent-spark",
+      "description": "AI-powered business automation platform by Ailigent",
+      "author": "karem505",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/karem505--ailigent-spark",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "quincyco--incremental-resource-mgmt",
+      "description": "Godot being made",
+      "author": "quincyco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quincyco--incremental-resource-mgmt",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "liulb--mediamtx",
+      "description": "This is a self-hosted telemedicine video streaming system that replaces Tencent Cloud TRTC service to achieve 90% cost savings (from \u00a57,300/month to \u00a5700/month). The system enables **bidirectional vid",
+      "author": "liulb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/liulb--mediamtx",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "earbunsong--hospital-system",
+      "description": "hospital_system",
+      "author": "Earbunsong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/earbunsong--hospital-system",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
