@@ -316884,6 +316884,30 @@
       "quality": "silver"
     },
     {
+      "name": "sandeepmvl--rails-skills",
+      "description": "rails-skills",
+      "author": "sandeepmvl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandeepmvl--rails-skills",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "fxrayhughes--foundation",
+      "description": "foundation",
+      "author": "FxRayHughes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fxrayhughes--foundation",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "haujetzhao--asr-hotword",
+      "description": "\u6700\u68d2\u7684\u7684ASR\u540e\u5904\u7406\u70ed\u8bcd\u65b9\u6848\uff0c\u57fa\u4e8e\u97f3\u7d20\u7f16\u8f91\u8ddd\u79bb\uff0c\u5b9e\u73b0\u70ed\u8bcd\u66ff\u6362\u3002",
+      "author": "HaujetZhao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haujetzhao--asr-hotword",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -321754,6 +321778,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahoo-wang--godex",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "nomadamas--agentdir",
+      "description": "mkdir for agents - agent-optimized & read-only virtual folder",
+      "author": "NomaDamas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nomadamas--agentdir",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "asta-nguyen--kamehadb",
+      "description": "KamehaDB is a cross-platform database GUI - AI. Support query via human language",
+      "author": "asta-nguyen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/asta-nguyen--kamehadb",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "echoer009--nion",
+      "description": "AI companion + task manager \u00b7 nags you so you don't forget",
+      "author": "Echoer009",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/echoer009--nion",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "avelino--outl",
+      "description": "Local-first outliner. Markdown is the source of truth. Sync that doesn't corrupt your tree when two devices edit offline",
+      "author": "avelino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/avelino--outl",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "itsmeeaera--claude-switcher",
+      "description": "TUI profile switcher for Claude Code API endpoints",
+      "author": "ItsMeEAera",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itsmeeaera--claude-switcher",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
@@ -490160,6 +490224,14 @@
       "description": "litellm",
       "author": "nishanth919",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nishanth919--litellm",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "charlescrowellnv--mintlify-docs",
+      "description": "mintlify-docs",
+      "author": "charlescrowellnv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/charlescrowellnv--mintlify-docs",
       "stars": 0,
       "quality": "silver"
     }
