@@ -121948,6 +121948,14 @@
       "quality": "gold"
     },
     {
+      "name": "sandeberger--thetab-ninja",
+      "description": "This is a tab and bookmark manager that opens when you create a new page. Compability for the moment: Chromium",
+      "author": "sandeberger",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandeberger--thetab-ninja",
+      "stars": 43,
+      "quality": "silver"
+    },
+    {
       "name": "s-zx--crest",
       "description": "An open source, AI-native terminal.",
       "author": "s-zx",
@@ -123688,6 +123696,30 @@
       "description": "A tiny ESP32 device that interacts with RFID + NFC devices using the PN532 chip.",
       "author": "dkyazzentwatwa",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkyazzentwatwa--cypher-pn532",
+      "stars": 42,
+      "quality": "silver"
+    },
+    {
+      "name": "omnisat--lasereyes-mono",
+      "description": "Connect to any Bitcoin wallet, handle transactions, and work with Ordinals & BRC-20 tokens with just a few lines of code.",
+      "author": "omnisat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omnisat--lasereyes-mono",
+      "stars": 42,
+      "quality": "silver"
+    },
+    {
+      "name": "omnisat--lasereyes-mono",
+      "description": "Connect to any Bitcoin wallet, handle transactions, and work with Ordinals & BRC-20 tokens with just a few lines of code.",
+      "author": "omnisat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omnisat--lasereyes-mono",
+      "stars": 42,
+      "quality": "silver"
+    },
+    {
+      "name": "omnisat--lasereyes-mono",
+      "description": "Connect to any Bitcoin wallet, handle transactions, and work with Ordinals & BRC-20 tokens with just a few lines of code.",
+      "author": "omnisat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omnisat--lasereyes-mono",
       "stars": 42,
       "quality": "silver"
     },
@@ -125516,6 +125548,14 @@
       "quality": "bronze"
     },
     {
+      "name": "yanolja--ogem",
+      "description": "ogem",
+      "author": "yanolja",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yanolja--ogem",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -127202,6 +127242,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vircadia--vircadia-world",
       "stars": 40,
       "quality": "bronze"
+    },
+    {
+      "name": "gosuda--randflake",
+      "description": "Randflake ID: a distributed, uniform, unpredictable, unique random ID generator.",
+      "author": "gosuda",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gosuda--randflake",
+      "stars": 40,
+      "quality": "gold"
     },
     {
       "name": "w3cj--ruta",
@@ -130418,6 +130466,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brokenalarms--hey-proton",
       "stars": 38,
       "quality": "bronze"
+    },
+    {
+      "name": "yang3kc--cursor-latex-template",
+      "description": "Cursor configuration for LaTeX projects",
+      "author": "yang3kc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yang3kc--cursor-latex-template",
+      "stars": 38,
+      "quality": "silver"
     },
     {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
@@ -134436,6 +134492,14 @@
       "quality": "bronze"
     },
     {
+      "name": "daddodev--pimpmyrice",
+      "description": "The overkill theme manager",
+      "author": "daddodev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/daddodev--pimpmyrice",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
       "name": "aregowe--magento2-module-polyshell-protection",
       "description": "Comprehensive defense-in-depth Magento 2 module that closes the PolyShell unrestricted file upload vulnerability (APSB25-94) \u2014 blocking polyglot webshell uploads across eight interception layers inclu",
       "author": "aregowe",
@@ -136712,6 +136776,14 @@
       "description": "\ud83d\udea2  Spawn any vendor LLM \u2014 DeepSeek \u00b7 GLM \u00b7 Qwen \u00b7 Kimi \u00b7 MiniMax \u2026 \u2014 as real Claude Code teammates or \u26a1 one-shot subagents \ud83d\ude80 \uff5c\ud83e\udd16 \u8ba9 Claude Code \u63a5\u5165\u4efb\u610f\u7b2c\u4e09\u65b9\u6a21\u578b(DeepSeek \u00b7 GLM \u00b7 Qwen \u00b7 Kimi \u00b7 MiniMax \u2026\u2026),\u4f5c\u4e3a\u539f\u751f ",
       "author": "ethanhq",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ethanhq--cc-fleet",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
+      "name": "daz-codes--rubymonkey",
+      "description": "Monkey patching Javascript to be more like Ruby",
+      "author": "daz-codes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/daz-codes--rubymonkey",
       "stars": 35,
       "quality": "silver"
     },
@@ -142964,6 +143036,14 @@
       "quality": "silver"
     },
     {
+      "name": "resuite--retend",
+      "description": "JSX framework for user interfaces.",
+      "author": "resuite",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/resuite--retend",
+      "stars": 32,
+      "quality": "bronze"
+    },
+    {
       "name": "inureyes--gyeol",
       "description": "gyeol",
       "author": "inureyes",
@@ -148164,6 +148244,38 @@
       "quality": "silver"
     },
     {
+      "name": "woopstar--hsem",
+      "description": "Maximize the potential of your Huawei solar battery system with this powerful Home Assistant custom integration.",
+      "author": "woopstar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/woopstar--hsem",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
+      "name": "tooluse--tool-use-ai",
+      "description": "Tools to simplify life with AI",
+      "author": "ToolUse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tooluse--tool-use-ai",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
+      "name": "woopstar--hsem",
+      "description": "Maximize the potential of your Huawei solar battery system with this powerful Home Assistant custom integration.",
+      "author": "woopstar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/woopstar--hsem",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
+      "name": "woopstar--hsem",
+      "description": "Maximize the potential of your Huawei solar battery system with this powerful Home Assistant custom integration.",
+      "author": "woopstar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/woopstar--hsem",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "description": "Inventory API Skills",
       "author": "Laskewitz",
@@ -150874,6 +150986,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qazsato--openapi-generate-html",
       "stars": 29,
       "quality": "silver"
+    },
+    {
+      "name": "zebreus--rudelblinken",
+      "description": "Syncing and blinking cat ears",
+      "author": "zebreus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zebreus--rudelblinken",
+      "stars": 29,
+      "quality": "bronze"
     },
     {
       "name": "ahekot--comfyui-hyworld2",
@@ -157632,6 +157752,30 @@
       "description": "CloudKit as a Log Storage",
       "author": "kasianov-mikhail",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kasianov-mikhail--scout",
+      "stars": 27,
+      "quality": "bronze"
+    },
+    {
+      "name": "grafana--metrics-drilldown",
+      "description": "A queryless experience for browsing Prometheus-compatible metrics. Quickly find related metrics without writing PromQL queries.",
+      "author": "grafana",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grafana--metrics-drilldown",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "grafana--metrics-drilldown",
+      "description": "A queryless experience for browsing Prometheus-compatible metrics. Quickly find related metrics without writing PromQL queries.",
+      "author": "grafana",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grafana--metrics-drilldown",
+      "stars": 27,
+      "quality": "bronze"
+    },
+    {
+      "name": "grafana--metrics-drilldown",
+      "description": "A queryless experience for browsing Prometheus-compatible metrics. Quickly find related metrics without writing PromQL queries.",
+      "author": "grafana",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grafana--metrics-drilldown",
       "stars": 27,
       "quality": "bronze"
     },
@@ -172660,6 +172804,14 @@
       "quality": "bronze"
     },
     {
+      "name": "mmalmi--nostr-double-ratchet",
+      "description": "nostr-double-ratchet",
+      "author": "mmalmi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mmalmi--nostr-double-ratchet",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill",
       "author": "lucianaib0318",
@@ -177740,6 +177892,22 @@
       "quality": "silver"
     },
     {
+      "name": "getstream--stream-feeds-js",
+      "description": "stream-feeds-js",
+      "author": "GetStream",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/getstream--stream-feeds-js",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "getstream--stream-feeds-js",
+      "description": "stream-feeds-js",
+      "author": "GetStream",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/getstream--stream-feeds-js",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -181968,6 +182136,22 @@
       "description": "Embedded cache lib using sqlite for storage",
       "author": "modfin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/modfin--cove",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "pymmcore-plus--pymmcore-gui",
+      "description": "Pure Python Micro-Manager GUI Application, built on pymmcore-plus",
+      "author": "pymmcore-plus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pymmcore-plus--pymmcore-gui",
+      "stars": 21,
+      "quality": "bronze"
+    },
+    {
+      "name": "pymmcore-plus--pymmcore-gui",
+      "description": "Pure Python Micro-Manager GUI Application, built on pymmcore-plus",
+      "author": "pymmcore-plus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pymmcore-plus--pymmcore-gui",
       "stars": 21,
       "quality": "silver"
     },
@@ -186434,6 +186618,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vocdoni--davinci-node",
       "stars": 20,
       "quality": "silver"
+    },
+    {
+      "name": "logicblocks--event-store",
+      "description": "Eventing infrastructure for event sourced architectures.",
+      "author": "logicblocks",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/logicblocks--event-store",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "flox--floxenvs",
+      "description": " Example Flox environments ",
+      "author": "flox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flox--floxenvs",
+      "stars": 20,
+      "quality": "gold"
     },
     {
       "name": "tomoyaf--logifai",
@@ -196212,6 +196412,22 @@
       "quality": "silver"
     },
     {
+      "name": "jellydn--vscode-hurl-runner",
+      "description": "Hurl Runner is a VS Code extension designed to run HTTP requests directly from `.hurl` files.",
+      "author": "jellydn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jellydn--vscode-hurl-runner",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "macavity--siyuan-database-properties-panel",
+      "description": "siyuan-database-properties-panel",
+      "author": "Macavity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/macavity--siyuan-database-properties-panel",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -202228,6 +202444,14 @@
       "quality": "silver"
     },
     {
+      "name": "tristancgardner--macos-dictate",
+      "description": "macos-dictate",
+      "author": "tristancgardner",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tristancgardner--macos-dictate",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -208192,6 +208416,62 @@
       "description": "twelvelabs-developer-experience",
       "author": "twelvelabs-io",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/twelvelabs-io--twelvelabs-developer-experience",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "devcontainer-community--devcontainer-features",
+      "description": "devcontainer-features",
+      "author": "devcontainer-community",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devcontainer-community--devcontainer-features",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "hex-digital--lucidity-next-sanity-starter",
+      "description": "WIP - Lucidity - The Enterprise-Ready Next.js 16 + SanityCMS Starter Template",
+      "author": "hex-digital",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hex-digital--lucidity-next-sanity-starter",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "androiddevnotes--ktor-demo-api-server",
+      "description": "Demo API using Ktor Server, Exposed, Postgres, Swagger, OpenAPI, Heroku",
+      "author": "androiddevnotes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/androiddevnotes--ktor-demo-api-server",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "afedukov--searchtweak",
+      "description": "Optimize and Enhance Your Search Quality",
+      "author": "afedukov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/afedukov--searchtweak",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "spruceid--sprucekit-mobile",
+      "description": "Libraries and examples for integrating verifiable credentials (VC) and mobile driver's licenses (mDL) into mobile apps.",
+      "author": "spruceid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/spruceid--sprucekit-mobile",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "hyperjiang--futu",
+      "description": "Futu open api golang client. \u5bcc\u9014Open API\u6700\u597d\u7528\u7684Golang\u5ba2\u6237\u7aef",
+      "author": "hyperjiang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperjiang--futu",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "cdot65--pan-scm-sdk",
+      "description": "Python SDK for Palo Alto Networks Strata Cloud Manager.",
+      "author": "cdot65",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cdot65--pan-scm-sdk",
       "stars": 16,
       "quality": "silver"
     },
@@ -214280,6 +214560,38 @@
       "description": "Supports Lua, GeoIP2, PCRE2, Brotli, and GmSSL (via Tongsuo).",
       "author": "iYism",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/iyism--docker-tengine",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "canonical--concierge",
+      "description": "An opinionated utility for provisioning charm development and testing machines.",
+      "author": "canonical",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/canonical--concierge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "ntindle--gridfinity-space-optimizer",
+      "description": "gridfinity-space-optimizer",
+      "author": "ntindle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ntindle--gridfinity-space-optimizer",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "canonical--concierge",
+      "description": "An opinionated utility for provisioning charm development and testing machines.",
+      "author": "canonical",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/canonical--concierge",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "ntindle--gridfinity-space-optimizer",
+      "description": "gridfinity-space-optimizer",
+      "author": "ntindle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ntindle--gridfinity-space-optimizer",
       "stars": 15,
       "quality": "silver"
     },
@@ -221096,6 +221408,78 @@
       "description": "Production-ready Next.js 15 boilerplate for content-driven websites with MDX, shadcn/ui, and TypeScript.",
       "author": "huntsyea",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huntsyea--nextjs-directory-boilerplate",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "mckaywrigley--takeoff-perplexity-clone-mckay",
+      "description": "takeoff-perplexity-clone-mckay",
+      "author": "mckaywrigley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mckaywrigley--takeoff-perplexity-clone-mckay",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "dimitarbez--battle-simulator",
+      "description": "Welcome to the Battle Simulator, a real-time strategy game where two armies clash on a battlefield. Customize your soldiers, manage resources, and watch the action unfold as your troops battle for vic",
+      "author": "dimitarbez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dimitarbez--battle-simulator",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "genesis-ai-dev--langquest",
+      "description": "langquest",
+      "author": "genesis-ai-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genesis-ai-dev--langquest",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "genesis-ai-dev--langquest",
+      "description": "langquest",
+      "author": "genesis-ai-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genesis-ai-dev--langquest",
+      "stars": 14,
+      "quality": "gold"
+    },
+    {
+      "name": "genesis-ai-dev--langquest",
+      "description": "langquest",
+      "author": "genesis-ai-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genesis-ai-dev--langquest",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "genesis-ai-dev--langquest",
+      "description": "langquest",
+      "author": "genesis-ai-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genesis-ai-dev--langquest",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "genesis-ai-dev--langquest",
+      "description": "langquest",
+      "author": "genesis-ai-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genesis-ai-dev--langquest",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "genesis-ai-dev--langquest",
+      "description": "langquest",
+      "author": "genesis-ai-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genesis-ai-dev--langquest",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "dalafiarisamuel--contactpickerkmp",
+      "description": " ContactPicker is a component written in Kotlin Multiplatform that natively implements selecting a contact for Android and iOS.",
+      "author": "dalafiarisamuel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dalafiarisamuel--contactpickerkmp",
       "stars": 14,
       "quality": "silver"
     },
