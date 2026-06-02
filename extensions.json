@@ -258732,6 +258732,14 @@
       "quality": "bronze"
     },
     {
+      "name": "sanster--string-catalog",
+      "description": "string-catalog",
+      "author": "Sanster",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanster--string-catalog",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -296276,6 +296284,14 @@
       "quality": "silver"
     },
     {
+      "name": "seemseam--agent-roles-spec",
+      "description": "agent-roles-spec",
+      "author": "SeemSeam",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seemseam--agent-roles-spec",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -316924,6 +316940,46 @@
       "quality": "silver"
     },
     {
+      "name": "webdastur--dj-admin-tui",
+      "description": "Drive the Django admin from your terminal \u2014 browse, search, filter, edit, and run admin actions, with the same permissions and audit as the web admin. Built on Textual.",
+      "author": "webdastur",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/webdastur--dj-admin-tui",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "magnus919--hermes-skillopt",
+      "description": "Controlled skill optimization for Hermes Agent \u2014 derives from Microsoft Research's SkillOpt: 52/52 settings improved through text-space optimization with validation gates.",
+      "author": "magnus919",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/magnus919--hermes-skillopt",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sagargupta16--financial-dashboard",
+      "description": "React TypeScript financial dashboard with Chart.js analytics, data visualization, trends forecasting, and responsive Tailwind CSS design",
+      "author": "Sagargupta16",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sagargupta16--financial-dashboard",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dzvyagin--ai-clean-arch-demo",
+      "description": "ai-clean-arch-demo",
+      "author": "dzvyagin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dzvyagin--ai-clean-arch-demo",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "derekphilipau--museum-semantic-search",
+      "description": "AI-powered semantic search for museum collections.",
+      "author": "derekphilipau",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/derekphilipau--museum-semantic-search",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -321832,6 +321888,30 @@
       "description": "TUI profile switcher for Claude Code API endpoints",
       "author": "ItsMeEAera",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itsmeeaera--claude-switcher",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "magicbug--oscarwatch-tracker",
+      "description": "OscarWatch Multiplatform Satellite Tracking System",
+      "author": "magicbug",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/magicbug--oscarwatch-tracker",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "issacw228--student-llm-wiki",
+      "description": "\ud83d\udcda Student LLM Wiki \u2014 AI-compiled knowledge base for university students. Drop course slides, get a persistent interlinked wiki. Feynman review, exam prep, confidence decay, cross-course connections. B",
+      "author": "IssacW228",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/issacw228--student-llm-wiki",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "issacw228--student-llm-wiki",
+      "description": "\ud83d\udcda Student LLM Wiki \u2014 AI-compiled knowledge base for university students. Drop course slides, get a persistent interlinked wiki. Feynman review, exam prep, confidence decay, cross-course connections. B",
+      "author": "IssacW228",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/issacw228--student-llm-wiki",
       "stars": 7,
       "quality": "silver"
     },
