@@ -194356,6 +194356,22 @@
       "quality": "silver"
     },
     {
+      "name": "enderzcx--pi-docs-playbook",
+      "description": "A docs navigator and agent-readable playbook for building on earendil-works/pi",
+      "author": "enderzcx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/enderzcx--pi-docs-playbook",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "agntcms--agntcms",
+      "description": "Agentic headless cms. Built on Next.js. Powered by Claude. Owned by you.",
+      "author": "agntcms",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agntcms--agntcms",
+      "stars": 18,
+      "quality": "gold"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -245560,6 +245576,22 @@
       "description": "Pinto is low volatility money built on Base.",
       "author": "pinto-org",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pinto-org--protocol",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "mlgruby--dotfile-nix",
+      "description": "Nix setup for all dotfiles and required applications for mac",
+      "author": "mlgruby",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mlgruby--dotfile-nix",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "prabirshrestha--ai-rs",
+      "description": "ai.rs",
+      "author": "prabirshrestha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prabirshrestha--ai-rs",
       "stars": 11,
       "quality": "silver"
     },
