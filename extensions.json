@@ -296092,6 +296092,14 @@
       "quality": "silver"
     },
     {
+      "name": "michabbb--graphiti-mcp-but-working",
+      "description": "graphiti-mcp-but-working",
+      "author": "michabbb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michabbb--graphiti-mcp-but-working",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -316588,6 +316596,46 @@
       "quality": "silver"
     },
     {
+      "name": "xopoko--build-swift-apps",
+      "description": "Multi-agent skills for building, debugging, profiling, testing, and shipping Swift apps across Apple platforms",
+      "author": "Xopoko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xopoko--build-swift-apps",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "spearchucker667--kimiko",
+      "description": "Bypass all api restraints within Kimi-CLI",
+      "author": "spearchucker667",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/spearchucker667--kimiko",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "chenpg2--kw-engine",
+      "description": "Methodology evolution engine \u2014 distill transferable principles from literature, search by problem structure",
+      "author": "chenpg2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenpg2--kw-engine",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "xopoko--build-swift-apps",
+      "description": "Multi-agent skills for building, debugging, profiling, testing, and shipping Swift apps across Apple platforms",
+      "author": "Xopoko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xopoko--build-swift-apps",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kharkevich-engineering-lab--spark-pulse",
+      "description": "Spark Pulse is a web control plane for spark-vllm-docker",
+      "author": "kharkevich-engineering-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kharkevich-engineering-lab--spark-pulse",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -321376,6 +321424,14 @@
       "description": "\u57fa\u4e8e AI Agent \u7684\u6e17\u900f\u6d4b\u8bd5\u81ea\u52a8\u5316\u6846\u67b6\uff0c\u4e25\u683c\u9075\u5faa **PTES\uff08Penetration Testing Execution Standard\uff09** \u6807\u51c6\uff0c\u8986\u76d6\u6e17\u900f\u6d4b\u8bd5\u5168\u751f\u547d\u5468\u671f\u3002",
       "author": "fb0sh",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fb0sh--pentester",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "roam-bit--ai-collaboration-notebook",
+      "description": "\u8ba9 AI \u4e3b\u52a8\u8bb0\u9519\u9898\u3001\u81ea\u6211\u8fed\u4ee3\u7684\u534f\u4f5c\u673a\u5236 \u00b7 A framework that makes your AI reflect on its own mistakes and stop repeating them",
+      "author": "roam-bit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roam-bit--ai-collaboration-notebook",
       "stars": 7,
       "quality": "silver"
     },
@@ -489664,6 +489720,14 @@
       "description": "Gyan-Setu",
       "author": "valyrian24052",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/valyrian24052--gyan-setu",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "gretenataliya--projektimperiet",
+      "description": "Projektimperiet",
+      "author": "gretenataliya",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gretenataliya--projektimperiet",
       "stars": 0,
       "quality": "bronze"
     }
