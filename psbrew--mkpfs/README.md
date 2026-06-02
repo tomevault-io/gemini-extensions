@@ -7,11 +7,11 @@ Create and Manage Unsigned PFS (Playstation File System) image files with file c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PSBrew/MkPFS](https://github.com/PSBrew/MkPFS).
+Original source: `CLAUDE.md` in [PSBrew/MkPFS](https://github.com/PSBrew/MkPFS).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
