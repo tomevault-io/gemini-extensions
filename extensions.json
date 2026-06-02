@@ -296300,6 +296300,22 @@
       "quality": "bronze"
     },
     {
+      "name": "jamesmontemagno--blazor-scorekeeper",
+      "description": "A score keeper for all of your board games",
+      "author": "jamesmontemagno",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jamesmontemagno--blazor-scorekeeper",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "zsc--control-tutorial",
+      "description": "control_tutorial",
+      "author": "zsc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zsc--control-tutorial",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -316988,6 +317004,54 @@
       "quality": "silver"
     },
     {
+      "name": "wooyoohl--research-agent-governance",
+      "description": "\u9762\u5411 AI Agent \u7684\u8f7b\u91cf\u7ea7\u6cbb\u7406\u89c4\u8303\u3002",
+      "author": "WooyoohL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wooyoohl--research-agent-governance",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "adityahase--atlas",
+      "description": "atlas",
+      "author": "adityahase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adityahase--atlas",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "huanyuzhilv--skills-travel-planner",
+      "description": "\u5f00\u6e90 AI \u8def\u4e66\u751f\u6210\u5de5\u5177 \u00b7 Cursor/Claude Agent Skill\uff1a\u7b80\u7248\u884c\u7a0b\u8868 \u2192 tripData.json \u2192 \u53ef\u4ea4\u4ed8 HTML/PDF\u3002\u5c0f\u7ea2\u4e66\u914d\u56fe\u3001LLM \u6da6\u8272\u3001\u98de\u732a\u9152\u5e97\u6570\u636e\u3002Open-source AI travel roadbook generator for custom tour advisors.",
+      "author": "huanyuzhilv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huanyuzhilv--skills-travel-planner",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "huanyuzhilv--skills-travel-planner",
+      "description": "\u5f00\u6e90 AI \u8def\u4e66\u751f\u6210\u5de5\u5177 \u00b7 Cursor/Claude Agent Skill\uff1a\u7b80\u7248\u884c\u7a0b\u8868 \u2192 tripData.json \u2192 \u53ef\u4ea4\u4ed8 HTML/PDF\u3002\u5c0f\u7ea2\u4e66\u914d\u56fe\u3001LLM \u6da6\u8272\u3001\u98de\u732a\u9152\u5e97\u6570\u636e\u3002Open-source AI travel roadbook generator for custom tour advisors.",
+      "author": "huanyuzhilv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huanyuzhilv--skills-travel-planner",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sgolovine--cc-offers",
+      "description": "Open dataset of credit card offers.",
+      "author": "sgolovine",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sgolovine--cc-offers",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "perfectra1n--kopiur",
+      "description": "kopiur",
+      "author": "perfectra1n",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perfectra1n--kopiur",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -321922,6 +321986,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/issacw228--student-llm-wiki",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "astralchemist--rig",
+      "description": "Local-first semantic knowledge graph with magnetic-pull retrieval",
+      "author": "Astralchemist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/astralchemist--rig",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "b7s--neuraphp",
+      "description": "NeuraPHP brings local AI embeddings to PHP - no APIs, no subscriptions, no external services",
+      "author": "b7s",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/b7s--neuraphp",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "dark-brain07--payforapi",
+      "description": "PayForApi",
+      "author": "Dark-Brain07",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dark-brain07--payforapi",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
