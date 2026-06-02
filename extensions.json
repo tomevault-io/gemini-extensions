@@ -14724,6 +14724,14 @@
       "quality": "silver"
     },
     {
+      "name": "butterbase-ai--butterbase",
+      "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
+      "author": "butterbase-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/butterbase-ai--butterbase",
+      "stars": 1036,
+      "quality": "bronze"
+    },
+    {
       "name": "cloudflare--kumo",
       "description": "Cloudflare's component library for building modern web applications.",
       "author": "cloudflare",
@@ -159628,6 +159636,22 @@
       "quality": "silver"
     },
     {
+      "name": "krispuckett--swiftuishaders",
+      "description": "41 hand-curated drop-in SwiftUI Metal shader effects \u2014 holographic foil, kaleidoscope, magnetic fields, glitch, neon edges and more. Typed View modifiers, agent-friendly docs.",
+      "author": "krispuckett",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/krispuckett--swiftuishaders",
+      "stars": 26,
+      "quality": "bronze"
+    },
+    {
+      "name": "krispuckett--swiftuishaders",
+      "description": "41 hand-curated drop-in SwiftUI Metal shader effects \u2014 holographic foil, kaleidoscope, magnetic fields, glitch, neon edges and more. Typed View modifiers, agent-friendly docs.",
+      "author": "krispuckett",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/krispuckett--swiftuishaders",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -258640,6 +258664,22 @@
       "description": "Create and Manage Unsigned PFS (Playstation File System) image files with file compression and checksum support.",
       "author": "PSBrew",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psbrew--mkpfs",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "chenhg5--imole",
+      "description": "An open-source iPhone slimming toolkit to find storage hogs, back up media locally, and safely free up space without relying on iCloud.",
+      "author": "chenhg5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenhg5--imole",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "chenhg5--imole",
+      "description": "An open-source iPhone slimming toolkit to find storage hogs, back up media locally, and safely free up space without relying on iCloud.",
+      "author": "chenhg5",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenhg5--imole",
       "stars": 10,
       "quality": "silver"
     },
