@@ -7,11 +7,11 @@ An open-source agent harness that turns your AI agent into your personal DNA exp
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [exon-research/genomi](https://github.com/exon-research/genomi).
+Original source: `CLAUDE.md` in [exon-research/genomi](https://github.com/exon-research/genomi).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
