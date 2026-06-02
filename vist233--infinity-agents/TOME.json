@@ -4,7 +4,7 @@
   "repo": "infinity_Agents",
   "description": "An AI agent for convert nature language to shell or python command and search paper for you",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Vist233/infinity_Agents",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-02T18:38:52Z"
+  "distributed_at": "2026-06-02T18:42:53Z"
 }
