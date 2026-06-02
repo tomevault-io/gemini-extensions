@@ -296228,6 +296228,30 @@
       "quality": "silver"
     },
     {
+      "name": "djskncxm--duckagent",
+      "description": "DuckAgent",
+      "author": "djskncxm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/djskncxm--duckagent",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "cityjson--duckdb-cityjson",
+      "description": "duckdb-cityjson",
+      "author": "cityjson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cityjson--duckdb-cityjson",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "cityjson--duckdb-cityjson",
+      "description": "duckdb-cityjson",
+      "author": "cityjson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cityjson--duckdb-cityjson",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -316828,6 +316852,30 @@
       "quality": "gold"
     },
     {
+      "name": "sanbei101--mini-minio",
+      "description": "\u4ece0\u52301\u5b9e\u73b0\u4e00\u4e2a\u7b80\u5316\u7248\u672c\u7684minio",
+      "author": "sanbei101",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanbei101--mini-minio",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "qingkongfeixing--smart-album",
+      "description": "\u672c\u5730\u76f8\u518c AI \u641c\u7d22\u5de5\u5177 \u2014\u901a\u8fc7\u7b2c\u4e09\u65b9\u89c6\u89c9\u5927\u6a21\u578b\u81ea\u52a8\u4e3a\u56fe\u7247\u751f\u6210\u6807\u7b7e\uff0c\u652f\u6301\u81ea\u7136\u8bed\u8a00\u5173\u952e\u8bcd\u641c\u7d22",
+      "author": "qingkongfeixing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qingkongfeixing--smart-album",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "eversinc33--karyo",
+      "description": "[100% AI Generated Code] Lightweight LLVM Symbolic Execution Engine",
+      "author": "eversinc33",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eversinc33--karyo",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -321682,6 +321730,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/00prabalk00--continuum",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "ahoo-wang--godex",
+      "description": "Make every model a CodeX engine through an OpenAI-compatible Responses API gateway",
+      "author": "Ahoo-Wang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahoo-wang--godex",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "ahoo-wang--godex",
+      "description": "Make every model a CodeX engine through an OpenAI-compatible Responses API gateway",
+      "author": "Ahoo-Wang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahoo-wang--godex",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ancplua--ancplua-claude-plugins",
