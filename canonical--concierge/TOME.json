@@ -4,7 +4,7 @@
   "repo": "concierge",
   "description": "An opinionated utility for provisioning charm development and testing machines.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/canonical/concierge",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-02T22:37:24Z"
+  "distributed_at": "2026-06-02T22:54:18Z"
 }
