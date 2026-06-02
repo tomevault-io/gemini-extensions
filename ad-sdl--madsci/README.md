@@ -7,11 +7,11 @@ Main repository for the Modular Autonomous Discovery for Science (MADSci) Framew
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AD-SDL/MADSci](https://github.com/AD-SDL/MADSci).
+Original source: `CLAUDE.md` in [AD-SDL/MADSci](https://github.com/AD-SDL/MADSci).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
