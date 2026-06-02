@@ -7,12 +7,12 @@ Public Hushh web/app wrapper for product surfaces, API integrations, Supabase wo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hushh-labs/hushh_Tech_website](https://github.com/hushh-labs/hushh_Tech_website).
+Original source: `copilot-instructions.md` in [hushh-labs/hushh_Tech_website](https://github.com/hushh-labs/hushh_Tech_website).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
