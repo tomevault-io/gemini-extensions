@@ -149276,6 +149276,30 @@
       "quality": "bronze"
     },
     {
+      "name": "nvidia--sphinx-llm",
+      "description": "LLM extensions for Sphinx Documentation",
+      "author": "NVIDIA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nvidia--sphinx-llm",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "mindfiredigital--pivothead",
+      "description": "HeadlessPivot",
+      "author": "mindfiredigital",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mindfiredigital--pivothead",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "mindfiredigital--pivothead",
+      "description": "HeadlessPivot",
+      "author": "mindfiredigital",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mindfiredigital--pivothead",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
       "name": "ahekot--comfyui-hyworld2",
       "description": "ComfyUI_HYWorld2",
       "author": "AHEKOT",
@@ -156012,6 +156036,22 @@
       "quality": "silver"
     },
     {
+      "name": "masc-ucsc--hagent",
+      "description": "Hardware Agent",
+      "author": "masc-ucsc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masc-ucsc--hagent",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "masc-ucsc--hagent",
+      "description": "Hardware Agent",
+      "author": "masc-ucsc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masc-ucsc--hagent",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
       "name": "10xchengtu--mux0",
       "description": "MUX0",
       "author": "10xChengTu",
@@ -159660,6 +159700,22 @@
       "quality": "silver"
     },
     {
+      "name": "andrew-scorchsoft--scorchsoft-quick-whisper",
+      "description": "Quick Whisper is a free speech-to-copy-edited-text software tool that uses AI to convert spoken audio into a copy-edited transcript, automatically pasting it into your active application. ",
+      "author": "andrew-scorchsoft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrew-scorchsoft--scorchsoft-quick-whisper",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "animation-lab--proteinblender",
+      "description": "ProteinBlender",
+      "author": "Animation-Lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/animation-lab--proteinblender",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -163256,6 +163312,14 @@
       "description": "Website with community guidelines for empirical studies involving LLMs.",
       "author": "se-uhd",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/se-uhd--llm-guidelines-website",
+      "stars": 25,
+      "quality": "bronze"
+    },
+    {
+      "name": "pixellab-code--pixellab-python",
+      "description": "Python SDK for Pixel Lab",
+      "author": "pixellab-code",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pixellab-code--pixellab-python",
       "stars": 25,
       "quality": "bronze"
     },
@@ -167064,6 +167128,30 @@
       "description": "Arknights\u751f\u6daf\u751f\u6210\u5668",
       "author": "SHUAXINDIARY",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shuaxindiary--arknights",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "hyperbrowserai--python-sdk",
+      "description": "python-sdk",
+      "author": "hyperbrowserai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperbrowserai--python-sdk",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "hyperbrowserai--python-sdk",
+      "description": "python-sdk",
+      "author": "hyperbrowserai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperbrowserai--python-sdk",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "valtteril--harjus",
+      "description": "Triangular arbitrage bot for Binance Spot market with userspace networking",
+      "author": "ValtteriL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/valtteril--harjus",
       "stars": 24,
       "quality": "silver"
     },
@@ -170896,6 +170984,14 @@
       "description": "oh-my-zsh style customization framework for Claude Code",
       "author": "baekenough",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "sethjuarez--contoso-voice-agent",
+      "description": "contoso-voice-agent",
+      "author": "sethjuarez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sethjuarez--contoso-voice-agent",
       "stars": 23,
       "quality": "silver"
     },
@@ -189156,6 +189252,22 @@
       "quality": "silver"
     },
     {
+      "name": "cjohndesign--fen-sliders",
+      "description": "Slidev implementation",
+      "author": "CJohnDesign",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cjohndesign--fen-sliders",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "cjohndesign--fen-sliders",
+      "description": "Slidev implementation",
+      "author": "CJohnDesign",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cjohndesign--fen-sliders",
+      "stars": 19,
+      "quality": "bronze"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon",
       "author": "nirholas",
@@ -194370,6 +194482,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agntcms--agntcms",
       "stars": 18,
       "quality": "gold"
+    },
+    {
+      "name": "matter-labs--zksync-sso",
+      "description": "ZKsync SSO SDK",
+      "author": "matter-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matter-labs--zksync-sso",
+      "stars": 18,
+      "quality": "bronze"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -200340,6 +200460,14 @@
       "quality": "silver"
     },
     {
+      "name": "rareformlabs--craft-inertia",
+      "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps with Craft's routing & data-driven by Twig templates",
+      "author": "RareFormLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rareformlabs--craft-inertia",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -206256,6 +206384,22 @@
       "description": "patchbay-cli",
       "author": "lifuyue",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lifuyue--patchbay-cli",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "fabiotheo--ipcom-ari",
+      "description": "A modern TypeScript/JavaScript library for interacting with the Asterisk REST Interface (ARI), offering robust WebSocket support for real-time events, full type safety, and simplified handling of Aste",
+      "author": "fabiotheo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fabiotheo--ipcom-ari",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "gfazioli--mantine-parallax",
+      "description": "A Mantine UI Library Extension Parallax component to replicate the Apple TV Card",
+      "author": "gfazioli",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gfazioli--mantine-parallax",
       "stars": 16,
       "quality": "silver"
     },
@@ -212298,6 +212442,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chrisryugj--archhub-mcp",
       "stars": 15,
       "quality": "silver"
+    },
+    {
+      "name": "alexanderop--sqlite-vue-example",
+      "description": "sqlite-vue-example",
+      "author": "alexanderop",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexanderop--sqlite-vue-example",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "publicrust--rust-analyzer",
+      "description": "rust-analyzer",
+      "author": "publicrust",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/publicrust--rust-analyzer",
+      "stars": 15,
+      "quality": "bronze"
     },
     {
       "name": "hyaway--hyaway",
@@ -219082,6 +219242,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xenonjuice--livonia",
       "stars": 14,
       "quality": "silver"
+    },
+    {
+      "name": "kaichen--mcp-config-editor",
+      "description": "A simple GUI for managing MCP servers, for easy toggle mcp servers.",
+      "author": "kaichen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaichen--mcp-config-editor",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "caiiiycuk--vcmi-wasm",
+      "description": "vcmi-wasm",
+      "author": "caiiiycuk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caiiiycuk--vcmi-wasm",
+      "stars": 14,
+      "quality": "bronze"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -227210,6 +227386,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/litellm-labs--litellm-rust",
       "stars": 13,
       "quality": "bronze"
+    },
+    {
+      "name": "bastidood--spectro",
+      "description": "A multi-channel confession bot for Discord that supports anonymous replies and channel moderation.",
+      "author": "BastiDood",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bastidood--spectro",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "bastidood--spectro",
+      "description": "A multi-channel confession bot for Discord that supports anonymous replies and channel moderation.",
+      "author": "BastiDood",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bastidood--spectro",
+      "stars": 13,
+      "quality": "silver"
     },
     {
       "name": "scardoso-lu--google-antigravity-settings",
@@ -236080,6 +236272,70 @@
       "description": "Astro Starter template",
       "author": "ricocc",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ricocc--ricoui-astro-starter",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "hushh-labs--hushh-tech-website",
+      "description": "Public Hushh web/app wrapper for product surfaces, API integrations, Supabase workflows, tests, CI, and repo governance.",
+      "author": "hushh-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hushh-labs--hushh-tech-website",
+      "stars": 12,
+      "quality": "gold"
+    },
+    {
+      "name": "hushh-labs--hushh-tech-website",
+      "description": "Public Hushh web/app wrapper for product surfaces, API integrations, Supabase workflows, tests, CI, and repo governance.",
+      "author": "hushh-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hushh-labs--hushh-tech-website",
+      "stars": 12,
+      "quality": "gold"
+    },
+    {
+      "name": "hushh-labs--hushh-tech-website",
+      "description": "Public Hushh web/app wrapper for product surfaces, API integrations, Supabase workflows, tests, CI, and repo governance.",
+      "author": "hushh-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hushh-labs--hushh-tech-website",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "hushh-labs--hushh-tech-website",
+      "description": "Public Hushh web/app wrapper for product surfaces, API integrations, Supabase workflows, tests, CI, and repo governance.",
+      "author": "hushh-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hushh-labs--hushh-tech-website",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "hushh-labs--hushh-tech-website",
+      "description": "Public Hushh web/app wrapper for product surfaces, API integrations, Supabase workflows, tests, CI, and repo governance.",
+      "author": "hushh-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hushh-labs--hushh-tech-website",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "hushh-labs--hushh-tech-website",
+      "description": "Public Hushh web/app wrapper for product surfaces, API integrations, Supabase workflows, tests, CI, and repo governance.",
+      "author": "hushh-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hushh-labs--hushh-tech-website",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "koudaiii--azureupdatepptx",
+      "description": "Azure Updates Summary",
+      "author": "koudaiii",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koudaiii--azureupdatepptx",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "koudaiii--azureupdatepptx",
+      "description": "Azure Updates Summary",
+      "author": "koudaiii",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koudaiii--azureupdatepptx",
       "stars": 12,
       "quality": "silver"
     },
@@ -245592,6 +245848,86 @@
       "description": "ai.rs",
       "author": "prabirshrestha",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prabirshrestha--ai-rs",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "tractr--nss-boilerplate",
+      "description": "NSS for NextSupabaseShadcn",
+      "author": "tractr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tractr--nss-boilerplate",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "zaparooproject--zaparoo-app",
+      "description": "The official Zaparoo app and primary interface for the core software",
+      "author": "ZaparooProject",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zaparooproject--zaparoo-app",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "ordiscan--ordiscan-sdk",
+      "description": "TypeScript wrapper for the Ordiscan API",
+      "author": "ordiscan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ordiscan--ordiscan-sdk",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "clionertr--meilisearch4telegramsearchckj",
+      "description": "\u672c\u9879\u76ee\u57fa\u4e8epython\uff0c\u4f7f\u7528userbot\u4e0b\u8f7dTelegram\u5386\u53f2\u6d88\u606f\u5230meilisearch\u6570\u636e\u5e93\uff0c\u89e3\u51b3telegram\u539f\u751f\u641c\u7d22\u65e0\u6cd5\u5904\u7406\u4e2d\u6587\u65ad\u8bcd\u7684\u95ee\u9898\u3002",
+      "author": "clionertr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clionertr--meilisearch4telegramsearchckj",
       "stars": 11,
       "quality": "silver"
     },
@@ -258778,6 +259114,54 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanster--string-catalog",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "afernandes--globalkeyboardcapture-maui",
+      "description": "A powerful .NET MAUI library for global keyboard capture with support for barcode scanners, hotkeys, and cross-platform input handling.",
+      "author": "afernandes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/afernandes--globalkeyboardcapture-maui",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ivandembicki--top",
+      "description": "Tree Oriented Programming ",
+      "author": "IvanDembicki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivandembicki--top",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "sebastienduruz--window-switcher",
+      "description": "A simple application to switch between windows with clickable thumbnails",
+      "author": "SebastienDuruz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sebastienduruz--window-switcher",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "vjj1999--lazy-cursor",
+      "description": "awesome rules",
+      "author": "vjj1999",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vjj1999--lazy-cursor",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "nizie002--pyrth",
+      "description": "PyRth is an open-source Python package designed for evaluating thermal transient measurement data, such as those obtained from devices like the T3ster. It processes thermal transient data using specia",
+      "author": "nizie002",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nizie002--pyrth",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "vfarcic--idp-full-demo",
+      "description": "idp-full-demo",
+      "author": "vfarcic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vfarcic--idp-full-demo",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -296348,6 +296732,30 @@
       "quality": "bronze"
     },
     {
+      "name": "csharpfritz--aspiredevtodeploy",
+      "description": "AspireDevToDeploy",
+      "author": "csharpfritz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/csharpfritz--aspiredevtodeploy",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "brianblakely--omarchy-plugins",
+      "description": "omarchy-plugins",
+      "author": "brianblakely",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brianblakely--omarchy-plugins",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "virinvictus--lattice",
+      "description": "CLI toolkit for music collectors \u2014 library trees, integrity checks, cover art, tag audits.",
+      "author": "VirInvictus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/virinvictus--lattice",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -317080,6 +317488,22 @@
       "description": "kopiur",
       "author": "perfectra1n",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perfectra1n--kopiur",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "barryu9--voice-chat-room-web",
+      "description": "A discord-like mediasoup WebRTC voice chat room",
+      "author": "barryu9",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/barryu9--voice-chat-room-web",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "purzbeats--esp32-147b-genart",
+      "description": "Generative art on the Waveshare ESP32-S3-LCD-1.47B (1.47\" ST7789, 172x320) \u2014 CPU framebuffer effects via Arduino + LovyanGFX",
+      "author": "purzbeats",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/purzbeats--esp32-147b-genart",
       "stars": 8,
       "quality": "silver"
     },
@@ -490458,6 +490882,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/charlescrowellnv--mintlify-docs",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "javierludena--game-collection-app",
+      "description": "Full-stack Node.js game collection management system with eBay API price estimation",
+      "author": "javierludena",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/javierludena--game-collection-app",
+      "stars": 0,
+      "quality": "gold"
     }
   ]
 }
