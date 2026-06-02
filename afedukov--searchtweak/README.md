@@ -2,14 +2,16 @@
 
 > Sourced from [afedukov/searchtweak](https://github.com/afedukov/searchtweak) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+Optimize and Enhance Your Search Quality
+
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [afedukov/searchtweak](https://github.com/afedukov/searchtweak).
+Original source: `AGENTS.md` in [afedukov/searchtweak](https://github.com/afedukov/searchtweak).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
