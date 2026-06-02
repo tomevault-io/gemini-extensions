@@ -115804,6 +115804,46 @@
       "quality": "silver"
     },
     {
+      "name": "ttmouse--x-data",
+      "description": "X-data",
+      "author": "ttmouse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "ttmouse--x-data",
+      "description": "X-data",
+      "author": "ttmouse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
+      "stars": 46,
+      "quality": "bronze"
+    },
+    {
+      "name": "ttmouse--x-data",
+      "description": "X-data",
+      "author": "ttmouse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "ttmouse--x-data",
+      "description": "X-data",
+      "author": "ttmouse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
+      "stars": 46,
+      "quality": "bronze"
+    },
+    {
+      "name": "ttmouse--x-data",
+      "description": "X-data",
+      "author": "ttmouse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
       "name": "zhaono1--agent-playbook",
       "description": "agent-playbook",
       "author": "zhaono1",
@@ -115930,14 +115970,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nucleus-os--nucleus",
       "stars": 45,
       "quality": "bronze"
-    },
-    {
-      "name": "ttmouse--x-data",
-      "description": "X-data",
-      "author": "ttmouse",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
-      "stars": 45,
-      "quality": "silver"
     },
     {
       "name": "yudefine--nuxt-supabase-starter",
@@ -116080,38 +116112,6 @@
       "description": "A token-efficient CLI for Lark/Feishu APIs, designed for AI assistants like Claude Code. Supports calendar, contacts, documents, and messages.",
       "author": "yjwong",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yjwong--lark-cli",
-      "stars": 45,
-      "quality": "silver"
-    },
-    {
-      "name": "ttmouse--x-data",
-      "description": "X-data",
-      "author": "ttmouse",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
-      "stars": 45,
-      "quality": "bronze"
-    },
-    {
-      "name": "ttmouse--x-data",
-      "description": "X-data",
-      "author": "ttmouse",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
-      "stars": 45,
-      "quality": "silver"
-    },
-    {
-      "name": "ttmouse--x-data",
-      "description": "X-data",
-      "author": "ttmouse",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
-      "stars": 45,
-      "quality": "bronze"
-    },
-    {
-      "name": "ttmouse--x-data",
-      "description": "X-data",
-      "author": "ttmouse",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
       "stars": 45,
       "quality": "silver"
     },
@@ -212248,6 +212248,14 @@
       "description": "An R/Shiny platform for genome-wide SNP analysis and visualization with AI-assisted features",
       "author": "TeddYenn",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/teddyenn--shinyp",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "chrisryugj--archhub-mcp",
+      "description": "\uad6d\ud1a0\uad50\ud1b5\ubd80 \uac74\ucd95HUB \u2192 MCP \uc11c\ubc84. \uac74\ucd95\ubb3c\ub300\uc7a5\u00b7\uac74\ucd95\uc778\ud5c8\uac00\u00b7\uc8fc\ud0dd\uc778\ud5c8\uac00 + \ubc95\uc815\ub3d9\ucf54\ub4dc + \ud55c \ud544\uc9c0 \uc885\ud569\uce74\ub4dc\u00b7\ub3d9 \ub2e8\uc704 \ud1b5\uacc4\u00b7\ub178\ud6c4\uac74\ucd95\ubb3c \ubd84\uc11d. \uacf5\uc6a9\ud0a4 \ud0d1\uc7ac remote \ucee4\ub125\ud130(URL\ub9cc \ub4f1\ub85d)",
+      "author": "chrisryugj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chrisryugj--archhub-mcp",
       "stars": 15,
       "quality": "silver"
     },
@@ -321736,6 +321744,14 @@
       "description": "xforg-cocos-game-vibe-coding-starter",
       "author": "wanghaisheng",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wanghaisheng--xforg-cocos-game-vibe-coding-starter",
+      "stars": 1,
+      "quality": "silver"
+    },
+    {
+      "name": "pko89403--zeroalign-rec",
+      "description": "ZeroAlign-Rec",
+      "author": "pko89403",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pko89403--zeroalign-rec",
       "stars": 1,
       "quality": "silver"
     },
@@ -453802,14 +453818,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/learnzy-life--learnzy-pathway",
       "stars": 0,
       "quality": "bronze"
-    },
-    {
-      "name": "pko89403--zeroalign-rec",
-      "description": "ZeroAlign-Rec",
-      "author": "pko89403",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pko89403--zeroalign-rec",
-      "stars": 0,
-      "quality": "silver"
     },
     {
       "name": "lizthedeveloper--bluesky-bluereport",
