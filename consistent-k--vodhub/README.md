@@ -7,11 +7,11 @@ VodHub 是一个电影、电视剧、动漫等标准CMS资源播放器
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [consistent-k/VodHub](https://github.com/consistent-k/VodHub).
+Original source: `CLAUDE.md` in [consistent-k/VodHub](https://github.com/consistent-k/VodHub).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
