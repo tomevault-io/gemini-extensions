@@ -35732,6 +35732,14 @@
       "quality": "gold"
     },
     {
+      "name": "cisco-talos--deceive",
+      "description": "DECeption with Evaluative Integrated Validation Engine (DECEIVE): Let an LLM do all the hard honeypot work!",
+      "author": "Cisco-Talos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cisco-talos--deceive",
+      "stars": 284,
+      "quality": "gold"
+    },
+    {
       "name": "uburuntu--meridian",
       "description": "One command deploys a censorship-resistant VLESS+Reality proxy server. Perfectly configured out-of-the-box. Relay nodes supported.",
       "author": "uburuntu",
@@ -74180,6 +74188,14 @@
       "quality": "gold"
     },
     {
+      "name": "steel-dev--steel-cookbook",
+      "description": "Examples and guides for using the Steel API",
+      "author": "steel-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/steel-dev--steel-cookbook",
+      "stars": 96,
+      "quality": "silver"
+    },
+    {
       "name": "xiashao--kaiyantool",
       "description": "\u5f00\u6f14AI \u5c06\u5f71\u89c6\u521b\u4f5c\u5168\u6d41\u7a0b\u6574\u5408\u5230\u4e00\u4e2a\u5f3a\u5927\u7684\u5e73\u53f0\u4e2d\u3002\u4ece\u5267\u672c\u521b\u4f5c\u5230\u89c6\u9891\u5236\u4f5c\uff0c\u6211\u4eec\u7684AI\u5de5\u5177\u5e2e\u52a9\u521b\u4f5c\u8005\u66f4\u5feb\u5730\u5c06\u6545\u4e8b\u53d8\u4e3a\u73b0\u5b9e\u3002  \u6838\u5fc3\u4f18\u52bf\uff1a  \ud83c\udfaf \u4e00\u7ad9\u5f0f\u89e3\u51b3\u65b9\u6848 - \u5267\u672c\u3001\u5206\u955c\u3001\u56fe\u50cf\u3001\u89c6\u9891\u4e00\u7ad9\u5f0f\u5b8c\u6210 \ud83e\udd16 AI\u9a71\u52a8 - \u667a\u80fd\u89e3\u6790\u3001\u751f\u6210\u548c\u4f18\u5316 \u26a1 \u6781\u901f\u521b\u4f5c - \u79d2\u7ea7\u751f\u6210\u5206\u955c\uff0c\u544a\u522b\u7e41\u7410\u5de5\u4f5c \ud83c\udfa8 \u4e13\u4e1a\u54c1\u8d28 - \u7535\u5f71\u7ea7\u8f93\u51fa\u8d28\u91cf",
       "author": "xiashao",
@@ -74804,6 +74820,30 @@
       "quality": "bronze"
     },
     {
+      "name": "mikker--nitro-kit",
+      "description": "A good-to-go UI kit for Ruby on Rails",
+      "author": "mikker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikker--nitro-kit",
+      "stars": 95,
+      "quality": "silver"
+    },
+    {
+      "name": "learnsyslab--crazyflow",
+      "description": "Scalable drone simulation using JAX.",
+      "author": "learnsyslab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/learnsyslab--crazyflow",
+      "stars": 95,
+      "quality": "bronze"
+    },
+    {
+      "name": "mikker--nitro-kit",
+      "description": "A good-to-go UI kit for Ruby on Rails",
+      "author": "mikker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikker--nitro-kit",
+      "stars": 95,
+      "quality": "silver"
+    },
+    {
       "name": "nickcirv--engram",
       "description": "The context spine for AI coding agents. 8 providers, 88% proven token savings, 5 IDE integrations (Claude Code, Continue.dev, Cursor, Zed, Aider). Hook-based Read interception, HTTP API, tree-sitter A",
       "author": "NickCirv",
@@ -75170,6 +75210,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/m6r-ai--humbug",
       "stars": 94,
       "quality": "silver"
+    },
+    {
+      "name": "illyism--sidejot",
+      "description": "AI Task Planner & Pomodoro Assistant",
+      "author": "Illyism",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/illyism--sidejot",
+      "stars": 94,
+      "quality": "bronze"
     },
     {
       "name": "devartifex--copilot-unleashed",
@@ -77290,6 +77338,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/federicofanini--gymbrah-com",
       "stars": 89,
       "quality": "bronze"
+    },
+    {
+      "name": "dgtlss--warden",
+      "description": "A Laravel package that proactively monitors your dependencies for security vulnerabilities by running automated composer audits and sending notifications via webhooks and email",
+      "author": "dgtlss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dgtlss--warden",
+      "stars": 89,
+      "quality": "bronze"
+    },
+    {
+      "name": "dgtlss--warden",
+      "description": "A Laravel package that proactively monitors your dependencies for security vulnerabilities by running automated composer audits and sending notifications via webhooks and email",
+      "author": "dgtlss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dgtlss--warden",
+      "stars": 89,
+      "quality": "silver"
     },
     {
       "name": "peteromallet--vibecomfy",
@@ -83084,6 +83148,14 @@
       "quality": "gold"
     },
     {
+      "name": "microsoft--agents-for-js",
+      "description": "This repository is for active development of the Microsoft 365 Agent SDK components for JavaScript",
+      "author": "microsoft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--agents-for-js",
+      "stars": 79,
+      "quality": "silver"
+    },
+    {
       "name": "alibaba--opc-starter",
       "description": "opc-starter",
       "author": "alibaba",
@@ -83716,6 +83788,22 @@
       "quality": "bronze"
     },
     {
+      "name": "cognipilot--rumoca",
+      "description": "a rust-native Modelica compiler for fast, composable, scientific computing",
+      "author": "CogniPilot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cognipilot--rumoca",
+      "stars": 78,
+      "quality": "bronze"
+    },
+    {
+      "name": "cognipilot--rumoca",
+      "description": "a rust-native Modelica compiler for fast, composable, scientific computing",
+      "author": "CogniPilot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cognipilot--rumoca",
+      "stars": 78,
+      "quality": "silver"
+    },
+    {
       "name": "m1zz--higlab",
       "description": "HIGLab",
       "author": "M1zz",
@@ -84224,6 +84312,38 @@
       "description": "watt-admin",
       "author": "platformatic",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/platformatic--watt-admin",
+      "stars": 77,
+      "quality": "silver"
+    },
+    {
+      "name": "elevate-code--better-voice-typing",
+      "description": "Lightweight Python desktop app for Windows that improves upon Windows Voice Typing (Win+H) by offering superior transcription accuracy while maintaining a simple, intuitive interface.",
+      "author": "Elevate-Code",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elevate-code--better-voice-typing",
+      "stars": 77,
+      "quality": "bronze"
+    },
+    {
+      "name": "econumo--econumo",
+      "description": "Econumo - A personal and family budgeting app with multi-currency support, shared accounts, and flexible budgets",
+      "author": "econumo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/econumo--econumo",
+      "stars": 77,
+      "quality": "silver"
+    },
+    {
+      "name": "econumo--econumo",
+      "description": "Econumo - A personal and family budgeting app with multi-currency support, shared accounts, and flexible budgets",
+      "author": "econumo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/econumo--econumo",
+      "stars": 77,
+      "quality": "silver"
+    },
+    {
+      "name": "econumo--econumo",
+      "description": "Econumo - A personal and family budgeting app with multi-currency support, shared accounts, and flexible budgets",
+      "author": "econumo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/econumo--econumo",
       "stars": 77,
       "quality": "silver"
     },
@@ -85540,6 +85660,38 @@
       "quality": "silver"
     },
     {
+      "name": "testcraft-app--api-automation-agent",
+      "description": "Agent that generates API automation tests based on an OpenAPI definition",
+      "author": "TestCraft-App",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testcraft-app--api-automation-agent",
+      "stars": 75,
+      "quality": "bronze"
+    },
+    {
+      "name": "testcraft-app--api-automation-agent",
+      "description": "Agent that generates API automation tests based on an OpenAPI definition",
+      "author": "TestCraft-App",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testcraft-app--api-automation-agent",
+      "stars": 75,
+      "quality": "bronze"
+    },
+    {
+      "name": "testcraft-app--api-automation-agent",
+      "description": "Agent that generates API automation tests based on an OpenAPI definition",
+      "author": "TestCraft-App",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testcraft-app--api-automation-agent",
+      "stars": 75,
+      "quality": "bronze"
+    },
+    {
+      "name": "testcraft-app--api-automation-agent",
+      "description": "Agent that generates API automation tests based on an OpenAPI definition",
+      "author": "TestCraft-App",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testcraft-app--api-automation-agent",
+      "stars": 75,
+      "quality": "silver"
+    },
+    {
       "name": "jayparikh--agentviz",
       "description": "agentviz",
       "author": "jayparikh",
@@ -86452,6 +86604,14 @@
       "quality": "silver"
     },
     {
+      "name": "egyjs--dbml-to-laravel",
+      "description": "Laravel package to generate Eloquent  models and migration files from DBML schema files. Simplify DBML parsing, automate relationship creation, and speed up your development workflow.",
+      "author": "egyjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/egyjs--dbml-to-laravel",
+      "stars": 74,
+      "quality": "silver"
+    },
+    {
       "name": "moneat-io--moneat",
       "description": "moneat",
       "author": "moneat-io",
@@ -87202,6 +87362,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/solanakite--anchor-escrow-2026",
       "stars": 73,
       "quality": "bronze"
+    },
+    {
+      "name": "nvidia--multi-storage-client",
+      "description": "Unified high-performance Python client for object and file stores.",
+      "author": "NVIDIA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nvidia--multi-storage-client",
+      "stars": 73,
+      "quality": "silver"
     },
     {
       "name": "geekjourneyx--md2wechat-lite",
@@ -88362,6 +88530,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/swiftfulthinking--swiftfulstarterproject",
       "stars": 71,
       "quality": "gold"
+    },
+    {
+      "name": "sunkenintime--icarus",
+      "description": "Valorant Strategy Creator",
+      "author": "SunkenInTime",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sunkenintime--icarus",
+      "stars": 71,
+      "quality": "bronze"
+    },
+    {
+      "name": "sunkenintime--icarus",
+      "description": "Valorant Strategy Creator",
+      "author": "SunkenInTime",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sunkenintime--icarus",
+      "stars": 71,
+      "quality": "silver"
     },
     {
       "name": "dceoy--speckit-agent-skills",
@@ -90648,6 +90832,22 @@
       "description": "Framework for quantitative strategies development, backtesting and live execution.",
       "author": "xLydianSoftware",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xlydiansoftware--qubx",
+      "stars": 68,
+      "quality": "silver"
+    },
+    {
+      "name": "ductwork--ductwork",
+      "description": "A durable workflow orchestration platform for Ruby",
+      "author": "ductwork",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ductwork--ductwork",
+      "stars": 68,
+      "quality": "silver"
+    },
+    {
+      "name": "ferdousbhai--tasty-agent",
+      "description": "Let Claude manage your tastytrade portfolio.",
+      "author": "ferdousbhai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferdousbhai--tasty-agent",
       "stars": 68,
       "quality": "silver"
     },
@@ -94156,6 +94356,54 @@
       "quality": "silver"
     },
     {
+      "name": "atopile--nonos",
+      "description": "nonos",
+      "author": "atopile",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atopile--nonos",
+      "stars": 64,
+      "quality": "silver"
+    },
+    {
+      "name": "atopile--nonos",
+      "description": "nonos",
+      "author": "atopile",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atopile--nonos",
+      "stars": 64,
+      "quality": "silver"
+    },
+    {
+      "name": "goplasmatic--datalogic-rs",
+      "description": "A fast, type-safe Rust implementation of JSONLogic for evaluating logical rules as JSON. Perfect for business rules engines and dynamic filtering in Rust applications.",
+      "author": "GoPlasmatic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goplasmatic--datalogic-rs",
+      "stars": 64,
+      "quality": "silver"
+    },
+    {
+      "name": "fiscalapi--fiscalapi-python",
+      "description": "Crea facturas CFDI en python consumiendo el api de Fiscalapi. Factura sin dolor!! ",
+      "author": "FiscalAPI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fiscalapi--fiscalapi-python",
+      "stars": 64,
+      "quality": "silver"
+    },
+    {
+      "name": "jackysi--pawtunes",
+      "description": "Discover PawTunes, The Ultimate HTML5 Internet Radio Player with Purrfect Visuals, Customizable Templates, and Clean Code. Built for Pros, Loved by Cats!",
+      "author": "Jackysi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jackysi--pawtunes",
+      "stars": 64,
+      "quality": "gold"
+    },
+    {
+      "name": "atopile--nonos",
+      "description": "nonos",
+      "author": "atopile",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atopile--nonos",
+      "stars": 64,
+      "quality": "silver"
+    },
+    {
       "name": "claude-world--claude-skill-antivirus",
       "description": "Security scanner for Claude Code Skills \u2014 9 engines detect malicious patterns, data exfiltration, dangerous ops across 71K+ skills",
       "author": "claude-world",
@@ -94978,6 +95226,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adird--nestjs-context-logger",
       "stars": 63,
       "quality": "bronze"
+    },
+    {
+      "name": "craftreactnative--templates",
+      "description": "React Native templates based on Unistyles that you can copy to your projects",
+      "author": "craftreactnative",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/craftreactnative--templates",
+      "stars": 63,
+      "quality": "silver"
     },
     {
       "name": "doodledood--manifest-dev",
@@ -95820,6 +96076,14 @@
       "quality": "silver"
     },
     {
+      "name": "betmoar--tracklistify",
+      "description": "Automatically identify and catalog tracks from DJ mixes, live streams, and audio files using audio fingerprinting. Generate formatted track lists in JSON, Markdown, and M3U formats.",
+      "author": "betmoar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/betmoar--tracklistify",
+      "stars": 62,
+      "quality": "silver"
+    },
+    {
       "name": "hunvreus--pullnotes",
       "description": "A Notion-like editor for your GitHub repos.",
       "author": "hunvreus",
@@ -96642,6 +96906,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aimebox--aime-box",
       "stars": 61,
       "quality": "bronze"
+    },
+    {
+      "name": "getlawrence--otail",
+      "description": "Tail Sampling UI",
+      "author": "getlawrence",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/getlawrence--otail",
+      "stars": 61,
+      "quality": "gold"
+    },
+    {
+      "name": "fiscalapi--fiscalapi-php",
+      "description": "SDK oficial de fiscalapi para consumo desde aplicaciones php",
+      "author": "FiscalAPI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fiscalapi--fiscalapi-php",
+      "stars": 61,
+      "quality": "silver"
+    },
+    {
+      "name": "fiscalapi--fiscalapi-java",
+      "description": "SDK oficial de fiscalapi para consumo desde aplicaciones Java",
+      "author": "FiscalAPI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fiscalapi--fiscalapi-java",
+      "stars": 61,
+      "quality": "gold"
     },
     {
       "name": "hw-native-sys--pypto",
@@ -99564,6 +99852,14 @@
       "quality": "silver"
     },
     {
+      "name": "marinasundstrom--checkedexceptions",
+      "description": "Enforce better exception handling in C#/.NET by ensuring exceptions are explicitly handled.",
+      "author": "marinasundstrom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marinasundstrom--checkedexceptions",
+      "stars": 58,
+      "quality": "silver"
+    },
+    {
       "name": "copilot-community-sdk--copilot-sdk-java",
       "description": "Java SDK for GitHub Copilot CLI",
       "author": "copilot-community-sdk",
@@ -100682,6 +100978,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bun-workspaces--bun-workspaces",
       "stars": 57,
       "quality": "bronze"
+    },
+    {
+      "name": "arjitvermaco--dbdost",
+      "description": "DbDost",
+      "author": "arjitvermaco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arjitvermaco--dbdost",
+      "stars": 57,
+      "quality": "silver"
     },
     {
       "name": "eduardo-sl--go-agent-skills",
@@ -102708,6 +103012,14 @@
       "quality": "bronze"
     },
     {
+      "name": "hgl--nixverse",
+      "description": "Filesystem-based nix flake framework for multi-node configurations, cascading secrets management, parallel deployments, etc.",
+      "author": "hgl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hgl--nixverse",
+      "stars": 55,
+      "quality": "bronze"
+    },
+    {
       "name": "cxlinux-ai--cx-core",
       "description": "CX Linux \u2014 AI-powered Linux OS. Natural language system administration for Ubuntu & Debian. The AI layer for Linux infrastructure.",
       "author": "cxlinux-ai",
@@ -103832,6 +104144,22 @@
       "description": "Run your projects without the need to think. For busy devs.",
       "author": "mp-lb",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mp-lb--zapper",
+      "stars": 54,
+      "quality": "silver"
+    },
+    {
+      "name": "elroy-bot--elroy",
+      "description": "An AI assistant that remembers and sets goals",
+      "author": "elroy-bot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elroy-bot--elroy",
+      "stars": 54,
+      "quality": "silver"
+    },
+    {
+      "name": "elroy-bot--elroy",
+      "description": "An AI assistant that remembers and sets goals",
+      "author": "elroy-bot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/elroy-bot--elroy",
       "stars": 54,
       "quality": "silver"
     },
@@ -111396,6 +111724,22 @@
       "quality": "silver"
     },
     {
+      "name": "meeting-baas--speaking-meeting-bot",
+      "description": "Fully autonomous speaking bots built using the MeetingBaas API and Pipecat.",
+      "author": "Meeting-BaaS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meeting-baas--speaking-meeting-bot",
+      "stars": 49,
+      "quality": "gold"
+    },
+    {
+      "name": "query-farm--cronjob",
+      "description": "DuckDB CronJob Extension",
+      "author": "Query-farm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/query-farm--cronjob",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
       "name": "mikkelkrogsholm--skills",
       "description": "skills",
       "author": "mikkelkrogsholm",
@@ -115840,6 +116184,22 @@
       "description": "X-data",
       "author": "ttmouse",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--x-data",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "michael-obele--svelte-miniapps",
+      "description": "This project is a collection of small, single-purpose applications written in Svelte 5. Each mini-app tackles a specific task, offering a simple and user-friendly experience for users.",
+      "author": "Michael-Obele",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michael-obele--svelte-miniapps",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "michael-obele--svelte-miniapps",
+      "description": "This project is a collection of small, single-purpose applications written in Svelte 5. Each mini-app tackles a specific task, offering a simple and user-friendly experience for users.",
+      "author": "Michael-Obele",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michael-obele--svelte-miniapps",
       "stars": 46,
       "quality": "silver"
     },
@@ -206402,6 +206762,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gfazioli--mantine-parallax",
       "stars": 16,
       "quality": "silver"
+    },
+    {
+      "name": "qoli--localclash-luci",
+      "description": "localclash-luci",
+      "author": "qoli",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qoli--localclash-luci",
+      "stars": 16,
+      "quality": "bronze"
     },
     {
       "name": "vm--nila-code",
