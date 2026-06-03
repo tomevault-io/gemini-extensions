@@ -7,11 +7,11 @@ A 24-voice, multi-part synthesizer for the Raspberry Pi CM5. Touchscreen UI, aud
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aftertonesignal/brume](https://github.com/aftertonesignal/brume).
+Original source: `CLAUDE.md` in [aftertonesignal/brume](https://github.com/aftertonesignal/brume).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
