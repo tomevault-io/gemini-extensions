@@ -154900,6 +154900,14 @@
       "quality": "silver"
     },
     {
+      "name": "phpx-foundation--website",
+      "description": "website",
+      "author": "phpx-foundation",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phpx-foundation--website",
+      "stars": 28,
+      "quality": "gold"
+    },
+    {
       "name": "khangbdd--phoenix",
       "description": "phoenix",
       "author": "khangbdd",
@@ -162076,6 +162084,14 @@
       "quality": "bronze"
     },
     {
+      "name": "smattymatty--django-spellbook",
+      "description": "Transforms markdown files into fully-rendered Django templates with auto-generated views and URLs, eliminating boilerplate code while maintaining Django's flexibility.",
+      "author": "smattymatty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/smattymatty--django-spellbook",
+      "stars": 26,
+      "quality": "bronze"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -165696,6 +165712,14 @@
       "description": "\u6697\u9ed14  \u5e26UI\u7684AHK\u5b8f\u811a\u672c/Diablo4 AHK key helper with UI",
       "author": "duzefu",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/duzefu--d4keyhelp",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "ar-jan--llm-venice",
+      "description": "LLM plugin for Venice AI",
+      "author": "ar-jan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ar-jan--llm-venice",
       "stars": 25,
       "quality": "silver"
     },
@@ -191816,6 +191840,14 @@
       "description": "\u6bcf\u65e5\u65e9\u62a5",
       "author": "midpoint",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/midpoint--everyday",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "homebridge-plugins--homebridge-smarthq",
+      "description": "homebridge-smarthq",
+      "author": "homebridge-plugins",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/homebridge-plugins--homebridge-smarthq",
       "stars": 19,
       "quality": "silver"
     },
@@ -239292,6 +239324,14 @@
       "quality": "bronze"
     },
     {
+      "name": "dikibagast--systematic-trading-framework",
+      "description": "Open-source systematic trading framework that is optimized for performance and reduce probabilities of bias and overfitting.",
+      "author": "dikibagast",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dikibagast--systematic-trading-framework",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -248888,6 +248928,22 @@
       "description": "crypto-portfolio-tracker-oss",
       "author": "your-quantguy",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/your-quantguy--crypto-portfolio-tracker-oss",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "kevinraymond--wave-network",
+      "description": "wave-network",
+      "author": "kevinraymond",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kevinraymond--wave-network",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "upstash--react-redis-browser",
+      "description": "React component for Redis data browser",
+      "author": "upstash",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/upstash--react-redis-browser",
       "stars": 11,
       "quality": "silver"
     },
@@ -262162,6 +262218,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/home-operations--kopiur",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "starkware-libs--starknet-perpetual",
+      "description": "starknet-perpetual",
+      "author": "starkware-libs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/starkware-libs--starknet-perpetual",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cofide--cofidectl",
+      "description": "A CLI for Kubernetes workload identity",
+      "author": "cofide",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cofide--cofidectl",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cofide--cofidectl",
+      "description": "A CLI for Kubernetes workload identity",
+      "author": "cofide",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cofide--cofidectl",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
