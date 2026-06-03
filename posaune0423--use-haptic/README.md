@@ -7,11 +7,11 @@ A convenient React hook that utilizes input[switch] introduced in Safari 18.0 to
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [posaune0423/use-haptic](https://github.com/posaune0423/use-haptic).
+Original source: `AGENTS.md` in [posaune0423/use-haptic](https://github.com/posaune0423/use-haptic).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
