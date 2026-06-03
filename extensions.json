@@ -103508,6 +103508,22 @@
       "quality": "bronze"
     },
     {
+      "name": "btraceio--jafar",
+      "description": "Experimental JFR parser",
+      "author": "btraceio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/btraceio--jafar",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "btraceio--jafar",
+      "description": "Experimental JFR parser",
+      "author": "btraceio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/btraceio--jafar",
+      "stars": 56,
+      "quality": "bronze"
+    },
+    {
       "name": "alonw0--llm-docs-optimizer",
       "description": "A Claude Code plugin that optimizes documentation for AI coding assistants like Claude, GitHub Copilot, and other LLMs. Makes your docs more effective through c7score optimization, llms.txt generation",
       "author": "alonw0",
@@ -105940,6 +105956,14 @@
       "quality": "silver"
     },
     {
+      "name": "makeding--luci-app-fleth",
+      "description": "luci-app-fleth \u306f\u3001IPv4 over IPv6\u30c8\u30f3\u30cd\u30eb\uff08DS-Lite/MAP-E/IPIP6\uff09\u306e\u81ea\u52d5\u8a2d\u5b9a\u30d8\u30eb\u30d1\u3067\u3059\u3002",
+      "author": "makeding",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/makeding--luci-app-fleth",
+      "stars": 54,
+      "quality": "silver"
+    },
+    {
       "name": "monarchjuno--vibe-investing",
       "description": "Vibe Investing Skill Library",
       "author": "monarchjuno",
@@ -107408,6 +107432,30 @@
       "description": "Very easy and elegant state management library. It is based on proxy and provides functions such as signaling, computation, and watching to ensure fine-grained updates",
       "author": "zhangfisher",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhangfisher--autostore",
+      "stars": 53,
+      "quality": "silver"
+    },
+    {
+      "name": "microsoftdocs--azure-security-docs",
+      "description": "Public sync with private azure-security-docs-pr repo",
+      "author": "MicrosoftDocs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoftdocs--azure-security-docs",
+      "stars": 53,
+      "quality": "silver"
+    },
+    {
+      "name": "beecave-homelab--insanely-fast-whisper-rocm",
+      "description": "insanely-fast-whisper with support for AMD GPU's with rocm 6.1 - 7.1",
+      "author": "beecave-homelab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/beecave-homelab--insanely-fast-whisper-rocm",
+      "stars": 53,
+      "quality": "silver"
+    },
+    {
+      "name": "beecave-homelab--insanely-fast-whisper-rocm",
+      "description": "insanely-fast-whisper with support for AMD GPU's with rocm 6.1 - 7.1",
+      "author": "beecave-homelab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/beecave-homelab--insanely-fast-whisper-rocm",
       "stars": 53,
       "quality": "silver"
     },
@@ -112090,6 +112138,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/slothvips--vue-command-component",
       "stars": 50,
       "quality": "gold"
+    },
+    {
+      "name": "pabloroman--virtua-fc",
+      "description": "virtua-fc",
+      "author": "pabloroman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pabloroman--virtua-fc",
+      "stars": 50,
+      "quality": "silver"
     },
     {
       "name": "chimedeck--chimedeck",
@@ -121956,6 +122012,14 @@
       "quality": "gold"
     },
     {
+      "name": "gentleeduck--duck-ui",
+      "description": "React component library, headless primitives, hooks, variants, and developer tooling for the Gentleduck design system.",
+      "author": "gentleeduck",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gentleeduck--duck-ui",
+      "stars": 44,
+      "quality": "gold"
+    },
+    {
       "name": "agents-squads--squads-cli",
       "description": "CLI for managing AI agent squads. Status, memory, goals, feedback, and dashboard for your autonomous agents.",
       "author": "agents-squads",
@@ -129132,6 +129196,22 @@
       "quality": "silver"
     },
     {
+      "name": "trf2-jus-br--apoia",
+      "description": "apoia",
+      "author": "trf2-jus-br",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trf2-jus-br--apoia",
+      "stars": 40,
+      "quality": "silver"
+    },
+    {
+      "name": "visualizevalue--mint",
+      "description": "An open source internet protocol enabling the creation and collection of digital artifacts on the Ethereum Virtual Machine",
+      "author": "visualizevalue",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/visualizevalue--mint",
+      "stars": 40,
+      "quality": "silver"
+    },
+    {
       "name": "w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx",
       "author": "w3cj",
@@ -130800,6 +130880,14 @@
       "description": "platform",
       "author": "globalbibletools",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/globalbibletools--platform",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
+      "name": "tenxhq--tenx",
+      "description": "A sharp command-line tool for AI-assisted coding.",
+      "author": "tenxhq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tenxhq--tenx",
       "stars": 39,
       "quality": "silver"
     },
@@ -134552,6 +134640,22 @@
       "description": "FLUR.GG",
       "author": "open-fractal",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/open-fractal--flur",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "lincc-frameworks--hyrax",
+      "description": "Hyrax - A low-code framework for rapid experimentation with ML & unsupervised discovery in astronomy",
+      "author": "lincc-frameworks",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lincc-frameworks--hyrax",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "lincc-frameworks--hyrax",
+      "description": "Hyrax - A low-code framework for rapid experimentation with ML & unsupervised discovery in astronomy",
+      "author": "lincc-frameworks",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lincc-frameworks--hyrax",
       "stars": 37,
       "quality": "silver"
     },
@@ -147780,6 +147884,14 @@
       "quality": "silver"
     },
     {
+      "name": "jayshah5696--pravah",
+      "description": "LLM powered local Search Engine",
+      "author": "jayshah5696",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jayshah5696--pravah",
+      "stars": 31,
+      "quality": "gold"
+    },
+    {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
       "description": "Curated list of awesome Bangladeshi FOSS \u2014 open source apps, libraries, tools, and platforms built by developers from Bangladesh",
       "author": "sharf-shawon",
@@ -156740,6 +156852,30 @@
       "quality": "silver"
     },
     {
+      "name": "find-xposed-magisk--lobe-chat",
+      "description": "\u4e00\u4e2a\u5f00\u6e90\u7684\uff0c\u73b0\u4ee3\u8bbe\u8ba1\u7684LLMS/\u4eba\u5de5\u667a\u80fd\u804a\u5929\u6846\u67b6\u3002\u652f\u6301\u591a\u4eba\u5de5\u667a\u80fd\u4f9b\u5e94\u5546\uff08OpenAI/Claude 3/Gemini/Ollama/Bedrock/Azure/Mistral/Conspirity\uff09\uff0c\u591a\u6a21\u6001\uff08Vision/TTS\uff09\u548c\u63d2\u4ef6\u7cfb\u7edf\u3002\u4e00\u952e\u514d\u8d39\u90e8\u7f72\u60a8\u7684\u79c1\u4ebaChatGPT\u804a\u5929\u5e94\u7528\u7a0b\u5e8f\u3002Lobe Chat - an open-source, modern-design LLMs/AI chat ",
+      "author": "find-xposed-magisk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/find-xposed-magisk--lobe-chat",
+      "stars": 28,
+      "quality": "gold"
+    },
+    {
+      "name": "belingud--gptcomet",
+      "description": "GPTComet: AI-Powered Git Commit Message Generator",
+      "author": "belingud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/belingud--gptcomet",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "belingud--gptcomet",
+      "description": "GPTComet: AI-Powered Git Commit Message Generator",
+      "author": "belingud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/belingud--gptcomet",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
       "name": "khangbdd--phoenix",
       "description": "phoenix",
       "author": "khangbdd",
@@ -160312,6 +160448,22 @@
       "description": "mini-redis",
       "author": "shkctl",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shkctl--mini-redis",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "cablehead--how-to-embed-nu",
+      "description": "A guide to embed Nushell in your application",
+      "author": "cablehead",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cablehead--how-to-embed-nu",
+      "stars": 27,
+      "quality": "bronze"
+    },
+    {
+      "name": "userspace-xdp--userspace-xdp",
+      "description": "XDP Deployments in Userspace eBPF",
+      "author": "userspace-xdp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/userspace-xdp--userspace-xdp",
       "stars": 27,
       "quality": "silver"
     },
@@ -171716,6 +171868,14 @@
       "quality": "bronze"
     },
     {
+      "name": "meerkat-events--meerkat",
+      "description": "Audience engagement tool for questions and answers",
+      "author": "meerkat-events",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meerkat-events--meerkat",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -180804,6 +180964,14 @@
       "quality": "silver"
     },
     {
+      "name": "fluffylabs--graypaper-reader",
+      "description": "A tool to help to read & analyze the Gray Paper.",
+      "author": "FluffyLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluffylabs--graypaper-reader",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -185144,6 +185312,30 @@
       "description": "Tracking past and future releases of the Polkadot SDK.",
       "author": "paritytech",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/paritytech--release-registry",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "bsutton--hmb",
+      "description": "Hold My Beer is a CRM for single person handyman business as a mobile app.",
+      "author": "bsutton",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bsutton--hmb",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "paxoslabs--nucleus-boring-vault",
+      "description": "nucleus-boring-vault",
+      "author": "paxoslabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/paxoslabs--nucleus-boring-vault",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "nikolainobadi--nncredentialkit",
+      "description": "Swift package for managing account linking, credential handling, and social authentication in iOS apps.",
+      "author": "nikolainobadi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nikolainobadi--nncredentialkit",
       "stars": 21,
       "quality": "silver"
     },
@@ -194272,6 +194464,14 @@
       "description": "Multimodal Access and Interactive Data Representation",
       "author": "xability",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xability--maidr",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "wbrown--img2ansi",
+      "description": "Image to ANSI program targeting 16-color ANSI palettes",
+      "author": "wbrown",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wbrown--img2ansi",
       "stars": 19,
       "quality": "silver"
     },
@@ -205906,6 +206106,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/albertcheng19--medskillos",
       "stars": 17,
       "quality": "bronze"
+    },
+    {
+      "name": "vaila-multimodaltoolbox--vaila",
+      "description": "https://vaila.readthedocs.io/",
+      "author": "vaila-multimodaltoolbox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vaila-multimodaltoolbox--vaila",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "prefecthq--prefect-operator",
+      "description": "A Kubernetes operator for managing Prefect servers and work pools",
+      "author": "PrefectHQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prefecthq--prefect-operator",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "vaila-multimodaltoolbox--vaila",
+      "description": "https://vaila.readthedocs.io/",
+      "author": "vaila-multimodaltoolbox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vaila-multimodaltoolbox--vaila",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "prefecthq--prefect-operator",
+      "description": "A Kubernetes operator for managing Prefect servers and work pools",
+      "author": "PrefectHQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/prefecthq--prefect-operator",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "vaila-multimodaltoolbox--vaila",
+      "description": "https://vaila.readthedocs.io/",
+      "author": "vaila-multimodaltoolbox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vaila-multimodaltoolbox--vaila",
+      "stars": 17,
+      "quality": "gold"
     },
     {
       "name": "13point5--agent-canvas",
@@ -218344,6 +218584,14 @@
       "description": "CoreDNS UI for managing CoreDNS using Redis plugin, this repository allows managing the records using web interface and provides rest apis",
       "author": "ajeygore",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ajeygore--coredns-ui",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "tum-vt--fto-sim",
+      "description": "FTO-Sim",
+      "author": "TUM-VT",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tum-vt--fto-sim",
       "stars": 15,
       "quality": "silver"
     },
