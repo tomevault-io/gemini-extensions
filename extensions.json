@@ -108668,6 +108668,22 @@
       "quality": "silver"
     },
     {
+      "name": "meverastudios--imperat",
+      "description": "Enterprise command dispatching framework with optimal performance",
+      "author": "MeveraStudios",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meverastudios--imperat",
+      "stars": 52,
+      "quality": "silver"
+    },
+    {
+      "name": "bareboat-necessities--bbn-wave-period-esp32",
+      "description": "Estimate ocean wave height (or vessel heave), waves direction, and period from accelerations using IMU on esp32 using advanced Kalman filters",
+      "author": "bareboat-necessities",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bareboat-necessities--bbn-wave-period-esp32",
+      "stars": 52,
+      "quality": "silver"
+    },
+    {
       "name": "lktiep--cortex-hub",
       "description": "Self-hosted AI Agent Memory + Code Intelligence Platform \u2014 one MCP endpoint for persistent memory, AST-aware code search, shared knowledge, and quality enforcement across all your AI coding agents.",
       "author": "lktiep",
@@ -113636,6 +113652,14 @@
       "quality": "silver"
     },
     {
+      "name": "clockobot--clockobot",
+      "description": "Timesheets for freelancers made easy and efficient",
+      "author": "clockobot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clockobot--clockobot",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
       "name": "mikkelkrogsholm--skills",
       "description": "skills",
       "author": "mikkelkrogsholm",
@@ -115042,6 +115066,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coollabsio--ideas",
       "stars": 48,
       "quality": "bronze"
+    },
+    {
+      "name": "provos--planai",
+      "description": "PlanAI: A graph-based framework for complex task automation integrating traditional compute and LLM capabilities",
+      "author": "provos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/provos--planai",
+      "stars": 48,
+      "quality": "silver"
     },
     {
       "name": "rudrankriyam--foundation-models-framework-cli",
@@ -116474,6 +116506,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brightdigit--datathespian",
       "stars": 47,
       "quality": "silver"
+    },
+    {
+      "name": "shpigford--society-fail",
+      "description": "Browser-based incremental post-apocalyptic clicker game",
+      "author": "Shpigford",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shpigford--society-fail",
+      "stars": 47,
+      "quality": "gold"
     },
     {
       "name": "rust-works--succinctly",
@@ -118292,6 +118332,14 @@
       "quality": "gold"
     },
     {
+      "name": "pujo-atlas-kolkata--pujoatlaskol-web",
+      "description": "The most advanced pandal hopping experience in the world*",
+      "author": "Pujo-Atlas-Kolkata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pujo-atlas-kolkata--pujoatlaskol-web",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
       "name": "zhaono1--agent-playbook",
       "description": "agent-playbook",
       "author": "zhaono1",
@@ -120048,6 +120096,22 @@
       "description": "Wispr-Flow-CN",
       "author": "ttmouse",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttmouse--wispr-flow-cn",
+      "stars": 45,
+      "quality": "silver"
+    },
+    {
+      "name": "joncrangle--sketchybar-system-stats",
+      "description": "A simple CPU, memory and disk usage event provider for Sketchybar",
+      "author": "joncrangle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joncrangle--sketchybar-system-stats",
+      "stars": 45,
+      "quality": "silver"
+    },
+    {
+      "name": "muneebhashone--ts-easy",
+      "description": "ts-easy is your minimalist TypeScript starter for Node.js projects. No fluff, just the essentials to get you up and running with TypeScript, Biome, and more. Perfect for initiating any TypeScript proj",
+      "author": "muneebhashone",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muneebhashone--ts-easy",
       "stars": 45,
       "quality": "silver"
     },
@@ -123386,6 +123450,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/redhat-developer--rhdh-plugins",
       "stars": 43,
       "quality": "silver"
+    },
+    {
+      "name": "litestar-org--litestar-fullstack-inertia",
+      "description": "A fully-functional reference application using Litestar, Inertia JS, and Advanced Alchemy",
+      "author": "litestar-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/litestar-org--litestar-fullstack-inertia",
+      "stars": 43,
+      "quality": "gold"
+    },
+    {
+      "name": "litestar-org--litestar-fullstack-inertia",
+      "description": "A fully-functional reference application using Litestar, Inertia JS, and Advanced Alchemy",
+      "author": "litestar-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/litestar-org--litestar-fullstack-inertia",
+      "stars": 43,
+      "quality": "gold"
     },
     {
       "name": "s-zx--crest",
@@ -130540,6 +130620,14 @@
       "quality": "silver"
     },
     {
+      "name": "globalbibletools--platform",
+      "description": "platform",
+      "author": "globalbibletools",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/globalbibletools--platform",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
       "name": "bobmatnyc--claude-mpm-skills",
       "description": "Curated collection of Claude Code skills for intelligent project development with progressive loading and toolchain detection",
       "author": "bobmatnyc",
@@ -132184,6 +132272,22 @@
       "description": "\u652f\u6301FPB\u3001\u6297\u952f\u9f7f\u3001\u52a8\u753b\u3001\u810f\u77e9\u9635\u7684\u9ad8\u6548\u5d4c\u5165\u5f0fGUI",
       "author": "EmbeddedGUI",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/embeddedgui--embeddedgui",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "atlassian-labs--atlaspack",
+      "description": "Atlaspack is the frontend bundler used to build Atlassian products, written in JavaScript and Rust by core contributors of Parcel. ",
+      "author": "atlassian-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atlassian-labs--atlaspack",
+      "stars": 38,
+      "quality": "bronze"
+    },
+    {
+      "name": "atlassian-labs--atlaspack",
+      "description": "Atlaspack is the frontend bundler used to build Atlassian products, written in JavaScript and Rust by core contributors of Parcel. ",
+      "author": "atlassian-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atlassian-labs--atlaspack",
       "stars": 38,
       "quality": "silver"
     },
@@ -138628,6 +138732,14 @@
       "quality": "silver"
     },
     {
+      "name": "zgiai--zgi",
+      "description": "ZGI is an open-source platform for building AI applications. Its intuitive interface combines workflow design, agent orchestration, dataset management, and model integration\u2014allowing you to quickly mo",
+      "author": "zgiai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zgiai--zgi",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
       "name": "r44vc0rp--itui",
       "description": "itui",
       "author": "R44VC0RP",
@@ -140690,6 +140802,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/barredterra--pretty-release-notes",
       "stars": 34,
       "quality": "gold"
+    },
+    {
+      "name": "confluentinc--vscode",
+      "description": "Confluent for Visual Studio Code",
+      "author": "confluentinc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/confluentinc--vscode",
+      "stars": 34,
+      "quality": "silver"
     },
     {
       "name": "rajjjaryan--career-copilot",
@@ -150260,6 +150380,22 @@
       "quality": "silver"
     },
     {
+      "name": "parkerdgabel--quackml",
+      "description": "A duckDB extension implementing a full service AI/ML enginer",
+      "author": "parkerdgabel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/parkerdgabel--quackml",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
+      "name": "plugboard-dev--plugboard",
+      "description": "Plugboard is an event driven modelling and orchestration framework in Python for simulating and driving complex processes with many interconnected stateful components.",
+      "author": "plugboard-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plugboard-dev--plugboard",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "description": "Inventory API Skills",
       "author": "Laskewitz",
@@ -153040,6 +153176,14 @@
       "description": "An rpg written in C/C++ using raylib",
       "author": "mikedesu",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikedesu--raylib-rpg-c",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "oaknational--oak-ai-lesson-assistant",
+      "description": "Oak's AI Projects including our AI Lesson Planning Assistant (Aila)",
+      "author": "oaknational",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oaknational--oak-ai-lesson-assistant",
       "stars": 29,
       "quality": "silver"
     },
@@ -163756,6 +163900,14 @@
       "quality": "silver"
     },
     {
+      "name": "tanduy03--cloudflare-d1-database",
+      "description": "Laravel database driver for Cloudflare D1 - supports REST & Worker, Eloquent-ready - TanDuy03",
+      "author": "TanDuy03",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tanduy03--cloudflare-d1-database",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -167488,6 +167640,22 @@
       "description": "Neurosymbolic AI agent framework - LLM + Prolog reasoning for small models. Single binary, runs offline or cloud-ready. Python & Rust.",
       "author": "fabceolin",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fabceolin--the-edge-agent",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "perawallet--pera-android",
+      "description": "The Android repository of Pera",
+      "author": "perawallet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perawallet--pera-android",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "perawallet--pera-android",
+      "description": "The Android repository of Pera",
+      "author": "perawallet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perawallet--pera-android",
       "stars": 25,
       "quality": "silver"
     },
@@ -175252,6 +175420,30 @@
       "quality": "silver"
     },
     {
+      "name": "kleer001--text-loom",
+      "description": "Network for procedural editing of text with LLMs",
+      "author": "kleer001",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kleer001--text-loom",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "lokeshwardewangan--budgetter-webapp",
+      "description": "Production-ready expense tracking platform delivering real-time financial insights, secure authentication, and scalable architecture for data-driven personal finance management.",
+      "author": "lokeshwardewangan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lokeshwardewangan--budgetter-webapp",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "lokeshwardewangan--budgetter-webapp",
+      "description": "Production-ready expense tracking platform delivering real-time financial insights, secure authentication, and scalable architecture for data-driven personal finance management.",
+      "author": "lokeshwardewangan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lokeshwardewangan--budgetter-webapp",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill",
       "author": "lucianaib0318",
@@ -180416,6 +180608,14 @@
       "description": "VMWare to OpenStack Migration Toolkit",
       "author": "os-migrate",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/os-migrate--vmware-migration-kit",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "candidtim--f2-commander",
+      "description": "F2 Commander is an orthodox file manager for the modern world",
+      "author": "candidtim",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/candidtim--f2-commander",
       "stars": 22,
       "quality": "silver"
     },
@@ -189296,6 +189496,14 @@
       "description": "Inference and modeling for partially observed Markov process (POMP) models",
       "author": "pypomp",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pypomp--pypomp",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "devaryakjha--tagflow",
+      "description": "A flutter package that takes html string as input and parses and converts that to Flutter widgets based on the provided configuration. ",
+      "author": "devaryakjha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devaryakjha--tagflow",
       "stars": 20,
       "quality": "silver"
     },
@@ -199284,6 +199492,14 @@
       "quality": "gold"
     },
     {
+      "name": "craft-thu--activen",
+      "description": "RISC-V-based many-core neuromorphic architecture",
+      "author": "CRAFT-THU",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/craft-thu--activen",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -205488,6 +205704,14 @@
       "description": "Open-source longevity sport platform with biological-age calculators, athlete profiles, and public leaderboards.",
       "author": "nopara73",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nopara73--longevityworldcup",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "myui--rtrec",
+      "description": "An realtime recommendation system supporting online updates",
+      "author": "myui",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myui--rtrec",
       "stars": 17,
       "quality": "silver"
     },
@@ -217912,6 +218136,22 @@
       "description": "A Julia display showing graphics in a multiplexer pane",
       "author": "goerz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goerz--muxdisplay-jl",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "arcjet--arcjet-docs",
+      "description": "Arcjet's documentation.",
+      "author": "arcjet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arcjet--arcjet-docs",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "ajeygore--coredns-ui",
+      "description": "CoreDNS UI for managing CoreDNS using Redis plugin, this repository allows managing the records using web interface and provides rest apis",
+      "author": "ajeygore",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ajeygore--coredns-ui",
       "stars": 15,
       "quality": "silver"
     },
@@ -233186,6 +233426,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alpacax--alpamon",
       "stars": 13,
       "quality": "silver"
+    },
+    {
+      "name": "dxpr--ckeditor5-ai-agent",
+      "description": "ckeditor5-ai-agent",
+      "author": "dxpr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dxpr--ckeditor5-ai-agent",
+      "stars": 13,
+      "quality": "bronze"
     },
     {
       "name": "scardoso-lu--google-antigravity-settings",
@@ -328916,30 +329164,6 @@
       "quality": "bronze"
     },
     {
-      "name": "ancplua--ancplua-claude-plugins",
-      "description": "ancplua-claude-plugins",
-      "author": "ANcpLua",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
-      "stars": 5,
-      "quality": "silver"
-    },
-    {
-      "name": "ancplua--ancplua-claude-plugins",
-      "description": "ancplua-claude-plugins",
-      "author": "ANcpLua",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
-      "stars": 5,
-      "quality": "silver"
-    },
-    {
-      "name": "ancplua--ancplua-claude-plugins",
-      "description": "ancplua-claude-plugins",
-      "author": "ANcpLua",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ancplua--ancplua-claude-plugins",
-      "stars": 5,
-      "quality": "gold"
-    },
-    {
       "name": "ncaq---zsh-d",
       "description": ".zsh.d",
       "author": "ncaq",
@@ -366658,14 +366882,6 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tdiorio2323--cabanamgmt",
       "stars": 0,
       "quality": "gold"
-    },
-    {
-      "name": "malikkotb--infinite-grid-navigation",
-      "description": "infinite-grid-navigation",
-      "author": "malikkotb",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/malikkotb--infinite-grid-navigation",
-      "stars": 0,
-      "quality": "silver"
     },
     {
       "name": "jarvis823--astro-50mm",
