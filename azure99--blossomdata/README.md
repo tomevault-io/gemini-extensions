@@ -7,11 +7,11 @@ A fluent, scalable, and easy-to-use LLM data processing framework.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Azure99/BlossomData](https://github.com/Azure99/BlossomData).
+Original source: `CLAUDE.md` in [Azure99/BlossomData](https://github.com/Azure99/BlossomData).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
