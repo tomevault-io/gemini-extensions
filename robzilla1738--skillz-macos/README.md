@@ -7,11 +7,11 @@ macOS app for browsing and editing skills, MCP configs, and plugins across local
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [robzilla1738/skillz-macos](https://github.com/robzilla1738/skillz-macos).
+Original source: `CLAUDE.md` in [robzilla1738/skillz-macos](https://github.com/robzilla1738/skillz-macos).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
