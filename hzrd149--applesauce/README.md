@@ -7,11 +7,11 @@ A collection of tools for building nostr web clients
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hzrd149/applesauce](https://github.com/hzrd149/applesauce).
+Original source: `CLAUDE.md` in [hzrd149/applesauce](https://github.com/hzrd149/applesauce).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
