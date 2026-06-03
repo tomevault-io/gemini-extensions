@@ -126052,6 +126052,22 @@
       "quality": "silver"
     },
     {
+      "name": "thebsd--poykott",
+      "description": "previously boycottisraelitech.com",
+      "author": "TheBSD",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thebsd--poykott",
+      "stars": 41,
+      "quality": "gold"
+    },
+    {
+      "name": "thebsd--poykott",
+      "description": "previously boycottisraelitech.com",
+      "author": "TheBSD",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thebsd--poykott",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -135104,6 +135120,14 @@
       "description": "Experimental framework for ECS based AI agent simulations",
       "author": "project-89",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/project-89--argos",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
+      "name": "xord--reight",
+      "description": "A Retro Game Engine for Ruby",
+      "author": "xord",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xord--reight",
       "stars": 36,
       "quality": "silver"
     },
@@ -158524,6 +158548,14 @@
       "quality": "silver"
     },
     {
+      "name": "grovegs--behaviourtree",
+      "description": "A modular and extensible behavior tree framework for AI development in C# for the .NET and Godot Engine.",
+      "author": "grovegs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grovegs--behaviourtree",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
       "name": "10xchengtu--mux0",
       "description": "MUX0",
       "author": "10xChengTu",
@@ -178696,6 +178728,22 @@
       "description": "RizzyUI",
       "author": "JalexSocial",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jalexsocial--rizzyui",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "mehdizare--fmp-data",
+      "description": "FMP Data: A Modern Python Client for Financial Modeling Prep API",
+      "author": "MehdiZare",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mehdizare--fmp-data",
+      "stars": 22,
+      "quality": "gold"
+    },
+    {
+      "name": "mehdizare--fmp-data",
+      "description": "FMP Data: A Modern Python Client for Financial Modeling Prep API",
+      "author": "MehdiZare",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mehdizare--fmp-data",
       "stars": 22,
       "quality": "silver"
     },
@@ -203324,6 +203372,22 @@
       "quality": "silver"
     },
     {
+      "name": "leandrodaf--pianalyze",
+      "description": "\ud83c\udfb9 App desktop gratuito para aprender piano \u2014 an\u00e1lise MIDI em tempo real, detec\u00e7\u00e3o de acordes, modo pr\u00e1tica com feedback de timing. Free piano learning app built with Go + Svelte.",
+      "author": "leandrodaf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/leandrodaf--pianalyze",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "zotero-rag--zotero-rag",
+      "description": "A RAG-based Q&A and search system for Zotero",
+      "author": "zotero-rag",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zotero-rag--zotero-rag",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -215564,6 +215628,14 @@
       "quality": "silver"
     },
     {
+      "name": "jongwoo328--cloudip",
+      "description": "CLI tool to identify whether an IP address belongs to AWS, GCP, or Azure.",
+      "author": "jongwoo328",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jongwoo328--cloudip",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -222472,6 +222544,30 @@
       "description": "Knowledge management system and information client. Organise notes, discussions, blogs, articles into queryable archives.",
       "author": "upspeak",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/upspeak--upspeak",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "polarnl--polarlearn",
+      "description": "PolarLearn is een gratis en open-source alternatief voor StudyGo, gemaakt in Next.js.",
+      "author": "polarnl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/polarnl--polarlearn",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "nativeapptemplate--nativeapptemplateapi",
+      "description": "Rails 8.1 API backend for NativeAppTemplate iOS/Android mobile applications",
+      "author": "nativeapptemplate",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nativeapptemplate--nativeapptemplateapi",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "someacg--someacg-next",
+      "description": "Rebuilt SomeACG Website with Next.js",
+      "author": "SomeACG",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/someacg--someacg-next",
       "stars": 14,
       "quality": "silver"
     },
@@ -230696,6 +230792,14 @@
       "description": "Sync GPS and date/time with your Ricoh or Sony camera.",
       "author": "rock3r",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rock3r--camerasync",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "margarita-form--salty-css",
+      "description": "CSS-in-JS library for React, Next.js, Server Components and more ",
+      "author": "margarita-form",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/margarita-form--salty-css",
       "stars": 13,
       "quality": "silver"
     },
@@ -249308,6 +249412,22 @@
       "quality": "silver"
     },
     {
+      "name": "moonbitlang--moonlex",
+      "description": "moonlex",
+      "author": "moonbitlang",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moonbitlang--moonlex",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "stacksjs--bun-plugin-auto-imports",
+      "description": "Auto Imports support for Bun.",
+      "author": "stacksjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacksjs--bun-plugin-auto-imports",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -262648,6 +262768,30 @@
       "description": "A high performance and high reliability command and control tool set for red teams",
       "author": "MMitsuha",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mmitsuha--m0n1t0r",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ek0212--second-brain-template",
+      "description": "second-brain-template",
+      "author": "ek0212",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ek0212--second-brain-template",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "byte-v-forge--common-lib",
+      "description": "Shared platform contracts and libraries for Byte V Forge",
+      "author": "byte-v-forge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/byte-v-forge--common-lib",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "weicj--vllm-2080ti-definitive",
+      "description": "The definitive vLLM runtime for dual RTX 2080 Ti 22GB + NVLink, delivering 27B/31B local inference with 100+ tok/s single-request decode and native 262K context.",
+      "author": "weicj",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/weicj--vllm-2080ti-definitive",
       "stars": 10,
       "quality": "silver"
     },
