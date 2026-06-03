@@ -7,11 +7,11 @@ Podium is Hack Club's open-source peer-judging platform for hackathons
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hackclub/podium](https://github.com/hackclub/podium).
+Original source: `CLAUDE.md` in [hackclub/podium](https://github.com/hackclub/podium).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
