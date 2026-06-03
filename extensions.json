@@ -162324,6 +162324,14 @@
       "quality": "bronze"
     },
     {
+      "name": "awaescher--llmaid",
+      "description": "Mass-edit files with LLMs",
+      "author": "awaescher",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/awaescher--llmaid",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -165962,6 +165970,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stephenlzc--ai-agent-debate-autogen-turtorial",
       "stars": 25,
       "quality": "silver"
+    },
+    {
+      "name": "insight-services-apac--ingenious",
+      "description": "General-purpose Gen AI Accelerator developed for Insight APAC projects",
+      "author": "Insight-Services-APAC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/insight-services-apac--ingenious",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "plutov--dotfiles",
+      "description": "dotfiles",
+      "author": "plutov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plutov--dotfiles",
+      "stars": 25,
+      "quality": "bronze"
+    },
+    {
+      "name": "obmondo--kubeaid-cli",
+      "description": "KubeAid CLI helps you operate KubeAid managed Kubernetes cluster lifecycle in a GitOps native way",
+      "author": "Obmondo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/obmondo--kubeaid-cli",
+      "stars": 25,
+      "quality": "bronze"
+    },
+    {
+      "name": "insight-services-apac--ingenious",
+      "description": "General-purpose Gen AI Accelerator developed for Insight APAC projects",
+      "author": "Insight-Services-APAC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/insight-services-apac--ingenious",
+      "stars": 25,
+      "quality": "gold"
+    },
+    {
+      "name": "insight-services-apac--ingenious",
+      "description": "General-purpose Gen AI Accelerator developed for Insight APAC projects",
+      "author": "Insight-Services-APAC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/insight-services-apac--ingenious",
+      "stars": 25,
+      "quality": "gold"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -169826,6 +169874,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zackees--fastled-wasm",
       "stars": 24,
       "quality": "gold"
+    },
+    {
+      "name": "teenbiscuits--pasame-codigo",
+      "description": "P\u00e1same el C\u00f3digo es una web open source con apuntes y ejercicios resueltos de las diferentes asignaturas que componen el Grado de Enxe\u00f1er\u00eda Inform\u00e1tica da Universidade da Coru\u00f1a.",
+      "author": "TeenBiscuits",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/teenbiscuits--pasame-codigo",
+      "stars": 24,
+      "quality": "silver"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -178816,6 +178872,14 @@
       "description": "FMP Data: A Modern Python Client for Financial Modeling Prep API",
       "author": "MehdiZare",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mehdizare--fmp-data",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "aaker--netsapiens-loadgenerator",
+      "description": "netsapiens-loadgenerator",
+      "author": "aaker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aaker--netsapiens-loadgenerator",
       "stars": 22,
       "quality": "silver"
     },
@@ -197436,6 +197500,30 @@
       "quality": "silver"
     },
     {
+      "name": "mokshablr--freesend",
+      "description": "An open-source alternative to Resend using your own infrastructure!",
+      "author": "mokshablr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mokshablr--freesend",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "mokshablr--freesend",
+      "description": "An open-source alternative to Resend using your own infrastructure!",
+      "author": "mokshablr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mokshablr--freesend",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "galxe--gravity-reth",
+      "description": "Gravity\u2019s Performance-Optimized Reth Fork",
+      "author": "Galxe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/galxe--gravity-reth",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -203572,6 +203660,46 @@
       "quality": "bronze"
     },
     {
+      "name": "sing1ee--my-pose",
+      "description": "My Pose is an AI-powered rehabilitation and fitness platform that uses advanced pose detection to guide users through exercises with real-time feedback.",
+      "author": "sing1ee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sing1ee--my-pose",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "danimoreira90--residential-energy-efficiency-application",
+      "description": "A Streamlit-based application for monitoring and optimizing residential energy consumption. Provides real-time insights and recommendations to reduce energy waste, promoting sustainable behaviors alig",
+      "author": "danimoreira90",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danimoreira90--residential-energy-efficiency-application",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "danimoreira90--residential-energy-efficiency-application",
+      "description": "A Streamlit-based application for monitoring and optimizing residential energy consumption. Provides real-time insights and recommendations to reduce energy waste, promoting sustainable behaviors alig",
+      "author": "danimoreira90",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danimoreira90--residential-energy-efficiency-application",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "oboard--moonbit-eval",
+      "description": "MoonBit language interpreter",
+      "author": "oboard",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oboard--moonbit-eval",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "gizmodata--ibis-gizmosql",
+      "description": "An Ibis back-end for the GizmoSQL Arrow Flight SQL Server (with the DuckDB engine)",
+      "author": "gizmodata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gizmodata--ibis-gizmosql",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -209642,6 +209770,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pavi2410--based",
       "stars": 16,
       "quality": "gold"
+    },
+    {
+      "name": "apocaliss92--scrypted-advanced-notifier",
+      "description": "scrypted-advanced-notifier",
+      "author": "apocaliss92",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apocaliss92--scrypted-advanced-notifier",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "apocaliss92--scrypted-advanced-notifier",
+      "description": "scrypted-advanced-notifier",
+      "author": "apocaliss92",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apocaliss92--scrypted-advanced-notifier",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "jsulpis--radiance",
+      "description": "Lightweight, reactive WebGL library for working with shaders",
+      "author": "jsulpis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jsulpis--radiance",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "inmny--cultiway-reborn",
+      "description": "Cultiway-Reborn",
+      "author": "inmny",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inmny--cultiway-reborn",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "effiware--kafka-mocha",
+      "description": "Embedded Kafka for Python - Testing library for confluent_kafka",
+      "author": "Effiware",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/effiware--kafka-mocha",
+      "stars": 16,
+      "quality": "silver"
     },
     {
       "name": "vm--nila-code",
@@ -215848,6 +216016,14 @@
       "description": "\u7528 LLM \u548c jina reader \u751f\u6210\u7684\u603b\u7ed3",
       "author": "zo0043",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zo0043--bookmark-ai-summary",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "tobi-de--fujin",
+      "description": "Get your project up and running in minutes on your vps.",
+      "author": "Tobi-De",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tobi-de--fujin",
       "stars": 15,
       "quality": "silver"
     },
@@ -222810,6 +222986,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sothx--hyper-magic-window-web-ui",
       "stars": 14,
       "quality": "silver"
+    },
+    {
+      "name": "ifulling--cdcassk",
+      "description": "\u8de8\u5e73\u53f0 Web \u81ea\u52a8\u5316\u6267\u884c\u5de5\u5177",
+      "author": "iFulling",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ifulling--cdcassk",
+      "stars": 14,
+      "quality": "bronze"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -249804,6 +249988,22 @@
       "quality": "silver"
     },
     {
+      "name": "audulus--filebrowser",
+      "description": "Alternate document browser for document apps",
+      "author": "audulus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/audulus--filebrowser",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "audulus--filebrowser",
+      "description": "Alternate document browser for document apps",
+      "author": "audulus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/audulus--filebrowser",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -263216,6 +263416,46 @@
       "description": "IARA is open-source software for analyzing electricity market design choices and price formation schemes and their consequences for agents' strategies for participating in these markets.",
       "author": "psrenergy",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psrenergy--iara-jl",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "agoncal--agoncal-application-vintagestore",
+      "description": "agoncal-application-vintagestore",
+      "author": "agoncal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agoncal--agoncal-application-vintagestore",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "mrlenin--8311-lantiq-firmware",
+      "description": "8311-lantiq-firmware",
+      "author": "MrLenin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrlenin--8311-lantiq-firmware",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "miquido--haiway",
+      "description": "Modern Python framework for functional programming and structured concurrency. Developed by Miquido.",
+      "author": "miquido",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/miquido--haiway",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "factorial-io--scotty",
+      "description": "Scotty is a combination of an api server and a cli application to manage a set of short-living, docker-compose-based applications",
+      "author": "factorial-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/factorial-io--scotty",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "stanfordspezi--spezi-web-design-system",
+      "description": "Spezi Web Frontend Design System and Reusable Components",
+      "author": "StanfordSpezi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stanfordspezi--spezi-web-design-system",
       "stars": 10,
       "quality": "silver"
     },
