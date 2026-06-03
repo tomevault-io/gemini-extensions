@@ -158556,6 +158556,14 @@
       "quality": "silver"
     },
     {
+      "name": "grlt-hub--app-compose",
+      "description": "Lightweight IoC for the front-end. Compose apps you can control and trust.",
+      "author": "grlt-hub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grlt-hub--app-compose",
+      "stars": 27,
+      "quality": "gold"
+    },
+    {
       "name": "10xchengtu--mux0",
       "description": "MUX0",
       "author": "10xChengTu",
@@ -162276,6 +162284,22 @@
       "quality": "silver"
     },
     {
+      "name": "kiapanahi--aspire-resourceserver-standalone",
+      "description": "A standalone .NET Aspire Resource Server implementation",
+      "author": "kiapanahi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kiapanahi--aspire-resourceserver-standalone",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "stevegeek--awfy",
+      "description": "CLI tool to help run suites of benchmarks , and compare results over time, between control implementations, across branches and with or without YJIT.",
+      "author": "stevegeek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stevegeek--awfy",
+      "stars": 26,
+      "quality": "bronze"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -165904,6 +165928,14 @@
       "description": "LLM plugin for Venice AI",
       "author": "ar-jan",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ar-jan--llm-venice",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "stephenlzc--ai-agent-debate-autogen-turtorial",
+      "description": "\ud83e\udd16 \u57fa\u4e8eAutoGen\u7684AI\u8fa9\u8bba\u7cfb\u7edf | \ud83d\udde3\ufe0f \u652f\u6301\u4e2d\u6587\u4ea4\u4e92 | \ud83d\udd04 \u591a\u667a\u80fd\u4f53\u534f\u4f5c | \ud83d\udcdd \u81ea\u52a8\u8bb0\u5f55\u8fa9\u8bba\u8fc7\u7a0b  \ud83e\udd16 AI Debate System based on AutoGen | \ud83d\udde3\ufe0f Chinese Interaction | \ud83d\udd04 Multi-Agent Collaboration | \ud83d\udcdd Auto Debate Recording",
+      "author": "stephenlzc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stephenlzc--ai-agent-debate-autogen-turtorial",
       "stars": 25,
       "quality": "silver"
     },
@@ -169754,6 +169786,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pdstat--graphqlextractor",
       "stars": 24,
       "quality": "silver"
+    },
+    {
+      "name": "chiicharlito--perplexicapp",
+      "description": "Cross-platform mobile app for Perplexica Project",
+      "author": "Chiicharlito",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chiicharlito--perplexicapp",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "zackees--fastled-wasm",
+      "description": "The FastLED web compiler. Lightning fast 3 second compile and 1 second deploy on fast machines.",
+      "author": "zackees",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zackees--fastled-wasm",
+      "stars": 24,
+      "quality": "gold"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -183050,6 +183098,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/floppyfk--kittyhack",
       "stars": 21,
       "quality": "silver"
+    },
+    {
+      "name": "kaizenode--safeswap",
+      "description": "A safe marketplace for buyers and sellers",
+      "author": "Kaizenode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaizenode--safeswap",
+      "stars": 21,
+      "quality": "bronze"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -197340,6 +197396,22 @@
       "quality": "silver"
     },
     {
+      "name": "realfascinated--scoresaber-reloaded",
+      "description": "ScoreSaber Reloaded is a new way to view your scores and get more stats about you and your plays",
+      "author": "RealFascinated",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/realfascinated--scoresaber-reloaded",
+      "stars": 18,
+      "quality": "gold"
+    },
+    {
+      "name": "ember-native--ember-native",
+      "description": "ember-native",
+      "author": "ember-native",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ember-native--ember-native",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -203386,6 +203458,94 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zotero-rag--zotero-rag",
       "stars": 17,
       "quality": "silver"
+    },
+    {
+      "name": "hackclub--podium",
+      "description": "Podium is Hack Club's open-source peer-judging platform for hackathons",
+      "author": "hackclub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hackclub--podium",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "sanity-io--sdk",
+      "description": "Sanity App SDK",
+      "author": "sanity-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanity-io--sdk",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "sanity-io--sdk",
+      "description": "Sanity App SDK",
+      "author": "sanity-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanity-io--sdk",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "sanity-io--sdk",
+      "description": "Sanity App SDK",
+      "author": "sanity-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanity-io--sdk",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "sanity-io--sdk",
+      "description": "Sanity App SDK",
+      "author": "sanity-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanity-io--sdk",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "hackclub--podium",
+      "description": "Podium is Hack Club's open-source peer-judging platform for hackathons",
+      "author": "hackclub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hackclub--podium",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "sanity-io--sdk",
+      "description": "Sanity App SDK",
+      "author": "sanity-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sanity-io--sdk",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "awlexus--grayjay-jellyfin-plugin",
+      "description": "A grayjay plugin for playing media from your jellyfin media server",
+      "author": "Awlexus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/awlexus--grayjay-jellyfin-plugin",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "paritytech--polkadot-bulletin-chain",
+      "description": "polkadot-bulletin-chain",
+      "author": "paritytech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/paritytech--polkadot-bulletin-chain",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "hackclub--podium",
+      "description": "Podium is Hack Club's open-source peer-judging platform for hackathons",
+      "author": "hackclub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hackclub--podium",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "awslabs--nki-autotune",
+      "description": "nki-autotune",
+      "author": "awslabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/awslabs--nki-autotune",
+      "stars": 17,
+      "quality": "bronze"
     },
     {
       "name": "13point5--agent-canvas",
@@ -215634,6 +215794,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jongwoo328--cloudip",
       "stars": 15,
       "quality": "bronze"
+    },
+    {
+      "name": "strickvl--panlabel",
+      "description": "Universal annotation converter",
+      "author": "strickvl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/strickvl--panlabel",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "strickvl--panlabel",
+      "description": "Universal annotation converter",
+      "author": "strickvl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/strickvl--panlabel",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "samuelreichor--craft-query-api",
+      "description": "Craft CMS Plugin to use the query builder in js frameworks",
+      "author": "samuelreichor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samuelreichor--craft-query-api",
+      "stars": 15,
+      "quality": "silver"
     },
     {
       "name": "hyaway--hyaway",
@@ -230804,6 +230988,30 @@
       "quality": "silver"
     },
     {
+      "name": "digidem--earth-defenders-assistant",
+      "description": "Platform for creating audio-first AI assistants that can work offline using a flexible plugin architecture",
+      "author": "digidem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/digidem--earth-defenders-assistant",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "openharmony--graphic-graphic-2d",
+      "description": "\u6682\u65e0\u63cf\u8ff0",
+      "author": "openharmony",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openharmony--graphic-graphic-2d",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "miracleeverywhere--dst-management-platform-web",
+      "description": "dst-management-platform-api\u9879\u76ee\u7684\u524d\u7aef\u9875\u9762",
+      "author": "miracleEverywhere",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/miracleeverywhere--dst-management-platform-web",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
@@ -239768,6 +239976,46 @@
       "description": "A powerful, multi-modal Telegram bot leveraging cutting-edge AI technologies including Gemini, DeepSeek, OpenRouter, and 50+ AI models for comprehensive conversational assistance, media processing, an",
       "author": "Remy2404",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/remy2404--polymind",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "itdos--microi-net",
+      "description": "\ud83d\udd25 AI \u6df1\u5ea6\u878d\u5408 V8\u5f15\u64ce \u7684\u5f00\u6e90\u4f4e\u4ee3\u7801\u5e73\u53f0\u3002AI \u672c\u5730 V8\u5f15\u64ce \u7f16\u7a0b\uff08VS Code Copilot/Cursor/Claude + MCP + Skills\uff09\u3001AI \u5728\u7ebf\u7f16\u7a0b\u3001AI \u6570\u636e\u5206\u6790\u3002.NET10 + Vue3 + \u8de8\u6570\u636e\u5e93/\u8de8\u5e73\u53f0\uff0c\u5206\u5e03\u5f0f\u67b6\u6784\u3001\u9ad8\u6027\u80fd\uff08L1/L2\u7ea7\u7f13\u5b58\uff09\u3002\u59cb\u4e8e2014\u5e74\uff08\u57fa\u4e8eAvalon.js\uff09\uff0c2018\u5e74\u4f7f\u7528Vue\u91cd\u6784\uff0c\u4e8e2025\u5e74\u5f00\u6e90\u3002",
+      "author": "itdos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itdos--microi-net",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "itdos--microi-net",
+      "description": "\ud83d\udd25 AI \u6df1\u5ea6\u878d\u5408 V8\u5f15\u64ce \u7684\u5f00\u6e90\u4f4e\u4ee3\u7801\u5e73\u53f0\u3002AI \u672c\u5730 V8\u5f15\u64ce \u7f16\u7a0b\uff08VS Code Copilot/Cursor/Claude + MCP + Skills\uff09\u3001AI \u5728\u7ebf\u7f16\u7a0b\u3001AI \u6570\u636e\u5206\u6790\u3002.NET10 + Vue3 + \u8de8\u6570\u636e\u5e93/\u8de8\u5e73\u53f0\uff0c\u5206\u5e03\u5f0f\u67b6\u6784\u3001\u9ad8\u6027\u80fd\uff08L1/L2\u7ea7\u7f13\u5b58\uff09\u3002\u59cb\u4e8e2014\u5e74\uff08\u57fa\u4e8eAvalon.js\uff09\uff0c2018\u5e74\u4f7f\u7528Vue\u91cd\u6784\uff0c\u4e8e2025\u5e74\u5f00\u6e90\u3002",
+      "author": "itdos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itdos--microi-net",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "itdos--microi-net",
+      "description": "\ud83d\udd25 AI \u6df1\u5ea6\u878d\u5408 V8\u5f15\u64ce \u7684\u5f00\u6e90\u4f4e\u4ee3\u7801\u5e73\u53f0\u3002AI \u672c\u5730 V8\u5f15\u64ce \u7f16\u7a0b\uff08VS Code Copilot/Cursor/Claude + MCP + Skills\uff09\u3001AI \u5728\u7ebf\u7f16\u7a0b\u3001AI \u6570\u636e\u5206\u6790\u3002.NET10 + Vue3 + \u8de8\u6570\u636e\u5e93/\u8de8\u5e73\u53f0\uff0c\u5206\u5e03\u5f0f\u67b6\u6784\u3001\u9ad8\u6027\u80fd\uff08L1/L2\u7ea7\u7f13\u5b58\uff09\u3002\u59cb\u4e8e2014\u5e74\uff08\u57fa\u4e8eAvalon.js\uff09\uff0c2018\u5e74\u4f7f\u7528Vue\u91cd\u6784\uff0c\u4e8e2025\u5e74\u5f00\u6e90\u3002",
+      "author": "itdos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itdos--microi-net",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "lychen-lab--lychen",
+      "description": "\ud83c\udf31 Environmental and agricultural symbiosis platform aiming to connect diverse actors across the local territory",
+      "author": "lychen-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lychen-lab--lychen",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "itdos--microi-net",
+      "description": "\ud83d\udd25 AI \u6df1\u5ea6\u878d\u5408 V8\u5f15\u64ce \u7684\u5f00\u6e90\u4f4e\u4ee3\u7801\u5e73\u53f0\u3002AI \u672c\u5730 V8\u5f15\u64ce \u7f16\u7a0b\uff08VS Code Copilot/Cursor/Claude + MCP + Skills\uff09\u3001AI \u5728\u7ebf\u7f16\u7a0b\u3001AI \u6570\u636e\u5206\u6790\u3002.NET10 + Vue3 + \u8de8\u6570\u636e\u5e93/\u8de8\u5e73\u53f0\uff0c\u5206\u5e03\u5f0f\u67b6\u6784\u3001\u9ad8\u6027\u80fd\uff08L1/L2\u7ea7\u7f13\u5b58\uff09\u3002\u59cb\u4e8e2014\u5e74\uff08\u57fa\u4e8eAvalon.js\uff09\uff0c2018\u5e74\u4f7f\u7528Vue\u91cd\u6784\uff0c\u4e8e2025\u5e74\u5f00\u6e90\u3002",
+      "author": "itdos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itdos--microi-net",
       "stars": 12,
       "quality": "silver"
     },
@@ -249424,6 +249672,30 @@
       "description": "Auto Imports support for Bun.",
       "author": "stacksjs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacksjs--bun-plugin-auto-imports",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "gainforest--ecocertain",
+      "description": "ecocertain",
+      "author": "GainForest",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gainforest--ecocertain",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "jialechen7--goshop",
+      "description": "\u57fa\u4e8e GoFrame V2 \u5f00\u53d1\u7684\u5355\u4f53\u7535\u5546\u9879\u76ee",
+      "author": "jialechen7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jialechen7--goshop",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "vulnerability-lookup--fedivuln",
+      "description": "A client to gather vulnerability-related information from the Fediverse.",
+      "author": "vulnerability-lookup",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vulnerability-lookup--fedivuln",
       "stars": 11,
       "quality": "silver"
     },
@@ -262792,6 +263064,30 @@
       "description": "The definitive vLLM runtime for dual RTX 2080 Ti 22GB + NVLink, delivering 27B/31B local inference with 100+ tok/s single-request decode and native 262K context.",
       "author": "weicj",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/weicj--vllm-2080ti-definitive",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "quanphm--hoalu",
+      "description": "An open-source spending management app",
+      "author": "quanphm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quanphm--hoalu",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "saleor--quickstart",
+      "description": "This repository will be responsible for a new approach on how customers start working with Saleor, prioritizing commerce as code instead of changing fields",
+      "author": "saleor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saleor--quickstart",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "frostr-org--bifrost",
+      "description": "Core library for implementing the FROSTR signing protocol.",
+      "author": "FROSTR-ORG",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostr-org--bifrost",
       "stars": 10,
       "quality": "silver"
     },
