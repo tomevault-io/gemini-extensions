@@ -4,7 +4,7 @@
   "repo": "aNCA",
   "description": "Shiny App to perform NCA on (pre-)clinical data",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/pharmaverse/aNCA",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-03T12:38:24Z"
+  "distributed_at": "2026-06-03T12:47:51Z"
 }
