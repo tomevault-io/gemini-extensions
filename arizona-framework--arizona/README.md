@@ -7,11 +7,11 @@ A web framework for Erlang/OTP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [arizona-framework/arizona](https://github.com/arizona-framework/arizona).
+Original source: `CLAUDE.md` in [arizona-framework/arizona](https://github.com/arizona-framework/arizona).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
