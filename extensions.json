@@ -112700,6 +112700,30 @@
       "quality": "gold"
     },
     {
+      "name": "longzheng--open-dynamic-export",
+      "description": "Dynamic export control/solar curtailment of inverters for dynamic connections (CSIP-AUS/SEP2/IEEE 2030.5), fixed/zero export or negative feed-in",
+      "author": "longzheng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/longzheng--open-dynamic-export",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "inetsoft-technology--stylebi",
+      "description": "StyleBI is a cloud-native, small-footprint business intelligence web application powered by a combination of visualization and data transformation pipeline",
+      "author": "inetsoft-technology",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/inetsoft-technology--stylebi",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
+      "name": "gaoyusong--llm-cpp",
+      "description": "A C++ port of karpathy/llm.c features a tiny torch library while maintaining overall simplicity.",
+      "author": "GaoYusong",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gaoyusong--llm-cpp",
+      "stars": 50,
+      "quality": "silver"
+    },
+    {
       "name": "chimedeck--chimedeck",
       "description": "A full-stack workspace and card management app with boards, lists, comments, attachments, pricing tools, CLI commands, and automated tests. Built with React, Bun/TypeScript, and an extensible server/c",
       "author": "Chimedeck",
@@ -114448,6 +114472,22 @@
       "description": "Scripts for Sunshine game stream host.",
       "author": "fehbari",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fehbari--sunshine-scripts",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
+      "name": "huggingface--inference-playground",
+      "description": "inference-playground",
+      "author": "huggingface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huggingface--inference-playground",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
+      "name": "biovisioncenter--ngio",
+      "description": "ngio is a Python library to streamline OME-Zarr image analysis workflows.",
+      "author": "BioVisionCenter",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/biovisioncenter--ngio",
       "stars": 49,
       "quality": "silver"
     },
@@ -117314,6 +117354,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shpigford--society-fail",
       "stars": 47,
       "quality": "gold"
+    },
+    {
+      "name": "yofardev--yofardev-ai",
+      "description": "yofardev_ai",
+      "author": "YofarDev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yofardev--yofardev-ai",
+      "stars": 47,
+      "quality": "silver"
     },
     {
       "name": "rust-works--succinctly",
@@ -120924,6 +120972,22 @@
       "quality": "silver"
     },
     {
+      "name": "web3insight-ai--web3insight",
+      "description": "Discover, analyze, and connect with Web3 developers. Powered by GitHub data and on-chain activity for ecosystem growth.",
+      "author": "web3insight-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/web3insight-ai--web3insight",
+      "stars": 45,
+      "quality": "gold"
+    },
+    {
+      "name": "web3insight-ai--web3insight",
+      "description": "Discover, analyze, and connect with Web3 developers. Powered by GitHub data and on-chain activity for ecosystem growth.",
+      "author": "web3insight-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/web3insight-ai--web3insight",
+      "stars": 45,
+      "quality": "gold"
+    },
+    {
       "name": "izittmarvin--memcoach",
       "description": "\u4e00\u4e2aAI \u9762\u8bd5\u6559\u7ec3\u5e73\u53f0\uff1a\u7ad9\u5728\u5de8\u4eba\u80a9\u8180\u4e0a\uff0c\u878d\u5408\u7b80\u5386\u9762\u8bd5\u3001GitHub \u9879\u76ee\u5206\u6790\u4e0e\u6301\u4e45\u5316\u753b\u50cf\u8bb0\u5fc6\u4e09\u5927\u667a\u80fd\u95ed\u73af\uff0c\u63d0\u4f9b\u52a8\u6001\u8ffd\u95ee\u3001\u6e90\u7801\u8bc1\u636e\u9a71\u52a8\u7684\u95ee\u9898\u751f\u6210\u4e0e\u6301\u7eed   \u8fdb\u5316\u7684\u4e2a\u6027\u5316\u8bad\u7ec3\u8def\u5f84\u3002",
       "author": "iZiTTMarvin",
@@ -124280,6 +124344,22 @@
       "description": "A fully-functional reference application using Litestar, Inertia JS, and Advanced Alchemy",
       "author": "litestar-org",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/litestar-org--litestar-fullstack-inertia",
+      "stars": 43,
+      "quality": "gold"
+    },
+    {
+      "name": "vtbag--website",
+      "description": "The @vtbag website. \u2b50\ufe0f Please star to support this work! \u2b50\ufe0f",
+      "author": "vtbag",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vtbag--website",
+      "stars": 43,
+      "quality": "bronze"
+    },
+    {
+      "name": "zeliardm--homebridge-kasa-python",
+      "description": "Homebridge Plug-in that uses Python-Kasa API to communicate with Kasa Devices.",
+      "author": "ZeliardM",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zeliardm--homebridge-kasa-python",
       "stars": 43,
       "quality": "gold"
     },
@@ -128064,6 +128144,22 @@
       "description": "Food Scan AI revolutionizes nutrition management with its smart features: \ud83d\udcf8 Scan food labels or cooked dishes for instant analysis, \ud83e\udd16 AI-powered insights into nutritional content, \ud83d\udcac Real-time AI chat ",
       "author": "nikhileshmeher0204",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nikhileshmeher0204--scanmyfood",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
+      "name": "llm-jp--llm-jp-eval-mm",
+      "description": "A lightweight framework for evaluating visual-language models.",
+      "author": "llm-jp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/llm-jp--llm-jp-eval-mm",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
+      "name": "ivrit-ai--runpod-serverless",
+      "description": "runpod serverless endpoint for ivrit.ai transcription models",
+      "author": "ivrit-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivrit-ai--runpod-serverless",
       "stars": 41,
       "quality": "silver"
     },
@@ -133180,6 +133276,22 @@
       "quality": "silver"
     },
     {
+      "name": "simoneavogadro--humandetection4tasker",
+      "description": "Android app providing ML vision features to Tasker/Macrodroid automations",
+      "author": "SimoneAvogadro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/simoneavogadro--humandetection4tasker",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "kousen--aijavalabs",
+      "description": "Exercises for a course on integrating AI services with Java.",
+      "author": "kousen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kousen--aijavalabs",
+      "stars": 38,
+      "quality": "gold"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore.",
       "author": "nikolasburk",
@@ -137312,6 +137424,14 @@
       "description": "Action ring for your normie mouse",
       "author": "mikker",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikker--flickring",
+      "stars": 36,
+      "quality": "bronze"
+    },
+    {
+      "name": "webtv-redialed--redialed-service",
+      "description": "The WebTV Redialed service",
+      "author": "webtv-redialed",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/webtv-redialed--redialed-service",
       "stars": 36,
       "quality": "bronze"
     },
@@ -151324,6 +151444,14 @@
       "quality": "silver"
     },
     {
+      "name": "maximiliana-dev--lucientes",
+      "description": "Lucientes is a simple web service for converting HTML files into high-quality images",
+      "author": "maximiliana-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maximiliana-dev--lucientes",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "description": "Inventory API Skills",
       "author": "Laskewitz",
@@ -154120,6 +154248,22 @@
       "description": "Mifos-Gazelle is a DPI as a Service offering a Deployable Package for Mifos X, Payment Hub EE, and VNext. With other DPGs planned",
       "author": "openMF",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openmf--mifos-gazelle",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "refined-prun--refined-prun",
+      "description": "Browser extension that simplifies the Prosperous Universe interface and adds useful features",
+      "author": "refined-prun",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/refined-prun--refined-prun",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
+      "name": "cortesi--ruskel",
+      "description": "Ruskel generates skeletonized outlines of Rust crates.",
+      "author": "cortesi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cortesi--ruskel",
       "stars": 29,
       "quality": "silver"
     },
@@ -157520,6 +157664,14 @@
       "description": "GPTComet: AI-Powered Git Commit Message Generator",
       "author": "belingud",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/belingud--gptcomet",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "zipline-ai--chronon",
+      "description": "chronon",
+      "author": "zipline-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zipline-ai--chronon",
       "stars": 28,
       "quality": "silver"
     },
@@ -164884,6 +165036,14 @@
       "quality": "silver"
     },
     {
+      "name": "caicoleung--bob-plugin-ollama-translator",
+      "description": "\u652f\u6301\u591a\u79cdAI\u670d\u52a1\uff08Ollama/Qwen/OpenAI/Grok/Claude/Gemini\u7b49\uff09\u7684\u7ffb\u8bd1\u548c\u89e3\u91ca\u63d2\u4ef6\uff0c\u53ef\u8fdb\u884c\u5355\u8bcd\u3001\u6574\u53e5\u7ffb\u8bd1\u53ca\u767e\u79d1\u89e3\u91ca",
+      "author": "CaicoLeung",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caicoleung--bob-plugin-ollama-translator",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -168656,6 +168816,14 @@
       "description": "hylo",
       "author": "Hylozoic",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hylozoic--hylo",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "query-farm--evalexpr-rhai",
+      "description": "A DuckDB extension to evaluate the Rhai scripting language as part of SQL.",
+      "author": "Query-farm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/query-farm--evalexpr-rhai",
       "stars": 25,
       "quality": "silver"
     },
@@ -176448,6 +176616,30 @@
       "description": "Production-ready expense tracking platform delivering real-time financial insights, secure authentication, and scalable architecture for data-driven personal finance management.",
       "author": "lokeshwardewangan",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lokeshwardewangan--budgetter-webapp",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "ever-co--ever-rec-desktop",
+      "description": "Ever\u00ae Rec\u2122 - Open Screen Capture, Screen Recording, Images & Video Sharing Platform - https://rec.so",
+      "author": "ever-co",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ever-co--ever-rec-desktop",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "ever-co--ever-rec-desktop",
+      "description": "Ever\u00ae Rec\u2122 - Open Screen Capture, Screen Recording, Images & Video Sharing Platform - https://rec.so",
+      "author": "ever-co",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ever-co--ever-rec-desktop",
+      "stars": 23,
+      "quality": "gold"
+    },
+    {
+      "name": "ever-co--ever-rec-desktop",
+      "description": "Ever\u00ae Rec\u2122 - Open Screen Capture, Screen Recording, Images & Video Sharing Platform - https://rec.so",
+      "author": "ever-co",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ever-co--ever-rec-desktop",
       "stars": 23,
       "quality": "silver"
     },
@@ -186080,6 +186272,14 @@
       "description": "Compress videos to fit Discord's file size limits. Cross-platform desktop app powered by FFmpeg \u2014 Windows, macOS, Linux.",
       "author": "cyroz1",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cyroz1--vidcord",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "meain--yap",
+      "description": "Your Assistant for Prompting LLMs",
+      "author": "meain",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meain--yap",
       "stars": 21,
       "quality": "silver"
     },
@@ -200674,6 +200874,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fhir--fhir-candle",
       "stars": 18,
       "quality": "bronze"
+    },
+    {
+      "name": "cloud-apim--otoroshi-llm-extension",
+      "description": "Connect, setup, secure and seamlessly manage LLM models using an Universal/OpenAI compatible API",
+      "author": "cloud-apim",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloud-apim--otoroshi-llm-extension",
+      "stars": 18,
+      "quality": "silver"
     },
     {
       "name": "skenetechnologies--plg-skills",
