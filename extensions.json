@@ -73220,6 +73220,14 @@
       "quality": "silver"
     },
     {
+      "name": "yinqiwen--rapidudf",
+      "description": "A High-Performance JIT-Based C++ Expression/Script Execution Engine with SIMD Vectorization Support",
+      "author": "yinqiwen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yinqiwen--rapidudf",
+      "stars": 99,
+      "quality": "silver"
+    },
+    {
       "name": "okikusan-public--stock-skills",
       "description": "stock_skills",
       "author": "okikusan-public",
@@ -75760,6 +75768,14 @@
       "description": "Python SDK for using verifiable AI inference on OpenGradient",
       "author": "OpenGradient",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opengradient--opengradient-sdk",
+      "stars": 93,
+      "quality": "silver"
+    },
+    {
+      "name": "marinasundstrom--raven",
+      "description": "A modern programming language for .NET - Compiler inspired by the .NET Roslyn compiler architecture.",
+      "author": "marinasundstrom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marinasundstrom--raven",
       "stars": 93,
       "quality": "silver"
     },
@@ -79652,6 +79668,22 @@
       "quality": "silver"
     },
     {
+      "name": "khrnchn--sedekah-je",
+      "description": "qr code directory of malaysian mosques, suraus, and islamic institutions.",
+      "author": "khrnchn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/khrnchn--sedekah-je",
+      "stars": 85,
+      "quality": "bronze"
+    },
+    {
+      "name": "khrnchn--sedekah-je",
+      "description": "qr code directory of malaysian mosques, suraus, and islamic institutions.",
+      "author": "khrnchn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/khrnchn--sedekah-je",
+      "stars": 85,
+      "quality": "gold"
+    },
+    {
       "name": "sandermuller--laravel-fluent-validation",
       "description": "Fluent and extremely fast validation for Laravel",
       "author": "SanderMuller",
@@ -80194,6 +80226,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hicder--muopdb",
       "stars": 84,
       "quality": "silver"
+    },
+    {
+      "name": "the-cafe--git-ai-commit",
+      "description": "let AI write your commit messages",
+      "author": "the-cafe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/the-cafe--git-ai-commit",
+      "stars": 84,
+      "quality": "bronze"
+    },
+    {
+      "name": "schwa--compute",
+      "description": "A high-level Swift framework that simplifies working with GPU Metal Compute.",
+      "author": "schwa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schwa--compute",
+      "stars": 84,
+      "quality": "bronze"
     },
     {
       "name": "40rbidd3n--hydro0x01",
@@ -83764,6 +83812,14 @@
       "quality": "silver"
     },
     {
+      "name": "emako--wpfui-violeta",
+      "description": "WPF UI Violeta is based on WPF UI, and provides the Fluent experience in your known and loved WPF framework.",
+      "author": "emako",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/emako--wpfui-violeta",
+      "stars": 79,
+      "quality": "bronze"
+    },
+    {
       "name": "alibaba--opc-starter",
       "description": "opc-starter",
       "author": "alibaba",
@@ -86420,6 +86476,22 @@
       "quality": "bronze"
     },
     {
+      "name": "mitchross--talos-argocd-proxmox",
+      "description": "Talos ArgoCD Homelab. My personal production Cluster. ",
+      "author": "mitchross",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mitchross--talos-argocd-proxmox",
+      "stars": 75,
+      "quality": "gold"
+    },
+    {
+      "name": "mitchross--talos-argocd-proxmox",
+      "description": "Talos ArgoCD Homelab. My personal production Cluster. ",
+      "author": "mitchross",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mitchross--talos-argocd-proxmox",
+      "stars": 75,
+      "quality": "bronze"
+    },
+    {
       "name": "jayparikh--agentviz",
       "description": "agentviz",
       "author": "jayparikh",
@@ -87380,6 +87452,14 @@
       "quality": "silver"
     },
     {
+      "name": "lvyww--bime",
+      "description": "bime\uff0c\u5916\u6302\u5f0f\u5f62\u7801\u8f93\u5165\u5e73\u53f0",
+      "author": "lvyww",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lvyww--bime",
+      "stars": 74,
+      "quality": "silver"
+    },
+    {
       "name": "moneat-io--moneat",
       "description": "moneat",
       "author": "moneat-io",
@@ -88160,6 +88240,14 @@
       "description": "Custom Trading App for Algorithmic Trading",
       "author": "s-stolz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/s-stolz--algotrader",
+      "stars": 73,
+      "quality": "silver"
+    },
+    {
+      "name": "bigdevsoon--100-days-of-code",
+      "description": "100 Days of Code | Daily Challenges | Beautifully Crafted Designs | Created for Full-stack/Frontend/Web Developers - Vibe Code with AI.",
+      "author": "bigdevsoon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bigdevsoon--100-days-of-code",
       "stars": 73,
       "quality": "silver"
     },
@@ -89416,6 +89504,14 @@
       "description": "List of well-known bots and user-agent patterns to detect them",
       "author": "arcjet",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arcjet--well-known-bots",
+      "stars": 71,
+      "quality": "silver"
+    },
+    {
+      "name": "selleo--mentingo",
+      "description": "White-label AI-mentor LMS platform for enterprise L&D",
+      "author": "Selleo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/selleo--mentingo",
       "stars": 71,
       "quality": "silver"
     },
@@ -91796,6 +91892,22 @@
       "quality": "silver"
     },
     {
+      "name": "mckaywrigley--takeoff-cursor-course",
+      "description": "For the Takeoff Cursor course.",
+      "author": "mckaywrigley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mckaywrigley--takeoff-cursor-course",
+      "stars": 68,
+      "quality": "bronze"
+    },
+    {
+      "name": "jetrockets--ui-jetrockets-com",
+      "description": "A comprehensive Rails component library built with ViewComponent, TailwindCSS 4.0, and Stimulus. This template provides a complete set of reusable UI components that developers can copy and customize ",
+      "author": "jetrockets",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jetrockets--ui-jetrockets-com",
+      "stars": 68,
+      "quality": "silver"
+    },
+    {
       "name": "simonkurtz-msft--drawio-mcp-server",
       "description": "A Model Context Protocol (MCP) server for programmatic diagram generation using Draw.io (Diagrams.net). This server generates Draw.io XML directly \u2014 no browser extension or Draw.io instance required.",
       "author": "simonkurtz-MSFT",
@@ -92784,6 +92896,14 @@
       "description": "VisionOS UI built with React \u269b\ufe0f",
       "author": "fluid-design-io",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluid-design-io--vision-ui",
+      "stars": 67,
+      "quality": "silver"
+    },
+    {
+      "name": "sigp--anchor",
+      "description": "Rust implementation of the SSV protocol",
+      "author": "sigp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sigp--anchor",
       "stars": 67,
       "quality": "silver"
     },
@@ -93836,6 +93956,14 @@
       "quality": "silver"
     },
     {
+      "name": "clipboardhealth--core-utils",
+      "description": "Clipboard's core libraries and utilities.",
+      "author": "ClipboardHealth",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clipboardhealth--core-utils",
+      "stars": 66,
+      "quality": "silver"
+    },
+    {
       "name": "chongdashu--phaserjs-oakwoods",
       "description": "A vibe coded implementation of an RPG platformer",
       "author": "chongdashu",
@@ -94480,6 +94608,30 @@
       "description": "Utility Types to quickly query and Omit, Pick keys inside nested arrays and objects",
       "author": "kakasoo",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kakasoo--deepstricttypes",
+      "stars": 65,
+      "quality": "silver"
+    },
+    {
+      "name": "neurons-me--all-this",
+      "description": "all.this \u26a1 stuff together",
+      "author": "neurons-me",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neurons-me--all-this",
+      "stars": 65,
+      "quality": "silver"
+    },
+    {
+      "name": "code-payments--code-vm",
+      "description": "Purpose built VM for reduced fees on Solana",
+      "author": "code-payments",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/code-payments--code-vm",
+      "stars": 65,
+      "quality": "silver"
+    },
+    {
+      "name": "atomone-hub--atomone",
+      "description": "AtomOne chain software",
+      "author": "atomone-hub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atomone-hub--atomone",
       "stars": 65,
       "quality": "silver"
     },
@@ -95482,6 +95634,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gpt-cmdr--ras-commander",
       "stars": 64,
       "quality": "gold"
+    },
+    {
+      "name": "mziyut--disposable-email-domains-js",
+      "description": "Provides a JavaScript package to determine if an email domain is disposable, using data from the disposable-email-domains repository.",
+      "author": "mziyut",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mziyut--disposable-email-domains-js",
+      "stars": 64,
+      "quality": "silver"
     },
     {
       "name": "claude-world--claude-skill-antivirus",
@@ -97226,6 +97386,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/estebanforge--unrepress",
       "stars": 62,
       "quality": "silver"
+    },
+    {
+      "name": "lawrenceteixeira--pbiautodoc",
+      "description": "PBIAutoDoc",
+      "author": "LawrenceTeixeira",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lawrenceteixeira--pbiautodoc",
+      "stars": 62,
+      "quality": "bronze"
     },
     {
       "name": "hunvreus--pullnotes",
@@ -102394,6 +102562,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/studydrift--lextures",
       "stars": 57,
       "quality": "silver"
+    },
+    {
+      "name": "martinnormark--neural-mesh-simplification",
+      "description": "Un-official and WIP Implementation of the Neural Mesh Simplification paper",
+      "author": "martinnormark",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/martinnormark--neural-mesh-simplification",
+      "stars": 57,
+      "quality": "bronze"
     },
     {
       "name": "eduardo-sl--go-agent-skills",
@@ -180620,6 +180796,14 @@
       "quality": "silver"
     },
     {
+      "name": "huawei-csl--kvarn",
+      "description": "KVarN is a native vLLM KV-cache quantization backend for your agents: 3-5x more context, throughput above FP16, and FP16-level accuracy. Calibration-free, one flag.",
+      "author": "huawei-csl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huawei-csl--kvarn",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -205714,6 +205898,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myui--rtrec",
       "stars": 17,
       "quality": "silver"
+    },
+    {
+      "name": "albertcheng19--medskillos",
+      "description": "Medical-grade agent skills for clinical and biomedical workflows",
+      "author": "albertcheng19",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/albertcheng19--medskillos",
+      "stars": 17,
+      "quality": "bronze"
     },
     {
       "name": "13point5--agent-canvas",
@@ -265858,6 +266050,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/buffer121328--deparchitect",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "ysx12138--business-analysis-learning-agent-skill",
+      "description": "business-analysis-learning-agent-skill",
+      "author": "Ysx12138",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ysx12138--business-analysis-learning-agent-skill",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
