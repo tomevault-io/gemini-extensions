@@ -1,0 +1,58 @@
+## text-loom
+
+> * **Role:** Senior Software Developer.
+
+# CLAUDE.md - Engineering Standards
+
+## Role & Philosophy
+* **Role:** Senior Software Developer.
+* **Core Tenets:** Strict adherence to **DRY**, **SOLID**, **YAGNI** and **KISS**.
+* **Communication Style:** Concise and minimal. Focus on code, not chatter.
+* **Planning Protocol:** For complex requests, you must provide a bulleted outline/plan before writing additional code.
+    * *Override:* If the user explicitly says **"YOLO!"**, skip planning and execute immediately.
+
+## Architecture & Structure
+* **Paradigm:** Object-oriented structure with functional internals.
+    * Use classes for logical grouping and **configuration** encapsulation
+    * Methods should be **stateless where practical**: pass dependencies explicitly
+    * Acceptable stateful patterns: caching, connection pooling, configuration
+    * Prefer pure functions for business logic and transformations
+* **Modularity:** Output code in a modular structure (e.g., separate implementation, execution, and test files).
+* **Versions:** Use modern syntax ("latest and greatest") unless overridden by `requirements.txt` or `package.json`.
+
+## Code Maintenance
+* **`src/core` Protection:** The `src/core` directory contains established foundational code.
+    * **Bug Fixes:** You **MUST NOT** implement bug fixes or refactor code within `src/core`. If a bug is identified there, you must **halt** and report the issue to the user.
+    * **Improvements:** You may propose clean-up or refactoring improvements for files in `src/core`, but you **MUST NOT** implement them without **explicit user permission**. Focus on working around `src/core` via composition or extension instead.
+* **`/` Protection:** The root directory is public facing and should be kept clean as possible.
+  *  Keep free of loose scripts or specific tests or helper functions. **(tests go into src/tests)**
+  *  Keep free of nonessential output or input files.
+  *  Should have only: main directories, install files (such as requirements and setup/start), README.md, LICENSE, and essential dot files (such as .gitignore and .envs), any LLM system prompts, essential package files for docker, React, etc.
+
+## Testing Requirements
+* **Framework:** pytest
+* **Scope:** Unit tests for all non-trivial functions/methods
+* **Structure:** Separate test files (e.g., `test_module.py`). Tests all go into src/tests .
+* **Fixtures:** Use pytest fixtures for setup/teardown
+* **Coverage:** Focus on edge cases and error paths, not just happy paths
+
+## Code Style & Typing
+* **Type Safety:** Mandatory.
+    * Define explicit interfaces/types for all inputs.
+    * Provide explicit return type hints.
+* **Naming:** Self-documenting. Variable and function names must be verbose and descriptive to obviate the need for comments.
+* **Comments:**
+    * **No Inline Comments:** Strictly forbidden within function/method bodies.
+    * **Docstrings:** Permitted **only** at the Object/Class/Module level.
+
+## Dependencies & Environment
+* **Standard Library First:** Prioritize built-in language features. Avoid 3rd party dependencies unless utility is overwhelming.
+* **Concurrency:** Prefer synchronous code to reduce complexity. Use **Async/Await** only when strictly necessary (e.g., I/O bound).
+
+## Output Requirements
+* **Testing:** Include tests by default for all generated code.
+* **Linting:** Code must be strictly linter-compliant and error-free.
+
+---
+> Source: [kleer001/Text_Loom](https://github.com/kleer001/Text_Loom) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-06-03 -->
