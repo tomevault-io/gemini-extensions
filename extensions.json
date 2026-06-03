@@ -122396,6 +122396,14 @@
       "quality": "silver"
     },
     {
+      "name": "discoursegraphs--discourse-graph",
+      "description": "A tool and ecosystem for collaborative knowledge synthesis",
+      "author": "DiscourseGraphs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/discoursegraphs--discourse-graph",
+      "stars": 43,
+      "quality": "silver"
+    },
+    {
       "name": "s-zx--crest",
       "description": "An open source, AI-native terminal.",
       "author": "s-zx",
@@ -133108,6 +133116,14 @@
       "quality": "gold"
     },
     {
+      "name": "zl-asica--suzublog",
+      "description": "A minimalist and fast Next.js blog template, one-click deploy, writing in Markdown. \u57fa\u4e8e Next.js \u7684\u535a\u5ba2\u6a21\u677f\uff0c\u4e00\u952e\u542f\u52a8\uff0c\u7b80\u6613\u914d\u7f6e\uff0c\u4f7f\u7528 Markdown \u64b0\u5199\u4f60\u7684\u6587\u7ae0\u3002",
+      "author": "ZL-Asica",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zl-asica--suzublog",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
       "name": "affitor--open-affiliate",
       "description": "The open registry of affiliate programs. Built for developers and AI agents.",
       "author": "Affitor",
@@ -137424,6 +137440,14 @@
       "description": "Opinionated Rust implementation of the Uniswap V4 SDK with a focus on readability and performance",
       "author": "shuhuiluo",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shuhuiluo--uniswap-v4-sdk-rs",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
+      "name": "kdunee--intentguard",
+      "description": "A Python library for verifying code properties using natural language assertions.",
+      "author": "kdunee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kdunee--intentguard",
       "stars": 35,
       "quality": "silver"
     },
@@ -215820,6 +215844,14 @@
       "quality": "silver"
     },
     {
+      "name": "zo0043--bookmark-ai-summary",
+      "description": "\u7528 LLM \u548c jina reader \u751f\u6210\u7684\u603b\u7ed3",
+      "author": "zo0043",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zo0043--bookmark-ai-summary",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -222752,6 +222784,30 @@
       "description": "Rebuilt SomeACG Website with Next.js",
       "author": "SomeACG",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/someacg--someacg-next",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "sothx--hyper-magic-window-web-ui",
+      "description": "\u300aHyperOS For Pad/Fold \u5b8c\u7f8e\u6a2a\u5c4f\u5e94\u7528\u8ba1\u5212\u300b Web UI \u7aef\uff0c\u63d0\u4f9b\u53ef\u89c6\u5316\u4fee\u6539\u6a21\u5757\u90e8\u5206\u914d\u7f6e\u7684\u80fd\u529b",
+      "author": "sothx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sothx--hyper-magic-window-web-ui",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "sothx--hyper-magic-window-web-ui",
+      "description": "\u300aHyperOS For Pad/Fold \u5b8c\u7f8e\u6a2a\u5c4f\u5e94\u7528\u8ba1\u5212\u300b Web UI \u7aef\uff0c\u63d0\u4f9b\u53ef\u89c6\u5316\u4fee\u6539\u6a21\u5757\u90e8\u5206\u914d\u7f6e\u7684\u80fd\u529b",
+      "author": "sothx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sothx--hyper-magic-window-web-ui",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "sothx--hyper-magic-window-web-ui",
+      "description": "\u300aHyperOS For Pad/Fold \u5b8c\u7f8e\u6a2a\u5c4f\u5e94\u7528\u8ba1\u5212\u300b Web UI \u7aef\uff0c\u63d0\u4f9b\u53ef\u89c6\u5316\u4fee\u6539\u6a21\u5757\u90e8\u5206\u914d\u7f6e\u7684\u80fd\u529b",
+      "author": "sothx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sothx--hyper-magic-window-web-ui",
       "stars": 14,
       "quality": "silver"
     },
@@ -231008,6 +231064,14 @@
       "description": "dst-management-platform-api\u9879\u76ee\u7684\u524d\u7aef\u9875\u9762",
       "author": "miracleEverywhere",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/miracleeverywhere--dst-management-platform-web",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "baz-scm--pgmq-ts",
+      "description": "Native SQL implementation for PGMQ in typescript, based on pgmq-rs",
+      "author": "baz-scm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baz-scm--pgmq-ts",
       "stars": 13,
       "quality": "silver"
     },
@@ -240018,6 +240082,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/itdos--microi-net",
       "stars": 12,
       "quality": "silver"
+    },
+    {
+      "name": "pnsk-lab--eclipsa",
+      "description": "\ud83c\udf02Performance + Experience\ud83c\udf19",
+      "author": "pnsk-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pnsk-lab--eclipsa",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "zktx-io--ptb-builder-monorepo",
+      "description": "Visual drag-and-drop builder for Sui Programmable Transaction Blocks that lets anyone design, simulate, and execute PTBs with automatic TypeScript generation and on-chain support.",
+      "author": "zktx-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zktx-io--ptb-builder-monorepo",
+      "stars": 12,
+      "quality": "gold"
+    },
+    {
+      "name": "gyrinx-app--gyrinx",
+      "description": "Core Gyrinx application",
+      "author": "gyrinx-app",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gyrinx-app--gyrinx",
+      "stars": 12,
+      "quality": "gold"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -249696,6 +249784,22 @@
       "description": "A client to gather vulnerability-related information from the Fediverse.",
       "author": "vulnerability-lookup",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vulnerability-lookup--fedivuln",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "chenklein26-maker--harness-starter",
+      "description": "\u4e00\u5957\u6210\u719f\u5b8c\u5584\u7684\u5f00\u7bb1\u5373\u7528\u7684 Claude Code Harness Engineering \u6a21\u677f\u3002\u4e09\u5c42\u81ea\u52a8\u5316\uff08\u5b89\u5168/\u611f\u77e5/\u5ba1\u67e5\uff09\uff0c\u96c6\u6210 LSP\u3001OpenSpec SDD \u5de5\u4f5c\u6d41\u548c AI \u4e00\u952e\u521d\u59cb\u5316\u3002\u65b0\u9879\u76ee\u548c\u5df2\u6709\u9879\u76ee\u5747\u53ef\u4f7f\u7528\u3002",
+      "author": "chenklein26-maker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chenklein26-maker--harness-starter",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "teal-insights--r-wbids",
+      "description": "R package to access and analyze World Bank International Debt Statistics (IDS)",
+      "author": "Teal-Insights",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/teal-insights--r-wbids",
       "stars": 11,
       "quality": "silver"
     },
@@ -263088,6 +263192,30 @@
       "description": "Core library for implementing the FROSTR signing protocol.",
       "author": "FROSTR-ORG",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frostr-org--bifrost",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "namvox--simx",
+      "description": "Agent-friendly iOS Simulator pool and browser streaming CLI",
+      "author": "namvox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/namvox--simx",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "openpipe--best-hn",
+      "description": "best-hn",
+      "author": "OpenPipe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openpipe--best-hn",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "psrenergy--iara-jl",
+      "description": "IARA is open-source software for analyzing electricity market design choices and price formation schemes and their consequences for agents' strategies for participating in these markets.",
+      "author": "psrenergy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psrenergy--iara-jl",
       "stars": 10,
       "quality": "silver"
     },
