@@ -7,11 +7,11 @@ React Hook for syncing TanStack Table state with URL search params.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [taro-28/tanstack-table-search-params](https://github.com/taro-28/tanstack-table-search-params).
+Original source: `AGENTS.md` in [taro-28/tanstack-table-search-params](https://github.com/taro-28/tanstack-table-search-params).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
