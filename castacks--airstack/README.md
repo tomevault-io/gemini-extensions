@@ -7,11 +7,11 @@ Boilerplate for robot autonomy. Designed for multi-robot, real world deployment 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [castacks/AirStack](https://github.com/castacks/AirStack).
+Original source: `CLAUDE.md` in [castacks/AirStack](https://github.com/castacks/AirStack).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
