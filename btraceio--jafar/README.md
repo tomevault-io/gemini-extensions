@@ -7,11 +7,11 @@ Experimental JFR parser
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [btraceio/jafar](https://github.com/btraceio/jafar).
+Original source: `CLAUDE.md` in [btraceio/jafar](https://github.com/btraceio/jafar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
