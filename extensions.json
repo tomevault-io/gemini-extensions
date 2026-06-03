@@ -119492,6 +119492,38 @@
       "quality": "silver"
     },
     {
+      "name": "blacklanternsecurity--bbot-server",
+      "description": "A persistent database + CLI for your BBOT scan data \ud83e\udde1",
+      "author": "blacklanternsecurity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blacklanternsecurity--bbot-server",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "blacklanternsecurity--bbot-server",
+      "description": "A persistent database + CLI for your BBOT scan data \ud83e\udde1",
+      "author": "blacklanternsecurity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blacklanternsecurity--bbot-server",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "ozma-io--ozma",
+      "description": "Ozma is an CRM/ERP platform that enables rapid development of customizable enterprise-level systems. Build and tailor CRM/ERP solutions quickly and efficiently to meet your specific business needs.",
+      "author": "ozma-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ozma-io--ozma",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
+      "name": "taiga-family--ng-draw-flow",
+      "description": "A customizable Angular component for building node-based editors and interactive diagrams",
+      "author": "taiga-family",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/taiga-family--ng-draw-flow",
+      "stars": 46,
+      "quality": "silver"
+    },
+    {
       "name": "zhaono1--agent-playbook",
       "description": "agent-playbook",
       "author": "zhaono1",
@@ -122962,6 +122994,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gentleeduck--duck-ui",
       "stars": 44,
       "quality": "gold"
+    },
+    {
+      "name": "grafana--profiles-drilldown",
+      "description": "Profiles Drilldown is a native Grafana application designed to integrate seamlessly with Pyroscope, the open-source continuous profiling platform, providing a smooth, query-less experience for browsin",
+      "author": "grafana",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grafana--profiles-drilldown",
+      "stars": 44,
+      "quality": "silver"
     },
     {
       "name": "agents-squads--squads-cli",
@@ -128468,6 +128508,30 @@
       "quality": "silver"
     },
     {
+      "name": "yankeguo--zhipu",
+      "description": "A 3rd-Party Golang Client Library for Zhipu AI Platform",
+      "author": "yankeguo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yankeguo--zhipu",
+      "stars": 41,
+      "quality": "bronze"
+    },
+    {
+      "name": "jarvislin--hackernews-kmp",
+      "description": "This is a Hacker News reader app implemented using Kotlin Multiplatform Compose for Android and iOS.",
+      "author": "jarvislin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jarvislin--hackernews-kmp",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
+      "name": "yankeguo--zhipu",
+      "description": "A 3rd-Party Golang Client Library for Zhipu AI Platform",
+      "author": "yankeguo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yankeguo--zhipu",
+      "stars": 41,
+      "quality": "bronze"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -131912,6 +131976,14 @@
       "description": "A sharp command-line tool for AI-assisted coding.",
       "author": "tenxhq",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tenxhq--tenx",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
+      "name": "aggiesportsanalytics--courtcheck",
+      "description": "CourtCheck is a computer vision project that detects/tracks tennis court boundaries and ball movements",
+      "author": "AggieSportsAnalytics",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aggiesportsanalytics--courtcheck",
       "stars": 39,
       "quality": "silver"
     },
@@ -135700,6 +135772,14 @@
       "quality": "silver"
     },
     {
+      "name": "robostack--ros-jazzy",
+      "description": "Recipes and patches for ros-jazzy conda packages",
+      "author": "RoboStack",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robostack--ros-jazzy",
+      "stars": 37,
+      "quality": "gold"
+    },
+    {
       "name": "affitor--open-affiliate",
       "description": "The open registry of affiliate programs. Built for developers and AI agents.",
       "author": "Affitor",
@@ -137738,6 +137818,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/webtv-redialed--redialed-service",
       "stars": 36,
       "quality": "bronze"
+    },
+    {
+      "name": "arthurdanjou--artsite",
+      "description": "\ud83c\udf0d My personal website, my portfolio, and my blog. \ud83d\ude80 Built and powered by Nuxt Stack (Content, Hub, Studio, UI) & Nitro",
+      "author": "ArthurDanjou",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arthurdanjou--artsite",
+      "stars": 36,
+      "quality": "silver"
     },
     {
       "name": "aregowe--magento2-module-polyshell-protection",
@@ -140076,6 +140164,22 @@
       "quality": "silver"
     },
     {
+      "name": "larry-xue--react-admin-dashboard",
+      "description": "A React admin dashboard template developed with React 18 + TypeScript + Vite 5 + Ant Design v5 + React Router v6 + Zustand v4 + Ant Design Charts.",
+      "author": "larry-xue",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/larry-xue--react-admin-dashboard",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
+      "name": "edisonlee0212--evoengine",
+      "description": "An early-stage, cross-platform interactive application and rendering framework.",
+      "author": "edisonlee0212",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/edisonlee0212--evoengine",
+      "stars": 35,
+      "quality": "bronze"
+    },
+    {
       "name": "r44vc0rp--itui",
       "description": "itui",
       "author": "R44VC0RP",
@@ -142156,6 +142260,14 @@
       "quality": "silver"
     },
     {
+      "name": "j-clemons--dbt-language-server",
+      "description": "LSP for dbt",
+      "author": "j-clemons",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/j-clemons--dbt-language-server",
+      "stars": 34,
+      "quality": "bronze"
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI",
       "author": "RajjjAryan",
@@ -144162,6 +144274,54 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ideallab--engibench",
       "stars": 33,
       "quality": "silver"
+    },
+    {
+      "name": "specklesystems--speckle-sharp-sdk",
+      "description": "The Speckle SDK/Core for V3",
+      "author": "specklesystems",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/specklesystems--speckle-sharp-sdk",
+      "stars": 33,
+      "quality": "bronze"
+    },
+    {
+      "name": "onebusaway--wayfinder",
+      "description": "Modern web app frontend for OneBusAway built in JavaScript with SvelteKit",
+      "author": "OneBusAway",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onebusaway--wayfinder",
+      "stars": 33,
+      "quality": "gold"
+    },
+    {
+      "name": "d4vidsha--scheduler",
+      "description": "Automatically schedule tasks and see it in a calendar view.",
+      "author": "d4vidsha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/d4vidsha--scheduler",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
+      "name": "gitbutlerapp--gitbutler-docs",
+      "description": "GitButler Documentation",
+      "author": "gitbutlerapp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gitbutlerapp--gitbutler-docs",
+      "stars": 33,
+      "quality": "bronze"
+    },
+    {
+      "name": "d4vidsha--scheduler",
+      "description": "Automatically schedule tasks and see it in a calendar view.",
+      "author": "d4vidsha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/d4vidsha--scheduler",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
+      "name": "gitbutlerapp--gitbutler-docs",
+      "description": "GitButler Documentation",
+      "author": "gitbutlerapp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gitbutlerapp--gitbutler-docs",
+      "stars": 33,
+      "quality": "bronze"
     },
     {
       "name": "skywind3000--gamesample",
@@ -148956,6 +149116,30 @@
       "quality": "gold"
     },
     {
+      "name": "orange-opensource--ouds-ios",
+      "description": "A Swift Package of SwiftUI components library for Orange developers with Orange Unified Design System. Build Sharper. Ship faster. Perform better.",
+      "author": "Orange-OpenSource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/orange-opensource--ouds-ios",
+      "stars": 31,
+      "quality": "silver"
+    },
+    {
+      "name": "idreamshen--esphome-uart-vrf",
+      "description": "\u4e2d\u592e\u7a7a\u8c03\u7f51\u5173 VRF ESPHome \u4e32\u53e3\u901a\u4fe1\u56fa\u4ef6\u3002\u652f\u6301\u5fb7\u59c6\u745eDEMRY\u3001\u5e73\u5934\u718aPTXZN\u3001\u4e2d\u5f18\u7cfb\u5217\u3002",
+      "author": "idreamshen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/idreamshen--esphome-uart-vrf",
+      "stars": 31,
+      "quality": "silver"
+    },
+    {
+      "name": "orange-opensource--ouds-ios",
+      "description": "A Swift Package of SwiftUI components library for Orange developers with Orange Unified Design System. Build Sharper. Ship faster. Perform better.",
+      "author": "Orange-OpenSource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/orange-opensource--ouds-ios",
+      "stars": 31,
+      "quality": "silver"
+    },
+    {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
       "description": "Curated list of awesome Bangladeshi FOSS \u2014 open source apps, libraries, tools, and platforms built by developers from Bangladesh",
       "author": "sharf-shawon",
@@ -151752,6 +151936,14 @@
       "description": "Lucientes is a simple web service for converting HTML files into high-quality images",
       "author": "maximiliana-dev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maximiliana-dev--lucientes",
+      "stars": 30,
+      "quality": "silver"
+    },
+    {
+      "name": "daley-mottley--portfolio",
+      "description": "Feel free to rate my portfolio page by giving it a \u2b50 if you like it. Thank you, I appreciate your feedback!",
+      "author": "daley-mottley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/daley-mottley--portfolio",
       "stars": 30,
       "quality": "silver"
     },
@@ -154570,6 +154762,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cortesi--ruskel",
       "stars": 29,
       "quality": "silver"
+    },
+    {
+      "name": "storybookjs--vite-plugin-storybook-nextjs",
+      "description": "vite-plugin-storybook-nextjs",
+      "author": "storybookjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/storybookjs--vite-plugin-storybook-nextjs",
+      "stars": 29,
+      "quality": "bronze"
+    },
+    {
+      "name": "storybookjs--vite-plugin-storybook-nextjs",
+      "description": "vite-plugin-storybook-nextjs",
+      "author": "storybookjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/storybookjs--vite-plugin-storybook-nextjs",
+      "stars": 29,
+      "quality": "bronze"
     },
     {
       "name": "ahekot--comfyui-hyworld2",
@@ -157976,6 +158184,38 @@
       "description": "chronon",
       "author": "zipline-ai",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zipline-ai--chronon",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "kongfoo-ai--internta",
+      "description": "Multi-agent AI Teaching Assistant Learns from Limited Data",
+      "author": "kongfoo-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kongfoo-ai--internta",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "query-farm--crypto",
+      "description": "DuckDB Extension for cryptographic hash functions and HMAC",
+      "author": "Query-farm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/query-farm--crypto",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "dalafiarisamuel--unsplash-kmp",
+      "description": "A project to display images from https://unsplash.com using Kotlin Multiplatform",
+      "author": "dalafiarisamuel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dalafiarisamuel--unsplash-kmp",
+      "stars": 28,
+      "quality": "silver"
+    },
+    {
+      "name": "semoss--semoss-ui",
+      "description": "semoss-ui",
+      "author": "SEMOSS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/semoss--semoss-ui",
       "stars": 28,
       "quality": "silver"
     },
@@ -173020,6 +173260,14 @@
       "quality": "gold"
     },
     {
+      "name": "oxc-project--bench-transformer",
+      "description": "Bench transformer and isolated declarations",
+      "author": "oxc-project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oxc-project--bench-transformer",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -186588,6 +186836,14 @@
       "quality": "silver"
     },
     {
+      "name": "gropaul--dash-ui",
+      "description": "dash-ui",
+      "author": "gropaul",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gropaul--dash-ui",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs.",
       "author": "develite98",
@@ -191138,6 +191394,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hugopl--batata",
       "stars": 20,
       "quality": "silver"
+    },
+    {
+      "name": "programaconnosotros--pcn-website",
+      "description": "Website de PCN, comunidad de apasionados por el software. Si te gustar\u00eda colaborar, contactanos.",
+      "author": "programaconnosotros",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/programaconnosotros--pcn-website",
+      "stars": 20,
+      "quality": "bronze"
+    },
+    {
+      "name": "vigoo--test-r",
+      "description": "A test framework for Rust",
+      "author": "vigoo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vigoo--test-r",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "programaconnosotros--pcn-website",
+      "description": "Website de PCN, comunidad de apasionados por el software. Si te gustar\u00eda colaborar, contactanos.",
+      "author": "programaconnosotros",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/programaconnosotros--pcn-website",
+      "stars": 20,
+      "quality": "bronze"
     },
     {
       "name": "tomoyaf--logifai",
@@ -201188,6 +201468,14 @@
       "quality": "silver"
     },
     {
+      "name": "dmgerman--org-roam-gt",
+      "description": "Faster finding of nodes and better templates",
+      "author": "dmgerman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dmgerman--org-roam-gt",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -207452,6 +207740,22 @@
       "quality": "gold"
     },
     {
+      "name": "orange-opensource--ouds-android",
+      "description": " Android library of reusable graphical components for Orange Unified Design System",
+      "author": "Orange-OpenSource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/orange-opensource--ouds-android",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "carcutter--cars-webplayer-js",
+      "description": "WebPlayer, a framework-agnostic web component that seamlessly integrates CarCutter\u2019s immersive car showrooms into any website. This decision reflects our dedication to transparency, collaboration, and",
+      "author": "carcutter",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/carcutter--cars-webplayer-js",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -213586,6 +213890,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sunny352--docker",
       "stars": 16,
       "quality": "silver"
+    },
+    {
+      "name": "heroesofcode--swift-explorer",
+      "description": "Desktop tool to quickly explore and analyze Swift code",
+      "author": "heroesofcode",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/heroesofcode--swift-explorer",
+      "stars": 16,
+      "quality": "gold"
     },
     {
       "name": "vm--nila-code",
@@ -226920,6 +227232,22 @@
       "description": "docs-core",
       "author": "Portkey-AI",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/portkey-ai--docs-core",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "temporalio--s2s-proxy",
+      "description": "s2s-proxy is a service that intercepts and forwards requests between two Temporal servers.",
+      "author": "temporalio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/temporalio--s2s-proxy",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
+      "name": "jaewone--icon-bullet-helper",
+      "description": "Helps you styling checkboxes in preview mode.",
+      "author": "jaewonE",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaewone--icon-bullet-helper",
       "stars": 14,
       "quality": "silver"
     },
