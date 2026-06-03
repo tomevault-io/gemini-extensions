@@ -7,11 +7,11 @@ The Grafana Faro Flutter SDK, part of the Grafana Faro project, is a highly conf
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [grafana/faro-flutter-sdk](https://github.com/grafana/faro-flutter-sdk).
+Original source: `AGENTS.md` in [grafana/faro-flutter-sdk](https://github.com/grafana/faro-flutter-sdk).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
