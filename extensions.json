@@ -73596,6 +73596,22 @@
       "quality": "silver"
     },
     {
+      "name": "teczer--fast-expo-app",
+      "description": "\u26a1 Fast Expo App - React Native boilerplate CLI for rapid mobile app development. Instantly scaffold Expo projects with TypeScript, Nativewind, Unistyles, Expo Router, MMKV storage, React Query, Jest t",
+      "author": "Teczer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/teczer--fast-expo-app",
+      "stars": 98,
+      "quality": "gold"
+    },
+    {
+      "name": "martincostello--openapi-extensions",
+      "description": "Extensions for Microsoft.AspNetCore.OpenApi",
+      "author": "martincostello",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/martincostello--openapi-extensions",
+      "stars": 98,
+      "quality": "silver"
+    },
+    {
       "name": "livekit--livekit-wakeword",
       "description": "An open-source wake word library for creating voice-enabled applications.",
       "author": "livekit",
@@ -74304,6 +74320,14 @@
       "description": "Create and import e-invoices with ERPNext.",
       "author": "alyf-de",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alyf-de--eu-einvoice",
+      "stars": 96,
+      "quality": "silver"
+    },
+    {
+      "name": "t94j0--adexplorersnapshot-rs",
+      "description": "adexplorersnapshot-rs",
+      "author": "t94j0",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/t94j0--adexplorersnapshot-rs",
       "stars": 96,
       "quality": "silver"
     },
@@ -75780,6 +75804,22 @@
       "quality": "silver"
     },
     {
+      "name": "openhwp--openhwp",
+      "description": "An all-in-one project to create a library, viewer, and editor for HWP documents",
+      "author": "openhwp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openhwp--openhwp",
+      "stars": 93,
+      "quality": "silver"
+    },
+    {
+      "name": "librespark--libredomains",
+      "description": "\u514d\u8d39\u516c\u76ca\u4e8c\u7ea7\u57df\u540d\uff0c\u70b9\u70b9star~",
+      "author": "LibreSpark",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/librespark--libredomains",
+      "stars": 93,
+      "quality": "silver"
+    },
+    {
       "name": "frumu-ai--tandem",
       "description": "Your AI coworker for any folder: local-first, secure by design, cross-platform, and built for supervised automation.",
       "author": "frumu-ai",
@@ -76594,6 +76634,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marijnbent--obsidian-print",
       "stars": 91,
       "quality": "bronze"
+    },
+    {
+      "name": "wimpysworld--stream-sprout",
+      "description": "Restream a video source to multiple destinations such as Twitch, YouTube, Owncast and Peertube \ud83d\udce1",
+      "author": "wimpysworld",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wimpysworld--stream-sprout",
+      "stars": 91,
+      "quality": "silver"
+    },
+    {
+      "name": "moganlab--goldfish",
+      "description": "Goldfish Scheme / \u91d1\u9c7cScheme",
+      "author": "MoganLab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/moganlab--goldfish",
+      "stars": 91,
+      "quality": "silver"
     },
     {
       "name": "ubundi--claw-journal",
@@ -77668,6 +77724,14 @@
       "quality": "silver"
     },
     {
+      "name": "oboard--mocket",
+      "description": "A web framework for MoonBit.",
+      "author": "oboard",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oboard--mocket",
+      "stars": 89,
+      "quality": "silver"
+    },
+    {
       "name": "peteromallet--vibecomfy",
       "description": "VibeComfy",
       "author": "peteromallet",
@@ -78040,6 +78104,22 @@
       "description": "Safe, fast, small TCP/UDP-over-QUIC tunnel written in Rust",
       "author": "ombrac",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ombrac--ombrac",
+      "stars": 88,
+      "quality": "silver"
+    },
+    {
+      "name": "ttsds--ttsds",
+      "description": "The TTSDS benchmark evaluates synthetic speech quality by considering prosody, speaker identity, and intelligibility, comparing these factors with real speech and noise datasets.",
+      "author": "ttsds",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttsds--ttsds",
+      "stars": 88,
+      "quality": "silver"
+    },
+    {
+      "name": "ttsds--ttsds",
+      "description": "The TTSDS benchmark evaluates synthetic speech quality by considering prosody, speaker identity, and intelligibility, comparing these factors with real speech and noise datasets.",
+      "author": "ttsds",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ttsds--ttsds",
       "stars": 88,
       "quality": "silver"
     },
@@ -78594,6 +78674,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bitdriftlabs--pulse",
       "stars": 87,
       "quality": "bronze"
+    },
+    {
+      "name": "maxandron--goplements-nvim",
+      "description": "Visualize Go struct and interface implementations",
+      "author": "maxandron",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maxandron--goplements-nvim",
+      "stars": 87,
+      "quality": "silver"
     },
     {
       "name": "cohen-liel--hivemind",
@@ -82084,6 +82172,14 @@
       "quality": "silver"
     },
     {
+      "name": "dsummersl--sn2md",
+      "description": "Documents (images, pdfs, supernote) to Markdown",
+      "author": "dsummersl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dsummersl--sn2md",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
       "name": "pureween--polypilot",
       "description": "PolyPilot",
       "author": "PureWeen",
@@ -82664,6 +82760,14 @@
       "description": "\u73b0\u4ee3\u5316 Android \u97f3\u4e50\u64ad\u653e\u5668 | Jetpack Compose + Media3 + Koin",
       "author": "yangSpica27",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yangspica27--spicamusic-android",
+      "stars": 81,
+      "quality": "silver"
+    },
+    {
+      "name": "tgoodwin--kamera",
+      "description": "kamera is a simulation toolkit for observing, analyzing, and verifying the behavior of Kubernetes control planes.",
+      "author": "tgoodwin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tgoodwin--kamera",
       "stars": 81,
       "quality": "silver"
     },
@@ -88744,6 +88848,14 @@
       "description": "Schema-driven, scalable, cloud-native, batteries-included GraphQL, backed by Elasticsearch/OpenSearch",
       "author": "block",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/block--elasticgraph",
+      "stars": 72,
+      "quality": "silver"
+    },
+    {
+      "name": "hyp3r00t--celestialdocs",
+      "description": "CelestialDocs is a modern documentation platform and Astro template designed for scalable, developer-friendly knowledge systems. It combines structured navigation, hybrid content generation, MDX suppo",
+      "author": "HYP3R00T",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyp3r00t--celestialdocs",
       "stars": 72,
       "quality": "silver"
     },
@@ -95644,6 +95756,14 @@
       "quality": "silver"
     },
     {
+      "name": "powerappsdarren--powerfxsnippets",
+      "description": "My bag of tricks for the Power Platform, mostly canvas Power Apps (PowerFx & YAML)",
+      "author": "PowerAppsDarren",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/powerappsdarren--powerfxsnippets",
+      "stars": 64,
+      "quality": "gold"
+    },
+    {
       "name": "claude-world--claude-skill-antivirus",
       "description": "Security scanner for Claude Code Skills \u2014 9 engines detect malicious patterns, data exfiltration, dangerous ops across 71K+ skills",
       "author": "claude-world",
@@ -97396,6 +97516,22 @@
       "quality": "bronze"
     },
     {
+      "name": "mhackermsft--blazoraichat",
+      "description": "Simple chat app using Blazor, Semantic Kernel and Azure OpenAI",
+      "author": "mhackermsft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mhackermsft--blazoraichat",
+      "stars": 62,
+      "quality": "silver"
+    },
+    {
+      "name": "xavescor--smartbundle",
+      "description": "Just Code, No Configs. The Library Bundler That Respects Your Time",
+      "author": "XaveScor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xavescor--smartbundle",
+      "stars": 62,
+      "quality": "silver"
+    },
+    {
       "name": "hunvreus--pullnotes",
       "description": "A Notion-like editor for your GitHub repos.",
       "author": "hunvreus",
@@ -98272,6 +98408,14 @@
       "description": "g(ULP) core backend and plugins",
       "author": "mentat-is",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mentat-is--gulp",
+      "stars": 61,
+      "quality": "silver"
+    },
+    {
+      "name": "bedrock-crustaceans--chorus",
+      "description": "Minecraft: Bedrock server software, open source and written in Rust",
+      "author": "bedrock-crustaceans",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bedrock-crustaceans--chorus",
       "stars": 61,
       "quality": "silver"
     },
@@ -103524,6 +103668,22 @@
       "quality": "bronze"
     },
     {
+      "name": "lightningdevkit--ldk-server",
+      "description": "LDK Server is a fully-functional Lightning node in daemon form.",
+      "author": "lightningdevkit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lightningdevkit--ldk-server",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "lightningdevkit--ldk-server",
+      "description": "LDK Server is a fully-functional Lightning node in daemon form.",
+      "author": "lightningdevkit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lightningdevkit--ldk-server",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
       "name": "alonw0--llm-docs-optimizer",
       "description": "A Claude Code plugin that optimizes documentation for AI coding assistants like Claude, GitHub Copilot, and other LLMs. Makes your docs more effective through c7score optimization, llms.txt generation",
       "author": "alonw0",
@@ -104786,6 +104946,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pnsk-lab--hikkaku",
       "stars": 55,
       "quality": "silver"
+    },
+    {
+      "name": "xenoatom--xenoatom-logging",
+      "description": "Zero-alloc structured logging for .NET - fast formatters, rich terminal visuals, production-ready file & JSON sinks.",
+      "author": "XenoAtom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xenoatom--xenoatom-logging",
+      "stars": 55,
+      "quality": "bronze"
+    },
+    {
+      "name": "xenoatom--xenoatom-logging",
+      "description": "Zero-alloc structured logging for .NET - fast formatters, rich terminal visuals, production-ready file & JSON sinks.",
+      "author": "XenoAtom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xenoatom--xenoatom-logging",
+      "stars": 55,
+      "quality": "silver"
+    },
+    {
+      "name": "caoccao--bettermediainfo",
+      "description": "A better GUI for MediaInfo.",
+      "author": "caoccao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caoccao--bettermediainfo",
+      "stars": 55,
+      "quality": "gold"
+    },
+    {
+      "name": "xenoatom--xenoatom-logging",
+      "description": "Zero-alloc structured logging for .NET - fast formatters, rich terminal visuals, production-ready file & JSON sinks.",
+      "author": "XenoAtom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xenoatom--xenoatom-logging",
+      "stars": 55,
+      "quality": "bronze"
+    },
+    {
+      "name": "caoccao--bettermediainfo",
+      "description": "A better GUI for MediaInfo.",
+      "author": "caoccao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caoccao--bettermediainfo",
+      "stars": 55,
+      "quality": "gold"
     },
     {
       "name": "cxlinux-ai--cx-core",
@@ -110372,6 +110572,14 @@
       "quality": "gold"
     },
     {
+      "name": "terraconstructs--base",
+      "description": "TerraConstructs",
+      "author": "TerraConstructs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/terraconstructs--base",
+      "stars": 51,
+      "quality": "silver"
+    },
+    {
       "name": "shashankswe2020-ux--whoop-mcp",
       "description": "MCP server to connect to whoop API",
       "author": "shashankswe2020-ux",
@@ -113888,6 +114096,14 @@
       "description": "Timesheets for freelancers made easy and efficient",
       "author": "clockobot",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/clockobot--clockobot",
+      "stars": 49,
+      "quality": "silver"
+    },
+    {
+      "name": "fehbari--sunshine-scripts",
+      "description": "Scripts for Sunshine game stream host.",
+      "author": "fehbari",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fehbari--sunshine-scripts",
       "stars": 49,
       "quality": "silver"
     },
@@ -242964,6 +243180,14 @@
       "quality": "silver"
     },
     {
+      "name": "yaodub--cast",
+      "description": "Your agent team, on your machine. Open-source harness for multi-user Claude agents.",
+      "author": "yaodub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yaodub--cast",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -266306,6 +266530,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ysx12138--business-analysis-learning-agent-skill",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "productdevbook--shadcn-htmx",
+      "description": "shadcn-style UI components for htmx v4 + Tailwind v4 \u2014 82 web-standards components in 5 flavours (Hono JSX, Jinja2, Go, Phoenix, raw HTML), WAI-ARIA accessible, with a flavour-aware CLI.",
+      "author": "productdevbook",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/productdevbook--shadcn-htmx",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "sikaka--poe2radar",
+      "description": "POE2Radar",
+      "author": "Sikaka",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sikaka--poe2radar",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
