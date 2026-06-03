@@ -1,0 +1,26 @@
+# litestar-fullstack-inertia
+
+> Tome by [litestar-org](https://github.com/litestar-org/litestar-fullstack-inertia) — distributed by [TomeVault](https://tomevault.io)
+
+A fully-functional reference application using Litestar, Inertia JS, and Advanced Alchemy
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [litestar-org/litestar-fullstack-inertia](https://github.com/litestar-org/litestar-fullstack-inertia).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/litestar-org/litestar-fullstack-inertia](https://github.com/litestar-org/litestar-fullstack-inertia)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-q -->
