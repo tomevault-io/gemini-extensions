@@ -73580,6 +73580,14 @@
       "quality": "bronze"
     },
     {
+      "name": "nichsedge--idx-bei",
+      "description": "Indonesia Stock Exchange (Bursa Efek Indonesia) Scraper",
+      "author": "nichsedge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nichsedge--idx-bei",
+      "stars": 98,
+      "quality": "silver"
+    },
+    {
       "name": "livekit--livekit-wakeword",
       "description": "An open-source wake word library for creating voice-enabled applications.",
       "author": "livekit",
@@ -73898,6 +73906,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/whetstoneresearch--doppler",
       "stars": 97,
       "quality": "bronze"
+    },
+    {
+      "name": "anyproto--anytype-api",
+      "description": "Start building with Anytype's API. The developer portal for extending Anytype through powerful integrations.",
+      "author": "anyproto",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anyproto--anytype-api",
+      "stars": 97,
+      "quality": "silver"
+    },
+    {
+      "name": "jigsaw-code--sensemaking-tools",
+      "description": "sensemaking-tools",
+      "author": "Jigsaw-Code",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jigsaw-code--sensemaking-tools",
+      "stars": 97,
+      "quality": "silver"
     },
     {
       "name": "espennilsen--pi",
@@ -74264,6 +74288,14 @@
       "description": "Netbox plugin to sync data between LibreNMS and Netbox",
       "author": "bonzo81",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bonzo81--netbox-librenms-plugin",
+      "stars": 96,
+      "quality": "silver"
+    },
+    {
+      "name": "alyf-de--eu-einvoice",
+      "description": "Create and import e-invoices with ERPNext.",
+      "author": "alyf-de",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alyf-de--eu-einvoice",
       "stars": 96,
       "quality": "silver"
     },
@@ -76980,6 +77012,14 @@
       "quality": "gold"
     },
     {
+      "name": "scipy--scipy-stubs",
+      "description": "Official type stubs for SciPy",
+      "author": "scipy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/scipy--scipy-stubs",
+      "stars": 90,
+      "quality": "silver"
+    },
+    {
       "name": "miroapp--miro-ai",
       "description": "Official Miro AI developer tools and integrations. Includes MCP server configuration, Claude Code skills, and resources for building AI-powered experiences with Miro boards.",
       "author": "miroapp",
@@ -78532,6 +78572,14 @@
       "quality": "silver"
     },
     {
+      "name": "bitdriftlabs--pulse",
+      "description": "bitdrift observability proxy",
+      "author": "bitdriftlabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bitdriftlabs--pulse",
+      "stars": 87,
+      "quality": "bronze"
+    },
+    {
       "name": "cohen-liel--hivemind",
       "description": "One prompt. A full AI engineering team. Go lie on the couch. \ud83e\udde0",
       "author": "cohen-liel",
@@ -79052,6 +79100,14 @@
       "quality": "silver"
     },
     {
+      "name": "nginx--documentation",
+      "description": "Public source for docs.nginx.com",
+      "author": "nginx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nginx--documentation",
+      "stars": 86,
+      "quality": "gold"
+    },
+    {
       "name": "mag123c--toktrack",
       "description": "Ultra-fast token & cost tracker for LLM Token Usage (e.g. Claude Code)",
       "author": "mag123c",
@@ -79560,6 +79616,38 @@
       "description": "Orb network observability agent, part of the NetBox ecosystem and developed by NetBox Labs",
       "author": "netboxlabs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/netboxlabs--orb-agent",
+      "stars": 85,
+      "quality": "silver"
+    },
+    {
+      "name": "automattic--remote-data-blocks",
+      "description": "Remote Data Blocks: a WordPress plugin for creating flexible, data-enriched content with remote data integration",
+      "author": "Automattic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/automattic--remote-data-blocks",
+      "stars": 85,
+      "quality": "bronze"
+    },
+    {
+      "name": "automattic--remote-data-blocks",
+      "description": "Remote Data Blocks: a WordPress plugin for creating flexible, data-enriched content with remote data integration",
+      "author": "Automattic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/automattic--remote-data-blocks",
+      "stars": 85,
+      "quality": "bronze"
+    },
+    {
+      "name": "kristofferr--iptvchecker-python",
+      "description": "Script that goes through a playlist to check IPTV channels",
+      "author": "kristofferR",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kristofferr--iptvchecker-python",
+      "stars": 85,
+      "quality": "silver"
+    },
+    {
+      "name": "automattic--remote-data-blocks",
+      "description": "Remote Data Blocks: a WordPress plugin for creating flexible, data-enriched content with remote data integration",
+      "author": "Automattic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/automattic--remote-data-blocks",
       "stars": 85,
       "quality": "silver"
     },
@@ -87284,6 +87372,14 @@
       "quality": "bronze"
     },
     {
+      "name": "ircam-partiels--partiels",
+      "description": "Partiels is an audio analysis application that allows you to explore the content and characteristics of sounds",
+      "author": "Ircam-Partiels",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ircam-partiels--partiels",
+      "stars": 74,
+      "quality": "silver"
+    },
+    {
       "name": "moneat-io--moneat",
       "description": "moneat",
       "author": "moneat-io",
@@ -88056,6 +88152,14 @@
       "description": "A Swift SDK for Anthropic's Claude API",
       "author": "GeorgeLyon",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/georgelyon--swiftclaude",
+      "stars": 73,
+      "quality": "silver"
+    },
+    {
+      "name": "s-stolz--algotrader",
+      "description": "Custom Trading App for Algorithmic Trading",
+      "author": "s-stolz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/s-stolz--algotrader",
       "stars": 73,
       "quality": "silver"
     },
@@ -91668,6 +91772,30 @@
       "quality": "silver"
     },
     {
+      "name": "melvynx--next-zod-route",
+      "description": "Create zod-safe route for your Next.js App Directory app",
+      "author": "Melvynx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/melvynx--next-zod-route",
+      "stars": 68,
+      "quality": "bronze"
+    },
+    {
+      "name": "melvynx--next-zod-route",
+      "description": "Create zod-safe route for your Next.js App Directory app",
+      "author": "Melvynx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/melvynx--next-zod-route",
+      "stars": 68,
+      "quality": "bronze"
+    },
+    {
+      "name": "daniel-lobo--winehooks",
+      "description": "WineHooks",
+      "author": "Daniel-Lobo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/daniel-lobo--winehooks",
+      "stars": 68,
+      "quality": "silver"
+    },
+    {
       "name": "simonkurtz-msft--drawio-mcp-server",
       "description": "A Model Context Protocol (MCP) server for programmatic diagram generation using Draw.io (Diagrams.net). This server generates Draw.io XML directly \u2014 no browser extension or Draw.io instance required.",
       "author": "simonkurtz-MSFT",
@@ -92640,6 +92768,22 @@
       "description": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request.",
       "author": "aiKrice",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aikrice--homebrew-badgetizr",
+      "stars": 67,
+      "quality": "silver"
+    },
+    {
+      "name": "fluid-design-io--vision-ui",
+      "description": "VisionOS UI built with React \u269b\ufe0f",
+      "author": "fluid-design-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluid-design-io--vision-ui",
+      "stars": 67,
+      "quality": "silver"
+    },
+    {
+      "name": "fluid-design-io--vision-ui",
+      "description": "VisionOS UI built with React \u269b\ufe0f",
+      "author": "fluid-design-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluid-design-io--vision-ui",
       "stars": 67,
       "quality": "silver"
     },
@@ -94328,6 +94472,14 @@
       "description": "Cache Library for Go",
       "author": "catatsuy",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/catatsuy--cache",
+      "stars": 65,
+      "quality": "silver"
+    },
+    {
+      "name": "kakasoo--deepstricttypes",
+      "description": "Utility Types to quickly query and Omit, Pick keys inside nested arrays and objects",
+      "author": "kakasoo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kakasoo--deepstricttypes",
       "stars": 65,
       "quality": "silver"
     },
@@ -96192,6 +96344,14 @@
       "description": "Sound static analysis for the masses.",
       "author": "soteria-tools",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/soteria-tools--soteria",
+      "stars": 63,
+      "quality": "silver"
+    },
+    {
+      "name": "mikker--sprinkles",
+      "description": "Customize any website with your own JS and CSS",
+      "author": "mikker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikker--sprinkles",
       "stars": 63,
       "quality": "silver"
     },
@@ -99160,6 +99320,14 @@
       "description": "Golang RabbitMQ client for AMQP 1.0",
       "author": "rabbitmq",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rabbitmq--rabbitmq-amqp-go-client",
+      "stars": 60,
+      "quality": "silver"
+    },
+    {
+      "name": "honghaoz--choutiui",
+      "description": "ChouTiUI is a Swift framework for building delightful user interfaces on macOS and iOS.",
+      "author": "honghaoz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/honghaoz--choutiui",
       "stars": 60,
       "quality": "silver"
     },
@@ -103132,6 +103300,38 @@
       "quality": "silver"
     },
     {
+      "name": "genlayerlabs--genlayer-js",
+      "description": "genlayer-js",
+      "author": "genlayerlabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genlayerlabs--genlayer-js",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "codescan-ai--codescan",
+      "description": "CodeScanAI is an open source tool that utilizes powerful AI models (OpenAI, Gemini, and even self-hosted servers) to scan your codebase for possible security vulnerabilities.",
+      "author": "codescan-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codescan-ai--codescan",
+      "stars": 56,
+      "quality": "silver"
+    },
+    {
+      "name": "pathoplexus--pathoplexus",
+      "description": "An open-source pathogen sequence database dedicated to equitable sharing, transparent governance, & empowering global public health.",
+      "author": "pathoplexus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pathoplexus--pathoplexus",
+      "stars": 56,
+      "quality": "bronze"
+    },
+    {
+      "name": "pathoplexus--pathoplexus",
+      "description": "An open-source pathogen sequence database dedicated to equitable sharing, transparent governance, & empowering global public health.",
+      "author": "pathoplexus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pathoplexus--pathoplexus",
+      "stars": 56,
+      "quality": "bronze"
+    },
+    {
       "name": "alonw0--llm-docs-optimizer",
       "description": "A Claude Code plugin that optimizes documentation for AI coding assistants like Claude, GitHub Copilot, and other LLMs. Makes your docs more effective through c7score optimization, llms.txt generation",
       "author": "alonw0",
@@ -104386,6 +104586,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/goberomsu--metadata-auto-classifier",
       "stars": 55,
       "quality": "gold"
+    },
+    {
+      "name": "pnsk-lab--hikkaku",
+      "description": "Let AI create Scratch projects, via TypeScript",
+      "author": "pnsk-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pnsk-lab--hikkaku",
+      "stars": 55,
+      "quality": "silver"
     },
     {
       "name": "cxlinux-ai--cx-core",
