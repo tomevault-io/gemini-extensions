@@ -7,11 +7,11 @@ AgentX - Digital Force for Software Delivery
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jnPiyush/AgentX](https://github.com/jnPiyush/AgentX).
+Original source: `CLAUDE.md` in [jnPiyush/AgentX](https://github.com/jnPiyush/AgentX).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
