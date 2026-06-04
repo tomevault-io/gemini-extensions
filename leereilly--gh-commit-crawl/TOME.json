@@ -4,7 +4,7 @@
   "repo": "gh-commit-crawl",
   "description": "A GitHub CLI extension to generate a Build-themed GitHub contribution graph. But you'll have to work for it!",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/leereilly/gh-commit-crawl",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-04T04:31:42Z"
+  "distributed_at": "2026-06-04T04:32:46Z"
 }
