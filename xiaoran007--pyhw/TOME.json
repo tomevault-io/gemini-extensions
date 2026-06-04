@@ -4,7 +4,7 @@
   "repo": "pyhw",
   "description": "pyhw, a neofetch-like command line tool for fetching system information but written mostly in Python.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/xiaoran007/pyhw",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-04T00:34:41Z"
+  "distributed_at": "2026-06-04T00:43:32Z"
 }
