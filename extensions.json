@@ -166772,6 +166772,22 @@
       "quality": "silver"
     },
     {
+      "name": "eben60--shareadd-jl",
+      "description": "This Julia package helps to reduce clutter in your main shared environment by making it easy to use multiple shared environments.",
+      "author": "Eben60",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eben60--shareadd-jl",
+      "stars": 26,
+      "quality": "silver"
+    },
+    {
+      "name": "cipherstash--encrypt-query-language",
+      "description": "Index and search encrypted data in PostgreSQL with SQL",
+      "author": "cipherstash",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cipherstash--encrypt-query-language",
+      "stars": 26,
+      "quality": "gold"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -170812,6 +170828,14 @@
       "quality": "bronze"
     },
     {
+      "name": "analytiq-hub--doc-router",
+      "description": "doc-router",
+      "author": "analytiq-hub",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/analytiq-hub--doc-router",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -174744,6 +174768,14 @@
       "description": "A portable library which implements the core functionality of RMCS.",
       "author": "Alliance-Algorithm",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alliance-algorithm--librmcs",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "dvrkn--yabe",
+      "description": "YAML separator tool",
+      "author": "dvrkn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dvrkn--yabe",
       "stars": 24,
       "quality": "silver"
     },
@@ -183988,6 +184020,30 @@
       "quality": "silver"
     },
     {
+      "name": "arrrrny--zikzak-inappwebview",
+      "description": "A Flutter plugin that allows you to add an inline webview, to use a headless webview, and to open an in-app browser window.",
+      "author": "arrrrny",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arrrrny--zikzak-inappwebview",
+      "stars": 22,
+      "quality": "bronze"
+    },
+    {
+      "name": "arrrrny--zikzak-inappwebview",
+      "description": "A Flutter plugin that allows you to add an inline webview, to use a headless webview, and to open an in-app browser window.",
+      "author": "arrrrny",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arrrrny--zikzak-inappwebview",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "tkhq--demo-embedded-wallet",
+      "description": "demo-embedded-wallet",
+      "author": "tkhq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tkhq--demo-embedded-wallet",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -188530,6 +188586,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rudavko--cortl",
       "stars": 21,
       "quality": "bronze"
+    },
+    {
+      "name": "py-typedlogic--py-typedlogic",
+      "description": "Logic plus python types",
+      "author": "py-typedlogic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/py-typedlogic--py-typedlogic",
+      "stars": 21,
+      "quality": "silver"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -193160,6 +193224,14 @@
       "description": "A tool to view and download Jupiter DCA data",
       "author": "mcintyre94",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mcintyre94--jupalyse",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "mckaywrigley--takeoff-notes-app-starter",
+      "description": "takeoff-notes-app-starter",
+      "author": "mckaywrigley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mckaywrigley--takeoff-notes-app-starter",
       "stars": 20,
       "quality": "silver"
     },
@@ -197848,6 +197920,22 @@
       "description": "A Swift package for displaying custom notifications on macOS, based on NotchNotification.",
       "author": "okooo5km",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/okooo5km--generalnotification",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "allenhutchison--podcast-rag",
+      "description": "Using a set of MP3 podcasts, create a RAG System to work with the model of your choice.",
+      "author": "allenhutchison",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allenhutchison--podcast-rag",
+      "stars": 19,
+      "quality": "gold"
+    },
+    {
+      "name": "vana-com--vana-smart-contracts",
+      "description": "vana-smart-contracts",
+      "author": "vana-com",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vana-com--vana-smart-contracts",
       "stars": 19,
       "quality": "silver"
     },
@@ -203368,6 +203456,14 @@
       "description": "A tool to interact with Evolution",
       "author": "dashpay",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dashpay--dash-evo-tool",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "mckaywrigley--takeoff-notes-app-complete",
+      "description": "takeoff-notes-app-complete",
+      "author": "mckaywrigley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mckaywrigley--takeoff-notes-app-complete",
       "stars": 18,
       "quality": "silver"
     },
@@ -209764,6 +209860,94 @@
       "quality": "silver"
     },
     {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "gold"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "bgaldino--rlm-base-dev",
+      "description": "rlm-base-dev",
+      "author": "bgaldino",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bgaldino--rlm-base-dev",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -215986,6 +216170,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/code-ix--gibbon-git-server",
       "stars": 16,
       "quality": "bronze"
+    },
+    {
+      "name": "csfrancis--proxytv",
+      "description": "An IPTV proxy ",
+      "author": "csfrancis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/csfrancis--proxytv",
+      "stars": 16,
+      "quality": "bronze"
+    },
+    {
+      "name": "hi-upchen--kobo-up",
+      "description": "A website reads Kobo database (sqlite) and shows the book and notes.",
+      "author": "hi-upchen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hi-upchen--kobo-up",
+      "stars": 16,
+      "quality": "silver"
     },
     {
       "name": "vm--nila-code",
@@ -222434,6 +222634,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sushichan044--dotfiles",
       "stars": 15,
       "quality": "bronze"
+    },
+    {
+      "name": "tk0miya--rubocop-rbs-inline",
+      "description": "rubocop-rbs_inline",
+      "author": "tk0miya",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tk0miya--rubocop-rbs-inline",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "proofsh--proofkit",
+      "description": "proofkit",
+      "author": "proofsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/proofsh--proofkit",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "proofsh--proofkit",
+      "description": "proofkit",
+      "author": "proofsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/proofsh--proofkit",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
+      "name": "proofsh--proofkit",
+      "description": "proofkit",
+      "author": "proofsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/proofsh--proofkit",
+      "stars": 15,
+      "quality": "gold"
     },
     {
       "name": "hyaway--hyaway",
@@ -229600,6 +229832,30 @@
       "description": "My home kubernetes GitOps repository.",
       "author": "Tanguille",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tanguille--cluster",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "fragcolor-xyz--crdt-lite",
+      "description": "KISS C++ & Rust (and more) CRDT experiments",
+      "author": "fragcolor-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fragcolor-xyz--crdt-lite",
+      "stars": 14,
+      "quality": "gold"
+    },
+    {
+      "name": "makeplane--developer-docs",
+      "description": "\ud83d\udcbb Official Plane Developer Documentation",
+      "author": "makeplane",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/makeplane--developer-docs",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "makeplane--developer-docs",
+      "description": "\ud83d\udcbb Official Plane Developer Documentation",
+      "author": "makeplane",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/makeplane--developer-docs",
       "stars": 14,
       "quality": "silver"
     },
@@ -238120,6 +238376,14 @@
       "description": "C# SDK for the ElevenLabs API -- text-to-speech and speech-to-text",
       "author": "tryAGI",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tryagi--elevenlabs",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "heysamtexas--django-oauth2-capture",
+      "description": "A Django app to capture OAuth2 tokens for non-authentication purposes, enabling your application to act on behalf of users across external platforms like GitHub, LinkedIn, and X (Twitter)",
+      "author": "heysamtexas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/heysamtexas--django-oauth2-capture",
       "stars": 13,
       "quality": "silver"
     },
@@ -247360,6 +247624,22 @@
       "description": "Bot which using Open AI to control Minecraft character",
       "author": "TravnikovDev",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/travnikovdev--minecraft-gpt",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "lichtblick-suite--asam-osi-converter",
+      "description": "Lichtblick extension which visualizes data following the standard of the ASAM Open Simulation Interface (ASAM OSI) using the native 3D panel of Lichtblick.",
+      "author": "lichtblick-suite",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lichtblick-suite--asam-osi-converter",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "lichtblick-suite--asam-osi-converter",
+      "description": "Lichtblick extension which visualizes data following the standard of the ASAM Open Simulation Interface (ASAM OSI) using the native 3D panel of Lichtblick.",
+      "author": "lichtblick-suite",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lichtblick-suite--asam-osi-converter",
       "stars": 12,
       "quality": "silver"
     },
@@ -257440,6 +257720,86 @@
       "description": "Web interface for building and managing your own agentic record label. ",
       "author": "recoupable",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/recoupable--chat",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "oculus-samples--unity-trackedkeyboard",
+      "description": "A comprehensive Unity sample project for the Tracked Keyboard feature, designed to demonstrate best practice UX for text input implementation across MR and VR.",
+      "author": "oculus-samples",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oculus-samples--unity-trackedkeyboard",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "cmeeren--fsharp-hotchocolate",
+      "description": "Support for F# types and nullability in HotChocolate",
+      "author": "cmeeren",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cmeeren--fsharp-hotchocolate",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "haasstefan--eslint-plugin-enforce-angular-signal-call",
+      "description": "An eslint plugin that enforces Angular signals to be accessed via their getter",
+      "author": "HaasStefan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haasstefan--eslint-plugin-enforce-angular-signal-call",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "yz0812--tabgo",
+      "description": "\u6d4f\u89c8\u5668tab\u81ea\u52a8\u5206\u7ec4",
+      "author": "yz0812",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yz0812--tabgo",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "atmoomen--untarnishedheart",
+      "description": "FF14 \u81ea\u52a8\u5766\u514b\u526f\u672c\u573a\u6570\u6210\u5c31",
+      "author": "AtmoOmen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atmoomen--untarnishedheart",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "oculus-samples--unity-trackedkeyboard",
+      "description": "A comprehensive Unity sample project for the Tracked Keyboard feature, designed to demonstrate best practice UX for text input implementation across MR and VR.",
+      "author": "oculus-samples",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oculus-samples--unity-trackedkeyboard",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "validatedpatterns--coco-pattern",
+      "description": "coco-pattern",
+      "author": "validatedpatterns",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/validatedpatterns--coco-pattern",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "oculus-samples--unity-trackedkeyboard",
+      "description": "A comprehensive Unity sample project for the Tracked Keyboard feature, designed to demonstrate best practice UX for text input implementation across MR and VR.",
+      "author": "oculus-samples",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oculus-samples--unity-trackedkeyboard",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "stickerdaniel--svg-reverse",
+      "description": "Reverse and animate svg paths with a single click.",
+      "author": "stickerdaniel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stickerdaniel--svg-reverse",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "jasperfx--jasperfx",
+      "description": "Foundational elements of the \"Critter Stack\"",
+      "author": "JasperFx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jasperfx--jasperfx",
       "stars": 11,
       "quality": "silver"
     },
@@ -271272,6 +271632,70 @@
       "description": "AdDroid OSS \u2014 self-hostable, GitOps-driven Meta ad operations console.",
       "author": "bb8ad8",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bb8ad8--addroid-oss",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "contextlab--llm-course",
+      "description": "Dartmouth undergraduate course on large language models and chatbots",
+      "author": "ContextLab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/contextlab--llm-course",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "beibingyangliuying--python-typst",
+      "description": "Python interface to generate Typst code.",
+      "author": "beibingyangliuying",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/beibingyangliuying--python-typst",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "starstone3--starstone3-github-io",
+      "description": "My plain website",
+      "author": "starstone3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/starstone3--starstone3-github-io",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "jvrck--openrouterlist",
+      "description": "OpenRouter model information",
+      "author": "jvrck",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jvrck--openrouterlist",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "contextlab--llm-course",
+      "description": "Dartmouth undergraduate course on large language models and chatbots",
+      "author": "ContextLab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/contextlab--llm-course",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "annertech--annertech-ddev",
+      "description": "A set of opinionated tools and configurations for DDEV",
+      "author": "Annertech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/annertech--annertech-ddev",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "annertech--annertech-ddev",
+      "description": "A set of opinionated tools and configurations for DDEV",
+      "author": "Annertech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/annertech--annertech-ddev",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "caiquemitsuoka--yokai",
+      "description": "A test runner and watcher designed for fast interactive development",
+      "author": "CaiqueMitsuoka",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caiquemitsuoka--yokai",
       "stars": 10,
       "quality": "silver"
     },
