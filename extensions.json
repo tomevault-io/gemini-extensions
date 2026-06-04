@@ -132964,6 +132964,14 @@
       "quality": "silver"
     },
     {
+      "name": "bitrix24--b24ui",
+      "description": "Bitrix24 UI-Kit for REST API web-application development",
+      "author": "bitrix24",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bitrix24--b24ui",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
       "name": "bobmatnyc--claude-mpm-skills",
       "description": "Curated collection of Claude Code skills for intelligent project development with progressive loading and toolchain detection",
       "author": "bobmatnyc",
@@ -134672,6 +134680,22 @@
       "description": "Hyprland utility that automates vibrance and night light control",
       "author": "amadejkastelic",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amadejkastelic--hyprlux",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "hamstudy--hamstudy-hambook",
+      "description": "HamStudy license manuals",
+      "author": "HamStudy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hamstudy--hamstudy-hambook",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "macropower--kclipper",
+      "description": "KCL + Helm = kclipper",
+      "author": "MacroPower",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/macropower--kclipper",
       "stars": 38,
       "quality": "silver"
     },
@@ -141392,6 +141416,22 @@
       "description": "URL Shortener is a free tool designed to help users easily shorten long URLs. Our goal is to make URL shortening simple, fast, and efficient. Whether you're a marketer, developer, or anyone who needs ",
       "author": "harrisonwang",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/harrisonwang--url-shortener",
+      "stars": 35,
+      "quality": "bronze"
+    },
+    {
+      "name": "tim-smart--actualbudget-sync",
+      "description": "actualbudget-sync",
+      "author": "tim-smart",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tim-smart--actualbudget-sync",
+      "stars": 35,
+      "quality": "bronze"
+    },
+    {
+      "name": "tim-smart--actualbudget-sync",
+      "description": "actualbudget-sync",
+      "author": "tim-smart",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tim-smart--actualbudget-sync",
       "stars": 35,
       "quality": "bronze"
     },
@@ -175196,6 +175236,22 @@
       "quality": "bronze"
     },
     {
+      "name": "fred-drake--nix",
+      "description": "Nix flake for home configuration",
+      "author": "fred-drake",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fred-drake--nix",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "brainsaysno--mocko",
+      "description": "Generate and export repeatable, friendly mock data",
+      "author": "brainsaysno",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brainsaysno--mocko",
+      "stars": 24,
+      "quality": "bronze"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -179144,6 +179200,14 @@
       "description": "Open source chrome extension to quickly preview, download or copy inline or embedded SVG images from a website",
       "author": "riosjuan",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/riosjuan--svg-grabber",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "microsoftdocs--azure-monitor-docs",
+      "description": "Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com.",
+      "author": "MicrosoftDocs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoftdocs--azure-monitor-docs",
       "stars": 23,
       "quality": "silver"
     },
@@ -193780,6 +193844,22 @@
       "quality": "bronze"
     },
     {
+      "name": "opendevicepartnership--embedded-services",
+      "description": "Common EC service framework and associated services",
+      "author": "OpenDevicePartnership",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opendevicepartnership--embedded-services",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "posit-dev--positron-website",
+      "description": "Positron website",
+      "author": "posit-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/posit-dev--positron-website",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -204052,6 +204132,22 @@
       "quality": "silver"
     },
     {
+      "name": "openforgeproject--mageforge",
+      "description": "MageForge is a Magento 2 module designed to assist frontend developers in streamlining their workflow and enhancing productivity.",
+      "author": "OpenForgeProject",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openforgeproject--mageforge",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "azure--iot-operations-sdks",
+      "description": "SDKs to support the Azure IoT Operations developer experience",
+      "author": "Azure",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/azure--iot-operations-sdks",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -210556,6 +210652,14 @@
       "quality": "gold"
     },
     {
+      "name": "creeper5820--pcs",
+      "description": "pcs",
+      "author": "creeper5820",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/creeper5820--pcs",
+      "stars": 17,
+      "quality": "bronze"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -216818,6 +216922,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluthjs--fluth",
       "stars": 16,
       "quality": "silver"
+    },
+    {
+      "name": "myriad-dreamin--cosmo",
+      "description": "Cosmo is a language replacing awful C++'s compile-time magics",
+      "author": "Myriad-Dreamin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myriad-dreamin--cosmo",
+      "stars": 16,
+      "quality": "bronze"
     },
     {
       "name": "vm--nila-code",
@@ -223328,6 +223440,22 @@
       "description": "azure-compute-docs",
       "author": "MicrosoftDocs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoftdocs--azure-compute-docs",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "adguardteam--filterlistmanager",
+      "description": "Rust library that's used by AdGuard apps to manage filter lists",
+      "author": "AdguardTeam",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adguardteam--filterlistmanager",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "hoffmanengineering--slic3rpostprocessinguploader",
+      "description": "A Slic3r/PrusaSlicer/OrcaSlicer/Bambu Studio Post-Processing script for uploading print details to https://www.3dprintlog.com",
+      "author": "HoffmanEngineering",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hoffmanengineering--slic3rpostprocessinguploader",
       "stars": 15,
       "quality": "silver"
     },
@@ -239108,6 +239236,30 @@
       "quality": "silver"
     },
     {
+      "name": "myst-6--ukoly",
+      "description": "ukoly",
+      "author": "myst-6",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/myst-6--ukoly",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "layr-labs--sidecar",
+      "description": "sidecar",
+      "author": "Layr-Labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/layr-labs--sidecar",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "minejpgcraft--mcjpg",
+      "description": "MCJPG\u7ec4\u7ec7\u7f51\u7ad9\u4ed3\u5e93",
+      "author": "MineJPGcraft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/minejpgcraft--mcjpg",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
@@ -248458,6 +248610,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dsebastien--obsidian-replicate",
       "stars": 12,
       "quality": "gold"
+    },
+    {
+      "name": "steelcompendium--draw-steel-elements",
+      "description": "Obsidian Plugin to support MCDM's Draw Steel TTRPG",
+      "author": "SteelCompendium",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/steelcompendium--draw-steel-elements",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "mikavilpas--tui-sandbox",
+      "description": "\ud83e\uddea A terminal test environment and development playground \ud83d\udedd",
+      "author": "mikavilpas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikavilpas--tui-sandbox",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "vorcyc--vorcyc-mathematics",
+      "description": "A high performance , navie managed code math library.",
+      "author": "vorcyc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vorcyc--vorcyc-mathematics",
+      "stars": 12,
+      "quality": "bronze"
+    },
+    {
+      "name": "opensphere-inc--src-link",
+      "description": "Transmit cleanfeed OBS to OBS, switching ton of video streams on your OBS without complicated setup.",
+      "author": "OPENSPHERE-Inc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opensphere-inc--src-link",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "opensphere-inc--src-link",
+      "description": "Transmit cleanfeed OBS to OBS, switching ton of video streams on your OBS without complicated setup.",
+      "author": "OPENSPHERE-Inc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opensphere-inc--src-link",
+      "stars": 12,
+      "quality": "silver"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -258632,6 +258824,30 @@
       "description": "astro-website",
       "author": "datocms",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datocms--astro-website",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "cssnr--cache-cleaner",
+      "description": "Easily clear cache for the current site and optionally auto-reload with a single key press, from the popup or with the context menu.",
+      "author": "cssnr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cssnr--cache-cleaner",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "ntucsiecouncil--council-csie-frontend",
+      "description": "council.csie-frontend",
+      "author": "NTUCSIECouncil",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ntucsiecouncil--council-csie-frontend",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "abhimanyupallavisudhir--costly",
+      "description": "Estimate costs of complex LLM workflows in advance before spending money",
+      "author": "abhimanyupallavisudhir",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abhimanyupallavisudhir--costly",
       "stars": 11,
       "quality": "silver"
     },
@@ -272610,6 +272826,110 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacob-bd--the-ai-counsel",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "palewire--first-llm-classifier",
+      "description": "Learn how journalists use large-language models to organize and analyze massive datasets",
+      "author": "palewire",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/palewire--first-llm-classifier",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "m3au--cursorcontext",
+      "description": "cursorcontext",
+      "author": "m3au",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/m3au--cursorcontext",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "datarobot-community--pulumi-datarobot",
+      "description": "The DataRobot Resource Provider lets you manage DataRobot resources.",
+      "author": "datarobot-community",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datarobot-community--pulumi-datarobot",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "bostonunlocked--bostonunlockedserver",
+      "description": "A fully community-driven Shadowrun Chronicles Boston Lockdown Server Reimplementation",
+      "author": "BostonUnlocked",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bostonunlocked--bostonunlockedserver",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "quentinhsu--oh-cloudflare-r2",
+      "description": "Manage your Cloudflare R2 Blob Storage",
+      "author": "QuentinHsu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quentinhsu--oh-cloudflare-r2",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cloudcaptainai--helium-swift",
+      "description": "Helium iOS SDK (Swift/SwiftUI)",
+      "author": "cloudcaptainai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloudcaptainai--helium-swift",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "calkit--calkit-cloud",
+      "description": "A platform for creating and sharing knowledge via Calkit projects.",
+      "author": "calkit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/calkit--calkit-cloud",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "vhrique--anne-ptbr",
+      "description": "anne_ptbr",
+      "author": "vhrique",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vhrique--anne-ptbr",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "go-tapd--tapd",
+      "description": "The Go Tapd SDK is a Go client library for accessing the Tapd API",
+      "author": "go-tapd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/go-tapd--tapd",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "michaelbel--mobiledevemoji",
+      "description": "Tech Emoji Packs for Telegram",
+      "author": "michaelbel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michaelbel--mobiledevemoji",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "ghnmqdtg--kobo2notion",
+      "description": "Easily sync your Kobo highlights to Notion.",
+      "author": "ghnmqdtg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ghnmqdtg--kobo2notion",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "michaelbel--mobiledevemoji",
+      "description": "Tech Emoji Packs for Telegram",
+      "author": "michaelbel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michaelbel--mobiledevemoji",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "tosun-si--world-cup-qatar-elt-dbt",
+      "description": "This repo shows a real world use case with DBT, BigQuery and Google Cloud. The raw and input data are represented by the Qatar Fifa World Cup Players stats, some transformations are applied with the E",
+      "author": "tosun-si",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tosun-si--world-cup-qatar-elt-dbt",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
