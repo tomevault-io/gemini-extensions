@@ -7,11 +7,11 @@ MPC Node. Implements secure multi-party threshold signature generation as part o
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [near/mpc](https://github.com/near/mpc).
+Original source: `CLAUDE.md` in [near/mpc](https://github.com/near/mpc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
