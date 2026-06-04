@@ -82620,6 +82620,22 @@
       "quality": "silver"
     },
     {
+      "name": "jparkerweb--ai-assist-skills",
+      "description": "\ud83e\udd16 A collection of AI agent skills that automate recurring engineering workflows that can be installed across multiple AI coding assistants.",
+      "author": "jparkerweb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jparkerweb--ai-assist-skills",
+      "stars": 82,
+      "quality": "bronze"
+    },
+    {
+      "name": "jparkerweb--ai-assist-skills",
+      "description": "\ud83e\udd16 A collection of AI agent skills that automate recurring engineering workflows that can be installed across multiple AI coding assistants.",
+      "author": "jparkerweb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jparkerweb--ai-assist-skills",
+      "stars": 82,
+      "quality": "silver"
+    },
+    {
       "name": "pureween--polypilot",
       "description": "PolyPilot",
       "author": "PureWeen",
@@ -129180,6 +129196,14 @@
       "quality": "silver"
     },
     {
+      "name": "raphaelmansuy--iteration-of-tought",
+      "description": "Example implementation of Iteration of Tought - Gives a star if you like the project",
+      "author": "raphaelmansuy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/raphaelmansuy--iteration-of-tought",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -132676,6 +132700,14 @@
       "quality": "silver"
     },
     {
+      "name": "jezachen--pyqtinspect-open",
+      "description": "An inspection tool for PyQt/PySide applications like Chrome DevTools.",
+      "author": "JezaChen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jezachen--pyqtinspect-open",
+      "stars": 39,
+      "quality": "bronze"
+    },
+    {
       "name": "bobmatnyc--claude-mpm-skills",
       "description": "Curated collection of Claude Code skills for intelligent project development with progressive loading and toolchain detection",
       "author": "bobmatnyc",
@@ -134360,6 +134392,22 @@
       "description": "A JavaScript/TypeScript SDK designed to simplify integration with Ava Protocol\u2019s AVS",
       "author": "AvaProtocol",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/avaprotocol--ava-sdk-js",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "bitsofchris--deep-learning",
+      "description": "A collection of resources, notes, and code as I learn to build deep neural networks on time series data.",
+      "author": "bitsofchris",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bitsofchris--deep-learning",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "bitsofchris--deep-learning",
+      "description": "A collection of resources, notes, and code as I learn to build deep neural networks on time series data.",
+      "author": "bitsofchris",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bitsofchris--deep-learning",
       "stars": 38,
       "quality": "silver"
     },
@@ -136492,6 +136540,14 @@
       "quality": "silver"
     },
     {
+      "name": "schmooky--spine-benchmark",
+      "description": "Performance analysis and visualization tool for Spine animations",
+      "author": "schmooky",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schmooky--spine-benchmark",
+      "stars": 37,
+      "quality": "gold"
+    },
+    {
       "name": "affitor--open-affiliate",
       "description": "The open registry of affiliate programs. Built for developers and AI agents.",
       "author": "Affitor",
@@ -138544,6 +138600,22 @@
       "description": "Private infrastructure on consumer hardware based on K3s, Tailscale, Pulumi and Longhorn",
       "author": "QC-Labs",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qc-labs--orange-lab",
+      "stars": 36,
+      "quality": "silver"
+    },
+    {
+      "name": "antiwork--antiwork",
+      "description": "antiwork",
+      "author": "antiwork",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/antiwork--antiwork",
+      "stars": 36,
+      "quality": "bronze"
+    },
+    {
+      "name": "nordcoderd--cloud-security-plugin",
+      "description": "Cloud (IaC) Security plugin for JetBrains IDEs (e.g., IntelliJ IDEA, PyCharm)",
+      "author": "NordCoderd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nordcoderd--cloud-security-plugin",
       "stars": 36,
       "quality": "silver"
     },
@@ -140938,6 +141010,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dvcol--neo-svelte",
       "stars": 35,
       "quality": "bronze"
+    },
+    {
+      "name": "perghosh--data-oriented-design",
+      "description": "DOD or data oriented design development, what is it and how to do it",
+      "author": "perghosh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/perghosh--data-oriented-design",
+      "stars": 35,
+      "quality": "silver"
     },
     {
       "name": "r44vc0rp--itui",
@@ -145156,6 +145236,14 @@
       "quality": "silver"
     },
     {
+      "name": "brgkdm--dayzen-good-first-issue",
+      "description": "A user-friendly dashboard for beginners and advanced students that allows them to input and visualize their daily routine.",
+      "author": "brgkdm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brgkdm--dayzen-good-first-issue",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
       "name": "skywind3000--gamesample",
       "description": "Game Samples for GameLib",
       "author": "skywind3000",
@@ -147464,6 +147552,14 @@
       "description": "Program to synchronize your AniList and MyAnimeList accounts.",
       "author": "bigspawn",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bigspawn--anilist-mal-sync",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
+      "name": "parischap--effect-libs",
+      "description": "Extends some Effect modules (`Array`, `Chunk`, `Option`, `Either`, `String`, ...). Adds extra-functionalities such as date and number parsing/formatting, sscanf/sprintf templating, number rounding, ob",
+      "author": "parischap",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/parischap--effect-libs",
       "stars": 32,
       "quality": "silver"
     },
@@ -150080,6 +150176,22 @@
       "description": "R package to easily construct prompts and associated logic for interacting with large language models (\u2018LLMs\u2019)",
       "author": "KennispuntTwente",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kennispunttwente--tidyprompt",
+      "stars": 31,
+      "quality": "silver"
+    },
+    {
+      "name": "kivs--lite-queen",
+      "description": "Lite Queen is an open-source SQLite database management software that runs on your server.",
+      "author": "kivS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kivs--lite-queen",
+      "stars": 31,
+      "quality": "bronze"
+    },
+    {
+      "name": "neondatabase--psqlsh",
+      "description": "psql.sh - browser native PostgreSQL command line client",
+      "author": "neondatabase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neondatabase--psqlsh",
       "stars": 31,
       "quality": "silver"
     },
@@ -162858,6 +162970,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lingfish--mmng-ui",
       "stars": 27,
       "quality": "gold"
+    },
+    {
+      "name": "andrei-pisklenov--forge-starter",
+      "description": "ForgeStarter is a modern, feature-packed template for building Atlassian Forge apps for Jira, Confluence, and Bitbucket. It includes Yarn, Vite, React, TypeScript, and more, following the \"Grab It All",
+      "author": "andrei-pisklenov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/andrei-pisklenov--forge-starter",
+      "stars": 27,
+      "quality": "silver"
     },
     {
       "name": "10xchengtu--mux0",
@@ -271138,6 +271258,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zz-plant--stims",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "dezoff-max--codex-ui-board-skills",
+      "description": "Four shareable Codex UI board skills with dual-theme design tokens, standalone previews, Tailwind presets, and installable skill bundles.",
+      "author": "Dezoff-max",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dezoff-max--codex-ui-board-skills",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "bb8ad8--addroid-oss",
+      "description": "AdDroid OSS \u2014 self-hostable, GitOps-driven Meta ad operations console.",
+      "author": "bb8ad8",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bb8ad8--addroid-oss",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
