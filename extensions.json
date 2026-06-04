@@ -143548,6 +143548,22 @@
       "quality": "silver"
     },
     {
+      "name": "pjq--sap-ai-core-llm-proxy",
+      "description": "SAP AI Core Open AI Compatible LLM Proxy(gpt-5, claude sonnet 4.6, claude opus 4.6, gemini-2.5-pro)",
+      "author": "pjq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pjq--sap-ai-core-llm-proxy",
+      "stars": 34,
+      "quality": "silver"
+    },
+    {
+      "name": "pjq--sap-ai-core-llm-proxy",
+      "description": "SAP AI Core Open AI Compatible LLM Proxy(gpt-5, claude sonnet 4.6, claude opus 4.6, gemini-2.5-pro)",
+      "author": "pjq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pjq--sap-ai-core-llm-proxy",
+      "stars": 34,
+      "quality": "silver"
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI",
       "author": "RajjjAryan",
@@ -145658,6 +145674,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brgkdm--dayzen-good-first-issue",
       "stars": 33,
       "quality": "silver"
+    },
+    {
+      "name": "ahonn--keygen-rs",
+      "description": "Unofficial Rust SDK for integrating with the keygen.sh licensing service. ",
+      "author": "ahonn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahonn--keygen-rs",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
+      "name": "kristopherkubicki--glimpser",
+      "description": "a simple tool for real-time monitoring video and summarization with LLMs",
+      "author": "KristopherKubicki",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kristopherkubicki--glimpser",
+      "stars": 33,
+      "quality": "bronze"
     },
     {
       "name": "skywind3000--gamesample",
@@ -159730,6 +159762,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eser--deno-next-showcase",
       "stars": 28,
       "quality": "bronze"
+    },
+    {
+      "name": "ever-co--ever-rec",
+      "description": "Ever\u00ae Rec\u2122 - Open Screen Capture, Screen Recording, Images & Video Sharing Platform - https://rec.so",
+      "author": "ever-co",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ever-co--ever-rec",
+      "stars": 28,
+      "quality": "silver"
     },
     {
       "name": "khangbdd--phoenix",
@@ -210660,6 +210700,14 @@
       "quality": "bronze"
     },
     {
+      "name": "microsoft--xbox-godot-sample",
+      "description": "An example implementation binding the GDK, PlayFab, and GameInput to Godot",
+      "author": "microsoft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--xbox-godot-sample",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -239260,6 +239308,54 @@
       "quality": "bronze"
     },
     {
+      "name": "ctxr-dev--llm-wiki-memory",
+      "description": "Local, git-versioned memory for AI coding agents. No RAG, no Docker, no external service. Capture, compile, recall over a local LLM wiki with on-device embeddings and an MCP server.",
+      "author": "ctxr-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxr-dev--llm-wiki-memory",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "ctxr-dev--llm-wiki-memory",
+      "description": "Local, git-versioned memory for AI coding agents. No RAG, no Docker, no external service. Capture, compile, recall over a local LLM wiki with on-device embeddings and an MCP server.",
+      "author": "ctxr-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxr-dev--llm-wiki-memory",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "ctxr-dev--llm-wiki-memory",
+      "description": "Local, git-versioned memory for AI coding agents. No RAG, no Docker, no external service. Capture, compile, recall over a local LLM wiki with on-device embeddings and an MCP server.",
+      "author": "ctxr-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxr-dev--llm-wiki-memory",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "roger-creus--xgenius",
+      "description": "Autonomous research at scale with Claude and SLURM :rocket:",
+      "author": "roger-creus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roger-creus--xgenius",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "ctxr-dev--llm-wiki-memory",
+      "description": "Local, git-versioned memory for AI coding agents. No RAG, no Docker, no external service. Capture, compile, recall over a local LLM wiki with on-device embeddings and an MCP server.",
+      "author": "ctxr-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxr-dev--llm-wiki-memory",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "ctxr-dev--llm-wiki-memory",
+      "description": "Local, git-versioned memory for AI coding agents. No RAG, no Docker, no external service. Capture, compile, recall over a local LLM wiki with on-device embeddings and an MCP server.",
+      "author": "ctxr-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ctxr-dev--llm-wiki-memory",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
@@ -248648,6 +248744,22 @@
       "description": "Transmit cleanfeed OBS to OBS, switching ton of video streams on your OBS without complicated setup.",
       "author": "OPENSPHERE-Inc",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opensphere-inc--src-link",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "pokt-network--path",
+      "description": "An open source framework that enables developers to sovereignly access Pocket Network.",
+      "author": "pokt-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pokt-network--path",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "grafana--tsqtsq",
+      "description": "tsqtsq - A PromQL Query Library",
+      "author": "grafana",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grafana--tsqtsq",
       "stars": 12,
       "quality": "silver"
     },
@@ -272928,6 +273040,30 @@
       "description": "This repo shows a real world use case with DBT, BigQuery and Google Cloud. The raw and input data are represented by the Qatar Fifa World Cup Players stats, some transformations are applied with the E",
       "author": "tosun-si",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tosun-si--world-cup-qatar-elt-dbt",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "apzmedia--comfyui-textools",
+      "description": "ComfyUI-APZmedia-textTools",
+      "author": "APZmedia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apzmedia--comfyui-textools",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "mathruffian-dot--gem-to-agent-kit",
+      "description": "\u8b93\u4efb\u4f55 AI agent \u5316\u8eab\u5347\u7d1a\u9867\u554f\uff0c\u628a Google Gemini \u7684 Gem \u5347\u7d1a\u6210 Agent \u5de5\u4f5c\u6d41\uff08\u4e3b\u6253 Antigravity\uff09",
+      "author": "mathruffian-dot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mathruffian-dot--gem-to-agent-kit",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "bcallender--allaboard",
+      "description": "Code for the All Aboard! CS II mod! This mod forces transit vehicles to leave even if all passengers are not boarded",
+      "author": "bcallender",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bcallender--allaboard",
       "stars": 10,
       "quality": "silver"
     },
