@@ -69284,6 +69284,14 @@
       "quality": "silver"
     },
     {
+      "name": "rvosy--sakura",
+      "description": "\u4e00\u4e2a\u901a\u7528\u684c\u5ba0 Agent \u6846\u67b6\uff0c\u80fd\u5bfc\u5165\u81ea\u5b9a\u4e49\u89d2\u8272\u5305\uff0c\u5e76\u8ba9\u89d2\u8272\u611f\u77e5\u5c4f\u5e55\u5185\u5bb9\u4e0e\u7cfb\u7edf\u4e8b\u4ef6\uff0c\u6839\u636e\u7528\u6237\u5f53\u524d\u573a\u666f\u4e3b\u52a8\u505a\u51fa\u81ea\u7136\u53cd\u5e94\u3002",
+      "author": "Rvosy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rvosy--sakura",
+      "stars": 109,
+      "quality": "silver"
+    },
+    {
       "name": "productdevbook--sumak",
       "description": "Type-safe SQL query builder. Zero dependencies, AST-first, hookable, tree-shakeable. Pure TypeScript.",
       "author": "productdevbook",
@@ -95520,6 +95528,14 @@
       "description": "DuckDB Extension Linearization/Delinearization, Z-Order, Hilbert and Morton Curves",
       "author": "Query-farm",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/query-farm--lindel",
+      "stars": 65,
+      "quality": "silver"
+    },
+    {
+      "name": "nexu-io--html-video",
+      "description": "HTML\u2192Video meta-layer for coding agents",
+      "author": "nexu-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nexu-io--html-video",
       "stars": 65,
       "quality": "silver"
     },
@@ -162748,6 +162764,22 @@
       "quality": "silver"
     },
     {
+      "name": "seanchatmangpt--dslmodel",
+      "description": "Structured outputs from DSPy and Jinja2",
+      "author": "seanchatmangpt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seanchatmangpt--dslmodel",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
+      "name": "seanchatmangpt--dslmodel",
+      "description": "Structured outputs from DSPy and Jinja2",
+      "author": "seanchatmangpt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seanchatmangpt--dslmodel",
+      "stars": 27,
+      "quality": "gold"
+    },
+    {
       "name": "10xchengtu--mux0",
       "description": "MUX0",
       "author": "10xChengTu",
@@ -188244,6 +188276,22 @@
       "quality": "silver"
     },
     {
+      "name": "rudavko--cortl",
+      "description": "VMs for agents to drive and be inside of: macOS and Alpine. Super fast(sub 500 ms) warm boot an alpine VM to arbitrary workspace, and drive macOS guest VM",
+      "author": "rudavko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rudavko--cortl",
+      "stars": 21,
+      "quality": "gold"
+    },
+    {
+      "name": "rudavko--cortl",
+      "description": "VMs for agents to drive and be inside of: macOS and Alpine. Super fast(sub 500 ms) warm boot an alpine VM to arbitrary workspace, and drive macOS guest VM",
+      "author": "rudavko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rudavko--cortl",
+      "stars": 21,
+      "quality": "bronze"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs.",
       "author": "develite98",
@@ -197528,6 +197576,14 @@
       "description": "Hydrozoa: Lightweight multi-party state channels for Cardano",
       "author": "cardano-hydrozoa",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cardano-hydrozoa--hydrozoa",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
+      "name": "psylsph--home-energy-manager",
+      "description": "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network \u2014 no cloud account needed",
+      "author": "psylsph",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/psylsph--home-energy-manager",
       "stars": 19,
       "quality": "silver"
     },
@@ -256868,6 +256924,14 @@
       "quality": "gold"
     },
     {
+      "name": "qian-gugugaga--character-skill-producer",
+      "description": "Character Skill Producer \u2014 distill anime characters into executable agent skills",
+      "author": "qian-gugugaga",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qian-gugugaga--character-skill-producer",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -270642,6 +270706,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pflareproject--pflare",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "tririver--arc",
+      "description": "Advanced Research Compass (ARC) is a set of skills and tools (MCP) for theoretical physics literature review, idea generation and performing calculations.",
+      "author": "tririver",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tririver--arc",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "robzilla1738--codex-workflows",
+      "description": "Claude-style workflow-as-code runtime for Codex",
+      "author": "robzilla1738",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robzilla1738--codex-workflows",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "robzilla1738--codex-workflows",
+      "description": "Claude-style workflow-as-code runtime for Codex",
+      "author": "robzilla1738",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robzilla1738--codex-workflows",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
