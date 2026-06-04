@@ -306212,6 +306212,94 @@
       "quality": "silver"
     },
     {
+      "name": "mcdow-webworks--productivity-skills",
+      "description": "Transform Claude into your AI-powered productivity partner. Note-taking skill creates an AI-navigable second brain    with conversational capture, intelligent search, and pattern recognition across al",
+      "author": "mcdow-webworks",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mcdow-webworks--productivity-skills",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "michaelw9999--advanced-gguf-quantizer",
+      "description": "A CUDA-accelerated GGUF quantization tool for NVFP4 and MXFP6, designed with an auto-tuner to reduce quantization error.",
+      "author": "michaelw9999",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/michaelw9999--advanced-gguf-quantizer",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "fayzan123--claude-workflow-composer",
+      "description": "Visual desktop app for composing multi-agent coding workflows. Drag agents,   attach skills and MCPs, wire handoffs, export to .claude/",
+      "author": "fayzan123",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fayzan123--claude-workflow-composer",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mathruffian-dot--claude-video-specs",
+      "description": "\u4e09\u985e\u5f71\u7247\u88fd\u4f5c\u898f\u7bc4 + \u53ef fork \u7684\u7bc4\u4f8b\u5c08\u6848\u3002\u7d66 AI agent \u548c\u5275\u4f5c\u8005\u7528\u3002",
+      "author": "mathruffian-dot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mathruffian-dot--claude-video-specs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "gutomec--agents-guru",
+      "description": "Sistema de engenharia agentico, portavel e agnostico de framework, para qualquer agente de IA via CLI.",
+      "author": "gutomec",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gutomec--agents-guru",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "gutomec--agents-guru",
+      "description": "Sistema de engenharia agentico, portavel e agnostico de framework, para qualquer agente de IA via CLI.",
+      "author": "gutomec",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gutomec--agents-guru",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "notatestuser--ds4-control",
+      "description": "macOS menu bar control for DeepSeek V4 Pro/Flash via ds4. Start/stop/monitor ds4-server with mini resource widgets",
+      "author": "notatestuser",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/notatestuser--ds4-control",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "aurorascharff--cronotype",
+      "description": "Type a GitHub handle. Get a commit-time archetype, a year-by-year timeline, and a shareable card.",
+      "author": "aurorascharff",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aurorascharff--cronotype",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tapthaker--ghostty-android",
+      "description": "ghostty-android",
+      "author": "tapthaker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tapthaker--ghostty-android",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ark-aak--luogu-saver-next",
+      "description": "luogu-saver-next",
+      "author": "Ark-Aak",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ark-aak--luogu-saver-next",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mthiel74--astronomyimages",
+      "description": "AstronomyImages",
+      "author": "mthiel74",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mthiel74--astronomyimages",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -326964,6 +327052,158 @@
       "quality": "silver"
     },
     {
+      "name": "tasteskill--tasteskill",
+      "description": "The Anti-Slop Frontend Framework for AI Agents",
+      "author": "tasteskill",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tasteskill--tasteskill",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "lyhglytx--cataclysm-cleanwater-bomb",
+      "description": "Cataclysm:Cleanwater Bomb\uff08\u5927\u707e\u53d8\uff1a\u51c0\u5316\u534f\u8bae\uff09\u662f\u4e00\u6b3e\u57fa\u4e8eCDDA Commit221c786e7d\u5b9e\u9a8c\u7248\u7684\u5206\u652f\u8be5\u5206\u652f\u4e3b\u65e8\u4e3a\u517c\u987e\u771f\u5b9e\u6027\u4e0e\u6e38\u620f\u6027\uff0c\u4fdd\u7559\u4e00\u5b9a\u7684CDDA\u98ce\u5473\u7684\u540c\u65f6\u53d1\u5c55\u51fa\u81ea\u5df1\u7684\u7279\u8272\u3002\u672c\u4eba\u652f\u6301\u6709\u5927\u91cf\u53c2\u8003\u6587\u732e\u652f\u6491\u7684\u7b26\u5408\u73b0\u5b9e\u903b\u8f91\u7684\u6539\u52a8\uff0c\u540c\u65f6\u672c\u4eba\u4e0d\u652f\u6301\u4e0e\u73a9\u5bb6\u5bf9\u7740\u5e72\u7684\u6539\u52a8\uff0c\u6539\u52a8\u7684\u540c\u65f6\u8981\u517c\u987e\u6e38\u620f\u6027\u3002",
+      "author": "LYHGLYTX",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lyhglytx--cataclysm-cleanwater-bomb",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "robzilla1738--macbox",
+      "description": "Local macOS app testing sandbox with a CLI and MCP server for disposable Tart VMs.",
+      "author": "robzilla1738",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robzilla1738--macbox",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "brentfarris--echo",
+      "description": "Local AI / LLM harness for real programmers",
+      "author": "BrentFarris",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/brentfarris--echo",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "treex-x--workflowx",
+      "description": "\u57fa\u4e8e SubAgent \u7684\u591a\u667a\u80fd\u4f53\u7f16\u6392\u914d\u7f6e\u7cfb\u7edf \u2014 \u65e0\u9700\u90e8\u7f72\u670d\u52a1\uff0c\u62f7\u8d1d\u914d\u7f6e\u6587\u4ef6\u5373\u53ef\u8fd0\u884c\u3002\u901a\u8fc7\u6df7\u5408\u6587\u6863 + \u8bb0\u5fc6\u56fe\u8c31 + \u591a\u7ea7\u538b\u7f29\uff0c\u6781\u81f4\u8282\u7701\u4e0a\u4e0b\u6587 Token\uff0c\u8ba9 AI \u6301\u4e45\u9ad8\u6548\u5f00\u53d1",
+      "author": "TreeX-X",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/treex-x--workflowx",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sycu8--cloudflare-onboarding-journey",
+      "description": "cloudflare-onboarding-journey",
+      "author": "sycu8",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sycu8--cloudflare-onboarding-journey",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "koalabuttz--standard-reader",
+      "description": "A TUI reader for standard.site (long-form on the AT Protocol).",
+      "author": "koalabuttz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koalabuttz--standard-reader",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "robzilla1738--macbox",
+      "description": "Local macOS app testing sandbox with a CLI and MCP server for disposable Tart VMs.",
+      "author": "robzilla1738",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robzilla1738--macbox",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "mr-beaver--tokencost",
+      "description": "See exactly what you spend on Claude CLI + cost optimizations functions",
+      "author": "mr-beaver",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mr-beaver--tokencost",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kazeliu--hold-that-bite",
+      "description": "\u5b88\u4f4f\u8fd9\u53e3\uff01\u6ca1\u6709\u4efb\u4f55\u5f3a\u5236\uff0c\u6ca1\u6709\u4efb\u4f55\u70ed\u91cf\u8ba1\u7b97\uff0c\u6ca1\u6709\u51cf\u80a5\u7126\u8651\u300216+8\u51cf\u80a5\u6cd5\uff0c\u6bcf\u5929\u5b8c\u6210\u5c31\u6253\u5361\uff0c\u4f53\u91cd\u6084\u6084\u964d",
+      "author": "KazeLiu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kazeliu--hold-that-bite",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "poorna-repos--claude-context-survival-kit",
+      "description": "A small, portable CLAUDE.md that makes long Claude Code sessions survive context compaction: write-state-to-disk, five-section handoffs, and a manual lossless-compaction workflow.",
+      "author": "Poorna-Repos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/poorna-repos--claude-context-survival-kit",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "treex-x--workflowx",
+      "description": "\u57fa\u4e8e SubAgent \u7684\u591a\u667a\u80fd\u4f53\u7f16\u6392\u914d\u7f6e\u7cfb\u7edf \u2014 \u65e0\u9700\u90e8\u7f72\u670d\u52a1\uff0c\u62f7\u8d1d\u914d\u7f6e\u6587\u4ef6\u5373\u53ef\u8fd0\u884c\u3002\u901a\u8fc7\u6df7\u5408\u6587\u6863 + \u8bb0\u5fc6\u56fe\u8c31 + \u591a\u7ea7\u538b\u7f29\uff0c\u6781\u81f4\u8282\u7701\u4e0a\u4e0b\u6587 Token\uff0c\u8ba9 AI \u6301\u4e45\u9ad8\u6548\u5f00\u53d1",
+      "author": "TreeX-X",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/treex-x--workflowx",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "matt1as--claude-abap-skills",
+      "description": "Skill library for Claude Code \u2014 opinionated rules and slash commands for modern ABAP (BTP ABAP Environment, S/4HANA 2023+ ABAP Cloud development model). Assumes the official SAP ABAP MCP Server provid",
+      "author": "matt1as",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matt1as--claude-abap-skills",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "damianb-bitflipper--dehub",
+      "description": "A TUI to de-GitHub yourself. Control PRs, Actions, Issues, Notifications.",
+      "author": "DamianB-BitFlipper",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/damianb-bitflipper--dehub",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "echore--bilibili-to-obsidian",
+      "description": "bilibili-to-obsidian",
+      "author": "echore",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/echore--bilibili-to-obsidian",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sholdee--drydock",
+      "description": "Fast Argo CD GitOps render, diff, test, and diagnostics without a cluster or Argo CD server.",
+      "author": "sholdee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sholdee--drydock",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "pauljoda--prismedia",
+      "description": "All in one self hosted, private media library",
+      "author": "pauljoda",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pauljoda--prismedia",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "pauljoda--prismedia",
+      "description": "All in one self hosted, private media library",
+      "author": "pauljoda",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pauljoda--prismedia",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "stefanoginella--auto-bmad",
+      "description": "BMAD module that drives the full BMAD story workflow end-to-end, one story at a time, on Claude Code or Codex \u2014 delegating each step to model/effort-tuned subagents.",
+      "author": "stefanoginella",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stefanoginella--auto-bmad",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -331922,6 +332162,270 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dark-brain07--payforapi",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "yuz9610--poe2overlay",
+      "description": "POE2Overlay",
+      "author": "yuz9610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuz9610--poe2overlay",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "yuz9610--poe2overlay",
+      "description": "POE2Overlay",
+      "author": "yuz9610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuz9610--poe2overlay",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "armpro24-blip--workspace-aieng",
+      "description": "workspace_aieng",
+      "author": "armpro24-blip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/armpro24-blip--workspace-aieng",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "yuz9610--poe2overlay",
+      "description": "POE2Overlay",
+      "author": "yuz9610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuz9610--poe2overlay",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "yuz9610--poe2overlay",
+      "description": "POE2Overlay",
+      "author": "yuz9610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuz9610--poe2overlay",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "evermind-ai--everme",
+      "description": "Open-source CLI and Agent plugin suite for EverMe \u2014 cross-device, cross-Agent personal memory for AI Agents.",
+      "author": "EverMind-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/evermind-ai--everme",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "qiangshuifish--note-website",
+      "description": "\u6280\u672f\u5b66\u4e60\u7b14\u8bb0 VitePress \u7f51\u7ad9",
+      "author": "qiangshuifish",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qiangshuifish--note-website",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "meta-pytorch--remat",
+      "description": "torch_remat fine-grained activation checkpointing API",
+      "author": "meta-pytorch",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meta-pytorch--remat",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "loveyu43--ai-agent-workflows-jp",
+      "description": "Japanese workflow templates, safety checklists, and evaluation samples for AI agents and MCP-enabled business tools.",
+      "author": "loveyu43",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/loveyu43--ai-agent-workflows-jp",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "loveyu43--ai-agent-workflows-jp",
+      "description": "Japanese workflow templates, safety checklists, and evaluation samples for AI agents and MCP-enabled business tools.",
+      "author": "loveyu43",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/loveyu43--ai-agent-workflows-jp",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "mathruffian-dot--claude-code-video-kit",
+      "description": "claude-code-video-kit",
+      "author": "mathruffian-dot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mathruffian-dot--claude-code-video-kit",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "akitaonrails--prettify-manga",
+      "description": "Chrome extension to enable double page reading for most fansub manga websites",
+      "author": "akitaonrails",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/akitaonrails--prettify-manga",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "eliets2--glyph-pdf",
+      "description": "glyph-pdf",
+      "author": "eliets2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eliets2--glyph-pdf",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "flanliulf--aiforge",
+      "description": "Sync AI coding configurations from any Git repository to Copilot, Claude Code, Cursor, and more \u2014 one command, all tools.",
+      "author": "flanliulf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flanliulf--aiforge",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "flanliulf--aiforge",
+      "description": "Sync AI coding configurations from any Git repository to Copilot, Claude Code, Cursor, and more \u2014 one command, all tools.",
+      "author": "flanliulf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flanliulf--aiforge",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "njbrake--dotpi",
+      "description": "My ds4 + pi configuration for success",
+      "author": "njbrake",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/njbrake--dotpi",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "vector15-05--zelos",
+      "description": "Zelos",
+      "author": "vector15-05",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vector15-05--zelos",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "callumalpass--tasknotes-workflows",
+      "description": "Markdown-defined workflow automation for TaskNotes",
+      "author": "callumalpass",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/callumalpass--tasknotes-workflows",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "armpro24-blip--workspace-aieng",
+      "description": "workspace_aieng",
+      "author": "armpro24-blip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/armpro24-blip--workspace-aieng",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "rayulumukku--realestateagent",
+      "description": "Real estate platform connecting agents, builders & super builders. Manage projects, events, campaigns, leads & channel partnerships with role-based access, real-time notifications & WhatsApp integrati",
+      "author": "rayulumukku",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rayulumukku--realestateagent",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "sir-mmd--xsms",
+      "description": "Self-hosted SMS \u2194 Telegram bridge.",
+      "author": "Sir-MmD",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sir-mmd--xsms",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "armpro24-blip--workspace-aieng",
+      "description": "workspace_aieng",
+      "author": "armpro24-blip",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/armpro24-blip--workspace-aieng",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "nornzach--tg-monitor",
+      "description": " A local Telegram group monitoring platform with AI-powered analysis. Collects messages via Telethon, stores in MySQL, and uses multi-provider AI (DeepSeek, OpenAI, Claude) to generate    \u258e summaries,",
+      "author": "nornzach",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nornzach--tg-monitor",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "cesarszv--gdg-hackathon-2026",
+      "description": "plataforma de simulaci\u00f3n asistida por IA que ayuda a investigar c\u00f3mo convertir residuos bioorg\u00e1nicos en electricidad",
+      "author": "cesarszv",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cesarszv--gdg-hackathon-2026",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "autsunset--voxengine",
+      "description": "Android \u7cfb\u7edf\u7ea7 TTS \u8bed\u97f3\u5408\u6210\u5f15\u64ce\uff0c\u652f\u6301\u5c0f\u7c73mimotts\u591a\u5f15\u64ce\u5207\u6362\u3001\u97f3\u8272\u514b\u9686\u4e0e\u8bbe\u8ba1\u3002\u6ce8\u518c\u4e3a\u7cfb\u7edf TTS \u670d\u52a1\u540e\uff0c\u4efb\u610f\u652f\u6301\u7cfb\u7edf\u8bed\u97f3\u5408\u6210\u7684\u5e94\u7528\u5747\u53ef\u76f4\u63a5\u8c03\u7528\u3002",
+      "author": "Autsunset",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/autsunset--voxengine",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "fangtiger--ai-config-templates",
+      "description": "ai-config-templates",
+      "author": "fangTiger",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fangtiger--ai-config-templates",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "fangtiger--ai-config-templates",
+      "description": "ai-config-templates",
+      "author": "fangTiger",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fangtiger--ai-config-templates",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "yuz9610--poe2overlay",
+      "description": "POE2Overlay",
+      "author": "yuz9610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuz9610--poe2overlay",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "yuz9610--poe2overlay",
+      "description": "POE2Overlay",
+      "author": "yuz9610",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuz9610--poe2overlay",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "vitoworleone--claudecode-complete",
+      "description": "Long-Term Tracking and Learning for Claude Code \u2014 \u4ece\u6e90\u7801\u673a\u5236\u5230\u5b9e\u6218\u843d\u5730\u7684\u5b8c\u6574\u77e5\u8bc6\u5e93",
+      "author": "vitoworleone",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vitoworleone--claudecode-complete",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "qzlabq--xegineer-syncasist",
+      "description": "XEgineer-SyncAsist",
+      "author": "QzlabQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qzlabq--xegineer-syncasist",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "misonl--a-share-selection-strategy-skill",
+      "description": "\u901a\u7528\u9009\u80a1\u7b56\u7565 Skill\uff0c\u9762\u5411 AI Agent \u7684\u53ef\u89e3\u91ca\u591a\u56e0\u5b50\u9009\u80a1\u5de5\u4f5c\u6d41",
+      "author": "MisonL",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/misonl--a-share-selection-strategy-skill",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ningzimu--awesome-ai-ppt",
+      "description": "A curated list of AI PPT, PowerPoint automation, PPTX editing, and slide workflow tools.",
+      "author": "ningzimu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ningzimu--awesome-ai-ppt",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
@@ -500314,6 +500818,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/javierludena--game-collection-app",
       "stars": 0,
       "quality": "gold"
+    },
+    {
+      "name": "rx889944-bot--docs",
+      "description": "docs",
+      "author": "rx889944-bot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rx889944-bot--docs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "md-rahma--tafseer",
+      "description": "This project is built by me for me",
+      "author": "MD-Rahma",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/md-rahma--tafseer",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
