@@ -141436,6 +141436,14 @@
       "quality": "bronze"
     },
     {
+      "name": "justinfagnani--zipadee",
+      "description": "A simple Node HTTP server with middleware",
+      "author": "justinfagnani",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/justinfagnani--zipadee",
+      "stars": 35,
+      "quality": "silver"
+    },
+    {
       "name": "r44vc0rp--itui",
       "description": "itui",
       "author": "R44VC0RP",
@@ -171316,6 +171324,14 @@
       "quality": "silver"
     },
     {
+      "name": "infiland--gm2godot",
+      "description": "A tool that converts GameMaker projects into Godot",
+      "author": "Infiland",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/infiland--gm2godot",
+      "stars": 25,
+      "quality": "bronze"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -175312,6 +175328,30 @@
       "description": "xcsync is designed to provide .NET developers with improved support for editing Apple specific files for MAUI and .NET for iOS/tvOS/macOS/macCatalyst projects.",
       "author": "dotnet",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dotnet--xcsync",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "kazah4359-lgtm--magda-agent",
+      "description": "Magda-agent",
+      "author": "kazah4359-lgtm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kazah4359-lgtm--magda-agent",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
+      "name": "ascorbic--library-template",
+      "description": "Template for library projects",
+      "author": "ascorbic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ascorbic--library-template",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "ascorbic--library-template",
+      "description": "Template for library projects",
+      "author": "ascorbic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ascorbic--library-template",
       "stars": 24,
       "quality": "silver"
     },
@@ -189264,6 +189304,30 @@
       "description": "automation-server",
       "author": "odense-rpa",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/odense-rpa--automation-server",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "cellebrite-labs--ghidra-rpc",
+      "description": "A Ghidra agentic reverse engineering skill.",
+      "author": "cellebrite-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cellebrite-labs--ghidra-rpc",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "projectbluefin--documentation",
+      "description": "Bluefin Documentation",
+      "author": "projectbluefin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/projectbluefin--documentation",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "metaist--ds",
+      "description": "polyglot task runner",
+      "author": "metaist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/metaist--ds",
       "stars": 21,
       "quality": "silver"
     },
@@ -239660,6 +239724,14 @@
       "quality": "silver"
     },
     {
+      "name": "guyte149--rusnel",
+      "description": "Rusnel is a fast tcp/udp tunnel over QUIC",
+      "author": "guyte149",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/guyte149--rusnel",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
@@ -259292,6 +259364,30 @@
       "quality": "silver"
     },
     {
+      "name": "ebanez8--openstep",
+      "description": "A modern open-source Steps Recorder for Windows. Capture desktop workflows, edit each step, and export clean guides with screenshots. Local-first, lightweight, and built for documenting apps without s",
+      "author": "ebanez8",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ebanez8--openstep",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "nanxstats--pycsr",
+      "description": "Python for Clinical Study Reports and Submission",
+      "author": "nanxstats",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nanxstats--pycsr",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "nanxstats--pycsr",
+      "description": "Python for Clinical Study Reports and Submission",
+      "author": "nanxstats",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nanxstats--pycsr",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -273402,6 +273498,62 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cognigy--webchat",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "schildep--verified-polygon-intersection",
+      "description": "Formally verified polygon intersection",
+      "author": "schildep",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schildep--verified-polygon-intersection",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "levieyal--cibuson-app",
+      "description": "\ud83d\uded2\ud83d\udcb5 Cibus & tenbis (10bis) vouchers manager application + AI based Smart groceries list",
+      "author": "LeviEyal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/levieyal--cibuson-app",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "jasonnoble--codojo",
+      "description": "AI-powered coding dojo for developers learning new languages \u2014 concept mapping, guided practice, and quizzing",
+      "author": "jasonnoble",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jasonnoble--codojo",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "1425sd--ai-memory-project",
+      "description": "\u4e00\u4e2a\u7ed9 AI \u7f16\u7a0b\u52a9\u624b\u4f7f\u7528\u7684\u9879\u76ee\u4e0a\u4e0b\u6587\u6a21\u677f\u3002\u628a\u8fd9\u5957\u6587\u4ef6\u653e\u8fdb\u4efb\u610f\u9879\u76ee\u540e\uff0cAI \u53ef\u4ee5\u5148\u8bfb\u53d6\u9879\u76ee\u8bb0\u5fc6\u3001\u4efb\u52a1 backlog \u548c\u6587\u6863\u9aa8\u67b6\uff0c\u518d\u6839\u636e\u4f60\u7684\u786e\u8ba4\u4e00\u6b65\u4e00\u6b65\u6539\u4ee3\u7801\u3002",
+      "author": "1425sd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/1425sd--ai-memory-project",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "denisgorbachev--url-macro",
+      "description": "A compile-time URL validation macro. Parses and checks URLs at compile-time, converting valid URLs into `url::Url` objects. Provides early error detection for malformed URLs.",
+      "author": "DenisGorbachev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/denisgorbachev--url-macro",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "human-solutions--fluent-typed",
+      "description": "Your Fluent translations as typed Rust functions \u2014 wrong keys, missing translations, bad argument types and dead keys become build errors and warnings.",
+      "author": "human-solutions",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/human-solutions--fluent-typed",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "denisgorbachev--url-macro",
+      "description": "A compile-time URL validation macro. Parses and checks URLs at compile-time, converting valid URLs into `url::Url` objects. Provides early error detection for malformed URLs.",
+      "author": "DenisGorbachev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/denisgorbachev--url-macro",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
