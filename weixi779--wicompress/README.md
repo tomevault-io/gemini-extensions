@@ -7,11 +7,11 @@ A lightweight iOS image compression library that supports JPEG, PNG, HEIC format
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Weixi779/WICompress](https://github.com/Weixi779/WICompress).
+Original source: `CLAUDE.md` in [Weixi779/WICompress](https://github.com/Weixi779/WICompress).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
