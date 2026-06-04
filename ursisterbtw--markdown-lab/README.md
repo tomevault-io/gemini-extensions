@@ -7,11 +7,11 @@ A powerful and modular web scraper that converts web content into well-structure
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ursisterbtw/markdown_lab](https://github.com/ursisterbtw/markdown_lab).
+Original source: `CLAUDE.md` in [ursisterbtw/markdown_lab](https://github.com/ursisterbtw/markdown_lab).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
