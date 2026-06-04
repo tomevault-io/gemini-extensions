@@ -7,11 +7,11 @@ Transmit cleanfeed OBS to OBS, switching ton of video streams on your OBS withou
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [OPENSPHERE-Inc/src-link](https://github.com/OPENSPHERE-Inc/src-link).
+Original source: `CLAUDE.md` in [OPENSPHERE-Inc/src-link](https://github.com/OPENSPHERE-Inc/src-link).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
