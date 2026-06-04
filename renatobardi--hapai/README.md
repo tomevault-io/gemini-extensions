@@ -7,11 +7,11 @@ Deterministic guardrails for AI coding assistants. Enforce rules via Bash hooks 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [renatobardi/hapai](https://github.com/renatobardi/hapai).
+Original source: `CLAUDE.md` in [renatobardi/hapai](https://github.com/renatobardi/hapai).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
