@@ -7,11 +7,11 @@ Every meeting, every idea, every voice note — searchable by your AI. Open-sour
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [silverstein/minutes](https://github.com/silverstein/minutes).
+Original source: `CLAUDE.md` in [silverstein/minutes](https://github.com/silverstein/minutes).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
