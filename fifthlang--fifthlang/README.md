@@ -7,12 +7,12 @@ Fifth is a .NET 10.0 systems programming language combining imperative and funct
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [fifthlang/fifthlang](https://github.com/fifthlang/fifthlang).
+Original source: `AGENTS.md` in [fifthlang/fifthlang](https://github.com/fifthlang/fifthlang).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
