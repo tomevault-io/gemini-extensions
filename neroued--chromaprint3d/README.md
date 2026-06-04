@@ -7,13 +7,13 @@ High-performance, easy-to-use software for converting images into 3D printable m
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Neroued/ChromaPrint3D](https://github.com/Neroued/ChromaPrint3D).
+Original source: `AGENTS.md` in [Neroued/ChromaPrint3D](https://github.com/Neroued/ChromaPrint3D).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
