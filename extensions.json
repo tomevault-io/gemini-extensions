@@ -102588,6 +102588,22 @@
       "quality": "silver"
     },
     {
+      "name": "vergewarlord--ai-rules-sync-906",
+      "description": "Keep one source of truth for your AI coding-agent rules. Convert and sync between AGENTS.md, CLAUDE.md, .cursorrules, Copilot, Windsurf, Cline, Aider & Gemini \u2014 or scaffold a fresh AGENTS.md. Zero dep",
+      "author": "VergeWarlord",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vergewarlord--ai-rules-sync-906",
+      "stars": 58,
+      "quality": "silver"
+    },
+    {
+      "name": "sapphiretrudirect--speaker-125",
+      "description": "Speaker is a Codex skill project for academic presentations: read real.pptx, combine text extraction, PPTX structure parsing, page-by-page rendering, OCR, and visual review to generate page-by-page sp",
+      "author": "Sapphiretrudirect",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sapphiretrudirect--speaker-125",
+      "stars": 58,
+      "quality": "bronze"
+    },
+    {
       "name": "copilot-community-sdk--copilot-sdk-java",
       "description": "Java SDK for GitHub Copilot CLI",
       "author": "copilot-community-sdk",
@@ -127368,6 +127384,14 @@
       "description": "\ud83d\udcdd An AI-powered document analysis app that turns long, complex documents into summaries, key insights, analytics, and contextual conversations, helping people understand and work with information in s",
       "author": "hoangsonww",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hoangsonww--docuthinker-ai-app",
+      "stars": 42,
+      "quality": "silver"
+    },
+    {
+      "name": "blacksuan19--plasma-wallpaper-wallhaven-reborn",
+      "description": "Wallhaven wallpaper plugin for plasma 6 with support for downloading images for offline use.",
+      "author": "Blacksuan19",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blacksuan19--plasma-wallpaper-wallhaven-reborn",
       "stars": 42,
       "quality": "silver"
     },
@@ -216788,6 +216812,14 @@
       "quality": "bronze"
     },
     {
+      "name": "fluthjs--fluth",
+      "description": "A javascript promise stream library",
+      "author": "fluthjs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluthjs--fluth",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -223288,6 +223320,14 @@
       "description": "The Claude-native foundation you build your whole app on. React frontend handled, your backend builds on top. Strict tooling, pre-commit gates, code-review audit before every merge.",
       "author": "gaia-react",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gaia-react--gaia",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "microsoftdocs--azure-compute-docs",
+      "description": "azure-compute-docs",
+      "author": "MicrosoftDocs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoftdocs--azure-compute-docs",
       "stars": 15,
       "quality": "silver"
     },
@@ -248412,6 +248452,14 @@
       "quality": "silver"
     },
     {
+      "name": "dsebastien--obsidian-replicate",
+      "description": "Integrate Replicate.com with Obsidian",
+      "author": "dsebastien",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dsebastien--obsidian-replicate",
+      "stars": 12,
+      "quality": "gold"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -272530,6 +272578,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/reclaimprotocol--docs",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "saeedvaziry--freedraw",
+      "description": "Free alternative to Lucidapp",
+      "author": "saeedvaziry",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saeedvaziry--freedraw",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "saeedvaziry--freedraw",
+      "description": "Free alternative to Lucidapp",
+      "author": "saeedvaziry",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/saeedvaziry--freedraw",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "jacob-bd--the-ai-counsel",
+      "description": "The AI Counsel \u2014 Collective AI Intelligence through multi-model deliberation and persona-driven debate",
+      "author": "jacob-bd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacob-bd--the-ai-counsel",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "jacob-bd--the-ai-counsel",
+      "description": "The AI Counsel \u2014 Collective AI Intelligence through multi-model deliberation and persona-driven debate",
+      "author": "jacob-bd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacob-bd--the-ai-counsel",
+      "stars": 10,
+      "quality": "bronze"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
