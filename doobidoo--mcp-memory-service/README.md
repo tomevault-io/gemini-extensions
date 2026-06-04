@@ -7,11 +7,11 @@ Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service).
+Original source: `CLAUDE.md` in [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
