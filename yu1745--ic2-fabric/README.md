@@ -7,11 +7,11 @@ Minecraft 1.20.1 Fabric Mod - IC2 EXP remake using Kotlin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yu1745/ic2-fabric](https://github.com/yu1745/ic2-fabric).
+Original source: `CLAUDE.md` in [yu1745/ic2-fabric](https://github.com/yu1745/ic2-fabric).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
