@@ -581,6 +581,5 @@ export CARGO_TARGET_DIR=/custom/path          # Override target directory
 **Test runner:** cargo-nextest (recommended) or cargo test (fallback)
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/tcrypt25519)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/tcrypt25519)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Source: [tcrypt25519/jet](https://github.com/tcrypt25519/jet) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-06-04 -->
