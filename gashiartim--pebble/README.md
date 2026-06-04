@@ -7,11 +7,11 @@ Menu-bar text-polish tool that rewrites your clipboard with a local Ollama model
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gashiartim/pebble](https://github.com/gashiartim/pebble).
+Original source: `CLAUDE.md` in [gashiartim/pebble](https://github.com/gashiartim/pebble).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
