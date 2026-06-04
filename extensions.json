@@ -173756,6 +173756,14 @@
       "quality": "silver"
     },
     {
+      "name": "singhamandeep007--react-vite-boilerplate",
+      "description": "Delightful boilerplate for starting your awesome react + vite application.",
+      "author": "singhAmandeep007",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/singhamandeep007--react-vite-boilerplate",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -182948,6 +182956,22 @@
       "quality": "silver"
     },
     {
+      "name": "taco-xyz--tacoq",
+      "description": "Multi-language distributed task queue",
+      "author": "taco-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/taco-xyz--tacoq",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "taco-xyz--tacoq",
+      "description": "Multi-language distributed task queue",
+      "author": "taco-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/taco-xyz--tacoq",
+      "stars": 22,
+      "quality": "bronze"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -187394,6 +187418,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/holochain--kitsune2",
       "stars": 21,
       "quality": "silver"
+    },
+    {
+      "name": "bjornmelin--bjornmelin-platform-io",
+      "description": "Cloud-native portfolio platform powering bjornmelin.io. Demonstrates AWS solutions architecture through microservices, serverless APIs, and infrastructure as code. Built with Next.js, AWS CDK, and mod",
+      "author": "BjornMelin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bjornmelin--bjornmelin-platform-io",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "nickolastazes--auth-by-watchen-preview",
+      "description": "[PREVIEW] Auth by Watchen is an opinionated Next.js boilerplate with built-in authentication that combines traditional social logins with embedded crypto wallets, designed to help founders build Web3 ",
+      "author": "nickolastazes",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nickolastazes--auth-by-watchen-preview",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "cipherwillhq--cipherwill",
+      "description": "With Cipherwill - Your data reaches your loved ones when you pass away. Open Source Cipherwill Web Client.",
+      "author": "CipherwillHQ",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cipherwillhq--cipherwill",
+      "stars": 21,
+      "quality": "bronze"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -202052,6 +202100,22 @@
       "quality": "silver"
     },
     {
+      "name": "hackers365--ble-speed",
+      "description": "\u57fa\u4e8e1.8\u5bf8esp32s3\u5706\u5c4f \u901a\u8fc7ble\u8fde\u63a5obd2\u9002\u914d\u5668 \u663e\u793a \u65f6\u901f/\u8f6c\u6570/\u6c34\u6e29 \u7b49\u4fe1\u606f",
+      "author": "hackers365",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hackers365--ble-speed",
+      "stars": 18,
+      "quality": "bronze"
+    },
+    {
+      "name": "robfromboulder--viewzoo",
+      "description": "Lightweight storage for Trino views",
+      "author": "robfromboulder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robfromboulder--viewzoo",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -214516,6 +214580,22 @@
       "quality": "bronze"
     },
     {
+      "name": "danja--semem",
+      "description": "Semantic Web Memory for Intelligent Agents",
+      "author": "danja",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danja--semem",
+      "stars": 16,
+      "quality": "gold"
+    },
+    {
+      "name": "danja--semem",
+      "description": "Semantic Web Memory for Intelligent Agents",
+      "author": "danja",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/danja--semem",
+      "stars": 16,
+      "quality": "gold"
+    },
+    {
       "name": "vm--nila-code",
       "description": "nila-code",
       "author": "vm",
@@ -220856,6 +220936,38 @@
       "description": "node-sdk",
       "author": "hyperbrowserai",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperbrowserai--node-sdk",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "0xbitwild--mteam-cli",
+      "description": "\u4e00\u4e2a\u57fa\u4e8e Python + Playwright \u7684 M-Team \u5168\u80fd\u547d\u4ee4\u884c\u5de5\u5177\u3002",
+      "author": "0xBitWild",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/0xbitwild--mteam-cli",
+      "stars": 15,
+      "quality": "bronze"
+    },
+    {
+      "name": "0xbitwild--mteam-cli",
+      "description": "\u4e00\u4e2a\u57fa\u4e8e Python + Playwright \u7684 M-Team \u5168\u80fd\u547d\u4ee4\u884c\u5de5\u5177\u3002",
+      "author": "0xBitWild",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/0xbitwild--mteam-cli",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "workfloworchestrator--pydantic-forms-ui",
+      "description": "NPM package that implements forms generated by the pydantic forms module",
+      "author": "workfloworchestrator",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/workfloworchestrator--pydantic-forms-ui",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "query-farm--webmacro",
+      "description": "DuckDB WebMacro: Share and Load your SQL Macros via gists",
+      "author": "Query-farm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/query-farm--webmacro",
       "stars": 15,
       "quality": "silver"
     },
@@ -227906,6 +228018,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doctoolchain--asciidoc-linter",
       "stars": 14,
       "quality": "silver"
+    },
+    {
+      "name": "tonycpsu--bluesky-navigator",
+      "description": "Userscript for Bluesky that adds Vim-like navigation, read/unread post-tracking, and other features",
+      "author": "tonycpsu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tonycpsu--bluesky-navigator",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "gustamantovani--admine",
+      "description": "Comprehensive infrastructure management solution for Minecraft servers running on Linux systems",
+      "author": "GustaMantovani",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gustamantovani--admine",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "tonycpsu--bluesky-navigator",
+      "description": "Userscript for Bluesky that adds Vim-like navigation, read/unread post-tracking, and other features",
+      "author": "tonycpsu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tonycpsu--bluesky-navigator",
+      "stars": 14,
+      "quality": "bronze"
     },
     {
       "name": "lucas-acc--sancho-skills",
@@ -236240,6 +236376,86 @@
       "description": "AI Liquidity Management Agent",
       "author": "MeltedMindz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meltedmindz--dexter",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "mrgoonie--url-review",
+      "description": "ReviewWeb.site is a tool that utilizes AI to helps you to scan through the websites and provide feedbacks based on the content.",
+      "author": "mrgoonie",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrgoonie--url-review",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "masumi-network--masumi-payment-service",
+      "description": "masumi-payment-service",
+      "author": "masumi-network",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/masumi-network--masumi-payment-service",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "mifunedev--orchestra",
+      "description": "Steerable Harnesses for DeepAgents \u2014 Orchestra\ud83e\udeb6",
+      "author": "mifunedev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mifunedev--orchestra",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "mifunedev--orchestra",
+      "description": "Steerable Harnesses for DeepAgents \u2014 Orchestra\ud83e\udeb6",
+      "author": "mifunedev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mifunedev--orchestra",
       "stars": 13,
       "quality": "silver"
     },
@@ -245336,6 +245552,30 @@
       "description": "Your agent team, on your machine. Open-source harness for multi-user Claude agents.",
       "author": "yaodub",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yaodub--cast",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "tkuitocc--dauphin-ios",
+      "description": "Dauphin est une application iOS non officielle pour les \u00e9tudiants de l\u2019Universit\u00e9 Tamkang, d\u00e9velopp\u00e9e ind\u00e9pendamment par un \u00e9tudiant.",
+      "author": "tkuitocc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tkuitocc--dauphin-ios",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "ursisterbtw--markdown-lab",
+      "description": "A powerful and modular web scraper that converts web content into well-structured Markdown, JSON or XML files with RAG-ready chunking capabilities.",
+      "author": "ursisterbtw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ursisterbtw--markdown-lab",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "ursisterbtw--markdown-lab",
+      "description": "A powerful and modular web scraper that converts web content into well-structured Markdown, JSON or XML files with RAG-ready chunking capabilities.",
+      "author": "ursisterbtw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ursisterbtw--markdown-lab",
       "stars": 12,
       "quality": "silver"
     },
@@ -255272,6 +255512,30 @@
       "description": "\ud83d\ude80 Accelerating Science - The ResearchHub web app",
       "author": "ResearchHub",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/researchhub--web",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "navapbc--strata-sdk-rails",
+      "description": "A SDK that empowers teams to accelerate delivery through self-service tools and training.",
+      "author": "navapbc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/navapbc--strata-sdk-rails",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "navapbc--strata-sdk-rails",
+      "description": "A SDK that empowers teams to accelerate delivery through self-service tools and training.",
+      "author": "navapbc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/navapbc--strata-sdk-rails",
+      "stars": 11,
+      "quality": "gold"
+    },
+    {
+      "name": "esmap-world-bank-group--epm",
+      "description": "EPM (Electricity Planning Model) is a least-cost power system planning tool.",
+      "author": "ESMAP-World-Bank-Group",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/esmap-world-bank-group--epm",
       "stars": 11,
       "quality": "silver"
     },
@@ -268914,6 +269178,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yuygfgg--y5gfunc",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "starcitizentools--mediawiki-extensions-thumbro",
+      "description": "Improves and expands thumbnails in MediaWiki. Forked from Extension:VipsScaler",
+      "author": "StarCitizenTools",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/starcitizentools--mediawiki-extensions-thumbro",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "jamie-cui--yacl-r",
+      "description": "yacl-r: Yet Another Cryptographic Library for Research",
+      "author": "Jamie-Cui",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jamie-cui--yacl-r",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "hiydavid--databricks-genai-examples",
+      "description": "A repo of code examples for building GenAI / ML projects on Databricks",
+      "author": "hiydavid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hiydavid--databricks-genai-examples",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "hiydavid--databricks-genai-examples",
+      "description": "A repo of code examples for building GenAI / ML projects on Databricks",
+      "author": "hiydavid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hiydavid--databricks-genai-examples",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "baconbro--oxygen",
+      "description": "Oxygen is a free and flexible alternative to Jira, built for teams of all sizes.  Plan, track, and release software with ease using customizable workflows, agile boards, and basic reporting tools.",
+      "author": "baconbro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baconbro--oxygen",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -306612,6 +306916,46 @@
       "quality": "silver"
     },
     {
+      "name": "xlupox--cursor-ai-rules-framework",
+      "description": "Comprehensive AI prompting framework for Cursor IDE - Autonomous Principal Engineer operational doctrine",
+      "author": "xLUPOx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xlupox--cursor-ai-rules-framework",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "maomou--stock-signal",
+      "description": "stock-signal",
+      "author": "maomou",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maomou--stock-signal",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "argoproj-labs--rollouts-plugin-metric-ai",
+      "description": "rollouts-plugin-metric-ai",
+      "author": "argoproj-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/argoproj-labs--rollouts-plugin-metric-ai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "maomou--stock-signal",
+      "description": "stock-signal",
+      "author": "maomou",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maomou--stock-signal",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "milisp--codexia-zen",
+      "description": "tauri GUI for OpenAI Codex CLI, minimalist design",
+      "author": "milisp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milisp--codexia-zen",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -327562,6 +327906,62 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ai272--speaker",
       "stars": 8,
       "quality": "bronze"
+    },
+    {
+      "name": "kylebing--songvault",
+      "description": "\u4e50\u5e93\u7ba1\u7406\uff0c\u7ba1\u7406\u4f60\u7684\u4e2a\u4eba\u97f3\u4e50\u5e93\uff0cSongVault  Song Vault \u66f2\u5e93\u7ba1\u7406",
+      "author": "KyleBing",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kylebing--songvault",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "suminhthanh--zerobin",
+      "description": "Zero-knowledge encrypted pastebin running entirely on Cloudflare",
+      "author": "suminhthanh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/suminhthanh--zerobin",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "agr-exo--extension-module",
+      "description": "angel Robotics KIT H10\uc744 \uc704\ud55c \ubd80\ubd84 \uac1c\ubc29\ud615 R&D \ud50c\ub7ab\ud3fc. XM10 \ud655\uc7a5 \ubaa8\ub4c8\uc744 \uc0ac\uc6a9\ud558\uc5ec \ub3c5\uc790\uc801\uc778 \uc81c\uc5b4 \uc54c\uace0\ub9ac\uc998\uc744 \uac1c\ubc1c\ud558\uc138\uc694.",
+      "author": "AGR-EXO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agr-exo--extension-module",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "suminhthanh--zerobin",
+      "description": "Zero-knowledge encrypted pastebin running entirely on Cloudflare",
+      "author": "suminhthanh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/suminhthanh--zerobin",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "xiaopacai88888--debug-mcp-idea",
+      "description": "debug-mcp-idea",
+      "author": "xiaopacai88888",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xiaopacai88888--debug-mcp-idea",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "agr-exo--extension-module",
+      "description": "angel Robotics KIT H10\uc744 \uc704\ud55c \ubd80\ubd84 \uac1c\ubc29\ud615 R&D \ud50c\ub7ab\ud3fc. XM10 \ud655\uc7a5 \ubaa8\ub4c8\uc744 \uc0ac\uc6a9\ud558\uc5ec \ub3c5\uc790\uc801\uc778 \uc81c\uc5b4 \uc54c\uace0\ub9ac\uc998\uc744 \uac1c\ubc1c\ud558\uc138\uc694.",
+      "author": "AGR-EXO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/agr-exo--extension-module",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "seejux--waha-whatsapp-mcp",
+      "description": "waha-whatsapp-mcp",
+      "author": "seejux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seejux--waha-whatsapp-mcp",
+      "stars": 8,
+      "quality": "silver"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -501208,6 +501608,62 @@
       "description": "exam-assessment",
       "author": "mkskaushalya",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mkskaushalya--exam-assessment",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "adil78124--agrohub",
+      "description": "AgroHub",
+      "author": "Adil78124",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adil78124--agrohub",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "adil78124--agrohub",
+      "description": "AgroHub",
+      "author": "Adil78124",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adil78124--agrohub",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "adil78124--agrohub",
+      "description": "AgroHub",
+      "author": "Adil78124",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adil78124--agrohub",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "adil78124--agrohub",
+      "description": "AgroHub",
+      "author": "Adil78124",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adil78124--agrohub",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "azizy5203--ng-tree-select",
+      "description": "ng-tree-select",
+      "author": "azizy5203",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/azizy5203--ng-tree-select",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "schuerstedt--dynwebsite",
+      "description": "DynWebSite",
+      "author": "schuerstedt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schuerstedt--dynwebsite",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "dm-software-ltd--ventureplanner-website-v3",
+      "description": "The third iteration of venture planner website",
+      "author": "DM-Software-Ltd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dm-software-ltd--ventureplanner-website-v3",
       "stars": 0,
       "quality": "silver"
     }
