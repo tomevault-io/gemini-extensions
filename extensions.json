@@ -311660,6 +311660,46 @@
       "quality": "silver"
     },
     {
+      "name": "hczs--fuckssh",
+      "description": "Cross-platform CLI for VPS SSH config management. Interactive wizard: IP + password \u2192 passwordless ssh in 3 min. Reads standard ~/.ssh/config. | \u8de8\u5e73\u53f0 CLI\uff1a\u4ea4\u4e92\u5f0f\u5411\u5bfc\u7ba1\u7406 VPS SSH \u914d\u7f6e\uff0cIP + \u5bc6\u7801 \u2192 3 \u5206\u949f\u514d\u5bc6\u767b\u5f55\u3002\u8bfb\u5199\u6807\u51c6 ~/.s",
+      "author": "hczs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hczs--fuckssh",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "hczs--fuckssh",
+      "description": "Cross-platform CLI for VPS SSH config management. Interactive wizard: IP + password \u2192 passwordless ssh in 3 min. Reads standard ~/.ssh/config. | \u8de8\u5e73\u53f0 CLI\uff1a\u4ea4\u4e92\u5f0f\u5411\u5bfc\u7ba1\u7406 VPS SSH \u914d\u7f6e\uff0cIP + \u5bc6\u7801 \u2192 3 \u5206\u949f\u514d\u5bc6\u767b\u5f55\u3002\u8bfb\u5199\u6807\u51c6 ~/.s",
+      "author": "hczs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hczs--fuckssh",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "bochner--lazyssh",
+      "description": "lazyssh",
+      "author": "Bochner",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bochner--lazyssh",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "bochner--lazyssh",
+      "description": "lazyssh",
+      "author": "Bochner",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bochner--lazyssh",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "bochner--lazyssh",
+      "description": "lazyssh",
+      "author": "Bochner",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bochner--lazyssh",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -332840,6 +332880,118 @@
       "description": "The circular economic community builder",
       "author": "PlebeianApp",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plebeianapp--market",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "medadembha--docflow",
+      "description": "docflow",
+      "author": "MedAdemBHA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/medadembha--docflow",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "oven320--wolflens",
+      "description": "Wolflens",
+      "author": "Oven320",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oven320--wolflens",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sandydasari--openacme",
+      "description": "OpenAcme \u2014 AI agent platform",
+      "author": "sandydasari",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sandydasari--openacme",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "medadembha--docflow",
+      "description": "docflow",
+      "author": "MedAdemBHA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/medadembha--docflow",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ahmad2x4--mcp-server-seq",
+      "description": "mcp-server-seq",
+      "author": "ahmad2x4",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ahmad2x4--mcp-server-seq",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "caoxiaoyue--tinylensgpu",
+      "description": "A GPU-accelerated galaxy-galaxy strong gravitational lens modeling software using JAX",
+      "author": "caoxiaoyue",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/caoxiaoyue--tinylensgpu",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "well-noted--tidweb",
+      "description": "A TiddlyWiki Browser",
+      "author": "well-noted",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/well-noted--tidweb",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ouyangyipeng--yatpotato",
+      "description": "A Tomato Clock with multiple interesting functions.",
+      "author": "ouyangyipeng",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ouyangyipeng--yatpotato",
       "stars": 8,
       "quality": "silver"
     },
@@ -506680,6 +506832,78 @@
       "description": "vscode",
       "author": "ivanm696",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivanm696--vscode",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "deadcoast--jetson",
+      "description": "JETSON",
+      "author": "deadcoast",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deadcoast--jetson",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "roman-t-nor--larachat",
+      "description": "LaraChat",
+      "author": "roman-t-nor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roman-t-nor--larachat",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wenjebs--ripple",
+      "description": "easya x ripple",
+      "author": "wenjebs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wenjebs--ripple",
       "stars": 0,
       "quality": "silver"
     }
