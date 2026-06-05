@@ -259692,6 +259692,14 @@
       "quality": "gold"
     },
     {
+      "name": "paulrobello--par-gpt",
+      "description": "CLI LLM / Agent multi-tool",
+      "author": "paulrobello",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/paulrobello--par-gpt",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -273874,6 +273882,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snowflake-labs--sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator",
       "stars": 10,
       "quality": "gold"
+    },
+    {
+      "name": "chrisreddington--validate-file-exists",
+      "description": "A GitHub Action that checks for the existence of a specified list of files.",
+      "author": "chrisreddington",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chrisreddington--validate-file-exists",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "nethermindeth--starkweb",
+      "description": "Complete toolkit to build on the stark side of the web",
+      "author": "NethermindEth",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nethermindeth--starkweb",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "sarmatdev--artemis-sol",
+      "description": "Framework to build MEV bots in Rust on Solana",
+      "author": "sarmatdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sarmatdev--artemis-sol",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "fsprojects--fsharp-control-r3",
+      "description": "Extensions and wrappers for using R3 with F#.",
+      "author": "fsprojects",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fsprojects--fsharp-control-r3",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "shinokada--svelte-animate",
+      "description": "A lightweight, accessible Svelte component that wraps Animate.css, simplifying animation integration in Svelte applications. ",
+      "author": "shinokada",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinokada--svelte-animate",
+      "stars": 10,
+      "quality": "silver"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -312044,6 +312092,126 @@
       "quality": "bronze"
     },
     {
+      "name": "muhammadatef--kakashi",
+      "description": "A local-first masker that lives inside Claude Code, Cursor, Codex CLI, and 20+ AI agents.  Hides API keys, passwords, secrets, and personal data \u2014 across PDF, Word, Excel, JSON, .env, and 45+ other fo",
+      "author": "Muhammadatef",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muhammadatef--kakashi",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "muhammadatef--kakashi",
+      "description": "A local-first masker that lives inside Claude Code, Cursor, Codex CLI, and 20+ AI agents.  Hides API keys, passwords, secrets, and personal data \u2014 across PDF, Word, Excel, JSON, .env, and 45+ other fo",
+      "author": "Muhammadatef",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muhammadatef--kakashi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jbcodeforce--shift-left-utils",
+      "description": "shift_left_utils",
+      "author": "jbcodeforce",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jbcodeforce--shift-left-utils",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "alanblogooo--xiaobot-nav-next",
+      "description": "AI \u7f16\u7a0b\u5f00\u53d1\u7684\u5c0f\u62a5\u7ae5\u5bfc\u822a\u7ad9",
+      "author": "alanblogooo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alanblogooo--xiaobot-nav-next",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "suho--bluffxcodes",
+      "description": "A tool that helps you to run unsupported Xcode applications on the new macOS (e.g. Sequoia)",
+      "author": "suho",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/suho--bluffxcodes",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "wheelos-tools--whl-cal",
+      "description": "scalib",
+      "author": "wheelos-tools",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wheelos-tools--whl-cal",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "jbcodeforce--shift-left-utils",
+      "description": "shift_left_utils",
+      "author": "jbcodeforce",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jbcodeforce--shift-left-utils",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "jbcodeforce--shift-left-utils",
+      "description": "shift_left_utils",
+      "author": "jbcodeforce",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jbcodeforce--shift-left-utils",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "muhammadatef--kakashi",
+      "description": "A local-first masker that lives inside Claude Code, Cursor, Codex CLI, and 20+ AI agents.  Hides API keys, passwords, secrets, and personal data \u2014 across PDF, Word, Excel, JSON, .env, and 45+ other fo",
+      "author": "Muhammadatef",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/muhammadatef--kakashi",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tomconte--codebox-ai",
+      "description": "A secure Python code execution service designed to integrate with LLMs like GPT and Claude, providing a self-hosted alternative to OpenAI's Code Interpreter. Now with MCP server.",
+      "author": "tomconte",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tomconte--codebox-ai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ublue-os--aurora-docs",
+      "description": "Docs for Aurora.",
+      "author": "ublue-os",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ublue-os--aurora-docs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "colinrozzi--theater",
+      "description": "wasm actor runtime",
+      "author": "colinrozzi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/colinrozzi--theater",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "endstonemc--dwarf2cpp",
+      "description": "Generate C++ headers from DWARF Debugging Information Format",
+      "author": "EndstoneMC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/endstonemc--dwarf2cpp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "aldamico--tomblauncher",
+      "description": "A Tomb Raider Custom Level management application",
+      "author": "ALDamico",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aldamico--tomblauncher",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "verse-pbc--groups-relay",
+      "description": "Nostr NIP-29 Relay",
+      "author": "verse-pbc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/verse-pbc--groups-relay",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -333484,6 +333652,86 @@
       "quality": "gold"
     },
     {
+      "name": "hinsley--multimodalmaps-jl",
+      "description": "Symbolic scans of multimodal maps of an interval",
+      "author": "hinsley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hinsley--multimodalmaps-jl",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "luizpvas--explicit",
+      "description": "Explicit is a validation and documentation library for REST APIs that enforces documented types at runtime",
+      "author": "luizpvas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luizpvas--explicit",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "koushiro--fastmetrics",
+      "description": "Fast and structured OpenMetrics / Prometheus client library for Rust",
+      "author": "koushiro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koushiro--fastmetrics",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "meishiwhy--literature-mind",
+      "description": "LitMind \u5c06\u4f60\u7684 Zotero \u6587\u732e\u5e93\u8f6c\u5316\u4e3a\u4e00\u4e2a\u80fd\u591f\u68c0\u7d22\u3001\u63a8\u7406\u548c\u8f85\u52a9\u5199\u4f5c\u7684 AI \u79d1\u7814\u77e5\u8bc6\u5e93\u3002",
+      "author": "meishiwhy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/meishiwhy--literature-mind",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "zhting--agnesai",
+      "description": "agnesAI\u7684API\u8c03\u7528",
+      "author": "zhting",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhting--agnesai",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hubugui1111-lab--maatavernbot",
+      "description": "\u57fa\u4e8e MaaFramework \u7684\u7089\u77f3\u4f20\u8bf4\u9152\u9986\u6218\u65d7\u5168\u81ea\u52a8\u811a\u672c",
+      "author": "hubugui1111-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hubugui1111-lab--maatavernbot",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dfradehubs--agentgram",
+      "description": "Unified interface for interacting with multiple AI agents (AG-UI protocol). Go API multiplexer + Next.js web.",
+      "author": "dfradehubs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dfradehubs--agentgram",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sap--terraform-provider-sap-cloud-identity-services",
+      "description": "Terraform provider for SAP Cloud Identity Services",
+      "author": "SAP",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sap--terraform-provider-sap-cloud-identity-services",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "bradyajohnston--warbler",
+      "description": "Interactive GPU physics inside of Blender's viewport",
+      "author": "BradyAJohnston",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bradyajohnston--warbler",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "koushiro--fastmetrics",
+      "description": "Fast and structured OpenMetrics / Prometheus client library for Rust",
+      "author": "koushiro",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koushiro--fastmetrics",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -338842,6 +339090,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bobinson--vulture",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "nemori-ai--langchain-dynamic-workflow",
+      "description": "Deterministic, scripted, resumable multi-agent orchestration for LangChain deepagents \u2014 a community port of Claude Code's Dynamic Workflows.",
+      "author": "nemori-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nemori-ai--langchain-dynamic-workflow",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
