@@ -175548,6 +175548,38 @@
       "quality": "silver"
     },
     {
+      "name": "openmeet-team--openmeet-api",
+      "description": "Provides the API for OpenMeet",
+      "author": "OpenMeet-Team",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openmeet-team--openmeet-api",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "vitormarkis--saphyra",
+      "description": "A tool for creating declarative stores and managing state, that embraces async behavior.",
+      "author": "vitormarkis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vitormarkis--saphyra",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "singularitysociety--ai-geography",
+      "description": "ai_geography",
+      "author": "SingularitySociety",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/singularitysociety--ai-geography",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
+      "name": "kovah--laravel-socialite-oidc",
+      "description": "A generic OpenID Connect (OIDC) Provider for Laravel Socialite",
+      "author": "Kovah",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kovah--laravel-socialite-oidc",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -179584,6 +179616,14 @@
       "description": "hypergraph",
       "author": "graphprotocol",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--hypergraph",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "divitmittal--tltr",
+      "description": "Cross-platform multi-layer keyboard layout tailored for programmers",
+      "author": "DivitMittal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/divitmittal--tltr",
       "stars": 23,
       "quality": "silver"
     },
@@ -194340,6 +194380,22 @@
       "quality": "silver"
     },
     {
+      "name": "simonreif--zewwwwecon",
+      "description": "Quarto Templates for Applied Economic Research Projects",
+      "author": "simonreif",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/simonreif--zewwwwecon",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
+      "name": "genlayerlabs--genlayer-fee-distribution-simulator",
+      "description": "genlayer-fee-distribution-simulator",
+      "author": "genlayerlabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genlayerlabs--genlayer-fee-distribution-simulator",
+      "stars": 20,
+      "quality": "bronze"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -204724,6 +204780,14 @@
       "quality": "silver"
     },
     {
+      "name": "mercurytechnologies--sqkon",
+      "description": "Sqkon - SQLite Backed Jsonb KeyValue Store - Pronounced \"sc-on\"",
+      "author": "MercuryTechnologies",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mercurytechnologies--sqkon",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -211276,6 +211340,22 @@
       "quality": "silver"
     },
     {
+      "name": "jpablo--graph-explorer",
+      "description": "Explore graphs in a visual way",
+      "author": "jpablo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jpablo--graph-explorer",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "jpablo--graph-explorer",
+      "description": "Explore graphs in a visual way",
+      "author": "jpablo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jpablo--graph-explorer",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -217578,6 +217658,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/felixrieseberg--relic",
       "stars": 16,
       "quality": "bronze"
+    },
+    {
+      "name": "flashbots--builder-hub",
+      "description": "BuilderHub service for provisioning and permissioning BuilderNet instances",
+      "author": "flashbots",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flashbots--builder-hub",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "syi0808--pubm",
+      "description": "Publish to npm, jsr, crates.io, and private registries in one step",
+      "author": "syi0808",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/syi0808--pubm",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "philpax--rucomfyui",
+      "description": "A Rust client for ComfyUI with an emphasis on type safety and ergonomics.",
+      "author": "philpax",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/philpax--rucomfyui",
+      "stars": 16,
+      "quality": "silver"
     },
     {
       "name": "vm--nila-code",
@@ -224200,6 +224304,22 @@
       "description": "Template project that demonstrates how to implement a modern Android app.",
       "author": "pantstamp",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pantstamp--android-template-project",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "istio-ecosystem--fortsa",
+      "description": "Keep Istio's Sidecar Proxies Up-To-Date Automatically",
+      "author": "istio-ecosystem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/istio-ecosystem--fortsa",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "flox1an--nsite-cli",
+      "description": "CLI tool that uploads NOSTR kind 34128 website content events which point to content on blossom.",
+      "author": "flox1an",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flox1an--nsite-cli",
       "stars": 15,
       "quality": "silver"
     },
@@ -240200,6 +240320,14 @@
       "description": "Seismic REVM implements the Mercury Specification of the EVM: a shielded virtual machine that powers Seismic's blockchain",
       "author": "SeismicSystems",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seismicsystems--seismic-revm",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "jaredwray--qified",
+      "description": "Cloud Queues with Task and Messages and Multiple Providers",
+      "author": "jaredwray",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaredwray--qified",
       "stars": 13,
       "quality": "silver"
     },
@@ -260052,6 +260180,22 @@
       "quality": "silver"
     },
     {
+      "name": "neg4n--the-golden-vim",
+      "description": "A tribute to the era before bloat. Vim, reinterpreted. Distraction removed.",
+      "author": "neg4n",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neg4n--the-golden-vim",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "microsoft--devfactory",
+      "description": "Accelerate the deployment of your Development Factory.",
+      "author": "microsoft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--devfactory",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -274320,6 +274464,14 @@
       "description": "Deploy a production-ready AI model training workflow for hardware control systems and physics simulation in minutes.",
       "author": "onyx-robotics",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onyx-robotics--onyx-engine",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "koki-develop--koto",
+      "description": "IME for Mac.",
+      "author": "koki-develop",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koki-develop--koto",
       "stars": 10,
       "quality": "silver"
     },
@@ -312908,6 +313060,70 @@
       "quality": "silver"
     },
     {
+      "name": "dmitriyalergant--open-webui-cost-tracking-manifolds",
+      "description": "open-webui-cost-tracking-manifolds",
+      "author": "DmitriyAlergant",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dmitriyalergant--open-webui-cost-tracking-manifolds",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "snooztoolbox--snooz-toolbox",
+      "description": "The Snooz Toolbox: an open-access, cross-platform Python desktop application for sleep data analysis. Contact: snooztoolbox.cnmtl@ssss.gouv.qc.ca",
+      "author": "SnoozToolbox",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snooztoolbox--snooz-toolbox",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "cbitosc--qr-certificate-generator",
+      "description": "A Next.js and FastAPI web app for generating secure, QR-verifiable digital certificates with automated QR code generation and GitHub Pages integration for verification.",
+      "author": "cbitosc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cbitosc--qr-certificate-generator",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "holedev--nextjs-faster",
+      "description": "Rapidly development with Next.js 16, TypeScript, Shadcn UI, Prisma and Swagger.",
+      "author": "holedev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/holedev--nextjs-faster",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "arkavo-org--opentdf-rs",
+      "description": "OpenTDF in Rust community-driven",
+      "author": "arkavo-org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arkavo-org--opentdf-rs",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "deepspacemill--framework",
+      "description": "\u73b0\u4ee3\u5316\u89c6\u89c9\u5c0f\u8bf4\u6e38\u620f\u5f00\u53d1\u6846\u67b6\uff0c\u57fa\u4e8e\u672b\u8bed\u5f15\u64ce\u6784\u5efa | A modern visual novel game development framework built on the Moyu Engine",
+      "author": "DeepSpaceMill",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/deepspacemill--framework",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "aias--red-cliff-record",
+      "description": "A local-first, own-your-data approach to personal knowledge management. The spiritual successor to barnsworthburning. ",
+      "author": "Aias",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aias--red-cliff-record",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "aias--red-cliff-record",
+      "description": "A local-first, own-your-data approach to personal knowledge management. The spiritual successor to barnsworthburning. ",
+      "author": "Aias",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aias--red-cliff-record",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -334556,6 +334772,14 @@
       "quality": "gold"
     },
     {
+      "name": "thehuanlwd--siu",
+      "description": "AI-powered release gap auditor that compares your current version with the latest GitHub release and answers: Should I upgrade?",
+      "author": "thehuanlwd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thehuanlwd--siu",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -339928,6 +340152,22 @@
       "description": "rolltop",
       "author": "grahamsz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grahamsz--rolltop",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "freddy-schuetz--hackathon-n8n-starter",
+      "description": "Einsteiger-freundlicher Hackathon-Starter: Claude Code + n8n \u2014 Skills, n8n-MCP, KI-Agent-Lernworkflows + Frontend/Backend-Beispiele. Setup per \u201erichte mir das ein\u201c.",
+      "author": "freddy-schuetz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freddy-schuetz--hackathon-n8n-starter",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "freddy-schuetz--hackathon-n8n-starter",
+      "description": "Einsteiger-freundlicher Hackathon-Starter: Claude Code + n8n \u2014 Skills, n8n-MCP, KI-Agent-Lernworkflows + Frontend/Backend-Beispiele. Setup per \u201erichte mir das ein\u201c.",
+      "author": "freddy-schuetz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freddy-schuetz--hackathon-n8n-starter",
       "stars": 7,
       "quality": "silver"
     },
