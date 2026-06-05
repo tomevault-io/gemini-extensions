@@ -311716,6 +311716,54 @@
       "quality": "bronze"
     },
     {
+      "name": "vicharanashala--cs9",
+      "description": "A crowdsourced FAQ solution portal developed by the VINS interns of VLED, IIT Ropar - Summer 2026.",
+      "author": "vicharanashala",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vicharanashala--cs9",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "jeffisgod--agri-cv-research",
+      "description": "An AI-powered agricultural CV research framework automating the full pipeline from literature discovery to paper drafting, optimized for Codex, Claude Code and Cursor workflows.",
+      "author": "Jeffisgod",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeffisgod--agri-cv-research",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "repliers-io--dev-playgrounds",
+      "description": "dev-playgrounds",
+      "author": "Repliers-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/repliers-io--dev-playgrounds",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "ssxdecomp--ssx",
+      "description": "Decompilation of SSX (2000).",
+      "author": "ssxdecomp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ssxdecomp--ssx",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "drewcrawford--app-window",
+      "description": "Cross-platform Rust window library",
+      "author": "drewcrawford",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/drewcrawford--app-window",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "drewcrawford--app-window",
+      "description": "Cross-platform Rust window library",
+      "author": "drewcrawford",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/drewcrawford--app-window",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -333012,6 +333060,14 @@
       "quality": "silver"
     },
     {
+      "name": "rootsongjc--ai-native-landscape",
+      "description": "Explore the ecosystem of open source tools, agents, runtimes, platforms, and infrastructure for the AI Native era, curated by hand and evaluated across multiple dimensions.",
+      "author": "rootsongjc",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rootsongjc--ai-native-landscape",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -338328,6 +338384,22 @@
       "description": "k8s operator for declarative data pipeline ",
       "author": "pzhenzhou",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pzhenzhou--lakeflow-controller",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "tarpediem--zenvision-linux",
+      "description": "Linux userspace driver for the ASUS ZenVision lid OLED (Zenbook 14X OLED Space Edition, UX5401ZAS) \u2014 256x64 monochrome panel over USB",
+      "author": "tarpediem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tarpediem--zenvision-linux",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "juntoku9--sessory",
+      "description": "Shared memory for AI coding sessions.",
+      "author": "juntoku9",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/juntoku9--sessory",
       "stars": 7,
       "quality": "silver"
     },
