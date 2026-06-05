@@ -7,11 +7,11 @@ QA harness built for Claude Code | E2E testing with screen recordings, console l
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [usecanary/canary](https://github.com/usecanary/canary).
+Original source: `AGENTS.md` in [usecanary/canary](https://github.com/usecanary/canary).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
