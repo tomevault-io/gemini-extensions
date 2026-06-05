@@ -131236,6 +131236,22 @@
       "quality": "bronze"
     },
     {
+      "name": "denysdovhan--ha-lun-misto-air",
+      "description": "\ud83d\udca8 An integration for air quality monitoring by LUN Misto.",
+      "author": "denysdovhan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/denysdovhan--ha-lun-misto-air",
+      "stars": 40,
+      "quality": "silver"
+    },
+    {
+      "name": "gfhdhytghd--oqqwall",
+      "description": "\u4e00\u4e2aqq\u6821\u56ed\u5899\u81ea\u52a8\u8fd0\u8425\u7cfb\u7edf",
+      "author": "gfhdhytghd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gfhdhytghd--oqqwall",
+      "stars": 40,
+      "quality": "silver"
+    },
+    {
       "name": "w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx",
       "author": "w3cj",
@@ -134700,6 +134716,22 @@
       "quality": "silver"
     },
     {
+      "name": "endatix--endatix",
+      "description": "Endatix is a form management backend API for SurveyJS-based projects.",
+      "author": "endatix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/endatix--endatix",
+      "stars": 38,
+      "quality": "silver"
+    },
+    {
+      "name": "ksharma-xyz--krail",
+      "description": "KRAIL is a Compose Multiplatform app for trip planning on public transport in Sydney, NSW, Australia.",
+      "author": "ksharma-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ksharma-xyz--krail",
+      "stars": 38,
+      "quality": "gold"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore.",
       "author": "nikolasburk",
@@ -136924,6 +136956,30 @@
       "quality": "silver"
     },
     {
+      "name": "hyperb1iss--git-iris",
+      "description": "An intelligent agent that understands your code and crafts perfect Git artifacts",
+      "author": "hyperb1iss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperb1iss--git-iris",
+      "stars": 37,
+      "quality": "gold"
+    },
+    {
+      "name": "jevandezande--pixi-cookiecutter",
+      "description": "Cookiecutter for setting up python projects with pixi that just work",
+      "author": "jevandezande",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jevandezande--pixi-cookiecutter",
+      "stars": 37,
+      "quality": "silver"
+    },
+    {
+      "name": "hyperb1iss--git-iris",
+      "description": "An intelligent agent that understands your code and crafts perfect Git artifacts",
+      "author": "hyperb1iss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyperb1iss--git-iris",
+      "stars": 37,
+      "quality": "gold"
+    },
+    {
       "name": "affitor--open-affiliate",
       "description": "The open registry of affiliate programs. Built for developers and AI agents.",
       "author": "Affitor",
@@ -139002,6 +139058,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jonatanjacobsson--ifcpipeline",
       "stars": 36,
       "quality": "bronze"
+    },
+    {
+      "name": "finos--opengris-scaler",
+      "description": "Efficient, lightweight and reliable distributed computation engine",
+      "author": "finos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/finos--opengris-scaler",
+      "stars": 36,
+      "quality": "silver"
     },
     {
       "name": "aregowe--magento2-module-polyshell-protection",
@@ -171332,6 +171396,14 @@
       "quality": "bronze"
     },
     {
+      "name": "ruvnet--agentic-robotics",
+      "description": "The goal of this project is to create a modular Agentic Python framework for robotics that can be used to develop specific robotic applications for various types of robots, IoT, and physical devices. ",
+      "author": "ruvnet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ruvnet--agentic-robotics",
+      "stars": 25,
+      "quality": "gold"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -184722,6 +184794,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vitest-dev--ivya",
       "stars": 22,
       "quality": "bronze"
+    },
+    {
+      "name": "atopile--cell-sim",
+      "description": "cell-sim",
+      "author": "atopile",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atopile--cell-sim",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "atopile--cell-sim",
+      "description": "cell-sim",
+      "author": "atopile",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atopile--cell-sim",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "atopile--cell-sim",
+      "description": "cell-sim",
+      "author": "atopile",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/atopile--cell-sim",
+      "stars": 22,
+      "quality": "silver"
     },
     {
       "name": "seven7763--windsurf-tools",
@@ -198764,6 +198860,14 @@
       "quality": "silver"
     },
     {
+      "name": "ssg--eksi-yedek",
+      "description": "ek\u015fi s\u00f6zl\u00fck yedek okuyucu \u015feysi",
+      "author": "ssg",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ssg--eksi-yedek",
+      "stars": 19,
+      "quality": "bronze"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon",
       "author": "nirholas",
@@ -204368,6 +204472,22 @@
       "description": "A Neovim plugin for rendering markdown files in terminal",
       "author": "yelog",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yelog--marklive-nvim",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "vultisig--vultisig-windows",
+      "description": "vultisig-windows",
+      "author": "vultisig",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vultisig--vultisig-windows",
+      "stars": 18,
+      "quality": "gold"
+    },
+    {
+      "name": "thedannicraft--activity-log",
+      "description": "A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific ",
+      "author": "TheDanniCraft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thedannicraft--activity-log",
       "stars": 18,
       "quality": "silver"
     },
@@ -210908,6 +211028,22 @@
       "quality": "bronze"
     },
     {
+      "name": "issabelpbx--callcenter-issabel5",
+      "description": "callcenter-issabel5",
+      "author": "ISSABELPBX",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/issabelpbx--callcenter-issabel5",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "issabelpbx--callcenter-issabel5",
+      "description": "callcenter-issabel5",
+      "author": "ISSABELPBX",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/issabelpbx--callcenter-issabel5",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
       "name": "13point5--agent-canvas",
       "description": "agent-canvas",
       "author": "13point5",
@@ -217192,6 +217328,14 @@
       "description": "Uma iniciativa BRLN para incentivo da lightning no Brasil.",
       "author": "pagcoinbr",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pagcoinbr--brln-os",
+      "stars": 16,
+      "quality": "silver"
+    },
+    {
+      "name": "hackiftekhar--iqkeyboardtoolbarmanager",
+      "description": "Used for maintaining IQKeyboardToolbar throughout the app.",
+      "author": "hackiftekhar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hackiftekhar--iqkeyboardtoolbarmanager",
       "stars": 16,
       "quality": "silver"
     },
@@ -223810,6 +223954,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apossiblespace--parts",
       "stars": 15,
       "quality": "gold"
+    },
+    {
+      "name": "pantstamp--android-template-project",
+      "description": "Template project that demonstrates how to implement a modern Android app.",
+      "author": "pantstamp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pantstamp--android-template-project",
+      "stars": 15,
+      "quality": "silver"
     },
     {
       "name": "hyaway--hyaway",
@@ -231040,6 +231192,22 @@
       "description": "terraform-provider-trocco",
       "author": "trocco-io",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trocco-io--terraform-provider-trocco",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "db-camp--tpcc-tester",
+      "description": "\u672c\u9879\u76ee\u4e3a 2023-2026 \u5168\u56fd\u5927\u5b66\u751f\u8ba1\u7b97\u673a\u7cfb\u7edf\u80fd\u529b\u5927\u8d5b-\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf\u8bbe\u8ba1\u8d5b\u51b3\u8d5b\u6a21\u62df\u8bc4\u6d4b\u811a\u672c\uff0c\u7531\u539f DataDance \u56e2\u961f\u5f00\u53d1\u3002",
+      "author": "db-camp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/db-camp--tpcc-tester",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "db-camp--tpcc-tester",
+      "description": "\u672c\u9879\u76ee\u4e3a 2023-2026 \u5168\u56fd\u5927\u5b66\u751f\u8ba1\u7b97\u673a\u7cfb\u7edf\u80fd\u529b\u5927\u8d5b-\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf\u8bbe\u8ba1\u8d5b\u51b3\u8d5b\u6a21\u62df\u8bc4\u6d4b\u811a\u672c\uff0c\u7531\u539f DataDance \u56e2\u961f\u5f00\u53d1\u3002",
+      "author": "db-camp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/db-camp--tpcc-tester",
       "stars": 14,
       "quality": "silver"
     },
@@ -249156,6 +249324,38 @@
       "quality": "silver"
     },
     {
+      "name": "viu-media--inazuma",
+      "description": "Kivy gui wrapper over viu",
+      "author": "viu-media",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/viu-media--inazuma",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "promise2341--busnetpy",
+      "description": "\u4e00\u6b3e\u4ece\u6570\u636e\u83b7\u53d6\u5230\u516c\u4ea4\u8bc4\u4f30\u89c4\u5212\u7684python\u5e93\u3002",
+      "author": "promise2341",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/promise2341--busnetpy",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "comphy-lab--basilisk-c",
+      "description": "version, updated every day",
+      "author": "comphy-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/comphy-lab--basilisk-c",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "hyacz--decky-zerotier",
+      "description": "A Decky plugin for Zerotier",
+      "author": "hyacz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hyacz--decky-zerotier",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -259386,6 +259586,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nanxstats--pycsr",
       "stars": 11,
       "quality": "silver"
+    },
+    {
+      "name": "dzervas--dotfiles",
+      "description": "My NixOS setup for my personal dekstop & work laptop",
+      "author": "dzervas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dzervas--dotfiles",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "dzervas--dotfiles",
+      "description": "My NixOS setup for my personal dekstop & work laptop",
+      "author": "dzervas",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dzervas--dotfiles",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "wflixu--macos-apps",
+      "description": "Awesome macOS open source Apps",
+      "author": "wflixu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wflixu--macos-apps",
+      "stars": 11,
+      "quality": "bronze"
     },
     {
       "name": "makenowjust--naraku",
