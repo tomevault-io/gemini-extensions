@@ -7,13 +7,13 @@ A curated collection of AI-powered skills, agents, prompts, and workflows for An
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [salmanashraf/mobile-agency](https://github.com/salmanashraf/mobile-agency).
+Original source: `copilot-instructions.md` in [salmanashraf/mobile-agency](https://github.com/salmanashraf/mobile-agency).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
