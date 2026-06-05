@@ -7,11 +7,11 @@ Unofficial personal-use Zalo desktop client built with Tauri, Rust, SvelteKit, a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tuanle96/zca-desktop](https://github.com/tuanle96/zca-desktop).
+Original source: `CLAUDE.md` in [tuanle96/zca-desktop](https://github.com/tuanle96/zca-desktop).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
