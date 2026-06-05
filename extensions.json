@@ -249468,6 +249468,38 @@
       "quality": "silver"
     },
     {
+      "name": "roydigerhund--easingwizard",
+      "description": "easingwizard",
+      "author": "roydigerhund",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/roydigerhund--easingwizard",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "xephosbot--anilibriarefresh",
+      "description": "Compose Multiplatform Anilibria Client (Android, iOS, Desktop)",
+      "author": "xephosbot",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xephosbot--anilibriarefresh",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "canmet-energy--h2k-hpxml",
+      "description": "h2k-hpxml",
+      "author": "canmet-energy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/canmet-energy--h2k-hpxml",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "artemijan--l2shablya",
+      "description": "Lineage 2 game server emulator written in rust ",
+      "author": "artemijan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artemijan--l2shablya",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -259768,6 +259800,30 @@
       "description": "The website for SmoothCSV, the ultimate CSV editor for Mac and Windows.",
       "author": "kohii",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kohii--smoothcsv-website",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "ameek94--bobe",
+      "description": "BOBE (Bayesian Optimation for Bayesian Evidence) is a package for Bayesian model selection with expensive likelihood functions, developed for applications to cosmology.",
+      "author": "Ameek94",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ameek94--bobe",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "open-osp--open-o",
+      "description": "An open source electronic medical record system",
+      "author": "open-osp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/open-osp--open-o",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "nanato12--line-works-sdk",
+      "description": "LINE WORKS SDK for Python",
+      "author": "nanato12",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nanato12--line-works-sdk",
       "stars": 11,
       "quality": "silver"
     },
@@ -274008,6 +274064,38 @@
       "description": "Capacitor plugin to download file in background or foreground",
       "author": "Cap-go",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-downloader",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "genlayerlabs--intelligent-oracle",
+      "description": "Intelligent Oracle: describe any prediction-market question in natural language and let GenLayer's intelligent contracts resolve it from real-world sources.",
+      "author": "genlayerlabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genlayerlabs--intelligent-oracle",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "genlayerlabs--intelligent-oracle",
+      "description": "Intelligent Oracle: describe any prediction-market question in natural language and let GenLayer's intelligent contracts resolve it from real-world sources.",
+      "author": "genlayerlabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genlayerlabs--intelligent-oracle",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "januarylabs--serverize",
+      "description": "The simplest way to deploy docker images (that runs web server)",
+      "author": "JanuaryLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/januarylabs--serverize",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "onyx-robotics--onyx-engine",
+      "description": "Deploy a production-ready AI model training workflow for hardware control systems and physics simulation in minutes.",
+      "author": "onyx-robotics",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/onyx-robotics--onyx-engine",
       "stars": 10,
       "quality": "silver"
     },
@@ -312484,6 +312572,118 @@
       "quality": "silver"
     },
     {
+      "name": "boundlessfi--boundless",
+      "description": "boundless",
+      "author": "boundlessfi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/boundlessfi--boundless",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "wizenheimer--canary",
+      "description": "QA harness built for Claude Code | E2E testing with screen recordings, console logs, network HARs, and Playwright traces",
+      "author": "wizenheimer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wizenheimer--canary",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mikekistler--aspnet-transformer-gallery",
+      "description": "A collection of OpenAPI transformers for ASP.NET applications",
+      "author": "mikekistler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mikekistler--aspnet-transformer-gallery",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "bluetape4k--bluetape4k-projects",
+      "description": "Bluetape for Backend development with Kotlin",
+      "author": "bluetape4k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluetape4k--bluetape4k-projects",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "khalidkhankakar--vision-board",
+      "description": "V-Board is web app which is build in Nextjs 15 RC. which allows user to create the drawing shaps and more using liveblocks.",
+      "author": "khalidkhankakar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/khalidkhankakar--vision-board",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "laurence-042--my-pen-is-broken",
+      "description": "Steam \u597d\u8bc4\u738798%\uff0c\u5168\u7403\u9996\u6b3e\u300c\u5bfb\u627e\u5bf9\u8bdd\u4e2d\u654f\u611f\u8bcd\u300d\u7684\u6e38\u620f\u300a\u30a6\u30fc\u30de\u30f3\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3/ \u5973\u6027\u4ea4\u6d41\u300b\u901a\u5173\u540e\u505a\u7684\u5c0f\u73a9\u5177\uff0c\u65e2\u53ef\u4ee5\u76f4\u63a5\u6807\u7ea2\u9875\u9762\u4e0a\u7684\u654f\u611f\u8bcd\uff0c\u4e5f\u53ef\u4ee5\u4eba\u5de5\u5bfb\u627e\u654f\u611f\u8bcd\u5e76\u70b9\u51fb\u4ee5\u6807\u7ea2",
+      "author": "Laurence-042",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/laurence-042--my-pen-is-broken",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "bluetape4k--bluetape4k-projects",
+      "description": "Bluetape for Backend development with Kotlin",
+      "author": "bluetape4k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluetape4k--bluetape4k-projects",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "wizenheimer--canary",
+      "description": "QA harness built for Claude Code | E2E testing with screen recordings, console logs, network HARs, and Playwright traces",
+      "author": "wizenheimer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wizenheimer--canary",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "wellwelwel--weslley-io",
+      "description": "\ud83e\udef0\ud83c\udffb Just a personal website.",
+      "author": "wellwelwel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wellwelwel--weslley-io",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tjhallum--navigate-the-way",
+      "description": "An AI assistant trusted by both pastors and laypeople for Bible study, doctrine, theology, sermon/lesson preparation, Christian content creation, and more. It provides biblically sound insights rooted",
+      "author": "tjhallum",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tjhallum--navigate-the-way",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "trackabout--azure-sql-hyperscale-elasticpool-autoscaler",
+      "description": "An Azure Function that monitors and autoscales Azure SQL Hyperscale Elastic Pools. Only intended for use with Hyperscale.",
+      "author": "trackabout",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trackabout--azure-sql-hyperscale-elasticpool-autoscaler",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "bluetape4k--bluetape4k-projects",
+      "description": "Bluetape for Backend development with Kotlin",
+      "author": "bluetape4k",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bluetape4k--bluetape4k-projects",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "golhaprogram--golhaprogram-website",
+      "description": "Source of golhaprogram.com",
+      "author": "golhaprogram",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/golhaprogram--golhaprogram-website",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "closeio--close-mongo-ops-manager",
+      "description": "Monitor and kill MongoDB operations",
+      "author": "closeio",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/closeio--close-mongo-ops-manager",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -334074,6 +334274,62 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/connerohnesorge--dotfiles",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "salmanashraf--mobile-agency",
+      "description": "A curated collection of AI-powered skills, agents, prompts, and workflows for Android, iOS, Flutter, React Native, Unity, and Unreal developers. Build faster, debug smarter, review code, optimize perf",
+      "author": "salmanashraf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/salmanashraf--mobile-agency",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "salmanashraf--mobile-agency",
+      "description": "A curated collection of AI-powered skills, agents, prompts, and workflows for Android, iOS, Flutter, React Native, Unity, and Unreal developers. Build faster, debug smarter, review code, optimize perf",
+      "author": "salmanashraf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/salmanashraf--mobile-agency",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "salmanashraf--mobile-agency",
+      "description": "A curated collection of AI-powered skills, agents, prompts, and workflows for Android, iOS, Flutter, React Native, Unity, and Unreal developers. Build faster, debug smarter, review code, optimize perf",
+      "author": "salmanashraf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/salmanashraf--mobile-agency",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "salmanashraf--mobile-agency",
+      "description": "A curated collection of AI-powered skills, agents, prompts, and workflows for Android, iOS, Flutter, React Native, Unity, and Unreal developers. Build faster, debug smarter, review code, optimize perf",
+      "author": "salmanashraf",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/salmanashraf--mobile-agency",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "testably--awexpect",
+      "description": "Assert unit tests in natural language using awesome expectations.",
+      "author": "Testably",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testably--awexpect",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "photostructure--fs-metadata",
+      "description": "Cross-platform native Node.js module for fetching filesystem metadata",
+      "author": "photostructure",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/photostructure--fs-metadata",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "photostructure--fs-metadata",
+      "description": "Cross-platform native Node.js module for fetching filesystem metadata",
+      "author": "photostructure",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/photostructure--fs-metadata",
+      "stars": 8,
+      "quality": "gold"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -508112,6 +508368,38 @@
       "description": "forest-front-end-forge",
       "author": "BretMeraki",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bretmeraki--forest-front-end-forge",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chikingsley--rivena-ai-app",
+      "description": "rivena-ai-app",
+      "author": "chikingsley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chikingsley--rivena-ai-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chikingsley--rivena-ai-app",
+      "description": "rivena-ai-app",
+      "author": "chikingsley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chikingsley--rivena-ai-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chikingsley--rivena-ai-app",
+      "description": "rivena-ai-app",
+      "author": "chikingsley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chikingsley--rivena-ai-app",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "git-mastery--progress-dashboard",
+      "description": "Track your progress for Git Mastery",
+      "author": "git-mastery",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/git-mastery--progress-dashboard",
       "stars": 0,
       "quality": "silver"
     }
