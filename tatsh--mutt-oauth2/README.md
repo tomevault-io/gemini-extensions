@@ -7,11 +7,11 @@ Packaged, maintained version of contributed mutt_oauth2.py script.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Tatsh/mutt-oauth2](https://github.com/Tatsh/mutt-oauth2).
+Original source: `CLAUDE.md` in [Tatsh/mutt-oauth2](https://github.com/Tatsh/mutt-oauth2).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
