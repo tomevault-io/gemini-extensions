@@ -231244,6 +231244,14 @@
       "quality": "silver"
     },
     {
+      "name": "repoprompt--repoprompt-classic",
+      "description": "Archived educational snapshot of the Repo Prompt app",
+      "author": "repoprompt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/repoprompt--repoprompt-classic",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
