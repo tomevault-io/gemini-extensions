@@ -273812,6 +273812,14 @@
       "quality": "silver"
     },
     {
+      "name": "snowflake-labs--sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator",
+      "description": "sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator",
+      "author": "Snowflake-Labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/snowflake-labs--sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner",
       "author": "StefanMaron",
@@ -311564,6 +311572,62 @@
       "quality": "bronze"
     },
     {
+      "name": "anthonyhfm--amethyst",
+      "description": "A launchpad cover creation studio",
+      "author": "anthonyhfm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/anthonyhfm--amethyst",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "sboghossian--talk-to-aleph",
+      "description": "Voice-first JARVIS for your Mac \ud83d\udf02 \u2014 talk to a particle brain that thinks, speaks in a cloned voice, and acts (every action gated). Clone it, bring your own keys, make it yours. Zero-dep, local, MIT.",
+      "author": "sboghossian",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sboghossian--talk-to-aleph",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mudler--rf-detr-cpp",
+      "description": "rt-detr implementation in C++ with ggml",
+      "author": "mudler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mudler--rf-detr-cpp",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "pixiebrix--agent-browser-shield",
+      "description": "Browser extension with 30+ rules for keeping your AI agent safe while browsing",
+      "author": "pixiebrix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pixiebrix--agent-browser-shield",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "cub3y0nd--entropic",
+      "description": "A retro textmode blog theme for purists.",
+      "author": "CuB3y0nd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cub3y0nd--entropic",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "halloweedev--lutin",
+      "description": "lutin",
+      "author": "Halloweedev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/halloweedev--lutin",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "getlantern--lantern-box",
+      "description": "lantern-box",
+      "author": "getlantern",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/getlantern--lantern-box",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -332628,6 +332692,94 @@
       "quality": "silver"
     },
     {
+      "name": "phuryn--agentlift",
+      "description": "Deploy agents you already run locally to Anthropic, Google, and OpenAI. One folder, one command.",
+      "author": "phuryn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phuryn--agentlift",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "triasbrata--lazysheet",
+      "description": "LazySheet landing page \u2014 TanStack Start + shadcn/ui + Font Awesome, deploys to Cloudflare Workers",
+      "author": "triasbrata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/triasbrata--lazysheet",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "triasbrata--lazysheet",
+      "description": "LazySheet landing page \u2014 TanStack Start + shadcn/ui + Font Awesome, deploys to Cloudflare Workers",
+      "author": "triasbrata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/triasbrata--lazysheet",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "riggdai--uniqent",
+      "description": "Any brain, any agent. Package an AI agent's brain \u2014 persona, MCP stack, skills, memory, config \u2014 into one open, signed bundle and install it into any framework (OpenClaw, Hermes, Claude Code) in one c",
+      "author": "RiggdAI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/riggdai--uniqent",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "pancudaniel7--camael",
+      "description": "Camael is an open-source terminal emulator built for engineers who work under strict security and compliance requirements. Forked from Warp, it removes all telemetry, cloud dependencies, and outbound ",
+      "author": "pancudaniel7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pancudaniel7--camael",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "stacks-loops--bubbles",
+      "description": "An open-source Claude Code executive assistant that learns how you self-sabotage and won't let you hide from the work that matters. Clone, say hi, get onboarded.",
+      "author": "stacks-loops",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stacks-loops--bubbles",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "phuryn--agentlift",
+      "description": "Deploy agents you already run locally to Anthropic, Google, and OpenAI. One folder, one command.",
+      "author": "phuryn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phuryn--agentlift",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "diego-lima--rlmy",
+      "description": "An interactive RLM (Recursive Language Model) agent built on DSPy.",
+      "author": "diego-lima",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/diego-lima--rlmy",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "marselsel--lexware-mcp",
+      "description": "Open-source, self-hostable MCP server for the Lexware Office (lexoffice) accounting API \u2014 comprehensive coverage: contacts, articles, bookkeeping vouchers, the sales-document family (invoices/quotatio",
+      "author": "marselsel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/marselsel--lexware-mcp",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "qckfx--assist",
+      "description": "A command-line assistant for developers inspired by commercial AI coding tools.",
+      "author": "qckfx",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qckfx--assist",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "robch--cycod",
+      "description": "cycod",
+      "author": "robch",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robch--cycod",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -337866,6 +338018,70 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jacksonpires--rails-api-docs",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "lyse-labs--lyse",
+      "description": "Open-source design system audit \u2014 measure drift, find what's hardcoded, suggest safe fixes.",
+      "author": "lyse-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lyse-labs--lyse",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "pointa-labs--basehalf",
+      "description": "BaseHalf desktop version! ",
+      "author": "Pointa-Labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pointa-labs--basehalf",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "zingerlittlebee--next-socks5",
+      "description": "Fast, lightweight SOCKS5 server in Rust \u2014 TUI dashboard, headless mode, secure by default.",
+      "author": "ZingerLittleBee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zingerlittlebee--next-socks5",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "tigrisdata--objgit",
+      "description": "Git backed by object storage",
+      "author": "tigrisdata",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tigrisdata--objgit",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "lordydord--codex-account-switcher",
+      "description": "Native macOS menu-bar app for switching Codex Desktop accounts, tracking usage, and optional auto-switching before limits bite.",
+      "author": "lordydord",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lordydord--codex-account-switcher",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "pointa-labs--basehalf",
+      "description": "BaseHalf desktop version! ",
+      "author": "Pointa-Labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pointa-labs--basehalf",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "wangsalin--football-ai-h5",
+      "description": "Mobile-first football AI match analysis and admin platform",
+      "author": "wangsalin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wangsalin--football-ai-h5",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "rugpullnet--solana-rug",
+      "description": "Open source trust and safety analysis tool for Solana and Hermes.",
+      "author": "rugpullnet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rugpullnet--solana-rug",
+      "stars": 7,
+      "quality": "gold"
     },
     {
       "name": "ncaq---zsh-d",
@@ -506370,6 +506586,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/radenrakarw3--gadangbarubah",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "chiyo-labs--line-faq-bot-demo",
+      "description": "\u7f8e\u5bb9\u5ba4\u5411\u3051 LINE FAQ Bot \u306e\u30c7\u30e2\u5b9f\u88c5\u3067\u3059\u3002",
+      "author": "chiyo-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chiyo-labs--line-faq-bot-demo",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
