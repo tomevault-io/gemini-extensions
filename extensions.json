@@ -239956,6 +239956,38 @@
       "quality": "silver"
     },
     {
+      "name": "ayakaloveyuri--ship-fast-ts",
+      "description": "ship-fast-ts",
+      "author": "ayakaloveyuri",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ayakaloveyuri--ship-fast-ts",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "getditto--quickstart",
+      "description": "Ditto apps to get you started quickly.",
+      "author": "getditto",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/getditto--quickstart",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "harvester--harvester-ui-extension",
+      "description": "Rancher UI Extension for Harvester",
+      "author": "harvester",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/harvester--harvester-ui-extension",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "drivercraft--ostool",
+      "description": "Rust\u6784\u5efaOS\u7684\u5de5\u5177\u96c6",
+      "author": "drivercraft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/drivercraft--ostool",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
       "name": "scardoso-lu--google-antigravity-settings",
       "description": "google-antigravity-settings",
       "author": "scardoso-lu",
@@ -259700,6 +259732,38 @@
       "quality": "silver"
     },
     {
+      "name": "superform-xyz--v2-core",
+      "description": "Superform v2 contracts",
+      "author": "superform-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/superform-xyz--v2-core",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "superform-xyz--v2-core",
+      "description": "Superform v2 contracts",
+      "author": "superform-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/superform-xyz--v2-core",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "kohii--smoothcsv-website",
+      "description": "The website for SmoothCSV, the ultimate CSV editor for Mac and Windows.",
+      "author": "kohii",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kohii--smoothcsv-website",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "kohii--smoothcsv-website",
+      "description": "The website for SmoothCSV, the ultimate CSV editor for Mac and Windows.",
+      "author": "kohii",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kohii--smoothcsv-website",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -273920,6 +273984,22 @@
       "description": "A lightweight, accessible Svelte component that wraps Animate.css, simplifying animation integration in Svelte applications. ",
       "author": "shinokada",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shinokada--svelte-animate",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cody-w-tucker--cognitive-assistant",
+      "description": "Create adaptive, value-driven AI that aligns actions with long-term purpose, fostering human growth, ethical coherence, and transformative societal impact.",
+      "author": "Cody-W-Tucker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cody-w-tucker--cognitive-assistant",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "cap-go--capacitor-downloader",
+      "description": "Capacitor plugin to download file in background or foreground",
+      "author": "Cap-go",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cap-go--capacitor-downloader",
       "stars": 10,
       "quality": "silver"
     },
@@ -312212,6 +312292,190 @@
       "quality": "silver"
     },
     {
+      "name": "schemacrawler--schemacrawler-ai",
+      "description": "Free database schema discovery and comprehension tool",
+      "author": "schemacrawler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schemacrawler--schemacrawler-ai",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "kaspacom--kaspacom-web-wallet",
+      "description": "A wallet for Kaspa",
+      "author": "KASPACOM",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kaspacom--kaspacom-web-wallet",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "sonarsource--sonarqube-webapp",
+      "description": "SonarQube Community Build Web App",
+      "author": "SonarSource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonarsource--sonarqube-webapp",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "yakushstanislav--ultraviolet",
+      "description": "UltraViolet",
+      "author": "yakushstanislav",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yakushstanislav--ultraviolet",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "wlejon--brosoundml",
+      "description": "brosoundml",
+      "author": "wlejon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wlejon--brosoundml",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "decline27--xpeng",
+      "description": "Transform your XPENG electric vehicle into an integral part of your smart home ecosystem. This app seamlessly connects your car with Homey, enabling intelligent automation and real-time monitoring tha",
+      "author": "decline27",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/decline27--xpeng",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "neoboid--git-p4son",
+      "description": "Utility tool to keep a local git repository within a perforce workspace",
+      "author": "neoboid",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neoboid--git-p4son",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "publichikky--vket-boilerplate-nuxt",
+      "description": "This is a Nuxt boilerplate published by HIKKY Ltd.",
+      "author": "PublicHIKKY",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/publichikky--vket-boilerplate-nuxt",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "computerization--outspire",
+      "description": "All-in-one Campus App for WFLA",
+      "author": "Computerization",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/computerization--outspire",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "allthingslinux--atl-chat",
+      "description": "atl.chat",
+      "author": "allthingslinux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allthingslinux--atl-chat",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "plasticbugs--mrdoarcade",
+      "description": "Mr. Do Arcade Romhack",
+      "author": "plasticbugs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plasticbugs--mrdoarcade",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tatsh--mutt-oauth2",
+      "description": "Packaged, maintained version of contributed mutt_oauth2.py script.",
+      "author": "Tatsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tatsh--mutt-oauth2",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "allthingslinux--atl-chat",
+      "description": "atl.chat",
+      "author": "allthingslinux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/allthingslinux--atl-chat",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "sonarsource--sonarqube-webapp",
+      "description": "SonarQube Community Build Web App",
+      "author": "SonarSource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonarsource--sonarqube-webapp",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "tatsh--mutt-oauth2",
+      "description": "Packaged, maintained version of contributed mutt_oauth2.py script.",
+      "author": "Tatsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tatsh--mutt-oauth2",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "soferai--torah-dl",
+      "description": "Library and tool for downloading media and content from Torah websites.",
+      "author": "SoferAi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/soferai--torah-dl",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mtosity--thestockie",
+      "description": "thestockie",
+      "author": "mtosity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mtosity--thestockie",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "phishbacon--lyric-sync",
+      "description": "A free and open source self hosted solution for grabbing lyrics for your Plex Music Libraries.",
+      "author": "phishbacon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/phishbacon--lyric-sync",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "sonarsource--sonarqube-webapp",
+      "description": "SonarQube Community Build Web App",
+      "author": "SonarSource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonarsource--sonarqube-webapp",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "schemacrawler--schemacrawler-ai",
+      "description": "Free database schema discovery and comprehension tool",
+      "author": "schemacrawler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/schemacrawler--schemacrawler-ai",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mcamara--3cat-show-downloader",
+      "description": "3cat_show_downloader",
+      "author": "mcamara",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mcamara--3cat-show-downloader",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "alexgoller--illumio-mcp-server",
+      "description": "The first MCP server for cybersecurity",
+      "author": "alexgoller",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexgoller--illumio-mcp-server",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "tfcp68--yantrix",
+      "description": "\ud83e\udd2f FSM Framework on steroids",
+      "author": "tfcp68",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tfcp68--yantrix",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -333732,6 +333996,78 @@
       "quality": "silver"
     },
     {
+      "name": "yogthos--jolt",
+      "description": "A Clojure interpreter running on Janet",
+      "author": "yogthos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yogthos--jolt",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "yogthos--jolt",
+      "description": "A Clojure interpreter running on Janet",
+      "author": "yogthos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yogthos--jolt",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "karote00--asyra",
+      "description": "Design Tool",
+      "author": "karote00",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/karote00--asyra",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "connerohnesorge--dotfiles",
+      "description": "Conner Ohnesorge's dotfiles",
+      "author": "connerohnesorge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/connerohnesorge--dotfiles",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "fradser--next-ai-starter",
+      "description": "Next.js AI Starter integrating Vercel AI SDK v5 for AI chat functionality with shadcn/ui components. Built with Next.js 16 (App Router + Turbopack), TypeScript, and Tailwind CSS v4. Uses OpenAI via V3",
+      "author": "FradSer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fradser--next-ai-starter",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "dnv-opensource--axtreme",
+      "description": "Development repo for the RaPiD project with extensions for Ax and BoTorch.",
+      "author": "dnv-opensource",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dnv-opensource--axtreme",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "red-hat-ai-innovation-team--reward-hub",
+      "description": "A repository for customizable reward annotation",
+      "author": "Red-Hat-AI-Innovation-Team",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/red-hat-ai-innovation-team--reward-hub",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "csessh--aoc-nvim",
+      "description": "Neovim's Christmas Elf who fetches puzzle input",
+      "author": "csessh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/csessh--aoc-nvim",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "connerohnesorge--dotfiles",
+      "description": "Conner Ohnesorge's dotfiles",
+      "author": "connerohnesorge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/connerohnesorge--dotfiles",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -339096,6 +339432,14 @@
       "description": "Deterministic, scripted, resumable multi-agent orchestration for LangChain deepagents \u2014 a community port of Claude Code's Dynamic Workflows.",
       "author": "nemori-ai",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nemori-ai--langchain-dynamic-workflow",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "grahamsz--rolltop",
+      "description": "rolltop",
+      "author": "grahamsz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/grahamsz--rolltop",
       "stars": 7,
       "quality": "silver"
     },
