@@ -311644,6 +311644,22 @@
       "quality": "bronze"
     },
     {
+      "name": "fortheusers--switch-hbas-repo",
+      "description": "The metadata files in this repo build HBAS packages for Switch",
+      "author": "fortheusers",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fortheusers--switch-hbas-repo",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "buildwizai--the-prompt-collections",
+      "description": "The Prompt Collection is a curated repository of diverse prompts designed for various purposes, such as writing, interviews, and more. Each category and subcategory includes a set of prompts along wit",
+      "author": "buildwizai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/buildwizai--the-prompt-collections",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -332796,6 +332812,38 @@
       "quality": "silver"
     },
     {
+      "name": "plebeianapp--market",
+      "description": "The circular economic community builder",
+      "author": "PlebeianApp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plebeianapp--market",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "plebeianapp--market",
+      "description": "The circular economic community builder",
+      "author": "PlebeianApp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plebeianapp--market",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "maybesamigroup--svs-sardinetail",
+      "description": "Fundamental plugin to develop soft mod for SamabakeScramble",
+      "author": "MaybeSamigroup",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maybesamigroup--svs-sardinetail",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "plebeianapp--market",
+      "description": "The circular economic community builder",
+      "author": "PlebeianApp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/plebeianapp--market",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -338098,6 +338146,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rugpullnet--solana-rug",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "jjspscl--zen-notes",
+      "description": "zen-notes",
+      "author": "jjspscl",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jjspscl--zen-notes",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "pzhenzhou--lakeflow-controller",
+      "description": "k8s operator for declarative data pipeline ",
+      "author": "pzhenzhou",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pzhenzhou--lakeflow-controller",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
@@ -506610,6 +506674,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chiyo-labs--line-faq-bot-demo",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "ivanm696--vscode",
+      "description": "vscode",
+      "author": "ivanm696",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ivanm696--vscode",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
