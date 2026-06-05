@@ -23828,6 +23828,14 @@
       "quality": "gold"
     },
     {
+      "name": "kashif-e--kamera",
+      "description": "A camera library for Compose Multiplatform",
+      "author": "Kashif-E",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kashif-e--kamera",
+      "stars": 511,
+      "quality": "silver"
+    },
+    {
       "name": "noone-hub--jsreverser-mcp",
       "description": "JSReverser-MCP \u662f\u4e00\u4e2a\u9762\u5411 JavaScript \u9006\u5411\u5206\u6790\u7684 MCP \u5de5\u5177\uff0c\u4e13\u95e8\u7528\u4e8e\u5e2e\u52a9\u5f00\u53d1\u8005\u5728\u771f\u5b9e\u6d4f\u89c8\u5668\u73af\u5883\u4e2d\u9ad8\u6548\u5b9a\u4f4d\u524d\u7aef\u6838\u5fc3\u903b\u8f91\u3002\u5b83   \u5c06\u811a\u672c\u68c0\u7d22\u3001\u65ad\u70b9\u8c03\u8bd5\u3001\u51fd\u6570 Hook\u3001\u7f51\u7edc\u8bf7\u6c42\u8ffd\u8e2a\u3001\u8c03\u7528\u94fe\u5206\u6790\u3001\u6df7\u6dc6\u8fd8\u539f\u548c\u98ce\u9669\u8bc4\u4f30\u6574\u5408\u4e3a\u7edf\u4e00\u80fd\u529b\uff0c\u53ef\u76f4\u63a5\u63a5\u5165 Claude\u3001   Codex\u3001Cursor \u7b49\u652f\u6301 MCP \u7684\u5ba2\u6237\u7aef\u3002\u4f60\u53ef\u4ee5\u8fde\u63a5\u5df2\u5f00\u542f\u7684 Chrome\uff0c\u5728\u767b\u5f55\u6001\u9875\u9762\u4e0b\u6301\u7eed\u91c7\u6837\u8bf7\u6c42\u53c2",
       "author": "NoOne-hub",
@@ -132996,6 +133004,14 @@
       "quality": "silver"
     },
     {
+      "name": "doofinder--llm-composer",
+      "description": "An Elixir library for integrating large language models (LLMs) via HTTP, supporting OpenAI, Ollama, and other future backends.",
+      "author": "doofinder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doofinder--llm-composer",
+      "stars": 39,
+      "quality": "silver"
+    },
+    {
       "name": "bobmatnyc--claude-mpm-skills",
       "description": "Curated collection of Claude Code skills for intelligent project development with progressive loading and toolchain detection",
       "author": "bobmatnyc",
@@ -145772,6 +145788,22 @@
       "quality": "bronze"
     },
     {
+      "name": "xlsynth--bedrock-rtl",
+      "description": "High quality and composable RTL libraries in SystemVerilog",
+      "author": "xlsynth",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xlsynth--bedrock-rtl",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
+      "name": "frap129--android-app-template",
+      "description": "A template repo for modern Android development",
+      "author": "frap129",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/frap129--android-app-template",
+      "stars": 33,
+      "quality": "silver"
+    },
+    {
       "name": "skywind3000--gamesample",
       "description": "Game Samples for GameLib",
       "author": "skywind3000",
@@ -153546,6 +153578,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/datasqrl--flink-sql-runner",
       "stars": 30,
       "quality": "silver"
+    },
+    {
+      "name": "rameerez--slugifiable",
+      "description": "\ud83d\udc0c Ruby gem to generate SEO-optimized URL slugs for your records",
+      "author": "rameerez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rameerez--slugifiable",
+      "stars": 30,
+      "quality": "bronze"
+    },
+    {
+      "name": "rameerez--slugifiable",
+      "description": "\ud83d\udc0c Ruby gem to generate SEO-optimized URL slugs for your records",
+      "author": "rameerez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rameerez--slugifiable",
+      "stars": 30,
+      "quality": "bronze"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -171412,6 +171460,70 @@
       "quality": "gold"
     },
     {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "bronze"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
+      "name": "jahands--workers-packages",
+      "description": "My public npm packages",
+      "author": "jahands",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jahands--workers-packages",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -179412,6 +179524,70 @@
       "quality": "silver"
     },
     {
+      "name": "milaboratory--platforma",
+      "description": "Platforma SDK",
+      "author": "milaboratory",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milaboratory--platforma",
+      "stars": 23,
+      "quality": "bronze"
+    },
+    {
+      "name": "graphprotocol--hypergraph",
+      "description": "hypergraph",
+      "author": "graphprotocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--hypergraph",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "milaboratory--platforma",
+      "description": "Platforma SDK",
+      "author": "milaboratory",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milaboratory--platforma",
+      "stars": 23,
+      "quality": "bronze"
+    },
+    {
+      "name": "milaboratory--platforma",
+      "description": "Platforma SDK",
+      "author": "milaboratory",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milaboratory--platforma",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "milaboratory--platforma",
+      "description": "Platforma SDK",
+      "author": "milaboratory",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milaboratory--platforma",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "milaboratory--platforma",
+      "description": "Platforma SDK",
+      "author": "milaboratory",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/milaboratory--platforma",
+      "stars": 23,
+      "quality": "bronze"
+    },
+    {
+      "name": "graphprotocol--hypergraph",
+      "description": "hypergraph",
+      "author": "graphprotocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--hypergraph",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "graphprotocol--hypergraph",
+      "description": "hypergraph",
+      "author": "graphprotocol",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/graphprotocol--hypergraph",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill",
       "author": "lucianaib0318",
@@ -184840,6 +185016,14 @@
       "description": "Unofficial personal-use Zalo desktop client built with Tauri, Rust, SvelteKit, and an optional encrypted cloud sync backend.",
       "author": "tuanle96",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tuanle96--zca-desktop",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
+      "name": "codandotv--popcorn-guineapig",
+      "description": "A lightweight plugin designed to enforce architectural rules in your multi-module project effortlessly.",
+      "author": "CodandoTV",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codandotv--popcorn-guineapig",
       "stars": 22,
       "quality": "silver"
     },
@@ -198890,6 +199074,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ssg--eksi-yedek",
       "stars": 19,
       "quality": "bronze"
+    },
+    {
+      "name": "get-convex--expo-push-notifications",
+      "description": "expo-push-notifications",
+      "author": "get-convex",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/get-convex--expo-push-notifications",
+      "stars": 19,
+      "quality": "silver"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -231276,6 +231468,14 @@
       "quality": "silver"
     },
     {
+      "name": "seismicsystems--seismic-solidity",
+      "description": "Seismic Solidity allows you to encrypt data in your smart contracts",
+      "author": "SeismicSystems",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seismicsystems--seismic-solidity",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
@@ -239992,6 +240192,14 @@
       "description": "Rust\u6784\u5efaOS\u7684\u5de5\u5177\u96c6",
       "author": "drivercraft",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/drivercraft--ostool",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "seismicsystems--seismic-revm",
+      "description": "Seismic REVM implements the Mercury Specification of the EVM: a shielded virtual machine that powers Seismic's blockchain",
+      "author": "SeismicSystems",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seismicsystems--seismic-revm",
       "stars": 13,
       "quality": "silver"
     },
@@ -249498,6 +249706,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artemijan--l2shablya",
       "stars": 12,
       "quality": "silver"
+    },
+    {
+      "name": "davanstrien--uv-scripts-for-ai",
+      "description": "Self-contained UV scripts for data & ML tasks \u2014 OCR, vision, audio & more \u2014 run one in a command, locally or on Hugging Face Jobs. Built for humans and agents.",
+      "author": "davanstrien",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davanstrien--uv-scripts-for-ai",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "davanstrien--uv-scripts-for-ai",
+      "description": "Self-contained UV scripts for data & ML tasks \u2014 OCR, vision, audio & more \u2014 run one in a command, locally or on Hugging Face Jobs. Built for humans and agents.",
+      "author": "davanstrien",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davanstrien--uv-scripts-for-ai",
+      "stars": 12,
+      "quality": "bronze"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
