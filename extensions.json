@@ -122180,6 +122180,14 @@
       "quality": "silver"
     },
     {
+      "name": "genai-io--san",
+      "description": "Open-source AI agent. Lives in your terminal.",
+      "author": "genai-io",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/genai-io--san",
+      "stars": 45,
+      "quality": "silver"
+    },
+    {
       "name": "izittmarvin--memcoach",
       "description": "\u4e00\u4e2aAI \u9762\u8bd5\u6559\u7ec3\u5e73\u53f0\uff1a\u7ad9\u5728\u5de8\u4eba\u80a9\u8180\u4e0a\uff0c\u878d\u5408\u7b80\u5386\u9762\u8bd5\u3001GitHub \u9879\u76ee\u5206\u6790\u4e0e\u6301\u4e45\u5316\u753b\u50cf\u8bb0\u5fc6\u4e09\u5927\u667a\u80fd\u95ed\u73af\uff0c\u63d0\u4f9b\u52a8\u6001\u8ffd\u95ee\u3001\u6e90\u7801\u8bc1\u636e\u9a71\u52a8\u7684\u95ee\u9898\u751f\u6210\u4e0e\u6301\u7eed   \u8fdb\u5316\u7684\u4e2a\u6027\u5316\u8bad\u7ec3\u8def\u5f84\u3002",
       "author": "iZiTTMarvin",
@@ -204788,6 +204796,22 @@
       "quality": "silver"
     },
     {
+      "name": "eagle-head--timekeeper-countdown",
+      "description": "Lightweight countdown engine that powers the Timekeeper packages. Pure TypeScript.",
+      "author": "eagle-head",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eagle-head--timekeeper-countdown",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "wflixu--monet",
+      "description": " Mouse-first macOS image viewer. Zoom follows your cursor \u2014 no more zooming off-target.",
+      "author": "wflixu",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wflixu--monet",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
@@ -274472,6 +274496,70 @@
       "description": "IME for Mac.",
       "author": "koki-develop",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/koki-develop--koto",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "mysk-research--loupe",
+      "description": "A privacy-focused iOS app that raises awareness about what native apps can see",
+      "author": "mysk-research",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mysk-research--loupe",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "pandosme--detectx",
+      "description": "Run Custom YOLO5 models in Axis camera",
+      "author": "pandosme",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pandosme--detectx",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "wrm3--cbtrade",
+      "description": "This project is a CoinBase python algorithmic trading bot using the new Advanced Trader API.  This project is here more for me to practice git & github.  Use it at your own risk.  See License.",
+      "author": "wrm3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrm3--cbtrade",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "ksushant6566--mindtab",
+      "description": "Turn every new tab into a productivity dashboard - Track goals, build habits, and take notes",
+      "author": "ksushant6566",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ksushant6566--mindtab",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "wrm3--cbtrade",
+      "description": "This project is a CoinBase python algorithmic trading bot using the new Advanced Trader API.  This project is here more for me to practice git & github.  Use it at your own risk.  See License.",
+      "author": "wrm3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrm3--cbtrade",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "wrm3--cbtrade",
+      "description": "This project is a CoinBase python algorithmic trading bot using the new Advanced Trader API.  This project is here more for me to practice git & github.  Use it at your own risk.  See License.",
+      "author": "wrm3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrm3--cbtrade",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "wrm3--cbtrade",
+      "description": "This project is a CoinBase python algorithmic trading bot using the new Advanced Trader API.  This project is here more for me to practice git & github.  Use it at your own risk.  See License.",
+      "author": "wrm3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrm3--cbtrade",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "wrm3--cbtrade",
+      "description": "This project is a CoinBase python algorithmic trading bot using the new Advanced Trader API.  This project is here more for me to practice git & github.  Use it at your own risk.  See License.",
+      "author": "wrm3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrm3--cbtrade",
       "stars": 10,
       "quality": "silver"
     },
