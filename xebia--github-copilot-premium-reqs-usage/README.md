@@ -7,12 +7,12 @@ Quickly get an overview of your CSV export of GitHub Copilot Premium Requests
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [xebia/github-copilot-premium-reqs-usage](https://github.com/xebia/github-copilot-premium-reqs-usage).
+Original source: `AGENTS.md` in [xebia/github-copilot-premium-reqs-usage](https://github.com/xebia/github-copilot-premium-reqs-usage).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
