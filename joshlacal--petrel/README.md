@@ -7,11 +7,11 @@ Swift library for the ATProtocol and Bluesky, generated from Lexicons
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [joshlacal/Petrel](https://github.com/joshlacal/Petrel).
+Original source: `CLAUDE.md` in [joshlacal/Petrel](https://github.com/joshlacal/Petrel).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
