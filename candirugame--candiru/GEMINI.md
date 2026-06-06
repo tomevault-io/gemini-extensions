@@ -54,5 +54,5 @@ if dependencies are missing, you may need to run `deno install`. assume that the
 run an install unless you get an error indicating something is missing.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/candirugame) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-09 -->
+> Source: [candirugame/candiru](https://github.com/candirugame/candiru) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-06-05 -->
