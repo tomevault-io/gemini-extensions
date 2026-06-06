@@ -85308,6 +85308,14 @@
       "quality": "bronze"
     },
     {
+      "name": "griptape-ai--griptape-nodes-engine",
+      "description": "griptape-nodes-engine",
+      "author": "griptape-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/griptape-ai--griptape-nodes-engine",
+      "stars": 78,
+      "quality": "silver"
+    },
+    {
       "name": "m1zz--higlab",
       "description": "HIGLab",
       "author": "M1zz",
@@ -175652,6 +175660,22 @@
       "quality": "silver"
     },
     {
+      "name": "dcc-mcp--dcc-mcp-core",
+      "description": "Core runtime and shared tooling for DCC-MCP: safe, skill-first MCP integration across Maya, Blender, Houdini, Photoshop, and custom DCC hosts.",
+      "author": "dcc-mcp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-mcp--dcc-mcp-core",
+      "stars": 24,
+      "quality": "gold"
+    },
+    {
+      "name": "dcc-mcp--dcc-mcp-core",
+      "description": "Core runtime and shared tooling for DCC-MCP: safe, skill-first MCP integration across Maya, Blender, Houdini, Photoshop, and custom DCC hosts.",
+      "author": "dcc-mcp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-mcp--dcc-mcp-core",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -224532,6 +224556,22 @@
       "quality": "silver"
     },
     {
+      "name": "dcc-mcp--dcc-mcp-maya",
+      "description": "Maya-specific implementation of Model Context Protocol (MCP) for Autodesk Maya, enabling remote control and integration with MCP ecosystem.",
+      "author": "dcc-mcp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-mcp--dcc-mcp-maya",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
+      "name": "dcc-mcp--dcc-mcp-maya",
+      "description": "Maya-specific implementation of Model Context Protocol (MCP) for Autodesk Maya, enabling remote control and integration with MCP ecosystem.",
+      "author": "dcc-mcp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcc-mcp--dcc-mcp-maya",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -250154,6 +250194,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nomercy-entertainment--nomercy-video-player",
       "stars": 12,
       "quality": "silver"
+    },
+    {
+      "name": "oscabriel--skills",
+      "description": "skills",
+      "author": "oscabriel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/oscabriel--skills",
+      "stars": 12,
+      "quality": "bronze"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
