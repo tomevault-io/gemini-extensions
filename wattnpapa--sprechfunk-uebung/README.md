@@ -7,11 +7,11 @@ sprechfunk-uebung Generator
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wattnpapa/sprechfunk-uebung](https://github.com/wattnpapa/sprechfunk-uebung).
+Original source: `CLAUDE.md` in [wattnpapa/sprechfunk-uebung](https://github.com/wattnpapa/sprechfunk-uebung).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
