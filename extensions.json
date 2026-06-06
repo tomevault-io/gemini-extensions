@@ -335812,6 +335812,22 @@
       "quality": "silver"
     },
     {
+      "name": "thisrandom--homelab-dashboard",
+      "description": "HomeLab-Dashboard",
+      "author": "thisRandom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thisrandom--homelab-dashboard",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ai-analyst-lab--agentxp",
+      "description": "Open-source system for the design and analysis of controlled experiments, intended for use inside Claude Code.",
+      "author": "ai-analyst-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ai-analyst-lab--agentxp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -510240,6 +510256,70 @@
       "description": "over engineered proxy downloader",
       "author": "1-1is0",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/1-1is0--oex-downloader",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bayudwiyansatria--templates-project-nodejs",
+      "description": "Reusable Node.js library template with TypeScript, Rollup, Jest, and GitHub Pages-ready docs to bootstrap and ship maintainable npm packages.",
+      "author": "bayudwiyansatria",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bayudwiyansatria--templates-project-nodejs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "rfontaine974--formulaire-intervention",
+      "description": "formulaire-intervention",
+      "author": "rfontaine974",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rfontaine974--formulaire-intervention",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bensappforge--lt-prompter",
+      "description": "lt-prompter",
+      "author": "BensAppForge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bensappforge--lt-prompter",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wlgitdev--schematoform",
+      "description": "SchemaToForm",
+      "author": "wlgitdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wlgitdev--schematoform",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wlgitdev--schematoform",
+      "description": "SchemaToForm",
+      "author": "wlgitdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wlgitdev--schematoform",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "bensappforge--lt-prompter",
+      "description": "lt-prompter",
+      "author": "BensAppForge",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bensappforge--lt-prompter",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wooogler--choir",
+      "description": "The CHOIR App using Slack Bolt",
+      "author": "wooogler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wooogler--choir",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "vnhk--project-mgmt-app",
+      "description": "project-mgmt-app",
+      "author": "vnhk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vnhk--project-mgmt-app",
       "stars": 0,
       "quality": "silver"
     }
