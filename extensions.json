@@ -148196,6 +148196,14 @@
       "quality": "silver"
     },
     {
+      "name": "trueugenee--ai-linux-webapp-wrapper",
+      "description": "ai-linux-webapp-wrapper",
+      "author": "trueugenee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trueugenee--ai-linux-webapp-wrapper",
+      "stars": 32,
+      "quality": "silver"
+    },
+    {
       "name": "inureyes--gyeol",
       "description": "gyeol",
       "author": "inureyes",
@@ -231900,6 +231908,14 @@
       "quality": "silver"
     },
     {
+      "name": "uonr--poincake",
+      "description": "Infinite canvas notes in the Poincar\u00e9 disk",
+      "author": "uonr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/uonr--poincake",
+      "stars": 14,
+      "quality": "bronze"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
@@ -275050,6 +275066,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nju-cli--nju-cli",
       "stars": 10,
       "quality": "bronze"
+    },
+    {
+      "name": "veerendra2--fitbit-cli",
+      "description": "Fitbit CLI - Access your Fitbit \u231a\ufe0f data at your terminal \ud83d\udcbb (Supports JSON output for AI agents \ud83e\udd16)",
+      "author": "veerendra2",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/veerendra2--fitbit-cli",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
