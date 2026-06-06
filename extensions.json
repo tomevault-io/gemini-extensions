@@ -313700,6 +313700,22 @@
       "quality": "silver"
     },
     {
+      "name": "seokhyung-lee--ldpc-post-selection",
+      "description": "Python package for decoding quantum LDPC codes with cluster-based post-selection",
+      "author": "seokhyung-lee",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seokhyung-lee--ldpc-post-selection",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "xpenatan--jwebgpu",
+      "description": "WebGPU Java Bindings for wgpu-native and Dawn",
+      "author": "xpenatan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xpenatan--jwebgpu",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -335428,6 +335444,22 @@
       "quality": "gold"
     },
     {
+      "name": "flyfission--nuclear-grade-context-engineering",
+      "description": "AI agents now operate with authority. Authority without discipline is how complex systems fail. Nuclear\u2019s control loop, ported to AI-assisted software engineering.",
+      "author": "FlyFission",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/flyfission--nuclear-grade-context-engineering",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kazusa000--ai-game-workbench",
+      "description": "Local-first AI game asset workbench for 2D character workflows",
+      "author": "kazusa000",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kazusa000--ai-game-workbench",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -340874,6 +340906,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aiwardsh--aiward",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "joeseesun--qiaomu-english-learn",
+      "description": "Qiaomu English Learn browser extension for translation-assisted vocabulary learning",
+      "author": "joeseesun",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joeseesun--qiaomu-english-learn",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
