@@ -163620,6 +163620,14 @@
       "quality": "gold"
     },
     {
+      "name": "pipefy--ai-toolkit",
+      "description": "MCP server, CLI, and agent skills for Pipefy.",
+      "author": "pipefy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pipefy--ai-toolkit",
+      "stars": 27,
+      "quality": "silver"
+    },
+    {
       "name": "10xchengtu--mux0",
       "description": "MUX0",
       "author": "10xChengTu",
@@ -335356,6 +335364,22 @@
       "quality": "silver"
     },
     {
+      "name": "labs-barkley--barkley-reference-architecture",
+      "description": "Source-available research demonstrator for individual-referenced behavioral intelligence in dogs.",
+      "author": "labs-barkley",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/labs-barkley--barkley-reference-architecture",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "kcosr--codex-threads",
+      "description": "CLI for creating, searching, reading transcripts, and controlling Codex app-server threads",
+      "author": "kcosr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kcosr--codex-threads",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -340768,6 +340792,38 @@
       "description": "Remote 1:1 messaging between Pi sessions across machines",
       "author": "ninehills",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ninehills--agentcom",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "rohanbeingsocial--candlekit-charts",
+      "description": "Tree-shakeable financial charting toolkit over lightweight-charts: candlestick/OHLC/line/area/volume, drawing tools, pluggable indicators, measurement, and deterministic replay. Framework-agnostic cor",
+      "author": "rohanbeingsocial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rohanbeingsocial--candlekit-charts",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "rohanbeingsocial--candlekit-charts",
+      "description": "Tree-shakeable financial charting toolkit over lightweight-charts: candlestick/OHLC/line/area/volume, drawing tools, pluggable indicators, measurement, and deterministic replay. Framework-agnostic cor",
+      "author": "rohanbeingsocial",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rohanbeingsocial--candlekit-charts",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "h-ali13381--historical-bayesian-html-briefing",
+      "description": "Agent skill for historical analogies, Bayesian forecasting, and self-contained HTML briefings",
+      "author": "H-Ali13381",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/h-ali13381--historical-bayesian-html-briefing",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "aiwardsh--aiward",
+      "description": "aiward",
+      "author": "aiWardsh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aiwardsh--aiward",
       "stars": 7,
       "quality": "bronze"
     },
