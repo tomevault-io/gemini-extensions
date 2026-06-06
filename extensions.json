@@ -159908,6 +159908,14 @@
       "quality": "silver"
     },
     {
+      "name": "ericzakariasson--cursor-workshop",
+      "description": "cursor-workshop",
+      "author": "ericzakariasson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ericzakariasson--cursor-workshop",
+      "stars": 28,
+      "quality": "bronze"
+    },
+    {
       "name": "khangbdd--phoenix",
       "description": "phoenix",
       "author": "khangbdd",
@@ -167396,6 +167404,14 @@
       "quality": "gold"
     },
     {
+      "name": "adrielvelazquez--nixos-config",
+      "description": "Personal Configuration for NixOS",
+      "author": "AdrielVelazquez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adrielvelazquez--nixos-config",
+      "stars": 26,
+      "quality": "bronze"
+    },
+    {
       "name": "honeymux--honeymux",
       "description": "A new UX layer for the terminal, built on tmux",
       "author": "honeymux",
@@ -171532,6 +171548,14 @@
       "quality": "silver"
     },
     {
+      "name": "f18m--ha-addon-dnsmasq-dhcp",
+      "description": "An Home Assistant app that runs dnsmasq both as DHCP server and DNS server",
+      "author": "f18m",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/f18m--ha-addon-dnsmasq-dhcp",
+      "stars": 25,
+      "quality": "silver"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent",
       "author": "RuiRomano",
@@ -175588,6 +175612,14 @@
       "quality": "silver"
     },
     {
+      "name": "gvwilson--sudonomicon",
+      "description": "An Introduction to Unix Systems for the Cautious and Weary",
+      "author": "gvwilson",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/gvwilson--sudonomicon",
+      "stars": 24,
+      "quality": "silver"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs",
       "author": "iamtouchskyer",
@@ -179632,6 +179664,14 @@
       "description": "Cross-platform multi-layer keyboard layout tailored for programmers",
       "author": "DivitMittal",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/divitmittal--tltr",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "qiskit--qiskit-code-assistant-jupyterlab",
+      "description": "A Jupyterlab extension to use the Qiskit Code Assistant",
+      "author": "Qiskit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qiskit--qiskit-code-assistant-jupyterlab",
       "stars": 23,
       "quality": "silver"
     },
@@ -185076,6 +185116,22 @@
       "quality": "silver"
     },
     {
+      "name": "biubiubiu35--cursor101",
+      "description": "Tutorials for cursor and AI Programming",
+      "author": "biubiubiu35",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/biubiubiu35--cursor101",
+      "stars": 22,
+      "quality": "bronze"
+    },
+    {
+      "name": "cofin--oracledb-vertexai-demo",
+      "description": "Reference application using Google ADK and Oracle",
+      "author": "cofin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cofin--oracledb-vertexai-demo",
+      "stars": 22,
+      "quality": "silver"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002",
       "author": "seven7763",
@@ -189680,6 +189736,22 @@
       "description": "polyglot task runner",
       "author": "metaist",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/metaist--ds",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "eriksen-lab--opentrustregion",
+      "description": "A Reusable Library for Second-Order Trust Region Orbital Optimization",
+      "author": "eriksen-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eriksen-lab--opentrustregion",
+      "stars": 21,
+      "quality": "silver"
+    },
+    {
+      "name": "dsecuredcom--dynamic-file-searcher",
+      "description": "Tool to scan servers and hosts using dynamic paths.",
+      "author": "dsecuredcom",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dsecuredcom--dynamic-file-searcher",
       "stars": 21,
       "quality": "silver"
     },
@@ -199148,6 +199220,14 @@
       "quality": "silver"
     },
     {
+      "name": "hanyk--bayesed3",
+      "description": "A Bayesian SED synthesis and analysis tool for galaxies and AGNs, featuring an interface optimized for both humans and AI agents.",
+      "author": "hanyk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hanyk--bayesed3",
+      "stars": 19,
+      "quality": "silver"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon",
       "author": "nirholas",
@@ -204810,6 +204890,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wflixu--monet",
       "stars": 18,
       "quality": "silver"
+    },
+    {
+      "name": "opsmill--infrahub-sdk-python",
+      "description": "Python SDK to interact with Infrahub",
+      "author": "opsmill",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opsmill--infrahub-sdk-python",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
+      "name": "opsmill--infrahub-sdk-python",
+      "description": "Python SDK to interact with Infrahub",
+      "author": "opsmill",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opsmill--infrahub-sdk-python",
+      "stars": 18,
+      "quality": "bronze"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -211378,6 +211474,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jpablo--graph-explorer",
       "stars": 17,
       "quality": "silver"
+    },
+    {
+      "name": "githedgehog--dataplane",
+      "description": "The hedgehog dataplane",
+      "author": "githedgehog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/githedgehog--dataplane",
+      "stars": 17,
+      "quality": "silver"
+    },
+    {
+      "name": "githedgehog--dataplane",
+      "description": "The hedgehog dataplane",
+      "author": "githedgehog",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/githedgehog--dataplane",
+      "stars": 17,
+      "quality": "bronze"
     },
     {
       "name": "13point5--agent-canvas",
@@ -224348,6 +224460,38 @@
       "quality": "silver"
     },
     {
+      "name": "imperialcollegelondon--rcds-parallel-programming-in-python",
+      "description": "RCDS-parallel-programming-in-python",
+      "author": "ImperialCollegeLondon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/imperialcollegelondon--rcds-parallel-programming-in-python",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "neongamerbot-qk--slack-zeon",
+      "description": "Zeon but on da hackclub slack",
+      "author": "NeonGamerBot-QK",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/neongamerbot-qk--slack-zeon",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "joshlacal--petrel",
+      "description": "Swift library for the ATProtocol and Bluesky, generated from Lexicons",
+      "author": "joshlacal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joshlacal--petrel",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "joshlacal--petrel",
+      "description": "Swift library for the ATProtocol and Bluesky, generated from Lexicons",
+      "author": "joshlacal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joshlacal--petrel",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -231616,6 +231760,30 @@
       "description": "Seismic Solidity allows you to encrypt data in your smart contracts",
       "author": "SeismicSystems",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/seismicsystems--seismic-solidity",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "newfold-labs--wp-module-solutions",
+      "description": "A Newfold module that handles integration of WordPress Solutions Addon packages (content creator/ service / ecommerce) for BlueHost & HostGator customers.",
+      "author": "newfold-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/newfold-labs--wp-module-solutions",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "newfold-labs--wp-module-solutions",
+      "description": "A Newfold module that handles integration of WordPress Solutions Addon packages (content creator/ service / ecommerce) for BlueHost & HostGator customers.",
+      "author": "newfold-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/newfold-labs--wp-module-solutions",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "helloscoopa--run-cache",
+      "description": "RunCache is a dependency-free, lightweight runtime caching library for JavaScript and TypeScript.",
+      "author": "helloscoopa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/helloscoopa--run-cache",
       "stars": 14,
       "quality": "silver"
     },
@@ -240352,6 +240520,38 @@
       "description": "Cloud Queues with Task and Messages and Multiple Providers",
       "author": "jaredwray",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaredwray--qified",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "uw-cryo--coincident",
+      "description": "3D satellite and airborne data archive search and analysis tools for NASA Surface Topography & Vegetation (STV) Precursor Coincident Datasets",
+      "author": "uw-cryo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/uw-cryo--coincident",
+      "stars": 13,
+      "quality": "gold"
+    },
+    {
+      "name": "coral-ui--core",
+      "description": "core",
+      "author": "Coral-UI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coral-ui--core",
+      "stars": 13,
+      "quality": "silver"
+    },
+    {
+      "name": "coral-ui--core",
+      "description": "core",
+      "author": "Coral-UI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coral-ui--core",
+      "stars": 13,
+      "quality": "bronze"
+    },
+    {
+      "name": "coral-ui--core",
+      "description": "core",
+      "author": "Coral-UI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coral-ui--core",
       "stars": 13,
       "quality": "silver"
     },
@@ -249874,6 +250074,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davanstrien--uv-scripts-for-ai",
       "stars": 12,
       "quality": "bronze"
+    },
+    {
+      "name": "zanwaar--ringkasan-skd-cpns",
+      "description": "Saas AI Generator Soal  Seleksi Kompetensi Dasar (SKD) dan Ringkasan Materi",
+      "author": "zanwaar",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zanwaar--ringkasan-skd-cpns",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "coji--video-ad-network",
+      "description": "video-ad-network",
+      "author": "coji",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/coji--video-ad-network",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "darmado--attack-macos",
+      "description": "A library of post-exploitation MacOS scripts based on threat emulation, LOObins, CTI, and MITRE ATT&CK.",
+      "author": "darmado",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/darmado--attack-macos",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
+      "name": "nomercy-entertainment--nomercy-video-player",
+      "description": "Headless, event-driven HTML5 video player with HLS streaming, ASS/SSA + VTT subtitles, PiP, and a plugin system. No UI included. TypeScript-first.",
+      "author": "NoMercy-Entertainment",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nomercy-entertainment--nomercy-video-player",
+      "stars": 12,
+      "quality": "silver"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -260216,6 +260448,30 @@
       "description": "Accelerate the deployment of your Development Factory.",
       "author": "microsoft",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/microsoft--devfactory",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "sprice--memento-mori",
+      "description": "A Mac OS menu bar app to support reflection on the inevitability of death",
+      "author": "sprice",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sprice--memento-mori",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "candirugame--candiru",
+      "description": "possum game",
+      "author": "candirugame",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/candirugame--candiru",
+      "stars": 11,
+      "quality": "bronze"
+    },
+    {
+      "name": "barryoo--tabcleaner",
+      "description": "auto discards idle tabs for browser ",
+      "author": "barryoo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/barryoo--tabcleaner",
       "stars": 11,
       "quality": "silver"
     },
@@ -274560,6 +274816,38 @@
       "description": "This project is a CoinBase python algorithmic trading bot using the new Advanced Trader API.  This project is here more for me to practice git & github.  Use it at your own risk.  See License.",
       "author": "wrm3",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wrm3--cbtrade",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "ansh--template-3",
+      "description": "template-3",
+      "author": "ansh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ansh--template-3",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "extension-js--extension-js-org",
+      "description": "Documentation, guides, and API reference for Extension.js.",
+      "author": "extension-js",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/extension-js--extension-js-org",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "narixhine--leximory",
+      "description": "\u8bed\u8a00\u5b66\u5730\u5b66\u8bed\u8a00",
+      "author": "NarixHine",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/narixhine--leximory",
+      "stars": 10,
+      "quality": "bronze"
+    },
+    {
+      "name": "omi-patel--retroui-component",
+      "description": "retroUI_Component",
+      "author": "Omi-Patel",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omi-patel--retroui-component",
       "stars": 10,
       "quality": "silver"
     },
