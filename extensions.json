@@ -313572,6 +313572,30 @@
       "quality": "silver"
     },
     {
+      "name": "dryvist--ai-assistant-instructions",
+      "description": "A comprehensive, vendor-agnostic framework for consistent AI-assisted development workflows - standardized instructions and commands that work seamlessly across Claude, Gemini, Copilot, and local AI m",
+      "author": "dryvist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dryvist--ai-assistant-instructions",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dryvist--ai-assistant-instructions",
+      "description": "A comprehensive, vendor-agnostic framework for consistent AI-assisted development workflows - standardized instructions and commands that work seamlessly across Claude, Gemini, Copilot, and local AI m",
+      "author": "dryvist",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dryvist--ai-assistant-instructions",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "ai-riksarkivet--ra-mcp",
+      "description": "MCPs for Riksarkivet open APIs. This covers both agents and mcps",
+      "author": "AI-Riksarkivet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ai-riksarkivet--ra-mcp",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -335236,6 +335260,22 @@
       "quality": "silver"
     },
     {
+      "name": "mexregkan--claude-for-researchers",
+      "description": "A guide and toolkit for researchers using Claude Code on long technical projects",
+      "author": "Mexregkan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mexregkan--claude-for-researchers",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "codexvn--rimworldmod-rimworldai",
+      "description": "RimWorldMod_RimWorldAI",
+      "author": "codexvn",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codexvn--rimworldmod-rimworldai",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -340624,6 +340664,14 @@
       "description": "Einsteiger-freundlicher Hackathon-Starter: Claude Code + n8n \u2014 Skills, n8n-MCP, KI-Agent-Lernworkflows + Frontend/Backend-Beispiele. Setup per \u201erichte mir das ein\u201c.",
       "author": "freddy-schuetz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/freddy-schuetz--hackathon-n8n-starter",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "satadeep3927--rune",
+      "description": "rune",
+      "author": "satadeep3927",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/satadeep3927--rune",
       "stars": 7,
       "quality": "silver"
     },
