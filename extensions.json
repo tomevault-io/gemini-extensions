@@ -313796,6 +313796,22 @@
       "quality": "silver"
     },
     {
+      "name": "pluginmd--lark-mcp-cli",
+      "description": "lark-mcp-cli",
+      "author": "pluginmd",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pluginmd--lark-mcp-cli",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "abdulazizsapra--clawgrid",
+      "description": "Fleet management panel for OpenClaw AI agents \u2014 multi-instance SSH, self-improve, cost analysis, guardrails, and more",
+      "author": "abdulazizsapra",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/abdulazizsapra--clawgrid",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -335572,6 +335588,22 @@
       "quality": "silver"
     },
     {
+      "name": "tripplyons--pokeemerald-wasm",
+      "description": "Pokemon Emerald in WebAssembly",
+      "author": "tripplyons",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tripplyons--pokeemerald-wasm",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "haix716--feishu-agent-assistant",
+      "description": "feishu-agent-assistant",
+      "author": "haix716",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/haix716--feishu-agent-assistant",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -341026,6 +341058,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/joeseesun--qiaomu-english-learn",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "momentderek--warp-translation",
+      "description": "project to translate Warp",
+      "author": "MomentDerek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/momentderek--warp-translation",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ncaq---zsh-d",
@@ -509842,6 +509882,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bochoniuks--writerscollab",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "incob--https---github-com-incob-openai-agents-python-factory-webui",
+      "description": "https---github.com-InCoB-openai-agents-python-factory-webui",
+      "author": "InCoB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/incob--https---github-com-incob-openai-agents-python-factory-webui",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "benignomnez--kixord-mobile",
+      "description": "sneakers online",
+      "author": "Benignomnez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/benignomnez--kixord-mobile",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
