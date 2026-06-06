@@ -91108,6 +91108,14 @@
       "quality": "silver"
     },
     {
+      "name": "streamband--hydra-srt",
+      "description": "HydraSRT \u2013 An Open Source Alternative to Haivision SRT Gateway",
+      "author": "streamband",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/streamband--hydra-srt",
+      "stars": 70,
+      "quality": "silver"
+    },
+    {
       "name": "swt-labs--vibe-better-with-claude-code-vbw",
       "description": "Vibe Better With Claude Code - You're not an engineer anymore. You're a prompt jockey with commit access. At least do it properly.",
       "author": "swt-labs",
