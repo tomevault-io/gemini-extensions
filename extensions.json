@@ -313892,6 +313892,22 @@
       "quality": "silver"
     },
     {
+      "name": "rahmanef63--os-vps",
+      "description": "Topside \u2014 mobile-first web cockpit for a headless Linux VPS. Terminal, files, monitor, media + a real remote browser in a desktop-style UI. Single Next.js app, no database, no agent.",
+      "author": "rahmanef63",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rahmanef63--os-vps",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "dustland--kardx",
+      "description": "A Kards-alike card game example.",
+      "author": "dustland",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dustland--kardx",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -335700,6 +335716,62 @@
       "quality": "silver"
     },
     {
+      "name": "ergeaia--ergemd",
+      "description": "\u4e00\u6b3e\u4e13\u6ce8\u4e8e Markdown \u9605\u8bfb\u7684\u684c\u9762\u5e94\u7528\uff0c\u6838\u5fc3\u7406\u5ff5\uff1a\u6781\u81f4\u7684\u6e32\u67d3\u7f8e\u611f + \u4e1d\u6ed1\u7684\u9605\u8bfb\u4f53\u9a8c+Mermaid\u56fe\u8868\u517c\u5bb9",
+      "author": "ErgeAIA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ergeaia--ergemd",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "jiawei601--researchwiki",
+      "description": "ResearchWiki",
+      "author": "jiawei601",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jiawei601--researchwiki",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ergeaia--ergemd",
+      "description": "\u4e00\u6b3e\u4e13\u6ce8\u4e8e Markdown \u9605\u8bfb\u7684\u684c\u9762\u5e94\u7528\uff0c\u6838\u5fc3\u7406\u5ff5\uff1a\u6781\u81f4\u7684\u6e32\u67d3\u7f8e\u611f + \u4e1d\u6ed1\u7684\u9605\u8bfb\u4f53\u9a8c+Mermaid\u56fe\u8868\u517c\u5bb9",
+      "author": "ErgeAIA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ergeaia--ergemd",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wattnpapa--sprechfunk-uebung",
+      "description": "sprechfunk-uebung Generator",
+      "author": "wattnpapa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wattnpapa--sprechfunk-uebung",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "crash0v3rrid3--obscura",
+      "description": "Rust port of javascript-obfuscator. 21 transforms, ~700\u00d7 faster, byte-deterministic, ships as crate/CLI/Node-addon/WASM.",
+      "author": "Crash0v3rrid3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/crash0v3rrid3--obscura",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "wattnpapa--sprechfunk-uebung",
+      "description": "sprechfunk-uebung Generator",
+      "author": "wattnpapa",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wattnpapa--sprechfunk-uebung",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "go-pkgz--enum",
+      "description": "Type-safe enum package and generator ",
+      "author": "go-pkgz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/go-pkgz--enum",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -341162,6 +341234,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/momentderek--warp-translation",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "kapital-legal--claude-for-tr-legal",
+      "description": "T\u00fcrk hukukuna uyarlanm\u0131\u015f Claude Code plugin koleksiyonu \u2014 Apache 2.0",
+      "author": "kapital-legal",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kapital-legal--claude-for-tr-legal",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
