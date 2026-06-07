@@ -341980,6 +341980,30 @@
       "quality": "gold"
     },
     {
+      "name": "hev--ask",
+      "description": "ask",
+      "author": "hev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hev--ask",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "hev--ask",
+      "description": "ask",
+      "author": "hev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hev--ask",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "quocbahuynh--piso-maps",
+      "description": "PISO API \u2014 a SaaS that provides real-time autocomplete, search, and place detail data from Google Maps through a simple REST API. Free API key, integrate in 30 seconds.",
+      "author": "quocbahuynh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quocbahuynh--piso-maps",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
       "name": "ncaq---zsh-d",
       "description": ".zsh.d",
       "author": "ncaq",
