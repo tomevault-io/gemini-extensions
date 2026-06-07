@@ -314156,6 +314156,30 @@
       "quality": "bronze"
     },
     {
+      "name": "mocusez--astro-astrofly",
+      "description": "An Astro theme inspired by hexo-theme-butterfly",
+      "author": "mocusez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mocusez--astro-astrofly",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "mocusez--astro-astrofly",
+      "description": "An Astro theme inspired by hexo-theme-butterfly",
+      "author": "mocusez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mocusez--astro-astrofly",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "mocusez--astro-astrofly",
+      "description": "An Astro theme inspired by hexo-theme-butterfly",
+      "author": "mocusez",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mocusez--astro-astrofly",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -342000,6 +342024,14 @@
       "description": "PISO API \u2014 a SaaS that provides real-time autocomplete, search, and place detail data from Google Maps through a simple REST API. Free API key, integrate in 30 seconds.",
       "author": "quocbahuynh",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/quocbahuynh--piso-maps",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "secemp9--rubrify",
+      "description": "Rubric compiler and judge engine for LLM evaluation",
+      "author": "secemp9",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/secemp9--rubrify",
       "stars": 7,
       "quality": "silver"
     },
@@ -511114,6 +511146,62 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/daringdolphin--bill-splitter",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "sonerady--coupleshot-server",
+      "description": "CoupleShot-server",
+      "author": "sonerady",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonerady--coupleshot-server",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "eastlondoner--swift-ai",
+      "description": "swift-ai",
+      "author": "eastlondoner",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eastlondoner--swift-ai",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mugeshk97--mugeshk97-github-io",
+      "description": "mugeshk97.github.io",
+      "author": "mugeshk97",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mugeshk97--mugeshk97-github-io",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "dhnnypatil--game-of-life",
+      "description": "game_of_life",
+      "author": "dhnnypatil",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dhnnypatil--game-of-life",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "omer-kirac--auction-v2",
+      "description": "auction-v2",
+      "author": "omer-kirac",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omer-kirac--auction-v2",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "klfd9--scraptoon",
+      "description": "scraptoon",
+      "author": "KLFD9",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/klfd9--scraptoon",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "jaderdias--loopback",
+      "description": "loopback",
+      "author": "JaderDias",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaderdias--loopback",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
