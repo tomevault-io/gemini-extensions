@@ -335876,6 +335876,86 @@
       "quality": "silver"
     },
     {
+      "name": "griffinwork40--agent-afk",
+      "description": "Local-first CLI for running, supervising, and resuming coding agents across terminal and chat surfaces. Apache-2.0.",
+      "author": "griffinwork40",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/griffinwork40--agent-afk",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "griffinwork40--agent-afk",
+      "description": "Local-first CLI for running, supervising, and resuming coding agents across terminal and chat surfaces. Apache-2.0.",
+      "author": "griffinwork40",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/griffinwork40--agent-afk",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "papicapital--hl-sdk",
+      "description": "An unofficial client SDK for Hyperliquid",
+      "author": "papicapital",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/papicapital--hl-sdk",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "noirblue--isaacclupus-mnemosyn-spec",
+      "description": "A unified, local-first semantic memory OS for autonomous agents. One vault. One schema. One API. No glue.",
+      "author": "noirblue",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/noirblue--isaacclupus-mnemosyn-spec",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "carlosvallejoruiz--debugduck",
+      "description": "Rubber Duck Debugging desktop widget \u2014 Tauri v2 + React + AI",
+      "author": "CarlosVallejoRuiz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/carlosvallejoruiz--debugduck",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hollyzoe--cheatengine-mcp-tcp-bridge",
+      "description": "TCP-enhanced fork of Cheat Engine MCP Bridge. Connect Cursor, Copilot and Claude AI directly to local or remote Cheat Engine via TCP. Automate reverse engineering, pointer scanning, and memory analysi",
+      "author": "HollyZoe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hollyzoe--cheatengine-mcp-tcp-bridge",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "bradautomates--content-ideas",
+      "description": "Track competitors across X, Instagram, TikTok, and YouTube,  see what they post, what performs, and get content ideas backed by real engagement data. Cross-host plugin for Claude Code & Codex.",
+      "author": "bradautomates",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bradautomates--content-ideas",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "openmao--openmao",
+      "description": "Open, self-hostable organization-of-record for AI agents \u2014 the accountable layer above any framework. Autonomy is earned, not assumed.",
+      "author": "OpenMAO",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/openmao--openmao",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "hollyzoe--cheatengine-mcp-tcp-bridge",
+      "description": "TCP-enhanced fork of Cheat Engine MCP Bridge. Connect Cursor, Copilot and Claude AI directly to local or remote Cheat Engine via TCP. Automate reverse engineering, pointer scanning, and memory analysi",
+      "author": "HollyZoe",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hollyzoe--cheatengine-mcp-tcp-bridge",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "123hi123--qwen2api-rs",
+      "description": "Rust \u91cd\u5beb\u7684 qwen2API \u7db2\u95dc\uff1a\u628a Qwen Web \u507d\u88dd\u6210 OpenAI / Anthropic / Gemini \u76f8\u5bb9\u4ecb\u9762\u3002axum + tokio + reqwest\uff0c\u55ae\u4e00\u975c\u614b binary\u3002Fork & rewrite of YuJunZhiXue/qwen2API.",
+      "author": "123hi123",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/123hi123--qwen2api-rs",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -341352,6 +341432,102 @@
       "description": "Turn a raw idea into a plan you can build. A multi-agent brainstorming methodology \u2014 isolated critique, fact-checking, and a build handoff to Claude Code.",
       "author": "winchxyz",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/winchxyz--idea-to-build",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "alexanderabramovpav--scriba",
+      "description": "Free, local, accurate and honest meeting transcription SKILL with speaker diarization for your AI agent or second brain \u2014 works with Claude Code, Codex, Cursor or as a plain CLI. 100% on-device (whisp",
+      "author": "AlexanderAbramovPav",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alexanderabramovpav--scriba",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "millionco--react-scan-in-react",
+      "description": "react-scan with an idiomatic-React port of the toolbar UI (packages/scan-react)",
+      "author": "millionco",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/millionco--react-scan-in-react",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "bionoob7--nlr-workflow",
+      "description": "nlr-workflow",
+      "author": "bionoob7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/bionoob7--nlr-workflow",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "dezxbt--agentx",
+      "description": "Agent-first X/Twitter client in Go \u2014 JSON envelope per command, multi-account, cookie-safe anti-detection for autonomous agents",
+      "author": "DezXBT",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dezxbt--agentx",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "shibinsp--riptide-watergraph",
+      "description": "Riptide-Watergraph is a reusable multi-agent framework for building, running, and inspecting LLM agent systems \u2014 conceptually like AutoGen, but it doesn't re-author the orchestration runtime.",
+      "author": "shibinsp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shibinsp--riptide-watergraph",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "sonnar1550zm--agent-sessions",
+      "description": "Agent-Sessions",
+      "author": "Sonnar1550ZM",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sonnar1550zm--agent-sessions",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "cablehead--stacks2099",
+      "description": "a tool for thought: a collection of stacks of clips for managing your personal context",
+      "author": "cablehead",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cablehead--stacks2099",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "blain3white--clean-my-agent",
+      "description": "clean-my-agent",
+      "author": "blain3white",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blain3white--clean-my-agent",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "samyama-ai--dbms-research",
+      "description": "1000+ open & hard research problems in the DBMS space, organized by topic \u2014 each with formal statement, mathematical foundations, SOTA, upper/lower bounds, current (2026) research & future work, and r",
+      "author": "samyama-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samyama-ai--dbms-research",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "execveat--flawed",
+      "description": "Static analysis engine for Python web-applications",
+      "author": "execveat",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/execveat--flawed",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "blain3white--clean-my-agent",
+      "description": "clean-my-agent",
+      "author": "blain3white",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/blain3white--clean-my-agent",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "xingyuezhiyuan--xy-canvas",
+      "description": "xy-\u81ea\u7531\u753b\u5e03",
+      "author": "xingyuezhiyuan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xingyuezhiyuan--xy-canvas",
       "stars": 7,
       "quality": "silver"
     },
@@ -510400,6 +510576,14 @@
       "description": "joshillichmann.com",
       "author": "studioprisoner",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/studioprisoner--joshillichmann-com",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nghia2207--ai-meeting-assistant",
+      "description": "AI-Meeting-Assistant",
+      "author": "nghia2207",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nghia2207--ai-meeting-assistant",
       "stars": 0,
       "quality": "silver"
     }
