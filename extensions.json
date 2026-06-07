@@ -314036,6 +314036,38 @@
       "quality": "silver"
     },
     {
+      "name": "zentia--zengine",
+      "description": "ZEngine",
+      "author": "zentia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zentia--zengine",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "yusupsupriyadi--sososo",
+      "description": "Real-time meeting & audio transcription for Windows (system audio + mic) \u2014 live captions via Deepgram, AI summaries via OpenAI. Tauri 2 + React.",
+      "author": "yusupsupriyadi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yusupsupriyadi--sososo",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "zentia--zengine",
+      "description": "ZEngine",
+      "author": "zentia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zentia--zengine",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "zentia--zengine",
+      "description": "ZEngine",
+      "author": "zentia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zentia--zengine",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336020,6 +336052,30 @@
       "quality": "silver"
     },
     {
+      "name": "natelkins--hot-reload-poc",
+      "description": "hot_reload_poc",
+      "author": "NatElkins",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/natelkins--hot-reload-poc",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "xuanfeng233-coder--freenote",
+      "description": "freenote",
+      "author": "xuanfeng233-coder",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xuanfeng233-coder--freenote",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "imransdet--qa-assistant",
+      "description": "qa-assistant",
+      "author": "imransdet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/imransdet--qa-assistant",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -341592,6 +341648,30 @@
       "description": "xy-\u81ea\u7531\u753b\u5e03",
       "author": "xingyuezhiyuan",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xingyuezhiyuan--xy-canvas",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "hieubui2409--product-spec",
+      "description": ".claude folder (focus on skills) for cleanmatic's products and may be expandable to others.",
+      "author": "hieubui2409",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hieubui2409--product-spec",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ben-juodvalkis--ableton-web-components",
+      "description": "ableton-web-components",
+      "author": "ben-juodvalkis",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ben-juodvalkis--ableton-web-components",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "omansour--localscribe",
+      "description": "Fully local offline CLI for audio transcription with diarization on Apple Silicon",
+      "author": "omansour",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/omansour--localscribe",
       "stars": 7,
       "quality": "silver"
     },
