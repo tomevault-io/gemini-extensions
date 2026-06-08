@@ -231964,6 +231964,22 @@
       "quality": "bronze"
     },
     {
+      "name": "hxxdev--lazyverilog",
+      "description": "A fast, practical SystemVerilog LSP for RTL coding.",
+      "author": "hxxdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hxxdev--lazyverilog",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
+      "name": "hxxdev--lazyverilog",
+      "description": "A fast, practical SystemVerilog LSP for RTL coding.",
+      "author": "hxxdev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hxxdev--lazyverilog",
+      "stars": 14,
+      "quality": "silver"
+    },
+    {
       "name": "lucas-acc--sancho-skills",
       "description": "Skills of my personal assistant, I call him Sancho.",
       "author": "lucas-acc",
@@ -314244,6 +314260,14 @@
       "quality": "silver"
     },
     {
+      "name": "yatskovskyi--cadcore",
+      "description": "Pure-Rust CAD geometry kernel \u2014 B-Rep topology, analytic surfaces, O(N) filament sweep, STEP AP203 export. No OCCT, no C++.",
+      "author": "YATSKOVSKYI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yatskovskyi--cadcore",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336444,6 +336468,30 @@
       "quality": "gold"
     },
     {
+      "name": "dkundel-openai--openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "author": "dkundel-openai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dkundel-openai--openai-agents-python",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "yan-yanko--rainman",
+      "description": "Context-aware project memory for AI coding tools. Zero LLM. Zero tokens. Runs locally.",
+      "author": "yan-yanko",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yan-yanko--rainman",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "trevors--dot-claude",
+      "description": "dot-claude",
+      "author": "TrevorS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/trevors--dot-claude",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -342210,6 +342258,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samuraigpt--social-post",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "lipearman--ai-office-os",
+      "description": "AI Office OS",
+      "author": "lipearman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lipearman--ai-office-os",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "hhyqhh--inno-agent",
+      "description": "inno-agent",
+      "author": "hhyqhh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hhyqhh--inno-agent",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
