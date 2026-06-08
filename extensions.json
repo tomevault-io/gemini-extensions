@@ -224692,6 +224692,14 @@
       "quality": "silver"
     },
     {
+      "name": "alpharealmdenote--dota2-performance-predictor",
+      "description": "Dota 2 Performance Analytics and Match Trend Predictor. Analyze Match History, Track Performance Metrics, Visualize Statistics and Discover Winning Patterns.",
+      "author": "alpharealmdenote",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/alpharealmdenote--dota2-performance-predictor",
+      "stars": 15,
+      "quality": "gold"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -275362,6 +275370,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codebendkit--codeseek",
       "stars": 10,
       "quality": "silver"
+    },
+    {
+      "name": "tanagertrough--koodo-reader",
+      "description": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web.",
+      "author": "TanagerTrough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tanagertrough--koodo-reader",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "colossusauhem--proton-drive-sync",
+      "description": "Local folders, automatically synced to Proton Drive. (Unofficial Sync Client)",
+      "author": "Colossusauhem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/colossusauhem--proton-drive-sync",
+      "stars": 10,
+      "quality": "gold"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
