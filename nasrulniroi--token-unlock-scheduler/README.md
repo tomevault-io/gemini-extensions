@@ -7,11 +7,11 @@ Token unlock calendar and impact analysis platform tracking vesting schedules, a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nasrulniroi/token-unlock-scheduler](https://github.com/nasrulniroi/token-unlock-scheduler).
+Original source: `AGENTS.md` in [nasrulniroi/token-unlock-scheduler](https://github.com/nasrulniroi/token-unlock-scheduler).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
