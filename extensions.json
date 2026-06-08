@@ -58676,6 +58676,14 @@
       "quality": "silver"
     },
     {
+      "name": "femto--minion",
+      "description": "\ud83d\udc77\u200d\u2642\ufe0fHigh performance agent framework that can do everything. Minion is designed to execute any type of queries, offering a variety of features that demonstrate its flexibility and intelligence.",
+      "author": "femto",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/femto--minion",
+      "stars": 141,
+      "quality": "bronze"
+    },
+    {
       "name": "wedow--harness",
       "description": "Minimal agent loop in bash. Pure state follower core with plugin-based tools, hooks, providers, and commands. Dependencies: bash 4+, jq, curl.",
       "author": "wedow",
@@ -336788,6 +336796,14 @@
       "quality": "gold"
     },
     {
+      "name": "medounesgb--ffmanager",
+      "description": "Le studio tout-en-un pour FFmpeg : convertir, compresser, t\u00e9l\u00e9charger et lire vos vid\u00e9os \u2014 file d'attente, lecteur VLC int\u00e9gr\u00e9, capture de flux web et extension Chrome, dans une interface moderne.",
+      "author": "MedouneSGB",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/medounesgb--ffmanager",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -342618,6 +342634,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/potatospudowski--gpu-snapshot-experiment",
       "stars": 7,
       "quality": "gold"
+    },
+    {
+      "name": "feifeibear--seereel",
+      "description": "Agent-native Seedance 2.0 short-film studio: cli for AI, canvas for human",
+      "author": "feifeibear",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/feifeibear--seereel",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "feifeibear--seereel",
+      "description": "Agent-native Seedance 2.0 short-film studio: cli for AI, canvas for human",
+      "author": "feifeibear",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/feifeibear--seereel",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
