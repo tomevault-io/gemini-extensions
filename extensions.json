@@ -314444,6 +314444,62 @@
       "quality": "silver"
     },
     {
+      "name": "chiply--svg-line",
+      "description": "SVG-rendered tab-bar, tab-line, header-line and mode-line for Emacs",
+      "author": "chiply",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chiply--svg-line",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "huggingface--cadgenbench",
+      "description": "A benchmark for AI-driven CAD generation and editing",
+      "author": "huggingface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huggingface--cadgenbench",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "huggingface--cadgenbench",
+      "description": "A benchmark for AI-driven CAD generation and editing",
+      "author": "huggingface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huggingface--cadgenbench",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "fluentlabs-xyz--docs-docusaurus",
+      "description": "Official Open Source Fluent Documentation With Docusaurus",
+      "author": "fluentlabs-xyz",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fluentlabs-xyz--docs-docusaurus",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "huggingface--cadgenbench",
+      "description": "A benchmark for AI-driven CAD generation and editing",
+      "author": "huggingface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huggingface--cadgenbench",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "huggingface--cadgenbench",
+      "description": "A benchmark for AI-driven CAD generation and editing",
+      "author": "huggingface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huggingface--cadgenbench",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "huggingface--cadgenbench",
+      "description": "A benchmark for AI-driven CAD generation and editing",
+      "author": "huggingface",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/huggingface--cadgenbench",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336800,6 +336856,14 @@
       "description": "Le studio tout-en-un pour FFmpeg : convertir, compresser, t\u00e9l\u00e9charger et lire vos vid\u00e9os \u2014 file d'attente, lecteur VLC int\u00e9gr\u00e9, capture de flux web et extension Chrome, dans une interface moderne.",
       "author": "MedouneSGB",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/medounesgb--ffmanager",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "rune-goblin--runegoblin-foundrytemplate",
+      "description": "Foundry VTT Pathfinder 2e module template \u2014 TypeScript + Svelte 5 + Vite, v14 APIs only. Run 'npm run init -- <id>' to spin up a new module.",
+      "author": "rune-goblin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rune-goblin--runegoblin-foundrytemplate",
       "stars": 8,
       "quality": "silver"
     },
