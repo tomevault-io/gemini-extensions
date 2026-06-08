@@ -336780,6 +336780,14 @@
       "quality": "bronze"
     },
     {
+      "name": "theuser99-spec--phylax",
+      "description": "Phylax a security layer for AI coding agents. It enforces fine grained read, write, and delete permissions using explicit policy buckets and OS level controls, ensuring agents operate safely within de",
+      "author": "TheUser99-spec",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/theuser99-spec--phylax",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
