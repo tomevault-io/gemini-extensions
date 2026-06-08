@@ -7,11 +7,11 @@ Claude Code 桌宠伴侣 — 透明桌宠窗口实时显示 Claude Code 的工�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Doulor/Clawd-Companion](https://github.com/Doulor/Clawd-Companion).
+Original source: `AGENTS.md` in [Doulor/Clawd-Companion](https://github.com/Doulor/Clawd-Companion).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
