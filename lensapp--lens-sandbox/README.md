@@ -7,11 +7,11 @@ Run AI agents, commands, and OCI images locally inside a microVM — control wha
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lensapp/lens-sandbox](https://github.com/lensapp/lens-sandbox).
+Original source: `CLAUDE.md` in [lensapp/lens-sandbox](https://github.com/lensapp/lens-sandbox).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
