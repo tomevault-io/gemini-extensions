@@ -314324,6 +314324,62 @@
       "quality": "bronze"
     },
     {
+      "name": "stellarinsure-org--stellarinsure-frontend",
+      "description": "StellarInsure frontend dashboard",
+      "author": "StellarInsure-Org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stellarinsure-org--stellarinsure-frontend",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "artabramov--hidden",
+      "description": "Self-hosted encrypted file storage",
+      "author": "artabramov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artabramov--hidden",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "lazyhuman-ai--serenity-invest-skill",
+      "description": "serenity-invest-skill",
+      "author": "lazyhuman-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lazyhuman-ai--serenity-invest-skill",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "artabramov--hidden",
+      "description": "Self-hosted encrypted file storage",
+      "author": "artabramov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artabramov--hidden",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "stellarinsure-org--stellarinsure-website",
+      "description": "StellarInsure marketing website \u2014 editorial minimalist, built with Next.js + shadcn/ui",
+      "author": "StellarInsure-Org",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/stellarinsure-org--stellarinsure-website",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "artabramov--hidden",
+      "description": "Self-hosted encrypted file storage",
+      "author": "artabramov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artabramov--hidden",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "artabramov--hidden",
+      "description": "Self-hosted encrypted file storage",
+      "author": "artabramov",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/artabramov--hidden",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336594,6 +336650,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maybe4747--realtime-ai-trans",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "wispr-flow-linux--wispr-flow-linux",
+      "description": "Unofficial Linux port of Wispr Flow",
+      "author": "wispr-flow-linux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wispr-flow-linux--wispr-flow-linux",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "wispr-flow-linux--wispr-flow-linux",
+      "description": "Unofficial Linux port of Wispr Flow",
+      "author": "wispr-flow-linux",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wispr-flow-linux--wispr-flow-linux",
+      "stars": 8,
+      "quality": "gold"
     },
     {
       "name": "cheerhuan--save-your-token",
