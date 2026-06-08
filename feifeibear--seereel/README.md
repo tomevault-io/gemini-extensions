@@ -7,11 +7,11 @@ Agent-native Seedance 2.0 short-film studio: cli for AI, canvas for human
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [feifeibear/SeeReel](https://github.com/feifeibear/SeeReel).
+Original source: `CLAUDE.md` in [feifeibear/SeeReel](https://github.com/feifeibear/SeeReel).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
