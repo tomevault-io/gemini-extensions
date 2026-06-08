@@ -336892,6 +336892,62 @@
       "quality": "silver"
     },
     {
+      "name": "ferroxlabs--wayland-core",
+      "description": "Multi-provider AI agent CLI written in Rust",
+      "author": "FerroxLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferroxlabs--wayland-core",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "notnull92--hera-agent-unity",
+      "description": "CLI tool to control Unity Editor from the command line \u2014 part of the Hera Agent ecosystem",
+      "author": "NotNull92",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/notnull92--hera-agent-unity",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "ferroxlabs--wayland-core",
+      "description": "Multi-provider AI agent CLI written in Rust",
+      "author": "FerroxLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ferroxlabs--wayland-core",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "konananachan--openpoly",
+      "description": "openPoly by KoNananachan: open, news-driven, on-chain-verifiable live trading for Polymarket.",
+      "author": "KoNananachan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/konananachan--openpoly",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "korroai--mue-x",
+      "description": "Self-evolving AI agent that rewrites its own source code in real-time. 6 mutation strategies. 7 autonomous drives. GitHub absorption. Built by KORRO, 100% AI company.",
+      "author": "KorroAi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/korroai--mue-x",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "lensapp--lens-sandbox",
+      "description": "Run AI agents, commands, and OCI images locally inside a microVM \u2014 control what flows into and out of the sandbox.",
+      "author": "lensapp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lensapp--lens-sandbox",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "lensapp--lens-sandbox",
+      "description": "Run AI agents, commands, and OCI images locally inside a microVM \u2014 control what flows into and out of the sandbox.",
+      "author": "lensapp",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lensapp--lens-sandbox",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
