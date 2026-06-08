@@ -314404,6 +314404,14 @@
       "quality": "silver"
     },
     {
+      "name": "jaychouya--memoryagent",
+      "description": "\u5177\u5907\u8ba4\u77e5\u8bb0\u5fc6\u67b6\u6784\u7684 AI Agent\uff0c\u8ba9 AI \u8bb0\u4f4f\u4f60\u7684\u504f\u597d\uff0c\u8d8a\u7528\u8d8a\u61c2\u4f60 \u6838\u5fc3\u7279\u6027\uff1a\u56db\u7c7b\u578b\u8bb0\u5fc6\u7cfb\u7edf\u3001\u8de8\u4f1a\u8bdd\u8bb0\u5fc6\u5171\u4eab\u3001Claude Code \u67b6\u6784\u300115+ \u5927\u6a21\u578b\u652f\u6301",
+      "author": "jaychouya",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaychouya--memoryagent",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336692,6 +336700,14 @@
       "quality": "gold"
     },
     {
+      "name": "yiisoft--demo-summarizer",
+      "description": "LLM document summarizer demo",
+      "author": "yiisoft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yiisoft--demo-summarizer",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -342480,6 +342496,30 @@
       "description": "Noesis \u2014 Core Agent Framework for building autonomous AI workflows",
       "author": "Sheep1433",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sheep1433--noesis",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "doulor--clawd-companion",
+      "description": "Claude Code \u684c\u5ba0\u4f34\u4fa3 \u2014 \u900f\u660e\u684c\u5ba0\u7a97\u53e3\u5b9e\u65f6\u663e\u793a Claude Code \u7684\u5de5\u5177\u8c03\u7528\u3001\u4f1a\u8bdd\u72b6\u6001\u548c\u5b8c\u6210\u63d0\u9192\u3002",
+      "author": "Doulor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doulor--clawd-companion",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "doulor--clawd-companion",
+      "description": "Claude Code \u684c\u5ba0\u4f34\u4fa3 \u2014 \u900f\u660e\u684c\u5ba0\u7a97\u53e3\u5b9e\u65f6\u663e\u793a Claude Code \u7684\u5de5\u5177\u8c03\u7528\u3001\u4f1a\u8bdd\u72b6\u6001\u548c\u5b8c\u6210\u63d0\u9192\u3002",
+      "author": "Doulor",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/doulor--clawd-companion",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "semantic-craft--ios-vibebuddy",
+      "description": "iOS-vibebuddy",
+      "author": "semantic-craft",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/semantic-craft--ios-vibebuddy",
       "stars": 7,
       "quality": "silver"
     },
@@ -511938,6 +511978,70 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xinnbluebird--graphvizlint",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "wilson-i--json",
+      "description": "Json",
+      "author": "wilson-i",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wilson-i--json",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "renerocksai--technologylab-github-io",
+      "description": "technologylab.github.io",
+      "author": "renerocksai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/renerocksai--technologylab-github-io",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "projetos-faculdade-ucs--plantinhas-next",
+      "description": "Front end em next do aplicativo PlantinhaS",
+      "author": "Projetos-Faculdade-UCS",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/projetos-faculdade-ucs--plantinhas-next",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "robertgreenwood1--chewy",
+      "description": "Van Builder Application",
+      "author": "RobertGreenwood1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robertgreenwood1--chewy",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "robertgreenwood1--chewy",
+      "description": "Van Builder Application",
+      "author": "RobertGreenwood1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robertgreenwood1--chewy",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "shaiss--circletube",
+      "description": "Agapi is an advanced AI-powered social network platform that enables intelligent, context-aware interactions between users and AI-generated followers through dynamic conversation threads. The platform",
+      "author": "shaiss",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shaiss--circletube",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "robertgreenwood1--chewy",
+      "description": "Van Builder Application",
+      "author": "RobertGreenwood1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robertgreenwood1--chewy",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "robertgreenwood1--chewy",
+      "description": "Van Builder Application",
+      "author": "RobertGreenwood1",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robertgreenwood1--chewy",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
