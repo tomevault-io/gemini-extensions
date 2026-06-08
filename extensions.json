@@ -336348,6 +336348,38 @@
       "quality": "silver"
     },
     {
+      "name": "yanpengqi7--ai-reliability-copilot",
+      "description": "Turn a production incident into a structured 9-section LLM response (severity, root cause, mitigation, postmortem). Ships with a 5-scenario regression suite + LLM-as-judge eval pipeline.",
+      "author": "YanpengQi7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yanpengqi7--ai-reliability-copilot",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "yanpengqi7--ai-reliability-copilot",
+      "description": "Turn a production incident into a structured 9-section LLM response (severity, root cause, mitigation, postmortem). Ships with a 5-scenario regression suite + LLM-as-judge eval pipeline.",
+      "author": "YanpengQi7",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yanpengqi7--ai-reliability-copilot",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
+      "name": "mrballistic--ableton-helpbot",
+      "description": "a helpbot/ai assistant for Ableton Live 12",
+      "author": "mrballistic",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrballistic--ableton-helpbot",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "weisserw--ibjjf-elo",
+      "description": "ibjjf-elo",
+      "author": "weisserw",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/weisserw--ibjjf-elo",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -511218,6 +511250,30 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaderdias--loopback",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "araucaria-project--ocabox-tcs",
+      "description": "Collection of automation services for OCM telescopes.",
+      "author": "araucaria-project",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/araucaria-project--ocabox-tcs",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "loop3d--plugin-loopstructural",
+      "description": "plugin_loopstructural",
+      "author": "Loop3D",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/loop3d--plugin-loopstructural",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nanvix--binutils",
+      "description": "Port of GNU Binutils for Nanvix",
+      "author": "nanvix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nanvix--binutils",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
