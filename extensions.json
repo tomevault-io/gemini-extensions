@@ -156524,6 +156524,14 @@
       "quality": "silver"
     },
     {
+      "name": "svasek--homeassistant-neopool-modbus",
+      "description": "\ud83c\udfca Sugar Valley Neopool Modbus custom integration for Home Assistant",
+      "author": "svasek",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/svasek--homeassistant-neopool-modbus",
+      "stars": 29,
+      "quality": "silver"
+    },
+    {
       "name": "ahekot--comfyui-hyworld2",
       "description": "ComfyUI_HYWorld2",
       "author": "AHEKOT",
@@ -336388,6 +336396,22 @@
       "quality": "bronze"
     },
     {
+      "name": "indxdev--autoresearch",
+      "description": "Auto Research \u2014 automated multi-domain research pipeline (GitHub Actions + Claude Code) ",
+      "author": "INDXDev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/indxdev--autoresearch",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "cloudflare--workspace",
+      "description": "@cloudflare/workspace, give your agent a computer \ud83d\udcbb",
+      "author": "cloudflare",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cloudflare--workspace",
+      "stars": 8,
+      "quality": "gold"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -342090,6 +342114,70 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/secemp9--rubrify",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "auratech-lab--r3arxiv-react3-archive",
+      "description": "r3arxiv-react3-archive",
+      "author": "auratech-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/auratech-lab--r3arxiv-react3-archive",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "akiasprin--ripple-reader",
+      "description": "Ripple Reader: LLM-driven academic paper discovery & deep reading",
+      "author": "akiasprin",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/akiasprin--ripple-reader",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "evedensity--mineworld",
+      "description": "\u57fa\u4e8e Three.js \u76843D\u50cf\u7d20\u98ce\u683c\u65b9\u5757\u4e16\u754c\u63a2\u7d22\u6e38\u620f\u3002\u4f7f\u7528\u539f\u751f HTML + CSS + ES Module JavaScript \u6784\u5efa\uff0c\u65e0\u9700\u6784\u5efa\u6b65\u9aa4\u3002\u652f\u6301\u684c\u9762\u7aef\uff08\u952e\u9f20\uff09\u548c\u79fb\u52a8\u7aef\uff08\u89e6\u63a7\uff09\u3002",
+      "author": "EVEDensity",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/evedensity--mineworld",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "auratech-lab--r3arxiv-react3-archive",
+      "description": "r3arxiv-react3-archive",
+      "author": "auratech-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/auratech-lab--r3arxiv-react3-archive",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "vercel-labs--writing-guidelines",
+      "description": "writing-guidelines",
+      "author": "vercel-labs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vercel-labs--writing-guidelines",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "auratech-lab--r3arxiv-react3-archive",
+      "description": "r3arxiv-react3-archive",
+      "author": "auratech-lab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/auratech-lab--r3arxiv-react3-archive",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "ghostcompiler--currency-api-dashboard",
+      "description": "Currency API Dashboard is a platform that fetches exchange rates hourly from Open Exchange Rates and provides a clean dashboard alongside API endpoints for accessing live currency rates, supported cur",
+      "author": "ghostcompiler",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ghostcompiler--currency-api-dashboard",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "samuraigpt--social-post",
+      "description": "Open-source AI social media post generator \u2014 production-ready Next.js SaaS with live platform mockups for LinkedIn, Twitter/X, Instagram, Facebook & Reddit, multi-tone generation, and publish intents.",
+      "author": "SamurAIGPT",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/samuraigpt--social-post",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ncaq---zsh-d",
@@ -511282,6 +511370,270 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nanvix--binutils",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "amna0x--ghostranger",
+      "description": " 2ND PLACE WINNER\u2013 GOMAL DEVARENA 2026 (HOSTED BY AWS).- Led the AI & Detection team to build an insider-threat and SOC platform.",
+      "author": "amna0x",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/amna0x--ghostranger",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "dhanalakshmi-1604--task-manager-app",
+      "description": "Task-Manager-App",
+      "author": "Dhanalakshmi-1604",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dhanalakshmi-1604--task-manager-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "kjs369369--instagram-cardnews-life",
+      "description": "\uc77c\uc0c1\uc758 \uac00\uc774\ub4dc \u2014 \ub18d\uc5c5\u00b7\uc18c\uc0c1\uacf5\uc778\u00b7\uc77c\uc0c1\uc744 \uc704\ud55c \uc778\uc2a4\ud0c0\uadf8\ub7a8 \uce74\ub4dc\ub274\uc2a4 3\uac1c \uc2dc\ub9ac\uc988 (Playwright + HTML \ud15c\ud50c\ub9bf \uc790\ub3d9 \uc0dd\uc131)",
+      "author": "kjs369369",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kjs369369--instagram-cardnews-life",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "testdemo222--testchinese222",
+      "description": "testchinese222",
+      "author": "testdemo222",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testdemo222--testchinese222",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "eualvarobastos--am-converte",
+      "description": "Reposit\u00f3rio da minha estrutura de comercial para fechamento de clientes da advocacia no Brasil.",
+      "author": "eualvarobastos",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eualvarobastos--am-converte",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nasrulniroi--token-unlock-scheduler",
+      "description": "Token unlock calendar and impact analysis platform tracking vesting schedules, analyzing price impact, and aiding investment decisions",
+      "author": "nasrulniroi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nasrulniroi--token-unlock-scheduler",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "yisetv--shows",
+      "description": "Shows",
+      "author": "YisetV",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yisetv--shows",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "nasrulniroi--nft-portfolio-dashboard",
+      "description": "Comprehensive NFT portfolio management with floor tracking, rarity ranking, and PnL analysis across multiple marketplaces",
+      "author": "nasrulniroi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nasrulniroi--nft-portfolio-dashboard",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "testdemo222--testchinese222",
+      "description": "testchinese222",
+      "author": "testdemo222",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/testdemo222--testchinese222",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "wangyufei0807--admin-boot",
+      "description": "spring boot + mybatisplus\u811a\u624b\u67b6",
+      "author": "wangyufei0807",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wangyufei0807--admin-boot",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "mail-eth--ai-code-review",
+      "description": "ai-code-review",
+      "author": "mail-eth",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mail-eth--ai-code-review",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "rybbit3--notion-api-job-posting",
+      "description": "notion-api-job-posting",
+      "author": "rybbit3",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rybbit3--notion-api-job-posting",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "luisrramon--daniel-caesar-bio",
+      "description": "daniel-caesar-bio",
+      "author": "luisrramon",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luisrramon--daniel-caesar-bio",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "yhson-lucia--sonsurae",
+      "description": "\uac1c\uc778\ud559\uc2b5\ube14\ub85c\uadf8",
+      "author": "yhson-lucia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yhson-lucia--sonsurae",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ryangrowvisibility--san-luis-mobile-auto-repair",
+      "description": "san-luis-mobile-auto-repair",
+      "author": "ryangrowvisibility",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ryangrowvisibility--san-luis-mobile-auto-repair",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "valine-dev--sublink-worker",
+      "description": "sublink-worker",
+      "author": "valine-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/valine-dev--sublink-worker",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "ryangrowvisibility--los-reyes-tire-shop",
+      "description": "los-reyes-tire-shop",
+      "author": "ryangrowvisibility",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ryangrowvisibility--los-reyes-tire-shop",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "zawiszaty--claude-sorted-linked-list",
+      "description": "claude-sorted-linked-list",
+      "author": "zawiszaty",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zawiszaty--claude-sorted-linked-list",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "htoomyatnyinyi--dotlink",
+      "description": "dotlink",
+      "author": "htoomyatnyinyi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/htoomyatnyinyi--dotlink",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jdetras--claude-swiftbar",
+      "description": "claude-swiftbar",
+      "author": "jdetras",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jdetras--claude-swiftbar",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "nasrulniroi--token-unlock-scheduler",
+      "description": "Token unlock calendar and impact analysis platform tracking vesting schedules, analyzing price impact, and aiding investment decisions",
+      "author": "nasrulniroi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nasrulniroi--token-unlock-scheduler",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "kurobuchicken-cell--realestate-app",
+      "description": "realestate-app",
+      "author": "kurobuchicken-cell",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kurobuchicken-cell--realestate-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "nasrulniroi--nft-portfolio-dashboard",
+      "description": "Comprehensive NFT portfolio management with floor tracking, rarity ranking, and PnL analysis across multiple marketplaces",
+      "author": "nasrulniroi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nasrulniroi--nft-portfolio-dashboard",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "ku23ha--vaanihub-analytics",
+      "description": "Realtime GA4 analytics dashboard integration for Vaani Hub",
+      "author": "ku23ha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ku23ha--vaanihub-analytics",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "yhson-lucia--sonsurae",
+      "description": "\uac1c\uc778\ud559\uc2b5\ube14\ub85c\uadf8",
+      "author": "yhson-lucia",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/yhson-lucia--sonsurae",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "pedrinhotrembala--pdmo",
+      "description": "PDMO",
+      "author": "PedrinhoTremBala",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pedrinhotrembala--pdmo",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "valine-dev--sublink-worker",
+      "description": "sublink-worker",
+      "author": "valine-dev",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/valine-dev--sublink-worker",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "lopeshkgk--thomesport",
+      "description": "thome-sport - Repository created from Bud",
+      "author": "lopeshkgk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/lopeshkgk--thomesport",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "kipkoechkevin611-cloud--ken-tank",
+      "description": "ken-tank",
+      "author": "kipkoechkevin611-cloud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kipkoechkevin611-cloud--ken-tank",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "annushakya--mini-lead-distribution-system",
+      "description": "Mini-Lead-Distribution-System",
+      "author": "ANNUSHAKYA",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/annushakya--mini-lead-distribution-system",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "devidian--rw-plugin-oz-marketplace",
+      "description": "Player Marketplace Plugin for Rising World",
+      "author": "Devidian",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devidian--rw-plugin-oz-marketplace",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "sapatil2212--whatsapp-automation-crm",
+      "description": "WhatsApp-Automation-CRM",
+      "author": "sapatil2212",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sapatil2212--whatsapp-automation-crm",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "xinnbluebird--graphvizlint",
+      "description": "Audit DOT graphs for layout & semantic issues. Powered by MiMo v2.5 Pro.",
+      "author": "XinnBlueBird",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/xinnbluebird--graphvizlint",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
