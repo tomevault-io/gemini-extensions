@@ -224652,6 +224652,14 @@
       "quality": "silver"
     },
     {
+      "name": "hanxiao--omni-macos",
+      "description": "Native macOS semantic search over your local files - text, images, audio, video in one vector space, on-device on Apple silicon.",
+      "author": "hanxiao",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hanxiao--omni-macos",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
       "name": "hyaway--hyaway",
       "description": "hyAway.com site",
       "author": "hyaway",
@@ -250348,6 +250356,14 @@
       "quality": "silver"
     },
     {
+      "name": "dungnotnull--hybrid-harness-chaos-process-prm",
+      "description": "\ud83e\udde0 A comprehensive, end-to-end AI Agent skill framework standardizing Harness & Chaos Engineering workflows for developers in the agentic coding era.",
+      "author": "dungnotnull",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dungnotnull--hybrid-harness-chaos-process-prm",
+      "stars": 12,
+      "quality": "silver"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer.",
       "author": "MarcoPorcellato",
@@ -275240,6 +275256,22 @@
       "description": " 63 \u4e2a Claude Skills\uff0c\u4e3a A \u80a1\u91d1\u878d\u4ece\u4e1a\u8005\u800c\u751f  \u57fa\u4e8e Anthropic \u5b98\u65b9 claude-for-financial-services \u6df1\u5ea6\u9002\u914d\u56fd\u5185\u5e02\u573a\uff0c\u73b0\u5df2\u5f00\u6e90\u3002",
       "author": "jwangkun",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jwangkun--claude-for-financial-services-cn",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "zhangferry--wwdc",
+      "description": "WWDC \u4e2d\u6587\u6280\u672f\u603b\u7ed3\u7ad9 \u2014 \u8986\u76d6 2020-2025\uff0c930+ \u7bc7 Session \u6df1\u5ea6\u89e3\u6790",
+      "author": "zhangferry",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zhangferry--wwdc",
+      "stars": 10,
+      "quality": "silver"
+    },
+    {
+      "name": "codebendkit--codeseek",
+      "description": "Rust-powered code intelligence CLI for AI coding agents. Builds call graphs and hybrid semantic search indexes (Dense + Sparse + RRF + Reranker) across 7 languages. Ships as native MCP tools for Claud",
+      "author": "CodeBendKit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/codebendkit--codeseek",
       "stars": 10,
       "quality": "silver"
     },
