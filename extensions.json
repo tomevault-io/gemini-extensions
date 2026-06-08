@@ -205028,6 +205028,14 @@
       "quality": "bronze"
     },
     {
+      "name": "adamallcock--codex-chatgpt-control",
+      "description": "Unofficial SDK for Codex agents controlling visible ChatGPT web sessions",
+      "author": "adamallcock",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/adamallcock--codex-chatgpt-control",
+      "stars": 18,
+      "quality": "silver"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "description": "plg-skills",
       "author": "SkeneTechnologies",
