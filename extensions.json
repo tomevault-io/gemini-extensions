@@ -194644,6 +194644,14 @@
       "quality": "silver"
     },
     {
+      "name": "rzna-5559--mrite-skills---ing",
+      "description": "A Skill-1",
+      "author": "Rzna-5559",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rzna-5559--mrite-skills---ing",
+      "stars": 20,
+      "quality": "silver"
+    },
+    {
       "name": "tomoyaf--logifai",
       "description": "Auto-capture development logs for Claude Code \u2014 stop copy-pasting terminal output.",
       "author": "tomoyaf",
@@ -260916,6 +260924,14 @@
       "quality": "silver"
     },
     {
+      "name": "davidhoo--markdownreader",
+      "description": "A native macOS Markdown reader built with SwiftUI + Textual. Three-column layout with file tree, rendered markdown, and outline navigation. 23 built-in themes, i18n, and Git integration.",
+      "author": "davidhoo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/davidhoo--markdownreader",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
       "name": "makenowjust--naraku",
       "description": "next Ruby Regexp engine",
       "author": "makenowjust",
@@ -275424,6 +275440,14 @@
       "description": "Local folders, automatically synced to Proton Drive. (Unofficial Sync Client)",
       "author": "Colossusauhem",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/colossusauhem--proton-drive-sync",
+      "stars": 10,
+      "quality": "gold"
+    },
+    {
+      "name": "mindset-ai--memex-ai",
+      "description": "Memex AI full source code",
+      "author": "mindset-ai",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mindset-ai--memex-ai",
       "stars": 10,
       "quality": "gold"
     },
