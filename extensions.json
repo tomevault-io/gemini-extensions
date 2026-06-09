@@ -90500,6 +90500,22 @@
       "quality": "bronze"
     },
     {
+      "name": "tencent-hunyuan--unirl",
+      "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
+      "author": "Tencent-Hunyuan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tencent-hunyuan--unirl",
+      "stars": 71,
+      "quality": "silver"
+    },
+    {
+      "name": "tencent-hunyuan--unirl",
+      "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
+      "author": "Tencent-Hunyuan",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/tencent-hunyuan--unirl",
+      "stars": 71,
+      "quality": "bronze"
+    },
+    {
       "name": "dceoy--speckit-agent-skills",
       "description": "Agent skills for Spec Kit",
       "author": "dceoy",
@@ -260888,6 +260904,14 @@
       "description": "Low code molecular property prediction",
       "author": "Synthyra",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/synthyra--protify",
+      "stars": 11,
+      "quality": "silver"
+    },
+    {
+      "name": "dev-asterix--nexql",
+      "description": "Intelligent PostgreSQL tooling for VS Code | Build, explore, and query Postgres faster",
+      "author": "dev-asterix",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dev-asterix--nexql",
       "stars": 11,
       "quality": "silver"
     },
