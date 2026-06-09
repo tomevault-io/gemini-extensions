@@ -314900,6 +314900,22 @@
       "quality": "bronze"
     },
     {
+      "name": "hasferrr--mitsuko-client",
+      "description": "AI Subtitle Translator for SRT, ASS, and VTT files and audio transcription with custom endpoints for high-quality & context-aware results. Perfect for localizing anime, films, and videos.",
+      "author": "hasferrr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hasferrr--mitsuko-client",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
+      "name": "hasferrr--mitsuko-client",
+      "description": "AI Subtitle Translator for SRT, ASS, and VTT files and audio transcription with custom endpoints for high-quality & context-aware results. Perfect for localizing anime, films, and videos.",
+      "author": "hasferrr",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hasferrr--mitsuko-client",
+      "stars": 9,
+      "quality": "gold"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -337516,6 +337532,14 @@
       "quality": "silver"
     },
     {
+      "name": "jscott3201--llm-tuning",
+      "description": "Serving and fine-tuning for the Gemma 4 and Qwen3.6 model families on Modal (SGLang/vLLM) \u2014 solo and concurrent shapes, custom chat-template forks, and a research pipeline.",
+      "author": "jscott3201",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jscott3201--llm-tuning",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -343466,6 +343490,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/constructorfabric--studio",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "thuanphanmem--khoa-ung-dung-android-tu-xa",
+      "description": "khoa-ung-dung-android-tu-xa",
+      "author": "thuanphanmem",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thuanphanmem--khoa-ung-dung-android-tu-xa",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
