@@ -7,11 +7,11 @@ MCP-based Computer Use service for Qwen Code and any AI agent — controls macOS
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [QwenLM/open-computer-use](https://github.com/QwenLM/open-computer-use).
+Original source: `AGENTS.md` in [QwenLM/open-computer-use](https://github.com/QwenLM/open-computer-use).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
