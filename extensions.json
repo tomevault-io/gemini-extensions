@@ -129524,6 +129524,14 @@
       "quality": "silver"
     },
     {
+      "name": "kanna12580--kk-knowledge-agent",
+      "description": "\u8f7b\u91cf\u7ea7\u77e5\u8bc6\u5e93\u7cfb\u7edf\uff0c\u652f\u6301\u77e5\u8bc6\u5e93\u7ba1\u7406\u3001\u6587\u672c/txt \u4e0a\u4f20\u3001\u8bed\u4e49\u68c0\u7d22\u3001\u6d41\u5f0f\u8fd4\u56de\uff0c\u5e76\u5c06\u68c0\u7d22\u80fd\u529b\u5c01\u88c5\u4e3a MCP Server\uff0c\u4f9b Agent \u8c03\u7528\u3002",
+      "author": "kanna12580",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kanna12580--kk-knowledge-agent",
+      "stars": 41,
+      "quality": "silver"
+    },
+    {
       "name": "yoloshii--mcp-code-execution-enhanced",
       "description": "Enhanced MCP code execution. Agent framework-agnostic (optimized for Claude Code). Skills framework (99.6% token reduction), multi-transport, sandboxing",
       "author": "yoloshii",
@@ -179828,6 +179836,14 @@
       "quality": "silver"
     },
     {
+      "name": "albertobarnabo--lazy-cat",
+      "description": "Claude Code skills for developers who code like cats \u2014 never more effort than the problem requires.",
+      "author": "albertobarnabo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/albertobarnabo--lazy-cat",
+      "stars": 23,
+      "quality": "bronze"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill",
       "author": "lucianaib0318",
@@ -224736,6 +224752,14 @@
       "description": "\ud83e\ude75(Shiki Natsume) - Fully offline AI girlfriend | Local LLM + GPT-SoVITS voice + ComfyUI image generation + Live2D visualization+desktop pet | Dual channels for QQ & Telegram | Dynamic 8GB VRAM schedul",
       "author": "momori777",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/momori777--artemis",
+      "stars": 15,
+      "quality": "silver"
+    },
+    {
+      "name": "cssbruno--gowdk",
+      "description": "GOWDK is an experimental Go-first web application framework for shipping full-stack web apps as a single deployable binary.  It brings together backend logic, routing, reactivity, forms, APIs, static ",
+      "author": "cssbruno",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cssbruno--gowdk",
       "stars": 15,
       "quality": "silver"
     },
@@ -314916,6 +314940,46 @@
       "quality": "gold"
     },
     {
+      "name": "matthewdcage--llm-swarm-router",
+      "description": "Run the LLM Swarm Router on machines to distribute Local Ai to the Swarm - More Machines - MORE SPEED",
+      "author": "matthewdcage",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matthewdcage--llm-swarm-router",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "matthewdcage--llm-swarm-router",
+      "description": "Run the LLM Swarm Router on machines to distribute Local Ai to the Swarm - More Machines - MORE SPEED",
+      "author": "matthewdcage",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matthewdcage--llm-swarm-router",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "matthewdcage--llm-swarm-router",
+      "description": "Run the LLM Swarm Router on machines to distribute Local Ai to the Swarm - More Machines - MORE SPEED",
+      "author": "matthewdcage",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/matthewdcage--llm-swarm-router",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "ppxd--wisp",
+      "description": "Local, real-time, cross-platform meeting transcription \u2014 on-device, private, model-swappable.",
+      "author": "ppXD",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ppxd--wisp",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "binius-zk--tracing-profile",
+      "description": "Rust tracing extension for profiling one-shot program executions",
+      "author": "binius-zk",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/binius-zk--tracing-profile",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -337536,6 +337600,30 @@
       "description": "Serving and fine-tuning for the Gemma 4 and Qwen3.6 model families on Modal (SGLang/vLLM) \u2014 solo and concurrent shapes, custom chat-template forks, and a research pipeline.",
       "author": "jscott3201",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jscott3201--llm-tuning",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "connorrmcd6--surface",
+      "description": "A deterministic gate that surfaces divergence between architectural docs and the code they describe.",
+      "author": "Connorrmcd6",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/connorrmcd6--surface",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "magnus919--hermes-profiles",
+      "description": "Curated Hermes Agent profiles for specialist swarms \u2014 opinionated, Hermes-optimized, artifact-pyramid native",
+      "author": "magnus919",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/magnus919--hermes-profiles",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "sintef-agentlab--jutul-agent",
+      "description": "jutul-agent",
+      "author": "SINTEF-agentlab",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sintef-agentlab--jutul-agent",
       "stars": 8,
       "quality": "silver"
     },
@@ -513210,6 +513298,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zachauker--5e-encounter-tracker",
       "stars": 0,
       "quality": "bronze"
+    },
+    {
+      "name": "mandy9943--lobby-frontend2",
+      "description": "lobby-frontend2",
+      "author": "Mandy9943",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mandy9943--lobby-frontend2",
+      "stars": 0,
+      "quality": "silver"
     }
   ]
 }
