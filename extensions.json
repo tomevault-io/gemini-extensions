@@ -314548,6 +314548,54 @@
       "quality": "silver"
     },
     {
+      "name": "giantswarm--mcp-prometheus",
+      "description": "mcp-prometheus",
+      "author": "giantswarm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/giantswarm--mcp-prometheus",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "giantswarm--mcp-prometheus",
+      "description": "mcp-prometheus",
+      "author": "giantswarm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/giantswarm--mcp-prometheus",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "giantswarm--mcp-prometheus",
+      "description": "mcp-prometheus",
+      "author": "giantswarm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/giantswarm--mcp-prometheus",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "giantswarm--mcp-prometheus",
+      "description": "mcp-prometheus",
+      "author": "giantswarm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/giantswarm--mcp-prometheus",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "giantswarm--mcp-prometheus",
+      "description": "mcp-prometheus",
+      "author": "giantswarm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/giantswarm--mcp-prometheus",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
+      "name": "giantswarm--mcp-prometheus",
+      "description": "mcp-prometheus",
+      "author": "giantswarm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/giantswarm--mcp-prometheus",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336988,6 +337036,86 @@
       "quality": "bronze"
     },
     {
+      "name": "kumabase--agent-base",
+      "description": "agent-base",
+      "author": "KumaBase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kumabase--agent-base",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kumabase--agent-base",
+      "description": "agent-base",
+      "author": "KumaBase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kumabase--agent-base",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "kumabase--agent-base",
+      "description": "agent-base",
+      "author": "KumaBase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kumabase--agent-base",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "kumabase--agent-base",
+      "description": "agent-base",
+      "author": "KumaBase",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kumabase--agent-base",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "toyota--confluence2md",
+      "description": "Convert Confluence pages to clean, portable Markdown with images, draw.io diagrams, and PlantUML all included.",
+      "author": "Toyota",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/toyota--confluence2md",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "nicknisi--fleet",
+      "description": "A terminal dashboard for managing multiple AI agent sessions in tmux",
+      "author": "nicknisi",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nicknisi--fleet",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "kingoooolooo--campusconnect",
+      "description": "campusconnect",
+      "author": "kingoooolooo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/kingoooolooo--campusconnect",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "mthli--ccp",
+      "description": "Headless Claude Code automation without the headless mode \ud83d\udc40",
+      "author": "mthli",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mthli--ccp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "rightnow-ai--automegakernel",
+      "description": "An agent harness that compiles a model into one provably-correct, self-retargeting CUDA megakernel and self-tunes it past cuBLAS at batch-1 LLM decode.",
+      "author": "RightNow-AI",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rightnow-ai--automegakernel",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "dcramer--agents",
+      "description": "agents",
+      "author": "dcramer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/dcramer--agents",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -342840,6 +342968,22 @@
       "description": "Claude Code devkit for agentic development",
       "author": "LuisFelipeMoro",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/luisfelipemoro--claude-devkit",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "uticus--llm-agents-system",
+      "description": "Composable Python platform for LLM-based agent systems: model hub, RAG, planning, tools, memory, evaluation, serving",
+      "author": "uticus",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/uticus--llm-agents-system",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "01mvp--blog-starter",
+      "description": "01MVP Blog Starter",
+      "author": "01MVP",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/01mvp--blog-starter",
       "stars": 7,
       "quality": "silver"
     },
@@ -512362,6 +512506,198 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/robertgreenwood1--chewy",
       "stars": 0,
       "quality": "silver"
+    },
+    {
+      "name": "jamesmacfie--kord",
+      "description": "Guitar chord practice generator",
+      "author": "jamesmacfie",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jamesmacfie--kord",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "nikhilgoenkatech--adoptionday",
+      "description": "adoptionday",
+      "author": "nikhilgoenkatech",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/nikhilgoenkatech--adoptionday",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "eugeniobandeira--prompts",
+      "description": "prompts",
+      "author": "eugeniobandeira",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/eugeniobandeira--prompts",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chepkemboiedel-sudo--deni",
+      "description": "Deni",
+      "author": "chepkemboiedel-sudo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chepkemboiedel-sudo--deni",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "juanmendozaca-netizen--next-shadcn-ui",
+      "description": "next-shadcn-ui",
+      "author": "juanmendozaca-netizen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/juanmendozaca-netizen--next-shadcn-ui",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jellyqwq--rv-139login",
+      "description": "rv-139Login",
+      "author": "jellyqwq",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jellyqwq--rv-139login",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zjjues--zotero-skill",
+      "description": "zotero-skill",
+      "author": "zjjues",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zjjues--zotero-skill",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "vishnusurya11--faithfulness-failures-clinical-xai",
+      "description": "Paper 4 P1: Faithfulness failures in clinical LLM explanations on MedGemma",
+      "author": "vishnusurya11",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vishnusurya11--faithfulness-failures-clinical-xai",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "chong-su--zyh-rl1",
+      "description": "ZYH-RL1",
+      "author": "Chong-su",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/chong-su--zyh-rl1",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "pravesh-dholwani--langbreaker",
+      "description": "A circuit breaker library for langchain llm models to build fallback chains in production.",
+      "author": "pravesh-dholwani",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/pravesh-dholwani--langbreaker",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "mrchengs--tougao",
+      "description": "\u6295\u7a3f\u6a21\u677f\uff0c\u6536\u7a3f\u6e20\u9053\u4fe1\u606f",
+      "author": "MrChengs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mrchengs--tougao",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "javtechtt--ai-language-tutor",
+      "description": "ai-language-tutor",
+      "author": "javtechtt",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/javtechtt--ai-language-tutor",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "wilfrieddc--scanit-app",
+      "description": "SCANIT-app",
+      "author": "wilfriedDC",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/wilfrieddc--scanit-app",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "harshita-singh18--vocabulary-flashcard-app",
+      "description": "vocabulary-flashcard-app",
+      "author": "harshita-singh18",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/harshita-singh18--vocabulary-flashcard-app",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "rafaelha--documentation",
+      "description": "documentation",
+      "author": "rafaelha",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/rafaelha--documentation",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "fanyunfeng-bit--vispec",
+      "description": "ViSpec",
+      "author": "fanyunfeng-bit",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/fanyunfeng-bit--vispec",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "hoohou6688-cloud--celebrity-card-game",
+      "description": "celebrity-card-game",
+      "author": "hoohou6688-cloud",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/hoohou6688-cloud--celebrity-card-game",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "arifrhm--grapejs-demo",
+      "description": "grapejs-demo",
+      "author": "arifrhm",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/arifrhm--grapejs-demo",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "jaminson0374--frontend-contab-2026",
+      "description": "frontend_contab_2026",
+      "author": "Jaminson0374",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jaminson0374--frontend-contab-2026",
+      "stars": 0,
+      "quality": "gold"
+    },
+    {
+      "name": "sasabrina--ch-ecommerce",
+      "description": "ch-ecommerce",
+      "author": "sasabrina",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sasabrina--ch-ecommerce",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "ak-nattyb--respire",
+      "description": "Respire",
+      "author": "ak-nattyb",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/ak-nattyb--respire",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "devsouvik--contract-analysis",
+      "description": "contract-analysis",
+      "author": "devSouvik",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/devsouvik--contract-analysis",
+      "stars": 0,
+      "quality": "bronze"
+    },
+    {
+      "name": "francyskmilagf-sketch--tesis-francys-garcia-revision",
+      "description": "TESIS-FRANCYS-GARCIA-REVISION",
+      "author": "francyskmilagf-sketch",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/francyskmilagf-sketch--tesis-francys-garcia-revision",
+      "stars": 0,
+      "quality": "silver"
+    },
+    {
+      "name": "zachauker--5e-encounter-tracker",
+      "description": "5e-encounter-tracker",
+      "author": "zachauker",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/zachauker--5e-encounter-tracker",
+      "stars": 0,
+      "quality": "bronze"
     }
   ]
 }
