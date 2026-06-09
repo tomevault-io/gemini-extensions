@@ -1,0 +1,24 @@
+# pc98
+
+> Source: [b2kdaman/pc98](https://github.com/b2kdaman/pc98) — distributed by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [b2kdaman/pc98](https://github.com/b2kdaman/pc98).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/b2kdaman/pc98](https://github.com/b2kdaman/pc98)
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:d-e-q -->
