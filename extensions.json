@@ -314540,6 +314540,14 @@
       "quality": "bronze"
     },
     {
+      "name": "apple--coreai-optimization",
+      "description": "A library for PyTorch model compression and optimizations for deployment via Core AI on Apple silicon.",
+      "author": "apple",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/apple--coreai-optimization",
+      "stars": 9,
+      "quality": "silver"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -336970,6 +336978,14 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/aws-samples--sample-agent-assisted-sdlc",
       "stars": 8,
       "quality": "silver"
+    },
+    {
+      "name": "netflix-skunkworks--oci-agent",
+      "description": "oci-agent",
+      "author": "Netflix-Skunkworks",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/netflix-skunkworks--oci-agent",
+      "stars": 8,
+      "quality": "bronze"
     },
     {
       "name": "cheerhuan--save-your-token",
