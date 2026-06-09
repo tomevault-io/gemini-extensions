@@ -314764,6 +314764,14 @@
       "quality": "silver"
     },
     {
+      "name": "shrimpsend--shrimpsend",
+      "description": "Cross-device file transfer, straight to your devices ; China Version: \u867e\u4f20(xiachuan.net) ; Overseas Version: ShrimpSend (shrimpsend.com)",
+      "author": "shrimpsend",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/shrimpsend--shrimpsend",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -337292,6 +337300,22 @@
       "quality": "silver"
     },
     {
+      "name": "scriptedalchemy--tokensave",
+      "description": "Code intelligence tool with local semantic graph and holographic memory",
+      "author": "ScriptedAlchemy",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/scriptedalchemy--tokensave",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "qiuerjun--storyforge-ai",
+      "description": "\u672c\u5730\u5316 AI \u5c0f\u8bf4\u4e0e\u8dd1\u56e2\u8f85\u52a9\u521b\u4f5c\u5e73\u53f0 - \u4e3a\u5c0f\u8bf4\u5bb6\u548c\u8dd1\u56e2\u73a9\u5bb6\u6253\u9020\u7684 AI \u8f85\u52a9\u521b\u4f5c\u73af\u5883\uff0c\u652f\u6301\u89d2\u8272\u8bbe\u5b9a\u3001\u4e16\u754c\u89c2\u6784\u5efa\u3001\u8bb0\u5fc6\u7d22\u5f15\u3001\u6d41\u5f0f\u5bf9\u8bdd\u7b49\u529f\u80fd\u3002\u517c\u5bb9 OpenAI API \u548c\u672c\u5730 Ollama \u6a21\u578b\u3002",
+      "author": "Qiuerjun",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/qiuerjun--storyforge-ai",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -343170,6 +343194,46 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/cxsmo-ai--deepbridge",
       "stars": 7,
       "quality": "bronze"
+    },
+    {
+      "name": "mystenlabs--confidential-transfers",
+      "description": "Confidential Transfers on Sui",
+      "author": "MystenLabs",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/mystenlabs--confidential-transfers",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "maquekenzhegua--multi-agent-software-team",
+      "description": "5 AI agents that turn GitHub Issues into mergeable PRs \u2014 from architecture to passing tests, fully autonomous.",
+      "author": "maquekenzhegua",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maquekenzhegua--multi-agent-software-team",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "maxeaglet--commandcode-proxy",
+      "description": "Command Code API \u2192 OpenAI \u517c\u5bb9\u63a5\u53e3\u7684\u53cd\u4ee3\u4ee3\u7406",
+      "author": "MAXeaglet",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/maxeaglet--commandcode-proxy",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "loringtonian--second-brain-template",
+      "description": "An agent-navigable Second Brain template \u2014 clone the blank, run /setup, make it yours. A context-engineering system any AI agent can navigate.",
+      "author": "Loringtonian",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/loringtonian--second-brain-template",
+      "stars": 7,
+      "quality": "gold"
+    },
+    {
+      "name": "jay6697117--cliproxyapiplus",
+      "description": "CLIProxyAPIPlus",
+      "author": "jay6697117",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jay6697117--cliproxyapiplus",
+      "stars": 7,
+      "quality": "silver"
     },
     {
       "name": "ncaq---zsh-d",
