@@ -314828,6 +314828,22 @@
       "quality": "silver"
     },
     {
+      "name": "sollawen--microneo",
+      "description": "A modern TUI text editor with beautiful markdown preview support",
+      "author": "sollawen",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sollawen--microneo",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
+      "name": "opentollgate--tollgate-module-basic-go",
+      "description": "Basic tollgate implementation example",
+      "author": "OpenTollGate",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/opentollgate--tollgate-module-basic-go",
+      "stars": 9,
+      "quality": "bronze"
+    },
+    {
       "name": "ocrbase-hq--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable.",
       "author": "ocrbase-hq",
@@ -337396,6 +337412,46 @@
       "quality": "silver"
     },
     {
+      "name": "jeffreytse--grimoire",
+      "description": "\ud83e\uddd9 Democratizing best practices across 27 domains. Your AI knows everything \u2014 Grimoire makes it practice it.",
+      "author": "jeffreytse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeffreytse--grimoire",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "b2kdaman--pc98",
+      "description": "pc98",
+      "author": "b2kdaman",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/b2kdaman--pc98",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "knogle--libsamp",
+      "description": "Libre-SAMP is an experimental open-source drop-in replacement for the SA-MP 0.3.7-R5",
+      "author": "Knogle",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/knogle--libsamp",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
+      "name": "slam-mer--slam-mer",
+      "description": "Source code for SLAM-MER. It includes the implementation of the localization and adjustment modules.",
+      "author": "slam-mer",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/slam-mer--slam-mer",
+      "stars": 8,
+      "quality": "bronze"
+    },
+    {
+      "name": "jeffreytse--grimoire",
+      "description": "\ud83e\uddd9 Democratizing best practices across 27 domains. Your AI knows everything \u2014 Grimoire makes it practice it.",
+      "author": "jeffreytse",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jeffreytse--grimoire",
+      "stars": 8,
+      "quality": "silver"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "description": "save-your-token",
       "author": "Cheerhuan",
@@ -343314,6 +343370,38 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/jay6697117--cliproxyapiplus",
       "stars": 7,
       "quality": "silver"
+    },
+    {
+      "name": "estevesjh--mcp-ads-arxiv",
+      "description": "Local astrophysics paper library MCP server: NASA ADS + arXiv LaTeX + PDF->markdown, never reads raw PDFs.",
+      "author": "estevesjh",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/estevesjh--mcp-ads-arxiv",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "constructorfabric--studio",
+      "description": "Main Constructor Studio repository",
+      "author": "constructorfabric",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/constructorfabric--studio",
+      "stars": 7,
+      "quality": "bronze"
+    },
+    {
+      "name": "thedartsco--orbit",
+      "description": "A cross-platform desktop app for searching, reading, and resuming local AI coding-agent sessions across Claude Code, Codex, Cursor, Copilot, OpenCode, Warp, Qoder, and JetBrains AI",
+      "author": "TheDartsCo",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/thedartsco--orbit",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "constructorfabric--studio",
+      "description": "Main Constructor Studio repository",
+      "author": "constructorfabric",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/constructorfabric--studio",
+      "stars": 7,
+      "quality": "bronze"
     },
     {
       "name": "ncaq---zsh-d",
