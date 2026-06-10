@@ -179596,22 +179596,6 @@
       "quality": "silver"
     },
     {
-      "name": "baekenough--oh-my-customcode",
-      "description": "oh-my-zsh style customization framework for Claude Code",
-      "author": "baekenough",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
-      "stars": 23,
-      "quality": "silver"
-    },
-    {
-      "name": "baekenough--oh-my-customcode",
-      "description": "oh-my-zsh style customization framework for Claude Code",
-      "author": "baekenough",
-      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
-      "stars": 23,
-      "quality": "silver"
-    },
-    {
       "name": "sethjuarez--contoso-voice-agent",
       "description": "contoso-voice-agent",
       "author": "sethjuarez",
@@ -179842,6 +179826,22 @@
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/albertobarnabo--lazy-cat",
       "stars": 23,
       "quality": "bronze"
+    },
+    {
+      "name": "baekenough--oh-my-customcode",
+      "description": "oh-my-zsh style customization framework for Claude Code",
+      "author": "baekenough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
+      "stars": 23,
+      "quality": "silver"
+    },
+    {
+      "name": "baekenough--oh-my-customcode",
+      "description": "oh-my-zsh style customization framework for Claude Code",
+      "author": "baekenough",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/baekenough--oh-my-customcode",
+      "stars": 23,
+      "quality": "silver"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -343704,6 +343704,14 @@
       "description": "varco",
       "author": "vekexasia",
       "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/vekexasia--varco",
+      "stars": 7,
+      "quality": "silver"
+    },
+    {
+      "name": "sirredbeard--azurelinux-desktop",
+      "description": "Azure Linux. In a container. On WSL. In a .NET app. With some whimsical desktop goodness.",
+      "author": "sirredbeard",
+      "source": "https://github.com/tomevault-io/gemini-extensions/tree/main/sirredbeard--azurelinux-desktop",
       "stars": 7,
       "quality": "silver"
     },
