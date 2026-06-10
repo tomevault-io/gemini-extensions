@@ -7,11 +7,11 @@ Elegant markdown builder with minimal bundle size.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mdjastrzebski/ts-markdown-builder](https://github.com/mdjastrzebski/ts-markdown-builder).
+Original source: `CLAUDE.md` in [mdjastrzebski/ts-markdown-builder](https://github.com/mdjastrzebski/ts-markdown-builder).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
