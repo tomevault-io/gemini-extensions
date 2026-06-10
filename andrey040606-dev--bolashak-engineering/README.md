@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [andrey040606-dev/Bolashak-Engineering](https://github.com/andrey040606-dev/Bolashak-Engineering).
+Original source: `AGENTS.md` in [andrey040606-dev/Bolashak-Engineering](https://github.com/andrey040606-dev/Bolashak-Engineering).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
