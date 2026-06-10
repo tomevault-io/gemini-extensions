@@ -7,11 +7,11 @@ Parrot is a new library to work with chatbots and agents with a very simple API
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [phenobarbital/ai-parrot](https://github.com/phenobarbital/ai-parrot).
+Original source: `CLAUDE.md` in [phenobarbital/ai-parrot](https://github.com/phenobarbital/ai-parrot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
