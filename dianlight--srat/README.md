@@ -7,11 +7,11 @@ SRAT (SambaNAS REST Administration Tool) is a new system designed to provide a s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dianlight/srat](https://github.com/dianlight/srat).
+Original source: `CLAUDE.md` in [dianlight/srat](https://github.com/dianlight/srat).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
