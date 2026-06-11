@@ -7,11 +7,11 @@ Verification tool for distributed protocols based on inductive proof decompositi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [will62794/scimitar](https://github.com/will62794/scimitar).
+Original source: `CLAUDE.md` in [will62794/scimitar](https://github.com/will62794/scimitar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
