@@ -1,31 +1,33 @@
-## crossframe-essay
+## crossframe
 
-> Use CrossFrame Essay for Chinese critical insight articles that must start with a CrossFrame structural dossier and may add concept elevation, classic/theory references, and a modern editor-comrade voice when useful.
+> Use CrossFrame for Chinese cross-scale structural diagnosis, inference, open assertions, anti-capture checks, strong judgment, low-condition actions, public institutions, long-term evolution, and concept explanation.
 
 
-When the user asks to write a 中文文章、长文、评论、思想文章、批判性洞察文章、结构洞察文章, or wants CrossFrame reasoning turned into readable prose, read `skills/crossframe-essay/SKILL.md` first.
+# CrossFrame Rule
 
-If the article also requires public evidence, organization repair, debate, reading notes, casebook extraction, or final review, read `skills/crossframe-suite/SKILL.md` first and follow `skills/crossframe-suite/references/workflow-routing-map.md`. Then return to this essay rule only when the workflow reaches `crossframe-essay`.
+Use this rule when the user asks for CrossFrame、跨尺度结构诊断、结构诊断、推演、开放断言、反俘获审查、低条件试探行动、强判断、高反身性、亲密关系、疗愈转移、公共制度、长期演化、概念解释，或复杂关系/团队/组织/制度/公共争议分析。
 
-Required flow:
+For complex tasks that require multiple CrossFrame sibling skills in sequence, use `skills/crossframe-suite/SKILL.md` first and follow `skills/crossframe-suite/references/workflow-routing-map.md`. Do not trigger all sibling skills at once.
 
-1. Read `skills/crossframe-essay/SKILL.md`.
-2. Read `skills/crossframe/SKILL.md`.
-3. Read `skills/crossframe/references/read-routing-map.md`.
-4. Read `skills/crossframe/references/integrity-check.md` to confirm the required concept cards, continuous-reading bundles, and downgrade conditions.
-5. Route the topic through the appropriate CrossFrame protocol.
-6. Decide whether to search using `skills/crossframe-essay/references/evidence-and-search-rules.md`.
-7. If the topic needs depth, concept elevation, 引经据典, theory, or literary allusion, read `skills/crossframe-essay/protocols/concept-elevation-protocol.md`, `skills/crossframe-essay/references/reference-and-allusion-rules.md`, and `skills/crossframe-essay/references/concept-reference-map.md`.
-8. Automatic article mode reads `skills/crossframe-essay/protocols/editorial-comrade-voice-protocol.md` and `skills/crossframe-essay/references/editorial-voice-principles.md` by default; only close this voice for explicit neutral report, memo, table, pure diagnosis, or academic summary requests.
-9. Output a complete visible `结构洞察底稿` before a complete long-form `文章正文`; default output mode is `full-visible-v3-longform`.
+Use `crossframe-suite` as the default CrossFrame entry. For any CrossFrame content task through Suite, finish the needed sibling skills first, then append `crossframe-essay -> crossframe-review` and use `full-visible-v3-longform`: complete visible 3.0 dossier plus complete long-form Chinese article. Only skip the article layer when the user explicitly says only/no article/short answer/table/checklist/pure diagnosis/action plan only.
 
-Do not write only the article body, and do not let the dossier replace the body. Do not shrink automatic articles into short answers. Public/current/real-world topics require sources and evidence boundaries; private relationship, philosophical, and general essay topics do not browse by default unless requested.
+For 中文文章、长文、评论、思想文章、批判性洞察文章 or structure-to-essay writing, use `skills/crossframe-essay/SKILL.md` first, then read `skills/crossframe/SKILL.md` and `skills/crossframe/references/read-routing-map.md`. Output `结构洞察底稿` before `文章正文`. If concept elevation, theory, classics, or allusion are needed, read `skills/crossframe-essay/protocols/concept-elevation-protocol.md` and keep references verifiable and tied back to reality. If the user asks for 亲切、编辑、同志口吻、报刊答复 or advice, read `skills/crossframe-essay/protocols/editorial-comrade-voice-protocol.md`; use a modern editor voice, not retro slogans or personality judgment.
 
-Use plain Chinese for ordinary readers. Keep terms like 承接, 回流, 开放断言, 责任链, 证据成本, 修复副产品 as backend mapping unless they genuinely help the article.
+For review, dialogue, casebook, public issue, organization repair, concept teaching, debate, or notebook tasks, use the matching `skills/crossframe-*/SKILL.md` sibling skill before falling back to the generic CrossFrame rule.
 
-Direct quotes must be verifiable. If unsure, use paraphrase, allusion, or thought mapping. References must return to concrete mechanism, evidence, and responsibility chain.
+Read order:
 
-Modern editor-comrade base voice is the default for automatic articles: patient, humble, serious, and decisive. It may use answer-form for reader questions, but must not become retro slogan, empty comfort, or personality judgment.
+1. `skills/crossframe/SKILL.md`
+2. `skills/crossframe/references/read-routing-map.md`
+3. The routed protocol, worksheet, concept card, and template
+4. `skills/crossframe/templates/reasoning-outline-output.md`
+5. `skills/crossframe/templates/user-facing-language.md`
+
+Output a short 推理提纲 first, then a readable Chinese answer. Do not use concept names as conclusions. If a high-risk concept carries the judgment, read the matching card under `skills/crossframe/references/concept-cards/` and use `skills/crossframe/references/integrity-check.md` as the one-stop concept fidelity and source-continuity check.
+
+Never turn CrossFrame into personality judgment, fate prediction, responsibility dilution, professional replacement, or AI compliance theater.
+
+For philosophical/meaning questions such as 第一因, 生命是什么, 虚无主义, or 存在意义, first use concept explanation, scale decomposition, and a structural open assertion. Fall back to framework boundary only when no structural question can be formed.
 
 ---
 > Source: [xi-kari/crossframe-skill](https://github.com/xi-kari/crossframe-skill) — distributed by [TomeVault](https://tomevault.io).
