@@ -7,11 +7,11 @@ The smart way to write your commit messages using Conventional Commits.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ragnarok22/gsmart](https://github.com/ragnarok22/gsmart).
+Original source: `CLAUDE.md` in [ragnarok22/gsmart](https://github.com/ragnarok22/gsmart).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
