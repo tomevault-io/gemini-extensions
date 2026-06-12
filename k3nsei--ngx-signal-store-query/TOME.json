@@ -2,9 +2,9 @@
   "name": "ngx-signal-store-query",
   "owner": "k3nsei",
   "repo": "ngx-signal-store-query",
-  "description": "",
+  "description": "Signal Store feature that bridges with Angular Query",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/k3nsei",
+  "source_url": "https://github.com/k3nsei/ngx-signal-store-query",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-10T02:51:53Z"
+  "distributed_at": "2026-06-12T18:34:38Z"
 }
