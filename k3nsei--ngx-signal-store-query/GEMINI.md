@@ -53,6 +53,5 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use the `inject()` function instead of constructor injection
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/k3nsei)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/k3nsei)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Source: [k3nsei/ngx-signal-store-query](https://github.com/k3nsei/ngx-signal-store-query) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-06-12 -->
