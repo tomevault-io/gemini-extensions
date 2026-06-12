@@ -7,13 +7,13 @@ evmc is an abbreviation of Ethereum Virtual Machine Client, and I wanted to expr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [bbaktaeho/evmc](https://github.com/bbaktaeho/evmc).
+Original source: `.cursor/rules/*.mdc` in [bbaktaeho/evmc](https://github.com/bbaktaeho/evmc).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
