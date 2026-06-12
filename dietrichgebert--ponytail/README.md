@@ -7,12 +7,12 @@ Makes your AI agent think like the laziest senior dev in the room. The best code
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail).
+Original source: `copilot-instructions.md` in [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
