@@ -4,7 +4,7 @@
   "repo": "soundome",
   "description": "Soundome is a self-hosted tool that centralizes, downloads, tags, and automatically organizes your music library from multiple sources (Spotify, SoundCloud, YouTube\u2026). It handles metadata, prevents duplicates, keeps track of original sources, and provides a web interface for manual corrections.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/barthofu/soundome",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-13T08:33:39Z"
+  "distributed_at": "2026-06-13T08:35:50Z"
 }
