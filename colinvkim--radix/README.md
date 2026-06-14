@@ -7,11 +7,11 @@ Modern, extremely fast macOS disk space analyzer.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [colinvkim/Radix](https://github.com/colinvkim/Radix).
+Original source: `AGENTS.md` in [colinvkim/Radix](https://github.com/colinvkim/Radix).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
