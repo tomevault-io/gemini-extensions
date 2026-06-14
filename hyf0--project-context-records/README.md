@@ -7,11 +7,11 @@ A context-engineering methodology: keep a durable, repo-versioned archive of a p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hyf0/project-context-records](https://github.com/hyf0/project-context-records).
+Original source: `CLAUDE.md` in [hyf0/project-context-records](https://github.com/hyf0/project-context-records).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
