@@ -7,11 +7,11 @@ Runtime failure resolution for coding agents. Hooks into Claude Code and Codex. 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai).
+Original source: `CLAUDE.md` in [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
