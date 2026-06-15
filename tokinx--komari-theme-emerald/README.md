@@ -7,11 +7,11 @@ Komari Theme based on Vue 3 + Vite + Shadcn/UI + TailwindCSS-V4
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Tokinx/komari-theme-emerald](https://github.com/Tokinx/komari-theme-emerald).
+Original source: `AGENTS.md` in [Tokinx/komari-theme-emerald](https://github.com/Tokinx/komari-theme-emerald).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
