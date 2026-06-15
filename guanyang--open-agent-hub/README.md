@@ -7,11 +7,11 @@ A lightweight, zero-dependency CLI tool to manage and activate capabilities for 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [guanyang/open-agent-hub](https://github.com/guanyang/open-agent-hub).
+Original source: `CLAUDE.md` in [guanyang/open-agent-hub](https://github.com/guanyang/open-agent-hub).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
