@@ -7,11 +7,11 @@ Self-hosted native-Rust runtime for real-time voice agents. Own the stack: one b
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AreevAI/flowcat](https://github.com/AreevAI/flowcat).
+Original source: `CLAUDE.md` in [AreevAI/flowcat](https://github.com/AreevAI/flowcat).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
