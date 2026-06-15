@@ -7,11 +7,11 @@ Public Claude Code skills for Personal Corp, product work, AI operations, and ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [serejaris/personal-corp-skills](https://github.com/serejaris/personal-corp-skills).
+Original source: `AGENTS.md` in [serejaris/personal-corp-skills](https://github.com/serejaris/personal-corp-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
