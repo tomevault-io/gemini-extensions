@@ -7,11 +7,11 @@ Archive a lifetime of email and chat. Offline search, analytics, and AI query ov
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kenn-io/msgvault](https://github.com/kenn-io/msgvault).
+Original source: `CLAUDE.md` in [kenn-io/msgvault](https://github.com/kenn-io/msgvault).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
