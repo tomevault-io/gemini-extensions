@@ -4,7 +4,7 @@
   "repo": "apex",
   "description": "APEX turns Azure platform engineering requirements into verified, deploy-ready IaC \u2014 powered by GitHub Copilot agents, real-time pricing, and built-in compliance.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/jonathan-vella/apex",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-15T17:31:39Z"
+  "distributed_at": "2026-06-15T17:33:37Z"
 }
