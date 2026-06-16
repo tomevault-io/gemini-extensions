@@ -7,11 +7,11 @@ Runtime enforcement boundary for AI agents: a local sidecar that gates every out
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Firma-AI/openfirma](https://github.com/Firma-AI/openfirma).
+Original source: `CLAUDE.md` in [Firma-AI/openfirma](https://github.com/Firma-AI/openfirma).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
