@@ -4,7 +4,7 @@
   "repo": "TCGEngine",
   "description": "Generic card game simulator engine",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/TCG-Engine/TCGEngine",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-16T04:31:31Z"
+  "distributed_at": "2026-06-16T07:04:25Z"
 }
