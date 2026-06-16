@@ -7,11 +7,11 @@ Live Claude plan usage and extra-usage balance, from the terminal
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [m13v/claude-meter](https://github.com/m13v/claude-meter).
+Original source: `CLAUDE.md` in [m13v/claude-meter](https://github.com/m13v/claude-meter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
