@@ -4,7 +4,7 @@
   "repo": "Build26-DEM346-whats-new-in-windows-subsystem-for-linux",
   "description": "Demo resources covering the latest WSL features including WSL Containers \u2014 packaging Linux apps as Windows executables, GPU-accelerated ML workloads, and containerized web apps. From Microsoft Build 2026.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/Build26-DEM346-whats-new-in-windows-subsystem-for-linux",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-16T00:41:45Z"
+  "distributed_at": "2026-06-16T01:32:03Z"
 }
