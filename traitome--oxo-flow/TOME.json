@@ -4,7 +4,7 @@
   "repo": "oxo-flow",
   "description": "(Experimental) Yet Another bioinformatics workflow engine https://traitome.github.io/oxo-flow/documentation/",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Traitome/oxo-flow",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-16T17:01:30Z"
+  "distributed_at": "2026-06-16T20:53:53Z"
 }
