@@ -2,16 +2,15 @@
 
 > Sourced from [ComradeSwarog/tg-ws-proxy-android](https://github.com/ComradeSwarog/tg-ws-proxy-android) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-tg-ws-proxy-android freedom of communication
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ComradeSwarog/tg-ws-proxy-android](https://github.com/ComradeSwarog/tg-ws-proxy-android).
+Original source: `` in [ComradeSwarog/tg-ws-proxy-android](https://github.com/ComradeSwarog/tg-ws-proxy-android).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
