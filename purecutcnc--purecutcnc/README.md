@@ -7,11 +7,11 @@ PureCutCNC is a 2.5D CAD / CAM workspace for designing parts, defining machining
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PureCutCNC/purecutcnc](https://github.com/PureCutCNC/purecutcnc).
+Original source: `CLAUDE.md` in [PureCutCNC/purecutcnc](https://github.com/PureCutCNC/purecutcnc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
