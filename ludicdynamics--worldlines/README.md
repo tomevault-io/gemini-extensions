@@ -7,11 +7,11 @@ Agents for Role Play. Agents for Game. Agents as a Game. An orchestrator-agents 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines).
+Original source: `CLAUDE.md` in [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
