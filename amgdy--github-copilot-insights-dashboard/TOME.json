@@ -4,7 +4,7 @@
   "repo": "github-copilot-insights-dashboard",
   "description": "A centralized analytics dashboard for enterprise GitHub Copilot adoption. Visualize usage metrics, license allocation, premium request consumption, and AI model activity \u2014 all sourced from the GitHub Copilot Usage Metrics API.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/amgdy/github-copilot-insights-dashboard",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-16T16:46:16Z"
+  "distributed_at": "2026-06-16T17:15:46Z"
 }
