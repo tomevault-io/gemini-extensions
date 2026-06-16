@@ -7,11 +7,11 @@ An Agent-native Obsidian wiki + CLAUDE.md skeleton that lets Agent know your pro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [HaowenHou/AgenticResearchWiki](https://github.com/HaowenHou/AgenticResearchWiki).
+Original source: `CLAUDE.md` in [HaowenHou/AgenticResearchWiki](https://github.com/HaowenHou/AgenticResearchWiki).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
