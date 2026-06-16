@@ -7,12 +7,12 @@ Resources covering the latest tools and methods for developing on and for Window
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/Build26-BRK261-build-and-ship-faster-with-a-developer-optimized-experience-on-windows](https://github.com/microsoft/Build26-BRK261-build-and-ship-faster-with-a-developer-optimized-experience-on-windows).
+Original source: `AGENTS.md` in [microsoft/Build26-BRK261-build-and-ship-faster-with-a-developer-optimized-experience-on-windows](https://github.com/microsoft/Build26-BRK261-build-and-ship-faster-with-a-developer-optimized-experience-on-windows).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
