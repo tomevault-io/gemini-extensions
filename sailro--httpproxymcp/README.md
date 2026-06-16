@@ -7,12 +7,12 @@ An HTTP/HTTPS MITM proxy with full traffic capture, exposed as an MCP server so 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [sailro/HttpProxyMcp](https://github.com/sailro/HttpProxyMcp).
+Original source: `AGENTS.md` in [sailro/HttpProxyMcp](https://github.com/sailro/HttpProxyMcp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
