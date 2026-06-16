@@ -7,11 +7,11 @@ How to use agent skills for fullstack development: design, planning, development
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kaustubhhiware/agent-skills-fullstack-development](https://github.com/kaustubhhiware/agent-skills-fullstack-development).
+Original source: `CLAUDE.md` in [kaustubhhiware/agent-skills-fullstack-development](https://github.com/kaustubhhiware/agent-skills-fullstack-development).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
