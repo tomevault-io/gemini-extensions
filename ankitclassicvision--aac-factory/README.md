@@ -7,11 +7,11 @@ Turn a one-sentence idea into a certified AI Agent Workflow blueprint: interview
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AnkitClassicVision/aac-factory](https://github.com/AnkitClassicVision/aac-factory).
+Original source: `CLAUDE.md` in [AnkitClassicVision/aac-factory](https://github.com/AnkitClassicVision/aac-factory).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
