@@ -7,11 +7,11 @@ Token-efficient CLI for Atlassian Server/DC (Jira, Confluence, Bitbucket) — dr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [eunsanMountain/atlassian-skills](https://github.com/eunsanMountain/atlassian-skills).
+Original source: `CLAUDE.md` in [eunsanMountain/atlassian-skills](https://github.com/eunsanMountain/atlassian-skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
