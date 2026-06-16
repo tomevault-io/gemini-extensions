@@ -7,12 +7,12 @@ Microsoft Build 2026 · Build smarter AI systems in Microsoft Foundry as models 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/Build26-BRK230-build-smarter-ai-systems-in-foundry-as-models-and-costs-evolve](https://github.com/microsoft/Build26-BRK230-build-smarter-ai-systems-in-foundry-as-models-and-costs-evolve).
+Original source: `AGENTS.md` in [microsoft/Build26-BRK230-build-smarter-ai-systems-in-foundry-as-models-and-costs-evolve](https://github.com/microsoft/Build26-BRK230-build-smarter-ai-systems-in-foundry-as-models-and-costs-evolve).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
