@@ -7,11 +7,11 @@ Lean 4 attempt at Kevin Buzzard's Jacobian Challenge (Apr 2026)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mrdouglasny/jacobian-challenge](https://github.com/mrdouglasny/jacobian-challenge).
+Original source: `CLAUDE.md` in [mrdouglasny/jacobian-challenge](https://github.com/mrdouglasny/jacobian-challenge).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
