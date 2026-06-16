@@ -7,11 +7,11 @@ Programmatically drive your real Compose UI on the desktop.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rock3r/spectre](https://github.com/rock3r/spectre).
+Original source: `AGENTS.md` in [rock3r/spectre](https://github.com/rock3r/spectre).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
