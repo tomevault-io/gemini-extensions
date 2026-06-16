@@ -1,6 +1,7 @@
-## clinical-insight-engine
+## agent
 
 > > Finance features: **Enabled**
+
 
 # Jetro Agent Context
 
