@@ -7,11 +7,11 @@ A focus companion that catches you drifting
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [strjonas/AccountyCat](https://github.com/strjonas/AccountyCat).
+Original source: `CLAUDE.md` in [strjonas/AccountyCat](https://github.com/strjonas/AccountyCat).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
