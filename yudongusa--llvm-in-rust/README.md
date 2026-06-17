@@ -7,11 +7,11 @@ Rust support of LLVM
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yudongusa/LLVM-in-Rust](https://github.com/yudongusa/LLVM-in-Rust).
+Original source: `CLAUDE.md` in [yudongusa/LLVM-in-Rust](https://github.com/yudongusa/LLVM-in-Rust).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
