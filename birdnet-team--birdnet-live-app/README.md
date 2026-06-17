@@ -7,12 +7,12 @@ Professional bioacoustics in your pocket. Built for field researchers, conservat
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [birdnet-team/birdnet-live-app](https://github.com/birdnet-team/birdnet-live-app).
+Original source: `AGENTS.md` in [birdnet-team/birdnet-live-app](https://github.com/birdnet-team/birdnet-live-app).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
