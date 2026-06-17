@@ -7,11 +7,11 @@ A native SCUMM v5 interpreter for The Secret of Monkey Island on the Super Ninte
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [astrobleem/SNES-SuperMonkeyIsland](https://github.com/astrobleem/SNES-SuperMonkeyIsland).
+Original source: `CLAUDE.md` in [astrobleem/SNES-SuperMonkeyIsland](https://github.com/astrobleem/SNES-SuperMonkeyIsland).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
