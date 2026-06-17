@@ -7,11 +7,11 @@ An app to build and manage a capsule wardrobe
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kiaquila/capsule-zero](https://github.com/kiaquila/capsule-zero).
+Original source: `CLAUDE.md` in [kiaquila/capsule-zero](https://github.com/kiaquila/capsule-zero).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
