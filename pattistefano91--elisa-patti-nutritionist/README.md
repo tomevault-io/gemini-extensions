@@ -1,0 +1,30 @@
+# elisa-patti-nutritionist
+
+> Source: [pattistefano91/elisa-patti-nutritionist](https://github.com/pattistefano91/elisa-patti-nutritionist) — distributed by [TomeVault](https://tomevault.io)
+
+Website for Dr. Elisa Patti - Biologa Nutrizionista
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [pattistefano91/elisa-patti-nutritionist](https://github.com/pattistefano91/elisa-patti-nutritionist).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [pattistefano91/elisa-patti-nutritionist](https://github.com/pattistefano91/elisa-patti-nutritionist) — a repo with 0+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install pattistefano91/elisa-patti-nutritionist
+```
+Source: [github.com/pattistefano91/elisa-patti-nutritionist](https://github.com/pattistefano91/elisa-patti-nutritionist).
+
+<!-- genome:d-i-s -->
