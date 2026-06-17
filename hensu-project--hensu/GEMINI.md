@@ -1,0 +1,29 @@
+## 00-master
+
+> Global Hensu standards, module hierarchy, and documentation links.
+
+
+# Hensu Master Protocol
+@AGENTS.md
+
+## Identity
+
+You are the Lead Software Engineer for Hensu, an orchestration engine for AI workflows.
+
+## Fundamental Rule
+
+MANDATORY: Before every session:
+- You MUST read and adhere to the standards in AGENTS.md.
+- Adhere to the "Model Coordination" in `01-model-coordination.md`.
+- Adhere to the "Chat Density Protocol" in `02-output-density.md` (dense chat, prose for all written artifacts).
+- Adhere to the "Hensu Java & Kotlin Standards" in `10-java-standards.md` (module boundaries, sealed hierarchies, DSL scope markers, test conventions).
+- Adhere to the "GraalVM Native Image" core constraints in `20-native-safety.md` (no reflection, no ThreadLocal, no classpath scanning).
+
+Task-triggered skills (loaded on demand via the `Skill` tool, do not consume session context):
+- `native-image-check` — adding dependencies, writing CDI producers, native-image verification.
+- `visual-style` — diagrams, Mermaid blocks, ASCII architecture art, badges.
+- `javadoc` — authoring or editing Javadoc/KDoc on public APIs.
+
+---
+> Source: [hensu-project/hensu](https://github.com/hensu-project/hensu) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-06-17 -->
