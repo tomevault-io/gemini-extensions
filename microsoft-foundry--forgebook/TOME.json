@@ -4,7 +4,7 @@
   "repo": "forgebook",
   "description": "Recipes for AI alchemists forging with Microsoft Foundry",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft-foundry/forgebook",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T00:48:19Z"
+  "distributed_at": "2026-06-17T12:46:56Z"
 }
