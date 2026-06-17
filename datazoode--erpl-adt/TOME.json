@@ -4,7 +4,7 @@
   "repo": "erpl-adt",
   "description": "CLI and MCP server for the SAP ADT REST API \u2014 search, read/write ABAP source, run tests, manage transports. No Eclipse, no RFC SDK, no JVM.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/DataZooDE/erpl-adt",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T07:20:51Z"
+  "distributed_at": "2026-06-17T11:32:50Z"
 }
