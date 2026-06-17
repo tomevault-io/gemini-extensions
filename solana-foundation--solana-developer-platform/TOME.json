@@ -4,7 +4,7 @@
   "repo": "solana-developer-platform",
   "description": "Solana Developer Platform API and Dashboard",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/solana-foundation/solana-developer-platform",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T00:38:56Z"
+  "distributed_at": "2026-06-17T09:27:51Z"
 }
