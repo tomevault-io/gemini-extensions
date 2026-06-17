@@ -7,11 +7,11 @@ A free and open source alternative to WisprFlow. Write at the same speed as you 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [MusicMaster4/OpenFlow](https://github.com/MusicMaster4/OpenFlow).
+Original source: `CLAUDE.md` in [MusicMaster4/OpenFlow](https://github.com/MusicMaster4/OpenFlow).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
