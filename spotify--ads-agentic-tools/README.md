@@ -7,11 +7,11 @@ A Claude Code plugin that lets you manage Spotify advertising campaigns through 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [spotify/ads-agentic-tools](https://github.com/spotify/ads-agentic-tools).
+Original source: `CLAUDE.md` in [spotify/ads-agentic-tools](https://github.com/spotify/ads-agentic-tools).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
