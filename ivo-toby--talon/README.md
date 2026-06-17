@@ -7,11 +7,11 @@ Talon is a secure, flexible, self-hosted autonomous agent daemon. Connect it to 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ivo-toby/talon](https://github.com/ivo-toby/talon).
+Original source: `CLAUDE.md` in [ivo-toby/talon](https://github.com/ivo-toby/talon).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
