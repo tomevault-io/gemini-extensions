@@ -7,11 +7,11 @@ Context engineering patterns and templates for AI coding agents. CLAUDE.md / AGE
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [fending/context-engineering](https://github.com/fending/context-engineering).
+Original source: `CLAUDE.md` in [fending/context-engineering](https://github.com/fending/context-engineering).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
