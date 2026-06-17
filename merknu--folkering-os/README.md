@@ -7,13 +7,13 @@ AI-native bare-metal OS in Rust — on-device LLM (Qwen3), WASM JIT code gen (Ge
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [merknu/folkering-os](https://github.com/merknu/folkering-os).
+Original source: `copilot-instructions.md` in [merknu/folkering-os](https://github.com/merknu/folkering-os).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
