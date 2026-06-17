@@ -7,11 +7,11 @@ Open-source DayZ modding wiki: Enforce Script language (13 chapters), GUI/.layou
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [StarDZ-Team/DayZ-Modding-Wiki](https://github.com/StarDZ-Team/DayZ-Modding-Wiki).
+Original source: `CLAUDE.md` in [StarDZ-Team/DayZ-Modding-Wiki](https://github.com/StarDZ-Team/DayZ-Modding-Wiki).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
