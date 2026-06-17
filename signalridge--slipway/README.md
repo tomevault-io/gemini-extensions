@@ -7,11 +7,11 @@ Spec-driven development with full lifecycle accountability for Claude, Codex, Cu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [signalridge/slipway](https://github.com/signalridge/slipway).
+Original source: `CLAUDE.md` in [signalridge/slipway](https://github.com/signalridge/slipway).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
