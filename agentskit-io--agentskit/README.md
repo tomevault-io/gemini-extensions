@@ -7,13 +7,13 @@ The complete toolkit for building AI agents in JavaScript. Lightweight core, Rea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [AgentsKit-io/agentskit](https://github.com/AgentsKit-io/agentskit).
+Original source: `AGENTS.md` in [AgentsKit-io/agentskit](https://github.com/AgentsKit-io/agentskit).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
