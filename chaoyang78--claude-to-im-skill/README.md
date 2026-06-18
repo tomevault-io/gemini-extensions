@@ -5,10 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ChaoYang78/Claude-to-IM-skill](https://github.com/ChaoYang78/Claude-to-IM-skill).
+Original source: `` in [ChaoYang78/Claude-to-IM-skill](https://github.com/ChaoYang78/Claude-to-IM-skill).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
