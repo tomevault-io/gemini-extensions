@@ -7,11 +7,11 @@ My Capstone System Project for BHCIS using Laravel as main framework
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Charlz-code/bhcis-laravel](https://github.com/Charlz-code/bhcis-laravel).
+Original source: `CLAUDE.md` in [Charlz-code/bhcis-laravel](https://github.com/Charlz-code/bhcis-laravel).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
