@@ -7,19 +7,15 @@ My forkable Claude Code setup with sync feature
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [petekp/claude-code-setup](https://github.com/petekp/claude-code-setup).
+Original source: `AGENTS.md` in [petekp/claude-code-setup](https://github.com/petekp/claude-code-setup).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
-
-## Bundled Skills (1)
-
-- [deep-research](https://github.com/petekp/claude-code-setup/tree/main/skills/deep-research)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/petekp/claude-code-setup](https://github.com/petekp/claude-code-setup)
 
