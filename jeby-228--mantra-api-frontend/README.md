@@ -7,13 +7,13 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [jeby-228/mantra_API_frontend](https://github.com/jeby-228/mantra_API_frontend).
+Original source: `AGENTS.md` in [jeby-228/mantra_API_frontend](https://github.com/jeby-228/mantra_API_frontend).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
