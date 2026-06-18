@@ -7,11 +7,11 @@ Sync MCP server configs from Claude Code to Gemini CLI, Codex CLI, OpenCode, Kir
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Leoyang183/sync-agents-settings](https://github.com/Leoyang183/sync-agents-settings).
+Original source: `CLAUDE.md` in [Leoyang183/sync-agents-settings](https://github.com/Leoyang183/sync-agents-settings).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
