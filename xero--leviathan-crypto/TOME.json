@@ -4,7 +4,7 @@
   "repo": "leviathan-crypto",
   "description": "Post-quantum WASM cryptography. Authenticated encryption, signatures with key agreement, transparency logs, and ratcheting built on constant-time bitsliced ciphers (Serpent, XChaCha20, AES), post-quantum schemes (ML-KEM, ML-DSA, SLH-DSA), BLAKE3 and SHA-family hashing, and the Fortuna CSPRNG. Zero dependencies, tree-shakeable, side-effect-free.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/xero/leviathan-crypto",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T13:10:57Z"
+  "distributed_at": "2026-06-18T06:53:01Z"
 }
