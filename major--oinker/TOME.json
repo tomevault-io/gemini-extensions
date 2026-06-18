@@ -4,7 +4,7 @@
   "repo": "oinker",
   "description": "\ud83d\udc3d Async Python client for the Porkbun API - oink your way to DNS management",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/major/oinker",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T20:50:08Z"
+  "distributed_at": "2026-06-18T20:40:00Z"
 }
