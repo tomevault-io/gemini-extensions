@@ -7,11 +7,11 @@ Next.js 16 SaaS boilerplate — auth, payments, email, blog, ready to clone and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [rechedev9/nextrespawn](https://github.com/rechedev9/nextrespawn).
+Original source: `CLAUDE.md` in [rechedev9/nextrespawn](https://github.com/rechedev9/nextrespawn).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
