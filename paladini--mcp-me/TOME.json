@@ -4,7 +4,7 @@
   "repo": "mcp-me",
   "description": "Your AI assistants don't know who you are. mcp-me fixes that: a local MCP server that gives any AI a full picture of who you are",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/paladini/mcp-me",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T13:08:05Z"
+  "distributed_at": "2026-06-18T05:18:41Z"
 }
