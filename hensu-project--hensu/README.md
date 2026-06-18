@@ -7,13 +7,13 @@ Infrastructure-as-code for AI agent workflows
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [hensu-project/hensu](https://github.com/hensu-project/hensu).
+Original source: `AGENTS.md` in [hensu-project/hensu](https://github.com/hensu-project/hensu).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
