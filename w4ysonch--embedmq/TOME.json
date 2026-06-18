@@ -4,7 +4,7 @@
   "repo": "embedmq",
   "description": "A minimalist, zero-dependency inter-thread messaging API for ANY embedded project | \u6781\u7b80\u3001\u96f6\u4f9d\u8d56\uff0c\u9002\u7528\u4e8e\u4efb\u4f55\u5d4c\u5165\u5f0f\u9879\u76ee\u7684\u8de8\u7ebf\u7a0b\u901a\u4fe1API",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/w4ysonch/embedmq",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T19:10:33Z"
+  "distributed_at": "2026-06-18T00:47:22Z"
 }
