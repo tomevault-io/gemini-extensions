@@ -7,11 +7,11 @@ CJK-adapted firmware for the Xteink X4 e-paper display reader. Xteink X4 电子�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aBER0724/crosspoint-reader-cjk](https://github.com/aBER0724/crosspoint-reader-cjk).
+Original source: `CLAUDE.md` in [aBER0724/crosspoint-reader-cjk](https://github.com/aBER0724/crosspoint-reader-cjk).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
