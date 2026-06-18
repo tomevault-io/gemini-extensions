@@ -7,13 +7,13 @@ Exercise repo for the EXACT Coding workshop -- Example-guided, AI-Collaborative 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [marcoemrich/EXACT-Coding-Exercises](https://github.com/marcoemrich/EXACT-Coding-Exercises).
+Original source: `AGENTS.md` in [marcoemrich/EXACT-Coding-Exercises](https://github.com/marcoemrich/EXACT-Coding-Exercises).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
