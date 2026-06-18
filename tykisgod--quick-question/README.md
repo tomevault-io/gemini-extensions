@@ -7,11 +7,11 @@ The control plane for game-dev agents — close the loop with verified compile, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tykisgod/quick-question](https://github.com/tykisgod/quick-question).
+Original source: `CLAUDE.md` in [tykisgod/quick-question](https://github.com/tykisgod/quick-question).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
