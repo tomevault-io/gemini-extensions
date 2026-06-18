@@ -7,11 +7,11 @@ ArkTS Language Support for Visual Studio Code
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FadingLight9291117/vscode-arkts](https://github.com/FadingLight9291117/vscode-arkts).
+Original source: `CLAUDE.md` in [FadingLight9291117/vscode-arkts](https://github.com/FadingLight9291117/vscode-arkts).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
