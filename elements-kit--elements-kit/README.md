@@ -7,11 +7,11 @@ A set of universal reactive primitives for building web UI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [elements-kit/elements-kit](https://github.com/elements-kit/elements-kit).
+Original source: `CLAUDE.md` in [elements-kit/elements-kit](https://github.com/elements-kit/elements-kit).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
