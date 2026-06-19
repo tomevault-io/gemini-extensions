@@ -2,16 +2,15 @@
 
 > Source: [24601/surreal-skills](https://github.com/24601/surreal-skills) — distributed by [TomeVault](https://tomevault.io)
 
-Expert SurrealDB 3 skill for AI coding agents (Claude, Codex, Amp, Gemini CLI, Copilot, Cursor). SurrealQL, multi-model data modeling, graph queries, vector search, WASM extensions, and full ecosystem.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [24601/surreal-skills](https://github.com/24601/surreal-skills).
+Original source: `` in [24601/surreal-skills](https://github.com/24601/surreal-skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
