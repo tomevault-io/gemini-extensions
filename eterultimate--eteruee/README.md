@@ -7,11 +7,11 @@ EterUee is an Android APP that supports for multiple LLM providers.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [EterUltimate/EterUee](https://github.com/EterUltimate/EterUee).
+Original source: `CLAUDE.md` in [EterUltimate/EterUee](https://github.com/EterUltimate/EterUee).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
