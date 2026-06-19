@@ -4,7 +4,7 @@
   "repo": "openpost",
   "description": "Lightweight self-hosted open source social media scheduler",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/rodrgds/openpost",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-19T22:39:48Z"
+  "distributed_at": "2026-06-19T23:19:05Z"
 }
