@@ -7,12 +7,12 @@ Resources for connecting agents to the right tools, APIs, and documents with con
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/Build26-BRK242-turn-your-agents-into-action-connect-tools-apis-and-documents](https://github.com/microsoft/Build26-BRK242-turn-your-agents-into-action-connect-tools-apis-and-documents).
+Original source: `AGENTS.md` in [microsoft/Build26-BRK242-turn-your-agents-into-action-connect-tools-apis-and-documents](https://github.com/microsoft/Build26-BRK242-turn-your-agents-into-action-connect-tools-apis-and-documents).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
