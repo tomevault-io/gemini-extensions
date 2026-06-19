@@ -5,13 +5,13 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Adutchguy/roop-unleashed-wip](https://github.com/Adutchguy/roop-unleashed-wip).
+Original source: `AGENTS.md` in [Adutchguy/roop-unleashed-wip](https://github.com/Adutchguy/roop-unleashed-wip).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
