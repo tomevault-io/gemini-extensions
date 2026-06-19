@@ -7,11 +7,11 @@ Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manif
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [raintree-technology/agent-starter](https://github.com/raintree-technology/agent-starter).
+Original source: `CLAUDE.md` in [raintree-technology/agent-starter](https://github.com/raintree-technology/agent-starter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
