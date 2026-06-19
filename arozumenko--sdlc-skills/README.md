@@ -1,0 +1,30 @@
+# sdlc-skills
+
+> Source: [arozumenko/sdlc-skills](https://github.com/arozumenko/sdlc-skills) — distributed by [TomeVault](https://tomevault.io)
+
+SDLC agents and skills for Claude Code, Cursor, Windsurf, Copilot
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [arozumenko/sdlc-skills](https://github.com/arozumenko/sdlc-skills).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [arozumenko/sdlc-skills](https://github.com/arozumenko/sdlc-skills) — a repo with 9+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install arozumenko/sdlc-skills
+```
+Source: [github.com/arozumenko/sdlc-skills](https://github.com/arozumenko/sdlc-skills).
+
+<!-- genome:d-i-s -->
