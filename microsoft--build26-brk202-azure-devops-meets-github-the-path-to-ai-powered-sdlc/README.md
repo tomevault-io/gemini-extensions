@@ -7,12 +7,12 @@ Demo videos and resources for integrating Azure DevOps with GitHub to enable Age
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc](https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc).
+Original source: `AGENTS.md` in [microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc](https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
