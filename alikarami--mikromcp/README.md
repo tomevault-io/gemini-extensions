@@ -7,11 +7,11 @@ Production-grade MCP server for MikroTik RouterOS with secure AI-native network 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP).
+Original source: `CLAUDE.md` in [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
