@@ -7,11 +7,11 @@ The 'git init' for AI context. Bootstrap your project's AI memory and rules in s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kadiresen/context-bank](https://github.com/kadiresen/context-bank).
+Original source: `CLAUDE.md` in [kadiresen/context-bank](https://github.com/kadiresen/context-bank).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
