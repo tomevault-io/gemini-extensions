@@ -2,9 +2,9 @@
   "name": "stock-blocks",
   "owner": "sandypockets",
   "repo": "stock-blocks",
-  "description": "",
+  "description": "Display stock charts (line and candle) and tables (with sparklines) in Obsidian",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/sandypockets",
+  "source_url": "https://github.com/sandypockets/stock-blocks",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-15T02:50:51Z"
+  "distributed_at": "2026-06-19T02:38:39Z"
 }
