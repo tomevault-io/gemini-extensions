@@ -7,11 +7,11 @@ A port of knexjs library for dart backends
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kartikey321/knex-dart](https://github.com/kartikey321/knex-dart).
+Original source: `CLAUDE.md` in [kartikey321/knex-dart](https://github.com/kartikey321/knex-dart).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
