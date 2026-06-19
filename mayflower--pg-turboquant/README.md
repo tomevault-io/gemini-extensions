@@ -7,11 +7,11 @@ PostgreSQL TurboQuant Index for PGVector
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [mayflower/pg_turboquant](https://github.com/mayflower/pg_turboquant).
+Original source: `AGENTS.md` in [mayflower/pg_turboquant](https://github.com/mayflower/pg_turboquant).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
