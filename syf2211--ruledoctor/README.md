@@ -7,11 +7,11 @@ Agent Skill: read CLAUDE.md & project rules before coding. Optional CLI audit + 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [syf2211/ruledoctor](https://github.com/syf2211/ruledoctor).
+Original source: `CLAUDE.md` in [syf2211/ruledoctor](https://github.com/syf2211/ruledoctor).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
