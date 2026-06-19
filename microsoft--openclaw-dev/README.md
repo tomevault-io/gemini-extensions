@@ -7,12 +7,12 @@ An OpenClaw agent hosted in the cloud for development, testing and single tenant
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/openclaw-dev](https://github.com/microsoft/openclaw-dev).
+Original source: `AGENTS.md` in [microsoft/openclaw-dev](https://github.com/microsoft/openclaw-dev).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
