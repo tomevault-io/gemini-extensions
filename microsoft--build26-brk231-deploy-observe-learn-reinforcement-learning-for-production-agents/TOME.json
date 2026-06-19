@@ -4,7 +4,7 @@
   "repo": "Build26-BRK231-deploy-observe-learn-reinforcement-learning-for-production-agents",
   "description": "Sample code for improving multi-tool AI agents using SFT distillation and reinforcement fine-tuning \u2014 Qwen3-32B RFT achieving 86.9% quality on a retail customer service agent. From Microsoft Build 2026.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/Build26-BRK231-deploy-observe-learn-reinforcement-learning-for-production-agents",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-19T12:35:47Z"
+  "distributed_at": "2026-06-19T12:41:47Z"
 }
