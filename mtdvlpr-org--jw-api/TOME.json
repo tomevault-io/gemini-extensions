@@ -4,7 +4,7 @@
   "repo": "jw-api",
   "description": "An API for JW related data.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mtdvlpr-org/jw-api",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-18T00:47:48Z"
+  "distributed_at": "2026-06-19T00:52:50Z"
 }
