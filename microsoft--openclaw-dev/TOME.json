@@ -4,7 +4,7 @@
   "repo": "openclaw-dev",
   "description": "An OpenClaw agent hosted in the cloud for development, testing and single tenant use cases. ",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/openclaw-dev",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-19T00:34:19Z"
+  "distributed_at": "2026-06-19T05:15:30Z"
 }
