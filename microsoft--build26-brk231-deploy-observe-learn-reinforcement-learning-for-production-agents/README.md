@@ -7,12 +7,12 @@ Sample code for improving multi-tool AI agents using SFT distillation and reinfo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/Build26-BRK231-deploy-observe-learn-reinforcement-learning-for-production-agents](https://github.com/microsoft/Build26-BRK231-deploy-observe-learn-reinforcement-learning-for-production-agents).
+Original source: `AGENTS.md` in [microsoft/Build26-BRK231-deploy-observe-learn-reinforcement-learning-for-production-agents](https://github.com/microsoft/Build26-BRK231-deploy-observe-learn-reinforcement-learning-for-production-agents).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
