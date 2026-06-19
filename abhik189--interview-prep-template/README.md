@@ -7,11 +7,11 @@ A compounding, AI-agent-maintained interview-prep wiki. Three-layer context-engi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AbhiK189/interview-prep-template](https://github.com/AbhiK189/interview-prep-template).
+Original source: `CLAUDE.md` in [AbhiK189/interview-prep-template](https://github.com/AbhiK189/interview-prep-template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
