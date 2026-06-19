@@ -7,11 +7,11 @@ A clone-and-go workspace that gives your AI coding agent a memory — semantic r
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cyb213/Lab-Zero](https://github.com/cyb213/Lab-Zero).
+Original source: `CLAUDE.md` in [cyb213/Lab-Zero](https://github.com/cyb213/Lab-Zero).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
