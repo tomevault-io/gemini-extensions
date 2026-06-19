@@ -7,11 +7,11 @@ Agentic-friendly CLI generator for APIs: turn Swagger, OpenAPI, and google.api.h
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lathe-cli/lathe](https://github.com/lathe-cli/lathe).
+Original source: `CLAUDE.md` in [lathe-cli/lathe](https://github.com/lathe-cli/lathe).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
