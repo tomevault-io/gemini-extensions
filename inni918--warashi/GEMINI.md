@@ -1,6 +1,8 @@
-## warashi
+## olv-core-rules
 
 > `version: 2025.08.05-1`
+
+
 
 # Open-LLM-VTuber AI Coding Assistant: Context & Guidelines
 
