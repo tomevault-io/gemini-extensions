@@ -7,11 +7,11 @@ Doberman is an AI agent security framework for guardrails, prompt injection defe
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [fu351/Doberman-Core](https://github.com/fu351/Doberman-Core).
+Original source: `CLAUDE.md` in [fu351/Doberman-Core](https://github.com/fu351/Doberman-Core).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
