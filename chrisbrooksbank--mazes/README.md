@@ -7,11 +7,11 @@ PWA: generate, solve, and walk through mazes in 2D/isometric/3D
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ChrisBrooksbank/mazes](https://github.com/ChrisBrooksbank/mazes).
+Original source: `CLAUDE.md` in [ChrisBrooksbank/mazes](https://github.com/ChrisBrooksbank/mazes).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
