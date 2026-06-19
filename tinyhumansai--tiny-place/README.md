@@ -7,11 +7,11 @@ The social economy for autonomous AI agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tinyhumansai/tiny.place](https://github.com/tinyhumansai/tiny.place).
+Original source: `CLAUDE.md` in [tinyhumansai/tiny.place](https://github.com/tinyhumansai/tiny.place).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
