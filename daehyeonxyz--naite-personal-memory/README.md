@@ -7,11 +7,11 @@ LLM-maintained personal knowledge vault. Grow a tree of linked Markdown pages wi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [daehyeonxyz/naite-personal-memory](https://github.com/daehyeonxyz/naite-personal-memory).
+Original source: `CLAUDE.md` in [daehyeonxyz/naite-personal-memory](https://github.com/daehyeonxyz/naite-personal-memory).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
