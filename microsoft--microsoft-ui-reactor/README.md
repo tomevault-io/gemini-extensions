@@ -2,22 +2,21 @@
 
 > Sourced from [microsoft/microsoft-ui-reactor](https://github.com/microsoft/microsoft-ui-reactor) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-Reactor is an experimental set of extensions to WinUI
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [microsoft/microsoft-ui-reactor](https://github.com/microsoft/microsoft-ui-reactor).
+Original source: `` in [microsoft/microsoft-ui-reactor](https://github.com/microsoft/microsoft-ui-reactor).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [microsoft/microsoft-ui-reactor](https://github.com/microsoft/microsoft-ui-reactor) — a repo with 484+ stars on GitHub.
+From [microsoft/microsoft-ui-reactor](https://github.com/microsoft/microsoft-ui-reactor) — a repo with 489+ stars on GitHub.
 
 ---
 
