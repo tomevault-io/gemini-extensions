@@ -2,15 +2,14 @@
 
 > Tome by [lucasygu](https://github.com/lucasygu/redbook) — distributed by [TomeVault](https://tomevault.io)
 
-小红书 CLI — 搜索、分析、自动化 Xiaohongshu content. Built for AI agents.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [lucasygu/redbook](https://github.com/lucasygu/redbook).
+Original source: `` in [lucasygu/redbook](https://github.com/lucasygu/redbook).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
