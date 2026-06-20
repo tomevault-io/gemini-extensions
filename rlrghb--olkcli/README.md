@@ -2,15 +2,14 @@
 
 > Sourced from [rlrghb/olkcli](https://github.com/rlrghb/olkcli) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-Outlook in your terminal
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rlrghb/olkcli](https://github.com/rlrghb/olkcli).
+Original source: `` in [rlrghb/olkcli](https://github.com/rlrghb/olkcli).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
