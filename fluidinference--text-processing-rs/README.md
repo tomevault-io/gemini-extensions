@@ -7,11 +7,11 @@ Rust port of NVIDIA NeMo Text Processing for Inverse Text Normalization
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FluidInference/text-processing-rs](https://github.com/FluidInference/text-processing-rs).
+Original source: `CLAUDE.md` in [FluidInference/text-processing-rs](https://github.com/FluidInference/text-processing-rs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
