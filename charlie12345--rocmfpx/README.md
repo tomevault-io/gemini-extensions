@@ -7,11 +7,11 @@ ROCmFPX Family for AMD Hardware and Processors. More quants and special agent qu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [charlie12345/ROCmFPX](https://github.com/charlie12345/ROCmFPX).
+Original source: `CLAUDE.md` in [charlie12345/ROCmFPX](https://github.com/charlie12345/ROCmFPX).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
