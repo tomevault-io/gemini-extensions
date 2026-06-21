@@ -7,11 +7,11 @@ Open-source alternative to the Italian legal platform Lexroom
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Italian-Builders-Org/magistra](https://github.com/Italian-Builders-Org/magistra).
+Original source: `CLAUDE.md` in [Italian-Builders-Org/magistra](https://github.com/Italian-Builders-Org/magistra).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
