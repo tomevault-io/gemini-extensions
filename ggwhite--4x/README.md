@@ -7,11 +7,11 @@ Multi-role AI development loop — Design, Code, Review, Test
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ggwhite/4x](https://github.com/ggwhite/4x).
+Original source: `CLAUDE.md` in [ggwhite/4x](https://github.com/ggwhite/4x).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
