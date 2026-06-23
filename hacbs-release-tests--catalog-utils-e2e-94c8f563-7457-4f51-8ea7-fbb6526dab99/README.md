@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hacbs-release-tests/catalog-utils-e2e-94c8f563-7457-4f51-8ea7-fbb6526dab99](https://github.com/hacbs-release-tests/catalog-utils-e2e-94c8f563-7457-4f51-8ea7-fbb6526dab99).
+Original source: `AGENTS.md` in [hacbs-release-tests/catalog-utils-e2e-94c8f563-7457-4f51-8ea7-fbb6526dab99](https://github.com/hacbs-release-tests/catalog-utils-e2e-94c8f563-7457-4f51-8ea7-fbb6526dab99).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
