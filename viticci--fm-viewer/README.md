@@ -7,11 +7,11 @@ FM Viewer — local explorer for Apple Intelligence Report exports (Siri prompts
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [viticci/fm-viewer](https://github.com/viticci/fm-viewer).
+Original source: `CLAUDE.md` in [viticci/fm-viewer](https://github.com/viticci/fm-viewer).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
