@@ -1,0 +1,30 @@
+# Himmel
+
+> Tome by [yotamleo](https://github.com/yotamleo/Himmel) — distributed by [TomeVault](https://tomevault.io)
+
+A managed, orchestrated harness for running Claude Code as a safe, repeatable agent: hooks, guardrails, slash commands, a Jira CLI, and a cross-session handover system.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [yotamleo/Himmel](https://github.com/yotamleo/Himmel).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [yotamleo/Himmel](https://github.com/yotamleo/Himmel) — a repo with 8+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install yotamleo/Himmel
+```
+Source: [github.com/yotamleo/Himmel](https://github.com/yotamleo/Himmel).
+
+<!-- genome:t-i-s -->
