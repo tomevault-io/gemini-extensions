@@ -1,0 +1,30 @@
+# AI instruction files for paper2product
+
+> Sourced from [Agentra-Labs/paper2product](https://github.com/Agentra-Labs/paper2product) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+"ArXiv to Product" — A multi-agent CLI pipeline that analyzes research papers and generates ranked startup ideas with market analysis.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [Agentra-Labs/paper2product](https://github.com/Agentra-Labs/paper2product).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/Agentra-Labs/paper2product](https://github.com/Agentra-Labs/paper2product)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install Agentra-Labs/paper2product
+```
+Source: [github.com/Agentra-Labs/paper2product](https://github.com/Agentra-Labs/paper2product).
+
+<!-- genome:a-i-p -->
