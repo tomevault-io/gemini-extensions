@@ -7,12 +7,12 @@ VS Code fork with the OpenCode AI coding agent embedded natively as a sidebar SP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [cpkt9762/opencode-vscode-ide](https://github.com/cpkt9762/opencode-vscode-ide).
+Original source: `AGENTS.md` in [cpkt9762/opencode-vscode-ide](https://github.com/cpkt9762/opencode-vscode-ide).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
