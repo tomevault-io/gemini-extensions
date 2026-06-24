@@ -1,4 +1,4 @@
-## honey-for-devs
+## honey
 
 > <!-- AUTO-GENERATED from skills/honey/SKILL.md by scripts/build-rules.js. Edit the source, then run: node scripts/build-rules.js -->
 
