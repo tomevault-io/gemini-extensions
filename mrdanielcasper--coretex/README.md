@@ -1,0 +1,30 @@
+# CoreTex
+
+> Source: [mrdanielcasper/CoreTex](https://github.com/mrdanielcasper/CoreTex) — distributed by [TomeVault](https://tomevault.io)
+
+A UNIX-inspired, biomimetic, flat-file AI harness and knowledge engine.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [mrdanielcasper/CoreTex](https://github.com/mrdanielcasper/CoreTex).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/mrdanielcasper/CoreTex](https://github.com/mrdanielcasper/CoreTex)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install mrdanielcasper/CoreTex
+```
+Source: [github.com/mrdanielcasper/CoreTex](https://github.com/mrdanielcasper/CoreTex).
+
+<!-- genome:d-i-p -->
