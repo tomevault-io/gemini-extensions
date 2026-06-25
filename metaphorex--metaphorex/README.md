@@ -7,11 +7,11 @@ A materials library of load-bearing metaphors and other useful abstractions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [metaphorex/metaphorex](https://github.com/metaphorex/metaphorex).
+Original source: `CLAUDE.md` in [metaphorex/metaphorex](https://github.com/metaphorex/metaphorex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
