@@ -7,11 +7,11 @@ Telegram bot that runs Claude Code or OpenAI Codex on your VPS and streams respo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Mark-Life/telegram-claude-codex](https://github.com/Mark-Life/telegram-claude-codex).
+Original source: `AGENTS.md` in [Mark-Life/telegram-claude-codex](https://github.com/Mark-Life/telegram-claude-codex).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
