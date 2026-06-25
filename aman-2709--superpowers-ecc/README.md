@@ -7,11 +7,11 @@ The best of superpowers and everything-claude-code in one plugin. Disciplined wo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aman-2709/superpowers-ecc](https://github.com/aman-2709/superpowers-ecc).
+Original source: `CLAUDE.md` in [aman-2709/superpowers-ecc](https://github.com/aman-2709/superpowers-ecc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
