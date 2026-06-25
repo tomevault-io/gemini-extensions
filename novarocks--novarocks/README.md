@@ -7,11 +7,11 @@ NovaRocks is a Rust-based compute engine project under the StarRocks ecosystem. 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [NovaRocks/NovaRocks](https://github.com/NovaRocks/NovaRocks).
+Original source: `AGENTS.md` in [NovaRocks/NovaRocks](https://github.com/NovaRocks/NovaRocks).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
