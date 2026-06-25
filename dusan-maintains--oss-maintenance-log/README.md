@@ -7,11 +7,11 @@ Automated OSS maintenance evidence log. Tracks 1.6M npm downloads/week across 7 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dusan-maintains/oss-maintenance-log](https://github.com/dusan-maintains/oss-maintenance-log).
+Original source: `AGENTS.md` in [dusan-maintains/oss-maintenance-log](https://github.com/dusan-maintains/oss-maintenance-log).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
