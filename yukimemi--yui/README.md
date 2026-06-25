@@ -7,11 +7,11 @@ Target-as-truth dotfiles manager. Edit your live configs, source repo updates au
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yukimemi/yui](https://github.com/yukimemi/yui).
+Original source: `AGENTS.md` in [yukimemi/yui](https://github.com/yukimemi/yui).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
