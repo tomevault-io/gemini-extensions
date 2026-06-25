@@ -1,0 +1,30 @@
+# a2a-gateway
+
+> Source: [eliasecchig/a2a-gateway](https://github.com/eliasecchig/a2a-gateway) — distributed by [TomeVault](https://tomevault.io)
+
+Multi-channel gateway for A2A agents — one config, every messaging platform
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [eliasecchig/a2a-gateway](https://github.com/eliasecchig/a2a-gateway).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/eliasecchig/a2a-gateway](https://github.com/eliasecchig/a2a-gateway)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install eliasecchig/a2a-gateway
+```
+Source: [github.com/eliasecchig/a2a-gateway](https://github.com/eliasecchig/a2a-gateway).
+
+<!-- genome:d-i-q -->
