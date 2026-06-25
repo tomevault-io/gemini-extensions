@@ -7,11 +7,11 @@ Self-hostable runtime for persistent autonomous coding agents — KVM-isolated V
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jmagly/agentic-sandbox](https://github.com/jmagly/agentic-sandbox).
+Original source: `CLAUDE.md` in [jmagly/agentic-sandbox](https://github.com/jmagly/agentic-sandbox).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
