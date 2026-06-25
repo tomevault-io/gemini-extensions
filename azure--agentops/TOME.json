@@ -4,7 +4,7 @@
   "repo": "agentops",
   "description": "AgentOps Accelerator is an open source framework and CLI for adding continuous evaluation and observability to enterprise AI agents. It standardizes evaluation patterns, automates assessments in CI/CD workflows, and generates structured signals that help teams monitor, control, and safely operate agentic systems at scale.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Azure/agentops",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-25T22:31:38Z"
+  "distributed_at": "2026-06-25T22:44:08Z"
 }
