@@ -7,11 +7,11 @@ Your AI dev team in a box — parallel specialist agents, persistent memory, 820
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [squadcodercom/squadcoder](https://github.com/squadcodercom/squadcoder).
+Original source: `AGENTS.md` in [squadcodercom/squadcoder](https://github.com/squadcodercom/squadcoder).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
