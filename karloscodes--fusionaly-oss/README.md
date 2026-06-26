@@ -7,11 +7,11 @@ Single tenant, self-hosted analytics that runs on SQLite
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [karloscodes/fusionaly-oss](https://github.com/karloscodes/fusionaly-oss).
+Original source: `AGENTS.md` in [karloscodes/fusionaly-oss](https://github.com/karloscodes/fusionaly-oss).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
