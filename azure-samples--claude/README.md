@@ -7,12 +7,12 @@ Deploy Anthropic Claude on Microsoft Foundry with `azd up` (Bicep or Terraform) 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Azure-Samples/claude](https://github.com/Azure-Samples/claude).
+Original source: `AGENTS.md` in [Azure-Samples/claude](https://github.com/Azure-Samples/claude).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
