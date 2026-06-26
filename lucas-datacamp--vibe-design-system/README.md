@@ -7,13 +7,13 @@ Astro + Tailwind 4 + DaisyUI design system scaffold
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [lucas-datacamp/vibe-design-system](https://github.com/lucas-datacamp/vibe-design-system).
+Original source: `AGENTS.md` in [lucas-datacamp/vibe-design-system](https://github.com/lucas-datacamp/vibe-design-system).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
