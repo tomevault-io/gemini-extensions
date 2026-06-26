@@ -4,7 +4,7 @@
   "repo": "claude",
   "description": "Deploy Anthropic Claude on Microsoft Foundry with `azd up` (Bicep or Terraform) and call it with the official Claude SDKs over Entra ID.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Azure-Samples/claude",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-26T00:35:40Z"
+  "distributed_at": "2026-06-26T00:50:30Z"
 }
