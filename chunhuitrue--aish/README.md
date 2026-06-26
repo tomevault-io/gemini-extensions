@@ -7,11 +7,11 @@ Aish is an AI-powered shell assistant designed for command-line environments.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [chunhuitrue/aish](https://github.com/chunhuitrue/aish).
+Original source: `AGENTS.md` in [chunhuitrue/aish](https://github.com/chunhuitrue/aish).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
