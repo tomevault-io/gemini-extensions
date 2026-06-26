@@ -7,12 +7,12 @@ Measuring AI Proficiency: Context Engineering as a Leading Indicator
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [pskoett/measuring-ai-proficiency](https://github.com/pskoett/measuring-ai-proficiency).
+Original source: `copilot-instructions.md` in [pskoett/measuring-ai-proficiency](https://github.com/pskoett/measuring-ai-proficiency).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
