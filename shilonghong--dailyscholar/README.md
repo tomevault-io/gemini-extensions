@@ -7,12 +7,12 @@ DailyScholar 是一套开箱即用的科研工作台，打通从论文抓取、L
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ShilongHong/DailyScholar](https://github.com/ShilongHong/DailyScholar).
+Original source: `AGENTS.md` in [ShilongHong/DailyScholar](https://github.com/ShilongHong/DailyScholar).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
