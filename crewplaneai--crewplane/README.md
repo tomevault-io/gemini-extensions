@@ -7,11 +7,11 @@ A Markdown-native control plane for AI coding CLIs.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [crewplaneai/crewplane](https://github.com/crewplaneai/crewplane).
+Original source: `AGENTS.md` in [crewplaneai/crewplane](https://github.com/crewplaneai/crewplane).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
