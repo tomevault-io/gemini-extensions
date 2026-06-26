@@ -1,0 +1,30 @@
+# AI instruction files for myco
+
+> Sourced from [goondocks-co/myco](https://github.com/goondocks-co/myco) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+Myco is the nervous system for AI-assisted software teams. Works automatically alongside the coding agents, subagents, and agent teams you already use
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [goondocks-co/myco](https://github.com/goondocks-co/myco).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/goondocks-co/myco](https://github.com/goondocks-co/myco)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install goondocks-co/myco
+```
+Source: [github.com/goondocks-co/myco](https://github.com/goondocks-co/myco).
+
+<!-- genome:a-i-q -->
