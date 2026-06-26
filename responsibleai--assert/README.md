@@ -7,13 +7,13 @@ Requirement-driven evaluation harness for AI agents and LLM applications. Genera
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [responsibleai/ASSERT](https://github.com/responsibleai/ASSERT).
+Original source: `.cursor/rules/*.mdc` in [responsibleai/ASSERT](https://github.com/responsibleai/ASSERT).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
