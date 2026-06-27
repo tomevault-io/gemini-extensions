@@ -7,11 +7,11 @@ Chinese traditional fortune-telling AI skill (BaZi 八字 + Zi Wei Dou Shu 紫�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ai-freer/fortune-skill](https://github.com/ai-freer/fortune-skill).
+Original source: `AGENTS.md` in [ai-freer/fortune-skill](https://github.com/ai-freer/fortune-skill).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
