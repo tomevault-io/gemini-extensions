@@ -4,7 +4,7 @@
   "repo": "coloring-book",
   "description": "AI coloring book generator",
   "type": "tome",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/pierceboggan/coloring-book",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T14:40:45Z"
+  "distributed_at": "2026-06-27T23:34:27Z"
 }
