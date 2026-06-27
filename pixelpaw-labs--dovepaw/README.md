@@ -7,11 +7,11 @@ Personal AI agent orchestration runtime for Claude Code: build, schedule, and ru
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PixelPaw-Labs/DovePaw](https://github.com/PixelPaw-Labs/DovePaw).
+Original source: `CLAUDE.md` in [PixelPaw-Labs/DovePaw](https://github.com/PixelPaw-Labs/DovePaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
