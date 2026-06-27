@@ -7,11 +7,11 @@ ExFig — fast design-to-code CLI for Figma & Penpot with parallel exports, batc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [DesignPipe/exfig](https://github.com/DesignPipe/exfig).
+Original source: `AGENTS.md` in [DesignPipe/exfig](https://github.com/DesignPipe/exfig).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
