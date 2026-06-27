@@ -7,12 +7,12 @@ Clean, docs-style web UI for the career-ops AI job-search pipeline. Search ATS a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Fighter90/career-ops-ui](https://github.com/Fighter90/career-ops-ui).
+Original source: `AGENTS.md` in [Fighter90/career-ops-ui](https://github.com/Fighter90/career-ops-ui).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
