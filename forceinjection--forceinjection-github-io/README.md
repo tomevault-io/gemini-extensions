@@ -7,11 +7,11 @@ Github pages for Force Injection
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ForceInjection/forceinjection.github.io](https://github.com/ForceInjection/forceinjection.github.io).
+Original source: `CLAUDE.md` in [ForceInjection/forceinjection.github.io](https://github.com/ForceInjection/forceinjection.github.io).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
