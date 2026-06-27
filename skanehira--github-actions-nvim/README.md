@@ -7,11 +7,11 @@ A Neovim plugin for managing GitHub Actions workflows directly from Neovim
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [skanehira/github-actions.nvim](https://github.com/skanehira/github-actions.nvim).
+Original source: `AGENTS.md` in [skanehira/github-actions.nvim](https://github.com/skanehira/github-actions.nvim).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
