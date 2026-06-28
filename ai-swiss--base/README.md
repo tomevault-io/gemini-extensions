@@ -7,13 +7,13 @@ Build your assistants with your structured expertise: a local-first, vendor-neut
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ai-swiss/base](https://github.com/ai-swiss/base).
+Original source: `.cursor/rules/*.mdc` in [ai-swiss/base](https://github.com/ai-swiss/base).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
