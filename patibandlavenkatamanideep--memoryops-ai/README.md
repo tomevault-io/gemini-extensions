@@ -7,11 +7,11 @@ Enterprise-shaped memory governance layer for AI assistants: typed capture, poli
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [patibandlavenkatamanideep/memoryops-ai](https://github.com/patibandlavenkatamanideep/memoryops-ai).
+Original source: `CLAUDE.md` in [patibandlavenkatamanideep/memoryops-ai](https://github.com/patibandlavenkatamanideep/memoryops-ai).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
