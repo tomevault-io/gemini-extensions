@@ -7,11 +7,11 @@ MCP server connecting AI agents to ITASCA engines (PFC, FLAC, 3DEC, MPoint, Mass
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yusong652/itasca-mcp](https://github.com/yusong652/itasca-mcp).
+Original source: `CLAUDE.md` in [yusong652/itasca-mcp](https://github.com/yusong652/itasca-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
