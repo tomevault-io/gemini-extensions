@@ -7,11 +7,11 @@ CLI for App Store Screenshots
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [chrisvanbuskirk/appshot](https://github.com/chrisvanbuskirk/appshot).
+Original source: `AGENTS.md` in [chrisvanbuskirk/appshot](https://github.com/chrisvanbuskirk/appshot).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
