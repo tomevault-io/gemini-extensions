@@ -2,17 +2,15 @@
 
 > Tome by [denysdovhan](https://github.com/denysdovhan/ha-lun-misto-air) — distributed by [TomeVault](https://tomevault.io)
 
-💨 An integration for air quality monitoring by LUN Misto.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [denysdovhan/ha-lun-misto-air](https://github.com/denysdovhan/ha-lun-misto-air).
+Original source: `AGENTS.md` in [denysdovhan/ha-lun-misto-air](https://github.com/denysdovhan/ha-lun-misto-air).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
