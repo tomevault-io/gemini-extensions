@@ -163,4 +163,4 @@ At the end of each plan, give me a list of unresolved questions to answer, if an
 
 ---
 > Source: [denysdovhan/ha-lun-misto-air](https://github.com/denysdovhan/ha-lun-misto-air) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-04 -->
+<!-- tomevault:4.0:gemini_md:2026-06-29 -->
