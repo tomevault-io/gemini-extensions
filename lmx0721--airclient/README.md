@@ -7,11 +7,11 @@ AirClient is a free and open-source Minecraft hacked client built on the LiquidB
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lmx0721/AirClient](https://github.com/lmx0721/AirClient).
+Original source: `CLAUDE.md` in [lmx0721/AirClient](https://github.com/lmx0721/AirClient).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
