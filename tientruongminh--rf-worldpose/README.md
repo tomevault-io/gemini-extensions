@@ -7,11 +7,11 @@ RF-WorldPose production/research platform for WiFi CSI sensing with ESP32-S3, He
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tientruongminh/rf-worldpose](https://github.com/tientruongminh/rf-worldpose).
+Original source: `CLAUDE.md` in [tientruongminh/rf-worldpose](https://github.com/tientruongminh/rf-worldpose).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
