@@ -7,11 +7,11 @@ Use your real local Claude CLI from your phone — same CLAUDE.md, MCP, skills &
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Ike-li/claude-chat-mobile](https://github.com/Ike-li/claude-chat-mobile).
+Original source: `CLAUDE.md` in [Ike-li/claude-chat-mobile](https://github.com/Ike-li/claude-chat-mobile).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
