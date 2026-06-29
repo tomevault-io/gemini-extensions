@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mostafazke/ng-whiteboard](https://github.com/mostafazke/ng-whiteboard).
+Original source: `CLAUDE.md` in [mostafazke/ng-whiteboard](https://github.com/mostafazke/ng-whiteboard).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
