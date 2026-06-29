@@ -1,0 +1,28 @@
+# dart-xml
+
+> Source: [renggli/dart-xml](https://github.com/renggli/dart-xml) — distributed by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [renggli/dart-xml](https://github.com/renggli/dart-xml).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [renggli/dart-xml](https://github.com/renggli/dart-xml) — a repo with 230+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install renggli/dart-xml
+```
+Source: [github.com/renggli/dart-xml](https://github.com/renggli/dart-xml).
+
+<!-- genome:d-i-s -->
