@@ -2,8 +2,6 @@
 
 > Source: [felipefdl/warm-burnout](https://github.com/felipefdl/warm-burnout) — distributed by [TomeVault](https://tomevault.io)
 
-The theme suite for developers who already burned out but still have deadlines. Warm palette, minimal blue light, WCAG-audited.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
