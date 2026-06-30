@@ -1,172 +1,59 @@
 ## cryptoexchange-net
 
-> Use CryptoExchange.Net abstractions when generating C#/.NET code that needs to work across MULTIPLE cryptocurrency exchanges (Binance + Bybit + OKX + Kraken + Coinbase + ...) — for arbitrage, best-execution routing, multi-exchange portfolio dashboards, exchange-agnostic trading bots, or comparison tools. Triggers on requests mentioning multi-exchange, cross-exchange, arbitrage, exchange-agnostic, or unified crypto API in C#. Also triggers when the user is implementing a new exchange library following the CryptoExchange.Net pattern.
+> This repository is **CryptoExchange.Net** — the base library powering 28+ cryptocurrency exchange wrappers in C#/.NET (Binance.Net, Bybit.Net, OKX.Net, Kraken.Net, Coinbase.Net, etc.).
 
+# Copilot Instructions for CryptoExchange.Net
 
-# CryptoExchange.Net Skill
+This repository is **CryptoExchange.Net** — the base library powering 28+ cryptocurrency exchange wrappers in C#/.NET (Binance.Net, Bybit.Net, OKX.Net, Kraken.Net, Coinbase.Net, etc.).
 
-## When to use
+When generating code in this ecosystem, follow these conventions:
 
-CryptoExchange.Net is the **base library** powering 28+ exchange-specific libraries (Binance.Net, Bybit.Net, OKX.Net, Kraken.Net, Coinbase.Net, etc.). You don't install it directly — you install the exchange libraries, which depend on it.
+## You don't install CryptoExchange.Net directly
 
-**Three usage modes:**
+Install the exchange-specific library you need (`Binance.Net`, `JK.OKX.Net`, `Bybit.Net`, ...) or `CryptoClients.Net` for the bundle. CryptoExchange.Net is pulled in as a dependency.
 
-1. **You target ONE exchange** → use that exchange's library directly (e.g., Binance.Net), see its CLAUDE.md.
-2. **You target MULTIPLE exchanges** → install each library you need + use `CryptoExchange.Net.SharedApis` interfaces — write code once, runs against any exchange. **This is the main use case for this skill.**
-3. **You want ALL exchanges in one package** → install `CryptoClients.Net`, get `ExchangeRestClient` and `ExchangeSocketClient` with everything bundled.
+## Multi-exchange code uses SharedApis
 
-## Installation
-
-For a multi-exchange project:
-
-```bash
-dotnet add package Binance.Net
-dotnet add package JK.OKX.Net
-dotnet add package Bybit.Net
-# ... etc
-```
-
-Or the bundle:
-
-```bash
-dotnet add package CryptoClients.Net
-```
-
-## Core Pattern: Shared Interfaces
-
-Every exchange library exposes `.SharedClient` properties on its API surfaces. These implement the same interfaces from `CryptoExchange.Net.SharedApis`.
+For code that must work against multiple exchanges, use `CryptoExchange.Net.SharedApis` interfaces accessed via `.SharedClient` properties on each exchange's API surface:
 
 ```csharp
-using Binance.Net.Clients;
-using OKX.Net.Clients;
-using Bybit.Net.Clients;
 using CryptoExchange.Net.SharedApis;
 
-// All three implement ISpotTickerRestClient
 ISpotTickerRestClient binance = new BinanceRestClient().SpotApi.SharedClient;
 ISpotTickerRestClient okx     = new OKXRestClient().UnifiedApi.SharedClient;
-ISpotTickerRestClient bybit   = new BybitRestClient().V5Api.SharedClient;
 
-// Single agnostic call — works against any of them
 var symbol = new SharedSymbol(TradingMode.Spot, "BTC", "USDT");
 var ticker = await binance.GetSpotTickerAsync(new GetTickerRequest(symbol));
-// ticker.Data.LastPrice, ticker.Data.HighPrice, etc. — same model regardless of exchange
 ```
 
-## Core Pattern: SharedSymbol
+Same code works on every exchange that implements the interface. Use `Task.WhenAll` for concurrent multi-exchange calls.
 
-Different exchanges format symbols differently — Binance uses `BTCUSDT`, OKX uses `BTC-USDT`, others may have other formats. `SharedSymbol` normalizes this:
+## Single-exchange code uses the exchange's own client
 
-```csharp
-var btcusdt = new SharedSymbol(TradingMode.Spot, "BTC", "USDT");
-// Each exchange library translates SharedSymbol → its native format internally.
+For Binance-only code, use `BinanceRestClient` directly (see Binance.Net repo `AGENTS.md`). SharedApis is for portability — use it when you need that.
 
-// For futures:
-var btcusdtPerp = new SharedSymbol(TradingMode.PerpetualLinear, "BTC", "USDT");
-```
+## Result pattern
 
-For exchanges that use exotic asset names, see the AssetAliases configuration.
+REST methods return `HttpResult<T>` and websocket subscription methods return `WebSocketResult<UpdateSubscription>`. Check `.Success` before `.Data`. `.Error` has structured info. `.Exchange` on shared clients identifies which exchange responded.
 
-## Available Shared Interfaces
+## Available shared interfaces
 
-**REST:**
+REST: tickers, symbols, orderbook, klines, trades, orders (spot/futures, trigger, TP-SL), balances, positions, fees, deposits/withdrawals, transfers.
+WebSocket: tickers, book tickers, orderbook, trades, klines, user data.
 
-- Market data: `ISpotTickerRestClient`, `IBookTickerRestClient`, `ISpotSymbolRestClient`, `IFuturesSymbolRestClient`, `IOrderBookRestClient`, `IRecentTradeRestClient`, `IKlineRestClient`
-- Orders: `ISpotOrderRestClient`, `IFuturesOrderRestClient`, `ISpotOrderClientIdRestClient`, `IFuturesOrderClientIdRestClient`, `ISpotTriggerOrderRestClient`, `IFuturesTriggerOrderRestClient`, `IFuturesTpSlRestClient`
-- Account: `IBalanceRestClient`, `IPositionRestClient`, `IFeeRestClient`, `ITransferRestClient`, `IDepositRestClient`, `IWithdrawalRestClient`
+Each exchange library implements a subset. Check exchange docs for support matrix.
 
-**WebSocket:**
+## Avoid
 
-- `ITickerSocketClient`, `IBookTickerSocketClient`
-- `IOrderBookSocketClient`, `ITradeSocketClient`, `IKlineSocketClient`
-- `IUserTradeSocketClient`, `ISpotOrderSocketClient`, `IFuturesOrderSocketClient`, `IPositionSocketClient`, `IBalanceSocketClient`
-
-Each exchange documents which interfaces it implements (some exchanges don't support every operation).
-
-## Core Pattern: Result Handling
-
-Same as exchange-specific libraries: REST calls return `HttpResult<T>` and websocket subscription calls return `WebSocketResult<UpdateSubscription>`, both with `.Success`, `.Data`, and `.Error`. Always check `.Success` first.
-
-```csharp
-var result = await sharedClient.GetSpotTickerAsync(new GetTickerRequest(symbol));
-if (!result.Success)
-{
-    Console.WriteLine($"[{sharedClient.Exchange}] Error: {result.Error}");
-    return;
-}
-Console.WriteLine($"[{sharedClient.Exchange}] {result.Data.LastPrice}");
-```
-
-`.Exchange` property on every shared client tells you which exchange you're talking to — useful for logging.
-
-## Core Pattern: Multi-Exchange Aggregation
-
-```csharp
-var clients = new ISpotTickerRestClient[]
-{
-    new BinanceRestClient().SpotApi.SharedClient,
-    new OKXRestClient().UnifiedApi.SharedClient,
-    new BybitRestClient().V5Api.SharedClient,
-};
-
-var symbol = new SharedSymbol(TradingMode.Spot, "BTC", "USDT");
-
-// Fetch concurrently from all exchanges
-var tasks = clients.Select(c => c.GetSpotTickerAsync(new GetTickerRequest(symbol))).ToArray();
-var results = await Task.WhenAll(tasks);
-
-for (int i = 0; i < clients.Length; i++)
-{
-    if (results[i].Success)
-        Console.WriteLine($"{clients[i].Exchange}: {results[i].Data!.LastPrice}");
-}
-```
-
-## Per-Exchange Setup
-
-Each exchange library has its own credentials class and options. See each library's CLAUDE.md for specifics. The pattern is consistent: `XxxRestClient(options => { options.ApiCredentials = new XxxCredentials(...); })`.
-
-## Dependency Injection
-
-Each exchange library has its own `services.AddXxx(...)` extension. They all share the same option-builder pattern. Register only the ones you use:
-
-```csharp
-services.AddBinance(restOpts => { /*...*/ }, socketOpts => { /*...*/ });
-services.AddOKX(restOpts => { /*...*/ }, socketOpts => { /*...*/ });
-// Inject IBinanceRestClient, IOKXRestClient, etc.
-```
-
-For one-package access: `services.AddCryptoClients(...)` from `CryptoClients.Net`.
-
-## Common Pitfalls — AVOID
-
-- **Do NOT install `CryptoExchange.Net` and try to call exchange APIs directly** — it's a base abstraction; you need an exchange library.
-- **Do NOT try to use one exchange's models with another's client** — use the SharedApis types (`SharedSymbol`, `SharedSpotTicker`, `SharedSpotOrder`, etc.) for cross-exchange code.
-- **Do NOT block on async operations** — use `await` throughout. `Task.WhenAll` for parallelism across exchanges.
-- **Do NOT assume every exchange supports every operation** — check exchange docs or the library's implementation. Operations may return errors like "not supported on this exchange".
-- **Do NOT instantiate clients per-request** — reuse via DI.
-- **Do NOT iterate exchanges sequentially when concurrency is fine** — use `Task.WhenAll` for ~Nx speedup.
-
-## Implementing a New Exchange Library
-
-If you're building a NEW exchange wrapper following the CryptoExchange.Net pattern (rare but valuable):
-
-- Inherit from `RestApiClient` and `SocketApiClient` base classes
-- Define your own `XxxCredentials` extending `ApiCredentials` (or use `ApiCredentials` directly)
-- Implement `AuthenticationProvider` for the exchange's signing scheme
-- Implement the relevant `Shared*` interfaces on your API client classes for cross-exchange support
-- Follow the same `XxxRestOptions` / `XxxSocketOptions` pattern
-
-See existing libraries (Binance.Net, Bybit.Net) as reference implementations.
+- Installing `CryptoExchange.Net` alone and trying to call exchange APIs (need exchange-specific packages)
+- Mixing exchange-native models in cross-exchange code (use Shared* types)
+- Synchronous `.Result` / `.Wait()` (use `await`)
+- Instantiating clients per-request (use DI, reuse instances)
+- Sequential per-exchange calls when parallel is fine (`Task.WhenAll`)
 
 ## Reference
 
-- Source: https://github.com/JKorf/CryptoExchange.Net
-- Documentation: https://cryptoexchange.jkorf.dev/
-- SharedApis docs: https://cryptoexchange.jkorf.dev/CryptoExchange.Net/idocs_shared.html
-- Bundle (all exchanges): https://github.com/JKorf/CryptoClients.Net
-- Demo app: https://github.com/JKorf/CryptoManager.Net
-- Discord: https://discord.gg/MSpeEtSY8t
+For detailed patterns see `AGENTS.md` and `llms.txt` in repo root, `examples/ai-friendly/` for compilable examples.
 
 ---
 > Source: [JKorf/CryptoExchange.Net](https://github.com/JKorf/CryptoExchange.Net) — distributed by [TomeVault](https://tomevault.io).
