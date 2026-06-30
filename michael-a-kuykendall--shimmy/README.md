@@ -2,17 +2,15 @@
 
 > Source: [Michael-A-Kuykendall/shimmy](https://github.com/Michael-A-Kuykendall/shimmy) — distributed by [TomeVault](https://tomevault.io)
 
-⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Michael-A-Kuykendall/shimmy](https://github.com/Michael-A-Kuykendall/shimmy).
+Original source: `AGENTS.md` in [Michael-A-Kuykendall/shimmy](https://github.com/Michael-A-Kuykendall/shimmy).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
