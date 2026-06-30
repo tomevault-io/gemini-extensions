@@ -2,8 +2,6 @@
 
 > Tome by [lona-cn](https://github.com/lona-cn/vision-simple) — distributed by [TomeVault](https://tomevault.io)
 
-a lightweight C++ cross-platform vision inference library,support  YOLOv10 YOLOv11 PaddleOCR EasyOCR ,using ONNXRuntime/TVM with multiple exectuion providers.QQ群：364057904
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
