@@ -1,49 +1,84 @@
 ## weasyprint-wrapped
 
-> - `Weasyprint.Wrapped` is a .NET wrapper that bundles a standalone `weasyprint` CLI (zip asset) so consumers do not install Python/system deps manually (`readme.md`, `src/Weasyprint.Wrapped/Printer.cs`).
+> - This repository packages a .NET wrapper around WeasyPrint.
 
-﻿# AGENTS.md
+# Copilot Instructions for `berthertogen/weasyprint.wrapped`
 
-## Purpose
-- `Weasyprint.Wrapped` is a .NET wrapper that bundles a standalone `weasyprint` CLI (zip asset) so consumers do not install Python/system deps manually (`readme.md`, `src/Weasyprint.Wrapped/Printer.cs`).
-- Runtime behavior is OS-specific: Windows runs `weasyprint.exe`, Linux runs `weasyprint` binary extracted from platform zip (`src/Weasyprint.Wrapped/Printer.cs`, `src/Weasyprint.Wrapped/Configuration/ConfigurationProvider.cs`).
+## Repository purpose
+- This repository packages a .NET wrapper around WeasyPrint.
+- Main library: `src/Weasyprint.Wrapped`
+- Tests: `src/Weasyprint.Wrapped.Tests`
+- Consumer samples: `Weasyprint.Wrapped.Example` and `Weasyprint.Wrapped.ExampleApi`
 
-## Repo map (what matters first)
-- Library: `src/Weasyprint.Wrapped/` (`Printer`, config, result DTOs, init exception).
-- Integration tests: `src/Weasyprint.Wrapped.Tests/Tests/PrinterTests.cs` (best source of expected behavior).
-- Usage samples: `src/Weasyprint.Wrapped.Example/Program.cs` and `src/Weasyprint.Wrapped.ExampleApi/Controllers/PrintController.cs`.
-- Asset builders: `build-on-windows.ps1`, `build-on-linux.sh`, `test_on_linux.sh`.
-- CI/release behavior: `.github/workflows/build-test-code-scan.yml`, `.github/workflows/release-assets.yml`.
+## Key architecture and flow
+- `Printer` is the core API (`src/Weasyprint.Wrapped/Printer.cs`):
+  - `Initialize()` extracts OS-specific standalone WeasyPrint assets from zip into a working folder.
+  - `Print(...)` and `PrintStream(...)` execute the extracted binary using `CliWrap`.
+  - `Version()` calls `--info` on the binary.
+- `ConfigurationProvider` (`src/Weasyprint.Wrapped/Configuration/ConfigurationProvider.cs`) resolves:
+  - Asset zip location (`standalone-windows-64.zip` or `standalone-linux-64.zip`)
+  - Working folder location (default `weasyprinter` under app base directory)
+  - Base URL used by print commands.
+- Tests are integration-style and depend on real standalone assets being present.
 
-## Core runtime flow
-- Call `await printer.Initialize()` before print/version calls; it extracts `assets/standalone-{windows|linux}-64.zip` to working folder only when `version-*` marker changes.
-- Version pinning is file-based: zip must contain `version-*`; `Initialize()` skips re-extract when matching marker exists (`Printer.Initialize`).
-- Print from HTML string uses stdin/stdout (`- -`) and returns bytes via `PrintResult.Bytes`; stream variant returns open stream (`PrintStreamResult.DocumentStream`).
-- Print from file path writes directly to output file and returns metadata only (`Print(string htmlFile, string pdfFile, ...)`).
-- Known noisy stderr is filtered (`GLib-GIO-WARNING`) via `IgnoreCertainErrors`; do not treat that warning as functional failure.
+## Build, test, and validation commands
+Run from repository root:
 
-## Developer workflows
-- Build library/package locally from repo root:
-  - `dotnet build src/Weasyprint.Wrapped/Weasyprint.Wrapped.csproj`
-  - `dotnet pack src/Weasyprint.Wrapped/Weasyprint.Wrapped.csproj -c Release --output src/Weasyprint.Wrapped/nupkgs`
-- Run tests (requires platform asset zip present under `assets/`):
-  - `dotnet test src/Weasyprint.Wrapped.Tests/Weasyprint.Wrapped.Tests.csproj`
-- Rebuild bundled assets:
-  - Windows: `./build-on-windows.ps1`
-  - Linux: `./build-on-linux.sh` (Docker required), optional smoke test `./test_on_linux.sh`.
+```bash
+dotnet build --verbosity normal /p:UseSharedCompilation=false ./src/Weasyprint.Wrapped/Weasyprint.Wrapped.csproj
+```
 
-## Project-specific conventions (follow these)
-- `ConfigurationProvider` defaults to `AppContext.BaseDirectory`; tests override with relative asset path (`../../../../../assets/`) and working folder `weasyprinter`.
-- Additional CLI args are passed through as raw strings (example: `"--optimize-images"` in tests and example app).
-- Cross-platform behavior is validated by selecting expected files per OS (`PrinterTests` chooses Windows vs Linux expected PDF).
-- `src/Weasyprint.Wrapped/Weasyprint.Wrapped.csproj` packs assets into `contentFiles/any/any`; changing asset names/paths requires updating both packaging and runtime lookup.
-- `nuget.config` includes local source `./src/Weasyprint.Wrapped/nupkgs/` for iterative testing with sample projects.
+```bash
+dotnet test --verbosity normal ./src/Weasyprint.Wrapped.Tests/Weasyprint.Wrapped.Tests.csproj
+```
 
-## Integration and release points
-- CI builds assets on both OS runners, uploads artifacts, then runs tests against downloaded artifacts (`build-test-code-scan.yml`).
-- Linux CI sets isolated font config env vars before tests; font issues in CI are often environment-related, not wrapper logic.
-- Tag-based release (`v*`) creates draft prerelease, rewrites `version-*` files inside zips, packs NuGet, pushes to GitHub/NuGet, and publishes zip assets (`release-assets.yml`).
-- Docker image `.docker/net-sdk-weayprint/Dockerfile` is published in release workflow and provides runtime deps for WeasyPrint scenarios.
+## Critical prerequisite for tests
+- Tests require asset zips to exist at repository root under `assets/` (for Linux) and/or `assets-windows/` depending on platform and scenario.
+- On Linux, failing to provide `assets/standalone-linux-64.zip` causes all integration tests to fail in `Printer.Initialize()`.
+
+### Error encountered during onboarding
+Observed while running tests in a fresh clone:
+
+- `System.IO.DirectoryNotFoundException: Could not find a part of the path '.../assets/standalone-linux-64.zip'`
+- `Test Run Failed. Total tests: 12, Failed: 12`
+
+### Workaround
+- Generate Linux asset zip before testing:
+
+```bash
+# run from repository root
+./build-on-linux.sh
+```
+
+- For Windows asset generation (when needed on Windows runners):
+
+```powershell
+# run from repository root
+./build-on-windows.ps1
+```
+
+- After assets exist, re-run `dotnet test`.
+
+## CI expectations
+- Main CI workflow: `.github/workflows/build-test-code-scan.yml`
+  - CodeQL analysis job manually builds `src/Weasyprint.Wrapped`.
+  - Asset build jobs create Linux and Windows standalone zip artifacts.
+  - Test job downloads those artifacts and runs tests on Ubuntu and Windows.
+- If tests fail locally due to missing assets but pass in CI, verify whether CI artifact-download steps are being mirrored locally.
+
+## Practical guidance for future agent changes
+- For library behavior changes, inspect and update:
+  - `src/Weasyprint.Wrapped/Printer.cs`
+  - `src/Weasyprint.Wrapped/Configuration/ConfigurationProvider.cs`
+  - `src/Weasyprint.Wrapped.Tests/Tests/PrinterTests.cs`
+- Preserve cross-platform behavior (`RuntimeInformation.IsOSPlatform`) and asset naming conventions (`standalone-{os}-64.zip` where `{os}` is `windows` or `linux`).
+- When modifying command execution in `Printer`, keep `CommandResultValidation.None` and stderr filtering behavior in mind (`GLib-GIO-WARNING` is intentionally ignored).
+- Avoid changing asset folder conventions unless tests and packaging content entries in `Weasyprint.Wrapped.csproj` are updated consistently.
+
+## Packaging and release notes
+- NuGet packing is driven from `src/Weasyprint.Wrapped/Weasyprint.Wrapped.csproj` and release workflow.
+- Package content includes assets from root-level `assets/`, `assets-linux/`, and `assets-windows/` folders.
+- Tag-based release workflow (`release-assets.yml`) creates release assets and pushes packages/images.
 
 ---
 > Source: [berthertogen/weasyprint.wrapped](https://github.com/berthertogen/weasyprint.wrapped) — distributed by [TomeVault](https://tomevault.io).
