@@ -2,16 +2,14 @@
 
 > Sourced from [vladzima/kodeck](https://github.com/vladzima/kodeck) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-Open-source IDE for Claude Code. Multi-project workspace with chat, terminals, and git worktree management — all in your browser.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [vladzima/kodeck](https://github.com/vladzima/kodeck).
+Original source: `CLAUDE.md` in [vladzima/kodeck](https://github.com/vladzima/kodeck).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
