@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [themactep/thingino-firmware](https://github.com/themactep/thingino-firmware).
+Original source: `copilot-instructions.md` in [themactep/thingino-firmware](https://github.com/themactep/thingino-firmware).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [themactep/thingino-firmware](https://github.com/themactep/thingino-firmware) — a repo with 1758+ stars on GitHub.
+From [themactep/thingino-firmware](https://github.com/themactep/thingino-firmware) — a repo with 1759+ stars on GitHub.
 
 ---
 
