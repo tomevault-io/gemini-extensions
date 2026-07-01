@@ -7,11 +7,11 @@ fak — the Fused Agent Kernel: treat the model like an untrusted program and th
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [anthony-chaudhary/fak](https://github.com/anthony-chaudhary/fak).
+Original source: `AGENTS.md` in [anthony-chaudhary/fak](https://github.com/anthony-chaudhary/fak).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
