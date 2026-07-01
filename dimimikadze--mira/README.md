@@ -2,8 +2,6 @@
 
 > Source: [DimiMikadze/Mira](https://github.com/DimiMikadze/Mira) — distributed by [TomeVault](https://tomevault.io)
 
-Multi-Agent AI System for Company Research
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
