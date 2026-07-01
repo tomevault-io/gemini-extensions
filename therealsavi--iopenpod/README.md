@@ -2,22 +2,20 @@
 
 > Source: [TheRealSavi/iOpenPod](https://github.com/TheRealSavi/iOpenPod) — distributed by [TomeVault](https://tomevault.io)
 
-Open source iPod sync tool - manage your iPod without iTunes
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [TheRealSavi/iOpenPod](https://github.com/TheRealSavi/iOpenPod).
+Original source: `AGENTS.md` in [TheRealSavi/iOpenPod](https://github.com/TheRealSavi/iOpenPod).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [TheRealSavi/iOpenPod](https://github.com/TheRealSavi/iOpenPod) — a repo with 154+ stars on GitHub.
+From [TheRealSavi/iOpenPod](https://github.com/TheRealSavi/iOpenPod) — a repo with 209+ stars on GitHub.
 
 ---
 
