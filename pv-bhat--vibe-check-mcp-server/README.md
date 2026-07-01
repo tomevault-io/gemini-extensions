@@ -2,8 +2,6 @@
 
 > Tome by [PV-Bhat](https://github.com/PV-Bhat/vibe-check-mcp-server) — distributed by [TomeVault](https://tomevault.io)
 
-Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
