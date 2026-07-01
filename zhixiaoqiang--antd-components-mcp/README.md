@@ -2,8 +2,6 @@
 
 > Sourced from [zhixiaoqiang/antd-components-mcp](https://github.com/zhixiaoqiang/antd-components-mcp) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-An MCP service for Ant Design components query | 一个减少 Ant Design 组件代码生成幻觉的 MCP 服务，包含系统提示词、组件文档、API 文档、代码示例和更新日志查询
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
