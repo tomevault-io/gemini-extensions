@@ -1,70 +1,60 @@
-## context-based-logging
+## crafter-mutator-testing
 
-> How to use context-based logging with loguru
+> Patterns for writing Crafter mutator tests
 
-# Context-Based Logging with Loguru
-The `distant_sunburn` codebase uses Loguru with automatic extras support. You can bind contextual information to your logger and have it automatically displayed in all log messages. The logger has been set up for you already, and you can directly import it as `logger` from `loguru`.
+
+# Crafter Mutator Testing Patterns
+
+## State Creation
+Always use the standard Crafter test pattern for creating world states:
 
 ```python
-from loguru import logger
-
-# Bind context information
-logger = logger.bind(ip="192.168.1.1", user="john_doe")
-logger.info("User logged in successfully")
+@pytest.fixture
+def test_state() -> tuple[WorldState, crafter_engine.World]:
+    view = (9, 9)
+    state = initial_state(area=(9, 9), view=view, seed=1)
+    world = reconstruct_world_from_state(state)
+    
+    player = find_player(world)
+    player_utils.set_player_position(player, (5, 5))
+    
+    # Clear all tiles to grass
+    for x in range(view[0]):
+        for y in range(view[1]):
+            world_utils.set_tile_material(world, (x, y), "grass")
+    
+    # Add entities using world_utils
+    world_utils.add_object_to_world(world, objects.Cow, (3, 3))
+    
+    return export_world_state(world, view=view, step_count=0), world
 ```
 
-For usage in classes, assign the bound logger to the class and use it thereafter.
-Example:
+## Required Imports
+Always import these utilities:
+- `from crafter.functional_env import initial_state, reconstruct_world_from_state, export_world_state`
+- `from crafter.testing_helpers import player_utils, world_utils`
+- `from distant_sunburn.evaluator.crafter.utils import find_all_objects_for_type, find_player`
+
+## Finding Objects
+Use the evaluator utils instead of manual searching:
 ```python
-from loguru import logger
+# Good
+cows = find_all_objects_for_type(state, CowState)
+cow = cows[0]
 
-class MyClass:
-    def __init__(self, some_important_metadata: str):
-        self.logger = logger.bind(well_chosen_name=some_important_metadata)
-
-    def do_thing(self):
-        self.logger.info("Doing thing") # will include "well_chosen_name=some_important_metadata" in the log message
+# Bad
+cow = next(entity for entity in state.objects if entity.name == "cow")
 ```
 
-You _must_ ensure that any complex data structures are well-formatted before binding to the logger.
+## Test Structure
+- Use `@pytest.fixture` for state creation
+- Return `tuple[WorldState, crafter_engine.World]` from fixtures
+- Use `state, _ = fixture_name` to unpack in tests
+- Test one behavior per test function
+- Use descriptive test names that explain the expected behavior
 
-**BAD**:
-```python
-foo = {{{{...}}}} # complex data structure
-logger = logger.bind(foo=foo)
-```
-
-**GOOD**:
-```python
-foo = {{{{{...}}}}} # complex data structure
-formatted: str = # pick elements of foo to show as a string
-logger = logger.bind(foo=formatted)
-```
-
-Another pattern you can use is:
-```python
-from loguru import logger
-
-with logger.contextualize(foo=foo):
-    logger.info("Doing thing")
-```
-
-This is useful when you want to bind for a short period of time.
-
-## Guidelines
-1. Do not create and assign too many bound loggers.
-2. If assigning a logger using `self.logger = logger.bind(...)`, do so in the `__init__` method of the class or _very sparingly_ in other dedicated methods for logging. _AVOID_ doing this dynamically in other methods.
-3. Do not pass around loggers as arguments to functions.
-4. Use `logger.contextualize(...)` for short-term bindings rather than assigning a logger to a class attribute.
-
-
-# Common Mistakes
-## Passing in arguments that have no format placeholders
-```python
-from loguru import logger
-
-logger.info("This is a log message", foo="bar") # Will not be formatted
-```
+## Examples
+See [test_movement.py](mdc:tests/evaluator/mutators/test_movement.py), [test_crafting.py](mdc:tests/evaluator/mutators/test_crafting.py), and [test_collection.py](mdc:tests/evaluator/mutators/test_collection.py) for reference implementations.
 
 ---
 > Source: [codezakh/onelife](https://github.com/codezakh/onelife) — distributed by [TomeVault](https://tomevault.io).
