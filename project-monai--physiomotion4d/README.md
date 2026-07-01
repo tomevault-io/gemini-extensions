@@ -7,13 +7,13 @@ Generate anatomic models in Omniverse with physiological motion derived from med
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Project-MONAI/physiomotion4d](https://github.com/Project-MONAI/physiomotion4d).
+Original source: `AGENTS.md` in [Project-MONAI/physiomotion4d](https://github.com/Project-MONAI/physiomotion4d).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
