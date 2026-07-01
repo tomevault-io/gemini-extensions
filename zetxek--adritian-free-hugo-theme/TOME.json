@@ -4,7 +4,7 @@
   "repo": "adritian-free-hugo-theme",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/zetxek/adritian-free-hugo-theme",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-30T18:53:52Z"
+  "distributed_at": "2026-07-01T09:23:41Z"
 }
