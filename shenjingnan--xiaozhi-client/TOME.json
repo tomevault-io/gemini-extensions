@@ -4,7 +4,7 @@
   "repo": "xiaozhi-client",
   "description": "\u5c0f\u667aAI\u5ba2\u6237\u7aef\uff0c\u76ee\u524d\u4e3b\u8981\u7528\u4e8eMCP\u7684\u5bf9\u63a5",
   "type": "tome",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -245,5 +245,5 @@
   ],
   "source_url": "https://github.com/shenjingnan/xiaozhi-client",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-01T02:47:07Z"
+  "distributed_at": "2026-07-01T02:47:33Z"
 }
