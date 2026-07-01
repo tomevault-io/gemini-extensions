@@ -2,17 +2,15 @@
 
 > Sourced from [ShaoHans/Abp.RadzenUI](https://github.com/ShaoHans/Abp.RadzenUI) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-💡Abp RadzenUI is a UI theme built on the Abp framework and developed using the Radzen Blazor component
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ShaoHans/Abp.RadzenUI](https://github.com/ShaoHans/Abp.RadzenUI).
+Original source: `AGENTS.md` in [ShaoHans/Abp.RadzenUI](https://github.com/ShaoHans/Abp.RadzenUI).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
