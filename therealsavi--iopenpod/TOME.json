@@ -2,9 +2,9 @@
   "name": "iOpenPod",
   "owner": "TheRealSavi",
   "repo": "iOpenPod",
-  "description": "Open source iPod sync tool - manage your iPod without iTunes",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/TheRealSavi/iOpenPod",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T09:54:41Z"
+  "distributed_at": "2026-07-01T16:49:03Z"
 }
