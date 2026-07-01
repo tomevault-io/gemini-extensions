@@ -1,0 +1,24 @@
+# aba
+
+> Tome by [sjbylo](https://github.com/sjbylo/aba) — distributed by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [sjbylo/aba](https://github.com/sjbylo/aba).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [sjbylo/aba](https://github.com/sjbylo/aba) — a repo with 35+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:t-e-s -->
