@@ -7,11 +7,11 @@ Claude Code plugin that delegates read-only review, adversarial review, free-for
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [linxule/kimi-plugin-cc](https://github.com/linxule/kimi-plugin-cc).
+Original source: `CLAUDE.md` in [linxule/kimi-plugin-cc](https://github.com/linxule/kimi-plugin-cc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
