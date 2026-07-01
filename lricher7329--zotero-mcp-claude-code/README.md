@@ -2,8 +2,6 @@
 
 > Tome by [lricher7329](https://github.com/lricher7329/zotero-mcp-claude-code) — distributed by [TomeVault](https://tomevault.io)
 
-Zotero MCP plugin with Claude Code compatibility - fork by lricher7329
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
