@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Makanz/chartjs-plugin-trendline](https://github.com/Makanz/chartjs-plugin-trendline).
+Original source: `AGENTS.md` in [Makanz/chartjs-plugin-trendline](https://github.com/Makanz/chartjs-plugin-trendline).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
