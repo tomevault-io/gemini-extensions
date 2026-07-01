@@ -7,12 +7,12 @@ Public repository of AI agent skills: specialized capabilities and workflows acr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [organvm/a-i--skills](https://github.com/organvm/a-i--skills).
+Original source: `AGENTS.md` in [organvm/a-i--skills](https://github.com/organvm/a-i--skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
