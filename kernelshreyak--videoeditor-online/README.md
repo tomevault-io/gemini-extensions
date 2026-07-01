@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kernelshreyak/videoeditor_online](https://github.com/kernelshreyak/videoeditor_online).
+Original source: `CLAUDE.md` in [kernelshreyak/videoeditor_online](https://github.com/kernelshreyak/videoeditor_online).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
