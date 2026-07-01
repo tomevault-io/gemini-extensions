@@ -2,16 +2,14 @@
 
 > Sourced from [ityonemo/clr](https://github.com/ityonemo/clr) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-Checker for Lifetimes and other Refinement types
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ityonemo/clr](https://github.com/ityonemo/clr).
+Original source: `AGENTS.md` in [ityonemo/clr](https://github.com/ityonemo/clr).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
