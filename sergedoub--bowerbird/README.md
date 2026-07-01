@@ -7,11 +7,11 @@ Simple personal knowledge with LLM Wiki as foundation adding automated content i
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [sergedoub/bowerbird](https://github.com/sergedoub/bowerbird).
+Original source: `CLAUDE.md` in [sergedoub/bowerbird](https://github.com/sergedoub/bowerbird).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
