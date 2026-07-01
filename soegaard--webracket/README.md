@@ -2,8 +2,6 @@
 
 > Tome by [soegaard](https://github.com/soegaard/webracket) — distributed by [TomeVault](https://tomevault.io)
 
-The WebRacket language is a subset of Racket that compiles to WebAssembly
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [soegaard/webracket](https://github.com/soegaard
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [soegaard/webracket](https://github.com/soegaard/webracket) — a repo with 120+ stars on GitHub.
+From [soegaard/webracket](https://github.com/soegaard/webracket) — a repo with 124+ stars on GitHub.
 
 ---
 
