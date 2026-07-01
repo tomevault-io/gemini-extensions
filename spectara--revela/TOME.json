@@ -4,7 +4,7 @@
   "repo": "Revela",
   "description": "Revela helps photographers create elegant websites to showcase their work with clarity and ease. The default theme is minimalist, placing images front and center. Lightweight and customizable.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Spectara/Revela",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-01T06:38:47Z"
+  "distributed_at": "2026-07-01T23:14:56Z"
 }
