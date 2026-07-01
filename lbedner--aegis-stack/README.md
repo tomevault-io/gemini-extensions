@@ -2,16 +2,14 @@
 
 > Source: [lbedner/aegis-stack](https://github.com/lbedner/aegis-stack) — distributed by [TomeVault](https://tomevault.io)
 
-A production-ready FastAPI platform with modular components and a built-in control plane.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lbedner/aegis-stack](https://github.com/lbedner/aegis-stack).
+Original source: `CLAUDE.md` in [lbedner/aegis-stack](https://github.com/lbedner/aegis-stack).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
