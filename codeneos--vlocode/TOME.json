@@ -4,7 +4,7 @@
   "repo": "vlocode",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Codeneos/vlocode",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-30T20:54:09Z"
+  "distributed_at": "2026-07-01T15:12:08Z"
 }
