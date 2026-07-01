@@ -2,16 +2,14 @@
 
 > Source: [Moyf/yearly-glance](https://github.com/Moyf/yearly-glance) — distributed by [TomeVault](https://tomevault.io)
 
-An obsidian plugin to build "year at a glance" view.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Moyf/yearly-glance](https://github.com/Moyf/yearly-glance).
+Original source: `AGENTS.md` in [Moyf/yearly-glance](https://github.com/Moyf/yearly-glance).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
