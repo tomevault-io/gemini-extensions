@@ -7,11 +7,11 @@ A collection of RSS Feeds for AI news and blog sites
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [alan-turing-institute/ai-rss-feeds](https://github.com/alan-turing-institute/ai-rss-feeds).
+Original source: `CLAUDE.md` in [alan-turing-institute/ai-rss-feeds](https://github.com/alan-turing-institute/ai-rss-feeds).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
