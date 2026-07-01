@@ -2,17 +2,15 @@
 
 > Sourced from [marcosomma/orka-reasoning](https://github.com/marcosomma/orka-reasoning) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-Orchestrator Kit for Agentic Reasoning - OrKa is a modular AI orchestration system that transforms Large Language Models (LLMs) into composable agents capable of reasoning, fact-checking, and constructing answers with transparent traceability.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [marcosomma/orka-reasoning](https://github.com/marcosomma/orka-reasoning).
+Original source: `AGENTS.md` in [marcosomma/orka-reasoning](https://github.com/marcosomma/orka-reasoning).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
