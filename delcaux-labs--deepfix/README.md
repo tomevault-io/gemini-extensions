@@ -7,12 +7,12 @@ DeepFix is a testing tool that automatically diagnoses common bugs in machine le
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [delcaux-labs/deepfix](https://github.com/delcaux-labs/deepfix).
+Original source: `AGENTS.md` in [delcaux-labs/deepfix](https://github.com/delcaux-labs/deepfix).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
