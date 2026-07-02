@@ -7,11 +7,11 @@ An MCP server and client for LLMs to interact with Unity Projects
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [akiojin/unity-editor-mcp](https://github.com/akiojin/unity-editor-mcp).
+Original source: `CLAUDE.md` in [akiojin/unity-editor-mcp](https://github.com/akiojin/unity-editor-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
