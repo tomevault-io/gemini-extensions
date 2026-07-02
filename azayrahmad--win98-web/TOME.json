@@ -4,7 +4,7 @@
   "repo": "win98-web",
   "description": "A pixel-perfect JavaScript recreation of Windows 98 for browser.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/azayrahmad/win98-web",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-01T14:31:51Z"
+  "distributed_at": "2026-07-02T01:11:38Z"
 }
