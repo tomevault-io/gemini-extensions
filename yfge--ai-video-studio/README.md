@@ -7,11 +7,11 @@ AI video production workflow platform for professional short drama teams. Timeli
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yfge/ai-video-studio](https://github.com/yfge/ai-video-studio).
+Original source: `CLAUDE.md` in [yfge/ai-video-studio](https://github.com/yfge/ai-video-studio).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
