@@ -7,11 +7,11 @@ Sanity.io & Next.js Starter template with live previews
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nuotsu/sanitypress](https://github.com/nuotsu/sanitypress).
+Original source: `CLAUDE.md` in [nuotsu/sanitypress](https://github.com/nuotsu/sanitypress).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
