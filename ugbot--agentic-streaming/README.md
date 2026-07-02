@@ -7,11 +7,11 @@ Agentic Streaming is for resilient pipelines of stateful agents over continuous 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Ugbot/Agentic-Streaming](https://github.com/Ugbot/Agentic-Streaming).
+Original source: `CLAUDE.md` in [Ugbot/Agentic-Streaming](https://github.com/Ugbot/Agentic-Streaming).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
