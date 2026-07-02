@@ -7,11 +7,11 @@ Self-hosted multi-tenant Workers platform on stock Cloudflare workerd with multi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wdl-dev/wdl](https://github.com/wdl-dev/wdl).
+Original source: `CLAUDE.md` in [wdl-dev/wdl](https://github.com/wdl-dev/wdl).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
