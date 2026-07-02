@@ -7,11 +7,11 @@ Odontóloga General integral 🦷 | Combinando la excelencia clínica con una id
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Frozmiz/cv-nur-cheikh](https://github.com/Frozmiz/cv-nur-cheikh).
+Original source: `AGENTS.md` in [Frozmiz/cv-nur-cheikh](https://github.com/Frozmiz/cv-nur-cheikh).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
