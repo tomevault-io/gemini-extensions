@@ -7,11 +7,11 @@ OpenAPI to MCP - 让 AI 助手直接调用任意 API
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [shenjingnan/api2mcp](https://github.com/shenjingnan/api2mcp).
+Original source: `CLAUDE.md` in [shenjingnan/api2mcp](https://github.com/shenjingnan/api2mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
