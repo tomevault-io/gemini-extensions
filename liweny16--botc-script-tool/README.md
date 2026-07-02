@@ -7,11 +7,11 @@ Free Blood on the Clocktower script layout beautifier & custom script generator.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LiWeny16/botc-script-tool](https://github.com/LiWeny16/botc-script-tool).
+Original source: `CLAUDE.md` in [LiWeny16/botc-script-tool](https://github.com/LiWeny16/botc-script-tool).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
