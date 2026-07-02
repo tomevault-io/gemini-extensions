@@ -7,11 +7,11 @@ AI Tarot Reading Platform - Interactive readings with AI chat, multiple decks, a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [vanloc1808/arcana-ai](https://github.com/vanloc1808/arcana-ai).
+Original source: `CLAUDE.md` in [vanloc1808/arcana-ai](https://github.com/vanloc1808/arcana-ai).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
