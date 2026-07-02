@@ -7,11 +7,11 @@ A flexible framework for self-consistent EM-molecular simulations, powered by AI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TaoELi/MaxwellLink](https://github.com/TaoELi/MaxwellLink).
+Original source: `CLAUDE.md` in [TaoELi/MaxwellLink](https://github.com/TaoELi/MaxwellLink).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
