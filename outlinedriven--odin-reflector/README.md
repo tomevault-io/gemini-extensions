@@ -7,11 +7,11 @@ Codex CLI meta-reflection layer for Outline-Driven Development. Add-on for the C
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [OutlineDriven/odin-reflector](https://github.com/OutlineDriven/odin-reflector).
+Original source: `AGENTS.md` in [OutlineDriven/odin-reflector](https://github.com/OutlineDriven/odin-reflector).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
