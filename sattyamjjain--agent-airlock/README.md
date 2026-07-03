@@ -7,11 +7,11 @@ A deny-by-default contract & type-checker layer for AI agent tool calls — Pyda
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sattyamjjain/agent-airlock](https://github.com/sattyamjjain/agent-airlock).
+Original source: `AGENTS.md` in [sattyamjjain/agent-airlock](https://github.com/sattyamjjain/agent-airlock).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
