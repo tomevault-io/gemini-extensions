@@ -4,7 +4,7 @@
   "repo": "c8volt",
   "description": "c8volt is a Camunda CLI for Camunda 8 operations.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/grafvonb/c8volt",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-03T22:31:35Z"
+  "distributed_at": "2026-07-03T22:33:32Z"
 }
