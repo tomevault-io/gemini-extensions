@@ -2,9 +2,9 @@
   "name": "scarf",
   "owner": "awizemann",
   "repo": "scarf",
-  "description": "Native macOS GUI for the Hermes AI agent \u2014 multi-window, multi-server (local + remote over SSH). Chat, dashboard, sessions, memory, cron, MCP, and more.",
-  "type": "config",
-  "source_format": "CLAUDE.md",
+  "description": "",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "scarf",
+      "path": "scarf/scarf/Resources/BuiltinSkills.bundle/scarf-template-author/SKILL.md",
+      "github_url": "https://github.com/awizemann/scarf/tree/main/scarf/scarf/Resources/BuiltinSkills.bundle/scarf-template-author/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "scarf",
+      "path": "templates/awizemann/template-author/staging/skills/scarf-template-author/SKILL.md",
+      "github_url": "https://github.com/awizemann/scarf/tree/main/templates/awizemann/template-author/staging/skills/scarf-template-author/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/awizemann/scarf",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-29T23:49:52Z"
+  "distributed_at": "2026-07-03T06:47:56Z"
 }
