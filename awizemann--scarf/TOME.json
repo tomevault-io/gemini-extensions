@@ -4,7 +4,7 @@
   "repo": "scarf",
   "description": "",
   "type": "tome",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/awizemann/scarf",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-03T06:48:55Z"
+  "distributed_at": "2026-07-03T06:49:22Z"
 }
