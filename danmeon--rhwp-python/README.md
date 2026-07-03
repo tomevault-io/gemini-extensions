@@ -7,11 +7,11 @@ PyO3 Python bindings for rhwp — parser and renderer for HWP/HWPX documents (Ko
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DanMeon/rhwp-python](https://github.com/DanMeon/rhwp-python).
+Original source: `CLAUDE.md` in [DanMeon/rhwp-python](https://github.com/DanMeon/rhwp-python).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
