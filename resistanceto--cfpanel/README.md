@@ -7,12 +7,12 @@ A native iOS client for managing Cloudflare from iPhone and iPad, built for fast
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ResistanceTo/CFPanel](https://github.com/ResistanceTo/CFPanel).
+Original source: `AGENTS.md` in [ResistanceTo/CFPanel](https://github.com/ResistanceTo/CFPanel).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
