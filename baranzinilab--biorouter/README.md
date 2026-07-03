@@ -7,12 +7,12 @@ Foundational AI Platform for Biomedical Research Allowing Agents built by the Co
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [BaranziniLab/biorouter](https://github.com/BaranziniLab/biorouter).
+Original source: `AGENTS.md` in [BaranziniLab/biorouter](https://github.com/BaranziniLab/biorouter).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
