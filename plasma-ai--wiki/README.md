@@ -7,11 +7,11 @@ Indexed knowledge bases with command-line tools for agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [plasma-ai/wiki](https://github.com/plasma-ai/wiki).
+Original source: `CLAUDE.md` in [plasma-ai/wiki](https://github.com/plasma-ai/wiki).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
