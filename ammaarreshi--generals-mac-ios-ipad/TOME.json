@@ -4,7 +4,7 @@
   "repo": "Generals-Mac-iOS-iPad",
   "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad \u2014 real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-04T21:30:40Z"
+  "distributed_at": "2026-07-04T21:31:08Z"
 }
