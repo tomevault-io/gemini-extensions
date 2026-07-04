@@ -7,11 +7,11 @@ The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [off-grid-ai/off-grid-ai-mobile](https://github.com/off-grid-ai/off-grid-ai-mobile).
+Original source: `CLAUDE.md` in [off-grid-ai/off-grid-ai-mobile](https://github.com/off-grid-ai/off-grid-ai-mobile).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
