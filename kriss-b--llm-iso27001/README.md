@@ -7,11 +7,11 @@ ISO 27001 ISMS template designed to be instantiated and maintained by an LLM Age
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kriss-b/llm-iso27001](https://github.com/kriss-b/llm-iso27001).
+Original source: `CLAUDE.md` in [kriss-b/llm-iso27001](https://github.com/kriss-b/llm-iso27001).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
