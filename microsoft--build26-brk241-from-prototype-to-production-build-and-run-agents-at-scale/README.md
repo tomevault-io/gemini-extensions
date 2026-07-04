@@ -7,12 +7,12 @@ Engineering patterns for taking AI agents to production — deployment, tools, m
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/Build26-BRK241-from-prototype-to-production-build-and-run-agents-at-scale](https://github.com/microsoft/Build26-BRK241-from-prototype-to-production-build-and-run-agents-at-scale).
+Original source: `AGENTS.md` in [microsoft/Build26-BRK241-from-prototype-to-production-build-and-run-agents-at-scale](https://github.com/microsoft/Build26-BRK241-from-prototype-to-production-build-and-run-agents-at-scale).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
