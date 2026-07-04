@@ -7,12 +7,12 @@ Agent Skills for AceDataCloud AI services — music, image, video generation, we
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [AceDataCloud/Skills](https://github.com/AceDataCloud/Skills).
+Original source: `AGENTS.md` in [AceDataCloud/Skills](https://github.com/AceDataCloud/Skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
