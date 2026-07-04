@@ -1,30 +1,53 @@
-## code
+## documentation
 
-> Code quality conventions. Apply when writing, editing, or reviewing any source code file.
+> Documentation conventions. Apply when creating or editing any documentation file.
 
 
-## Code Quality Conventions
+## Documentation Conventions
 
-Follow the best practices defined in:
+### Single source of truth
 
-- General standards: `docs/best-practices/1-general.md`
-- Version control: `docs/best-practices/2-version-control.md`
-- Testing: `docs/best-practices/3-testing.md`
-- Stack-specific: `docs/best-practices/STACK-SPECIFIC.md`
+Every piece of information lives in exactly one place. Before adding content:
+1. Check if it already exists somewhere in `docs/`
+2. If it exists, reference it — don't duplicate it
+3. If it doesn't exist, add it in the most appropriate file
 
-### Key rules (quick reference)
+### Document boundaries
 
-- Follow the principle of least surprise — write code that does what it looks like it does
-- One logical responsibility per function
-- No dead code, no commented-out code
-- No unilateral refactoring outside the scope of the current task
-- Validate at system boundaries (user input, external APIs); trust internal code
-- Never commit secrets, API keys, or credentials
-- Fix all lint errors before committing — do not suppress warnings without justification
+| File/Directory | Contains |
+|---|---|
+| `README.md` | Project overview, quick start, repo map |
+| `AGENTS.md` | AI agent guidance, commands, key conventions |
+| `docs/project/` | Project-specific context (domain, architecture, stack, DB) |
+| `docs/best-practices/` | Coding standards and conventions |
+| `docs/workflow/development-workflow/` | Workflow protocols, templates, integrations |
+| `docs/specs/developments/` | Feature specs and implementation plans |
+| `docs/testing/` | Smoke test runbooks |
 
-### When you find a convention not documented
+### Cross-referencing
 
-If you consistently follow a pattern not yet documented in `docs/best-practices/`, add it. Keep best practice docs up to date — they are read by AI agents on every task.
+Prefer references over duplication:
+
+```markdown
+<!-- Good -->
+For database conventions, see [`docs/best-practices/STACK-SPECIFIC.md`](../best-practices/STACK-SPECIFIC.md).
+
+<!-- Bad -->
+[Copying the entire database conventions section here]
+```
+
+### Placeholder discipline
+
+- Use `> TODO: [specific question]` for content that needs to be filled in
+- Never leave generic placeholder text (e.g., "[Description]") after setup is complete
+- If a section doesn't apply to the project, delete it rather than leaving it empty
+
+### Writing style
+
+- Write for AI readers as well as humans — be specific and unambiguous
+- Prefer tables over long prose for structured information
+- Use code blocks for commands, file paths, and code examples
+- Keep docs concise — AI agents read these on every task
 
 ---
 > Source: [lhpaul/ai-dev-framework-template](https://github.com/lhpaul/ai-dev-framework-template) — distributed by [TomeVault](https://tomevault.io).
