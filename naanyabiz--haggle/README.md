@@ -7,11 +7,11 @@ AGL Australia smart meter -> Home Assistant Energy dashboard (Claude-generated c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [NaanyaBiz/haggle](https://github.com/NaanyaBiz/haggle).
+Original source: `AGENTS.md` in [NaanyaBiz/haggle](https://github.com/NaanyaBiz/haggle).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
