@@ -4,7 +4,7 @@
   "repo": "Build26-BRK241-from-prototype-to-production-build-and-run-agents-at-scale",
   "description": "Engineering patterns for taking AI agents to production \u2014 deployment, tools, memory, long-running work, human oversight, and observability at scale. From Microsoft Build 2026.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/Build26-BRK241-from-prototype-to-production-build-and-run-agents-at-scale",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-04T04:34:06Z"
+  "distributed_at": "2026-07-04T04:38:31Z"
 }
