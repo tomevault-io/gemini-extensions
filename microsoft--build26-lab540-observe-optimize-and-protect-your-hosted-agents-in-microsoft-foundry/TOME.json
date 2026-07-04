@@ -4,7 +4,7 @@
   "repo": "Build26-LAB540-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry",
   "description": "Workshop : Observe, optimize and protect your hosted agents in Microsoft Foundry ",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/Build26-LAB540-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-04T04:31:17Z"
+  "distributed_at": "2026-07-04T04:32:12Z"
 }
