@@ -7,11 +7,11 @@ Edge-Hardware (SoC/MCU) oriented Claw🦞
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tuya/TuyaOpenClaw](https://github.com/tuya/TuyaOpenClaw).
+Original source: `CLAUDE.md` in [tuya/TuyaOpenClaw](https://github.com/tuya/TuyaOpenClaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
