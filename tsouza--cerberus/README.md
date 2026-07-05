@@ -7,11 +7,11 @@ Drop-in Prometheus / Loki / Tempo HTTP gateway for ClickHouse. Translate PromQL,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [tsouza/cerberus](https://github.com/tsouza/cerberus).
+Original source: `AGENTS.md` in [tsouza/cerberus](https://github.com/tsouza/cerberus).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
