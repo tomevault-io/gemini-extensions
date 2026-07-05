@@ -7,12 +7,12 @@ AI-powered toolkit for Microsoft Agent Framework (MAF) migrations — agents, sk
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [joslat/maf-doctor](https://github.com/joslat/maf-doctor).
+Original source: `AGENTS.md` in [joslat/maf-doctor](https://github.com/joslat/maf-doctor).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
