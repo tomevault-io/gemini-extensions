@@ -7,11 +7,11 @@ TradingView Desktop MCP — Fortuna trading system working copy. Upstream: Lewis
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [drasticstatic/tradingview-mcp-jackson](https://github.com/drasticstatic/tradingview-mcp-jackson).
+Original source: `AGENTS.md` in [drasticstatic/tradingview-mcp-jackson](https://github.com/drasticstatic/tradingview-mcp-jackson).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
