@@ -7,11 +7,11 @@ Spec-driven creative writing, publishing, and translation pipeline for AI coding
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hannsxpeter/scriveno](https://github.com/hannsxpeter/scriveno).
+Original source: `AGENTS.md` in [hannsxpeter/scriveno](https://github.com/hannsxpeter/scriveno).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
