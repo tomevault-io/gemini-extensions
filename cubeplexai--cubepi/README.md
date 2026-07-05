@@ -7,11 +7,11 @@ CubePi — An async-first Python agent kernel inspired by Pi, built for coding a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cubeplexai/cubepi](https://github.com/cubeplexai/cubepi).
+Original source: `AGENTS.md` in [cubeplexai/cubepi](https://github.com/cubeplexai/cubepi).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
