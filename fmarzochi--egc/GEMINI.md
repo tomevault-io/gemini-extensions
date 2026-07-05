@@ -1,0 +1,24 @@
+## egc-context
+
+> EGC project memory (auto-updated by update_state)
+
+
+## EGC Project Memory
+
+**Context:** EGC é um MCP server de memória persistente para agentes de IA (Claude Code, Cursor, Codex, Gemini CLI). Fase atual: pós-security-hardening, testando integração com Pincushion.
+
+**Active decisions:**
+- Pincushion MCP adicionado ao Claude Code via: claude mcp add pincushion -- npx pincushion-mcp --project-dir . --cloud-sync
+- Não adicionar gh ao guardian allowlist
+- Todos os emails @pincushion.io bloqueiam (554 relay denied)
+
+**Next session:**
+- PINCUSHION: reiniciar Claude Code e verificar se pincushion-mcp inicializa com --cloud-sync sem erro OAuth. Se funcionar, rodar configure_project com URLs: local http://localhost:4321, prod https://fmarzochi.github.io/EGCSite
+- PINCUSHION: Josh só pode ser contactado via LinkedIn DM (cooleyjosh) -- DM enviada em 26/06 aguardando resposta
+- Commitar 4 arquivos modificados: .cursor/rules/egc-context.mdc, .trae/rules/egc-context.md, AGENTS.md, GEMINI.md
+- Contributors.md Obsidian: adicionar Vincent Gao (gaoflow) -- PR #404 mergeado em 22/06
+- Testes unitarios para sanitize.ts (13 padroes de injeção)
+
+---
+> Source: [Fmarzochi/EGC](https://github.com/Fmarzochi/EGC) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-04 -->
