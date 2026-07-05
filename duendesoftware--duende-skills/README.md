@@ -7,11 +7,11 @@ A set of skills focused on helping agents build Duende IdentityServer solutions.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [DuendeSoftware/duende-skills](https://github.com/DuendeSoftware/duende-skills).
+Original source: `AGENTS.md` in [DuendeSoftware/duende-skills](https://github.com/DuendeSoftware/duende-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
