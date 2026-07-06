@@ -7,11 +7,11 @@ Chrome extension that filters your Facebook newsfeed to show only posts from you
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PercyPham/FriendFocus](https://github.com/PercyPham/FriendFocus).
+Original source: `CLAUDE.md` in [PercyPham/FriendFocus](https://github.com/PercyPham/FriendFocus).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
