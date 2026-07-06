@@ -7,12 +7,12 @@ analysis vmcore
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [wubo0067/ai-app-hub](https://github.com/wubo0067/ai-app-hub).
+Original source: `CLAUDE.md` in [wubo0067/ai-app-hub](https://github.com/wubo0067/ai-app-hub).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
