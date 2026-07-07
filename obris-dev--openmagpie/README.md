@@ -7,11 +7,11 @@ Open-source, self-hostable social listening tool that surfaces the conversations
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [obris-dev/openmagpie](https://github.com/obris-dev/openmagpie).
+Original source: `CLAUDE.md` in [obris-dev/openmagpie](https://github.com/obris-dev/openmagpie).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
