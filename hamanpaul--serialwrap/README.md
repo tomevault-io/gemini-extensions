@@ -7,12 +7,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hamanpaul/serialwrap](https://github.com/hamanpaul/serialwrap).
+Original source: `copilot-instructions.md` in [hamanpaul/serialwrap](https://github.com/hamanpaul/serialwrap).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
