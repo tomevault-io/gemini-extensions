@@ -7,11 +7,11 @@ AI 驱动的任务引擎
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [weibaohui/ntd](https://github.com/weibaohui/ntd).
+Original source: `AGENTS.md` in [weibaohui/ntd](https://github.com/weibaohui/ntd).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
