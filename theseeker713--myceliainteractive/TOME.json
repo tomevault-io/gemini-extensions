@@ -4,7 +4,7 @@
   "repo": "myceliainteractive",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/TheSeeker713/myceliainteractive",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-07T22:34:27Z"
+  "distributed_at": "2026-07-07T22:37:26Z"
 }
