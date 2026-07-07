@@ -7,13 +7,13 @@ Redface 2 — Le futur client Android pour Hardware.fr. Spécifications, archite
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [ForumHFR/redface2](https://github.com/ForumHFR/redface2).
+Original source: `AGENTS.md` in [ForumHFR/redface2](https://github.com/ForumHFR/redface2).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
