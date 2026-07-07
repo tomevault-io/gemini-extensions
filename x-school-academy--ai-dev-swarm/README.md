@@ -7,11 +7,11 @@ A swarm of AI developers building your product
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [X-School-Academy/ai-dev-swarm](https://github.com/X-School-Academy/ai-dev-swarm).
+Original source: `CLAUDE.md` in [X-School-Academy/ai-dev-swarm](https://github.com/X-School-Academy/ai-dev-swarm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
