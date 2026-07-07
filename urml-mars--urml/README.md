@@ -7,11 +7,11 @@ The specification, reference runtimes, validator, LLM bridge, and conformance su
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [URML-MARS/URML](https://github.com/URML-MARS/URML).
+Original source: `CLAUDE.md` in [URML-MARS/URML](https://github.com/URML-MARS/URML).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
