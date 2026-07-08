@@ -7,11 +7,11 @@ The AI agentic designer — open-source React design system + MCP that lets Clau
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [mahmoudilyan/marmoui](https://github.com/mahmoudilyan/marmoui).
+Original source: `AGENTS.md` in [mahmoudilyan/marmoui](https://github.com/mahmoudilyan/marmoui).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
