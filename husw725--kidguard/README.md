@@ -1,0 +1,26 @@
+# KidGuard
+
+> Source: [husw725/KidGuard](https://github.com/husw725/KidGuard) — distributed by [TomeVault](https://tomevault.io)
+
+小朋友做题解锁手机
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [husw725/KidGuard](https://github.com/husw725/KidGuard).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/husw725/KidGuard](https://github.com/husw725/KidGuard)
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:d-e-p -->
