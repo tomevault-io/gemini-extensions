@@ -7,11 +7,11 @@ Family night for super famille
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [emmadevdup/family-movie-night](https://github.com/emmadevdup/family-movie-night).
+Original source: `CLAUDE.md` in [emmadevdup/family-movie-night](https://github.com/emmadevdup/family-movie-night).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
