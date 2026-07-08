@@ -7,11 +7,11 @@ Low-latency market data infrastructure — real-time L2 order book streaming fro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [RigpaLabs/fathom](https://github.com/RigpaLabs/fathom).
+Original source: `CLAUDE.md` in [RigpaLabs/fathom](https://github.com/RigpaLabs/fathom).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
