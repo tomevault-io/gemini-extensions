@@ -7,12 +7,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Fantasy-XY808/Soto-Player-Community](https://github.com/Fantasy-XY808/Soto-Player-Community).
+Original source: `CLAUDE.md` in [Fantasy-XY808/Soto-Player-Community](https://github.com/Fantasy-XY808/Soto-Player-Community).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
