@@ -4,7 +4,7 @@
   "repo": "lucide-icons-mcp-server",
   "description": "MCP server for Lucide Icons \u2014 search docs, props, and code examples from any AI coding assistant",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/matracey/lucide-icons-mcp-server",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-08T11:46:31Z"
+  "distributed_at": "2026-07-08T13:42:23Z"
 }
