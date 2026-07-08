@@ -7,11 +7,11 @@ This is an event tracker for the Ticoblockchain event of 2026.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Gerson2102/ticoblockchain-event-tracker](https://github.com/Gerson2102/ticoblockchain-event-tracker).
+Original source: `CLAUDE.md` in [Gerson2102/ticoblockchain-event-tracker](https://github.com/Gerson2102/ticoblockchain-event-tracker).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
