@@ -7,11 +7,11 @@ BOSS直聘候选人自动筛选工具：自动滚动获取、智能评分匹配�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yaoyouzhong/boss-resume-filter](https://github.com/yaoyouzhong/boss-resume-filter).
+Original source: `AGENTS.md` in [yaoyouzhong/boss-resume-filter](https://github.com/yaoyouzhong/boss-resume-filter).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
