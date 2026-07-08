@@ -1,50 +1,23 @@
 ## aictx
 
-> - `aictx` is the distributable multi-LLM installer/runtime layer for `.aictx_*`.
-
-# AGENTS Instructions for `aictx`
-
-- `aictx` is the distributable multi-LLM installer/runtime layer for `.aictx_*`.
-- Local filesystem artifacts are created by scripting/runtime, never by the LLM.
-- Prefer eager scaffold semantics: structure exists immediately after `aictx init`.
-- Cross-project behavior must come from workspace registry/config, never hardcoded machine paths.
-- For subsystem changes, validate with `python3 -m aictx internal migrate`, `internal boot`, `internal query`, `internal packet`, `internal memory-graph --refresh`, and `report real-usage --repo <repo>` when relevant.
+> These are repository custom instructions for GitHub Copilot. AICTX cannot force Copilot to run commands, but Copilot should follow this lifecycle whenever command execution is available.
 
 <!-- AICTX:START -->
-## AI Context Engine
+# AICTX GitHub Copilot integration
 
-This repository is initialized for `aictx`.
+These are repository custom instructions for GitHub Copilot. AICTX cannot force Copilot to run commands, but Copilot should follow this lifecycle whenever command execution is available.
 
-Agent rules:
-- Enter the runtime middleware for every execution in initialized repos.
-- The AICTX lifecycle remains `prepare/startup context → resume capsule → work → finalize → final AICTX summary/persistence`.
-- MCP-first startup:
-  1. If AICTX MCP tools are already visible, use MCP tools for resume/finalize.
-  2. If AICTX MCP tools are not visible but `.mcp.json` or `.vscode/mcp.json` exists, first use runner tool discovery when available (for example search for `aictx resume finalize lifecycle`) so lazy-loaded MCP namespaces can attach, then have the runner attach/start the configured stdio MCP server before the first AICTX command of each new session.
-  3. If MCP tools still are not attached after discovery/attachment, state that MCP config exists but tools are unavailable in this runner and use the CLI fallback.
-- At session start:
-  1. Extract the task goal from the user prompt.
-  2. Run exactly one AICTX continuity command: MCP resume when available, otherwise `aictx resume --repo . --task "<task goal>" --json`.
-  3. Do not pass the full user prompt to resume; exclude reporting instructions, metrics schemas, output format rules, final answer format, benchmark/evaluation harness text, logging instructions, and meta-instructions about how to report the work.
-- After task work, run exactly one AICTX finalization command: MCP finalize when available, otherwise `aictx finalize --repo . --status success|failure --summary "<what happened>" --json`.
-- Use the returned continuity capsule as the operational brief during normal agent startup; follow `execution_contract.first_action` before repo-wide orientation, edit within `execution_contract.edit_scope`, run `execution_contract.test_command.command`, then finalize.
-- Render exactly one startup banner source: normal agent startup uses `resume.startup_banner_text` or `resume.startup_banner_render_payload`; wrapped execution uses `prepare_execution().startup_banner_text` or `prepare_execution().startup_banner_render_payload`. Do not render both.
-- `resume` is the canonical agent-facing continuity query; it does not replace `prepare_execution`, `aictx finalize`, the startup banner, the final AICTX summary, or persistence.
-- Do not inspect `.aictx/`.
-- Do not run exploratory AICTX commands.
-- Do not run `aictx internal`, `aictx -h`, `aictx reuse`, `aictx suggest`, `aictx next`, `aictx task`, `aictx messages`, `aictx reflect`, or `aictx report` during normal task startup unless the user asks for AICTX diagnostics, the task is about AICTX itself, resume is missing/corrupt/contradictory, or finalization/update lifecycle requires it.
-- On the first execution of each visible session, always show the startup banner at the start of the first substantive user-visible response; do not consume it with a transient progress/status message that will be omitted from the final task response. Render the selected resume/prepare startup banner in the current user language. When the selected startup banner policy points to a structured render payload, prefer that structured payload for localization and use compact text only as the fallback source. You may fully rephrase human-readable prose from structured factual fields while preserving exact facts, file paths, commands, flags, package names, test names, code identifiers, and other technical tokens; do not add, remove, reorder, reinterpret, or invent facts. If first-session text is missing, render `{agent_label} · session #{session_count} · awake` from selected identity fields. Do not render it again after `already_shown` is true.
-- Use `aictx finalize --repo . --status success|failure --summary "<what happened>" --json` for normal agent finalization. finalize_execution is the middleware API behind that command; do not call it directly from the shell. Do not run `aictx internal execution finalize` during normal task flow.
-- After finalize, append the AICTX final summary to the final user response, using `agent_summary_text` as the compact fallback user-facing source. When `agent_summary_policy.render_payload_field` points to `agent_summary_render_payload`, prefer that structured payload for localization while preserving exact facts, technical tokens, and the details/continuity link targets. Render every provided summary section, including `details`, `continuity_view_file`, and `continuity_view_online`; do not replace Mermaid URLs with placeholders and do not manually reconstruct or retype pako URLs.
-- If no finalize output exists, say `AICTX summary unavailable`.
-- Use the `aictx resume` capsule before deeper repo analysis.
-- `.aictx/memory/source/` is editable source knowledge; do not hand-edit generated derived artifacts under `.aictx/boot`, `.aictx/store`, `.aictx/indexes`, `.aictx/metrics`, and similar runtime folders.
-- Use `resume.runtime_text_policy` / `resume.communication_policy`, `prepared.runtime_text_policy`, `prepared.startup_banner_policy`, and `finalized.agent_summary_policy` when available.
-- You may enrich AICTX-originated user-visible texts if helpful, but you must preserve real facts and never invent missing data.
-- Advanced/diagnostic/building-block commands remain available for humans and diagnostics, but normal agents should not use them during startup.
+Critical lifecycle:
+- Prefer AICTX MCP tools when available; fall back to AICTX CLI commands otherwise.
+- MCP-first startup: if AICTX MCP tools are already visible, use those tools for resume/finalize. If they are not visible but `.mcp.json` or `.vscode/mcp.json` exists, first use the runner tool-discovery mechanism when available (for example search for `aictx resume finalize lifecycle`) so lazy-loaded MCP namespaces can attach, then have the runner attach/start the configured stdio MCP server before the first AICTX command of each new session. If MCP tools still are not attached after discovery/attachment, state that MCP config exists but tools are unavailable in this runner and use the CLI fallback.
+- For non-trivial repository tasks, first run exactly once: `aictx resume --repo . --task "<task goal>" --agent-id copilot --adapter-id copilot-vscode --json`.
+- Use the returned resume capsule as the operational brief before broad repo scanning.
+- Before the final response, run exactly once: `aictx finalize --repo . --status success|failure --summary "<what happened>" --agent-id copilot --adapter-id copilot-vscode --json`.
+- Append the AICTX final summary from finalize when available. Render every provided summary section, including `details`, `continuity_view_file`, and `continuity_view_online`; preserve Continuity View file links and Mermaid online view links; do not replace URLs with placeholders and do not manually reconstruct or retype pako URLs. If command execution is unavailable, say that the AICTX lifecycle could not be executed.
+- Do not inspect `.aictx/` directly during normal startup; use `aictx resume`.
+- Do not run exploratory AICTX commands during normal startup.
 
-Detailed runtime instructions:
-- `.aictx/agent_runtime.md`
+Verification tip: in Copilot Chat, expand response References and confirm `.github/copilot-instructions.md` is listed.
 <!-- AICTX:END -->
 
 ---
