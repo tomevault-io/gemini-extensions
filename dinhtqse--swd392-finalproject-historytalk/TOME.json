@@ -4,7 +4,7 @@
   "repo": "SWD392_FinalProject_HistoryTalk",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/DinhTQSE/SWD392_FinalProject_HistoryTalk",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-08T11:42:19Z"
+  "distributed_at": "2026-07-08T12:31:09Z"
 }
