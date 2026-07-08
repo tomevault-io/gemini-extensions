@@ -7,11 +7,11 @@ Landing site for Sandy Brook DevWorks Lab Projects
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Sandy-Brook-DevWorks-LLC/sandy-brook-labs](https://github.com/Sandy-Brook-DevWorks-LLC/sandy-brook-labs).
+Original source: `CLAUDE.md` in [Sandy-Brook-DevWorks-LLC/sandy-brook-labs](https://github.com/Sandy-Brook-DevWorks-LLC/sandy-brook-labs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
