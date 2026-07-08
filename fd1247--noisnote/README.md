@@ -7,11 +7,11 @@ windows桌面应用：录制系统声音，本地ASR转录，LLM生成总结
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [fd1247/NoisNote](https://github.com/fd1247/NoisNote).
+Original source: `AGENTS.md` in [fd1247/NoisNote](https://github.com/fd1247/NoisNote).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
