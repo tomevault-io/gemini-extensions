@@ -7,11 +7,11 @@ A command-line tool for bulk operations on your Rekordbox library
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jviall/rekordbox-edit](https://github.com/jviall/rekordbox-edit).
+Original source: `CLAUDE.md` in [jviall/rekordbox-edit](https://github.com/jviall/rekordbox-edit).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
