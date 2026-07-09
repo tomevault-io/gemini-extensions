@@ -4,7 +4,7 @@
   "repo": "instro",
   "description": "Nominal's open-source library for hardware test instrumentation",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/nominal-io/instro",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-08T23:30:59Z"
+  "distributed_at": "2026-07-09T00:32:36Z"
 }
