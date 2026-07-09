@@ -7,13 +7,13 @@ a vendor-neutral runtime protocol for autonomous AI coding agents persistent mem
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [jackofall1232/l00prite](https://github.com/jackofall1232/l00prite).
+Original source: `.cursor/rules/*.mdc` in [jackofall1232/l00prite](https://github.com/jackofall1232/l00prite).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
