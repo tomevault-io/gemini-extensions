@@ -7,11 +7,11 @@ Stop discovering requirements during implementation. Manifold makes constraints 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dhanesh/manifold](https://github.com/dhanesh/manifold).
+Original source: `AGENTS.md` in [dhanesh/manifold](https://github.com/dhanesh/manifold).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
