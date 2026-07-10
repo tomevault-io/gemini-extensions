@@ -7,11 +7,11 @@ Unified Stellar-ecosystem MCP gateway: search + execute over a unified service c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kalepail/stellar-raven](https://github.com/kalepail/stellar-raven).
+Original source: `AGENTS.md` in [kalepail/stellar-raven](https://github.com/kalepail/stellar-raven).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
