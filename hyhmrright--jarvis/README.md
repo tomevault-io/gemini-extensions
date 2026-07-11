@@ -7,11 +7,11 @@ Self-hosted AI OS: RAG · multi-LLM failover · visual Workflow Studio · Skill 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hyhmrright/JARVIS](https://github.com/hyhmrright/JARVIS).
+Original source: `AGENTS.md` in [hyhmrright/JARVIS](https://github.com/hyhmrright/JARVIS).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
