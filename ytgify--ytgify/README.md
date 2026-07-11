@@ -7,11 +7,11 @@ A Chrome Extension that lets you easily create custom GIFs from YouTube videos
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ytgify/ytgify](https://github.com/ytgify/ytgify).
+Original source: `CLAUDE.md` in [ytgify/ytgify](https://github.com/ytgify/ytgify).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
