@@ -7,11 +7,11 @@ A fast, dependency-free native Git client for Windows. C++20, Direct2D, direct g
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [GSonofNun/GitSmarter](https://github.com/GSonofNun/GitSmarter).
+Original source: `AGENTS.md` in [GSonofNun/GitSmarter](https://github.com/GSonofNun/GitSmarter).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
