@@ -7,11 +7,11 @@ Claude and Codex Project Management GUI with worktrees, resuming chats, git mana
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zafnz/cc-insights](https://github.com/zafnz/cc-insights).
+Original source: `CLAUDE.md` in [zafnz/cc-insights](https://github.com/zafnz/cc-insights).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
