@@ -7,11 +7,11 @@ audio.cpp with a full-task WebUI - pure C++ audio-model inference engine powered
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kigner/audio.cpp-webui](https://github.com/kigner/audio.cpp-webui).
+Original source: `CLAUDE.md` in [kigner/audio.cpp-webui](https://github.com/kigner/audio.cpp-webui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
