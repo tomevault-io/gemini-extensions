@@ -7,13 +7,13 @@ Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tau
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [dickwu/apple-design-skill](https://github.com/dickwu/apple-design-skill).
+Original source: `AGENTS.md` in [dickwu/apple-design-skill](https://github.com/dickwu/apple-design-skill).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
