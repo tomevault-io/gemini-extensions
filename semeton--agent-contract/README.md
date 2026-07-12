@@ -7,11 +7,11 @@ A deterministic contract layer between humans and coding agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Semeton/agent-contract](https://github.com/Semeton/agent-contract).
+Original source: `AGENTS.md` in [Semeton/agent-contract](https://github.com/Semeton/agent-contract).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
