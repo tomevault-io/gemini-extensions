@@ -1,137 +1,113 @@
-## 01-architecture
+## 03-frontend-react-antd-pro
 
-> TradeMind architecture layering, module boundaries, provider abstraction, and project structure
+> Frontend development rules for React, TypeScript, Ant Design Pro, ProTable, ProForm, API calls, and state
 
 
-# 架构规则
+# React + Ant Design Pro 前端开发规则
 
-## 推荐总体架构
+## 技术栈
 
-```text
-React + Ant Design Pro
-        ↓
-Go Gin API
-        ↓
-PostgreSQL（默认；MySQL 可选）
-        ↓
-Redis Queue
-        ↓
-Node Playwright Collector
-```
+前端后台统一使用：
 
-## Provider 扩展架构
+- React
+- TypeScript
+- Ant Design Pro
+- Ant Design
+- ProTable
+- ProForm
 
-业务模块不得直接依赖具体第三方实现，必须通过 Provider 抽象接入。
+## 页面职责
 
-```text
-Go Gin API
-   ├── Storage Provider
-   │     ├── local
-   │     ├── s3
-   │     ├── cos
-   │     ├── oss
-   │     └── r2
-   │
-   ├── AI Provider
-   │     ├── openai-compatible
-   │     ├── deepseek
-   │     ├── qwen
-   │     ├── doubao
-   │     ├── gemini
-   │     ├── claude
-   │     └── ollama
-   │
-   ├── Image Provider
-   │     ├── local
-   │     ├── removebg
-   │     ├── openai-image
-   │     ├── comfyui
-   │     ├── flux
-   │     └── jimeng
-   │
-   ├── Platform Provider
-   │     ├── tiktok
-   │     ├── shopee
-   │     ├── lazada
-   │     ├── shopify
-   │     └── amazon
-   │
-   └── Collector Provider
-         ├── 1688
-         ├── taobao
-         ├── pdd
-         ├── shein
-         └── custom
-```
+后台页面包括：
 
-## 推荐目录结构
+- Dashboard
+- 商品中心
+- 商品采集
+- AI 工具
+- AI Prompt 配置
+- 图片管理
+- 店铺管理
+- 系统设置
+- 任务中心
+- 日志查看
+
+## 基础规则
+
+- 所有页面必须使用 TypeScript。
+- 表格优先使用 ProTable。
+- 表单优先使用 ProForm。
+- 页面中不直接散写 fetch/axios 请求。
+- API 请求统一封装在 services/api 模块中。
+- 类型定义统一管理，不要到处复制接口类型。
+- 枚举、任务状态、商品状态、Provider 类型必须统一维护。
+- 前端不保存明文 API Key。
+- 前端不直接调用第三方 AI API。
+- 敏感配置展示必须脱敏。
+- 用户可见文案遵循 `docs/ui-copywriting.md` 与 `.cursor/rules/14-ui-copywriting.mdc`；术语优先引用 `copywriting.ts` / `userFriendly.ts`。
+
+## 推荐页面结构
 
 ```text
-trademind/
-├── backend/
-│   ├── cmd/server/main.go
-│   ├── internal/
-│   │   ├── api/
-│   │   ├── modules/
-│   │   ├── providers/
-│   │   ├── queue/
-│   │   ├── config/
-│   │   ├── database/
-│   │   ├── logger/
-│   │   ├── encrypt/
-│   │   └── pkg/
-│   ├── migrations/
-│   └── configs/
-│
-├── admin/
-│   └── src/
-│
-├── collector/
-│   └── src/
-│
-├── docs/
-├── data/uploads/
-├── docker-compose.yml
-├── .env.example
-└── README.md
+admin/src/
+├── pages/
+│   ├── Dashboard/
+│   ├── Products/
+│   ├── Collect/
+│   ├── AI/
+│   ├── Stores/
+│   ├── Settings/
+│   └── Tasks/
+├── services/
+├── components/
+├── constants/
+├── types/
+├── utils/
+└── hooks/
 ```
 
-## 分层约束
+## ProTable 规则
 
-### 后端业务层
+- 列配置要清晰，优先抽成常量或 hooks。
+- 状态字段必须使用 Tag 或 Badge 展示。
+- 时间字段统一格式化。
+- 操作列放在最右侧。
+- 高风险操作必须二次确认。
+- 表格请求使用统一 API service。
 
-- `handler` 只处理参数、鉴权上下文、调用 service、返回结果。
-- `service` 处理业务流程，但不直接依赖具体第三方 SDK。
-- `provider` 负责第三方或本地能力适配。
-- `repository` 或 model 层负责数据库访问。
-- `queue` 负责异步任务投递和消费。
+## ProForm 规则
 
-### 前端后台
+- 表单字段必须有 label。
+- 必填字段必须有 rules。
+- 密钥字段使用 Password 或脱敏输入。
+- 配置表单必须提供“测试连接”按钮。
+- 保存配置后必须给出明确反馈。
 
-- 页面只组织 UI，不直接散写请求。
-- API 请求统一放在 `services` 或 `api` 目录。
-- 类型定义统一放在 `types` 或对应模块目录。
-- 枚举和状态映射统一管理。
+## 前端状态展示
 
-### 采集服务
+任务状态建议：
 
-- 采集服务独立于 Go 主服务。
-- 采集服务不得直接操作主业务数据库。
-- 采集服务通过队列或内部 API 接收任务并返回结果。
-- 每个采集源必须独立 Provider。
+- pending：默认/等待中
+- running：处理中
+- success：成功
+- failed：失败
+- cancelled：已取消
+- retrying：重试中
 
-## 设计任何新功能时必须回答
+商品状态建议：
 
-生成代码前，优先考虑：
+- draft：草稿
+- ai_processing：AI 处理中
+- ready：可用
+- published：已发布，MVP 可预留
+- archived：已归档
 
-1. 这个功能属于哪个模块？
-2. 是否需要异步任务？
-3. 是否涉及 Provider？
-4. 是否需要配置中心？
-5. 是否涉及敏感数据加密？
-6. 是否需要操作日志？
-7. 是否为后期多租户预留 `tenant_id`？
-8. 是否需要保留 raw 原始数据？
+## UX 规则
+
+- AI 生成、采集、图片处理等耗时任务必须显示进度或状态。
+- 失败任务必须展示失败原因。
+- 可重试任务必须提供重试入口。
+- 配置页必须明确提示配置用途。
+- 对开源自部署用户，默认配置要尽量开箱即用。
 
 ---
 > Source: [lien0219/trademind-ai](https://github.com/lien0219/trademind-ai) — distributed by [TomeVault](https://tomevault.io).
