@@ -7,11 +7,11 @@ Dynamic workflow orchestration for pi: the LLM authors a JS orchestration script
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [milanglacier/pi-dynamic-workflow](https://github.com/milanglacier/pi-dynamic-workflow).
+Original source: `CLAUDE.md` in [milanglacier/pi-dynamic-workflow](https://github.com/milanglacier/pi-dynamic-workflow).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
