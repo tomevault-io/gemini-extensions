@@ -7,11 +7,11 @@ ThistleOS — ESP32-S3 operating system for LilyGo T-Deck Pro. Kernel, HAL, LVGL
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [wan0net/thistle-os](https://github.com/wan0net/thistle-os).
+Original source: `CLAUDE.md` in [wan0net/thistle-os](https://github.com/wan0net/thistle-os).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
