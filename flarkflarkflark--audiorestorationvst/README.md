@@ -7,11 +7,11 @@ Audio restoration VST3/Standalone - Click removal, noise reduction, filters & EQ
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [flarkflarkflark/AudioRestorationVST](https://github.com/flarkflarkflark/AudioRestorationVST).
+Original source: `AGENTS.md` in [flarkflarkflark/AudioRestorationVST](https://github.com/flarkflarkflark/AudioRestorationVST).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
