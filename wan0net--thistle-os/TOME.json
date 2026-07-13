@@ -4,7 +4,7 @@
   "repo": "thistle-os",
   "description": "ThistleOS \u2014 ESP32-S3 operating system for LilyGo T-Deck Pro. Kernel, HAL, LVGL UI, dynamic ELF app loading.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/wan0net/thistle-os",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-13T06:46:42Z"
+  "distributed_at": "2026-07-13T06:50:17Z"
 }
