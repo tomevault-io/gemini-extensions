@@ -7,11 +7,11 @@ Open Source & Self-hosted Spotify release tracker. Auto-syncs new releases to pl
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [emlopezr/trackwatch](https://github.com/emlopezr/trackwatch).
+Original source: `AGENTS.md` in [emlopezr/trackwatch](https://github.com/emlopezr/trackwatch).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
