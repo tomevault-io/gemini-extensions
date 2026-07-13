@@ -4,7 +4,7 @@
   "repo": "cursor-rules",
   "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding guidance",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/AICL-Lab/cursor-rules",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-13T17:31:51Z"
+  "distributed_at": "2026-07-13T17:34:18Z"
 }
