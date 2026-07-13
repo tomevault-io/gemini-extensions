@@ -4,7 +4,7 @@
   "repo": "unity-ui-toolkit-design-system",
   "description": "Drop-in design system for Unity 6 UI Toolkit (UIDocument + PanelRenderer, UXML + USS): tokens, 24 components, 63 icons, mobile-responsive, dark-themed. One stylesheet, zero dependencies. Battle-tested in a shipping cross-play game.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/sinanata/unity-ui-toolkit-design-system",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-13T01:31:15Z"
+  "distributed_at": "2026-07-13T01:32:26Z"
 }
