@@ -4,7 +4,7 @@
   "repo": "Battery-Monitor",
   "description": "Battery Monitor for Android",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tswistak/Battery-Monitor",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-14T01:35:50Z"
+  "distributed_at": "2026-07-14T01:52:38Z"
 }
