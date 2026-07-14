@@ -7,11 +7,11 @@ An open-source AI coding assistant for your terminal, inspired by Claude Code. I
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cjhyy/codeshell](https://github.com/cjhyy/codeshell).
+Original source: `AGENTS.md` in [cjhyy/codeshell](https://github.com/cjhyy/codeshell).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
