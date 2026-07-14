@@ -5,15 +5,15 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.windsurf/rules/*.md` in [francollamas/argentum](https://github.com/francollamas/argentum).
+Original source: `AGENTS.md` in [francollamas/argentum](https://github.com/francollamas/argentum).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 From [francollamas/argentum](https://github.com/francollamas/argentum) — a repo with 0+ stars on GitHub.
 
