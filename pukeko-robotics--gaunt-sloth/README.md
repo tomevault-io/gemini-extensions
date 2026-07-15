@@ -7,11 +7,11 @@ CLI AI assistant doing your code reviews
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [pukeko-robotics/gaunt-sloth](https://github.com/pukeko-robotics/gaunt-sloth).
+Original source: `CLAUDE.md` in [pukeko-robotics/gaunt-sloth](https://github.com/pukeko-robotics/gaunt-sloth).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
