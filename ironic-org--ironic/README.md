@@ -7,11 +7,11 @@ A type-safe, modular Rust application framework built on Axum. Batteries-include
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ironic-org/ironic](https://github.com/ironic-org/ironic).
+Original source: `AGENTS.md` in [ironic-org/ironic](https://github.com/ironic-org/ironic).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
