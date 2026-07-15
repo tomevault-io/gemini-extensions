@@ -4,7 +4,7 @@
   "repo": "aida",
   "description": "AI Agent Training Platform",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/yaowu-ai/aida",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-15T07:30:57Z"
+  "distributed_at": "2026-07-15T07:31:56Z"
 }
