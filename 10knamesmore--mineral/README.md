@@ -7,11 +7,11 @@ A multi-source TUI music player in Rust — ratatui frontend, pluggable channel 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [10knamesmore/Mineral](https://github.com/10knamesmore/Mineral).
+Original source: `CLAUDE.md` in [10knamesmore/Mineral](https://github.com/10knamesmore/Mineral).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
