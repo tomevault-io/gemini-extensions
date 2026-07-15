@@ -7,13 +7,13 @@ Copy and paste prompts for cursor agent. Free for anyone to use or add to. This 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [DVC2/cursor-agent-configs](https://github.com/DVC2/cursor-agent-configs).
+Original source: `.cursor/rules/*.mdc` in [DVC2/cursor-agent-configs](https://github.com/DVC2/cursor-agent-configs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
