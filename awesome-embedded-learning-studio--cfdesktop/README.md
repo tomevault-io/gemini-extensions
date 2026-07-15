@@ -7,11 +7,11 @@ This is a Repo that Desktop can be deployed on Any Embedded Device enable to run
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Awesome-Embedded-Learning-Studio/CFDesktop](https://github.com/Awesome-Embedded-Learning-Studio/CFDesktop).
+Original source: `AGENTS.md` in [Awesome-Embedded-Learning-Studio/CFDesktop](https://github.com/Awesome-Embedded-Learning-Studio/CFDesktop).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
