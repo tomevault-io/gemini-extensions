@@ -7,12 +7,12 @@ Access the source code and main repository for the application
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [National-Tutoring-Observatory/sandpiper](https://github.com/National-Tutoring-Observatory/sandpiper).
+Original source: `AGENTS.md` in [National-Tutoring-Observatory/sandpiper](https://github.com/National-Tutoring-Observatory/sandpiper).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
