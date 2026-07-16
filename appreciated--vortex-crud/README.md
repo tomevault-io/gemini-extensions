@@ -7,11 +7,11 @@ Speed up the development of CRUD apps using declarative configuration
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [appreciated/vortex-crud](https://github.com/appreciated/vortex-crud).
+Original source: `AGENTS.md` in [appreciated/vortex-crud](https://github.com/appreciated/vortex-crud).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
