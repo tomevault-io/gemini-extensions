@@ -7,11 +7,11 @@ FlowMux — Agent Workflow Multiplexer Terminal. Go with the agents' flow.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [flowmux-ai/flowmux-terminal](https://github.com/flowmux-ai/flowmux-terminal).
+Original source: `AGENTS.md` in [flowmux-ai/flowmux-terminal](https://github.com/flowmux-ai/flowmux-terminal).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
