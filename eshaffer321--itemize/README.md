@@ -7,11 +7,11 @@ Automatically itemize and categorize retail transactions in Monarch Money
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [eshaffer321/itemize](https://github.com/eshaffer321/itemize).
+Original source: `AGENTS.md` in [eshaffer321/itemize](https://github.com/eshaffer321/itemize).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
