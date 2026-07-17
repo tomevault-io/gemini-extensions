@@ -7,11 +7,11 @@ Intent Agent Model (IAM) — Bob reference runtime on Google ADK. Historical V1.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jeremylongshore/iam-bob-adk-python](https://github.com/jeremylongshore/iam-bob-adk-python).
+Original source: `CLAUDE.md` in [jeremylongshore/iam-bob-adk-python](https://github.com/jeremylongshore/iam-bob-adk-python).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
