@@ -4,7 +4,7 @@
   "repo": "Enjoining",
   "description": "A rhythm-based JOI (Jerk Off Instruction) game with video synchronization, beat matching to sex toy or sexual device, and adult device integration.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/JacobPillai/Enjoining",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-17T12:39:44Z"
+  "distributed_at": "2026-07-17T12:45:50Z"
 }
