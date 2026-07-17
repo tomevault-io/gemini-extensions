@@ -7,11 +7,11 @@ Maximum efficiency, minimum complexity development environment using Nix flakes.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [uigleki/dotfiles](https://github.com/uigleki/dotfiles).
+Original source: `AGENTS.md` in [uigleki/dotfiles](https://github.com/uigleki/dotfiles).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
