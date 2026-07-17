@@ -1,0 +1,26 @@
+# AI instruction files for SkyPort
+
+> Sourced from [StarSphere-1024/SkyPort](https://github.com/StarSphere-1024/SkyPort) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+A multi-platform serial debugging assistant built with Flutter
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [StarSphere-1024/SkyPort](https://github.com/StarSphere-1024/SkyPort).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/StarSphere-1024/SkyPort](https://github.com/StarSphere-1024/SkyPort)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:a-c-p -->
