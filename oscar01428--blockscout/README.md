@@ -7,11 +7,11 @@ A privacy-first blockchain explorer for Ethereum and EVM networks with real-time
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [oscar01428/Blockscout](https://github.com/oscar01428/Blockscout).
+Original source: `CLAUDE.md` in [oscar01428/Blockscout](https://github.com/oscar01428/Blockscout).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
