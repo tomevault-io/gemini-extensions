@@ -7,11 +7,11 @@ Kanama brings Kotlin to Godot through a GDExtension runtime powered by the JVM a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [falcon4ever/kanama](https://github.com/falcon4ever/kanama).
+Original source: `CLAUDE.md` in [falcon4ever/kanama](https://github.com/falcon4ever/kanama).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
