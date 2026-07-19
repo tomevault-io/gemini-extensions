@@ -7,11 +7,11 @@ Ioniq EV 2016-2019 CAN reverse engineering. Personal research project.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [philipkocanda/ioniq-can](https://github.com/philipkocanda/ioniq-can).
+Original source: `CLAUDE.md` in [philipkocanda/ioniq-can](https://github.com/philipkocanda/ioniq-can).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
