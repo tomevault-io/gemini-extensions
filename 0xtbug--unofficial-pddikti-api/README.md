@@ -7,11 +7,11 @@ Reverse-engineered API for PDDIKTI — Indonesian Higher Education Database.  Pr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [0xtbug/unofficial-pddikti-api](https://github.com/0xtbug/unofficial-pddikti-api).
+Original source: `CLAUDE.md` in [0xtbug/unofficial-pddikti-api](https://github.com/0xtbug/unofficial-pddikti-api).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
