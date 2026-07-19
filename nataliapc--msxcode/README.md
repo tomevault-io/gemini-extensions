@@ -7,11 +7,11 @@ An AI client for MSX2 machines with a RAM Mapper and a UNAPI TCPIP device.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nataliapc/msxcode](https://github.com/nataliapc/msxcode).
+Original source: `CLAUDE.md` in [nataliapc/msxcode](https://github.com/nataliapc/msxcode).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
