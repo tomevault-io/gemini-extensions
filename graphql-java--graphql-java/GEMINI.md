@@ -1,25 +1,29 @@
 ## graphql-java
 
-> - Don't use fully qualified names for Java, Kotlin, or Groovy. Instead, add imports.
+> - **Tests in Spock (Groovy)**, not JUnit: `src/test/groovy/graphql/`
 
-# GitHub Copilot Instructions
+# AI Agent Context for graphql-java
 
-## Code Style and Conventions
+## Rules
 
-- Don't use fully qualified names for Java, Kotlin, or Groovy. Instead, add imports.
-- Don't use wildcard imports. Please import items one by one instead. You can disable wildcard imports in your IDE
-- Follow the code style defined in `graphql-java-code-style.xml`.
+- **Tests in Spock (Groovy)**, not JUnit: `src/test/groovy/graphql/`
+- **No new dependencies** (firm policy)
+- **No wildcard imports**, no inner classes, no `Optional`
+- Max 2 indent levels; early returns; extract methods to reduce nesting
+- Immutable data classes w/ Builder: `newFoo()` factory, `foo(value)` setters, `transform()` method
+- Use `graphql.Assert` not `Objects.requireNonNull`
+- Use `@Public`/`@Internal` annotations — never package-private/protected
+- `@NullMarked` on all public API classes; `@NullUnmarked` on their Builder classes; use `@Nullable` for nullable params/returns; NullAway enforced via ErrorProne
+- Full style guide: `coding-guidelines.md`
 
-## Pull Request Review Guidelines
+## Test Execution
 
-### Testing
-- If you add new functionality, or correct a bug, you must also write a test so we can ensure your code works in the future
-- If your pull request includes a performance improvement, please check in a JMH test to verify this. We'll then run a test on our isolated performance environment to verify the results
-- 
-### Breaking Changes
-- Flag any breaking changes in public APIs so we can call this out in documentation
+```bash
+./gradlew test
+```
+
+This runs tests on Java 25 only. Other JVM versions (11, 17, 21) require explicit tasks (e.g. `testWithJava11`).
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/graphql-java)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/graphql-java)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Source: [graphql-java/graphql-java](https://github.com/graphql-java/graphql-java) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-20 -->
