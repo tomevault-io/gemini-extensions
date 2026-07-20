@@ -1,94 +1,86 @@
 ## vcpkg-registry
 
-> This vcpkg registry provides an overlay of custom ports for the vcpkg package manager. This file defines how GitHub Copilot should assist with repository maintenance tasks.
+> Instructions for GitHub Copilot and Copilot CLI agents working on this repository.
 
-# GitHub Copilot Instructions: vcpkg-registry maintenance
+# AGENTS.md — vcpkg-registry
 
-## Introduction
+Instructions for GitHub Copilot and Copilot CLI agents working on this repository.
 
-This vcpkg registry provides an overlay of custom ports for the vcpkg package manager. This file defines how GitHub Copilot should assist with repository maintenance tasks.
+## Repository Overview
 
-For repository overview and setup instructions, see [README.md](../README.md).
+This is a vcpkg registry providing custom overlay ports for the vcpkg package manager. See [README.md](README.md) for setup instructions and [docs/references.md](docs/references.md) for external resources.
+
+### Structure
+
+```
+ports/           — vcpkg port definitions (portfile.cmake, vcpkg.json, patches)
+versions/        — version tracking (baseline.json, per-port JSON)
+triplets/        — custom triplet definitions
+scripts/         — helper scripts (registry-add-version.ps1, registry-format.ps1)
+docs/            — guides and references
+.github/skills/  — Copilot skill definitions
+```
+
+## Safety and Scope Constraints
+
+- **No automatic commits** unless explicitly requested by the user
+- **Stay within task scope** — don't modify unrelated ports or versions
+- **Run tests/installs only when relevant** to the requested change
+- **Follow vcpkg best practices** as documented in guides
 
 ## Core Maintenance Tasks
 
-The primary maintenance tasks for this registry are:
-
 ### 1. Create Port
+
 **Goal:** Add a new vcpkg port to this registry.
 
-**Documentation:**
-- docs/guide-create-port.md – Main creation guide
-- docs/guide-create-port-build.md – Build patterns
-- docs/guide-create-port-download.md – Download & SHA512
-
-**Prompts:**
-- `/search-port` – .github/prompts/search-port.prompt.md
-- `/create-port` – .github/prompts/create-port.prompt.md
-- `/install-port` – .github/prompts/install-port.prompt.md
-- `/review-port` – .github/prompts/review-port.prompt.md
+| Guides | Skills |
+|--------|--------|
+| [docs/guide-create-port.md](docs/guide-create-port.md) | `search-port`, `create-port` |
+| [docs/guide-create-port-build.md](docs/guide-create-port-build.md) | `install-port`, `review-port` |
+| [docs/guide-create-port-download.md](docs/guide-create-port-download.md) | |
 
 ### 2. Update Port
+
 **Goal:** Update an existing port to a newer version or adjust its build configuration.
 
-**Documentation:**
-- docs/guide-update-port.md – Update procedures
-
-**Prompts:**
-- `/check-port-upstream` – .github/prompts/check-port-upstream.prompt.md
-- `/update-port` – .github/prompts/update-port.prompt.md
-- `/install-port` – .github/prompts/install-port.prompt.md
-- `/review-port` – .github/prompts/review-port.prompt.md
+| Guides | Skills |
+|--------|--------|
+| [docs/guide-update-port.md](docs/guide-update-port.md) | `check-port-upstream`, `update-port` |
+| | `install-port`, `review-port` |
 
 ### 3. Update Version Baseline
+
 **Goal:** Synchronize `versions/` JSON files with changes to ports.
 
-**Documentation:**
-- docs/guide-update-version-baseline.md – Baseline update procedures
-
-**Prompts:**
-- `/update-version-baseline` – .github/prompts/update-version-baseline.prompt.md
+| Guides | Skills |
+|--------|--------|
+| [docs/guide-update-version-baseline.md](docs/guide-update-version-baseline.md) | `update-version-baseline` |
 
 ### 4. Troubleshoot Port
+
 **Goal:** Diagnose and fix issues with port installation or build.
 
-**Documentation:**
-- docs/troubleshooting.md – Common issues and solutions
+| Guides | Skills |
+|--------|--------|
+| [docs/troubleshooting.md](docs/troubleshooting.md) | `check-environment` |
+| | `install-port`, `review-port` |
 
-**Prompts:**
-- `/check-environment` – .github/prompts/check-environment.prompt.md
-- `/install-port` – .github/prompts/install-port.prompt.md
-- `/review-port` – .github/prompts/review-port.prompt.md
+## Skill Workflow
 
-## How Copilot Should Use Documentation
+| Task | Skill Chain | Primary Guides |
+|------|-------------|----------------|
+| Create port | `search-port` → `create-port` → `install-port` → `review-port` | guide-create-port.md, guide-create-port-build.md, guide-create-port-download.md |
+| Update port | `check-port-upstream` → `update-port` → `install-port` → `review-port` | guide-update-port.md |
+| Update baseline | `update-version-baseline` | guide-update-version-baseline.md |
+| Troubleshoot | `check-environment` → `install-port` | troubleshooting.md |
 
-When assisting with tasks:
+### Skill Guidelines
 
-1. **For setup and environment:** Reference README.md and docs/references.md
-2. **For step-by-step instructions:** Use the specific guides in `docs/`:
-   - docs/guide-create-port.md
-   - docs/guide-update-port.md
-   - docs/guide-update-version-baseline.md
-   - docs/troubleshooting.md
-3. **For external resources:** Use docs/references.md
-4. **Prompt behavior must follow the corresponding guide's process**
-
-## How Copilot Should Use Prompts
-
-### Task-to-Prompt-to-Guide Mapping
-
-| Task | Prompts | Primary Guides |
-|------|---------|----------------|
-| **Create port** | `/search-port` → `/create-port` → `/install-port` → `/review-port` | `guide-create-port.md`, `guide-create-port-build.md`, `guide-create-port-download.md` |
-| **Update port** | `/check-port-upstream` → `/update-port` → `/install-port` → `/review-port` | `guide-update-port.md` |
-| **Update version baseline** | `/update-version-baseline` | `guide-update-version-baseline.md` |
-| **Troubleshoot** | `/check-environment` → `/install-port` | `troubleshooting.md` |
-
-### Prompt Guidelines
-
-- Prompts are for **process execution** with clear pass/fail outcomes
-- Each prompt should report structured results with ✅ ⚠️ ❌ indicators
-- Follow the workflow defined in the prompt's corresponding guide
+- Skills are for **process execution** with clear pass/fail outcomes
+- Report structured results with ✅ ⚠️ ❌ indicators
+- Follow the workflow defined in the skill's corresponding guide
+- Skill definitions: `.github/skills/<name>/SKILL.md`
 
 ## Command Usage Guidelines
 
@@ -98,46 +90,20 @@ When assisting with tasks:
 
 ### Helper Scripts
 Prefer helper scripts in `scripts/` when available:
-- registry-add-version.ps1 – Update version baseline
-- registry-format.ps1 – Format manifests files in ports folder
+- `registry-add-version.ps1` — Update version baseline
+- `registry-format.ps1` — Format manifest files in ports folder
 
 ### Minimal Changes
 - Keep changes focused on the requested task
 - Avoid unrelated refactoring
 - Test only what's relevant to the change
 
-## Safety and Scope Constraints
+## References
 
-- **No automatic commits** unless explicitly requested
-- **Stay within task scope** – don't modify unrelated ports or versions
-- **Run tests/installs only when relevant** to the requested change
-- **Follow vcpkg best practices** as documented in guides
-
-## Navigation Graphs
-
-### Mermaid Diagram
-
-```mermaid
-graph TD
-  README[README.md] --> CreateGuide[docs/guide-create-port.md]
-  CreateGuide -- prompt --> CreatePrompt[create-port.prompt.md]
-  CreateGuide --> BuildGuide[docs/guide-create-port-build.md]
-  CreateGuide --> DownloadGuide[docs/guide-create-port-download.md]
-  CreateGuide --> Troubleshoot[docs/troubleshooting.md]
-
-  UpdateGuide[docs/guide-update-port.md] -- prompt --> UpdatePrompt[update-port.prompt.md]
-  UpdateGuide --> BaselineGuide[docs/guide-update-version-baseline.md]
-  BaselineGuide -- prompt --> BaselinePrompt[update-version-baseline.prompt.md]
-  BaselineGuide --> Troubleshoot
-
-  Troubleshoot -- prompt --> InstallPrompt[install-port.prompt.md]
-  Troubleshoot -- prompt --> CheckEnvPrompt[check-environment.prompt.md]
-
-  References[docs/references.md] --> CreateGuide
-  References --> UpdateGuide
-```
+- [docs/references.md](docs/references.md) — External vcpkg documentation links
+- [docs/review-checklist.md](docs/review-checklist.md) — Port review criteria
+- [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution guidelines
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/luncliff)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/luncliff)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Source: [luncliff/vcpkg-registry](https://github.com/luncliff/vcpkg-registry) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-20 -->
