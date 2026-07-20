@@ -1,24 +1,35 @@
 # AI instruction files for vcpkg-registry
 
-> Sourced from [luncliff/vcpkg-registry](https://github.com/luncliff/vcpkg-registry) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [luncliff/vcpkg-registry](https://github.com/luncliff/vcpkg-registry), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [luncliff/vcpkg-registry](https://github.com/luncliff/vcpkg-registry).
+Original source: `AGENTS.md` in [luncliff/vcpkg-registry](https://github.com/luncliff/vcpkg-registry).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/luncliff)
+## Bundled Skills (8)
+
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/review-port/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/search-port/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/update-port/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/create-port/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/install-port/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/check-environment/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/check-port-upstream/SKILL.md)
+- [vcpkg-registry](https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/update-version-baseline/SKILL.md)
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/luncliff/vcpkg-registry](https://github.com/luncliff/vcpkg-registry)
 
 ---
 
-Is this your repo? [Claim it](https://tomevault.io/claim/luncliff) to manage distribution and track installs.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
 
 <!-- genome:a-c-p -->
