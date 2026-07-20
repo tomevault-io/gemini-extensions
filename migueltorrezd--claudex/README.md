@@ -7,11 +7,11 @@ Run Claude Code with GPT models through Raine's claude-code-proxy.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [migueltorrezd/claudex](https://github.com/migueltorrezd/claudex).
+Original source: `CLAUDE.md` in [migueltorrezd/claudex](https://github.com/migueltorrezd/claudex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
