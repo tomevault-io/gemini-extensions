@@ -1,24 +1,24 @@
-# graphql-java — distributed by TomeVault
+# graphql-java
 
-> Originally from [graphql-java/graphql-java](https://github.com/graphql-java/graphql-java). Converted and distributed by [TomeVault](https://tomevault.io)
+> Source: [graphql-java/graphql-java](https://github.com/graphql-java/graphql-java). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [graphql-java/graphql-java](https://github.com/graphql-java/graphql-java).
+Original source: `AGENTS.md` in [graphql-java/graphql-java](https://github.com/graphql-java/graphql-java).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. [View quality report](https://tomevault.io/claim/graphql-java#quality)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/graphql-java/graphql-java](https://github.com/graphql-java/graphql-java)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-q -->
