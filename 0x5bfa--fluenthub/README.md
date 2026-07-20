@@ -1,21 +1,21 @@
 # FluentHub
 
-> Tome by [0x5bfa](https://github.com/0x5bfa/FluentHub) — distributed by [TomeVault](https://tomevault.io/claim/0x5bfa)
+> Tome by [0x5bfa](https://github.com/0x5bfa/FluentHub), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub).
+Original source: `AGENTS.md` in [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/0x5bfa)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub)
 
 ---
 
@@ -23,6 +23,6 @@ Install this config instantly:
 ```
 npx tomevault install 0x5bfa/FluentHub
 ```
-Or browse all formats at [https://tomevault.io/claim/0x5bfa](https://tomevault.io/claim/0x5bfa).
+Source: [github.com/0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub).
 
 <!-- genome:t-i-p -->
