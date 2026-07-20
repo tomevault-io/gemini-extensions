@@ -7,11 +7,11 @@ Design-first agentic systems in Go: declare agents, tools, MCP servers, policies
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [goadesign/goa-ai](https://github.com/goadesign/goa-ai).
+Original source: `CLAUDE.md` in [goadesign/goa-ai](https://github.com/goadesign/goa-ai).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
