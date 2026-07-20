@@ -3,8 +3,8 @@
   "owner": "luncliff",
   "repo": "vcpkg-registry",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,57 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
-  "claim_url": "https://tomevault.io/claim/luncliff",
+  "skills": [
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/review-port/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/review-port/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/search-port/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/search-port/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/update-port/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/update-port/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/create-port/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/create-port/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/install-port/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/install-port/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/check-environment/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/check-environment/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/check-port-upstream/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/check-port-upstream/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vcpkg-registry",
+      "path": ".github/skills/update-version-baseline/SKILL.md",
+      "github_url": "https://github.com/luncliff/vcpkg-registry/tree/main/.github/skills/update-version-baseline/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/luncliff/vcpkg-registry",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T17:41:48Z"
+  "distributed_at": "2026-07-20T22:39:27Z"
 }
