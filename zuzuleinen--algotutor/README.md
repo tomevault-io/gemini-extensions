@@ -1,17 +1,15 @@
 # algotutor
 
-> Tome by [zuzuleinen](https://github.com/zuzuleinen/algotutor) — distributed by [TomeVault](https://tomevault.io)
-
-AI-powered algorithmic training system using Claude Code
+> Tome by [zuzuleinen](https://github.com/zuzuleinen/algotutor), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [zuzuleinen/algotutor](https://github.com/zuzuleinen/algotutor).
+Original source: `AGENTS.md` in [zuzuleinen/algotutor](https://github.com/zuzuleinen/algotutor).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
