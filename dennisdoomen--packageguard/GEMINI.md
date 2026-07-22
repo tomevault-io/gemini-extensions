@@ -1,211 +1,123 @@
 ## packageguard
 
-> PackageGuard is a .NET tool that scans NuGet dependencies against allow/deny lists to control open-source licenses and package versions in .NET solutions.
+> This file contains detailed guidance for AI agents working in the PackageGuard repository.
 
-# Copilot Instructions for PackageGuard
+# agents.md
 
-## About This Repository
+This file contains detailed guidance for AI agents working in the PackageGuard repository.
 
-PackageGuard is a .NET tool that scans NuGet dependencies against allow/deny lists to control open-source licenses and package versions in .NET solutions.
+## Commands
 
-## Project Structure
+### Build
 
-- **Src/PackageGuard** - Main CLI application (NuGet Tool package)
-- **Src/PackageGuard.Core** - Core library with analysis engine
-- **Src/PackageGuard.Specs** - Unit tests using MSTest
-- **Src/PackageGuard.ApiVerificationTests** - API verification tests using Verify
-- **Build/** - Nuke build configuration
-- **.packageguard/** - Configuration files for self-scanning
-
-## Technology Stack
-
-- **.NET 8.0** - Primary target framework
-- **C# 12** - Language version
-- **Nuke** - Build automation system
-- **MSTest** - Testing framework
-- **FluentAssertions** - Assertion library for tests
-- **Verify** - Snapshot testing tool
-- **Spectre.Console** - Console UI library
-
-## Build & Test
-
-### Building the Project
-
-Use the Nuke build system:
-```bash
-# Windows
+```powershell
+# Full build (compile, test, package)
 ./build.ps1
 
-# Linux/macOS
-./build.sh
-```
-
-Or using the Nuke global tool:
-```bash
+# Or with the Nuke global tool
 nuke
+
+# See all available build targets
+nuke --help
+nuke --plan
 ```
 
-### Running Tests
+### Run tests
 
-Tests are automatically run during the build process. To run tests separately:
 ```bash
+# All unit tests
 dotnet test Src/PackageGuard.Specs/PackageGuard.Specs.csproj
+
+# Single test method (MSTest filter syntax)
+dotnet test Src/PackageGuard.Specs/PackageGuard.Specs.csproj --filter "FullyQualifiedName~Can_deny_an_entire_package"
+
+# API verification tests
+dotnet test Src/PackageGuard.ApiVerificationTests/PackageGuard.ApiVerificationTests.csproj
 ```
 
-Tests should:
-- Use **MSTest** with `[TestClass]` and `[TestMethod]` attributes
-- Follow the **Arrange-Act-Assert** pattern
-- Use **FluentAssertions** for assertions
-- Use **Verify** for snapshot testing where appropriate
-- Maintain or increase code coverage (tracked via Coveralls)
-
-### Running PackageGuard
+### Run the tool locally
 
 ```bash
-dotnet run --project Src/PackageGuard --no-build -- <path> [options]
+dotnet run --project Src/PackageGuard -- <path> [options]
+# Example:
+dotnet run --project Src/PackageGuard -- . --config-path .packageguard/config.json
 ```
 
-## Coding Standards
+### Accept API snapshot changes
 
-This project follows the [C# Coding Guidelines](https://csharpcodingguidelines.com/). Key points:
+After changing public APIs in `PackageGuard.Core`:
 
-- Use **explicit types** instead of `var` where it improves readability
-- Follow **naming conventions**: PascalCase for public members, camelCase for parameters and local variables
-- Add **XML documentation** for public APIs
-- Keep methods **small and focused**
-- Use **meaningful names** that explain intent
-- Prefer **composition over inheritance**
-
-### Code Analysis
-
-The project uses multiple analyzers:
-- **StyleCop Analyzers** - Style enforcement
-- **Roslynator** - Code analysis
-- **CSharpGuidelinesAnalyzer** - Guidelines enforcement
-- **Meziantou.Analyzer** - Additional best practices
-- **ReSharper InspectCode** - Static analysis (runs during build)
-
-All code must pass these analyzers without warnings.
-
-## API Changes
-
-When changing public APIs:
-1. Discuss and get approval in an issue with the `api-approved` label
-2. After making changes, run `AcceptApiChanges.ps1` (Windows) or `AcceptApiChanges.sh` (Linux/macOS)
-3. Commit the updated API verification snapshots
-
-## Testing Guidelines
-
-### Unit Test Structure
-
-Tests should be named descriptively. Example from the codebase:
-```csharp
-[TestMethod]
-public async Task Can_deny_an_entire_package()
-{
-    // Arrange
-    var analyzer = new CSharpProjectAnalyzer(cSharpProjectScanner, nuGetPackageAnalyzer)
-    {
-        ProjectPath = ProjectPath,
-    };
-
-    // Act
-    var violations = await analyzer.ExecuteAnalysis(_ => new ProjectPolicy
-    {
-        DenyList = new DenyList
-        {
-            Packages = [new PackageSelector("FluentAssertions")]
-        }
-    });
-
-    // Assert
-    violations.Should().ContainEquivalentOf(new
-    {
-        PackageId = "FluentAssertions",
-        Version = Value.ThatSatisfies<string>(s => s.Should().StartWith("8."))
-    });
-}
+```powershell
+./AcceptApiChanges.ps1   # Windows
+./AcceptApiChanges.sh    # Linux/macOS
 ```
 
-### Snapshot Testing
+## Architecture
 
-For testing complex output or data structures, use Verify:
-```csharp
-[TestMethod]
-public async Task TestName()
-{
-    var result = GetComplexResult();
-    await Verify(result);
-}
-```
+PackageGuard is a .NET global CLI tool (target: .NET 9) that analyzes NuGet and NPM dependency trees against user-defined allow/deny policies and optionally scores packages on legal, security, and operational risk.
 
-## Configuration
+### Project layout
 
-PackageGuard uses hierarchical JSON configuration:
-- Solution-level: `packageguard.config.json` or `.packageguard/config.json`
-- Project-level: Same naming in project directories
-- Settings merge with project-level taking precedence
+| Project | Role |
+|---------|------|
+| `Src/PackageGuard` | Spectre.Console CLI — parses arguments, wires up services, renders output |
+| `Src/PackageGuard.Core` | Platform-agnostic analysis engine (NuGet package on NuGet.org) |
+| `Src/PackageGuard.Specs` | MSTest unit tests; uses real `.csproj`/`package.json` fixtures under `TestCases/` |
+| `Src/PackageGuard.ApiVerificationTests` | Verify snapshot tests that lock the public API surface |
+| `Build/` | Nuke build project |
 
-## Dependencies
+### Core analysis flow
 
-- Prefer **stable packages** over pre-release versions
-- Keep dependencies **up-to-date** (Dependabot is configured)
-- New dependencies should be approved by maintainers
-- Check license compatibility before adding dependencies
+1. **CLI** (`AnalyzeCommand`) builds `AnalyzerSettings` from CLI flags and resolves `GetPolicyByProject` via `ConfigurationLoader` (hierarchical JSON config discovery).
+2. **`ProjectAnalyzer`** (entry point into `PackageGuard.Core`) iterates two `IProjectAnalysisStrategy` implementations in sequence:
+   - `CSharpProjectAnalysisStrategy` — discovers `.sln`/`.slnx`/`.csproj` files, restores via `dotnet restore`, reads `project.assets.json` lock files with `DotNetLockFileLoader`, and calls `NuGetPackageAnalyzer` to fetch metadata and licenses.
+   - `NpmProjectAnalysisStrategy` — detects the JS package manager (npm/yarn/pnpm), parses the appropriate lock file (`NpmLockFileParser`, `YarnLockFileParser`, `PnpmLockFileParser`), and fetches metadata from the npm registry via `NpmRegistryMetadataFetcher`.
+3. All discovered packages accumulate in `PackageInfoCollection`, which also handles binary caching (`cache.bin` via MemoryPack).
+4. **License fetching** is handled by `LicenseFetcher`, which chains strategies (`GitHubLicenseFetcher`, `UrlLicenseFetcher`, `CorrectMisbehavingPackagesFetcher`) to resolve SPDX license identifiers from NuGet/npm metadata or GitHub repository data.
+5. **Policy evaluation** — each package is checked against the project's `ProjectPolicy` (merged from hierarchical config files). Violations are returned as `PolicyViolation[]`.
+6. **Risk scoring** (opt-in via `--report-risk`) — `ParallelPackageRiskEnricher` fans out to multiple `IEnrichPackageRisk` enrichers (`GitHubRepositoryRiskEnricher`, `OsvRiskEnricher`, `NuGetPackageSigningRiskEnricher`, etc.) that populate `PackageInfo` with raw signals. Then `RiskEvaluator` calls `LegalRiskEvaluator`, `SecurityRiskEvaluator`, and `OperationalRiskEvaluator` (each composed of `IEvaluateRiskFactor` instances) to produce a 0–100 weighted score. The CLI writes the results to a self-contained HTML report and a SARIF file via `RiskHtmlReportWriter` / `RiskSarifReportWriter`.
 
-## Common Tasks
+### Key design patterns
 
-### Adding a New License Type
+- **Strategy pattern** — `IProjectAnalysisStrategy` lets NuGet and NPM scanning be extended independently.
+- **Chain-of-responsibility** — `IFetchLicense` implementations try one source after another until a license is found.
+- **Enricher pipeline** — `IEnrichPackageRisk` enrichers are run in parallel (via `ParallelPackageRiskEnricher`) and write directly into `PackageInfo` fields; no aggregation step is needed before scoring.
+- **Risk factor decomposition** — each risk dimension (`IEvaluateRiskDimension`) composes multiple `IEvaluateRiskFactor` instances, each contributing a weighted score plus a human-readable rationale stored in `RiskFactorContribution`.
 
-1. Update `LicenseFetcher.cs` to recognize the license
-2. Add tests in `LicenseFetcherSpecs.cs`
-3. Update documentation if needed
+### Configuration
 
-### Adding a New Package Source
+Config files are JSON (`packageguard.config.json` or `.packageguard/config.json`), discovered hierarchically from project directory up to solution directory. `ConfigurationLoader.GetEffectiveConfigurationForProject` merges them: arrays (licenses, packages, feeds) are unioned; booleans prefer the innermost value. The merged result is a `ProjectPolicy` with `AllowList` and `DenyList`.
 
-1. Modify `FetchingStrategies/` to add new strategy
-2. Add corresponding tests
-3. Update configuration schema if needed
+## Testing conventions
 
-### Modifying Violation Detection
+- Framework: **MSTest** (`[TestClass]`, `[TestMethod]`)
+- Assertions: **FluentAssertions**
+- Mocking: **FakeItEasy**
+- Snapshot testing: **Verify** (used in `PackageGuard.ApiVerificationTests`)
+- Test fixtures: real `.csproj`/`package.json` projects live under `Src/PackageGuard.Specs/TestCases/` and are copied to the output directory; tests reference them by path.
+- Test methods are named in `Can_do_something` style (underscore-separated, verb-first).
 
-1. Update logic in `NuGetPackageAnalyzer.cs` or `CSharpProjectAnalyzer.cs`
-2. Add comprehensive test cases
-3. Ensure existing tests still pass
-4. Run `AcceptApiChanges` if public API changed
+## C# coding conventions
 
-## Pull Request Guidelines
+This project follows [C# Coding Guidelines by Dennis Doomen](https://csharpcodingguidelines.com/). Key rules enforced by Roslyn analyzers (StyleCop, Roslynator, CSharpGuidelinesAnalyzer, Meziantou):
 
-1. **Target** the `develop` branch (not `main`)
-2. **Keep changes focused** and minimal
-3. **Include tests** for new functionality
-4. **Update documentation** for user-facing changes
-5. **Maintain code coverage** (must not decrease)
-6. **Pass all CI checks** including code analysis
-7. **Follow commit message conventions**: Use clear, descriptive messages
+- No field name prefixes (no `_`, `m_`, `s_`)
+- `var` only when the type is evident from the right-hand side; never for built-in types
+- `private` fields, `internal sealed` types by default — open up visibility deliberately
+- Methods ≤ 7 statements; split otherwise
+- XML doc comments on all `public`, `protected`, and `internal` members
+- Return read-only collection interfaces (`IEnumerable<T>`, `IReadOnlyCollection<T>`, etc.) from public members
+- Strings, collections, and tasks must never be `null` from public APIs — return empty equivalents instead
+- Max line length: 130 characters; indent with 4 spaces
 
-## Important Notes
+All code must pass the analyzers without warnings before merging.
 
-- This is a **global .NET tool**, so consider the user experience when running from CLI
-- **Performance matters** - the tool needs to scan large solutions efficiently
-- **Caching** is used to speed up repeated scans (see `--use-caching` option)
-- **GitHub rate limits** can affect license fetching - support for API keys is built in
-- The tool uses `dotnet restore` internally - handle this carefully in code changes
+## Pull requests
 
-## Versioning
-
-- Uses **GitVersion** for semantic versioning
-- Follows **GitHub Flow** branching strategy
-- Tags on `main` branch trigger NuGet package publishing
-
-## Resources
-
-- [C# Coding Guidelines](https://csharpcodingguidelines.com/)
-- [Contributing Guide](CONTRIBUTING.md)
-- [Nuke Build Documentation](https://nuke.build/)
-- [FluentAssertions Documentation](https://fluentassertions.com/)
-- [Verify Documentation](https://github.com/VerifyTests/Verify)
+- Target branch: `main` (GitHub Flow — no separate `develop` branch)
+- API surface changes: run `AcceptApiChanges.ps1` and commit the updated snapshots
+- Code coverage must not decrease (tracked via Coveralls)
 
 ---
 > Source: [dennisdoomen/packageguard](https://github.com/dennisdoomen/packageguard) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
