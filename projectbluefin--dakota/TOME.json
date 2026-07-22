@@ -3,8 +3,8 @@
   "owner": "projectbluefin",
   "repo": "dakota",
   "description": "The buildstream for making Bluefin. The best distro, is no distro. ",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "dakota",
+      "path": "docs/SKILL.md",
+      "github_url": "https://github.com/projectbluefin/dakota/tree/main/docs/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/projectbluefin/dakota",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-22T23:54:19Z"
+  "distributed_at": "2026-07-22T13:42:15Z"
 }
