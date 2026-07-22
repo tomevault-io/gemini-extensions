@@ -1,10 +1,10 @@
 {
-  "name": "VTCode",
+  "name": "vtcode",
   "owner": "vinhnx",
-  "repo": "VTCode",
+  "repo": "vtcode",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
-  "claim_url": "https://tomevault.io/claim/vinhnx",
+  "skills": [
+    {
+      "name": "skill-creator",
+      "path": "vtcode-core/src/skills/assets/samples/skill-creator",
+      "github_url": "https://github.com/vinhnx/vtcode/tree/main/vtcode-core/src/skills/assets/samples/skill-creator",
+      "description": ""
+    },
+    {
+      "name": "skill-installer",
+      "path": "vtcode-core/src/skills/assets/samples/skill-installer",
+      "github_url": "https://github.com/vinhnx/vtcode/tree/main/vtcode-core/src/skills/assets/samples/skill-installer",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/vinhnx/vtcode",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-16T01:07:38Z"
+  "distributed_at": "2026-07-22T08:41:35Z"
 }
