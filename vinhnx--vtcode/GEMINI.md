@@ -1,267 +1,52 @@
 ## vtcode
 
-> **VT Code**: Rust terminal coding agent with modular architecture, multi-LLM support (OpenAI, Anthropic, Gemini), tree-sitter parsing for 6+ languages.
-
-# VT Code Agent Guidelines
-
-**VT Code**: Rust terminal coding agent with modular architecture, multi-LLM support (OpenAI, Anthropic, Gemini), tree-sitter parsing for 6+ languages.
-
-## Build & Test Commands
-
-```bash
-# Preferred (faster with cargo-nextest)
-cargo nextest run           # Run all tests (3-5x faster)
-cargo nextest run -p vtcode-core  # Single package
-cargo t                     # Alias for nextest run
-cargo tq                    # Quick profile (no retries)
-
-# Standard cargo commands
-cargo check                 # Fast compile check
-cargo clippy                # Lint (strict Clippy rules)
-cargo fmt                   # Format code
-
-# Fallback (if nextest unavailable)
-cargo ts                    # Alias for standard cargo test
-```
-
-## Architecture & Key Modules
-
-- **Workspace**: `vtcode-core/` (library) + `src/main.rs` (binary) + 9 workspace crates
-- **Core**: `llm/` (multi-provider), `tools/` (trait-based), `config/` (TOML-based)
-- **Integrations**: Tree-sitter, PTY execution, ACP/MCP protocol, Gemini/OpenAI/Anthropic APIs
-
-## Code Style & Conventions
-
-- **Naming**: snake_case functions/vars, PascalCase types (standard Rust)
-- **Error Handling**: `anyhow::Result<T>` + `anyhow::Context`; NO `unwrap()`
-- **Constants**: Use `vtcode-core/src/config/constants.rs` (never hardcode, especially model IDs)
-- **Config**: Read from `vtcode.toml` at runtime
-- **Docs**: Markdown ONLY in `./docs/`; use `docs/models.json` for latest LLM models
-- **Formatting**: 4-space indentation, early returns, simple variable names
-
-## See Also
-
-For comprehensive guidelines, see `.github/copilot-instructions.md` (detailed patterns, testing strategy, security, additional context).
-
-## Core System Prompt
-
-```rust
-r#"You are VT Code, a coding agent.
-You specialize in understanding codebases, making precise modifications, and solving technical problems.
-
-# Tone and Style
-
-- IMPORTANT: You should NOT answer with unnecessary preamble or postamble (such as explaining your code or summarizing your action), unless the user asks you to.
-- Keep answers concise, direct, and free of filler. Communicate progress without narration.
-- Prefer direct answers over meta commentary. Avoid repeating prior explanations.
-- Only use emojis if the user explicitly requests it. Avoid using emojis in all communication.
-- When you cannot help, do not explain why or what it could lead to—that comes across as preachy.
-
-# Core Principles
-
-<principle>
-Obey system → developer → user → AGENTS.md instructions, in that order.
-Prioritize safety first, then performance, then developer experience.
-Keep answers concise and free of filler.
-</principle>
-
-# Execution Algorithm (Discovery → Context → Execute → Verify → Reply)
-
-**IMPORTANT: Follow this decision tree for every request:**
-
-1. **Understand** - Parse the request once; ask clarifying questions ONLY when intent is unclear
-2. **Decide on TODO** - Use `update_plan` ONLY when work clearly spans 4+ logical steps with dependencies; otherwise act immediately
-3. **Gather Context** - Search before reading files; reuse prior findings; pull ONLY what you need
-4. **Execute** - Perform necessary actions in fewest tool calls; consolidate commands when safe
-5. **Verify** - Check results (tests, diffs, diagnostics) before replying
-6. **Reply** - Single decisive message; stop once task is solved
-
-# Final Response Rules (Critical for UX)
-
-**IMPORTANT: Never repeat code in final summaries:**
-- Do NOT include full code blocks in postamble messages - code is already visible in TUI
-- If completed task involved code changes: reference session log instead
-- Format: "Done. Session log: /Users/vinhnguyenxuan/.vtcode/sessions/session-*.json"
-- Keep final response to 1-3 sentences max
-- Users can view full code via TUI output or `git diff` if needed
-
-<good-example>
-User: "Add error handling to fetch_user"
-→ Search for fetch_user implementation
-→ Identify current error paths
-→ Add error handling in 1-2 calls
-→ Reply: "Done. Added error handling for network + parse errors."
-</good-example>
-
-<bad-example>
-User: "Add error handling to fetch_user"
-→ "Let me create a TODO list first"
-→ "Step 1: Find the function. Step 2: Add error handling. Step 3: Test."
-→ [starts implementation]
-→ [keeps asking to re-assess]
-</bad-example>
-
-<system-reminder>
-You should NOT stage hypothetical plans after work is finished. Instead, summarize what you ACTUALLY did.
-Do not restate instructions or narrate obvious steps.
-Once the task is solved, STOP. Do not re-run the model when the prior step had no tool calls.
-</system-reminder>
-
-# Tool Selection Decision Tree
-
-When gathering context:
-
-```
-
-Explicit "run <cmd>" request?
-└─ ALWAYS use run_pty_cmd with exact command
-   └─ "run ls -a" → {"command": "ls -a"} (do NOT interpret as list_files)
-
-Need information?
-├─ Structure? → list_files
-└─ Text patterns? → grep_file
-
-Modifying files?
-├─ Surgical edit? → edit_file (preferred)
-├─ Full rewrite? → write_file
-└─ Complex diff? → apply_patch
-
-Running commands?
-├─ Interactive shell? → create_pty_session → send_pty_input → read_pty_session
-└─ One-off command? → shell tool
-(Use shell for: git, cargo, shell scripts, etc. AVOID: raw grep/find bash; use Grep instead)
-
-Processing 100+ items?
-└─ execute_code (Python/JavaScript) for filtering/aggregation
-
-Done?
-└─ ONE decisive reply; stop
-
-````
-
-# Tool Usage Guidelines
-
-**Tier 1 - Essential**: list_files, read_file, write_file, grep_file, edit_file, shell
-
-**Tier 2 - Control**: update_plan (TODO list), PTY sessions (create/send/read/close)
-
-**Tier 3 - Semantic**: apply_patch, search_tools
-
-**Tier 4 - Diagnostics**: get_errors, debug_agent, analyze_agent
-
-For comprehensive error diagnostics, use `get_errors` with parameters:
-- `scope`: "archive" (default), "all", or specific area to check
-- `detailed`: true for enhanced analysis with self-fix suggestions
-- `pattern`: custom pattern to search for specific error types
-
-Self-Diagnostic and Error Recovery:
-- When encountering errors or unexpected behavior, first run `get_errors` to identify recent issues
-- Use `analyze_agent` to understand current AI behavior patterns and potential causes
-- Run `debug_agent` to check system state and available tools
-- The system has self-diagnosis capabilities that can identify common issues and suggest fixes
-
-**Tier 5 - Data Processing**: execute_code, save_skill, load_skill
-
-**Search Strategy**:
-- Text patterns → grep_file with ripgrep
-- Tool discovery → search_tools before execute_code
-
-**File Editing Strategy**:
-- Exact replacements → edit_file (preferred for speed + precision)
-- Whole-file writes → write_file (when many changes)
-- Structured diffs → apply_patch (for complex changes)
-
-**Command Execution Strategy**:
-- Interactive work → PTY sessions (create_pty_session → send_pty_input → read_pty_session → close_pty_session)
-- One-off commands → shell tool (e.g., `git diff`, `git status`, `git log`, `cargo build`, `cargo nextest run`, `cargo fmt`, etc.)
-- **PREFER**: `cargo nextest run` over `cargo test` (3-5x faster)
-- AVOID: raw grep/find bash (use Grep instead); do NOT use bash for searching files—use dedicated tools
-
-# Code Execution Patterns
-
-Use `execute_code()` for:
-- **Filter/aggregate 100+ items** (return summaries, not raw lists)
-- **Transform data** (map, reduce, group operations)
-- **Complex control flow** (loops, conditionals, error handling)
-- **Chain multiple tools** in single execution
-
-**Workflow:**
-1. Discover Tools: `search_tools(keyword="xyz", detail_level="name-only")`
-2. Write Code: Python 3 or JavaScript calling tools
-3. Execute: `execute_code(code=..., language="python3")`
-4. Save Pattern: `save_skill(name="...", code=..., language="...")`
-5. Reuse: `load_skill(name="...")`
-
-**Token Savings:**
-- Data filtering: 98% savings vs. returning raw results
-- Multi-step logic: 90% savings vs. repeated API calls
-- Skill reuse: 80%+ savings across conversations
-
-Example:
-```python
-# search_tools to discover available tools
-tools = search_tools(keyword="file")
-# Use execute_code to process 1000+ items locally
-files = list_files(path="/workspace", recursive=True)
-test_files = [f for f in files if "test" in f and f.endswith(".ts")]
-result = {"count": len(test_files), "sample": test_files[:10]}
-````
-
-# Code Execution Safety & Security
-
--   **DO NOT** print API keys or debug/logging output. THIS IS IMPORTANT!
--   PII protection: Sensitive data auto-tokenized before return
--   Execution runs as child process with full access to system
-
-Always use code execution for 100+ item filtering (massive token savings).
-Save skills for repeated patterns (80%+ reuse ratio documented).
-
-# Attention Management
-
--   IMPORTANT: Avoid redundant reasoning cycles; once solved, stop immediately
--   Track recent actions mentally—do not repeat tool calls
--   Summarize long outputs instead of pasting verbatim
--   If tool retries loop without progress, explain blockage and ask for direction
-
-# Steering Guidelines (Critical for Model Behavior)
-
-Unfortunately, "IMPORTANT" is still state-of-the-art for steering model behavior:
-
-```
-Examples of effective steering:
-- IMPORTANT: Never generate or guess URLs unless confident
-- VERY IMPORTANT: Avoid bash find/grep; use Grep tool instead
-- IMPORTANT: Search BEFORE reading whole files; never read 5+ files without searching first
-- IMPORTANT: Do NOT add comments unless asked
-- IMPORTANT: When unsure about destructive operations, ask for confirmation
-```
-
-# Safety Boundaries
-
--   Work strictly inside `WORKSPACE_DIR`; confirm before touching anything else
--   Use `/tmp/vtcode-*` for temporary artifacts and clean them up
--   Never surface secrets, API keys, or other sensitive data
--   Code execution runs as child process with full system access
-
-# Destructive Commands and Dry-Run
-
--   For operations that are potentially destructive (e.g., `git reset --hard`, `git push --force`, `rm -rf`), require explicit confirmation: supply `confirm=true` in the tool input or include an explicit `--confirm` flag.
--   The agent should perform a pre-flight audit: run `git status` and `git diff` (or `cargo build --dry-run` where available) and present the results before executing destructive operations.
--   When `confirm=true` is supplied for a destructive command, the agent MUST write an audit event to the persistent audit log (`~/.vtcode/audit/permissions-{date}.log`) recording the command, reason, resolution, and 'Allowed' or 'Denied' decision.
-
-# Self-Documentation
-
-When users ask about VT Code itself, consult `docs/modules/modules/vtcode_docs_map.md` to locate canonical references before answering.
-
-Stay focused, minimize hops, and deliver accurate results with the fewest necessary steps."#
-
-```
-
-## Specialized System Prompts
-
--   See `prompts/orchestrator_system.md`, `prompts/explorer_system.md`, and related files for role-specific variants that extend the core contract above.
-```
+> [Root AGENTS.md](../AGENTS.md) | CLI entrypoint, session bootstrap, agent runloop wiring.
+
+# vtcode (binary)
+
+[Root AGENTS.md](../AGENTS.md) | CLI entrypoint, session bootstrap, agent runloop wiring.
+
+## Modules
+
+`main.rs` binary entry | `agent/` runloop + subagent dispatch | `cli/` CLI handlers | `startup/` first-run + onboarding | `updater/` self-update | `codex_app_server/` app server bridge | `main_helpers/` tracing + runtime init
+
+## Rules
+
+- Thin binary — all runtime logic in `vtcode-core`. This crate wires CLI args to `Agent::run()`.
+- Global allocator is `mimalloc` by default; `allocator-jemalloc` opts into
+  `tikv-jemalloc` (background-thread purging, recommended for Linux servers).
+  Selected in `src/allocator.rs` (a `mod allocator;` in `src/main.rs`). See
+  `docs/development/ALLOCATOR_MEMORY.md`.
+- `vtcode bench-allocator` measures RSS under a bursty/sparse Tokio workload to detect
+  allocator memory pinning; use it before changing the default allocator (see Gotchas).
+- `vtcode_ui::tui::panic_hook` installs custom panic handler — must run before any output.
+- `agent/runloop/` contains the single-agent runloop. Multi-agent is in `vtcode-core::subagents`.
+- `agent/runloop/unified/turn/compaction/` is a **thin delegator** — all compaction logic (auto/manual orchestration, memory envelope, dedup, thresholds) lives in `vtcode-core::compaction`. Do not re-implement compaction here; call the shared orchestrator.
+
+## Gotchas
+
+- `main_helpers` handles runtime relaunch context — do not duplicate init logic in `main.rs`.
+- Allocator memory pinning: vtcode's bursty/sparse Tokio workload (semaphore-capped
+  `JoinSet` fans-out, then workers idle) makes both `mimalloc` and `glibc` hold RSS flat
+  after a burst (frees stranded on cross-thread lists, only reconciled by future allocation
+  activity). `jemalloc` only returns memory on idle when its `background_thread` is active —
+  on macOS the jemalloc build prints `background_thread currently supports pthread only` and
+  behaves like mimalloc, so switching the allocator does NOT help on macOS dev. On Linux
+  containers (the article's target) `background_thread` works and jemalloc reclaims memory.
+  Measure with `vtcode bench-allocator` before changing the default; do not switch blindly.
+- `load_dotenv()` must run before config load to pick up `.env` API keys.
+- Provider noise (e.g. MiniMax `]<]minimax[>[`) is stripped centrally in `turn::provider_noise`. Stream-level sanitization (harmony + minimax) lives in `stream_sanitization::StreamSanitizer`. Do not re-implement noise stripping inline.
+- Budget exhaustion (wall-clock via `record_wall_clock_exhaustion_notice`, tool-call via `record_tool_budget_exhaustion_notice`) both follow the same contract: emit the full policy message once, a compact stub for later calls in the batch, then a single "synthesize now" directive via `flush_budget_synthesis_directives` (called after the tool batch so it is never interleaved between tool responses). Do not push the directive inline in `validate_tool_call`, and NEVER make tool-call budget exhaustion `Break` the turn as `Blocked` — that skips the synthesis pass entirely, so plan mode ended with research but no plan and the model looped "I'll synthesize the plan" across continue-turns. The flush also arms `switch_to_tool_free_recovery()` so the next request strips tool definitions at the API level — the directive alone is advisory and models kept emitting rejected tool calls after it (turn_637/turn_647). `tool_budget_exhausted_emitted` joins the wall-clock flags in the plan-mode `mark_recovery_exhausted` gates (`dispatch_post_tool_failure`, turn_loop recovery break).
+- `turn_processing/llm_request/` is split into contract-carrying submodules (`snapshot`, `tool_shaping`, `context_management`, `response_chain`, `prompt_assembly`) with `pub(super)` visibility; go through `mod.rs`'s exports. Prompt section order in `prompt_assembly::build_prompt_output` is prompt-cache-sensitive — reordering sections invalidates provider caches. `tool_shaping.rs` carries the wire invariant: hosted Anthropic/OpenAI payloads keep full deferred tool definitions; only the ClientLocal policy omits them (pinned by tests in `request_builder.rs`). `metrics.rs` emits a per-request `token_budget_breakdown` turn metric (system-prompt / tool-schema / message-history tokens + on-wire tool count) to the `vtcode.turn.metrics` target and trajectory log; cache read/write/miss are not duplicated here (they live in `SessionStats` prompt-cache diagnostics).
+- Plan-mode recovery contract: during the tool-free recovery pass (`tool_free_recovery`, tools disabled) do NOT inject a `request_user_input` interview call — it trips the recovery contract guard and dead-ends the turn. In `turn_loop.rs`, the interview synthesis/forcing block is gated on `!tool_free_recovery`, and `post_tool_recovery::complete_turn_after_failed_tool_free_recovery` is plan-aware: it marks `plan_session` `interview_pending` and emits `PLANNING_RECOVERY_SYNTHESIS_FALLBACK` so the next turn re-forces the interview instead of losing planning state. EXCEPTION: if `plan_session.is_budget_exhausted()` OR `is_recovery_exhausted()` (post-tool recovery cycle cap reached, or the turn's tool wall-clock budget was exhausted — `wall_clock_exhausted_emitted` is checked in `dispatch_post_tool_failure` and before `normalize_tool_free_recovery_break_outcome` — saturated planning context), it concludes with the USER-facing `PLANNING_BUDGET_EXHAUSTED_USER_NOTICE` / `PLANNING_RECOVERY_EXHAUSTED_USER_NOTICE` plus the `implement`/`keep planning` confirmation hint, and does NOT re-force the interview — re-researching the still-huge context would loop forever across turns. NEVER push a `*_FINALIZE` model directive as the final answer in this path: no LLM call follows it, so the user sees a bare instruction and the turn dead-ends (turn_655). The interview re-forcing guards in `planning_workflow.rs` and `interview_forcing.rs` honor both flags.
+- Plan output MUST stay compact/spec-like (root cause of the old "plan cut off mid-flight → re-summarize loop" bug). `PLANNING_WORKFLOW_PLAN_QUALITY_LINE` (prompts/system.rs) mandates a `<proposed_plan>` that fits ~1500 tokens with `Action -> files/symbols -> verify:` steps and file:symbol refs over prose; `docs/guides/planning-workflow.md` is the canonical format. NEVER widen this instruction back to "summary, steps, test cases, assumptions" — a verbose plan exceeds the model's output-token budget and is truncated mid-plan. The turn loop (`turn_loop::planning_workflow_recovery`) detects a truncated planning synthesis (`plan_synthesis_was_truncated`: `finish_reason == Length`, no tool calls, unclosed `<proposed_plan>`) and re-prompts once for a compact spec (`PLANNING_SYNTHESIS_TRUNCATED_CONDENSE_DIRECTIVE`, bounded by `MAX_PLAN_SYNTHESIS_CONDENSE_ATTEMPTS`) instead of looping.
+- Plan-mode research scope: the tool-loop cap in planning workflow is intentionally generous (40-240 calls, see `PLANNING_WORKFLOW_MIN_TOOL_LOOPS`/`_MAX_TOOL_LOOP_LIMIT_ABSOLUTE_CAP` in `turn_loop_helpers.rs`), so the real backstop against over-research is the tool wall-clock budget — a "make a simple plan" request burned 70+ tool calls until that budget was exhausted with no plan delivered (turn_647). `PLANNING_WORKFLOW_RESEARCH_SCOPE_LINE` (prompts/system.rs, appended in `runtime_contract::append_planning_workflow_notice`) nudges the model to scale research to request complexity instead of exhaustively enumerating the repo. Do not remove this line or reintroduce a hard tool-count cap for planning as a substitute — that would break legitimately complex plans.
+- Plan-approval handoff invariant: when the user approves by typing `approve`/`approved`/`lgtm`/`looks good`/`ship it`/etc., `detect_planning_intent` (`turn/planning_intent.rs`) must classify it as `ExitAndImplement` (it previously missed `approve`, so the model self-approved by mutating the plan file and stayed in plan mode). `maybe_handle_planning_exit_trigger` then runs `finish_planning` via `run_tool_call`; that outcome's `pending_primary_agent` (set by `handle_pending_confirmation` for `SwitchBuild`/`SwitchAuto`) MUST be propagated back to the turn outcome — `maybe_handle_planning_exit_trigger` now takes a `&mut Option<String>` out-param for this. If you ever change that function to return only a bool again, the build/auto agent switch silently breaks and the session stays in plan mode.
+- Plan-mode enter/exit phrase literals are the single source of truth in `vtcode_core::planning` (functions + arrays). The runloop's `detect_planning_intent` and the Codex bridge (`codex_app_server/runtime.rs::normalize_planning_input`) both draw from it. When adding an approval/exit/stay phrase, add it there ONCE — never fork a per-consumer copy (the bridge once silently missed `approve`/`lgtm`/`ship it`/`implement now` because it had its own hardcoded alias list). The runloop matches natural-language substrings; the bridge matches bare tokens exactly.
+- Tool-summary rendering (`agent/runloop/unified/tool_summary*.rs`) takes ambient context (workspace root for relative-path display) via the `ToolSummaryRenderContext` guard-rail struct, not a bare `Option<&Path>` threaded through every `describe_*`/`collect_*` helper. Pass `&ToolSummaryRenderContext` at the `render_*` entry points; the pure helpers stay `Option<&Path>`-driven internally.
+- Interview-denial vs. cancellation: `request_user_input` failing with a permanent policy/capability denial (category `PermissionDenied`/`PolicyViolation`/`PlanningPolicyViolation`, e.g. the tool is unavailable in this runtime) is NOT the same as the user cancelling the modal. `mark_interview_denied()` is called from TWO paths: (1) `handle_failure` (`turn/tool_outcomes/execution_result.rs`) when a tool execution returns a permanent denial category, and (2) the permission-flow denial handler (`turn/tool_outcomes/handlers/mod.rs` `ToolPermissionFlow::Denied` arm) when `canonical_tool_name == REQUEST_USER_INPUT` — the permission flow returns `ValidationResult::Blocked`, NOT `ToolExecutionStatus::Failure`, so it bypasses `handle_failure` entirely and must call `mark_interview_denied()` itself. `PlanningWorkflowSessionState::is_interview_denied()` then permanently short-circuits `planning_workflow_interview_ready` and `maybe_force_planning_workflow_interview` (`planning_workflow.rs`) for the rest of the session, and `post_tool_recovery` picks `PLANNING_RECOVERY_SYNTHESIS_FALLBACK_NO_INTERVIEW` instead of the interview-promising fallback. Additionally, `is_interview_denied()` ANDs into `request_user_input_enabled` at three call sites (`snapshot::capture_turn_request_snapshot`, `tool_pipeline/execution_run.rs`, `turn_loop.rs` post-`extract_turn_config`) so the tool is suppressed from the catalog and rejected at runtime after the first denial — without this, the model sees the tool in its catalog and retries across turns (checkpoint turn_724: 7 retries). `tool_denial_diagnostic` returns a `present_plan` directive for `request_user_input` telling the model to finalize the plan from gathered evidence and offer the user a yes/no/edit text HITL choice (the text-mode equivalent of the interactive modal). The user's reply routes via `detect_planning_intent`: `yes`/`implement` → `ExitAndImplement`, `edit`/`revise`/`keep planning` → `StayInPlanning` (bare `edit`/`revise` tokens are caught by `is_stay_token` in `intent.rs`; longer phrases by `STAY_PHRASES` in `planning/mod.rs`), `no` → `None` (falls through so the model responds naturally). `PLANNING_RECOVERY_SYNTHESIS_FALLBACK_NO_INTERVIEW` surfaces this yes/no/edit prompt as the user-visible final answer instead of a confusing "synthesis failed" message (checkpoint turn_725). Also: `request_user_input_enabled(planning_active, interactive_session)` must be fed a real capability signal (`renderer.supports_inline_ui()`), never a hardcoded `true`.
+- `turn_processing/planning_workflow.rs` (root) is orchestration + shared constants only (TD-005 split): the interview is a **static fallback** — there is no LLM-backed question synthesis (the old `planning_workflow/synthesis.rs` was deleted in the collapse-to-fallback change). The sole external interface is two `pub(crate)` fns, both re-exported via `turn_processing.rs`: `planning_workflow_interview_ready` (pure readiness predicate, from `gating.rs`) and `maybe_force_planning_workflow_interview` (defined at root, injects the static interview via `interview_forcing::inject_planning_workflow_interview`, which builds its question with `interview_payload::build_fallback_question`). Everything else (`interview_need_state`, `InterviewNeedState`, `filter_interview_tool_calls`, `strip_assistant_text`, `maybe_append_planning_workflow_reminder`) is `pub(super)`/private and reachable only within `planning_workflow`'s subtree. Do not grow the root file's function bodies; add gating conditions in `gating.rs`, question shaping in `interview_payload.rs`.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/vinhnx) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-10 -->
+> Source: [vinhnx/vtcode](https://github.com/vinhnx/vtcode) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
