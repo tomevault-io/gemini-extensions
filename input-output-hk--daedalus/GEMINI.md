@@ -1,101 +1,43 @@
 ## daedalus
 
-> > **For all AI coding assistants.** This file provides a starting point for understanding the Daedalus codebase.
+> > **For Claude Code.** This file points to the centralized documentation in `.agent/`.
 
-# Daedalus AI Agent Instructions
+# Claude Code Instructions
 
-> **For all AI coding assistants.** This file provides a starting point for understanding the Daedalus codebase.
-
----
-
-## Quick Start
-
-**Read the full documentation:** [`.agent/readme.md`](./.agent/readme.md)
-
-The `.agent/` directory contains comprehensive documentation organized for AI agents:
-
-| Folder              | Purpose                                  | When to Read                     |
-|---------------------|------------------------------------------|----------------------------------|
-| `.agent/system/`    | Architecture, APIs, state management     | Understanding system design      |
-| `.agent/plans/`     | Past PRDs and implementation plans       | Before implementing new features |
-| `.agent/SOPs/`      | Standard operating procedures            | When encountering known issues   |
-| `.agent/workflows/` | Step-by-step guides                      | When executing specific tasks    |
-| `.agent/skills/`    | Reusable task-specific playbooks         | When making domain-specific changes |
+> **For Claude Code.** This file points to the centralized documentation in `.agent/`.
 
 ---
 
-## Available Workflows
+## Documentation Location
 
-Use these slash commands to access workflows:
+All agent documentation is centralized in the [`.agent/`](./.agent/) directory.
 
-| Command       | Description                                  |
-|---------------|----------------------------------------------|
-| `/build`      | Build with Nix and Yarn                      |
-| `/test`       | Run Jest unit tests and Cucumber E2E tests   |
-| `/electron`   | Electron main process development            |
-| `/frontend`   | React/MobX renderer development              |
-| `/storybook`  | Component development with Storybook         |
-| `/hardware-wallets` | Ledger/Trezor hardware wallet development |
-| `/ipc`        | IPC channel development                       |
-| `/nix`        | Nix environment setup                         |
-| `/update-doc` | Update this documentation                    |
+**Start here:** [`.agent/readme.md`](./.agent/readme.md)
 
 ---
 
-## Project Overview
+## Quick Reference
 
-**Daedalus** is the official full-node cryptocurrency wallet for Cardano, built with Electron. It runs a full cardano-node and cardano-wallet backend, providing maximum security and decentralization.
+### System Documentation
+- [Architecture](./.agent/system/architecture.md) — Electron/React architecture, IPC patterns
+- [API Endpoints](./.agent/system/api-endpoints.md) — cardano-wallet REST API
+- [State Management](./.agent/system/state-management.md) — MobX stores and patterns
 
-### Tech Stack
+### Workflows
+- [/build](./.agent/workflows/build.md) — Nix shells and Yarn builds
+- [/test](./.agent/workflows/test.md) — Jest and Cucumber testing
+- [/electron](./.agent/workflows/electron.md) — Electron main process development
+- [/frontend](./.agent/workflows/frontend.md) — React/MobX development
+- [/hardware-wallets](./.agent/workflows/hardware-wallets.md) — Ledger/Trezor development
+- [/ipc](./.agent/workflows/ipc.md) — IPC channel development
+- [/nix](./.agent/workflows/nix.md) — Nix environment setup
+- [/storybook](./.agent/workflows/storybook.md) — Storybook component development
+- [/update-doc](./.agent/workflows/update-doc.md) — Update documentation
 
-| Layer              | Technology                  |
-|--------------------|-----------------------------|
-| Desktop Framework  | Electron 24.2.0             |
-| UI Library         | React 16.14.0               |
-| State Management   | MobX 5.15.7                 |
-| Component Library  | react-polymorph 1.0.4       |
-| Styling            | SCSS Modules                |
-| Routing            | React Router 5.2.0          |
-| i18n               | react-intl 2.9.0 (EN, JA)   |
-| Build System       | Nix + Webpack 5             |
-| Testing            | Jest + Cucumber             |
-| Hardware Wallets   | Ledger, Trezor              |
-
-### Key Directories
-
-| Directory          | Purpose                           |
-|--------------------|-----------------------------------|
-| `source/main/`     | Electron main process (Node.js)   |
-| `source/renderer/` | React UI (browser context)        |
-| `source/common/`   | Shared code and IPC contracts     |
-| `storybook/`       | Component stories                 |
-| `tests/`           | Cucumber E2E and unit tests       |
-| `installers/`      | Platform-specific installers      |
-| `nix/`             | Nix build configuration           |
-| `utils/`           | API importers, test wallets       |
-
----
-
-## Important Patterns
-
-### Electron Main Process (`source/main/`)
-- Manages cardano-node and cardano-wallet lifecycle
-- IPC handlers in `source/main/ipc/`
-- Hardware wallet integration (Ledger, Trezor)
-- Window management and native menus
-
-### React Renderer (`source/renderer/app/`)
-- MobX stores in `stores/` for state management
-- React components in `components/` (23 categories)
-- Container components in `containers/`
-- API client in `api/` for cardano-wallet REST calls
-- IPC client in `ipc/` for main process communication
-
-### IPC Communication (`source/common/ipc/`)
-- Type-safe IPC channels between main and renderer
-- Channel definitions in `source/common/ipc/api.ts`
-- Main-side handlers in `source/main/ipc/`
-- Renderer-side clients in `source/renderer/app/ipc/`
+### Learning Resources
+- [Task History](./.agent/plans/) — Past implementation plans
+- [SOPs](./.agent/SOPs/) — Standard operating procedures
+- [Skills](./.agent/skills/) — Reusable task-specific playbooks (CLI, frontend, testing)
 
 ---
 
@@ -111,15 +53,17 @@ yarn dev                  # Start development mode
 ### Building
 ```bash
 yarn build                # Production build
+yarn build:main           # Build main process only
+yarn build:renderer       # Build renderer only
 yarn package              # Create installer
 ```
 
 ### Testing
 ```bash
-yarn test:unit            # Run unit tests
-yarn test:e2e             # Run E2E tests
-yarn test:jest            # Run Jest tests
-yarn storybook            # Run Storybook
+yarn test:unit            # Cucumber unit tests
+yarn test:e2e             # Cucumber E2E tests
+yarn test:jest            # Jest tests
+yarn storybook            # Component development
 ```
 
 ### Code Quality
@@ -127,24 +71,50 @@ yarn storybook            # Run Storybook
 yarn lint                 # ESLint
 yarn compile              # TypeScript check
 yarn prettier:check       # Prettier check
+yarn check:all            # Run all checks
 ```
 
 ---
 
-## Before You Start
+## Project Structure
 
-1. Read [`.agent/readme.md`](./.agent/readme.md) for full documentation index
-2. Check [`.agent/system/architecture.md`](./.agent/system/architecture.md) for system overview
-3. Review relevant workflow in [`.agent/workflows/`](./.agent/workflows/)
+```
+daedalus/
+├── .agent/                 # Agent documentation (READ THIS)
+├── source/
+│   ├── main/               # Electron main process
+│   │   ├── cardano/        # Node/wallet management
+│   │   ├── ipc/            # IPC handlers
+│   │   ├── menus/          # Native menus
+│   │   └── windows/        # Window management
+│   ├── renderer/           # React UI
+│   │   └── app/
+│   │       ├── components/ # React components
+│   │       ├── stores/     # MobX stores
+│   │       ├── api/        # cardano-wallet client
+│   │       ├── containers/ # Container components
+│   │       └── i18n/       # Internationalization
+│   └── common/             # Shared code
+│       ├── ipc/            # IPC API contracts
+│       └── types/          # TypeScript types
+├── storybook/              # Component stories
+├── tests/                  # Cucumber tests
+├── installers/             # Platform installers
+└── nix/                    # Nix configuration
+```
 
 ---
 
-## Security Notes
+## Creating Documentation
 
-- Never commit secrets or private keys
-- Daedalus stores wallet data in user's app data directory
-- Hardware wallet signing happens on device, not in Daedalus
+When completing features or resolving issues:
+
+1. **Implementation plans** → Save to `.agent/plans/{domain}/`
+2. **Resolved issues** → Create SOP in `.agent/SOPs/{category}/`
+3. **New workflows** → Add to `.agent/workflows/`
+
+Run `/update-doc` workflow for guidance.
 
 ---
 > Source: [input-output-hk/daedalus](https://github.com/input-output-hk/daedalus) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
