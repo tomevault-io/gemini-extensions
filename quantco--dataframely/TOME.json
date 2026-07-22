@@ -3,8 +3,8 @@
   "owner": "Quantco",
   "repo": "dataframely",
   "description": "A declarative, \ud83d\udc3b\u200d\u2744\ufe0f-native data frame validation library.",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "dataframely",
+      "path": "skills/SKILL.md",
+      "github_url": "https://github.com/Quantco/dataframely/tree/main/skills/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/Quantco/dataframely",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T00:59:03Z"
+  "distributed_at": "2026-07-22T05:48:42Z"
 }
