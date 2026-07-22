@@ -3,8 +3,8 @@
   "owner": "aquaproj",
   "repo": "aqua-registry",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,33 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
-  "claim_url": "https://tomevault.io/claim/aquaproj",
+  "skills": [
+    {
+      "name": "aqua-registry",
+      "path": ".agents/skills/fetch-doc/SKILL.md",
+      "github_url": "https://github.com/aquaproj/aqua-registry/tree/main/.agents/skills/fetch-doc/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aqua-registry",
+      "path": ".claude/skills/fetch-doc/SKILL.md",
+      "github_url": "https://github.com/aquaproj/aqua-registry/tree/main/.claude/skills/fetch-doc/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aqua-registry",
+      "path": ".agents/skills/review-change/SKILL.md",
+      "github_url": "https://github.com/aquaproj/aqua-registry/tree/main/.agents/skills/review-change/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aqua-registry",
+      "path": ".claude/skills/review-change/SKILL.md",
+      "github_url": "https://github.com/aquaproj/aqua-registry/tree/main/.claude/skills/review-change/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/aquaproj/aqua-registry",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-15T07:00:11Z"
+  "distributed_at": "2026-07-22T08:42:27Z"
 }
