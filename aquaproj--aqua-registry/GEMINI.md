@@ -1,445 +1,155 @@
 ## aqua-registry
 
-> Please add a newline at the end of file.
+> This file is for AI coding agents (Claude Code, Codex CLI, Gemini CLI, etc.).
 
-# Common Style
+@CONTRIBUTING.md
 
-## Add a newline at the end of file
+# Agent Guide
 
-Please add a newline at the end of file.
-Note that this doesn't mean add an empty line at the end of file.
+This file is for AI coding agents (Claude Code, Codex CLI, Gemini CLI, etc.).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the human contributor guide and the
+canonical style references under [`docs/`](docs/).
 
-# Guide
+## If you're helping a mise user: reproduce with `aqua` first
 
-## Do Not Change the Source of Existing Packages to a Fork
+aqua-registry is consumed by mise as a backend, but it is an aqua project.
+Bug reports that only reproduce through mise (or asdf) get closed and
+redirected to the mise community.
 
-Even if maintenance of an existing package’s source has stalled or the repository has been archived, **do not change the package source to point to a fork**.
-Instead, create a **new package** that points to the forked source.
+Before opening an issue or PR for a bug, install `aqua`, write a minimal
+`aqua.yaml`, and reproduce the failure with `aqua` directly. In the report,
+include:
 
-For example, development of [99designs/aws-vault](https://github.com/99designs/aws-vault) has slowed down, and a fork, [ByteNess/aws-vault](https://github.com/ByteNess/aws-vault), was created.
-[Homebrew switched to using the forked repository](https://github.com/Homebrew/homebrew-core/pull/226185), but in the aqua registry, we decided to keep the original package as-is and add a new package instead.
+- `aqua` version
+- OS and CPU architecture
+- the `aqua.yaml`
+- the exact command and its output (expected vs. actual)
 
-- https://github.com/99designs/aws-vault/issues/1269
-- https://github.com/aquaproj/aqua-registry/pull/45430
+Background: [aquaproj/aqua-registry#30430](https://github.com/aquaproj/aqua-registry/issues/30430).
 
-This is to prevent the maintainer of a package’s source from changing without users’ knowledge.
-Whether or not to switch to a fork should be a decision made by users, not by the maintainers of the aqua registry.
-By adding a new package, users can explicitly choose to switch packages themselves.
+## Before you open a PR: rejection screens
 
-## Modifying Existing Packages
+The most common reasons the maintainer closes PRs without merging. Check
+each before starting work.
 
-When modifying existing packages, you need to modify code under `pkgs/<package name>`.
-There are several modification methods:
+- **Duplicates.** Search open and recently-closed PRs for the package name
+  before opening one:
 
-1. Manually modify the code
-2. Regenerate the code from scratch with commands
-3. Auto-generate code for the latest version and manually modify based on that
+  ```sh
+  gh pr list --repo aquaproj/aqua-registry --search "<package>" --state all
+  ```
 
-Which method to use depends on the state of the original code.
-Code auto-generation has been improved many times.
-Therefore, there is low-quality code generated before improvements.
-Such code may be better regenerated from scratch rather than manually fixed.
+- **Doesn't install as a single binary on `$PATH`.** aqua installs commands
+  into `AQUA_ROOT_DIR/bin`. Out of scope: tools that expect a different
+  install location (e.g., Helm plugins, Vim/Neovim plugins, Gauge plugins),
+  `libexec/` layouts, env-var-based install roots, and anything installed
+  via `pip` / `npm` / `gem`. **In scope:** standalone binaries that act as
+  plugins for another tool by naming convention — e.g., `kubectl-foo`
+  binaries are supported because kubectl just looks for `kubectl-*` on
+  `$PATH`. See [docs/support_policy.md](docs/support_policy.md).
+- **Upstream repo doesn't resolve.** `github.com/<owner>/<repo>` must be a
+  real GitHub repo whose tags match release versions. The maintainer will
+  not repoint an existing package to a fork — submit the fork as a new
+  package instead.
+- **Unsigned commits.** Auto-flagged by CI and won't merge. Set up commit
+  signing before pushing. See [docs/manner.md](docs/manner.md).
+- **Manual `pkg.yaml` version bumps.** `pkg.yaml` is test data, not a
+  version source. The Renovate bot owns version updates; manual bumps get
+  reverted or closed.
 
-One characteristic to identify if code is old is how `version_constraint` and `version_overrides` are written.
-In the new style, it basically looks like this:
+## Before you start
 
-```yaml
-version_constraint: "false" # Root version_constraint is "false"
-version_overrides:
-  - version_constraint: semver("<= 0.1.0") # Version constraints use <, <= not >, >= (basically <=)
-    # ...
-  # ...
-  - version_constraint: "true" # End with "true" for latest version configuration
-    # ...
-```
-
-In the old style, `version_overrides` is often not defined.
-In this case, it's likely better to regenerate from scratch.
-However, as mentioned earlier, auto-generation doesn't support package types other than `github_release` or `cargo`, so manual modification will be necessary.
-
-Also, [aliases](https://aquaproj.github.io/docs/reference/registry-config/aliases) and [files](https://aquaproj.github.io/docs/reference/registry-config/files) cannot be auto-generated, so you need to modify the auto-generated code referring to the original code.
-
-`3. Auto-generate code for the latest version and manually modify based on that` is effective when the package no longer installs with the latest version but you want to reuse existing code (don't want to regenerate from scratch).
-Running the following command generates code for the latest version:
+### 1. Clone the upstream `aqua` repository for offline spec reference
 
 ```sh
-aqua gr -l 1 "<package name>"
+mkdir -p .ai
+if [ ! -d .ai/aqua ]; then
+  git clone https://github.com/aquaproj/aqua .ai/aqua
+fi
+git -C .ai/aqua pull origin main
 ```
 
-Fix this and add it to the end of `version_overrides` in the original code and modify version_constraint.
+Key paths:
 
-# Style Style Guide of pkgs/\*\*/pkg.yaml
+- `.ai/aqua/website/docs/reference/registry-config/*.md` — every field in `registry.yaml`.
+- `.ai/aqua/json-schema/registry.json` — JSON Schema for `registry.yaml`.
 
-## What's pkgs/\*\*/pkg.yaml for?
+When the project docs link to `https://aquaproj.github.io/docs/<path>`, the
+source markdown is at `.ai/aqua/website/docs/<path>`.
 
-`pkgs/**/pkg.yaml` are test data.
-`pkgs/**/pkg.yaml` are used to test if packages can be installed properly.
+### 2. Use `argd s` to scaffold packages — do not hand-write `registry.yaml`
 
-Note that `pkgs/**/pkg.yaml` aren't lists of available versions.
-You can install any versions not listed in `pkgs/**/pkg.yaml`.
+For `github_release` and `cargo` packages, run:
 
-## packages must not be empty
-
-:thumbsdown:
-
-```yaml
-packages: []
+```sh
+argd s "<owner>/<repo>"      # e.g. argd s cli/cli
 ```
 
-If `cmdx s` fails to fetch versions, packages may become empty.
-
-## Test multiple versions
-
-If the package has the field [version_overrides](/docs/reference/registry-config/version-overrides),
-please add not only the latest version but also old versions in `pkg.yaml` to test if old versions can be installed properly.
-
-```yaml
-packages:
-  - name: scaleway/scaleway-cli@v2.12.0
-  - name: scaleway/scaleway-cli
-    version: v2.4.0
-```
-
-## Don't use the short syntax `<package name>@<version>` for the old versions
-
-Don't use the short syntax `<package name>@<version>` for the old version to prevent aqua-registry-updater from updating the old version.
-
-:thumbsup:
-
-```yaml
-packages:
-  - name: scaleway/scaleway-cli@v2.12.0
-  - name: scaleway/scaleway-cli
-    version: v2.4.0
-```
-
-:thumbsdown:
-
-```yaml
-packages:
-  - name: scaleway/scaleway-cli@v2.12.0
-  - name: scaleway/scaleway-cli@v2.4.0
-```
-
-# Style Guide of pkgs/\*\*/registry.yaml
-
-## Tool Naming Convention
-
-To avoid name conflicts, tool names must include `/` (namespace-like meaning).
-
-- NG: `terraform`
-- OK: `hashicorp/terraform`
-
-If the tool code is managed on GitHub, match the repository name.
-If multiple tools are managed in that repository, change the name for each tool.
-
-e.g. [winebarrel/cronplan](https://github.com/winebarrel/cronplan)
-
-- `winebarrel/cronplan/cronmatch`
-- `winebarrel/cronplan/cronplan`
-- `winebarrel/cronplan/cronviz`
-
-`aqua-renovate-config` assumes that if the package name does not contain a period, it begins with a GitHub repository name and attempts to obtain the version from GitHub Releases or Tags.
-Therefore, if there is no repository from which the version can be retrieved via GitHub Releases or Tags, the package name must include a period.
-This is a kind of workaround, but it works without any particular issues.
-
-`cargo` packages become [crates.io/{crate name}](../pkgs/crates.io).
-Platforms other than GitHub like GitLab are not actively supported, but some are supported as http type packages.
-[GitLab uses `gitlab.com/<repository name>`.](../pkgs/gitlab.com)
-
-## YAML Language Server Comment is necessary at the top of pkgs/\*\*/registry.yaml
-
-```yaml
-# yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/registry.json
-```
-
-## Remove spaces in the template `{{ ` and ` }}`
-
-:thumbsup:
-
-```yaml
-asset: tfcmt_{{.OS}}_{{.Arch}}.tar.gz
-```
-
-:thumbsdown:
-
-```yaml
-asset: tfcmt_{{ .OS }}_{{ .Arch }}.tar.gz
-```
-
-## Remove characters `.!` from the end of the description
-
-:thumbsup:
-
-```yaml
-description: A command-line tool that makes git easier to use with GitHub
-```
-
-:thumbsdown:
-
-```yaml
-description: A command-line tool that makes git easier to use with GitHub.
-```
-
-## Trim spaces
-
-:thumbsup:
-
-```yaml
-description: A command-line tool that makes git easier to use with GitHub
-```
-
-:thumbsdown:
-
-```yaml
-description: "  A command-line tool that makes git easier to use with GitHub  "
-```
-
-## Remove unneeded quotes of strings
-
-:thumbsup:
-
-```yaml
-description: A command-line tool that makes git easier to use with GitHub
-```
-
-:thumbsdown:
-
-```yaml
-description: "A command-line tool that makes git easier to use with GitHub"
-```
-
-## Avoid `if` and `for` statement in templates
-
-:thumbsup:
-
-```yaml
-asset: foo.{{.Format}}
-format: tar.gz
-overrides:
-  - goos: windows
-    format: zip
-```
-
-:thumbsdown:
-
-```yaml
-asset: 'foo.{{if eq .GOOS "windows"}}zip{{else}}tar.gz{{end}}'
-```
-
-## `version_overrides` Style Guide
-
-We decided not to rely on base settings as much as possible.
-This means we don't define settings such as `asset`, `format`, `windows_arm_emulation`, and so on on the base settings.
-Merge with base settings makes code DRY, but it's difficult to update settings when settings of new versions are changed because the update of the base settings affects all version override.
-By stopping to merge settings, we can update settings by simply adding a new version override and updating the last version_constraint.
-Perhaps we would be able to automate the update in future too.
-
-e.g.
-
-```yaml
-# Define only settings which don't depend on versions.
-# e.g. repo_owner, repo_name, description.
-version_constraint: "false"
-version_overrides:
-  - version_constraint: semver("<= 3.0.0")
-    # Oldest setting
-    # ...
-  - version_constraint: semver("<= 4.0.0")
-    # ...
-  - version_constraint: semver("<= 5.0.0")
-    # ...
-  - version_constraint: "true"
-    # Latest setting
-    # ...
-```
-
-## If the `format` is `raw`, `files[].src` isn't needed
-
-:thumbsup:
-
-```yaml
-format: raw
-files:
-  - name: swagger
-```
-
-:thumbsdown:
-
-```yaml
-format: raw
-files:
-  - name: swagger
-    src: swagger_{{.OS}}_{{.Arch}} # unneeded
-```
-
-## Consideration about Rust
-
-:warning: The author [@suzuki-shunsuke](https://github.com/suzuki-shunsuke) isn't familiar with Rust. If you have any opinion, please let us know.
-
-- linux: use the asset for not `gnu` but `musl` if both of them are supported
-  - ref: https://github.com/aquaproj/aqua-registry/pull/2153#discussion_r805116879
-- windows: use the asset for not `gnu` but `msvc` if both of them are supported
-  - ref: https://rust-lang.github.io/rustup/installation/windows.html
-
-:thumbsup:
-
-```yaml
-replacements:
-  linux: unknown-linux-musl
-  windows: pc-windows-msvc
-```
-
-:thumbsdown:
-
-```yaml
-replacements:
-  linux: unknown-linux-gnu
-  windows: pc-windows-gnu
-```
-
-## Use `overrides` instead of `format_overrides`
-
-:thumbsup:
-
-```yaml
-format: tar.gz
-overrides:
-  - goos: windows
-    format: zip
-```
-
-:thumbsdown:
-
-```yaml
-format: tar.gz
-format_overrides:
-  - goos: windows
-    format: zip
-```
-
-## Don't use emojis as much as possible
-
-In some environments, emojis are corrupted. e.g. https://github.com/aquaproj/aqua/pull/1004#issuecomment-1183710603
-
-:thumbsup:
-
-```yaml
-description: CLI and Go library for CODEOWNERS files
-```
-
-:thumbsdown:
-
-```yaml
-description: 🔒 CLI and Go library for CODEOWNERS files
-```
-
-## Omit the setting which is equivalent to the default value
-
-When `repo_owner` and `repo_name` are set, you can omit some attributes.
-
-:thumbsup:
-
-```yaml
-repo_owner: weaveworks
-repo_name: eksctl
-```
-
-:thumbsdown:
-
-```yaml
-repo_owner: weaveworks
-repo_name: eksctl
-name: weaveworks/eksctl
-link: https://github.com/weaveworks/eksctl
-files:
-  - name: eksctl
-```
-
-## Omit `.files[].src` if it is the same as `.files[].name`
-
-:thumbsup:
-
-```yaml
-files:
-  - name: pinact
-```
-
-:thumbsdown:
-
-```yaml
-files:
-  - name: pinact
-    src: pinact
-```
-
-## Don't add `.exe` to `.files[].name`
-
-:thumbsup:
-
-```yaml
-files:
-  - name: pinact
-```
-
-:thumbsdown:
-
-```yaml
-files:
-  - name: pinact.exe
-```
-
-## Omit `.exe`
-
-On Windows, `.exe` is appended by default. So you don't need to append `.exe`.
-
-:thumbsup:
-
-```yaml
-files:
-  - name: pinact
-```
-
-:thumbsdown:
-
-```yaml
-files:
-  - name: pinact
-    src: pinact.exe
-```
-
-## Use `aliases` only for keeping the compatibility
-
-The same package should have only one name, and aliases should be used only to keep the compatibility.
-`aliases` is used when the package repository is transferred usually.
-`search_words` is useful to allow to search packages with additional words.
-
-e.g.
-
-```yaml
-name: kubernetes-sigs/controller-tools/controller-gen
-search_words:
-  - kubebuilder
-```
-
-## Select `type` according to the following order
-
-1. github_release
-1. github_content
-1. github_archive
-1. http
-1. go_install
-1. go_build
-
-For example, you can also use `http` type to install the package from GitHub Releases, but in that case you should use `github_release` rather than `http`.
-
-## `cargo` package name should be `crates.io/<crate name>`
-
-If you add a crate hosted at crates.io, we recommend the package name is crates.io/<crate name> such as crates.io/skim because
-
-1. aqua gr and aqua-registry gr command can treat the package as cargo package
-1. aqua-renovate-config can update the package
+For other types, `argd s -l 1 "<package>"` generates a stub. The maintainer
+rejects PRs that hand-write configuration the scaffolder could have generated,
+because manual code reliably misses old versions and uncommon platforms. See
+[docs/add_package.md](docs/add_package.md) for details and edge cases.
+
+### 3. Verify with `argd t` before opening the PR
+
+Run `argd t <package>` and paste the command + a snippet of the output into the
+PR description. "I tested it" without evidence delays review.
+
+## Common corrections to avoid
+
+These come up repeatedly on PR review. Check each before submitting.
+
+### `registry.yaml`
+
+- **End the file with a single trailing newline.**
+- **Don't quote strings unless YAML requires it.** `description: foo`, not
+  `description: "foo"`. Same for `src`, `asset`, etc.
+- **`description` is one short sentence.** No leading/trailing whitespace, no
+  trailing `.` or `!`, no emojis. Aim for ~80 characters.
+- **`format: raw` ⇒ omit `files[].src`.** The `files` block is unnecessary
+  when there's no archive to extract.
+- **`supported_envs`: list arch-qualified entries when arch coverage is
+  partial.** Bare `linux` implies both `linux/amd64` and `linux/arm64`. If
+  only one arch is supported, write it out: `[darwin, linux/amd64, windows]`.
+- **Use `amd64`/`arm64`, not `x64`/`aarch64`.** CI will fail otherwise.
+- **`version_prefix` must match the actual tag prefix.** If releases are
+  tagged `lychee-v0.15.0`, use `version_prefix: lychee-v`, not `lychee-`.
+- **`version_filter` is not for dropping support for old versions.** Use
+  `version_constraint` + `no_asset` / `error_message` for that. `version_filter`
+  only excludes versions from `argd s` scaffolding.
+- **Drop empty `replacements:` blocks.** If you're not transforming the
+  template, the field shouldn't be there.
+- **Prefer `{{.Asset}}.sha256` over repeating the full asset template** when
+  the checksum URL is just the asset URL with a suffix.
+- **`aliases` is for renames only.** Use `search_words` for discoverability —
+  don't put marketing terms or alternate spellings in `aliases`.
+- **Pick `type:` per the precedence in
+  [docs/registry_yaml.md](docs/registry_yaml.md).** Prefer `github_release` >
+  `http` > `go_build` — only fall back when the simpler type can't work.
+- **Don't add a `checksum:` block when the checksum file is just a bare
+  hash** (`file_format: raw`); the defaults handle it.
+
+### `pkg.yaml`
+
+- **Pin one test version per `version_overrides` branch.** If you add an
+  override for versions <1.5, also add a `pkg.yaml` entry pinned in that
+  range so CI exercises the override.
+- **Don't drop existing test versions** without explaining why in the PR
+  body. Deleted versions weaken regression coverage.
+
+### PR description
+
+- Show the verification command and its output.
+- Disclose AI usage per [docs/ai.md](docs/ai.md): add the agent as a commit
+  co-author or note it in the PR body. Don't respond to maintainer questions
+  with "I don't know, the AI wrote it" — review and own the output.
+
+## Project skills
+
+The `.agents/skills/` and `.claude/skills/` directories contain reusable
+workflows (e.g., `fetch-doc` to pull aqua spec docs, `review-change` to lint
+proposed package changes). Prefer invoking them over re-deriving the procedure.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/aquaproj) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-10 -->
+> Source: [aquaproj/aqua-registry](https://github.com/aquaproj/aqua-registry) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
