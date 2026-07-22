@@ -5,13 +5,13 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Sillar-codes/inkathon-dApp](https://github.com/Sillar-codes/inkathon-dApp).
+Original source: `CLAUDE.md` in [Sillar-codes/inkathon-dApp](https://github.com/Sillar-codes/inkathon-dApp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
