@@ -1,236 +1,57 @@
 ## autumn
 
-> All code is in the `src/` directory. The legacy `source/` directory has been fully migrated.
+> When writing the docs, always make sure to add it to `docs.json` for it to appear
 
-# ATMN CLI - Code Conventions
+When writing the docs, always make sure to add it to `docs.json` for it to appear
 
-## Directory Structure
+## React Hook Documentation
 
-All code is in the `src/` directory. The legacy `source/` directory has been fully migrated.
+**Always read the actual types** in `packages/autumn-js/src/` before writing hook docs:
+- Hook params: `packages/autumn-js/src/react/hooks/<hookName>.ts`
+- Client params: `packages/autumn-js/src/types/params.ts`
+- SDK types: `packages/sdk/src/models/`
 
-```
-atmn/
-├── src/
-│   ├── cli.tsx                # Main CLI entry point
-│   ├── constants.ts           # BACKEND_URL, FRONTEND_URL, DEFAULT_CONFIG
-│   │
-│   ├── compose/               # DSL builders for plans/features (public API)
-│   │   ├── index.ts           # Package exports (Plan, Feature, plan(), feature(), etc.)
-│   │   ├── models/            # Type definitions (Plan, Feature, PlanFeature)
-│   │   └── builders/          # Builder functions (plan(), feature(), planFeature())
-│   │
-│   ├── commands/              # CLI commands (each in its own folder)
-│   │   ├── auth/              # Auth/login command
-│   │   ├── pull/              # Pull command
-│   │   ├── push/              # Push command
-│   │   └── nuke/              # Nuke command
-│   │
-│   ├── lib/                   # Shared libraries
-│   │   ├── api/               # API client and endpoints
-│   │   │   ├── client.ts      # HTTP client
-│   │   │   ├── endpoints/     # API endpoint functions
-│   │   │   └── types/         # API response types
-│   │   ├── hooks/             # Custom React hooks
-│   │   ├── transforms/        # Data transformation (apiToSdk, sdkToApi, sdkToCode)
-│   │   ├── env/               # Environment context (--local, --prod flags)
-│   │   ├── constants/         # Shared constants, template data
-│   │   └── utils.ts           # Shared utilities
-│   │
-│   └── views/                 # UI templates
-│       ├── html/              # HTML templates (OAuth callbacks)
-│       └── react/             # React/Ink components
-│           ├── components/    # Shared UI components
-│           ├── init/          # Init flow
-│           ├── pull/          # Pull UI
-│           ├── push/          # Push UI
-│           └── nuke/          # Nuke UI
-│
-├── test/                      # Tests
-└── dist/                      # Build output
-```
+**Casing:** The TypeScript SDK uses camelCase (Speakeasy transforms snake_case API responses). All JSON examples in docs must use camelCase (`planId`, `createdAt`, `featureId`).
 
-## Package Exports
+**Keep it concise:** Only document the most important parameters. Link to API reference for the full list.
 
-The `atmn` package exports the compose DSL for use in `autumn.config.ts`:
+## Manual API Documentation
 
-```ts
-// Users import from 'atmn'
-import { plan, feature, planFeature, type Plan, type Feature } from 'atmn';
+Manual documentation (explanations, examples, use cases) should go in `api-reference-generator/` folder, NOT in `mintlify/api-reference/`. The generator merges manual content from `api-reference-generator/` with auto-generated body params and outputs the final result to `mintlify/api-reference/`.
+
+**Workflow:**
+1. Create/edit manual docs in `apps/docs/api-reference-generator/<category>/<operationId>.mdx`
+2. Run the generator to merge with generated params
+3. Output goes to `apps/docs/mintlify/api-reference/<category>/<operationId>.mdx`
+
+**Never edit files directly in `mintlify/api-reference/`** - they will be overwritten by the generator.
+
+## DynamicParamField Component
+
+**Location:** `snippets/dynamic-param-field.jsx`
+
+**Purpose:** Wrapper around Mintlify's `ParamField` that auto-converts param names between snake_case and camelCase based on selected code language.
+
+**Behavior:**
+- TypeScript/Node.js → camelCase (`customerId`)
+- Python/cURL/others → snake_case (`customer_id`)
+
+**How it works:**
+1. Reads `code` key from localStorage (set by Mintlify's language selector)
+2. Listens for `mintlify-localstorage` event + polls every 500ms as fallback
+3. Transforms `body` and `path` props using regex: `str.replace(/[_-](\w)/g, ...)`
+
+**Usage:**
+```jsx
+import { DynamicParamField } from "/snippets/dynamic-param-field.jsx";
+
+<DynamicParamField body="customer_id" type="string" required>
+  The customer identifier
+</DynamicParamField>
 ```
 
-These exports come from `src/compose/index.ts`.
-
-## Architecture Conventions
-
-### Commands (`src/commands/<name>/`)
-
-Each command should have its own folder with:
-- Main command file(s) with the command logic
-- Supporting files for complex operations (e.g., `oauth.ts` for auth)
-- Types and constants specific to that command
-
-### Views (`src/views/`)
-
-UI templates organized by type:
-- `html/` - HTML templates (for browser callbacks, etc.)
-- `react/` - React/Ink components organized by feature
-
-### Shared Libraries (`src/lib/`)
-
-- `api/` - API client, endpoint functions, and response types
-- `hooks/` - Custom React hooks (useOrganization, usePush, usePull, etc.)
-- `transforms/` - Data transformation functions between API/SDK/Code formats
-- `env/` - CLI context (--local, --prod flag handling)
-- `constants/` - Shared constants and template data
-- `utils.ts` - Shared utility functions
-
-## Import Conventions
-
-- Use `.js` extensions in imports (required for ESM)
-- Import compose types from `../../compose/models/index.js`
-- Import API functions from `../../lib/api/endpoints/index.js`
-- Import utilities from `../../lib/utils.js`
-
-## OAuth Flow
-
-The auth command uses OAuth 2.1 PKCE:
-1. Local HTTP server starts on port `31448` (or next available up to `31452`)
-2. Browser opens to backend authorize URL with PKCE challenge
-3. User authenticates and selects organization
-4. Callback received with authorization code
-5. Code exchanged for access token
-6. Access token used to create API keys via `/cli/api-keys` endpoint
-7. Keys saved to `.env` file
-
-Key constants:
-- `CLI_CLIENT_ID`: `qncNuaPFAEBwzCypjFopNCGPHQDqkchp`
-- `OAUTH_PORTS`: `31448-31452` (5 ports, tries each in sequence if previous is in use)
-
-## React Component Conventions (`src/views/react/`)
-
-When React files grow large, use folder-based decomposition:
-
-1. **Create a folder with the component's name** - Replace `Component.tsx` with `Component/` folder
-2. **Move parent into folder** - Place main component in `Component/Component.tsx`
-3. **Extract children as siblings** - Create separate files for sub-components (e.g., `Component/SubComponent.tsx`)
-4. **Apply recursively** - If children grow large, repeat the pattern for them
-5. **Extract shared components** - Move frequently reused components to `react/components/`
-
-**Example:**
-```
-react/
-├── InitFlow.tsx              # Original file (300+ lines)
-│
-# After decomposition:
-├── init/
-│   ├── InitFlow.tsx          # Main orchestrator
-│   └── steps/
-│       ├── AuthStep.tsx      # Step 1
-│       ├── StripeStep.tsx    # Step 2
-│       └── ConfigStep.tsx    # Step 3
-│
-└── components/               # Shared across multiple views
-    ├── StepHeader.tsx
-    ├── StatusLine.tsx
-    └── SelectMenu.tsx
-```
-
-**Useful Ink Components:**
-- `ink-select-input` - Interactive select menus with arrow key navigation
-- `ink-confirm-input` - Yes/No confirmation prompts
-- `ink-spinner` - Loading spinners
-- `ink-text-input` - Text input fields
-
-## Build
-
-```bash
-pnpm build    # Build with Bun
-pnpm dev      # Watch mode
-pnpm test     # Run tests
-```
-
-Entry point is `src/cli.tsx` for the CLI and `src/compose/index.ts` for the package exports.
-
-## Code Separation Rules
-
-### .tsx Files (Components)
-- **ONLY rendering logic** - No API calls, no business logic, no data transformation
-- Import and use custom hooks for all data/state management
-- No `useEffect` + `async/await` patterns
-- No JSON boilerplate or large data constants
-
-### .ts Files (Logic)
-- All business logic, API calls, data transformation
-- Custom hooks (`useX`) for stateful logic
-- Utility functions for pure transformations
-- Constants and configuration data
-
-### Data Fetching
-- **Always use TanStack Query for queries** - No `useEffect` + `async/await` for data fetching
-- Create reusable hooks: `useOrganization`, `usePull`, etc.
-- **Use TanStack Query for**: Data that should be cached/refetched (org info, lists, etc.)
-- **Use useState + useEffect for**: One-time operations/mutations (pull, push, nuke)
-- Hooks return consistent patterns: `{ data, isLoading, error }` or `{ ...data, isLoading, error }`
-
-### Directory Structure for Logic
-
-```
-src/
-├── lib/
-│   ├── api/                    # API client and endpoints
-│   │   ├── client.ts
-│   │   └── endpoints/
-│   ├── hooks/                  # Custom React hooks
-│   │   ├── useOrganization.ts  # Org info hook
-│   │   ├── usePull.ts          # Pull operation hook
-│   │   └── index.ts
-│   ├── utils/                  # Pure utility functions
-│   │   └── files.ts
-│   └── constants/              # Shared constants, template data
-│       └── templates.ts
-└── views/react/                # UI components (rendering only)
-```
-
-### Example: Good vs Bad
-
-**Bad - Logic in .tsx:**
-```tsx
-// Component.tsx
-export function MyComponent() {
-  const [data, setData] = useState(null);
-  
-  useEffect(() => {
-    async function fetchData() {
-      const result = await fetch('/api/data');
-      setData(result);
-    }
-    fetchData();
-  }, []);
-  
-  return <div>{data}</div>;
-}
-```
-
-**Good - Logic in hook, .tsx only renders:**
-```tsx
-// hooks/useMyData.ts
-export function useMyData() {
-  return useQuery({
-    queryKey: ['myData'],
-    queryFn: () => fetchMyData(),
-  });
-}
-
-// Component.tsx
-export function MyComponent() {
-  const { data, isLoading, error } = useMyData();
-  
-  if (isLoading) return <Loading />;
-  if (error) return <Error message={error.message} />;
-  return <div>{data}</div>;
-}
-```
+Always pass snake_case to the component - it handles camelCase conversion automatically.
 
 ---
 > Source: [useautumn/autumn](https://github.com/useautumn/autumn) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-21 -->
+<!-- tomevault:4.0:gemini_md:2026-07-23 -->
