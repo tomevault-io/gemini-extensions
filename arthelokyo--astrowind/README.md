@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [arthelokyo/astrowind](https://github.com/arthelokyo/astrowind).
+Original source: `CLAUDE.md` in [arthelokyo/astrowind](https://github.com/arthelokyo/astrowind).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [arthelokyo/astrowind](https://github.com/arthelokyo/astrowind) — a repo with 5826+ stars on GitHub.
+From [arthelokyo/astrowind](https://github.com/arthelokyo/astrowind) — a repo with 5832+ stars on GitHub.
 
 ---
 
