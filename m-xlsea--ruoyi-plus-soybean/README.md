@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [m-xlsea/ruoyi-plus-soybean](https://github.com/m-xlsea/ruoyi-plus-soybean).
+Original source: `CLAUDE.md` in [m-xlsea/ruoyi-plus-soybean](https://github.com/m-xlsea/ruoyi-plus-soybean).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
