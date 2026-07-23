@@ -7,11 +7,11 @@ AI-powered CesiumJS 3D globe control  49 tools for camera, entities, layers, ani
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gaopengbin/cesium-mcp](https://github.com/gaopengbin/cesium-mcp).
+Original source: `CLAUDE.md` in [gaopengbin/cesium-mcp](https://github.com/gaopengbin/cesium-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
