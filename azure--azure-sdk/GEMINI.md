@@ -1,0 +1,13 @@
+## azure-sdk
+
+> **Do not comment on package index update PRs.** Automated pull requests that update the package index (typically updates to files in `_data/releases/`) are system-generated version bumps and maintenance updates. Do not add comments, reviews, feedback, suggestions, or approvals to these PRs.
+
+# GitHub Copilot Instructions for Azure SDK Repository
+
+## Package Index Update Pull Requests
+
+**Do not comment on package index update PRs.** Automated pull requests that update the package index (typically updates to files in `_data/releases/`) are system-generated version bumps and maintenance updates. Do not add comments, reviews, feedback, suggestions, or approvals to these PRs.
+
+---
+> Source: [Azure/azure-sdk](https://github.com/Azure/azure-sdk) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
