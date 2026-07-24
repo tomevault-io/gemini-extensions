@@ -1,23 +1,33 @@
 # deliberation
 
-> Tome by [antonbabenko](https://github.com/antonbabenko/deliberation) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [antonbabenko](https://github.com/antonbabenko/deliberation), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 Ask Codex, Gemini, Grok, and 400+ OpenRouter models (Qwen, Kimi, DeepSeek) for second opinions or arbiter-mediated consensus. One MCP server for Claude Code, Codex, Cursor, Kiro, OpenCode. Measures which models earn their seat.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [antonbabenko/deliberation](https://github.com/antonbabenko/deliberation).
+Original source: `CLAUDE.md` in [antonbabenko/deliberation](https://github.com/antonbabenko/deliberation).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/antonbabenko/deliberation](https://github.com/antonbabenko/deliberation)
+## Bundled Skills (7)
+
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/debugger/SKILL.md)
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/architect/SKILL.md)
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/researcher/SKILL.md)
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/code-reviewer/SKILL.md)
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/scope-analyst/SKILL.md)
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/plan-reviewer/SKILL.md)
+- [deliberation](https://github.com/antonbabenko/deliberation/tree/main/plugins/deliberation/skills/security-analyst/SKILL.md)
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/antonbabenko/deliberation](https://github.com/antonbabenko/deliberation)
 
 ---
 
