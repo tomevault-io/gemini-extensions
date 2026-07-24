@@ -1,26 +1,24 @@
 # embedist
 
-> Source: [mandarwagh9/embedist](https://github.com/mandarwagh9/embedist) — distributed by [TomeVault](https://tomevault.io)
-
-AI-Native Embedded Development Environment
+> Source: [mandarwagh9/embedist](https://github.com/mandarwagh9/embedist). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mandarwagh9/embedist](https://github.com/mandarwagh9/embedist).
+Original source: `CLAUDE.md` in [mandarwagh9/embedist](https://github.com/mandarwagh9/embedist).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [mandarwagh9/embedist](https://github.com/mandarwagh9/embedist) — a repo with 34+ stars on GitHub.
+From [mandarwagh9/embedist](https://github.com/mandarwagh9/embedist) — a repo with 45+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-s -->
