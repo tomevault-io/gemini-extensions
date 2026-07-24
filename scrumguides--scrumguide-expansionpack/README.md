@@ -1,18 +1,16 @@
 # ScrumGuide-ExpansionPack
 
-> Tome by [ScrumGuides](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack) — distributed by [TomeVault](https://tomevault.io)
-
-The Scrum Guide Expansion Pack clarifies Scrum’s core principles, helping teams navigate rapid change, AI integration, and product-focused outcomes.
+> Tome by [ScrumGuides](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ScrumGuides/ScrumGuide-ExpansionPack](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack).
+Original source: `AGENTS.md` in [ScrumGuides/ScrumGuide-ExpansionPack](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
