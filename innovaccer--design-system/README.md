@@ -5,15 +5,19 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [innovaccer/design-system](https://github.com/innovaccer/design-system).
+Original source: `CLAUDE.md` in [innovaccer/design-system](https://github.com/innovaccer/design-system).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (1)
+
+- [design-system](https://github.com/innovaccer/design-system/tree/main/.claude/skills/a11y/SKILL.md)
 
 From [innovaccer/design-system](https://github.com/innovaccer/design-system) — a repo with 98+ stars on GitHub.
 
