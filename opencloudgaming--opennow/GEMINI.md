@@ -1,71 +1,62 @@
 ## opennow
 
-> 1. Performance first.
+> - The active desktop client is in `opennow-stable/` (Electron + React + TypeScript).
 
-# AGENTS.md
+# Copilot instructions for OpenNOW
 
-## Core Priorities
+## Project scope
+- The active desktop client is in `opennow-stable/` (Electron + React + TypeScript).
+- The repository root `package.json` is a workspace shim: root scripts proxy to `opennow-stable` via `npm --prefix opennow-stable`.
 
-1. Performance first.
-2. Reliability first.
-3. Keep behavior predictable under load and during failures (session restarts, reconnects, partial streams).
+## Build, check, and packaging commands
 
-If a tradeoff is required, choose correctness and robustness over short-term convenience.
+### From repository root
+```bash
+npm run dev
+npm run typecheck
+npm run build
+npm run dist
+npm run dist:signed
+```
 
-## Repository Layout
+### From `opennow-stable/`
+```bash
+npm install
+npm run dev
+npm run typecheck
+npm run build
+npm run dist
+npm run dist:signed
+```
 
-- `opennow-stable/` is the Electron app. Main-process code lives in `src/main`, preload bridges in `src/preload`, renderer UI in `src/renderer`, and cross-process TypeScript contracts in `src/shared`.
-- `native/` contains the native streamer implementation and build outputs used by the Electron app. Keep native build changes isolated from Electron refactors unless the task explicitly spans both.
-- `locales/` contains localization sources and generated Crowdin output. See Localization before editing.
-- `OpenNOW-Site/` is a separate repository when present; do not modify it from OpenNOW tasks unless explicitly requested.
+### Tests and linting
+- There is currently no test script or lint script in this repository.
+- There is no single-test command configured yet.
+- PR guidance in this repo expects `typecheck` and `build` to pass locally.
 
-## Module Boundaries
+## High-level architecture
+- Electron app with three boundaries:
+  - **Main process** (`src/main/`): auth/session lifecycle, CloudMatch API calls, signaling setup, settings persistence, IPC handlers.
+  - **Preload** (`src/preload/index.ts`): typed `contextBridge` surface that exposes the safe API as `window.openNow`.
+  - **Renderer** (`src/renderer/src/`): React UI and WebRTC client; stream lifecycle is orchestrated in `App.tsx`.
+- Shared cross-process contracts live in `src/shared/`:
+  - `gfn.ts` defines request/response types and the `OpenNowApi` interface used by preload and renderer.
+  - `ipc.ts` defines canonical IPC channel names used by both preload and main.
+- Streaming flow (big picture):
+  1. Renderer calls `window.openNow` API.
+  2. Main IPC handlers in `src/main/index.ts` delegate to `src/main/gfn/*` services.
+  3. CloudMatch/session APIs return signaling/session data.
+  4. Main signaling client emits events back to renderer.
+  5. Renderer WebRTC client establishes media/data channels and drives stream UI/state.
 
-- Shared GFN main-process protocol details belong under `opennow-stable/src/main/gfn`. Prefer focused modules with one owner per concern (`clientHeaders.ts` for client identity/header constants, `proxyFetch.ts` for proxy-aware fetches, `proxyUrl.ts` for proxy URL normalization, `request.ts` for common response handling).
-- Do not duplicate NVIDIA/GFN constants, request headers, platform/device ID mapping, auth header construction, proxy behavior, or error parsing across feature files. Add to or extract a focused shared module first, then consume it from features.
-- Keep feature files (`auth.ts`, `games.ts`, `cloudmatch.ts`, `subscription.ts`, etc.) responsible for product flow and payload shape, not for re-declaring shared client identity or transport details.
-- Preserve provider/alliance behavior, stable device IDs, session refresh semantics, and `SessionError.fromResponse()` handling when refactoring GFN code.
-
-## Electron Process Boundaries
-
-- Main process owns filesystem, native process management, GFN network/session orchestration, Electron APIs, and security-sensitive logic.
-- Preload exposes the minimal typed bridge needed by the renderer. Do not pass raw Electron or Node primitives into renderer code.
-- Renderer code should stay UI-focused. Do not duplicate main-process GFN networking or native orchestration in React components.
-
-## Shared Contracts
-
-- `opennow-stable/src/shared` is the contract boundary between main, preload, and renderer. Keep public IPC/shared interfaces stable unless the task explicitly requires a contract change.
-- When changing shared types, update every caller across main, preload, and renderer in the same change and run type checks.
-- Avoid using `any` or renderer-only types in shared contracts. Prefer serializable DTOs and explicit unions.
-
-## Maintainability
-
-Long term maintainability is a core priority. If you add new functionality, first check if there is shared logic that can be extracted to a separate module. Duplicate logic across multiple files is a code smell and should be avoided. Don't be afraid to change existing code. Don't take shortcuts by just adding local logic to solve a problem.
-
-- Refactors should reduce ownership ambiguity: name the new owner module, move duplicated logic there, and keep behavior equivalent unless a behavior change is requested.
-- Prefer small, typed helpers over broad `utils` modules. If a helper needs knowledge of one protocol or product area, keep it beside that area.
-- Keep compatibility with existing persisted auth/session state unless a migration is explicitly part of the task.
-
-## Localization
-
-Crowdin owns generated translations. When changing localized copy, edit only `locales/en.json` as the source language file. Do not manually edit other `locales/*.json` files; they are generated by Crowdin and should only change through Crowdin sync pull requests.
-
-## Checks
-
-- For TypeScript/Electron changes, run the narrowest relevant smoke check first, then `npm --prefix opennow-stable run typecheck` before finishing when practical.
-- For main-process GFN/session changes, also run `npm --prefix opennow-stable test -- --test-name-pattern gfn` or the closest targeted test command available; if scripts do not support filtering, run `npm --prefix opennow-stable test`.
-- For localization changes, run `npm --prefix opennow-stable run locales:check`.
-- Do not claim completion if the relevant acceptance check fails. Report the failing command and failure point.
-
-## Cursor Cloud specific instructions
-
-- All commands run from `opennow-stable/` (or use the root `npm run <script>` wrappers). Dependencies are managed with npm (`package-lock.json`); the `bun.lock` is secondary — do not use bun. Node 22 is required.
-- Standard scripts are defined in `opennow-stable/package.json`: `dev`, `build`, `lint`, `typecheck`, `test`, `locales:check`. Don't duplicate them; use those.
-- Running the app: `npm run dev` (root) launches `electron-vite dev` and opens the Electron window on the desktop `DISPLAY` (`:1`). It is a long-running process — start it in a background/tmux session, not a blocking foreground call.
-- Benign startup noise: in this container Electron logs `Failed to connect to the bus` (dbus) and `vkCreateInstance() failed: -9` / `Failed to create and initialize Vulkan` (GPU). These are expected with no real GPU/dbus and do not indicate failure — the UI still renders and networks fine.
-- OpenNOW is a bring-your-own-account GeForce NOW client: there is no local backend. Full end-to-end gameplay/login requires a real NVIDIA/GFN account. Clicking "Sign in" opens NVIDIA's OAuth page (`login.nvgs.nvidia.com`); the auth/networking path can be exercised up to that external login without credentials.
-- The native Rust streamer in `native/opennow-streamer` is optional and Windows-focused (`npm run native:check` / `native:build` need the Cargo toolchain). It is not required to run or develop the Electron client; the default stream path uses embedded Chromium WebRTC.
+## Key conventions
+- Keep the **shared contract first**: when adding/changing API shapes, update `src/shared/gfn.ts` and `src/shared/ipc.ts`, then wire both preload and main handlers.
+- Keep alias usage consistent: `@shared/*` is defined in both TS configs and `electron.vite.config.ts`; new shared modules should follow this import pattern.
+- Renderer should use `window.openNow` only (declared in `src/renderer/src/vite-env.d.ts`); avoid importing Electron APIs directly in renderer code.
+- Session/auth token handling should stay centralized in main (`AuthService.resolveJwtToken` / `ensureValidSessionWithStatus`) so renderer-side cached tokens do not bypass refresh logic.
+- CloudMatch errors are normalized with `SessionError` (`src/main/gfn/errorCodes.ts`) and rethrown via JSON in IPC handlers; renderer launch/error UX depends on `title`, `description`, and `gfnErrorCode`.
+- Logging is intentionally capturable and exportable from both processes (`@shared/logger`, `logs:export` IPC); avoid bypassing this path for diagnostics features.
 
 ---
 > Source: [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
