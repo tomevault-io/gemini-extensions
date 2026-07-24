@@ -52,22 +52,26 @@ When delivering Well-Architected guidance:
 - Include "Why it matters" for each finding
 - Provide a concrete next step for each recommendation
 
-## Available Skills
+## Skills
 
-For structured assessments, load the corresponding skill from `.agents/skills/`:
+Well-Architected skills are available as slash commands:
 
-- `wa-review` — Full 6-pillar review with prioritized findings report
-- `security-assessment` — Deep-dive into IAM, detection, infrastructure, data protection, incident response
-- `reliability-improvement-plan` — Find SPOFs, assess recovery, produce remediation plan
-- `cost-optimization-review` — Identify waste, right-sizing, pricing model improvements
-- `performance-efficiency` — Resource selection, scaling, caching, optimization
-- `sustainability-optimization` — Utilization, architecture efficiency, carbon reduction
-- `operational-excellence` — CI/CD, observability, incident management, operational maturity
-- `migration-readiness` — 7 Rs assessment, dependency analysis, migration plan
-- `architecture-decision-record` — ADR with WA pillar impact analysis
-- `wa-builder` — Understand Well-Architected for your workload and generate visual artifacts (annotated diagrams, decision trees, roadmaps)
-- `wa-guardrails` — Generate preventive guardrails (Config rules, SCPs, CI policy checks, alarms) to keep a workload aligned with Well-Architected best practices over time
+**Core skills:**
+- `/wa-review` — Full or pillar-scoped WA assessment (supports all 6 pillars as deep-dives)
+- `/wa-builder` — Learn WA + produce artifacts (diagrams, decision trees, roadmaps, ADRs)
+- `/wa-guardrails` — Generate preventive controls (Config rules, SCPs, CI checks)
+- `/wafr-facilitator` — Prepare conversational WAFR facilitation with customers
+- `/migration-readiness` — 7 Rs migration assessment
+
+**Pillar aliases** (route to wa-review with pillar scope):
+- `/security-assessment` → Security pillar deep-dive
+- `/reliability-improvement-plan` → Reliability pillar deep-dive
+- `/cost-optimization-review` → Cost Optimization pillar deep-dive
+- `/performance-efficiency` → Performance Efficiency pillar deep-dive
+- `/sustainability-optimization` → Sustainability pillar deep-dive
+- `/operational-excellence` → Operational Excellence pillar deep-dive
+- `/architecture-decision-record` → wa-builder ADR mode
 
 ---
 > Source: [aws-samples/sample-well-architected-skills-and-steering](https://github.com/aws-samples/sample-well-architected-skills-and-steering) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
