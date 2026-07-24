@@ -1,36 +1,39 @@
 ## scalablevectorsearch
 
-> High-performance C++ library for vector similarity search at billion scale. Uses Intel MKL, AVX-512/multi-arch SIMD dispatch, quantization, NUMA-aware memory, OpenMP threading. Python bindings via pybind11. Archetype: **C++** (with Python bindings).
+> This file is the canonical instruction set for Copilot behavior in this repository
 
-# AGENTS.md — ScalableVectorSearch
+# GitHub Copilot Instructions — ScalableVectorSearch
 
-## What this project is
-High-performance C++ library for vector similarity search at billion scale. Uses Intel MKL, AVX-512/multi-arch SIMD dispatch, quantization, NUMA-aware memory, OpenMP threading. Python bindings via pybind11. Archetype: **C++** (with Python bindings).
+This file is the canonical instruction set for Copilot behavior in this repository
+(required flow, precedence, and fallback rules).
 
-Tech stack: C++20, Intel MKL, OpenMP, pybind11, CMake.
-Core principle: **Performance over simplicity** in hot paths.
+`AGENTS.md` provides project context and tech stack overview.
 
-## How to work
-- Backward compatibility is default for public API (`include/svs/`)
-- Performance-critical: avoid allocations in hot loops, respect memory alignment
-- For SIMD dispatch changes: consult `cmake/multi-arch.cmake` and `include/svs/multi-arch/`
-- Python bindings: update `bindings/python/` and ensure GIL release for blocking MKL calls
+## Mandatory
+1. Read root `AGENTS.md` for project context.
+2. Read the nearest directory `AGENTS.md` for edited files.
+3. If multiple apply, use the most specific.
 
-## Quick start
-Build: `cmake -B build && cmake --build build`
-Test: `ctest --test-dir build`
-Python: `pip install -e bindings/python/`
+## Authoring rules
+- Keep suggestions minimal and scoped (do not refactor entire files for 2-line changes).
+- Use source-of-truth files for mutable details.
+- Do not invent or hardcode versions/flags/matrices.
+- Avoid `std::iostream` in performance-critical headers.
 
-## Directory AGENTS files
-- `.github/AGENTS.md` — CI/CD
-- `benchmark/AGENTS.md` — performance benchmarks
-- `bindings/AGENTS.md` — C++/Python bindings (router)
-- `cmake/AGENTS.md` — build system
-- `include/svs/AGENTS.md` — public C++ API
-- `tests/AGENTS.md` — test suite
+## Contribution expectations
+- Preserve backward compatibility for public API (`include/svs/`)
+- Prefer additive API evolution (avoid duplication of existing functionality)
+- Pair public API changes with tests and documentation
+- For bug fixes: add regression tests
+- Run `pre-commit run --all-files` before proposing changes
 
-For Copilot/agent behavior policy: `.github/copilot-instructions.md`
+## Source-of-truth files
+- Build: `CMakeLists.txt`, `cmake/*.cmake` (incl. `cmake/mkl.cmake`, `cmake/multi-arch.cmake`, `cmake/numa.cmake`)
+- Dependencies: `bindings/python/pyproject.toml`, `bindings/python/setup.py`
+- CI: `.github/workflows/`
+- Style: `.clang-format`, `.pre-commit-config.yaml`
+- API: `include/svs/`, `bindings/python/`
 
 ---
 > Source: [intel/ScalableVectorSearch](https://github.com/intel/ScalableVectorSearch) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
