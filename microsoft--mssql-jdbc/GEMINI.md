@@ -1,148 +1,74 @@
 ## mssql-jdbc
 
-> This document provides guidance for AI coding agents working with the mssql-jdbc repository.
+> This project is the Microsoft JDBC Driver for SQL Server, enabling Java applications to interact with SQL Server and Azure SQL databases. It implements the JDBC 4.2/4.3 specification, communicating over the TDS (Tabular Data Stream) protocol. It supports features like connection pooling, Always Encrypted, Azure AD authentication, bulk copy, configurable retry logic, and idle connection resiliency.
 
-# AI Agent Guidelines for Microsoft JDBC Driver for SQL Server
+# Copilot Instructions — mssql-jdbc
 
-This document provides guidance for AI coding agents working with the mssql-jdbc repository.
+## 📚 Project Overview
 
-## Quick Start
+This project is the Microsoft JDBC Driver for SQL Server, enabling Java applications to interact with SQL Server and Azure SQL databases. It implements the JDBC 4.2/4.3 specification, communicating over the TDS (Tabular Data Stream) protocol. It supports features like connection pooling, Always Encrypted, Azure AD authentication, bulk copy, configurable retry logic, and idle connection resiliency.
 
-### Essential Context Files
+The project builds from a single Maven project (`pom.xml`) with multiple JRE profiles (`jre8`, `jre11`, `jre17`, `jre21`, `jre25`, `jre26`). Each profile compiles against a different Java source level and produces a profile-specific JAR.
 
-Before making changes, agents should be aware of:
+The project includes:
 
-| File | Purpose |
-|------|---------|
-| [README.md](README.md) | Project overview |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
-| [Coding_Guidelines.md](Coding_Guidelines.md) | Java coding standards |
-| [coding-best-practices.md](coding-best-practices.md) | Engineering best practices |
-| [review-process.md](review-process.md) | PR review requirements |
-| [.github/copilot-instructions.md](.github/copilot-instructions.md) | Copilot-specific instructions |
+- **Driver source**: All source code in `src/main/java/com/microsoft/sqlserver/jdbc/`.
+- **Error resources**: Localized error messages in `SQLServerResource.java`.
+- **Tests**: Located in `src/test/java/com/microsoft/sqlserver/jdbc/`.
+  - **Unit Tests**: Many tests in `src/test/java/com/microsoft/sqlserver/jdbc/unit/` are isolated, but this tree is not guaranteed to be SQL-Server-free; tests that extend `AbstractTest` or call `setConnection()` / `getConnection()` require test database configuration.
+  - **Integration Tests**: In feature-specific packages (`connection/`, `datatypes/`, `bulkCopy/`, `AlwaysEncrypted/`, etc.) — generally require a SQL Server instance.
+  - **BVT Tests**: In `src/test/java/com/microsoft/sqlserver/jdbc/bvt/` — build verification / smoke tests.
+  - **State Machine Tests**: In `src/test/java/com/microsoft/sqlserver/jdbc/statemachinetest/` — model-based testing for complex state interactions.
 
-### Detailed Technical Instructions
+## 🔧 Working with Issues
 
-The `.github/instructions/` directory contains comprehensive guides:
+- If the issue is a bug, reproduce it and identify the root cause in source code.
+- If the issue is a feature request, review the proposal and assess its feasibility.
+- If the issue is a task, follow the instructions provided in the issue description.
+- Cross-reference issue descriptions with code in `src/main/java/com/microsoft/sqlserver/jdbc/`.
+- If public APIs are changed, update Javadoc comments on all affected public members.
+- Add or update tests in `src/test/java/` to validate the fix.
 
-| Guide | Coverage |
-|-------|----------|
-| [architecture.instructions.md](.github/instructions/architecture.instructions.md) | Project structure, package layout, layer architecture |
-| [patterns.instructions.md](.github/instructions/patterns.instructions.md) | Exception handling, logging, resource management, testing patterns |
-| [glossary.instructions.md](.github/instructions/glossary.instructions.md) | Terms, acronyms, authentication modes, data types |
-| [performance-metrics.instructions.md](.github/instructions/performance-metrics.instructions.md) | Performance instrumentation, connection and statement metrics |
-| [state-machine-testing.instructions.md](.github/instructions/state-machine-testing.instructions.md) | Model-based testing framework, seed-based reproducibility |
+### 🧪 Writing Tests
 
-## Workflow Prompts
+- For every bug fix, ensure there are unit tests and integration tests that cover the scenario.
+- For new features, write tests that validate the functionality.
+- **Write a failing test before implementing the fix** (test-driven approach).
+- Use the existing test framework: extend `AbstractTest` for tests needing SQL Server, use JUnit 5 annotations (`@Test`, `@Tag`, `@BeforeAll`, `@AfterAll`).
+- Follow the naming conventions and structure of existing tests.
+- Ensure tests are comprehensive and cover edge cases.
+- Do NOT hardcode connection strings — use `AbstractTest` utilities and test config.
+- Tag tests requiring external resources with appropriate group annotations (`xSQLv12`, `xSQLv15`, `reqExternalSetup`, `fedAuth`, `kerberos`, etc.).
+- Consider state machine tests for complex stateful features (see `.github/instructions/state-machine-testing.instructions.md`).
 
-This repository provides reusable prompts in `.github/prompts/` for common maintainer workflows. Use these to guide agents through multi-step operations.
+### ⚙️ Automating Workflows
 
-| Prompt | Purpose |
-|--------|---------|
-| [getting-started.prompt.md](.github/prompts/getting-started.prompt.md) | Interactive guide to all available mssql-jdbc Copilot prompts |
-| [build.prompt.md](.github/prompts/build.prompt.md) | Build the driver with Maven across JRE profiles |
-| [run-tests.prompt.md](.github/prompts/run-tests.prompt.md) | Run tests with Maven across JRE profiles |
-| [setup-dev.prompt.md](.github/prompts/setup-dev.prompt.md) | Set up the development environment |
-| [fix-bug.prompt.md](.github/prompts/fix-bug.prompt.md) | Diagnose and fix a bug with tests and documentation |
-| [implement-feature.prompt.md](.github/prompts/implement-feature.prompt.md) | Plan and implement a new feature end-to-end |
-| [code-review.prompt.md](.github/prompts/code-review.prompt.md) | AI-assisted code review for a pull request |
-| [perf-optimization.prompt.md](.github/prompts/perf-optimization.prompt.md) | Investigate and implement performance improvements |
-| [create-pr.prompt.md](.github/prompts/create-pr.prompt.md) | Create well-structured pull requests |
-| [generate-doc-comments.prompt.md](.github/prompts/generate-doc-comments.prompt.md) | Generate Javadoc comments following project conventions |
-| [generate-prompt.prompt.md](.github/prompts/generate-prompt.prompt.md) | Generate new Copilot prompt files for the project |
-| [generate-skill.prompt.md](.github/prompts/generate-skill.prompt.md) | Generate Copilot Agent Skills (SKILL.md) |
+- Use the `getting-started` prompt (`#getting-started`) for an interactive guide to all available Copilot prompts.
+- Auto-label PRs based on folder paths (e.g., changes in `src/main/java/` → `area-driver`, changes in `src/test/java/` → `area-testing`).
+- Suggest CHANGELOG entries for fixes in `CHANGELOG.md`.
+- Tag reviewers based on area of change.
 
-## Core Principles
+## 🧠 Contextual Awareness
 
-1. **Cross-Platform Compatibility**: Code must work on Windows, Linux, and macOS
-2. **Multi-Profile Compilation**: Code must compile across all JRE profiles (`jre8` through `jre26`)
-3. **Backward Compatibility**: No breaking changes without proper deprecation and documentation
-4. **Test-First Development**: All changes require tests — write failing tests before implementing fixes
-5. **Security by Default**: Secure defaults, no credential logging, parameterized queries
-6. **Protocol Compliance**: Follow MS-TDS specifications
-7. **Performance Awareness**: Avoid allocations on hot paths, reuse buffers, guard log messages
-8. **JDBC Specification Compliance**: Follow JDBC 4.2/4.3 specification for standard interfaces
+- All source code is in `src/main/java/com/microsoft/sqlserver/jdbc/`. Follow the package structure described in `.github/instructions/architecture.instructions.md`.
+- The driver must work cross-platform: Windows, Linux, and macOS. Do not make platform-specific assumptions.
+- Code must compile across all JRE profiles (`jre8` through `jre26`). Avoid using APIs unavailable in older JDK versions without profile guards.
+- Respect API compatibility rules — do not introduce breaking changes without proper justification and documentation.
+- Follow exception handling patterns: `SQLServerException.makeFromDriverError(...)` with error keys from `SQLServerResource.java` (see `.github/instructions/patterns.instructions.md`).
+- Guard log statements: `if (logger.isLoggable(Level.FINER))` — never log sensitive data (passwords, tokens, connection strings with credentials).
 
-## Common Tasks
+## Constraints
 
-### Bug Fix Workflow
+- Do not change repository ownership or review-routing conventions without team discussion.
+- Do not close issues without a fix or without providing a clear reason.
+- All changed code must be formatted with Eclipse formatter `mssql-jdbc_formatter.xml`.
 
-1. Understand the issue from the bug report
-2. Locate relevant code in `src/main/java/com/microsoft/sqlserver/jdbc/`
-3. Write a failing test that reproduces the issue
-4. Implement the fix using patterns from `.github/instructions/patterns.instructions.md`
-5. Ensure all tests pass across JRE profiles
-6. Update Javadoc if behavior changes
+## 📝 Notes
 
-### Feature Implementation
-
-1. Review the feature specification or issue
-2. Plan the implementation (see `implement-feature` prompt)
-3. Implement with tests (unit + integration)
-4. Document new public APIs with Javadoc
-5. Update CHANGELOG.md
-
-### Adding Connection String Properties
-
-1. Add the property constant to `SQLServerDriverStringProperty`, `SQLServerDriverBooleanProperty`, or `SQLServerDriverIntProperty`
-2. Add getter/setter to `SQLServerDataSource.java`
-3. Add parsing in `SQLServerConnection.java`
-4. Default to a backward-compatible value
-5. Add tests for the new property
-6. Document in Javadoc
-
-### TDS Protocol Changes
-
-1. Reference the MS-TDS specification for the protocol extension
-2. Add new token/flag constants to the relevant TDS classes
-3. Implement parsing/writing in `IOBuffer.java`, `tdsparser.java`, and `Stream*.java` files
-4. Test against multiple SQL Server versions (2012+, Azure SQL)
-5. Consider backward compatibility
-
-### Authentication Changes
-
-1. Update `SqlAuthentication` enum if adding a new authentication method
-2. Implement token acquisition in the appropriate auth class (`SQLServerMSAL4JUtils.java`, `KerbAuthentication.java`, etc.)
-3. Ensure federated auth flow works if applicable
-4. Test with the relevant authentication infrastructure
-
-### Performance Optimization
-
-1. Profile the issue using benchmarks or tracing
-2. Identify allocation hotspots (see `perf-optimization` prompt)
-3. Apply patterns: buffer reuse, lazy initialization, object caching, lock narrowing
-4. Verify no regressions with existing tests
-5. Run internal performance benchmarks for major changes
-
-## External Resources
-
-### Key Documentation Links
-
-- [Microsoft JDBC Driver on Microsoft Learn](https://learn.microsoft.com/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server)
-- [MS-TDS Protocol Specification](https://learn.microsoft.com/openspecs/windows_protocols/ms-tds)
-- [SQL Server Documentation](https://learn.microsoft.com/sql/sql-server/)
-- [JDBC API Specification](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)
-
-## Repository Policies
-
-See the root directory for:
-
-- [Coding_Guidelines.md](Coding_Guidelines.md) — Java coding standards and formatting rules
-- [coding-best-practices.md](coding-best-practices.md) — Engineering best practices
-- [review-process.md](review-process.md) — PR review requirements and responsibilities
-
-## Getting Help
-
-- Check existing tests for usage patterns
-- Reference similar implementations in the codebase
-- Consult the Microsoft Docs for API behavior specifications
-- For protocol questions, refer to MS-TDS open specifications
-- For JDBC specification questions, refer to the Oracle JDBC documentation
-
----
-
-*This document is automatically loaded as context for AI agents working in this repository.*
+- Follow `Coding_Guidelines.md` for code style and `coding-best-practices.md` for engineering practices.
+- Follow `review-process.md` for PR review guidelines.
+- Regularly review and update documentation to ensure it reflects the current state of the project.
 
 ---
 > Source: [microsoft/mssql-jdbc](https://github.com/microsoft/mssql-jdbc) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
