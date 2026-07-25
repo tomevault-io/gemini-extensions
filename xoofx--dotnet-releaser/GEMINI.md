@@ -1,13 +1,13 @@
 ## dotnet-releaser
 
-> Single source of truth: read and follow `AGENTS.md`.
+> Single source of truth: read and follow `../AGENTS.md`.
 
-# Claude Instructions
+# GitHub Copilot Instructions
 
-Single source of truth: read and follow `AGENTS.md`.
+Single source of truth: read and follow `../AGENTS.md`.
 
-Do not duplicate instructions here. If anything conflicts, `AGENTS.md` wins.
+Do not duplicate instructions here. If anything conflicts, `../AGENTS.md` wins.
 
 ---
 > Source: [xoofx/dotnet-releaser](https://github.com/xoofx/dotnet-releaser) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
