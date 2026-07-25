@@ -5,23 +5,25 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [hyperledger-cacti/cacti](https://github.com/hyperledger-cacti/cacti).
+Original source: `AGENTS.md` in [hyperledger-cacti/cacti](https://github.com/hyperledger-cacti/cacti).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (5)
+## Bundled Skills (7)
 
 - [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/ci-triage/SKILL.md)
 - [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/_template/SKILL.md)
 - [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/doublecheck/SKILL.md)
 - [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/refactor-plan/SKILL.md)
 - [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/codeql-scanning/SKILL.md)
+- [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/code-review/SKILL.md)
+- [cacti](https://github.com/hyperledger-cacti/cacti/tree/main/.github/skills/package-removal/SKILL.md)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/hyperledger-cacti/cacti](https://github.com/hyperledger-cacti/cacti)
 
