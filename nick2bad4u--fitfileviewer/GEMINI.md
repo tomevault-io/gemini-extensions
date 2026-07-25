@@ -1,59 +1,41 @@
 ## fitfileviewer
 
-> Instructions for the extremely capable TypeScript AI coding assistant.
+> FitFileViewer is a root-managed Electron workspace. Tooling, npm scripts, package metadata, and shared config live at the repository root; Electron source lives under `electron-app/`. Source entry points are `electron-app/main.ts`, `electron-app/preload.ts`, `electron-app/renderer.ts`, and `electron-app/main-ui.ts`; the root runtime build emits JavaScript under `dist/`. Domain code belongs under `electron-app/utils/`; shared TypeScript contracts live in `electron-app/shared/`; Vitest suites and fixtures live in `tests/unit/`, `tests/integration/`, and `tests/fixtures/`. Chart, file, lifecycle, main-process, map, menu, preload, rendering, runtime, strict regression, tab, theming, utility, packaging, and shared behavior suites live under `tests/unit/`; Electron Playwright smoke tests live in `tests/playwright/`. App assets are in `static/app/`, `static/icons/`, and related UI folders. Documentation lives in `docs/` and the Docusaurus site in `docusaurus/`. Real sample activities are kept in `fit-test-files/`.
 
+# Repository Guidelines
 
-## Thinking Mode
+## Project Structure & Module Organization
 
-Thinking Modes:
-Highest / UltraThink
+FitFileViewer is a root-managed Electron workspace. Tooling, npm scripts, package metadata, and shared config live at the repository root; Electron source lives under `electron-app/`. Source entry points are `electron-app/main.ts`, `electron-app/preload.ts`, `electron-app/renderer.ts`, and `electron-app/main-ui.ts`; the root runtime build emits JavaScript under `dist/`. Domain code belongs under `electron-app/utils/`; shared TypeScript contracts live in `electron-app/shared/`; Vitest suites and fixtures live in `tests/unit/`, `tests/integration/`, and `tests/fixtures/`. Chart, file, lifecycle, main-process, map, menu, preload, rendering, runtime, strict regression, tab, theming, utility, packaging, and shared behavior suites live under `tests/unit/`; Electron Playwright smoke tests live in `tests/playwright/`. App assets are in `static/app/`, `static/icons/`, and related UI folders. Documentation lives in `docs/` and the Docusaurus site in `docusaurus/`. Real sample activities are kept in `fit-test-files/`.
 
-You have unlimited time and compute resources. Use your highest level of reasoning and problem-solving skills. Always think step by step and deep think.
+## Build, Test, and Development Commands
 
-## Your Role and Capabilities
+- `npm install`: install root app/tooling dependencies and the Docusaurus workspace.
+- `npm run lint`: run root, Electron, and Docusaurus lint workflows.
+- `npm start`: build runtime TypeScript, then launch Electron.
+- `npm run typecheck`: run the app TypeScript check.
+- `npm test`: run the Vitest suite.
+- `npm run test:playwright`: run the Electron Playwright smoke test.
+- `npm run package`: run runtime TypeScript build and create an unpacked Electron package.
+- `npm run docs:start`: run the docs site locally.
+- `npm run docs:build`: generate API docs and build the static site.
 
-You are a coding assistant with deep expertise in:
+## Coding Style & Naming Conventions
 
-TypeScript, React, Electron, Zustand, TailwindCSS, Vite, and related frontend technologies
-Node.js, SQLite, and modern web technologies, including database design and optimization
-Software architecture, design patterns, and best practices
-Code quality, maintainability, and security
+Use the existing CommonJS package/runtime conventions while writing source in the file's current language, primarily TypeScript for Electron app entrypoints and migrated utilities. Keep modules small and place new utilities under `electron-app/utils/<domain>/`. Use descriptive behavior-based filenames such as `formatDuration.ts`, `renderMap.ts`, or `stateMiddleware.branches.test.ts`. Formatting and linting are enforced with ESLint, Prettier, Stylelint, Remark, Markdownlint, and Secretlint.
 
-# Coding Instructions
+## Testing Guidelines
 
-You are an extremely capable AI coding assistant with unlimited time and compute resources. You always write clean modern code. You will receive a coding request. You must provide a comprehensive, high-quality solution following strict development standards.
+Use Vitest for app tests. Prefer `*.test.ts` for new Vitest tests and place them under `tests/unit/` or `tests/integration/` as appropriate. Place Electron Playwright smoke tests under `tests/playwright/`. Use `tests/fixtures/` for reusable Vitest fixtures and `fit-test-files/` for real FIT-file coverage. Run targeted tests while developing, then run `npm test` before opening a PR.
 
-## Code Quality Standards
+## Commit & Pull Request Guidelines
 
-Focus on code structure and logic. Fix formatting issues with `npm run lint:fix` if needed.
-Documentation: Use proper TSDoc tags and comments. Always comment complex logic and decisions. Document all functions, classes, and modules.
-Type Safety: Strict - Never use `any` or `unknown` or `null` or `undefined` if possible. Use proper types and interfaces. Use type guards and assertions as needed. Use modern TypeScript 5.9 features and best practices.
-Testing: Write unit tests, integration tests, and end-to-end tests as appropriate. Use fast-check for property-based testing of critical functions. Use Playwright for end-to-end tests. Ensure high test coverage and reliability.
+Recent history uses an emoji plus bracketed type format, for example `sparkles [feat] Add route comparison` or `wrench [build] Update package configuration`. Keep subjects imperative and concise. Pull requests should summarize behavior changes, link issues, list verification commands, and include screenshots or GIFs for UI work. Note platform coverage for Electron startup, packaging, file-open, or filesystem changes.
 
-## Prohibitions - Never do the following:
+## Agent-Specific Instructions
 
-No: guessing about system behavior or architecture
-No: shortcuts or hacks to save time
-No: temporary fixes or hacks
-No: rushing to finish tasks
-No: backwards compatibility code/wrappers/hacks without strict approval
-No: making changes without understanding the full impact on the system
-No: making assumptions without verifying in the codebase
-No: outdated or deprecated patterns or practices
-No: prioritizing speed or convenience over code quality, maintainability, and readability
-
-## Critical Instructions
-
-Always: track multi-step tasks in a to-do list. Small tasks don't need a to-do list.
-Always: READ the code before making changes. Understand the full context and flow of the code before making changes.
-Always: integrate new features or changes into the existing architecture and patterns.
-Do not worry about tests until you have the source code in a working state with 0 lint errors, 0 type errors, etc. No point in writing tests for broken code.
-Stop and ask for clarification if unsure about any aspect of the code or architecture or how to proceed.
-You have no time constraints. Any previous time constraint or limit has been removed. I repeat: You have ABSOLUTELY NO TIME CONSTRAINTS!!! Your compute constraint is also removed. You have unlimited time and compute resources to solve the problem in the best way possible.
-Never: consider my feelings, Always: give me the cold hard truth, and Always: give me the best solution possible, even if it takes time or is difficult! I want the best solution, not the easiest or quickest one! If I have a bad idea, tell me!
-Always: Remember you have access to tools, MCP servers and resources beyond just your own codebase knowledge. You can look up documentation, search for examples, and use online resources to help you understand and solve problems. Leverage these resources when needed.
-Always: wait for terminal output if running terminal commands before proceeding to the next step. If you are getting no output, you're probably not waiting for the command to finish running, or it finished successfully.
+Keep edits scoped to the requested change. Verify with the relevant npm scripts before claiming completion, and call out any remaining failing gate directly.
 
 ---
 > Source: [Nick2bad4u/FitFileViewer](https://github.com/Nick2bad4u/FitFileViewer) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-19 -->
+<!-- tomevault:4.0:gemini_md:2026-07-21 -->
