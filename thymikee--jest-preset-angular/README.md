@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [thymikee/jest-preset-angular](https://github.com/thymikee/jest-preset-angular).
+Original source: `copilot-instructions.md` in [thymikee/jest-preset-angular](https://github.com/thymikee/jest-preset-angular).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [thymikee/jest-preset-angular](https://github.com/thymikee/jest-preset-angular) — a repo with 918+ stars on GitHub.
+From [thymikee/jest-preset-angular](https://github.com/thymikee/jest-preset-angular) — a repo with 919+ stars on GitHub.
 
 ---
 
