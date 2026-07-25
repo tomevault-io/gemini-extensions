@@ -1,53 +1,32 @@
 ## plugin-firebase
 
-> This repository is public open source. Keep all contributions generic and reusable.
+> This repository is public open source. Keep contributions generic and reusable.
 
-# Plugin.Firebase — AI Collaboration Guide
+# Copilot instructions
 
-This repository is public open source. Keep all contributions generic and reusable.
-Do **not** include private app details, proprietary business context, or secrets.
+This repository is public open source. Keep contributions generic and reusable.
+Do **not** include app-specific business context, private data, secrets, or tokens.
 
-**See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete contribution guide**, including design philosophy, API principles, versioning, and PR expectations.
+## Scope
+- Prefer small, reviewable, non-breaking changes.
+- Avoid changing public APIs unless explicitly required and documented.
+- If you change behavior or APIs, update the relevant docs in `docs/` and/or `README.md`.
 
-## Repository map
-- `src/`: Package implementations (multi-targeted `net9.0`, `net9.0-android`, `net9.0-ios`)
-- `docs/`: Feature docs and setup guides
-- `sample/`: MAUI sample app
-- `tests/`: Integration test harness (runs on device)
-
-## Key guardrails
-- **Thin wrapper philosophy**: Favor 1:1 mappings of native APIs. See [Design Philosophy](CONTRIBUTING.md#design-philosophy-thin-wrapper).
-- Follow `.editorconfig` formatting rules; run `dotnet format Plugin.Firebase.sln` before PRs.
-- Never commit secrets (Firebase config files, signing keys, tokens).
-- Keep changes minimal and scoped; avoid app-specific assumptions.
-- Update docs and tests for behavior changes.
-
-## Quick build & test
-- Restore: `dotnet restore Plugin.Firebase.sln`
-- Build (all TFMs): `dotnet build Plugin.Firebase.sln -c Release`
-- Build only `net9.0` (no mobile workloads): `dotnet build src/Auth/Auth.csproj -c Release -f net9.0`
+## Build & test
+- Use the .NET SDK version from `global.json`.
+- Format before PRs: `dotnet format Plugin.Firebase.sln`
 - Unit tests: `dotnet test tests/Plugin.Firebase.UnitTests/Plugin.Firebase.UnitTests.csproj`
-- Integration coverage audit: `scripts/check-integration-coverage.rb`
-- Integration tests are device-only. See `BUILDING.md`.
 
-## AI workflow
-1) **Understand the scope**: Read the relevant docs in `docs/` plus the target feature area in `src/`.
-2) **Reference design principles**: Review [Design Philosophy](CONTRIBUTING.md#design-philosophy-thin-wrapper) and [API design principles](CONTRIBUTING.md#api-design-principles).
-3) **Propose change set**: Design a small, verifiable change before editing code.
-4) **Keep it documented**: Ensure public API changes are explicit and documented per [Documentation](CONTRIBUTING.md#documentation).
+## Platform notes
+Most projects are multi-targeted (`net9.0`, `net9.0-android`, `net9.0-ios`).
+Prefer validating `net9.0` in CI unless platform-specific changes require more.
 
-## Integration test workflow
-- Before changing `tests/Plugin.Firebase.IntegrationTests`, read `tests/Plugin.Firebase.IntegrationTests/README.md` and `tests/Plugin.Firebase.IntegrationTests/ACCEPTANCE_COVERAGE.md`.
-- Keep tests close to native Firebase behavior; avoid app-specific policy, private project details, or hidden real-backend assumptions.
-- Use the harness fact attributes, fixture metadata, resource scopes, and file layout documented in the integration test README.
-- Update acceptance coverage and real-backend setup docs when public API coverage or backend requirements change.
+## Integration tests
+- Before editing `tests/Plugin.Firebase.IntegrationTests`, read `tests/Plugin.Firebase.IntegrationTests/README.md`.
+- Use `tests/Plugin.Firebase.IntegrationTests/ACCEPTANCE_COVERAGE.md` as the package coverage checklist.
+- Keep emulator-backed coverage automatic and real-backend, destructive, paid, or externally delivered checks opt-in.
 - Run `scripts/check-integration-coverage.rb` after adding, renaming, moving, or splitting fixtures.
-
-## Packaging & CI
-- Packaging guidelines: `docs/packaging-github-packages.md`
-- CI guidance: `docs/ci-cd.md`
-- Workflows: `.github/workflows/ci.yml`, `.github/workflows/publish-github-packages.yml`
 
 ---
 > Source: [TobiasBuchholz/Plugin.Firebase](https://github.com/TobiasBuchholz/Plugin.Firebase) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
