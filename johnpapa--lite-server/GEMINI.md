@@ -1,93 +1,65 @@
 ## lite-server
 
-> **lite-server** is a lightweight development-only Node.js server that wraps [BrowserSync](https://www.browsersync.io/) to serve SPAs. It provides browser auto-refresh, CSS injection via sockets, and HTML5 History API fallback routing so deep links work during development.
+> This is a **lightweight npm package** — a development server wrapping BrowserSync for SPAs. Pure JavaScript, no build step, no TypeScript.
 
-# AI-Ready Repo — Agent Guide
+# Copilot Instructions — lite-server
 
-## Project Overview
+## Project Type
 
-**lite-server** is a lightweight development-only Node.js server that wraps [BrowserSync](https://www.browsersync.io/) to serve SPAs. It provides browser auto-refresh, CSS injection via sockets, and HTML5 History API fallback routing so deep links work during development.
+This is a **lightweight npm package** — a development server wrapping BrowserSync for SPAs. Pure JavaScript, no build step, no TypeScript.
 
-## Repository Structure
+## Writing Conventions
 
-```
-lite-server/
-├── bin/lite-server             # CLI entry point
-├── lib/
-│   ├── config-defaults.js      # Default BrowserSync configuration
-│   └── lite-server.js          # Core server logic — config loading, merging, BrowserSync init
-├── index.js                    # Public API entry point (exports server + defaults)
-├── test/
-│   ├── config-defaults.spec.js # Unit tests for default config
-│   └── lite-server.spec.js     # Unit tests for core server logic
-├── .eslintrc                   # ESLint configuration (strict rule set)
-├── package.json                # npm metadata, dependencies, scripts
-├── CHANGELOG.md                # Version history
-├── README.md                   # Usage docs, configuration guide, contributing
-└── LICENSE                     # MIT
-```
+### JavaScript
 
-## Tech Stack
+- Use `'use strict'` at the top of every file
+- Use single quotes for strings
+- Use 2-space indentation
+- Use `const` by default; `let` only when reassignment is needed
+- Use camelCase for variables and functions
+- Use 1TBS brace style (`if (x) {`)
+- Max line length: 100 characters
+- Use `===` for equality checks (enforced by ESLint `eqeqeq` rule)
+- Prefer arrow callbacks (`prefer-arrow-callback` rule)
+- Prefer template literals over string concatenation (`prefer-template` rule)
+- Semicolons required
 
-| Area | Tool |
-|------|------|
-| Runtime | Node.js |
-| Package manager | npm |
-| Core dependency | BrowserSync |
-| Linting | ESLint (strict config in `.eslintrc`) |
-| Testing | Mocha + Istanbul (coverage) |
-| Mocking | Mockery + Sinon |
-| Assertions | Node.js built-in `assert` |
+### Testing
 
-## Build & Run
+- Test files live in `test/` with `.spec.js` suffix
+- Use Mocha `describe`/`it` blocks
+- Use `mockery` for module mocking with `useCleanCache: true`
+- Use `sinon` for stubs and spies
+- Use Node.js built-in `assert` for assertions (not chai or other libraries)
+- Always clean up mockery in `afterEach` with `deregisterAll()` and `disable()`
+- Register allowed modules with `mockery.registerAllowable()`
 
-There is no build step. This is a pure JavaScript package.
+### Project
+
+- No build step — ship raw JavaScript
+- Entry point: `index.js` (public API), `bin/lite-server` (CLI)
+- Core logic: `lib/lite-server.js`
+- Default config: `lib/config-defaults.js`
+
+## Commands
 
 ```bash
-# Install dependencies
-npm install
-
-# Run linting + tests with coverage
-npm test
+npm install    # Install dependencies
+npm test       # Run ESLint + Mocha/Istanbul coverage
 ```
 
-The `npm test` command runs:
+## Maintenance Matrix
 
-1. `eslint *.js lib/*.js` — lint all source files
-2. `istanbul cover _mocha -- -R spec` — run Mocha tests with Istanbul coverage
-
-## How It Works
-
-1. **CLI** (`bin/lite-server`) — sets process title and calls the server function
-2. **Server** (`lib/lite-server.js`) — parses CLI args with `minimist`, loads the user's `bs-config.{js|json}` overrides, deep-merges with defaults using `lodash.merge`, and starts BrowserSync
-3. **Defaults** (`lib/config-defaults.js`) — provides sensible BrowserSync defaults: file watching for `*.{html,htm,css,js}`, `connect-logger` middleware, and `connect-history-api-fallback` middleware
-4. **Public API** (`index.js`) — exports `{ server, defaults }` for programmatic use
-
-## Key Patterns
-
-- **Config merging** — uses `lodash.merge()` to deep-merge user overrides with defaults
-- **Middleware array** — uses `lodash.compact()` to remove `null` entries (allows users to disable specific middleware by index)
-- **Function configs** — `bs-config.js` can export a function that receives the BrowserSync instance
-- **Strict linting** — `.eslintrc` enforces `'use strict'`, single quotes, 2-space indent, camelCase, max line length 100
-- **Test isolation** — uses `mockery` to mock `require()` calls; each test enables/disables mockery in `beforeEach`/`afterEach`
-
-## Adding a Feature
-
-1. Create a feature branch: `git checkout -b feat/my-feature`
-2. Modify or add source files in `lib/`
-3. Add or update tests in `test/` using the Mockery + Sinon pattern
-4. Run `npm test` to ensure lint + tests pass
-5. Update `CHANGELOG.md` with your changes
-6. Submit a pull request against `main`
-
-## Common Pitfalls
-
-- **Mockery cleanup** — always call `mockery.deregisterAll()` and `mockery.disable()` in `afterEach` to avoid test pollution
-- **`useCleanCache: true`** — required when using mockery so the module cache doesn't bleed between tests
-- **Middleware overrides** — `lodash.merge` merges objects by key, so array-like objects `{ 0: null }` set specific middleware slots to `null`
-- **No TypeScript** — this is plain JavaScript with `'use strict'` directives; don't add TS files
-- **No build step** — don't add bundlers or compilers; the package ships raw JS
+| When this changes... | Also update... |
+|---|---|
+| `lib/lite-server.js` (core server logic) | `test/lite-server.spec.js`, `README.md` (if behavior changed), `CHANGELOG.md` |
+| `lib/config-defaults.js` (default config) | `test/config-defaults.spec.js`, `README.md` (if defaults changed), `CHANGELOG.md` |
+| `package.json` (dependencies, scripts) | `CHANGELOG.md`, verify `npm test` still passes |
+| `bin/lite-server` (CLI entry) | `README.md` (if CLI usage changed), `CHANGELOG.md` |
+| `.eslintrc` (lint rules) | Verify `npm test` still passes, `CHANGELOG.md` |
+| `index.js` (public API exports) | `README.md` (if API changed), `CHANGELOG.md` |
+| New middleware added | `lib/config-defaults.js`, `test/config-defaults.spec.js`, `README.md` |
 
 ---
 > Source: [johnpapa/lite-server](https://github.com/johnpapa/lite-server) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
