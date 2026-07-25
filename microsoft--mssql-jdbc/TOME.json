@@ -4,7 +4,7 @@
   "repo": "mssql-jdbc",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/mssql-jdbc",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-21T21:50:34Z"
+  "distributed_at": "2026-07-25T23:14:29Z"
 }
