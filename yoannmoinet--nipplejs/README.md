@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [yoannmoinet/nipplejs](https://github.com/yoannmoinet/nipplejs).
+Original source: `CLAUDE.md` in [yoannmoinet/nipplejs](https://github.com/yoannmoinet/nipplejs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [yoannmoinet/nipplejs](https://github.com/yoannmoinet/nipplejs) — a repo with 1929+ stars on GitHub.
+From [yoannmoinet/nipplejs](https://github.com/yoannmoinet/nipplejs) — a repo with 1930+ stars on GitHub.
 
 ---
 
