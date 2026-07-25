@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NewFuture/DDNS](https://github.com/NewFuture/DDNS).
+Original source: `copilot-instructions.md` in [NewFuture/DDNS](https://github.com/NewFuture/DDNS).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [NewFuture/DDNS](https://github.com/NewFuture/DDNS) — a repo with 4687+ stars on GitHub.
+From [NewFuture/DDNS](https://github.com/NewFuture/DDNS) — a repo with 4686+ stars on GitHub.
 
 ---
 
