@@ -1,81 +1,123 @@
 ## easytrade
 
-> `src/` contains 19 services grouped by technology:
+> Components of this repository are deployed to a Kubernetes Cluster and monitored by Dynatrace.
 
-# EasyTrade — Agent Instructions
+# EasyTrade
 
-## Repository structure
+## Observability & Monitoring
 
-`src/` contains 19 services grouped by technology:
+Components of this repository are deployed to a Kubernetes Cluster and monitored by Dynatrace.
 
-| Technology                     | Services                                                                                                                 |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| Java 21 / Spring Boot / Gradle | `accountservice`, `contentcreator`, `credit-card-order-service`, `engine`, `feature-flag-service`, `third-party-service` |
-| Go / Go Modules                | `aggregator-service`, `pricing-service`, `problem-operator`                                                              |
-| TypeScript / Node.js / npm     | `frontend`, `loadgen`, `offerservice`                                                                                    |
-| C# / .NET 8 / NuGet            | `broker-service`, `loginservice`, `manager`                                                                              |
-| Python / Poetry                | `db/user-generator` (local utility script, not a service)                                                                |
-| Config only (no packages)      | `calculationservice` (C++, built in Dockerfile), `frontendreverseproxy` (nginx), `rabbitmq`, `db` (MSSQL)                |
+### Finding EasyTrade Service Entities
 
-## Vulnerability remediation process
+You can find entities via the `find_entities_by_name` tool using `easytrade` as well as specific service names (see service list in README).
+You should find entities like `[eks-playground][easytrade] BrokerService`.
 
-### Scanning
+### Finding Problems
 
-Run `snyk test --json --all-projects` from within each service directory that has a package manifest. Services without manifests (`calculationservice`, `frontendreverseproxy`, `rabbitmq`) cannot be scanned this way.
+You can find problems via the `list_problems` tool and applying the following filter:
 
-Run scans in parallel across all services to save time.
-
-### Grouping findings
-
-Services that share the same technology will have identical vulnerable packages at identical versions. Identify these groups before fixing so the same change is applied consistently rather than service-by-service.
-
-### Applying fixes
-
-#### Java / Gradle (6 services share `build.gradle`)
-
-Vulnerable dependencies that are not direct dependencies of the service are pinned explicitly in `build.gradle` under a clearly marked comment block:
-
-```
-// -- not direct dependencies but need bumps to patch vulns
-// -- can be removed once the parent packages upgrade
+```dql
+in(k8s.namespace.name, array("easytrade")) OR contains(dt.entity.application.name, "EasyTrade")
 ```
 
-Bump versions in this block across **all** affected `build.gradle` files in one pass.
+If you want to narrow down the problem of a specific entity, like a service, you can use the following filter:
 
-#### Node.js / npm (services: `frontend`, `offerservice`)
-
-- Bump the vulnerable package version constraint in `dependencies` in `package.json`.
-- Pin transitive dependencies using the `overrides` field in `package.json`.
-- Run `npm install` after editing `package.json` to regenerate `package-lock.json`.
-
-#### Go (services: `pricing-service`, `problem-operator`)
-
-Go stdlib vulnerabilities are fixed by upgrading the Go toolchain version, not by changing individual module dependencies. Three files must be updated in sync for each service:
-
-1. **`go.mod`** — bump the `go` directive
-2. **`Dockerfile`** — bump both the image tag and the pinned digest on the `FROM golang:…` builder stage
-3. **`go.sum`** — regenerated automatically; run `go mod tidy` after editing `go.mod`
-
-To get the correct digest for the new image:
-
-```
-docker pull golang:<new-version>-alpine3.23
-docker inspect --format='{{index .RepoDigests 0}}' golang:<new-version>-alpine3.23
+```dql
+in(affected_entity_ids, "<entity-id>") OR matchesValue(affected_entity_ids, "<entity-id>") OR dt.entity.$type == "<entity-id>" OR ...
 ```
 
-Both Go service Dockerfiles use the same base image, so one pull is sufficient for both.
+### Metrics
 
-### Verifying fixes
+> **Important DQL rules for metrics:**
+> - Always use `timeseries` to query metrics. **Never use `fetch <metric-key>`** — metric keys like `dt.service.request.response_time` are not valid data objects for `fetch` and will produce a parse error.
+> - When specifying absolute timestamps, they **must be quoted strings**: `from:"2026-02-23T02:00:00Z"`. Unquoted ISO timestamps will produce a parse error.
+> - Relative time expressions do not need quotes: `from: now()-14d`.
 
-For each updated service, run the local build to confirm nothing is broken:
+Query metrics for all EasyTrade services using the namespace filter:
 
-- **Java / Gradle:** `./gradlew build` in the service directory
-- **Node.js / npm:** `npm run build` in the service directory
-- **Go:** `go build .` in the service directory
-- **C# / .NET:** `dotnet build` in the service directory
+```dql
+timeseries from:"<ISO-timestamp>", to:"<ISO-timestamp>", by:{dt.entity.service}, interval:1m,
+  avg_response_time = avg(dt.service.request.response_time),
+  filter: k8s.namespace.name == "easytrade"
+| lookup [fetch dt.entity.service | fields id, entity.name], sourceField:dt.entity.service, lookupField:id, prefix:"svc."
+| fieldsRename service = svc.entity.name
+| fieldsRemove svc.id
+```
 
-Then re-run `snyk test --json --all-projects` from the repository root. All projects should exit `0` with zero vulnerabilities before committing.
+For a relative time window and a single service:
+
+```dql
+timeseries avg(<metric-key>),
+from: now()-14d, to: now(),
+filter: { dt.entity.service == "<service-id>" }
+```
+
+Additionally, you should add a filter like this: `| filter dt.entity.service == "<service-id>"` to focus on a specific service.
+
+#### Service-Level Metrics
+
+- _Service Response Time_: `dt.service.request.response_time`
+- _Service Request Count_: `dt.service.request.count`
+- _Service Failure Count_: `dt.service.request.failure_count`
+
+#### Container-Level Metrics
+
+- _Container CPU Usage_: `dt.kubernetes.container.cpu_usage`
+- _Container Memory Working Set_: `dt.kubernetes.container.memory_working_set`
+- _Container CPU Requests_: `dt.kubernetes.container.requests_cpu`
+- _Container Memory Requests_: `dt.kubernetes.container.requests_memory`
+- _Container CPU Limits_: `dt.kubernetes.container.limits_cpu`
+- _Container Memory Limits_: `dt.kubernetes.container.limits_memory`
+
+#### Kubernetes Infrastructure Metrics
+
+- _Pod Conditions_: `dt.kubernetes.workload.conditions`
+- _Pod Status_: `dt.kubernetes.pods`
+- _Container State_: `dt.kubernetes.containers`
+
+#### Technology-Specific Metrics
+
+- _JVM Memory Usage_: `dt.runtime.jvm.memory.heap.used`, `dt.runtime.jvm.memory.heap.max`
+- _Goroutine count_: `dt.runtime.go.scheduler.goroutine_count`
+- _Go Worker thread count_: `dt.runtime.go.scheduler.worker_thread_count`
+- _Go Heap Memory_: `dt.runtime.go.memory.heap`
+- _Go Memory Committed_: `dt.runtime.go.memory.committed`
+
+You can find additional metrics via `fetch metric.series | filter dt.entity.service == "<service-id>" | limit 50` or for containers: `fetch metric.series | filter k8s.namespace.name == "easytrade" | filter metric.key == "dt.kubernetes.container.cpu_usage" or metric.key == "dt.kubernetes.container.memory_working_set" | limit 50`.
+
+### Logs
+
+You can find logs via the `fetch logs` tool and applying the following filter:
+
+```dql
+fetch logs
+| filter k8s.namespace.name == "easytrade"
+| sort timestamp desc
+```
+
+Filter error logs with
+
+```dql
+| filter loglevel == "ERROR"
+```
+
+You can furthermore narrow down logs for a specific service by adding a filter like this: `| filter contains(k8s.deployment.name, "<service-name>")`.
+
+### Problem Investigation Workflow
+
+Every problem investigation **must** include:
+
+1. **A supporting metric chart** — always execute a `timeseries` DQL query that covers the problem's time window (use `event.start` and `event.end` from the problem record, plus a 30-minute buffer on each side). At minimum, plot `avg(dt.service.request.response_time)` or `sum(dt.service.request.failure_count)` for the affected service(s).
+
+2. **A written summary** directly after the chart, following this format:
+
+   > **Analysis — \<short incident title\> (\<time range\> UTC)**
+   >
+   > **Problem detected:** \<problem-id\> — \<event.description\>, confirmed by Dynatrace's investigation. Duration: \<duration in human-readable form\> (\<event.start time\> UTC), \<affected_users_count\> users affected.
+   >
+   > _Then explain: what the chart shows, when the onset was, what the peak looked like, when recovery occurred, and which service(s) were most impacted._
 
 ---
 > Source: [Dynatrace/easytrade](https://github.com/Dynatrace/easytrade) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
