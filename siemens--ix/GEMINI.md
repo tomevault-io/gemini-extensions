@@ -1,115 +1,162 @@
 ## ix
 
-> **IX is a multi-framework design system** built on Stencil Web Components with framework-specific wrappers:
+> SPDX-FileCopyrightText: 2026 Siemens AG
 
-# Siemens Industrial Experience (IX) - AI Coding Instructions
+<!--
+SPDX-FileCopyrightText: 2026 Siemens AG
 
-## Architecture Overview
+SPDX-License-Identifier: MIT
+-->
 
-**IX is a multi-framework design system** built on Stencil Web Components with framework-specific wrappers:
+# AGENTS.md
 
-- `packages/core/` - Stencil-based Web Components (source of truth)
-- `packages/react/`, `packages/angular/`, `packages/vue/` - Auto-generated framework wrappers via Stencil output targets
-- `packages/aggrid/`, `packages/echarts/` - Theme packages for external libraries
+This guide is for humans and AI agents developing inside the Siemens IX monorepo.
 
-**Monorepo Structure**: pnpm workspace with Turbo for build orchestration. All packages follow workspace:\* internal dependencies.
+## Agent operating principles
 
-## Key Development Workflows
+- Act as a senior maintainer: inspect existing patterns before changing code, keep changes scoped, and prefer correctness over speed.
+- Change source files, not generated artifacts. If generated output is affected, update the source and run the appropriate build/generation step.
+- Preserve unrelated user or maintainer changes in the working tree. Do not revert, reformat, or rewrite files outside the requested scope.
+- Use the smallest targeted validation that proves the change, then escalate only when needed.
+- Prefer explicit, type-safe fixes over broad fallbacks, silent returns, or catch-all error handling.
+- Update tests, documentation, examples, and changesets whenever the user-facing behavior, API, styling, accessibility, or package output changes.
 
-### Component Development (Core)
+## Source of truth and precedence
 
-- Components live in `packages/core/src/components/[component-name]/`
-- Each component has: `[component].tsx`, `[component].scss`, tests, and documentation
-- Use `@Component`, `@Prop`, `@Event`, `@Listen` decorators from Stencil
-- Framework wrappers are **auto-generated** via `stencil.config.ts` output targets - never edit directly
+Use these resources together (in this order when conflicts appear):
 
-### Build & Development Commands
+1. `CONTRIBUTING.md`
+2. `ARCHITECTURE.md`
+3. `.github/copilot-instructions.md`
+4. `.github/instructions/*.instructions.md`
+
+## Repository architecture (must-know)
+
+- `packages/core` is the source of truth (Stencil Web Components).
+- `packages/react`, `packages/angular`, `packages/vue` are wrapper packages generated from Stencil output targets.
+- Do not hand-edit generated proxy files (look for auto-generated comments).
+- Theme integrations for third-party libraries live in `packages/aggrid` and `packages/echarts`.
+
+## Environment and package manager
+
+- Use the package manager declared in `package.json`: `pnpm@10.17.0`.
+- Use Node.js `22.19.0`; Volta is configured for this version.
+- Install dependencies from the repository root with `pnpm install`.
+- Do not introduce new package managers, lockfiles, formatters, linters, or test runners.
+- Add dependencies only when they are required for the implementation, and keep workspace dependencies as `workspace:*` where applicable.
+
+## Development rules
+
+- Prefer changing `packages/core` first for component behavior, API, styling, accessibility, and docs metadata.
+- Keep component structure consistent: `<component>.tsx`, `<component>.scss`, tests in `test/`.
+- Use SPDX headers for new source files.
+- Use design tokens/CSS custom properties instead of hard-coded theme values.
+- Keep accessibility parity across frameworks.
+- Reuse existing helpers, utilities, tokens, test fixtures, and component patterns before adding new abstractions.
+- Avoid arbitrary waits, global side effects, and behavior changes that are not explicitly required.
+- For breaking changes, provide migration guidance and update `BREAKING_CHANGES.md`.
+
+## Package-specific guidance
+
+| Package area | Edit guidance |
+| --- | --- |
+| `packages/core` | Source of truth for Web Components, styles, accessibility, docs metadata, and generated wrapper input. |
+| `packages/react`, `packages/angular`, `packages/vue` | Do not edit generated proxy files. Only edit deliberate hand-written helpers, examples, or package-specific integration code. |
+| `packages/aggrid`, `packages/echarts` | Keep integrations aligned with IX design tokens and theme classes. Validate visual/theming impact. |
+| `packages/documentation` | Update docs generation logic only when documentation output or example extraction changes. |
+| `*-test-app` packages | Use for framework examples, previews, and documentation snippets. Keep examples consumer-realistic. |
+
+## Local workflow
 
 ```bash
-# Development server with watch mode
-pnpm start                    # All packages
-pnpm storybook               # Component development
-pnpm docs                    # Documentation site
-
-# Building
-pnpm build                   # Full build (required before tests)
-pnpm build --filter @siemens/ix    # Single package
-
-# Visual regression testing (requires Docker)
-pnpm build --filter \!documentation  # Build first
-pnpm visual-regression              # All tests
-pnpm visual-regression --filter @siemens/ix-aggrid  # Specific package
+pnpm install
+pnpm storybook
+pnpm build
+pnpm lint
+pnpm test
 ```
 
-### Testing Architecture
+Targeted commands:
 
-- **Unit Tests**: Jest (Stencil) + Vitest (React)
-- **Component Tests**: Playwright with `.ct.ts` files
-- **Visual Regression**: Docker-based Playwright across multiple themes
-- **Theme Testing**: All visual tests run against `theme-classic-light`, `theme-classic-dark`, and brand variants
+- Build single package: `pnpm build --filter @siemens/ix`
+- Core component tests (watch): `pnpm --filter @siemens/ix test.ct --watch`
+- Run visual regression (after build): `pnpm visual-regression`
+- Core unit tests: `pnpm --filter @siemens/ix test.spec`
+- Core component tests: `pnpm --filter @siemens/ix test.ct`
+- Package lint: `pnpm lint --filter <package-name>`
+- Package tests: `pnpm test --filter <package-name>`
 
-## Release & Versioning
+## Testing expectations
 
-**Changesets-based releases**:
+- Build before tests when compiled artifacts, generated wrappers, styles, or visual/component tests depend on build output.
+- `packages/core` is the main place for component tests. Core component tests live at `packages/core/src/components/<component>/test/<component>.ct.ts`.
+- Use core component tests for component behavior, interaction, keyboard handling, accessibility, slots, events, and state changes.
+- Include accessibility coverage (`makeAxeBuilder`) and a basic hydration/render test in component test files.
+- Add or update unit tests for pure logic changes, component tests for interaction/accessibility changes, and visual tests only for meaningful UI or theme changes.
+- Prefer Playwright locators, user-visible assertions, and deterministic waits over implementation-detail selectors and timeouts.
 
-- Add changesets via `pnpm changeset`
-- Prerelease mode uses `.changeset/pre.json`
-- Snapshot releases for PR testing: comment `/release` on PRs
-- Version bumps trigger framework wrapper regeneration
-- Any change that is relevant for end users must include a changeset in `.changeset/`. This includes public API changes, user-visible behavior changes, styling or theming changes, accessibility changes, and bug fixes that materially affect consumers.
-- If the impact is unclear, prefer adding a changeset or explicitly call out why one is not needed.
+## Visual regression testing
 
-## Copilot Review Expectations
+- Visual regression tests live in `testing/visual-testing`.
+- Visual regression tests run inside a Docker container so screenshots are operating-system agnostic and less affected by local fonts, browsers, or rendering differences.
+- Visual regression tests are slow. Keep them focused on visual contracts, not every behavior or edge case.
+- For a new feature, prefer one representative screenshot that covers the intended visual state instead of creating a separate screenshot for every feature branch, state, or testcase.
+- Use component tests in `packages/core` for exhaustive behavior coverage, and visual regression only to protect layout, theme, density, color, spacing, and screenshot-visible regressions.
+- For UI/theming changes, run relevant visual regression tests after `pnpm build --filter !documentation`; Docker must be available.
 
-- GitHub Copilot code review should treat a missing changeset as a review issue when a pull request contains user-facing or consumer-relevant changes.
-- When reviewing pull requests, explicitly check for release-note significance, especially for changes to component behavior, public APIs, design tokens, themes, accessibility, generated wrappers, or documentation that affects usage.
-- When a changeset is not required, state that the change is internal-only and why.
+## Documentation and examples
 
-## Critical Patterns
+- Component documentation is maintained in the separate `siemens/ix-docs` repository.
+- In this repository, update component JSDoc, metadata inputs, Storybook stories, or test-app examples when public usage changes.
+- If a change requires user-facing documentation updates, call out the needed `siemens/ix-docs` follow-up in the PR.
+- Keep docs and examples aligned across Web Components, Angular, React, and Vue when the behavior is framework-visible.
+- Do not document generated implementation details as public API.
+- Ensure examples use supported imports, current component names, and realistic consumer code.
 
-### Stencil Component Structure
+## Changesets and release impact
 
-```tsx
-@Component({
-  tag: 'ix-button',
-  shadow: true,
-  styleUrl: './button.scss',
-})
-export class Button {
-  @Prop() variant: ButtonVariant = 'primary';
-  @Event() buttonClick: EventEmitter<void>;
-}
-```
+- Any user-facing change needs a changeset in `.changeset/`.
+- This includes API changes, behavior changes, styling/theming updates, accessibility changes, and meaningful bug fixes.
+- If a change is internal-only, state that clearly in PR description/review context.
+- For breaking changes, update `BREAKING_CHANGES.md` and provide migration notes.
+- Choose affected packages based on what consumers install or observe, not only where source files changed.
+- Use `patch` for bug fixes and compatible styling/accessibility fixes, `minor` for new backwards-compatible APIs/features, and `major` for breaking API or behavior changes.
+- Keep changeset summaries consumer-focused: describe what changed and why it matters, not internal implementation details.
 
-### Theme System
+## PR and commit expectations
 
-- Themes in `packages/core/scss/theme/`
-- CSS custom properties for theming
-- Multiple theme support: classic-light/dark, brand variants
-- Theme switching handled via CSS class application
+- PR title format: `<type>[optional <scope>]: <description>` (for example: `fix(core): correct button color`).
+- Link requirement context in PR description/commit message (GitHub issue or `IX-<number>`).
+- Explain user-facing impact and implementation details clearly.
+- Mention validation performed and any intentionally skipped validation with a reason.
+- Call out generated files, migration notes, and release impact when relevant.
 
-### Framework Integration
+## Component-test conventions (core)
 
-- Angular: Two builds (component + standalone) via output targets
-- React: Server-side rendering support via separate exports
-- Vue: Experimental package with Vite build
+- Use `regressionTest` from `@utils/test` (not plain Playwright `test`).
+- Use Playwright locators (including for Shadow DOM assertions).
+- Avoid arbitrary timeouts (`waitForTimeout`).
+- Register icons via mount config; do not fetch static SVG files directly in tests.
 
-### Documentation Generation
+## Security and contribution hygiene
 
-- Auto-generated from component JSDoc comments
-- Cross-platform examples via test apps
-- TypeDoc for API documentation
-- Storybook for component playground
+- Do not report security issues publicly in GitHub issues; follow `SECURITY.md` / `CONTRIBUTING.md` private reporting path.
+- Keep changes scoped and package-aware.
+- Do not edit unrelated files while implementing a focused change.
+- Never commit secrets, credentials, private tokens, local environment files, or machine-specific paths.
+- Treat public APIs, accessibility behavior, theming tokens, and generated package output as consumer contracts.
+- Do not add telemetry, network calls, or dependency downloads without a clear project-approved reason.
 
-## File Naming & Organization Conventions
+## Quick execution checklist
 
-- Component folders: `kebab-case` matching tag names
-- TypeScript: `.ts` for logic, `.tsx` for components
-- Tests: `.spec.ts` (unit), `.ct.ts` (component), `.e2e.ts` (visual)
-- Use SPDX license headers in all source files
-
-When modifying components, always build first, then test visual regression changes with appropriate theme configurations.
+1. Confirm target package(s) and whether `core` is the correct edit point.
+2. Inspect nearby existing patterns, tests, docs, and package scripts.
+3. Implement changes in source (not generated output).
+4. Update tests, examples, docs, and generated inputs as needed.
+5. Run the smallest meaningful build/test/lint commands; run visual regression for relevant UI/theme changes.
+6. Add/update a changeset if the change is user-facing.
+7. Ensure PR summary includes impact, linked requirement, validation, affected packages, and migration notes if breaking.
 
 ---
 > Source: [siemens/ix](https://github.com/siemens/ix) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-07-25 -->
