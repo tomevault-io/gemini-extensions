@@ -87,6 +87,5 @@ dotnet run --no-build -c Release --framework net9.0 -- --list-tests
 * Add API doc comments to all new public and internal members.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/AArnott)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/AArnott)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Source: [AArnott/Library.Template](https://github.com/AArnott/Library.Template) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-25 -->
