@@ -4,7 +4,7 @@
   "repo": "Plugin.Firebase",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/TobiasBuchholz/Plugin.Firebase",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-21T19:34:35Z"
+  "distributed_at": "2026-07-25T18:45:21Z"
 }
