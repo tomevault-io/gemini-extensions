@@ -1,11 +1,11 @@
 ## vision-inference
 
-> Agent instructions in [AGENTS.md](AGENTS.md).
+> Canonical agent instructions live in [../AGENTS.md](../AGENTS.md).
 
-# Claude Instructions
+# Copilot Instructions
 
-Agent instructions in [AGENTS.md](AGENTS.md).
+Canonical agent instructions live in [../AGENTS.md](../AGENTS.md).
 
 ---
 > Source: [olibartfast/vision-inference](https://github.com/olibartfast/vision-inference) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
