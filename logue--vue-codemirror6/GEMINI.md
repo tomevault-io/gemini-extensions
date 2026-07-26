@@ -1,147 +1,154 @@
 ## vue-codemirror6
 
-> **Project**: A Vue 2 & 3 compatible CodeMirror 6 component library
+> You are an expert in JavaScript, Rsbuild, and web application development. You write maintainable, performant, and accessible code.
 
-# Vue-CodeMirror6 Workspace Instructions
+# AGENTS.md
 
-**Project**: A Vue 2 & 3 compatible CodeMirror 6 component library
-**Tech Stack**: TypeScript, Vue 3 (with vue-demi for Vue 2 support), Vite, Vitest, CodeMirror 6
-**Language**: Primarily TypeScript with Vue SFC components
+You are an expert in JavaScript, Rsbuild, and web application development. You write maintainable, performant, and accessible code.
 
-## Essential Commands
+## Commands
 
-| Task                   | Command                                            |
-| ---------------------- | -------------------------------------------------- |
-| **Development server** | `pnpm dev`                                         |
-| **Build library**      | `pnpm build` (includes type checking)              |
-| **Build docs**         | `pnpm build:docs` then `pnpm preview`              |
-| **Run tests**          | `pnpm test` (watch mode) or `pnpm test:run` (once) |
-| **Test coverage**      | `pnpm test:coverage`                               |
-| **All linting**        | `pnpm lint` (oxlint, eslint, prettier)             |
-| **Type check**         | `pnpm type-check` (vue-tsc)                        |
+- `pnpm run dev` - Start the dev server
+- `pnpm run build` - Build the app for production
+- `pnpm run preview` - Preview the production build locally
 
-## Architecture & Key Patterns
+Always run `pnpm lint` and `pnpm build` before committing. These are also enforced by husky pre-commit hooks via lint-staged.
 
-### Main Component (`src/index.ts`, `src/Meta.ts`)
+---
 
-- **Vue Composition API** with `vue-demi` for Vue 2/3 compatibility
-- **Core Props**: `modelValue`, `lang`, `extensions`, `linter`, `keymap`, `dark`, `readonly`, `disabled`, etc.
-- **Exposed Methods**: `getView()`, `focus()`, `getRange()`, `setCursor()`, `getSelection()` (CodeMirror5 API compatibility layer)
-- **Event Emitters**: `ready`, `update`, `change`, `destroy`
-- **Two Setup Modes**: `basic` (basicSetup) or `minimal` (minimalSetup)
+## TypeScript Rules
 
-### Design Principles
+- **No `any`** — use `unknown` and narrow with type guards.
+- **Explicit return types** on exported functions.
+- **Use `type` over `interface`** for object shapes; extend via intersection (`&`).
+- **Union literal types** instead of magic strings:
+  ```ts
+  type Status = 'active' | 'inactive' | 'pending';
+  ```
+- **Underscore prefix** for intentionally unused variables: `_value`, `_error`.
+- **Array type syntax**: `string[]` not `Array<string>`.
+- **Generic constructors**: left-hand side style — `const map: Map<string, User> = new Map()`.
 
-1. **Unidirectional + v-model binding**: Text content updates flow via v-model
-2. **Optional ChainING on `view.value`**: All CodeMirror view access uses `view.value?.` to handle SSR
-3. **Props over Extensions**: Explicit props (`lang`, `linter`, `keymap`) separate from generic `extensions[]` for better type safety and DX
-4. **Lazy Initialization**: Editor only initializes in browser (client-side), SSR-safe with `onMounted` checks
+---
 
-### Testing Strategy (`src/__tests__/`)
+## Vue SFC Rules
 
-- **`CodeMirror.spec.ts`**: Component functionality (rendering, props, v-model, events, slots, public methods)
-- **`CodeMirror.ssr.spec.ts`**: SSR compatibility (server-side rendering, safe method calls, hydration, cleanup)
-- **Framework**: Vitest with happy-dom environment
-- **Setup**: Uses Vue Test Utils for component mounting
-- **Coverage Targets**: All public methods and critical code paths (see vitest.config.ts for exclusions)
+### Script
 
-## Code Quality Standards
+- Always use `<script setup lang="ts">` — Options API is prohibited.
+- `defineProps` and `defineEmits` must use **type-based declarations** (runtime declarations are prohibited):
 
-### Linting & Formatting
+  ```ts
+  // OK
+  const props = defineProps<{ title: string; count?: number }>();
+  const emit = defineEmits<{ change: [value: string]; close: [] }>();
 
-- **Oxlint**: Fast, Rust-based linting (primary)
-- **ESLint**: Vue plugin + TypeScript rules + accessibility checks
-- **Prettier**: Code formatting
-- **vue-tsc**: Type checking before build
+  // NG
+  const props = defineProps({ title: String });
+  ```
 
-Run all checks: `pnpm lint` (automatically fixes most issues)
+- Return values from composables as individual `ref`s (not `reactive`) to enable destructuring.
+- Internal state exposed from composables should be wrapped in `readonly()`.
 
-### TypeScript
+### Template
 
-- **Strict Mode**: Enabled
-- **Vue Support**: `@vue/eslint-config-typescript`
-- **Type Declarations**: Auto-generated via `vite-plugin-dts` during build
-- **Aliases**: `@` → `src/`, `vue-codemirror6` → `src/`
+- **Self-closing void elements**: `<br />`, `<img />`, `<input />`.
+- **Attribute order** (enforced by `vue/attributes-order`):
+  `DEFINITION` → `LIST_RENDERING` → `CONDITIONALS` → `RENDER_MODIFIERS` → `UNIQUE` → `TWO_WAY_BINDING` → `OTHER_DIRECTIVES` → `ATTR_DYNAMIC` → `ATTR_STATIC` → `ATTR_SHORTHAND_BOOL` → `EVENTS` → `CONTENT`
+- Run `pnpm lint` to auto-fix attribute order.
 
-## Important Context
+### Style
 
-### SSR Compatibility (Critical)
+- Always use `<style scoped>` — unscoped styles are prohibited.
+- CSS custom properties (design tokens) must be defined in a shared file (e.g., `src/styles/variables.css`) and not duplicated per component.
 
-The component must work in SSR environments (Nuxt.js, etc.):
+---
 
-- `view.value` may be `undefined` on server ⚠️
-- Always use optional chaining: `view.value?.method()`
-- Browser-only code wrapped in `if (typeof window !== 'undefined')`
-- See [SSR_FIX_SUMMARY.md](../SSR_FIX_SUMMARY.md) for detailed changes
+## Component Naming
 
-### Build Outputs
+- Component files: **PascalCase**, multi-word required (e.g., `UserCard.vue`, `AppHeader.vue`).
+  - `src/components/**/*.vue` — `error`
+- Do not create single-word components like `Header.vue` or `Card.vue`.
 
-### Generated Metadata
+---
 
-- `src/Meta.ts` is generated automatically when starting the dev server or running the library build.
-- If `src/Meta.ts` is missing in a fresh checkout, run `pnpm dev` or `pnpm build` before treating it as a broken import.
+## Import Rules
 
-Multiple formats in `dist/`:
+- **Always use the `@/` alias** for internal imports — relative parent traversal (`../`) is prohibited in application code:
 
-- ES modules: `index.es.js`
-- CommonJS: `index.cjs.js`
-- UMD: `index.umd.js`
-- IIFE: `index.iife.js`
-- Types: `index.d.ts`
+  ```ts
+  // OK
+  import { useUserStore } from '@/stores/user';
+  import type { User } from '@/types';
 
-### Peer Dependencies
+  // NG
+  import { useUserStore } from '../../../stores/user';
+  ```
 
-CodeMirror 6 packages are peer deps (not bundled):
+  > **Exception**: test files under `src/**/__tests__/` may use `../` to import the component under test (e.g., `import MyComponent from '../MyComponent.vue'`). This is intentional and the ESLint rule is disabled for that scope.
 
-```text
-@codemirror/{commands,language,lint,search,state,view}
-@codemirror/autocomplete
-codemirror (state/view core)
-style-mod
-vue: ^2.7.14 || ^3.3.4
-```
+- The `~` alias maps to `node_modules` (e.g., `~/some-lib/style.css`).
+- **Import order** (enforced by rslint, auto-fixed by `pnpm lint`):
+  1. Node built-ins
+  2. Vue core (`vue`, `vue-router`, `@vue/*`, `@rsbuild/*`)
+  3. External packages
+  4. Internal (`@/**`)
+  5. Sibling / index
+  6. Type imports
+     A blank line is required between each group.
 
-Users must install these separately to avoid duplication.
+---
 
-### Common Development Tasks
+## Docs
 
-**Adding a new prop**: Add to interface → component props → applicable compartment/state → test it
+- Rsbuild: <https://rsbuild.rs/llms.txt>
+- Rslib: <https://rslib.rs/llms.txt>
+- Rspack: <https://rspack.rs/llms.txt>
+- Rstest: <https://rstest.rs/llms.txt>
 
-**Adding language support demo**: Add to `src-docs/components/` and import in `App.vue`
+## Tools
 
-**Fixing a bug**: Create test first in `__tests__/`, implement fix in `src/`, verify with `pnpm test`
+### Rslint
 
-**Updating themes or extensions**: Use the `extensions` prop or create a helper function in `src/helpers/`
+- Run `pnpm run lint` to lint your code
+- The configuration is in `rslint.config.ts`
 
-## Key Files Reference
+### Rstest
 
-| File                                                                            | Purpose                                         |
-| ------------------------------------------------------------------------------- | ----------------------------------------------- |
-| [src/index.ts](../src/index.ts)                                                 | Main component definition                       |
-| [src/Meta.ts](../src/Meta.ts)                                                   | Component metadata and type definitions         |
-| [src/**tests**/CodeMirror.spec.ts](../src/__tests__/CodeMirror.spec.ts)         | Component tests                                 |
-| [src/**tests**/CodeMirror.ssr.spec.ts](../src/__tests__/CodeMirror.ssr.spec.ts) | SSR tests                                       |
-| [rsbuild.config.ts](../rsbuild.config.ts)                                       | Build config (outputs, plugins, DTS generation) |
-| [rstest.config.ts](../rstest.config.ts)                                         | Test config (happy-dom, coverage)               |
-| [rslint.config.ts](../rslint.config.ts)                                         | Linting config                                  |
+- Run `pnpm run test` to run tests
+- Run `pnpm run test:watch` to run tests in watch mode
 
-## Common Pitfalls to Avoid
+### Biome
 
-1. **Direct `view` access without optional chaining** → SSR will break
-2. **Importing `@codemirror` modules in component** → May cause bundling issues; prefer `extensions` prop
-3. **Mutating props directly** → Use emitted events or expose methods instead
-4. **Async state changes without `nextTick`** → Can cause race conditions in updates
-5. **Forgetting to test SSR mode** → Use `pnpm test` to run all tests including SSR
+- Run `pnpm run format` to format your code
+- Run `pnpm run check` to lint and format in one step
 
-## Workspace Conventions
+---
 
-- **Vue 3 syntax throughout** (vue-demi handles Vue 2 compatibility)
-- **TypeScript strict mode**
-- **Composition API only** (no Options API)
-- **Kebab-case for component props** (auto-converted from camelCase)
-- **PascalCase for type names**, camelCase for variables/functions
-- **Comments for complex CodeMirror API usage** (document non-obvious patterns)
+## Git & PR Rules
+
+- Commit messages follow **Conventional Commits**:
+  ```
+  feat(auth): add JWT refresh token rotation
+  fix(api): handle 429 rate limit with exponential backoff
+  docs: update README setup instructions
+  ```
+- PRs should be focused on a single purpose; aim for diffs under ~400 lines.
+- Minimum **1 approving review** required before merging to `master`.
+- PR description must include: what changed, how to test, and screenshots if UI is affected.
+
+---
+
+## What NOT to Do
+
+- Do not use `any` — use `unknown` with type guards.
+- Do not use Options API (`defineComponent`, `data()`, `methods:`).
+- Do not use runtime `defineProps({ title: String })` declarations.
+- Do not write `../` relative imports that traverse parent directories (exception: `src/**/__tests__/` may use `../` to reach the component under test).
+- Do not use `<style>` without `scoped`.
+- Do not add `eslint-disable` comments without a description.
+- Do not install packages with `npm` or `yarn` — use `pnpm` only.
 
 ---
 > Source: [logue/vue-codemirror6](https://github.com/logue/vue-codemirror6) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-07-26 -->
