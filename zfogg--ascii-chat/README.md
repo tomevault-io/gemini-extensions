@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zfogg/ascii-chat](https://github.com/zfogg/ascii-chat).
+Original source: `CLAUDE.md` in [zfogg/ascii-chat](https://github.com/zfogg/ascii-chat).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
@@ -21,7 +21,7 @@ Original source: `AGENTS.md` in [zfogg/ascii-chat](https://github.com/zfogg/asci
 - [ascii-chat](https://github.com/zfogg/ascii-chat/tree/main/.agents/skills/browser-use/SKILL.md)
 - [ascii-chat](https://github.com/zfogg/ascii-chat/tree/main/.cursor/skills/sentry-commit-messages/SKILL.md)
 
-From [zfogg/ascii-chat](https://github.com/zfogg/ascii-chat) — a repo with 196+ stars on GitHub.
+From [zfogg/ascii-chat](https://github.com/zfogg/ascii-chat) — a repo with 0+ stars on GitHub.
 
 ---
 
