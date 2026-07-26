@@ -1,24 +1,29 @@
 # AI instruction files for vs-servicehub
 
-> Sourced from [microsoft/vs-servicehub](https://github.com/microsoft/vs-servicehub) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [microsoft/vs-servicehub](https://github.com/microsoft/vs-servicehub), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/vs-servicehub](https://github.com/microsoft/vs-servicehub).
+Original source: `AGENTS.md` in [microsoft/vs-servicehub](https://github.com/microsoft/vs-servicehub).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From a repo with 0+ stars on GitHub. [See the full profile](https://tomevault.io/claim/microsoft)
+## Bundled Skills (2)
+
+- [vs-servicehub](https://github.com/microsoft/vs-servicehub/tree/main/.agents/skills/bundle-dependency-prs/SKILL.md)
+- [vs-servicehub](https://github.com/microsoft/vs-servicehub/tree/main/.agents/skills/update-library-template/SKILL.md)
+
+From [microsoft/vs-servicehub](https://github.com/microsoft/vs-servicehub) — a repo with 32+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-s -->
