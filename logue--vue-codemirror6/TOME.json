@@ -3,8 +3,8 @@
   "owner": "logue",
   "repo": "vue-codemirror6",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,27 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "vue-codemirror6",
+      "path": ".agents/skills/rslib-best-practices/SKILL.md",
+      "github_url": "https://github.com/logue/vue-codemirror6/tree/main/.agents/skills/rslib-best-practices/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vue-codemirror6",
+      "path": ".agents/skills/rstest-best-practices/SKILL.md",
+      "github_url": "https://github.com/logue/vue-codemirror6/tree/main/.agents/skills/rstest-best-practices/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vue-codemirror6",
+      "path": ".agents/skills/rsbuild-best-practices/SKILL.md",
+      "github_url": "https://github.com/logue/vue-codemirror6/tree/main/.agents/skills/rsbuild-best-practices/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/logue/vue-codemirror6",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-26T01:00:15Z"
+  "distributed_at": "2026-07-26T12:07:18Z"
 }
