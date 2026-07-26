@@ -1,77 +1,103 @@
 ## jenkins
 
-> chef rspec quickstart
+> **Chef cookbook** for managing software installation and configuration. Part of the Sous Chefs cookbook ecosystem.
 
+# Copilot Instructions for Sous Chefs Cookbooks
 
-<!-- markdownlint-disable MD041 -->
-# Chef RSpec quickstart
-<!-- markdownlint-enable MD041 -->
+## Repository Overview
 
+**Chef cookbook** for managing software installation and configuration. Part of the Sous Chefs cookbook ecosystem.
 
-## Running the ChefSpec suite
+**Key Facts:** Ruby-based, Chef >= 16 required, supports various OS platforms (check metadata.rb, kitchen.yml and .github/workflows/ci.yml for which platforms to specifically test)
 
-1. Ensure Chef Workstation binaries are available on your PATH. In this repo we do that via `.mise.toml`, which prepends `/opt/chef-workstation/bin`.
-1. Activate the mise environment (Fish shell example):
+## Project Structure
 
-    ```fish
-    eval (mise env)
-    ```
+**Critical Paths:**
+- `recipes/` - Chef recipes for cookbook functionality (if this is a recipe-driven cookbook)
+- `resources/` - Custom Chef resources with properties and actions (if this is a resource-driven cookbook)
+- `spec/` - ChefSpec unit tests
+- `test/integration/` - InSpec integration tests (tests all platforms supported)
+- `test/cookbooks/` or `test/fixtures/` - Example cookbooks used during testing that show good examples of custom resource usage
+- `attributes/` - Configuration for recipe driven cookbooks (not applicable to resource cookbooks)
+- `libraries/` - Library helpers to assist with the cookbook. May contain multiple files depending on complexity of the cookbook.
+- `templates/` - ERB templates that may be used in the cookbook
+- `files/` - files that may be used in the cookbook
+- `metadata.rb`, `Policyfile.rb` - Cookbook dependency resolution
 
-1. Bootstrap the Chef environment in your shell so `chef exec` uses the embedded ruby:
+## Build and Test System
 
-    ```fish
-    eval (chef shell-init fish)
-    ```
+### Environment Setup
+**MANDATORY:** Install Chef Workstation first - provides chef, cookstyle, kitchen tools.
 
-1. Run the tests:
+### Essential Commands (strict order)
+```bash
+chef install Policyfile.rb                   # Install dependencies (always first)
+cookstyle                       # Ruby/Chef linting
+yamllint .                      # YAML linting
+markdownlint-cli2 '**/*.md'     # Markdown linting
+chef exec rspec                 # Unit tests (ChefSpec)
+# Integration tests will be done via the ci.yml action. Do not run these. Only check the action logs for issues after CI is done running.
+```
 
-    - Full suite with embedded Chef ruby:
+### Critical Testing Details
+- **Kitchen Matrix:** Multiple OS platforms × software versions (check kitchen.yml for specific combinations)
+- **Docker Required:** Integration tests use Dokken driver
+- **CI Environment:** Set `CHEF_LICENSE=accept-no-persist`
+- **Full CI Runtime:** 30+ minutes for complete matrix
 
-        ```fish
-        chef exec rspec
-        ```
+### Common Issues and Solutions
+- **Always run `chef install Policyfile.rb` first** - most failures are dependency-related
+- **Docker must be running** for kitchen tests
+- **Chef Workstation required** - no workarounds, no alternatives
+- **Test data bags needed** (optional for some cookbooks) in `test/integration/data_bags/` for convergence
 
-    - Direct RSpec (after `chef shell-init`):
+## Development Workflow
 
-        ```fish
-        rspec
-        ```
+### Making Changes
+1. Edit recipes/resources/attributes/templates/libraries
+2. Update corresponding ChefSpec tests in `spec/`
+3. Also update any InSpec tests under test/integration
+4. Ensure cookstyle and rspec passes at least. You may run `cookstyle -a` to automatically fix issues if needed.
+5. Also always update all documentation found in README.md and any files under documentation/*
+6. **Always update CHANGELOG.md** (required by Dangerfile) - Make sure this conforms with the Sous Chefs changelog standards.
 
-1. If you need deterministic ordering, pass a seed:
+### Pull Request Requirements
+- **PR description >10 chars** (Danger enforced)
+- **CHANGELOG.md entry** for all code changes
+- **Version labels** (major/minor/patch) required
+- **All linters must pass** (cookstyle, yamllint, markdownlint)
+- **Test updates** needed for code changes >5 lines and parameter changes that affect the code logic
 
-    ```fish
-    chef exec rspec --seed 1234
-    ```
+## Chef Cookbook Patterns
 
+### Resource Development
+- Custom resources in `resources/` with properties and actions
+- Include comprehensive ChefSpec tests for all actions
+- Follow Chef resource DSL patterns
 
-## Troubleshooting
+### Recipe Conventions
+- Use `include_recipe` for modularity
+- Handle platforms with `platform_family?` conditionals
+- Use encrypted data bags for secrets (passwords, SSL certs)
+- Leverage attributes for configuration with defaults
 
-- **Missing Chef Workstation install**: Install Chef Workstation (<https://www.chef.io/products/chef-workstation>) so `/opt/chef-workstation` exists.
-- **PATH not updated**: Re-run `eval (mise env)` or restart the shell.
-- **Chefspec not found**: Ensure you invoked `chef shell-init` before calling `rspec` directly; otherwise use `chef exec rspec`.
+### Testing Approach
+- **ChefSpec (Unit):** Mock dependencies, test recipe logic in `spec/`
+- **InSpec (Integration):** Verify actual system state in `test/integration/inspec/` - InSpec files should contain proper inspec.yml and controls directories so that it could be used by other suites more easily.
+- One test file per recipe, use standard Chef testing patterns
 
-## Known Limitations
+## Trust These Instructions
 
-This cookbook now treats Jenkins as a secured Linux controller with authenticated resource management. The current support and test matrix is based on the official Jenkins installation guidance and current upstream platform lifecycles.
+These instructions are validated for Sous Chefs cookbooks. **Do not search for build instructions** unless information here fails.
 
-## Upstream constraints
+**Error Resolution Checklist:**
+1. Verify Chef Workstation installation
+2. Confirm `chef install Policyfile.rb` completed successfully
+3. Ensure Docker is running for integration tests
+4. Check for missing test data dependencies
 
-- The official Jenkins package repositories cover Debian/Ubuntu (`apt`) and Red Hat-family distributions (`rpm`). Source: [Installing Jenkins on Linux](https://www.jenkins.io/doc/book/installing/linux/).
-- Jenkins requires a supported Java runtime. The current Jenkins install guidance targets Java 17 or Java 21. Source: [Installing Jenkins on Linux](https://www.jenkins.io/doc/book/installing/linux/), [WAR install guide](https://www.jenkins.io/doc/book/installing/war-file/).
-- WAR installs remain the fallback for environments that cannot use the official package repos, but this cookbook only integration-tests systemd-based Linux controllers.
-- This cookbook keeps the Windows agent resource API, but it does not integration-test a Windows controller.
-
-## Matrix decisions
-
-- `ubuntu-20.04` was dropped from the active Kitchen/CI matrix because its standard support ended in May 2025. Source: [Ubuntu lifecycle](https://endoflife.date/ubuntu).
-- `opensuse-leap-15` was dropped from the active matrix because the official Jenkins Linux packaging guidance no longer documents an openSUSE package path and the Leap 15 line is no longer a good baseline for active coverage. Sources: [Installing Jenkins on Linux](https://www.jenkins.io/doc/book/installing/linux/), [openSUSE lifecycle](https://endoflife.date/opensuse).
-- Debian 12/13, Ubuntu 22.04/24.04, Amazon Linux 2023, AlmaLinux 8/9/10, CentOS Stream 9/10, Oracle Linux 8/9, Rocky Linux 8/9/10, and Fedora latest remain in the matrix because they are still viable upstream Linux targets for package- or WAR-based Jenkins installs.
-
-## Security expectations
-
-- Jenkins security must stay enabled in integration coverage. The cookbook no longer ships or tests an anonymous-admin bootstrap path.
-- Plugin installs against secured controllers rely on authenticated CLI operations and authenticated update-center postback, not on disabling security to make convergence succeed.
+The CI system uses these exact commands - following them matches CI behavior precisely.
 
 ---
 > Source: [sous-chefs/jenkins](https://github.com/sous-chefs/jenkins) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
