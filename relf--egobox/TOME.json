@@ -4,7 +4,7 @@
   "repo": "egobox",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/relf/egobox",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-26T09:42:35Z"
+  "distributed_at": "2026-07-26T11:51:53Z"
 }
