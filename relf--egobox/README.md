@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [relf/egobox](https://github.com/relf/egobox).
+Original source: `AGENTS.md` in [relf/egobox](https://github.com/relf/egobox).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -20,7 +20,7 @@ Original source: `copilot-instructions.md` in [relf/egobox](https://github.com/r
 - [egobox](https://github.com/relf/egobox/tree/main/python/skills/egobox/SKILL.md)
 - [egobox](https://github.com/relf/egobox/tree/main/python/skills/egobox-egor-tuning/SKILL.md)
 
-From [relf/egobox](https://github.com/relf/egobox) — a repo with 181+ stars on GitHub.
+From [relf/egobox](https://github.com/relf/egobox) — a repo with 182+ stars on GitHub.
 
 ---
 
