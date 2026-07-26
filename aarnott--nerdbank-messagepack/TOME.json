@@ -3,8 +3,8 @@
   "owner": "AArnott",
   "repo": "Nerdbank.MessagePack",
   "description": "A feature-packed .NET MessagePack serialization library with great performance and simplicity. msgpack.io[C#]",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Nerdbank.MessagePack",
+      "path": ".agents/skills/bundle-dependency-prs/SKILL.md",
+      "github_url": "https://github.com/AArnott/Nerdbank.MessagePack/tree/main/.agents/skills/bundle-dependency-prs/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "Nerdbank.MessagePack",
+      "path": ".agents/skills/update-library-template/SKILL.md",
+      "github_url": "https://github.com/AArnott/Nerdbank.MessagePack/tree/main/.agents/skills/update-library-template/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/AArnott/Nerdbank.MessagePack",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-31T23:44:50Z"
+  "distributed_at": "2026-07-26T12:08:13Z"
 }
