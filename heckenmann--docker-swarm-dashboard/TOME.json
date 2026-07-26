@@ -4,7 +4,7 @@
   "repo": "docker-swarm-dashboard",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/heckenmann/docker-swarm-dashboard",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-22T07:06:58Z"
+  "distributed_at": "2026-07-26T05:06:22Z"
 }
