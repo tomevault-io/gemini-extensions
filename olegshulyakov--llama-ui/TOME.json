@@ -2,9 +2,9 @@
   "name": "llama.ui",
   "owner": "olegshulyakov",
   "repo": "llama.ui",
-  "description": "A minimal interface for AI Companion that runs entirely in your browser.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/olegshulyakov/llama.ui",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T14:16:49Z"
+  "distributed_at": "2026-07-26T18:09:49Z"
 }
