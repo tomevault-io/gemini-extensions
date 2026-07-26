@@ -1,23 +1,28 @@
 # Nerdbank.MessagePack
 
-> Source: [AArnott/Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack) — distributed by [TomeVault](https://tomevault.io)
+> Source: [AArnott/Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 A feature-packed .NET MessagePack serialization library with great performance and simplicity. msgpack.io[C#]
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [AArnott/Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack).
+Original source: `AGENTS.md` in [AArnott/Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/AArnott/Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack)
+## Bundled Skills (2)
+
+- [Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack/tree/main/.agents/skills/bundle-dependency-prs/SKILL.md)
+- [Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack/tree/main/.agents/skills/update-library-template/SKILL.md)
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/AArnott/Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack)
 
 ---
 
