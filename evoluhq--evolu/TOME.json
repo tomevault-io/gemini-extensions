@@ -4,7 +4,7 @@
   "repo": "evolu",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -47,5 +47,5 @@
   ],
   "source_url": "https://github.com/evoluhq/evolu",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-25T18:41:23Z"
+  "distributed_at": "2026-07-26T11:41:21Z"
 }
