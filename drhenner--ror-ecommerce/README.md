@@ -5,14 +5,13 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [drhenner/ror_ecommerce](https://github.com/drhenner/ror_ecommerce).
+Original source: `.cursor/rules/*.mdc` in [drhenner/ror_ecommerce](https://github.com/drhenner/ror_ecommerce).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
