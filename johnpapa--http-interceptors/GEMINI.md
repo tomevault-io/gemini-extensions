@@ -1,141 +1,85 @@
 ## http-interceptors
 
-> A comparison monorepo demonstrating HTTP interceptors in **Angular** (HttpClient interceptors) and **Svelte** (Axios interceptors). Same "Tour of Heroes, Movie Edition" app implemented in both frameworks with a `json-server` mock backend.
+> This is a **multi-app comparison repo** (not a monorepo) demonstrating HTTP interceptors in Angular and Svelte. Each app directory is independent — no shared workspace, no shared `node_modules`.
 
-# HTTP Interceptors — Agent Guide
+# Copilot Instructions — http-interceptors
 
-A comparison monorepo demonstrating HTTP interceptors in **Angular** (HttpClient interceptors) and **Svelte** (Axios interceptors). Same "Tour of Heroes, Movie Edition" app implemented in both frameworks with a `json-server` mock backend.
+## Project Overview
 
-## Repository Structure
+This is a **multi-app comparison repo** (not a monorepo) demonstrating HTTP interceptors in Angular and Svelte. Each app directory is independent — no shared workspace, no shared `node_modules`.
 
-```
-http-interceptors/
-├── angular-app/                    # Angular 14 app — HttpClient interceptors
-│   ├── src/app/
-│   │   ├── core/
-│   │   │   ├── interceptors/       # Auth, busy, CSRF, SSL, logging, read-only, transform
-│   │   │   ├── components/         # Nav, header, sign-in, auth-failed, not-found
-│   │   │   ├── session.service.ts  # Session/token management
-│   │   │   └── model/              # Hero, Villain, Movie interfaces
-│   │   ├── heroes/                 # Hero CRUD feature module
-│   │   ├── villains/               # Villain CRUD feature module
-│   │   ├── store/                  # NgRx store (entity metadata, config)
-│   │   └── shared/                 # Shared components
-│   ├── proxy.conf.json             # Dev proxy → json-server backend
-│   ├── db.json                     # Mock database (json-server)
-│   └── package.json                # Angular CLI, NgRx, json-server-auth
-│
-├── angular-http-hard-way/          # Angular 14 app — manual HttpClient (no NgRx)
-│   ├── src/app/
-│   │   ├── core/interceptors/      # Same interceptor set, different wiring
-│   │   ├── heroes/                 # Hero CRUD (manual HTTP, no NgRx)
-│   │   └── shared/
-│   ├── proxy.conf.json
-│   ├── db.json
-│   └── package.json
-│
-├── svelte-app/                     # Svelte + Vite app — Axios interceptors
-│   ├── src/
-│   │   ├── interceptors/           # Same interceptor concepts via Axios
-│   │   ├── heroes/                 # Hero CRUD (Svelte components)
-│   │   ├── villains/               # Villain CRUD
-│   │   ├── store/                  # Svelte stores + data services
-│   │   ├── models/                 # TypeScript interfaces
-│   │   └── components/             # Shared UI components
-│   ├── db.json
-│   └── package.json                # Vite, Svelte, Axios, json-server-auth
-│
-├── .vscode/                        # VS Code workspace settings
-├── CONTRIBUTING.md                 # Contribution guidelines
-├── CODE_OF_CONDUCT.md              # Community standards
-├── README.md                       # Project overview, setup instructions
-└── LICENSE                         # MIT
-```
+## Code Conventions
 
-## Tech Stack
+### TypeScript
 
-| Area | Angular apps | Svelte app |
-|------|-------------|------------|
-| **Framework** | Angular 14 | Svelte + Vite |
-| **HTTP client** | `@angular/common/http` (HttpClient) | Axios |
-| **Interceptors** | `HttpInterceptor` interface (class-based) | Axios interceptors (function-based) |
-| **State management** | NgRx (`angular-app`), manual services (`angular-http-hard-way`) | Svelte stores |
-| **Styling** | Bulma + SCSS | Bulma + SCSS |
-| **Mock API** | `json-server-auth` | `json-server-auth` |
-| **Language** | TypeScript | TypeScript |
+- Use strict TypeScript — all files use `.ts` or `.svelte` extensions
+- Prefer explicit type annotations on function parameters and return types
+- Use `type` imports for type-only imports (`import type { ... }`)
 
-## Interceptor Catalog
+### Angular Apps
 
-Both Angular and Svelte apps implement the **same 8 interceptors** — this is the core comparison:
+- Interceptors are **classes** implementing `HttpInterceptor` interface
+- Register interceptors as `HTTP_INTERCEPTORS` multi-providers in the core module
+- Use `@Injectable()` decorator on all interceptor classes
+- Feature modules (heroes, villains) are lazy-loaded with their own routing
+- State management: `angular-app` uses NgRx, `angular-http-hard-way` uses plain services
+- Use `logMessage()` helper from `./log.ts` for interceptor logging — don't use `console.log` directly
 
-| Interceptor | Purpose | Angular | Svelte |
-|-------------|---------|---------|--------|
-| `auth` | Attach Bearer token, handle 401s | `AuthInterceptor` class | `authInterceptor()` function |
-| `busy` | Track in-flight requests for loading UI | `BusyInterceptor` | `busyInterceptor()` |
-| `csrf` | Add CSRF token header | `CsrfInterceptor` | `csrfInterceptor()` |
-| `ensure-ssl` | Rewrite HTTP → HTTPS | `EnsureSSLInterceptor` | `ensureSSLInterceptor()` |
-| `log-headers` | Log request/response headers | `LogHeadersInterceptor` | `logHeadersInterceptor()` |
-| `log-http` | Log HTTP traffic | `LogHttpInterceptor` | `logHttpInterceptor()` |
-| `read-only` | Block POST/PUT/DELETE for unauthorized users | `ReadOnlyInterceptor` | `readOnlyInterceptor()` |
-| `transform` | Transform response shape | `TransformInterceptor` | `transformInterceptor()` |
+### Svelte App
 
-**Key difference**: Angular interceptors are classes implementing `HttpInterceptor` and registered via DI providers. Svelte interceptors are plain functions that call `axios.interceptors.request.use()` / `axios.interceptors.response.use()`.
+- Interceptors are **plain functions** that register Axios request/response interceptors
+- Apply all interceptors via `applyHttpInterceptors()` in `interceptors/index.ts`
+- Interceptor order in the array is the **logical** order — the function reverses it for Axios
+- Use Svelte stores (`writable`, `derived`) for reactive state
+- Components use `.svelte` extension, logic files use `.ts`
 
-## Build & Run
+### Shared Patterns (both frameworks)
 
-Each app is independent — there is **no monorepo workspace config**. Each has its own `node_modules` and runs separately.
+- Interceptor files follow naming: `<purpose>.interceptor.ts`
+- Config lives in `http-config.ts` (API URL prefix, logging prefixes)
+- Mock backend uses `json-server-auth` with `db.json` and `routes.json`
+- Styling uses Bulma CSS framework + SCSS
 
-### Angular apps (`angular-app` or `angular-http-hard-way`)
+## File Naming
 
-```bash
-cd angular-app       # or angular-http-hard-way
-npm install
-npm run full-stack   # starts json-server backend + Angular dev server
-```
+| Type | Pattern | Example |
+|------|---------|---------|
+| Interceptor | `<name>.interceptor.ts` | `auth.interceptor.ts` |
+| Angular component | `<name>.component.ts` | `hero-detail.component.ts` |
+| Angular module | `<name>.module.ts` | `heroes.module.ts` |
+| Angular service | `<name>.service.ts` | `hero.service.ts` |
+| Svelte component | `<Name>.svelte` | `HeroDetail.svelte` |
+| Store/service | `<name>-data.ts` or `<name>.service.ts` | `hero-data.ts` |
+| Model/interface | `<name>.ts` in `model/` or `models/` | `hero.ts` |
 
-- `angular-app` runs on port **4202** (backend: 4302)
-- `angular-http-hard-way` runs on port **4201** (backend: 4301)
+## Adding a New Interceptor
 
-### Svelte app
+1. Create `<name>.interceptor.ts` in the interceptors directory
+2. **Angular**: create a class implementing `HttpInterceptor`, add to core module providers
+3. **Svelte**: create an exported function, add it to the array in `interceptors/index.ts`
+4. Add interceptor logging using the `logMessage()` helper and `prefixReq`/`prefixRes` constants
+5. Update both Angular and Svelte apps to keep them in sync — this is a comparison repo
 
-```bash
-cd svelte-app
-npm install
-npm run full-stack   # starts json-server backend + Vite dev server
-```
+## Maintenance Matrix
 
-- Svelte app runs on port **5173** (backend: 5001)
+| When this changes... | Also update... |
+|---|---|
+| An interceptor in `angular-app` | Mirror the change in `svelte-app` interceptors (and vice versa) |
+| An interceptor in `angular-app` | Check if `angular-http-hard-way` needs the same update |
+| `db.json` schema | Update all three `db.json` files to stay consistent |
+| `routes.json` | Update in all app directories that have it |
+| Angular dependencies | Update in both `angular-app` and `angular-http-hard-way` |
+| Port numbers | Update `proxy.conf.json`, `package.json` scripts, and `README.md` |
+| New entity (beyond heroes/villains/movies) | Add model, service, component, and routes in all apps |
+| `README.md` setup instructions | Verify commands still work for all three apps |
 
-### Mock API
+## What NOT to Do
 
-All apps use `json-server-auth` with a `db.json` file. The mock API provides:
-- CRUD endpoints for heroes, villains, and movies
-- JWT authentication (register/login at `/register`, `/login`)
-- Route-based access control via `routes.json`
-
-## Testing
-
-```bash
-cd angular-app && npm test       # Karma test runner
-cd angular-http-hard-way && npm test
-```
-
-The Svelte app does not have a test runner configured.
-
-## Key Patterns
-
-- **Interceptor ordering matters** — Svelte's `applyHttpInterceptors()` reverses the array because Axios applies interceptors in reverse registration order
-- **Proxy configuration** — Angular apps use `proxy.conf.json` to proxy API calls to json-server during development
-- **Session management** — both frameworks use a session service to store JWT tokens obtained from `json-server-auth`
-- **Feature modules** — Angular apps organize heroes/villains as feature modules with their own routing; Svelte uses component-based routing via `svelte-routing`
-
-## Common Pitfalls
-
-- **Don't run all apps simultaneously** without checking ports — they use different ports but the backends could conflict
-- **`npm install` is per-app** — there is no root `package.json` or workspace. Each app directory is independent
-- **Angular apps use `--prod` flag** for build, which is deprecated in newer Angular CLI versions — these are Angular 14 apps
-- **json-server-auth requires `db.json` to exist** — it's checked into the repo, don't delete it
+- **Don't add a root `package.json`** — these are intentionally independent apps
+- **Don't mix interceptor patterns** — Angular uses class-based, Svelte uses function-based
+- **Don't remove `db.json`** — it's the mock database, not a build artifact
+- **Don't upgrade Angular without testing** — these apps are on Angular 14 with specific RxJS/NgRx versions
 
 ---
 > Source: [johnpapa/http-interceptors](https://github.com/johnpapa/http-interceptors) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
