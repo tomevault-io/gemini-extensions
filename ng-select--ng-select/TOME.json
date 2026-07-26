@@ -3,8 +3,8 @@
   "owner": "ng-select",
   "repo": "ng-select",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "ng-select",
+      "path": ".claude/skills/verify/SKILL.md",
+      "github_url": "https://github.com/ng-select/ng-select/tree/main/.claude/skills/verify/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/ng-select/ng-select",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T19:54:20Z"
+  "distributed_at": "2026-07-26T07:47:32Z"
 }
