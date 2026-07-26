@@ -3,8 +3,8 @@
   "owner": "cline",
   "repo": "cline",
   "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,45 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "cline",
+      "path": ".agents/skills/opentui/SKILL.md",
+      "github_url": "https://github.com/cline/cline/tree/main/.agents/skills/opentui/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "cline",
+      "path": ".agents/skills/cline-sdk/SKILL.md",
+      "github_url": "https://github.com/cline/cline/tree/main/.agents/skills/cline-sdk/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "cline",
+      "path": ".cline/skills/publish-cli/SKILL.md",
+      "github_url": "https://github.com/cline/cline/tree/main/.cline/skills/publish-cli/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "cline",
+      "path": ".agents/skills/create-pull-request/SKILL.md",
+      "github_url": "https://github.com/cline/cline/tree/main/.agents/skills/create-pull-request/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "cline",
+      "path": ".cline/skills/publish-ui/SKILL.md",
+      "github_url": "https://github.com/cline/cline/tree/main/.cline/skills/publish-ui/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "cline",
+      "path": ".cline/skills/publish-desktop/SKILL.md",
+      "github_url": "https://github.com/cline/cline/tree/main/.cline/skills/publish-desktop/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/cline/cline",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-01T19:31:54Z"
+  "distributed_at": "2026-07-26T11:36:18Z"
 }
