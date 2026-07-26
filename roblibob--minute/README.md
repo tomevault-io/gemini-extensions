@@ -1,18 +1,16 @@
 # minute
 
-> Tome by [roblibob](https://github.com/roblibob/minute) — distributed by [TomeVault](https://tomevault.io)
-
-Meeting transcription app
+> Tome by [roblibob](https://github.com/roblibob/minute), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [roblibob/minute](https://github.com/roblibob/minute).
+Original source: `copilot-instructions.md` in [roblibob/minute](https://github.com/roblibob/minute).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
