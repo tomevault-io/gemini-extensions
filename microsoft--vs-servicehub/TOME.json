@@ -3,8 +3,8 @@
   "owner": "microsoft",
   "repo": "vs-servicehub",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
-  "claim_url": "https://tomevault.io/claim/microsoft",
+  "skills": [
+    {
+      "name": "vs-servicehub",
+      "path": ".agents/skills/bundle-dependency-prs/SKILL.md",
+      "github_url": "https://github.com/microsoft/vs-servicehub/tree/main/.agents/skills/bundle-dependency-prs/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "vs-servicehub",
+      "path": ".agents/skills/update-library-template/SKILL.md",
+      "github_url": "https://github.com/microsoft/vs-servicehub/tree/main/.agents/skills/update-library-template/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/microsoft/vs-servicehub",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T21:45:28Z"
+  "distributed_at": "2026-07-26T11:33:11Z"
 }
