@@ -1,114 +1,67 @@
 ## vscode-winteriscoming
 
-> A **VS Code color theme extension** providing dark and light themes with vibrant syntax highlighting. This is a theme-only extension — no runtime code, no build step, no tests.
+> This is a **VS Code color theme extension**. There is no runtime code, no build step, and no test framework. The deliverables are JSON theme files and the `package.json` manifest.
 
-# Winter is Coming Theme — Agent Guide
+# Copilot Instructions — Winter is Coming Theme
 
-A **VS Code color theme extension** providing dark and light themes with vibrant syntax highlighting. This is a theme-only extension — no runtime code, no build step, no tests.
+## Project Type
 
-## Repository Structure
+This is a **VS Code color theme extension**. There is no runtime code, no build step, and no test framework. The deliverables are JSON theme files and the `package.json` manifest.
 
-```
-vscode-winteriscoming/
-├── themes/                          # Theme JSON files (the product)
-│   ├── WinterIsComing-dark-blue-color-theme.json
-│   ├── WinterIsComing-dark-blue-color-no-italics-theme.json
-│   ├── WinterIsComing-dark-color-theme.json
-│   ├── WinterIsComing-dark-color-no-italics-theme.json
-│   ├── WinterIsComing-light-color-theme.json
-│   └── WinterIsComing-light-color-no-italics-theme.json
-├── images/                          # Screenshots and icon
-│   └── winteriscoming-icon.png
-├── .github/
-│   ├── copilot-instructions.md      # AI contributor conventions
-│   ├── dependabot.yml               # Dependency update automation
-│   ├── ISSUE_TEMPLATE/              # Bug report and feature request forms
-│   ├── PULL_REQUEST_TEMPLATE.md     # PR checklist
-│   └── workflows/                   # CI (vsce package validation)
-├── package.json                     # Extension manifest — defines themes, metadata, publisher
-├── CHANGELOG.md                     # Version history (Keep a Changelog format)
-├── CONTRIBUTING.md                  # Contribution guidelines
-├── README.md                        # Overview, screenshots, installation, recommended settings
-├── LICENSE.md                       # MIT
-└── AGENTS.md                        # This file
-```
+## Theme Editing Conventions
 
-## Tech Stack
+### Color Values
 
-- **Extension type:** VS Code color theme (no runtime code)
-- **Theme format:** JSON color theme files following the [VS Code theme color reference](https://code.visualstudio.com/api/references/theme-color)
-- **Manifest:** `package.json` — defines all theme contributions via `contributes.themes`
-- **Packaging:** `vsce` (Visual Studio Code Extension manager) via `npx vsce package`
-- **Publisher:** `johnpapa` on the VS Code Marketplace
+- Use hex color codes in lowercase: `#219fd5`, not `#219FD5`
+- Include alpha channel only when transparency is intentional: `#219fd544`
+- Keep accent colors consistent across dark variants (`#219fd5` blue, `#C792EA` purple, `#f7ecb5` yellow)
 
-## Theme Variants
+### Token Colors
 
-| Theme | UI Theme | Italics | File |
-|-------|----------|---------|------|
-| Winter is Coming (Dark Blue) | `vs-dark` | Yes | `WinterIsComing-dark-blue-color-theme.json` |
-| Winter is Coming (Dark Blue - No Italics) | `vs-dark` | No | `WinterIsComing-dark-blue-color-no-italics-theme.json` |
-| Winter is Coming (Dark Black) | `vs-dark` | Yes | `WinterIsComing-dark-color-theme.json` |
-| Winter is Coming (Dark Black - No Italics) | `vs-dark` | No | `WinterIsComing-dark-color-no-italics-theme.json` |
-| Winter is Coming (Light) | `vs` | Yes | `WinterIsComing-light-color-theme.json` |
-| Winter is Coming (Light - No Italics) | `vs` | No | `WinterIsComing-light-color-no-italics-theme.json` |
+- Use VS Code's `tokenColors` array with `scope` (string or array) and `settings` (`foreground`, `fontStyle`)
+- Use TextMate scope names — reference the [VS Code syntax highlighting guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+- When adding a new token rule, add it to **all 6 theme files** (or at minimum to both the italics and no-italics variants of the affected base theme)
 
-## Build & Run
+### Workbench Colors
 
-There is no build step. The extension ships JSON theme files that VS Code reads directly.
+- Use the [VS Code theme color reference](https://code.visualstudio.com/api/references/theme-color) for valid property names
+- Test contrast for accessibility — ensure text is readable against backgrounds
 
-```bash
-# Package the extension into a .vsix file
-npx vsce package
+### Italics vs No-Italics
 
-# List files that will be included in the package
-npx vsce ls
+- The "No Italics" variants must have zero `"fontStyle": "italic"` entries
+- When modifying a token in a base theme, apply the same color change to the no-italics variant but **do not** add `"fontStyle": "italic"`
 
-# Publish to the VS Code Marketplace (requires publisher credentials)
-npx vsce publish
-```
+## File Conventions
 
-**To test locally:** Press `F5` in VS Code to open an Extension Development Host, then select the theme from File > Preferences > Color Theme.
+### JSON
 
-## Testing
+- Use 2-space indentation (consistent with VS Code defaults)
+- Theme files do not have a JSON schema reference — they follow the VS Code color theme format implicitly
 
-There is no automated test suite — this is a theme-only extension with no runtime code.
+### package.json
 
-**Manual validation:**
-1. Open the repo in VS Code and press `F5` to launch the Extension Development Host
-2. Switch between all 6 theme variants
-3. Open files in various languages (HTML, JS, TS, CSS/SCSS, JSON, Markdown) and verify syntax colors
-4. Check contrast for UI elements (sidebar, command palette, tabs, status bar, git decorations)
+- `contributes.themes` must list every theme file with correct `label`, `uiTheme`, and `path`
+- Bump `version` on every release
+- Do not add runtime dependencies — this extension has none
 
-## Key Patterns and Conventions
+### Images
 
-- **Italics variants** — each base theme has a "No Italics" counterpart. The no-italics version removes `"fontStyle": "italic"` from all token rules. When modifying a theme color, apply the same change to both the italics and no-italics variants.
-- **Theme naming** — files follow the pattern `WinterIsComing-{variant}-color-{suffix}-theme.json` where variant is `dark-blue`, `dark`, or `light`, and suffix is empty or `no-italics`.
-- **Color consistency** — dark themes share accent colors (`#219fd5` blue, `#C792EA` purple, `#f7ecb5` yellow). Light themes use darker counterparts. Keep accent colors consistent across variants.
-- **`package.json` is the product spec** — the `contributes.themes` array registers every theme. Each entry must have a correct `label`, `uiTheme` (`vs-dark` or `vs`), and `path` pointing to the theme JSON file.
+- Screenshots go in `images/` as PNG files
+- Use descriptive names: `dark-blue-ts.png`, `light-js.png`
+- Keep image dimensions consistent for README display
 
-## Adding a New Theme Variant
+## Maintenance Matrix
 
-1. Copy the closest existing theme JSON file and rename it following the naming pattern
-2. Modify colors in the new file
-3. Register the new theme in `package.json` under `contributes.themes` with the correct `label`, `uiTheme`, and `path`
-4. If the new theme should have a "No Italics" variant, duplicate the file and remove all `"fontStyle": "italic"` entries
-5. Add a screenshot to `images/` showing the new theme
-6. Update `README.md` with a new section showing the screenshot
-7. Add a `CHANGELOG.md` entry
-8. Bump `version` in `package.json`
-9. Run `npx vsce package` to verify the extension packages correctly
-
-## Documentation
-
-This project does not have a docs site — documentation is in `README.md`. The README covers installation, screenshots of each theme variant, and recommended VS Code settings.
-
-## Common Pitfalls
-
-- **Forgetting the no-italics variant** — every color change to a base theme must also be applied to its no-italics counterpart. These files are not auto-generated.
-- **Mismatched `package.json` paths** — if you rename a theme file, you must update the `path` in `contributes.themes` or the theme won't load.
-- **Version bump** — `package.json` `version` must be bumped before publishing; `vsce publish` will fail if the version already exists on the Marketplace.
-- **Screenshots** — update the `images/` directory when theme colors change significantly, so the README accurately represents the current look.
+| When this changes... | Also update... |
+|---|---|
+| Theme colors in a base theme | Apply the same change to its "No Italics" variant |
+| New theme variant added | `package.json` (`contributes.themes`), `README.md` (new section + screenshot), `CHANGELOG.md` |
+| Theme file renamed or removed | `package.json` (`contributes.themes` path), `.vscodeignore` if applicable |
+| `package.json` version bumped | `CHANGELOG.md` (new entry) |
+| Screenshots updated | `README.md` (verify image references) |
+| Extension icon changed | `package.json` (`icon` field), `images/winteriscoming-icon.png` |
 
 ---
 > Source: [johnpapa/vscode-winteriscoming](https://github.com/johnpapa/vscode-winteriscoming) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
