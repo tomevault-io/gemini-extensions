@@ -1,85 +1,24 @@
 ## pdpipe
 
-> This file defines contributor and coding-agent rules for this repository.
+> - pdpipe is a Python package for building serializable, chainable, and verbose data processing pipelines for pandas DataFrames, with a focus on data science and machine learning workflows.
 
-# AGENTS.md - pdpipe
+# GitHub Copilot Custom Instructions for pdpipe
 
-This file defines contributor and coding-agent rules for this repository.
-
-## Scope and intent
-
-- Keep changes focused, minimal, and test-backed.
-- Preserve backward compatibility unless the issue or PR explicitly allows breaking changes.
-- Prefer clear, deterministic behavior over implicit magic.
-
-## Project basics
-
-- Package: `pdpipe`
-- Purpose: easy pipelines for pandas DataFrames.
-- Python: CI-supported versions in this repo.
-- Optional extras: `nltk`, `sklearn`.
-- Primary source path: `src/pdpipe/`.
-
-## Repository layout
-
-```
-pdpipe/
-├── src/pdpipe/            # Source package
-│   ├── core.py            # Pipeline and stage core abstractions
-│   ├── basic_stages.py    # Core dataframe transformation stages
-│   ├── col_generation.py  # Column/feature generation stages
-│   ├── nltk_stages.py     # NLTK-dependent text stages
-│   ├── sklearn_stages.py  # sklearn-dependent stages
-│   ├── skintegrate.py     # sklearn estimator integration wrapper
-│   ├── cond.py / cq.py / rq.py
-│   └── ...
-├── tests/                 # Pytest suite
-├── docs/                  # Documentation
-├── dev/                   # Developer scripts
-├── .github/workflows/     # CI workflows
-└── pyproject.toml         # Build + lint + test configuration
-```
-
-## Core quality requirements
-
-- Lint/format before every commit:
-  - `python -m black .`
-  - `python -m flake8`
-- Run relevant tests for touched code.
-- Keep doctest examples valid for touched modules.
-
-## CI workflows
-
-- `test.yml`: main test matrix.
-- `lint.yml`: flake8 checks.
-- `black.yml`: formatting check.
-- `npdocval.yml`: numpydoc validation.
-- `release.yml`: release workflow.
-
-## Coding expectations
-
-- Favor explicit, readable implementations.
-- Keep behavior deterministic and backward-compatible by default.
-- Add regression tests for bug fixes.
-- Keep optional dependencies optional; degrade gracefully when unavailable.
-
-## PR expectations
-
-- One logical change per PR.
-- Clear summary of behavior changes and test evidence.
-- Green CI before merge.
-
-## Local overrides (optional, untracked)
-
-- If `LOCAL_AGENTS.md` exists at repo root, treat it as additive local instructions.
-- `LOCAL_AGENTS.md` should remain untracked.
-- On conflicts, repository/security policy takes precedence.
-
-## Security and secrets
-
-- Never commit credentials or machine-specific secrets.
-- Avoid weakening protections around sensitive files or env vars.
+- pdpipe is a Python package for building serializable, chainable, and verbose data processing pipelines for pandas DataFrames, with a focus on data science and machine learning workflows.
+- Always follow the fit-transform design pattern compatible with scikit-learn transformers when discussing pipeline stages or API design.
+- Code must adhere to flake8 and black formatting standards (see pyproject.toml for details). Linting is enforced in CI.
+- Use numpy docstring conventions for all public functions, classes, and methods. Include clear parameter and return type documentation and examples where possible.
+- Do not mutate input DataFrames in place; all transformations should return new DataFrames.
+- When adding new pipeline stages, use informative, explicit naming (e.g., ColDrop, ValDrop) to maximize pipeline readability.
+- Tests must be added for all new code. Place tests in the appropriate module subdirectory under tests/, and use one test function per use case. Aim to maintain 100% test coverage.
+- Doctests and code examples are encouraged in docstrings for new stages and functions.
+- Some features are optional and require scikit-learn or nltk; code should gracefully degrade if these are not installed, issuing a warning but not failing.
+- Pipelines and stages should be highly configurable and support serialization/deserialization for production use.
+- Default behaviors should help users avoid common data science pitfalls (e.g., one-hot encoding drops one column by default to avoid the dummy variable trap).
+- pdpipe supports Python 3.9 and up. Ensure compatibility with all supported versions.
+- For configuration, support both config files and environment variables as described in the README.
+- For help, reference the official documentation at https://pdpipe.readthedocs.io/en/latest/ and the Gitter community.
 
 ---
 > Source: [pdpipe/pdpipe](https://github.com/pdpipe/pdpipe) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
