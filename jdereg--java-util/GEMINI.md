@@ -1,50 +1,334 @@
 ## java-util
 
-> These instructions guide any automated agent (such as Codex) that modifies this
+> This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-# AGENTS
+# CLAUDE.md
 
-These instructions guide any automated agent (such as Codex) that modifies this
-repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Coding Conventions
-- Use **four spaces** for indentation—no tabs.
-- End every file with a newline and use Unix line endings.
-- Keep code lines under **120 characters** where possible.
-- Follow standard Javadoc style for any new public APIs.
-- This library maintains JDK 1.8 source compatibility, please make sure to not use source constructs or expected JDK libary calls beyond JDK 1.8.
-- Whenever you need to use reflection, make sure you use ReflectionUtils APIs from java-util.
-- For data structure verification in JUnit tests, use DeepEquals.deepEquals() [make sure to pass the option so you can see the "diff"].  This will make it clear where there is a difference in a complex data structure.
-- If you need null support in ConcurrentMap implementations, use java-utils ConcurrentMaps that are null safe.
-- Whenever parsing a String date, use either java-util DateUtilities.parse() (Date or ZonedDateTime), or use Converter.converter() which will use it inside.
-- Use Converter.convert() as needed to marshal data types to match.
-- For faster stream reading, use the FastByteArrayInputStream and FastByteArrayOutputStream.
-- For faster Readers, use FastReader and FastWriter.
-- USe StringUtilities APIs for common simplifications like comparing without worrying about null, for example.  Many other APIs on there.
-- When a Unique ID is needed, use the UniqueIdGenerator.getUniqueId19() as it will give you a long, up to 10,000 per millisecond, and you can always get the time of when it was created, from it, and it is strictly increasing.
-- IOUtilities has some nice APIs to close streams without extra try/catch blocks, and also has a nice transfer APIs, and transfer APIs that show call back with transfer stats.
-- ClassValueMap and ClassValueSet make using JDK's ClassValue much easier yet retain the benefits of ClassValue in terms of speed.
-- Of course, for case-insensitive Maps, there is no better one than java-util's CaseInsensitiveMap.
-- And if you need to create large amounts of Maps, CompactMap (and its variants) use significantly less space than regular JDK maps.
+## 🚨 CRITICAL RULES - READ FIRST 🚨
 
-## Commit Messages
-- Start with a short imperative summary (max ~50 characters).
-- Leave a blank line after the summary, then add further details if needed.
-- Don’t amend or rewrite existing commits.
-- Please list the Codex agent as the author so we can see that in the "Blame" view at the line number level.
+**BEFORE doing ANYTHING else, understand these NON-NEGOTIABLE requirements:**
 
-## Testing
-- Run `mvn -q test` before committing to ensure tests pass.
-- If tests can’t run due to environment limits, note this in the PR description.
+### MANDATORY FULL TEST SUITE VALIDATION
 
-## Documentation
-- Update `changelog.md` with a bullet about your change.
-- Update `userguide.md` whenever you add or modify public-facing APIs.
+**EVERY change, no matter how small, MUST be followed by running the full test suite:**
 
-## Pull Request Notes
-- Summarize key changes and reference the main files touched.
-- Include a brief “Testing” section summarizing test results or noting any limitations.
+```bash
+mvn clean test
+```
+
+**ALL 10,000+ tests MUST pass before:**
+- Moving to the next issue/file/task
+- Committing any changes  
+- Asking for human approval
+- Starting any new work
+
+**If even ONE test fails:**
+- Stop immediately
+- Fix the failing test(s)
+- Run the full test suite again
+- Only proceed when ALL tests pass
+
+**This rule applies to ANY code modification and is MORE IMPORTANT than the actual change itself.**
+
+### MANDATORY HUMAN APPROVAL FOR COMMITS
+
+**NEVER commit without explicit "Y" or "Yes" approval from human.**
+
+### MANDATORY HUMAN APPROVAL FOR DEPLOYMENT
+
+**NEVER deploy without explicit human approval. Always ask for permission before starting any deployment process.**
+
+## 🎯 WORK PHILOSOPHY - INCREMENTAL ATOMIC CHANGES 🎯
+
+**Mental Model: Work with a "List of Changes" approach**
+
+### The Change Hierarchy
+- **Top-level changes** (e.g., "Fix security issues in DateUtilities")
+  - **Sub-changes** (e.g., "Fix ReDoS vulnerability", "Fix thread safety")
+    - **Sub-sub-changes** (e.g., "Limit regex repetition", "Add validation tests")
+
+### Workflow for EACH Individual Change
+1. **Pick ONE change** from any level (top-level, sub-change, sub-sub-change)
+2. **Implement the change**
+   - During development: Use single test execution for speed (`mvn test -Dtest=SpecificTest`)
+   - Iterate until the specific functionality works
+3. **When you think the change is complete:**
+   - **MANDATORY**: Run full test suite: `mvn clean test`
+   - **ALL 10,000+ tests MUST pass**
+   - **If ANY test fails**: Fix immediately, run full tests again
+4. **Once ALL tests pass:**
+   - Ask for commit approval: "Should I commit this change? (Y/N)"
+   - Human approves, commit immediately
+   - Move to next change in the list
+
+### Core Principles
+- **Start work**: At the start of new work, create a "Todo" list.
+- **Chat First**: As a general work guideline, when starting a new Todo list, or a feature idea, always "chat first, get agreement from human, then code."
+- **Minimize Work-in-Process**: Keep delta between local files and committed git files as small as possible
+- **Always Healthy State**: Committed code is always in perfect health (all tests pass)
+- **Atomic Commits**: Each commit represents one complete, tested, working change
+- **Human Controls Push**: Human decides when to push commits to remote
+
+**🎯 GOAL: Each change is complete, tested, and committed before starting the next change**
+
+## ADDITIONAL TESTING REQUIREMENTS
+
+**CRITICAL BUILD REQUIREMENT**: The full maven test suite MUST run all 10,000+ tests. If you see only ~10,000 tests, there is an OSGi or JPMS bundle issue that MUST be fixed before continuing any work. Use `mvn -Dbundle.skip=true test` to bypass bundle issues during development, but the underlying bundle configuration must be resolved.
+
+**CRITICAL TESTING REQUIREMENT**: When adding ANY new code (security fixes, new methods, validation logic, etc.), you MUST add corresponding JUnit tests to prove the changes work correctly. This includes:
+- Testing the new functionality works as expected
+- Testing edge cases and error conditions  
+- Testing security boundary conditions
+- Testing that the fix actually prevents the vulnerability
+- All new tests MUST pass along with the existing 10,000+ tests
+## Build Commands
+
+**Maven-based Java project with JDK 8 compatibility**
+
+- **Build**: `mvn compile`
+- **Test**: `mvn test`
+- **Package**: `mvn package`
+- **Install**: `mvn install`
+- **Run single test**: `mvn test -Dtest=ClassName`
+- **Run tests with pattern**: `mvn test -Dtest="*Pattern*"`
+- **Clean**: `mvn clean`
+- **Generate docs**: `mvn javadoc:javadoc`
+
+## Architecture Overview
+
+**java-util** is a high-performance Java utilities library focused on memory efficiency, thread-safety, and enhanced collections. The architecture follows these key patterns:
+
+### Core Structure
+- **Main package**: `com.cedarsoftware.util` - Core utilities and enhanced collections
+- **Convert package**: `com.cedarsoftware.util.convert` - Comprehensive type conversion system
+- **Cache package**: `com.cedarsoftware.util.cache` - Caching strategies and implementations
+
+### Key Architectural Patterns
+
+**Memory-Efficient Collections**: CompactMap/CompactSet dynamically adapt storage structure based on size, using arrays for small collections and switching to hash-based storage as they grow.
+
+**Null-Safe Concurrent Collections**: ConcurrentHashMapNullSafe, ConcurrentNavigableMapNullSafe, etc. extend JDK concurrent collections to safely handle null keys/values.
+
+**Dynamic Code Generation**: CompactMap/CompactSet use JDK compiler at runtime to generate optimized subclasses when builder API is used (requires full JDK).
+
+**Converter Architecture**: Modular conversion system with dedicated conversion classes for each target type, supporting thousands of built-in conversions between Java types.
+
+**ClassValue Optimization**: ClassValueMap/ClassValueSet leverage JVM's ClassValue for extremely fast Class-based lookups.
+
+## Development Conventions
+
+### Code Style (from agents.md)
+- Use **four spaces** for indentation—no tabs
+- Keep lines under **120 characters**
+- End files with newline, use Unix line endings
+- Follow standard Javadoc for public APIs
+- **JDK 1.8 source compatibility** - do not use newer language features
+
+### Library Usage Patterns
+- Use `ReflectionUtils` APIs instead of direct reflection
+- Use `DeepEquals.deepEquals()` for data structure verification in tests (pass options to see diff)
+- Use null-safe ConcurrentMaps from java-util for null support
+- Use `DateUtilities.parse()` or `Converter.convert()` for date parsing
+- Use `Converter.convert()` for type marshaling
+- Use `FastByteArrayInputStream/OutputStream` and `FastReader/FastWriter` for performance
+- Use `StringUtilities` APIs for null-safe string operations
+- Use `UniqueIdGenerator.getUniqueId19()` for unique IDs (up to 10,000/ms, strictly increasing)
+- Use `IOUtilities` for stream handling and transfers
+- Use `ClassValueMap/ClassValueSet` for fast Class-based lookups
+- Use `CaseInsensitiveMap` for case-insensitive string keys
+- Use `CompactMap/CompactSet` for memory-efficient large collections
+
+## Testing Framework
+
+- **JUnit 5** (Jupiter) with parameterized tests
+- **AssertJ** for fluent assertions
+- **Mockito** for mocking
+- Test resources in `src/test/resources/`
+- Comprehensive test coverage with pattern: `*Test.java`
+
+## Special Considerations
+
+### JDK vs JRE Environments
+- Builder APIs (`CompactMap.builder()`, `CompactSet.builder()`) require full JDK (compiler tools)
+- These APIs throw `IllegalStateException` in JRE-only environments
+- Use pre-built classes (`CompactLinkedMap`, `CompactCIHashMap`, etc.) or custom subclasses in JRE environments
+
+### OSGi and JPMS Support
+- Full OSGi bundle with proper manifest entries
+- JPMS module `com.cedarsoftware.util` with exports for main packages
+- No runtime dependencies on external libraries
+
+### Thread Safety
+- Many collections are thread-safe by design (Concurrent* classes)
+- LRUCache and TTLCache are thread-safe with configurable strategies
+- Use appropriate concurrent collections for multi-threaded scenarios
+
+## Enhanced Review Loop
+
+**This workflow follows the INCREMENTAL ATOMIC CHANGES philosophy for systematic code reviews and improvements:**
+
+### Step 1: Build Change List (Analysis Phase)
+- Review Java source files using appropriate analysis framework
+- For **Security**: Prioritize by risk (network utilities, reflection, file I/O, crypto, system calls)
+- For **Performance**: Focus on hot paths, collection usage, algorithm efficiency
+- For **Features**: Target specific functionality or API enhancements
+- **Create hierarchical todo list:**
+  - Top-level items (e.g., "Security review of DateUtilities")
+  - Sub-items (e.g., "Fix ReDoS vulnerability", "Fix thread safety")
+  - Sub-sub-items (e.g., "Limit regex repetition", "Add test coverage")
+
+### Step 2: Pick ONE Change from the List
+- Select the highest priority change from ANY level (top, sub, sub-sub)
+- Mark as "in_progress" in todo list
+- **Focus on this ONE change only**
+
+### Step 3: Implement the Single Change
+- Make targeted improvement to address the ONE selected issue
+- **During development iterations**: Use targeted test execution for speed (`mvn test -Dtest=SpecificTest`)
+  - This allows quick feedback loops while developing the specific feature/fix
+  - Continue iterating until the targeted tests pass and functionality works
+- **MANDATORY**: Add comprehensive JUnit tests for this specific change:
+  - Tests that verify the improvement works correctly
+  - Tests for edge cases and boundary conditions  
+  - Tests for error handling and regression prevention
+- Follow coding best practices and maintain API compatibility
+- Update Javadoc and comments where appropriate
+
+### Step 4: Completion Gate - ABSOLUTELY MANDATORY
+**When you believe the issue/fix is complete and targeted tests are passing:**
+
+- **Run FULL test suite**: `mvn test` (ALL 10,000+ tests must pass)
+- **If any test fails**: Fix issues immediately, run full tests again
+- **NEVER proceed until ALL tests pass**
+- Mark improvement todos as "completed" only when ALL tests pass
+
+**Development Process:**
+1. **Development Phase**: Use targeted tests (`mvn test -Dtest=SpecificTest`) for fast iteration
+2. **Completion Gate**: Run full test suite (`mvn test`) when you think you're done
+3. **Quality Verification**: ALL 10,000+ tests must pass before proceeding
+
+### Step 5: Update Documentation (for this ONE change)
+- **changelog.md**: Add entry for this specific change under appropriate version
+- **userguide.md**: Update if this change affects public APIs or usage patterns  
+- **Javadoc**: Ensure documentation reflects this change
+- **README.md**: Update if this change affects high-level functionality
+
+### Step 6: Request Atomic Commit Approval
+**MANDATORY HUMAN APPROVAL STEP for this ONE change:**
+Present a commit approval request to the human with:
+- Summary of this ONE improvement made (specific security fix, performance enhancement, etc.)
+- List of files modified for this change
+- Test results confirmation (ALL 10,000+ tests passing)
+- Documentation updates made for this change
+- Clear description of this change and its benefits
+- Ask: "Should I commit this change?"
+
+### Step 7: Atomic Commit (Only After Human Approval)
+- **Immediately commit this ONE change** after receiving "Y" approval
+- Use descriptive commit message format for this specific change:
+  ```
+  [Type]: [Brief description of this ONE change]
+  
+  - [This specific change implemented]
+  - [Test coverage added for this change]
+  - [Any documentation updated]
+  
+  🤖 Generated with [Claude Code](https://claude.ai/code)
+  
+  Co-Authored-By: Claude <noreply@anthropic.com>
+  ```
+  Where [Type] = Security, Performance, Feature, Refactor, etc.
+- Mark this specific todo as "completed"
+- **Repository is now in healthy state with this change committed**
+
+### Step 8: Return to Change List
+- **Pick the NEXT change** from the hierarchical list (top-level, sub, sub-sub)
+- **Repeat Steps 2-7 for this next change**
+- **Continue until all changes in the list are complete**
+- Maintain todo list to track progress across entire scope
+
+**Special Cases - Tinkering/Exploratory Work:**
+For non-systematic changes, individual experiments, or small targeted fixes, the process can be adapted:
+- Steps 1-2 can be simplified or skipped for well-defined changes
+- Steps 4-6 remain mandatory (testing, documentation, human approval)
+- Commit messages should still be descriptive and follow format
+
+**This loop ensures systematic code improvement with proper testing, documentation, and human oversight for all changes.**
+
+## 📦 DEPLOYMENT PROCESS 📦
+
+**Maven deployment to Maven Central via Sonatype OSSRH**
+
+### Prerequisites Check
+Before deployment, verify the following conditions are met:
+
+0. **Version Updates**: Ensure version numbers are updated in documentation files
+   - Update README.md version references (e.g., 3.5.0 → 3.6.0)
+   - Update changelog.md: move current "(Unreleased)" to release version, add new "(Unreleased)" section for next version
+   - Add recent git commit history to changelog for the release version, for each item you cannot already find in the changelog.md
+
+1. **Clean Working Directory**: No uncommitted local files
+```bash
+git status
+# Should show: "nothing to commit, working tree clean"
+```
+
+2. **Remote Sync**: All local commits are pushed to remote
+```bash
+git push origin master
+# Should be up to date with origin/master
+```
+
+3. **Dependency Verification**: json-io dependency must be correct version
+   - json-io is test-scope only (java-util has zero runtime dependencies)
+   - json-io version must be "1 behind" the current java-util version
+   - This prevents circular dependency (java-util → json-io → java-util)
+   - Current: json-io 4.55.0 in pom.xml (test scope)
+
+### Deployment Steps
+
+1. **Run Maven Deploy with Release Profile**
+```bash
+mvn clean deploy -DperformRelease=true
+```
+   - This will take significant time due to additional tests enabled with performRelease=true
+   - Includes GPG signing of artifacts (requires GPG key and passphrase configured)
+   - Uploads to Sonatype OSSRH staging repository
+   - Automatically releases to Maven Central (autoReleaseAfterClose=true)
+
+2. **Tag the Release**
+```bash
+git tag -a x.y.z -m "x.y.zYYYYMMDDHHMMSS"
+```
+   - Replace x.y.z with actual version (e.g., 3.6.0)
+   - Replace YYYYMMDDHHMMSS with current timestamp in 24-hour format
+   - Example: `git tag -a 3.6.0 -m "3.6.020250101120000"`
+
+3. **Push Tags to Remote**
+```bash
+git push --tags
+```
+
+### Configuration Details
+- **Sonatype OSSRH**: Configured in pom.xml distributionManagement
+- **GPG Signing**: Automated via maven-gpg-plugin when performRelease=true
+- **Nexus Staging**: Uses nexus-staging-maven-plugin with autoReleaseAfterClose
+- **Bundle Generation**: OSGi bundle via maven-bundle-plugin
+- **JPMS Module**: Module-info.java added via moditect-maven-plugin
+
+### Security Notes
+- GPG key and passphrase must be configured in Maven settings.xml
+- OSSRH credentials required for Sonatype deployment
+- Never commit GPG passphrases or credentials to repository
+
+### Post-Deployment Verification
+1. Check Maven Central: https://search.maven.org/artifact/com.cedarsoftware/java-util
+2. Verify OSGi bundle metadata in deployed JAR
+3. Confirm module-info.class present for JPMS support
+4. Test dependency resolution in downstream projects (json-io, n-cube)
 
 ---
 > Source: [jdereg/java-util](https://github.com/jdereg/java-util) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
