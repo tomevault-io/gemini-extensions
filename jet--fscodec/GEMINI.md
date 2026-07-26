@@ -1,51 +1,56 @@
 ## fscodec
 
-> - FsCodec is a small F# library family for event payload contracts in event-sourced systems: core abstractions in `src/FsCodec`, plus serializer-specific codec packages in `src/FsCodec.NewtonsoftJson` and `src/FsCodec.SystemTextJson`.
+> FsCodec is a minimal F# library family for event payload serialization contracts in event-sourced systems.
 
-﻿# AGENTS.md
+# Copilot Instructions for FsCodec
 
-## Purpose and scope
-- FsCodec is a small F# library family for event payload contracts in event-sourced systems: core abstractions in `src/FsCodec`, plus serializer-specific codec packages in `src/FsCodec.NewtonsoftJson` and `src/FsCodec.SystemTextJson`.
-- Keep changes minimal and interoperability-focused; the repo explicitly avoids becoming a "converter kitchen sink" (see `README.md` contribution guidance).
+## Project overview
 
-## Repo map (what depends on what)
-- `src/FsCodec`: base contracts (`IEventData`, `ITimelineEvent`, `IEventCodec`) and mapping helpers (`EventData.MapBodies`, `TimelineEvent.MapBodies`, `EventCodec.MapBodies`) in `src/FsCodec/FsCodec.fs`.
-- `src/FsCodec.Box`: TypeShape-based core codec plumbing (`src/FsCodec.Box/CoreCodec.fs`) and in-memory/object codec (`src/FsCodec.Box/Codec.fs`).
-- `src/FsCodec.NewtonsoftJson` and `src/FsCodec.SystemTextJson`: same public shape (`Codec`, `Options`, `Serdes`) with serializer-specific implementations.
-- Build-time layering is intentional: in Debug, projects use `ProjectReference`; in Release, they switch to NuGet `PackageReference` ranges (see each `*.fsproj`).
+FsCodec is a minimal F# library family for event payload serialization contracts in event-sourced systems.
+It defines core abstractions (`IEventData`, `ITimelineEvent`, `IEventCodec`) in `src/FsCodec`, plus serializer-specific codec packages:
+- `src/FsCodec.Box` — TypeShape-based core codec plumbing and in-memory/object codec
+- `src/FsCodec.NewtonsoftJson` — Newtonsoft.Json implementation
+- `src/FsCodec.SystemTextJson` — System.Text.Json implementation
 
-## Critical workflows
-- SDK/tooling: `global.json` pins .NET SDK `10.0.100`; tests use Microsoft Testing Platform.
-- CI-equivalent test command (from `azure-pipelines.yml`):
-  `dotnet test --solution ./FsCodec.sln --report-xunit-trx`
-- CI-equivalent pack command:
-  `dotnet pack build.proj`
-- Local integrity/build shortcut documented in `README.md`:
-  `dotnet build build.proj`
-- Packaging/version metadata is computed via MinVer + `Directory.Build.targets` (`BUILD_PR`, `BUILD_ID` impact package/file version).
+The Newtonsoft and STJ packages expose a symmetric public API surface (`Codec`, `Options`, `Serdes`).
 
-## Project-specific coding patterns
-- Favor `ReadOnlyMemory<byte>` event bodies; only use `byte[]` adapters (`ByteArray.AsByteArray`) for interop/porting paths.
-- Use `Options.Create`/`Serdes` as the contract boundary; avoid ad-hoc serializer calls.
-- Prefer explicit type-level converter attributes over broad global converter registration (examples in `tests/FsCodec.*.Tests/Examples.fsx`).
-- Stream identity conventions are strict: stream names are `{category}-{streamId}`, streamId fragments use `_` separators (`src/FsCodec/StreamName.fs`, `src/FsCodec/StreamId.fs`).
-- Compression is an adapter concern (`FsCodec.Encoder.Compressed` / `Uncompressed`) over codecs, not domain event logic (`src/FsCodec/Encoding.fs`).
+## Build and test
 
-## Serializer behavior differences to preserve
-- Newtonsoft profile (`src/FsCodec.NewtonsoftJson/Options.fs`) prepends `OptionConverter` and disables DateParse-to-DateTime behavior.
-- STJ profile (`src/FsCodec.SystemTextJson/Options.fs`) defaults to `unsafeRelaxedJsonEscaping = true` and can opt into `autoTypeSafeEnumToJsonString`, `autoUnionToJsonObject`, `rejectNullStrings`.
-- STJ union/enum auto-conversion behavior and edge cases are validated in `tests/FsCodec.SystemTextJson.Tests/AutoUnionTests.fs`.
+- .NET SDK version is pinned in `global.json` (currently `10.0.100` with `rollForward: latestMajor`)
+- Build and pack: `dotnet build build.proj`
+- Run tests: `dotnet test --solution ./FsCodec.sln`
+- Pack NuGet packages: `dotnet pack build.proj`
+- Tests use Microsoft Testing Platform (xUnit v3, `OutputType=Exe`)
 
-## Testing conventions and examples
-- Test projects are executable xUnit v3 MTP projects (`OutputType=Exe`), with shared fixtures between serializer suites.
-- Use `tests/FsCodec.NewtonsoftJson.Tests/Fixtures.fs` for the canonical `JsonIsomorphism` pattern for strongly-typed IDs.
-- Use `tests/FsCodec.SystemTextJson.Tests/Examples.fsx` for end-to-end event flow examples (`StreamName`, active patterns, codec decode paths).
+## Coding conventions
 
-## Guardrails for AI edits
-- Preserve API symmetry between Newtonsoft and STJ packages unless intentionally diverging.
-- Do not relax warnings/errors globally (`Directory.Build.props` has `TreatWarningsAsErrors=true`).
-- Prefer additive extensions over changing established wire formats; wire compatibility is a first-order constraint for this repo.
+- **F# style**: 4-space indentation, LF line endings, trim trailing whitespace (see `.editorconfig`)
+- **Warnings as errors**: `TreatWarningsAsErrors=true` in `Directory.Build.props` — do not relax or suppress warnings globally
+- **Event bodies**: favor `ReadOnlyMemory<byte>`; use `byte[]` adapters (`ByteArray.AsByteArray`) only for interop paths
+- **Serialization contract boundary**: use `Options.Create`/`Serdes`; avoid ad-hoc serializer calls
+- **Converter registration**: prefer explicit type-level `[<JsonConverter>]` attributes over broad global converter lists
+- **Stream naming**: stream names follow `{category}-{streamId}` format; streamId fragments use `_` separators (see `StreamName.fs`, `StreamId.fs`)
+- **Compression**: handled as an adapter concern (`Encoder.Compressed`/`Uncompressed`) over codecs, not in domain event logic
+
+## Architecture guidelines
+
+- **API symmetry**: preserve parallel API shapes between Newtonsoft and STJ packages unless intentionally diverging
+- **Wire compatibility**: prefer additive extensions over changing established wire formats — wire compatibility is a first-order constraint
+- **Minimal scope**: the repo avoids becoming a "converter kitchen sink"; keep changes focused and interoperability-oriented
+- **Build layering**: in Debug, projects use `ProjectReference`; in Release, they switch to NuGet `PackageReference` ranges (see each `.fsproj`)
+
+## Serializer behavior differences
+
+- **Newtonsoft** (`Options.fs`): prepends `OptionConverter`, sets `DateTimeZoneHandling` to `Utc`, disables `DateParseHandling` (set to `None`)
+- **STJ** (`Options.fs`): defaults to `unsafeRelaxedJsonEscaping = true`; optional `autoTypeSafeEnumToJsonString`, `autoUnionToJsonObject`, `rejectNullStrings`
+
+## Testing
+
+- Test projects live under `tests/` as executable xUnit v3 MTP projects
+- `FsCodec.SystemTextJson.Tests` shares some test sources with `FsCodec.NewtonsoftJson.Tests` and uses the `SYSTEM_TEXT_JSON` compilation constant for STJ-specific sections
+- End-to-end codec examples are in `tests/FsCodec.*.Tests/Examples.fsx`
+- The canonical `JsonIsomorphism` pattern for strongly-typed IDs is in `tests/FsCodec.NewtonsoftJson.Tests/Fixtures.fs`
 
 ---
 > Source: [jet/FsCodec](https://github.com/jet/FsCodec) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-21 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
