@@ -1,23 +1,32 @@
 # AI instruction files for cline
 
-> Sourced from [cline/cline](https://github.com/cline/cline) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [cline/cline](https://github.com/cline/cline), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [cline/cline](https://github.com/cline/cline).
+Original source: `AGENTS.md` in [cline/cline](https://github.com/cline/cline).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [cline/cline](https://github.com/cline/cline) — a repo with 62602+ stars on GitHub.
+## Bundled Skills (6)
+
+- [cline](https://github.com/cline/cline/tree/main/.agents/skills/opentui/SKILL.md)
+- [cline](https://github.com/cline/cline/tree/main/.agents/skills/cline-sdk/SKILL.md)
+- [cline](https://github.com/cline/cline/tree/main/.cline/skills/publish-cli/SKILL.md)
+- [cline](https://github.com/cline/cline/tree/main/.agents/skills/create-pull-request/SKILL.md)
+- [cline](https://github.com/cline/cline/tree/main/.cline/skills/publish-ui/SKILL.md)
+- [cline](https://github.com/cline/cline/tree/main/.cline/skills/publish-desktop/SKILL.md)
+
+From [cline/cline](https://github.com/cline/cline) — a repo with 65062+ stars on GitHub.
 
 ---
 
