@@ -1,84 +1,66 @@
 ## angular-styleguide
 
-> *Opinionated Angular style guide for teams by [John Papa](https://github.com/johnpapa).* This is the most widely adopted Angular style guide (26k+ stars), endorsed by the Angular team. It provides conventions for building Angular applications — syntax, structure, naming, and patterns — with *Why?* explanations for every recommendation.
+> This is a **documentation-only repository** — markdown files containing style rules for Angular development. There is no source code to build or test.
 
-# Angular Style Guide — Agent Guide
+# Copilot Instructions — Angular Style Guide
 
-## Project Overview
+## Project Type
 
-*Opinionated Angular style guide for teams by [John Papa](https://github.com/johnpapa).* This is the most widely adopted Angular style guide (26k+ stars), endorsed by the Angular team. It provides conventions for building Angular applications — syntax, structure, naming, and patterns — with *Why?* explanations for every recommendation.
+This is a **documentation-only repository** — markdown files containing style rules for Angular development. There is no source code to build or test.
 
-This is a **documentation-only repository**. There is no source code, no build system, no test framework, and no runtime dependencies. The deliverables are markdown files.
+## Writing Conventions
 
-## Repository Structure
+### The *Why?* Pattern
 
-```
-angular-styleguide/
-├── README.md              # Root — links to version-specific guides
-├── a1/                    # Angular 1 (AngularJS) style guide
-│   ├── README.md          # The full Angular 1 guide (~3,300 lines)
-│   ├── assets/            # Images, code snippets, editor templates
-│   └── i18n/              # Community translations (15+ languages)
-├── a2/                    # Angular 2+ style guide
-│   ├── README.md          # Angular 2 guide (references official docs)
-│   └── notes.md           # Development notes
-├── LICENSE                # MIT
-└── .github/               # GitHub configuration (AI-ready assets)
+Every recommendation must include one or more `*Why?*:` bullets explaining the rationale. This is the signature pattern of the guide — never skip it.
+
+```markdown
+  *Why?*: One component per file promotes easier unit testing and mocking.
+
+  *Why?*: One component per file makes it far easier to read, maintain, and avoid collisions with teams in source control.
 ```
 
-## Tech Stack
+### Code Examples
 
-- **Content format:** Markdown
-- **No runtime, build system, or test framework** — this is a documentation project
+Always show both the wrong way and the right way:
 
-## Build & Run
+```javascript
+  /* avoid */
+  // bad pattern here
 
-There is no build step. The content is read directly on GitHub or cloned locally. To preview markdown locally, use any markdown viewer or VS Code preview.
+  /* recommended */
+  // good pattern here
+```
 
-## Testing
+### Style IDs
 
-There are no automated tests. Validation is manual:
-- Read the markdown for accuracy and completeness
-- Verify code examples compile and follow the conventions they describe
-- Check that links are not broken
+Every rule gets a unique ID in the format `[Style [Y###](#style-y###)]`. IDs are sequential within their category. When adding a new rule, use the next available number in the relevant section.
 
-## Key Patterns and Conventions
+### Formatting
 
-- **The *Why?* pattern** — every rule has one or more `*Why?*:` bullets explaining the rationale
-- **Style IDs** — each rule has a unique ID (e.g., `[Style Y001]`) for easy reference
-- **Avoid / Recommended** — code examples show both the wrong way (`/* avoid */`) and the right way (`/* recommended */`)
-- **LIFT principle** — Locate, Identify, Flat, Try DRY (Y140-Y144)
-- **ATX headings** — `#`, `##`, `###` for structure
-- **Back to top links** — `**[Back to top](#table-of-contents)**` after each section
+- Use ATX-style headings (`#`, `##`, `###`)
+- Indent code blocks with 2 spaces inside list items
+- End each section with `**[Back to top](#table-of-contents)**`
+- Use fenced code blocks with `javascript` or `html` language identifiers
 
-## Adding a New Style Rule
+## Content Rules
 
-1. Choose the appropriate guide (`a1/README.md` for AngularJS, `a2/README.md` for Angular 2+)
-2. Assign a new Style ID following the numbering convention (e.g., `Y250` for the next in sequence)
-3. Write the rule with:
-   - A descriptive heading
-   - The style ID as a subheading: `###### [Style [Y250](#style-y250)]`
-   - One or more `*Why?*:` bullets
-   - `/* avoid */` and `/* recommended */` code examples
-4. Add a `**[Back to top](#table-of-contents)**` link at the end
-5. Add the rule to the Table of Contents at the top of the guide
-6. If the rule applies across languages, update translations in `a1/i18n/`
+- **Be opinionated** — "My recommended pattern is..." not "You might want to consider..."
+- **Be specific** — real code, real patterns, real file names
+- **Keep rules focused** — one concept per rule, one purpose per section
+- **Explain tradeoffs** — when a rule has exceptions, note them
 
-## Documentation
+## Maintenance Matrix
 
-This project **is** documentation. The guides live in:
-- `a1/README.md` — Angular 1 style guide (primary, most complete)
-- `a2/README.md` — Angular 2+ style guide (references official Angular docs)
-
-Translations are maintained by the community in `a1/i18n/`.
-
-## Common Pitfalls
-
-- **Don't forget the Table of Contents** — every new rule must be added to the TOC at the top of the guide
-- **Translations go stale** — when updating `a1/README.md`, the 15+ translations in `a1/i18n/` may need updates. Flag this in the PR but don't auto-update translations.
-- **Code examples must be valid** — the `/* avoid */` and `/* recommended */` examples should be syntactically correct JavaScript/TypeScript
-- **Default branch is `master`** — not `main`
+| Change Made | Files to Update |
+|---|---|
+| New Angular 1 rule added | `a1/README.md` (rule + TOC entry) |
+| Existing rule modified | `a1/README.md`, flag translations in `a1/i18n/` for review |
+| New Angular 2+ rule added | `a2/README.md` |
+| Style ID numbering changed | Update all references in the TOC and cross-links |
+| New translation added | `a1/i18n/{locale}.md`, update root `README.md` if needed |
+| Assets added (images, snippets) | `a1/assets/`, reference from the relevant guide |
 
 ---
 > Source: [johnpapa/angular-styleguide](https://github.com/johnpapa/angular-styleguide) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
