@@ -19,4 +19,4 @@ Rules:
 
 ---
 > Source: [RichardGeorgeDavis/Codex-Workspace](https://github.com/RichardGeorgeDavis/Codex-Workspace) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-27 -->
