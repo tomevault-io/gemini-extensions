@@ -2,9 +2,9 @@
   "name": "CodeGlyphX",
   "owner": "EvotecIT",
   "repo": "CodeGlyphX",
-  "description": "CodeGlyphX is a fast, dependency-free toolkit for QR codes and barcodes, with robust decoding and a minimal API. It targets modern .NET as well as legacy .NET Framework, and includes renderers, payload helpers, and WPF controls.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/EvotecIT/CodeGlyphX",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T20:04:15Z"
+  "distributed_at": "2026-07-27T21:14:42Z"
 }
