@@ -4,7 +4,7 @@
   "repo": "Resume-Matcher-CN",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/GwIhViEte/Resume-Matcher-CN",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T06:43:36Z"
+  "distributed_at": "2026-07-27T19:47:37Z"
 }
