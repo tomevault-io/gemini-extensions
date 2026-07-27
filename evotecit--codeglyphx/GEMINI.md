@@ -1,63 +1,56 @@
 ## codeglyphx
 
-> CodeGlyphX is a zero-dependency .NET library for generating and decoding QR codes, barcodes, and 2D matrix codes.
+> This folder contains the PowerForge.Web website for CodeGlyphX.
 
-# CodeGlyphX - Copilot Instructions
+# Agent Guide (CodeGlyphX Website)
 
-CodeGlyphX is a zero-dependency .NET library for generating and decoding QR codes, barcodes, and 2D matrix codes.
+This folder contains the PowerForge.Web website for CodeGlyphX.
 
-## Quick Patterns
+Repo layout (maintainer):
+- Repository root: `$env:EVOTEC_GITHUB_ROOT` on PowerShell or `$EVOTEC_GITHUB_ROOT` on POSIX shells; use the profile fallback only when it is unset
+- Website folder: `<Evotec repo root>/CodeGlyphX/Website`
+- Engine repo: `<Evotec repo root>/PSPublishModule`
 
-### QR Code
-```csharp
-using CodeGlyphX;
-QR.Save("data", "output.png");           // File
-byte[] png = QR.ToPng("data");           // Bytes
-string svg = QR.ToSvg("data");           // SVG string
-```
+## How To Build
 
-### Barcode
-```csharp
-using CodeGlyphX;
-Barcode.Save(BarcodeType.Code128, "data", "barcode.png");
-byte[] png = Barcode.Png(BarcodeType.Code128, "data");
-```
+- Fast dev build:
+  - `.\build.ps1 -Dev`
+- Serve + watch:
+  - `.\build.ps1 -Serve -Watch -Dev`
+- CI-equivalent (strict gates enabled by mode):
+  - `powerforge-web pipeline --config .\pipeline.json --mode ci`
 
-### 2D Matrix
-```csharp
-using CodeGlyphX;
-DataMatrixCode.Save("data", "dm.png");
-Pdf417Code.Save("data", "pdf417.png");
-AztecCode.Save("data", "aztec.png");
-```
+If you don't have the engine repo next to this repo, set:
+- `POWERFORGE_ROOT` = path to `PSPublishModule`
 
-### Decode
-```csharp
-using CodeGlyphX;
-if (QrImageDecoder.TryDecodeImage(bytes, out var result))
-    Console.WriteLine(result.Text);
-```
+## Key Files
 
-### Payloads
-```csharp
-using CodeGlyphX;
-using CodeGlyphX.Payloads;
-QR.Save(QrPayloads.Wifi("SSID", "password"), "wifi.png");
-QR.Save(QrPayloads.VCard(firstName: "John", lastName: "Doe"), "contact.png");
-QR.Save(QrPayloads.OneTimePassword(OtpAuthType.Totp, "SECRET", label: "user@example.com", issuer: "App"), "otp.png");
-```
+- Site config: `site.json`
+  - Features: `docs`, `apiDocs`, `search`, `notFound`
+- Pipeline: `pipeline.json`
+  - API docs step generates into `./_site/api`
+  - API docs nav token injection uses:
+    - `config: ./site.json`
+    - `nav: ./site.json`
+    - `navContextPath: "/"` (keeps API header nav consistent with non-API pages)
+- Theme: `themes/codeglyphx/theme.manifest.json`
 
-## Barcode Types
-`Code128`, `Gs1128`, `Code39`, `Code93`, `Code11`, `Codabar`, `Ean13`, `Ean8`, `UpcA`, `UpcE`, `Itf14`, `Itf`, `Msi`, `Plessey`, `Telepen`
+## Deploy + Recovery
 
-## Output Formats
-Auto-detected by extension: `.png`, `.svg`, `.pdf`, `.jpg`, `.bmp`, `.html`, `.eps`
+- Production deploy workflow: `../.github/workflows/website-deploy.yml`
+- Encrypted recovery workflow: `../.github/workflows/server-backup.yml`
+- Host recovery manifest: `../deploy/linux/codeglyphx.serverrecovery.json`
+- The protected `production` environment owns host coordinates, deployment identities, the exact Cloudflare zone id, and backup credentials.
+- Shared PowerForge actions own checkout, artifact packaging, cache policy, promotion, purge, provenance checks, rollback, and backup publication. Do not add repo-local deployment or Cloudflare scripts.
+- Canonical deployment and cache guidance lives in `<Evotec repo root>/PSPublishModule/Docs` and `Deployment/Linux`.
 
-## Key Namespaces
-- `CodeGlyphX` - Main classes (QR, Barcode, DataMatrixCode, etc.)
-- `CodeGlyphX.Payloads` - QrPayloads helper
-- `CodeGlyphX.Rendering` - Renderers and options
+## Theme Best Practices (Nav Stability)
+
+- Prefer Scriban helpers:
+  - `{{ pf.nav_links "main" }}`
+  - `{{ pf.nav_actions }}`
+- Avoid `navigation.menus[0]` (menu ordering can change across sites/profiles).
 
 ---
 > Source: [EvotecIT/CodeGlyphX](https://github.com/EvotecIT/CodeGlyphX) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-03 -->
+<!-- tomevault:4.0:gemini_md:2026-07-21 -->
