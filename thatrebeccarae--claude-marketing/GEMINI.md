@@ -1,0 +1,233 @@
+## claude-marketing
+
+> A/B and multivariate testing methodology.
+
+# dgtldept Marketing Skills
+
+## ab-testing-framework
+
+A/B and multivariate testing methodology.
+
+## account-structure-review
+
+Google and Meta paid media account structure evaluation.
+
+## aeo-geo-optimizer
+
+Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) specialist.
+
+## brand-dna
+
+Extract brand identity from a website URL — voice, colors, typography, imagery, values, and target audience — into a structured brand-profile.json.
+
+## brand-voice-guidelines
+
+Develop brand voice, tone matrices, messaging frameworks, and brand book documentation.
+
+## braze
+
+Braze customer engagement platform expertise.
+
+## cold-email-outreach
+
+Cold email and outreach sequence design with personalization, deliverability optimization, follow-up cadence, and compliance (CAN-SPAM/GDPR).
+
+## competitor-ads-analyst
+
+Extract and analyze competitor advertising from public ad libraries (Facebook Ad Library, Google Ads Transparency Center, TikTok, LinkedIn).
+
+## content-creator
+
+Comprehensive content marketing toolkit with brand voice analysis, SEO optimization scripts, content frameworks, social media strategy, and content calendar planning.
+
+## content-pipeline
+
+End-to-end content creation workflow that orchestrates research, editorial review, and social distribution agents in sequence.
+
+## content-workflow
+
+End-to-end content creation pipeline from research through editorial review to social distribution.
+
+## copywriting-frameworks
+
+Framework-driven copywriting for ads, landing pages, emails, sales pages, and CTAs.
+
+## cro-auditor
+
+Conversion Rate Optimization auditing for landing pages, signup flows, checkout funnels, forms, and CTAs.
+
+## cross-platform-audit
+
+Unified multi-platform paid media audit with parallel execution.
+
+## customer-journey-mapping
+
+Map customer journeys from awareness to advocacy.
+
+## data-viz-deck
+
+Transform audit data, performance reports, and structured analyses into polished visual deliverables.
+
+## dep-audit
+
+Cross-repository dependency audit.
+
+## email-composer
+
+Draft professional emails for business and marketing contexts — outreach, client communication, proposals, follow-ups, and internal updates.
+
+## facebook-ads
+
+Meta Ads (Facebook & Instagram) platform expertise.
+
+## frontend-design
+
+Create distinctive, production-grade frontend interfaces with high design quality.
+
+## github-readme
+
+Generate, audit, or update GitHub READMEs with project-type-aware structure, voice calibration, and SEO/AEO discoverability guidance.
+
+## google-ads
+
+Google Ads platform expertise.
+
+## google-analytics
+
+Analyze Google Analytics data, review website performance metrics, identify traffic patterns, and suggest data-driven improvements.
+
+## google-tag-manager
+
+Google Tag Manager expertise.
+
+## html-report-builder
+
+Create polished HTML technical reports and multi-page documents for consulting deliverables.
+
+## icp-research
+
+Build detailed ideal customer profiles with pain points, objections, buying triggers, and messaging angles.
+
+## klaviyo-analyst
+
+Klaviyo marketing operations and analyst expertise.
+
+## klaviyo-developer
+
+Klaviyo API and developer integration expertise.
+
+## landing-page-optimizer
+
+Landing page audit and optimization for conversion.
+
+## linkedin-ads
+
+LinkedIn Ads platform expertise.
+
+## llms-txt
+
+Generate and maintain llms.txt files for AI discoverability.
+
+## looker-studio
+
+Looker Studio (formerly Google Data Studio) expertise.
+
+## market-research
+
+Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner).
+
+## microsoft-ads
+
+Microsoft Advertising (Bing Ads) platform expertise.
+
+## pricing-strategy
+
+Pricing model design, competitive positioning, value metric selection, price testing, and pricing page optimization.
+
+## pro-deck-builder
+
+Create polished HTML slide decks and PDF-ready documents for consulting deliverables.
+
+## pro-report-builder
+
+Create polished HTML technical reports and multi-page documents for consulting deliverables.
+
+## programmatic-seo
+
+Template-based page generation at scale for SEO.
+
+## release-notes
+
+Generate changelog entries and GitHub releases from git history.
+
+## remotion-video
+
+Remotion video production best practices — spring animations, interpolation patterns, SVG draw-on effects, scene transitions, chart animations, audio integration, and rendering.
+
+## repo-health
+
+One-command GitHub repository health audit.
+
+## repo-scaffold
+
+Initialize GitHub repositories with standard files and configuration.
+
+## research-digest
+
+Generate structured research briefs from RSS feeds and web sources on any topic.
+
+## retention-churn-prevention
+
+Customer retention analysis, churn prediction, cohort analysis, win-back campaigns, and loyalty program design.
+
+## safe-push
+
+Pre-push hygiene check for GitHub repositories.
+
+## schema-markup-generator
+
+Generate structured data markup (JSON-LD) for rich results, AI search visibility, and enhanced SERP features.
+
+## seo-content-writer
+
+SEO-optimized content creation with brand voice analysis and platform-specific frameworks.
+
+## shopify
+
+Shopify e-commerce platform marketing expertise.
+
+## social-media-strategy
+
+Platform-specific organic social media strategy, content calendars, engagement tactics, community building, and performance measurement.
+
+## social-preview
+
+Generate Open Graph social preview images (1280x640) for GitHub repositories.
+
+## sync-repos
+
+Manage public/private repository pairs.
+
+## tech-diagram
+
+Generate technical architecture diagrams, pipeline flows, layer/stack diagrams, and system illustrations as standalone HTML files.
+
+## technical-seo-audit
+
+Deep technical SEO auditing covering crawlability, indexation, Core Web Vitals, site architecture, canonicalization, structured data validation, and performance optimization.
+
+## tiktok-ads
+
+TikTok Ads platform expertise.
+
+## utm-attribution-strategy
+
+UTM parameter strategy, campaign tracking, and marketing attribution modeling.
+
+## wasted-spend-finder
+
+Systematic analysis of Google Ads and Meta advertising spend to identify wasted budget.
+
+---
+> Source: [thatrebeccarae/claude-marketing](https://github.com/thatrebeccarae/claude-marketing) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-26 -->
