@@ -2,16 +2,14 @@
 
 > Sourced from [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
-ServerKit is a lightweight, modern server control panel for managing web applications, databases, and services on your VPS or dedicated server. Built with Python/Flask backend and React frontend.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit).
+Original source: `AGENTS.md` in [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
