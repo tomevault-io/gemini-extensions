@@ -19,4 +19,4 @@
 
 ---
 > Source: [Darkbluelr/dev-playbooks-cn](https://github.com/Darkbluelr/dev-playbooks-cn) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
