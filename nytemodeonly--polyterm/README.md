@@ -5,17 +5,18 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NYTEMODEONLY/polyterm](https://github.com/NYTEMODEONLY/polyterm).
+Original source: `` in [NYTEMODEONLY/polyterm](https://github.com/NYTEMODEONLY/polyterm).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [NYTEMODEONLY/polyterm](https://github.com/NYTEMODEONLY/polyterm) — a repo with 340+ stars on GitHub.
+From [NYTEMODEONLY/polyterm](https://github.com/NYTEMODEONLY/polyterm) — a repo with 344+ stars on GitHub.
 
 ---
 
