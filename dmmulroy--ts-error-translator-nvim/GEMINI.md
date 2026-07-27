@@ -1,100 +1,83 @@
 ## ts-error-translator-nvim
 
-> **Generated:** 2026-01-03 | **Commit:** c1e6a55 | **Branch:** main
+> This is a Neovim plugin written in Lua that translates TypeScript error messages into human-readable explanations. It's a port of [Matt Pocock's ts-error-translator for VSCode](https://github.com/mattpocock/ts-error-translator).
 
-# ts-error-translator.nvim
+# Copilot Instructions for ts-error-translator.nvim
 
-**Generated:** 2026-01-03 | **Commit:** c1e6a55 | **Branch:** main
+This is a Neovim plugin written in Lua that translates TypeScript error messages into human-readable explanations. It's a port of [Matt Pocock's ts-error-translator for VSCode](https://github.com/mattpocock/ts-error-translator).
 
-Neovim plugin translating TypeScript errors to human-readable messages. Port of Matt Pocock's VSCode extension.
-
-## Structure
+## Project Structure
 
 ```
 lua/ts-error-translator/
-  init.lua       -- Public API: setup(), parse_errors()
-  diagnostic.lua -- Wraps vim.lsp.handlers["textDocument/publishDiagnostics"]
-  parser.lua     -- Core logic, LRU-cached
-  matcher.lua    -- vim.regex pattern matching
-  db.lua         -- GENERATED: error code -> translation lookup
-  lru.lua        -- LRU cache (100 entries)
-  utils.lua      -- fill_body_with_items()
-
-errors/         -- 67 markdown files, source data for db.lua
-tests/spec/     -- Plenary test specs (*_spec.lua)
-tests/fixtures/ -- Real TS files triggering specific errors
+  init.lua         -- Public API and plugin setup
+  parser.lua       -- Core parsing logic (extracts TS codes, O(1) lookup)
+  matcher.lua      -- Pattern matching with vim.regex
+  utils.lua        -- Helper functions
+  lru.lua          -- LRU cache implementation
+  diagnostic.lua   -- vim.diagnostic integration
+  db.lua           -- Error database indexed by code (auto-generated)
 ```
 
-## Where to Look
+## Code Style
 
-| Task | Location |
-|------|----------|
-| Add error translation | `errors/{code}.md` then `make build` |
-| Plugin config/setup | `lua/ts-error-translator/init.lua` |
-| LSP integration | `lua/ts-error-translator/diagnostic.lua` |
-| Error parsing | `lua/ts-error-translator/parser.lua` |
-| Pattern matching | `lua/ts-error-translator/matcher.lua` |
+- Follow the [StyLua](https://github.com/JohnnyMorganz/StyLua) formatter configuration in `.stylua.toml`
+- Use 2 spaces for indentation
+- Maximum line width of 120 characters
+- Use double quotes for strings
+- Add type annotations using `@class`, `@field`, `@param`, `@return` comments for public APIs
+- Include `---@diagnostic disable:` comments when necessary to suppress known false positives
 
-## Module Flow
+## Building
 
-```
-setup() -> diagnostic.setup() -> wraps LSP handler
-                                      |
-                                      v
-                               parser.parse_errors()
-                                      |
-                         +------------+------------+
-                         |            |            |
-                      db.lua    matcher.lua    lru.lua
-```
+The error database (`lua/ts-error-translator/db.lua`) is auto-generated from:
+- `tsErrorMessages.json` (TypeScript error patterns)
+- `errors/*.md` (improved human-readable messages)
 
-## Anti-Patterns
-
-- **NEVER edit `db.lua`** - auto-generated from `tsErrorMessages.json` + `errors/*.md`
-- **DEPRECATED:** `auto_override_publish_diagnostics` -> use `auto_attach`
-- **DEPRECATED:** `"tsserver"` LSP name -> use `"ts_ls"`
-
-## Conventions
-
-| Rule | Detail |
-|------|--------|
-| Indent | 2 spaces |
-| Line width | 120 chars |
-| Quotes | Double preferred |
-| Type annotations | `---@class`, `---@param`, `---@return` |
-| Module pattern | `local M = {}` ... `return M` |
-| Error handling | `pcall` for graceful fallbacks |
-| Code lookup | O(1) via `[Tt][Ss](%d+)` pattern extraction |
-
-## Commands
-
+To rebuild the database:
 ```bash
-make build              # Regenerate db.lua from errors/*.md
-make test               # Run all tests
-make test-file FILE=... # Run single test file
+make build
+# or: node build-lua-db.js
 ```
+
+**Important**: Never manually edit `lua/ts-error-translator/db.lua` - it's generated code.
 
 ## Testing
 
-- Framework: plenary.nvim (busted-style)
-- Run: `nvim --headless -u tests/minimal_init.vim -c "PlenaryBustedDirectory tests/spec/"`
-- Assertions: `assert.equals`, `assert.are.same`, `assert.is_not_nil`
-- Mocking: save/restore `vim.lsp.*` in before_each/after_each
+Tests use [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) test framework.
 
-## CI
+Run all tests:
+```bash
+make test
+```
 
-- Matrix: `{ubuntu, macos}` x `{stable, nightly}` Neovim
-- Steps: npm install -> make build -> make test
-- Daily sync: checks upstream for new error templates
+Run a specific test file:
+```bash
+make test-file FILE=tests/spec/parser_spec.lua
+```
 
-## Notes
+Tests are located in `tests/spec/` and follow the pattern `*_spec.lua`.
 
-- No `plugin/` dir - requires explicit `setup()` call
-- No `:help` docs - README only
-- Health check missing (`lua/ts-error-translator/health.lua`)
-- Typo in init.lua:23 "deprecrated" -> "deprecated"
-- `check-ts-errors.yml` references `error_templates/` but repo uses `errors/`
+## Key Conventions
+
+- The plugin uses O(1) lookup via error codes extracted from messages
+- Error codes are extracted using the pattern `[Tt][Ss](%d+)`
+- The LRU cache improves performance for repeated lookups
+- Public API functions should be exposed through `init.lua`
+- Use `pcall` for error handling to provide graceful fallbacks
+
+## Adding New Error Translations
+
+1. Create a new markdown file in `errors/` named `{error_code}.md`
+2. Include frontmatter and the improved message body
+3. Run `make build` to regenerate `db.lua`
+
+## Dependencies
+
+- **Runtime**: No external dependencies (uses native vim.regex)
+- **Build**: Node.js with `front-matter` package
+- **Testing**: plenary.nvim
 
 ---
 > Source: [dmmulroy/ts-error-translator.nvim](https://github.com/dmmulroy/ts-error-translator.nvim) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-21 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
