@@ -1,55 +1,72 @@
 ## openclaw-zero-token
 
-> This directory contains bundled plugins. Treat it as the same boundary that
+> **Always reuse existing code - no redundancy!**
 
-# Extensions Boundary
+# OpenClaw Codebase Patterns
 
-This directory contains bundled plugins. Treat it as the same boundary that
-third-party plugins see.
+**Always reuse existing code - no redundancy!**
 
-## Public Contracts
+## Tech Stack
 
-- Docs:
-  - `docs/plugins/building-plugins.md`
-  - `docs/plugins/architecture.md`
-  - `docs/plugins/sdk-overview.md`
-  - `docs/plugins/sdk-entrypoints.md`
-  - `docs/plugins/sdk-runtime.md`
-  - `docs/plugins/sdk-channel-plugins.md`
-  - `docs/plugins/sdk-provider-plugins.md`
-  - `docs/plugins/manifest.md`
-- Definition files:
-  - `src/plugin-sdk/plugin-entry.ts`
-  - `src/plugin-sdk/core.ts`
-  - `src/plugin-sdk/provider-entry.ts`
-  - `src/plugin-sdk/channel-contract.ts`
-  - `scripts/lib/plugin-sdk-entrypoints.json`
-  - `package.json`
+- **Runtime**: Node 22+ (Bun also supported for dev/scripts)
+- **Language**: TypeScript (ESM, strict mode)
+- **Package Manager**: pnpm (keep `pnpm-lock.yaml` in sync)
+- **Lint/Format**: Oxlint, Oxfmt (`pnpm check`)
+- **Tests**: Vitest with V8 coverage
+- **CLI Framework**: Commander + clack/prompts
+- **Build**: tsdown (outputs to `dist/`)
 
-## Boundary Rules
+## Anti-Redundancy Rules
 
-- Extension production code should import from `openclaw/plugin-sdk/*` and its
-  own local barrels such as `./api.ts` and `./runtime-api.ts`.
-- Do not import core internals from `src/**`, `src/channels/**`,
-  `src/plugin-sdk-internal/**`, or another extension's `src/**`.
-- Do not use relative imports that escape the current extension package root.
-- Keep plugin metadata accurate in `openclaw.plugin.json` and the package
-  `openclaw` block so discovery and setup work without executing plugin code.
-- Treat files like `src/**`, `onboard.ts`, and other local helpers as private
-  unless you intentionally promote them through `api.ts` and, if needed, a
-  matching `src/plugin-sdk/<id>.ts` facade.
-- If core or core tests need a bundled plugin helper, export it from `api.ts`
-  first instead of letting them deep-import extension internals.
+- Avoid files that just re-export from another file. Import directly from the original source.
+- If a function already exists, import it - do NOT create a duplicate in another file.
+- Before creating any formatter, utility, or helper, search for existing implementations first.
 
-## Expanding The Boundary
+## Source of Truth Locations
 
-- If an extension needs a new seam, add a typed Plugin SDK subpath or additive
-  export instead of reaching into core.
-- Keep new plugin-facing seams backwards-compatible and versioned. Third-party
-  plugins consume this surface.
-- When intentionally expanding the contract, update the docs, exported subpath
-  list, package exports, and API/contract checks in the same change.
+### Formatting Utilities (`src/infra/`)
+
+- **Time formatting**: `src\infra\format-time`
+
+**NEVER create local `formatAge`, `formatDuration`, `formatElapsedTime` functions - import from centralized modules.**
+
+### Terminal Output (`src/terminal/`)
+
+- Tables: `src/terminal/table.ts` (`renderTable`)
+- Themes/colors: `src/terminal/theme.ts` (`theme.success`, `theme.muted`, etc.)
+- Progress: `src/cli/progress.ts` (spinners, progress bars)
+
+### CLI Patterns
+
+- CLI option wiring: `src/cli/`
+- Commands: `src/commands/`
+- Dependency injection via `createDefaultDeps`
+
+## Import Conventions
+
+- Use `.js` extension for cross-package imports (ESM)
+- Direct imports only - no re-export wrapper files
+- Types: `import type { X }` for type-only imports
+
+## Code Quality
+
+- TypeScript (ESM), strict typing, avoid `any`
+- Keep files under ~700 LOC - extract helpers when larger
+- Colocated tests: `*.test.ts` next to source files
+- Run `pnpm check` before commits (lint + format)
+- Run `pnpm tsgo` for type checking
+
+## Stack & Commands
+
+- **Package manager**: pnpm (`pnpm install`)
+- **Dev**: `pnpm openclaw ...` or `pnpm dev`
+- **Type-check**: `pnpm tsgo`
+- **Lint/format**: `pnpm check`
+- **Tests**: `pnpm test`
+- **Build**: `pnpm build`
+
+If you are coding together with a human, do NOT use scripts/committer, but git directly and run the above commands manually to ensure quality.
 
 ---
 > Source: [linuxhsj/openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-19 -->
+<!-- tomevault:4.0:gemini_md:2026-07-27 -->
