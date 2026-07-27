@@ -1,17 +1,17 @@
 # OKX.Net
 
-> Tome by [JKorf](https://github.com/JKorf/OKX.Net) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [JKorf](https://github.com/JKorf/OKX.Net), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [JKorf/OKX.Net](https://github.com/JKorf/OKX.Net).
+Original source: `.cursor/rules/*.mdc` in [JKorf/OKX.Net](https://github.com/JKorf/OKX.Net).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
