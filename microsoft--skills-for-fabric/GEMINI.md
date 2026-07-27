@@ -1,76 +1,174 @@
 ## skills-for-fabric
 
-> This repository contains AI coding assistant skills for Microsoft Fabric. When working in this repository, follow these guidelines.
+> This project uses Microsoft Fabric for data engineering, warehousing, and analytics.
 
-# Copilot Instructions for skills-for-fabric Repository
+# Microsoft Fabric Development Rules for Windsurf
 
-This repository contains AI coding assistant skills for Microsoft Fabric. When working in this repository, follow these guidelines.
+# Update Check: At session start, check for skills-for-fabric updates by reading the
+# remote package.json version from https://github.com/microsoft/skills-for-fabric
+# (via "git fetch origin main --quiet && git show origin/main:package.json"
+# or GitHub API with authentication) and comparing with the local package.json
+# version. Show changelog if update available.
 
-## Repository Structure
+project_context: |
+  This project uses Microsoft Fabric for data engineering, warehousing, and analytics.
+  Primary API reference: https://learn.microsoft.com/en-us/rest/api/fabric/articles/
+  All Fabric operations require Azure AD auth: run 'az login', then 'az account get-access-token --resource https://api.fabric.microsoft.com'.
+  Repository layering is Agents -> Skills -> Common.
+  For cross-endpoint orchestration (like medallion architecture), use agents/FabricDataEngineer.agent.md first, then delegate depth work to skills/.
 
-- `.github/skills/` - Meta-skills for repository contributors
-- `mcp-setup/` - Scripts to register external MCP servers
-- `compatibility/` - Cross-tool configuration files
+rules:
+  # Lakehouse & Spark
+  - name: delta_lake_format
+    description: Always use Delta Lake format for Lakehouse tables
+    pattern: "spark.write.format(\"delta\")"
+    
+  - name: mssparkutils_usage
+    description: Use mssparkutils for Fabric-specific operations
+    applies_to: ["*.py", "*.ipynb"]
+    
+  - name: spark_optimization
+    description: Run OPTIMIZE and VACUUM for Delta table maintenance
+    
+  # Warehouse
+  - name: tsql_surface_area
+    description: Check T-SQL surface area - not all SQL Server features supported
+    reference: https://learn.microsoft.com/en-us/fabric/data-warehouse/tsql-surface-area
+    
+  - name: limit_queries
+    description: Always use TOP/LIMIT when exploring data
+    pattern: "SELECT TOP"
+    
+  # KQL (Real-Time Intelligence)
+  - name: kql_time_filter
+    description: Always include time filters in KQL queries
+    pattern: "where Timestamp > ago("
 
-## When Adding or Modifying Skills
+  - name: kql_has_over_contains
+    description: Use 'has' over 'contains' for indexed string search in KQL
+    pattern: "| where .* has "
 
-### SKILL.md Requirements
+  - name: kql_idempotent_schema
+    description: Use .create-merge table and .create-or-alter function for safe KQL schema deployment
+    pattern: ".create-merge table"
 
-Every skill, other than check-updates, must have a `SKILL.md` with:
+  - name: kql_skills
+    description: Authoring skill is eventhouse-authoring-cli, consumption skill is eventhouse-consumption-cli
+    reference: skills/eventhouse-authoring-cli/SKILL.md
 
-1. **YAML frontmatter** with `name` and `description`
-2. Check for updates notice at the top of the file (multi-line blockquote):
-   ```
-   > **Update Check — ONCE PER SESSION (mandatory)**
-   > The first time this skill is used in a session, run the **check-updates** skill before proceeding.
-   > - **GitHub Copilot CLI / VS Code**: invoke the `check-updates` skill (e.g., `/fabric-skills:check-updates`).
-   > - **Claude Code / Cowork / Cursor / Windsurf / Codex**: read the local `package.json` version, then compare it against the remote version via `git fetch origin main --quiet && git show origin/main:package.json` (or the GitHub API). If the remote version is newer, show the changelog and update instructions.
-   > - Skip if the check was already performed earlier in this session.
-   ```
-3. Check for instructions on how to find workspaces or items in Fabric:
-   ```   
-   > **CRITICAL NOTES**
-   > 1. To find the workspace details (including its ID) from workspace name: list all workspaces and, then, use JMESPath filtering
-   > 2. To find the item details (including its ID) from workspace ID, item type, and item name: list all items of that type in that workspace and, then, use JMESPath filtering
-   ``` 
-4. **Must/Prefer/Avoid** sections for clear guidance
-5. **Examples** section with code or prompt/response pairs
+  - name: spark_operations
+    description: Use spark-operations-cli for read-only Spark job diagnosis, session health, and performance triage
+    reference: skills/spark-operations-cli/SKILL.md
 
-### Naming Conventions
+  - name: spark_mlv_patterns
+    description: Use spark-authoring-cli for Materialized Lake View authoring and incremental refresh guidance
+    reference: skills/spark-authoring-cli/SKILL.md
 
-- End-to-end skills: `e2e-{task-name}` (e.g., `e2e-medallion-architecture`)
-- Developer skills: `{endpoint_or_engine}-authoring-{access_method}` (e.g., `sqldw-authoring-cli`)
-- Consumer skills: `{endpoint_or_engine}-consumption-{access_method}` (e.g., `sqldw-consumption-cli`)
-- Agents: `{persona}` (e.g., `FabricDataEngineer`) for cross-endpoint orchestration
+  - name: mlv_operations
+    description: Use mlv-operations-cli for MLV refresh scheduling, job monitoring, and cancellation
+    reference: skills/mlv-operations-cli/SKILL.md
 
-### Description Field
+  - name: azmon_operations
+    description: Use azmon-mirroredcatalogs-operations-cli to onboard Azure Monitor / App Insights / Log Analytics observability data into Fabric and correlate telemetry with business data for business-impact insights and Operations Agent instructions
+    reference: skills/azmon-mirroredcatalogs-operations-cli/SKILL.md
 
-Write descriptions that enable accurate skill discovery:
-- Start with an action verb
-- Mention specific technologies (SDKs, languages, tools)
-- Distinguish from similar skills
+  # Dataflows Gen2 (Data Integration)
+  - name: dataflows_skills
+    description: Authoring skill is dataflows-authoring-cli, consumption skill is dataflows-consumption-cli
+    reference: skills/dataflows-authoring-cli/SKILL.md
 
-## Key References
+  - name: eventstream_skills
+    description: Authoring skill is eventstream-authoring-cli, consumption skill is eventstream-consumption-cli
+    reference: skills/eventstream-authoring-cli/SKILL.md
 
-- **Fabric REST APIs**: https://learn.microsoft.com/en-us/rest/api/fabric/articles/
-- **Fabric Documentation**: https://learn.microsoft.com/en-us/fabric/
+  - name: activator_skills
+    description: Authoring skill is activator-authoring-cli, consumption skill is activator-consumption-cli
+    reference: skills/activator-authoring-cli/SKILL.md
 
-## Two User Personas
+  - name: fabriciq_skills
+    description: >
+      Consumption skill is semantic-model-consumption (raw DAX), FabricIQ skill
+      is fabriciq (multi-step Power BI analysis). MANDATORY: read
+      skills/fabriciq/SKILL.md in full before calling any FabricIQ MCP tool
+      (see agents/FabricIQ.agent.md#pre-flight--mandatory-skill-reading).
+    reference: skills/fabriciq/SKILL.md
 
-### Developers (`-authoring-` skills)
-Target users who write code: SDKs, APIs, automation scripts, CI/CD, infrastructure-as-code.
+  - name: ontology_authoring
+    description: Fabric IQ Ontology (preview) — authoring skill
+    reference: skills/fabriciq-ontology-authoring-cli/SKILL.md
 
-### Consumers (`-consumption-` skills)
-Target users who interact via CLI/AI: run queries, explore data, monitor jobs, ad-hoc operations.
+  - name: ontology_consumption
+    description: Fabric IQ Ontology (preview) — consumption / read-only skill
+    reference: skills/fabriciq-ontology-consumption-cli/SKILL.md
 
-## Cross-Tool Compatibility
+  - name: catalog_search
+    description: Use POST /v1/catalog/search to find items across workspaces by name, description, or type
+    reference: skills/search-consumption-cli/SKILL.md
 
-When modifying skills, ensure compatibility files in `compatibility/` are updated:
-- `CLAUDE.md` for Claude Code
-- `.cursorrules` for Cursor
-- `AGENTS.md` for Codex/Jules/OpenCode
-- `.windsurfrules` for Windsurf
+  - name: powerbi_report_planning
+    description: Plan and gather requirements before authoring PBIR — use for "build a new dashboard" intents
+    reference: skills/powerbi-report-planning/SKILL.md
+
+  - name: powerbi_report_design
+    description: Produce the design brief (tone, archetype, layout, theme) before PBIR edits
+    reference: skills/powerbi-report-design/SKILL.md
+
+  - name: powerbi_report_authoring
+    description: Edit PBIR/PBIP files (pages, visuals, formatting, themes) and validate via the CLI
+    reference: skills/powerbi-report-authoring/SKILL.md
+
+  - name: powerbi_report_management
+    description: Manage Fabric Power BI report items (create/get/update/delete) via az rest
+    reference: skills/powerbi-report-management/SKILL.md
+
+  # Warehouse Operations
+  - name: sqldw_skills
+    description: Authoring skill is sqldw-authoring-cli, consumption skill is sqldw-consumption-cli, operations skill is sqldw-operations-cli
+    reference: skills/sqldw-operations-cli/SKILL.md
+
+  # SQL Database (in Fabric) Operations
+  - name: sqldb_skills
+    description: Authoring skill is sqldb-authoring-cli, consumption skill is sqldb-consumption-cli, operations skill is sqldb-operations-cli
+    reference: skills/sqldb-operations-cli/SKILL.md
+
+  # Security
+  - name: no_hardcoded_secrets
+    description: Never hardcode credentials - use Key Vault or environment variables
+    forbidden_patterns:
+      - "password="
+      - "secret="
+      - "connectionstring="
+      
+  # Architecture
+  - name: medallion_architecture
+    description: Prefer Bronze/Silver/Gold data organization
+
+  # Semantic Model skills (Power BI)
+  - name: semantic_model_skills
+    description: Authoring skill is semantic-model-authoring, consumption skill is semantic-model-consumption
+    reference: skills/semantic-model-authoring/SKILL.md
+
+best_practices:
+  - Use parameterized notebooks and pipelines
+  - Implement incremental processing over full refreshes
+  - Document DAX measures with comments
+  - Use REST APIs for programmatic Fabric management
+  - Prefer Materialized Lake Views for durable Silver/Gold Lakehouse data products when the task is Spark/Lakehouse-centric.
+
+documentation_links:
+  lakehouse: https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview
+  warehouse: https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing
+  notebooks: https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook
+  pipelines: https://learn.microsoft.com/en-us/fabric/data-factory/data-factory-overview
+  dataflows_gen2: https://learn.microsoft.com/en-us/fabric/data-factory/dataflows-gen2-overview
+  kql: https://learn.microsoft.com/en-us/fabric/real-time-intelligence/create-database
+  kql_query_reference: https://learn.microsoft.com/en-us/kusto/query/
+  kusto_cli: https://learn.microsoft.com/en-us/kusto/tools/kusto-cli
+  semantic_models: https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+  powerbi_reports: https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report
+  data_agents: https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent
+  data_agent_evaluation: https://learn.microsoft.com/en-us/fabric/data-science/fabric-data-agent-sdk
 
 ---
 > Source: [microsoft/skills-for-fabric](https://github.com/microsoft/skills-for-fabric) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-26 -->
