@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zwave-js/zwave-js-ui](https://github.com/zwave-js/zwave-js-ui).
+Original source: `copilot-instructions.md` in [zwave-js/zwave-js-ui](https://github.com/zwave-js/zwave-js-ui).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [zwave-js/zwave-js-ui](https://github.com/zwave-js/zwave-js-ui) — a repo with 1229+ stars on GitHub.
+From [zwave-js/zwave-js-ui](https://github.com/zwave-js/zwave-js-ui) — a repo with 1230+ stars on GitHub.
 
 ---
 
