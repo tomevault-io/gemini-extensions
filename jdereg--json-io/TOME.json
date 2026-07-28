@@ -4,7 +4,7 @@
   "repo": "json-io",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/jdereg",
+  "source_url": "https://github.com/jdereg/json-io",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-11T21:54:45Z"
+  "distributed_at": "2026-07-28T15:35:22Z"
 }
