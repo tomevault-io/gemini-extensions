@@ -5,13 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [logue/vite-vuetify-ts-starter](https://github.com/logue/vite-vuetify-ts-starter).
+Original source: `copilot-instructions.md` in [logue/vite-vuetify-ts-starter](https://github.com/logue/vite-vuetify-ts-starter).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
