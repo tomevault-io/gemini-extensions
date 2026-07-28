@@ -1,51 +1,39 @@
 ## copilotstudiosamples
 
-> Microsoft Copilot Studio samples repo with a Just the Docs (Jekyll) site for navigation and search.
+> This repo uses **Just the Docs** (Jekyll theme) to generate a documentation site with sidebar navigation and full-text search.
 
-# CopilotStudioSamples
+# CopilotStudioSamples — Contributor Instructions
 
-Microsoft Copilot Studio samples repo with a Just the Docs (Jekyll) site for navigation and search.
-
-**Live site**: https://microsoft.github.io/CopilotStudioSamples/
-
-## Repo Structure
-
-```
-├── authoring/          # Importable solutions and topic snippets
-├── contact-center/     # ServiceNow, Salesforce, Genesys, skill handoff
-├── extensibility/      # MCP servers, A2A protocol, M365 Agents SDK
-├── guides/             # Implementation guide, workshop, playbook
-├── infrastructure/     # VNet and deployment templates
-├── sso/                # SSO with Entra ID, Okta, Chat API
-├── testing/            # Functional (pytest) and load (JMeter) testing
-├── ui/                 # Custom UIs and platform embed samples
-│   ├── custom-ui/      # Standalone chat frontends
-│   └── embed/          # Widgets for ServiceNow, SharePoint, Power Apps, etc.
-├── EmployeeSelfServiceAgent/  # Workday/facilities topics (pending deprecation)
-├── _config.yml         # Jekyll configuration
-├── _layouts/           # Custom default.html (adds Browse source button)
-├── _includes/          # source_link.html (Browse source / external link button)
-└── Gemfile             # Jekyll dependencies
-```
+This repo uses **Just the Docs** (Jekyll theme) to generate a documentation site with sidebar navigation and full-text search.
 
 ## Adding a New Sample
 
-1. **Create a folder** under the appropriate category (e.g., `ui/embed/my-sample/`)
-2. **Add a `README.md`** with front matter:
+1. Create a folder under the right category: `authoring/`, `extensibility/`, `ui/`, `contact-center/`, `sso/`, `testing/`, `guides/`, `infrastructure/`
+2. Add a `README.md` (exact casing) with YAML front matter:
 
 ```yaml
 ---
-title: My Sample
-parent: Embed           # Must match the parent page's title exactly
-grand_parent: UI        # Required for level 3 pages
-nav_order: 8            # Position among siblings
+title: My Sample           # Appears in sidebar nav
+parent: Embed              # Must match parent page's title exactly
+grand_parent: UI           # Required for level 3 (grandchild) pages
+nav_order: 8               # Numeric position among siblings
 ---
 ```
 
-3. **Write the README** with: description, prerequisites, setup steps, architecture notes
-4. **Name the file `README.md`** (exact casing) — the `jekyll-readme-index` plugin converts it to `index.html`
+3. Write the README with: description, prerequisites, setup instructions
+4. Update the parent category's `## Contents` table to include the new sample
+5. Test locally: `bundle install && bundle exec jekyll serve`
 
-### For Power Platform Solutions (`authoring/solutions/`)
+### Hierarchy Levels
+
+| Level | Front matter | Example |
+|-------|-------------|---------|
+| Category | `title`, `nav_order`, `has_children: true`, `has_toc: false` | `ui/README.md` |
+| Subcategory | `title`, `parent`, `nav_order`, `has_children: true`, `has_toc: false` | `ui/embed/README.md` |
+| Sample | `title`, `parent`, `grand_parent`, `nav_order` | `ui/embed/servicenow-widget/README.md` |
+| Deep page | `nav_exclude: true`, `search_exclude: false` | Internal subfolders |
+
+### Power Platform Solutions (`authoring/solutions/`)
 
 Solutions follow the [PnP format](https://github.com/pnp/powerplatform-samples):
 
@@ -67,18 +55,11 @@ nav_order: 7
 ---
 ```
 
-README should include:
-- What the solution does and which Copilot Studio features it demonstrates
-- Screenshots in `assets/` (reference as `![screenshot](./assets/screenshot.png)`)
-- Installation steps (import zip via make.powerapps.com > Solutions > Import)
-- Any connection references or environment variables to configure
-- Known issues or limitations
+README should include: what it does, screenshots in `assets/`, import steps, connection references to configure, known issues. Update `authoring/solutions/README.md` Contents table after adding.
 
-Update `authoring/solutions/README.md` Contents table after adding.
+### External Samples (code in another repo)
 
-### For External Samples (code lives in another repo)
-
-Add `external_url` to front matter — this replaces the "Browse source" button with "View sample in M365 Agents SDK repo":
+Add `external_url` to front matter. This shows a "View sample in M365 Agents SDK repo" button instead of "Browse source on GitHub":
 
 ```yaml
 ---
@@ -89,9 +70,9 @@ external_url: "https://github.com/microsoft/Agents/tree/main/samples/dotnet/Gene
 ---
 ```
 
-### For Deprecated Samples
+### Deprecated Samples
 
-Add a red label and caution callout at the top:
+Add a red label and caution callout:
 
 ```markdown
 Deprecated
@@ -101,41 +82,34 @@ Deprecated
 > This sample is deprecated. Use [replacement](../path/) instead.
 ```
 
-## Category README Convention
-
-Each category folder has a README.md with:
-- `has_children: true` and `has_toc: false` in front matter
-- A manual `## Contents` table (preferred over JTD's auto-generated TOC)
-- Optional `## See also` section for cross-references
-
 ## Markdown Rules
 
-### Do NOT use GitHub alert syntax
+### Callouts — do NOT use GitHub `> [!NOTE]` syntax
 
-GitHub `> [!NOTE]` alerts render as plain text in Jekyll. Use JTD callouts instead:
+Jekyll doesn't support GitHub alerts. Use JTD kramdown callouts:
 
 ```markdown
 {: .note }
 > This is a note.
 
 {: .warning }
-> This is a warning.
+> A warning.
 
 {: .tip }
-> This is a tip.
+> A tip.
 
 {: .caution }
-> This is a caution.
+> A caution.
 
 {: .important }
-> This is important.
+> Important info.
 ```
 
-### Links
+### Links Between Pages
 
-- Link to other READMEs as **directories**, not files: `[My Sample](./my-sample/)` not `[My Sample](./my-sample/README.md)`
-- Non-README markdown: strip the `.md` extension: `[Setup Guide](./SETUP)` not `(./SETUP.md)`
-- External links are fine as-is
+- README links: use directory path `[Sample](./my-sample/)` — NOT `(./my-sample/README.md)`
+- Other .md files: drop the extension `[Setup](./SETUP)` — NOT `(./SETUP.md)`
+- External URLs: use as-is
 
 ### Labels
 
@@ -149,12 +123,12 @@ Deprecated
 
 ### Liquid Escaping
 
-If markdown contains `{%` (e.g., URL-encoded params), wrap in raw tags:
+Markdown containing `{%` (e.g. URL-encoded params) must be wrapped:
 
 ````markdown
 {% raw %}
 ```
-https://example.com?params={%22key%22:%22value%22}
+https://example.com?q={%22key%22:%22value%22}
 ```
 {% endraw %}
 ````
@@ -193,21 +167,17 @@ git commit -m "Add my-new-sample to ui/embed"
 git push origin reorg/v1
 ```
 
-**Branch**: `reorg/v1` is the docs branch. GitHub Actions builds and deploys to Pages on every push.
+- **Branch**: `reorg/v1` is the docs branch. GitHub Actions builds and deploys to Pages on every push.
+- **To merge upstream**: open a PR from `reorg/v1` → `main`. Update `.github/workflows/pages.yml` to trigger on `main` instead of `reorg/v1` before merging.
+- **Remotes**: `origin` = fork (`microsoft/CopilotStudioSamples`), `upstream` = source (`microsoft/CopilotStudioSamples`)
 
-**To merge upstream**: when ready, open a PR from `reorg/v1` → `main`. Update `.github/workflows/pages.yml` to trigger on `main` instead of `reorg/v1` before merging.
+## Config Gotchas
 
-**Remotes**:
-- `origin` — your fork (`microsoft/CopilotStudioSamples`)
-- `upstream` — source repo (`microsoft/CopilotStudioSamples`)
-
-## Key Config Notes
-
-- `_config.yml` exclude patterns: `*.js`, `*.ts`, `*.cs` etc. match recursively (`*` matches `/` in Jekyll's fnmatch)
-- **Never add `*.html` to exclude** — it breaks theme layouts
-- Source `index.html` files are excluded via `*index.html` so `jekyll-readme-index` can use README.md
+- `_config.yml` exclude patterns match recursively (`*` matches `/` in Jekyll)
+- **Never add `*.html` to exclude** — it breaks theme layout files
+- File must be named `README.md` (exact casing) for `jekyll-readme-index` to work
+- Category READMEs use `has_toc: false` with a manual Contents table
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/microsoft)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/microsoft)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Source: [microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
