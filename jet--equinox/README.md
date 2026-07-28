@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [jet/equinox](https://github.com/jet/equinox).
+Original source: `AGENTS.md` in [jet/equinox](https://github.com/jet/equinox).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [jet/equinox](https://github.com/jet/equinox) — a repo with 499+ stars on GitHub.
+From [jet/equinox](https://github.com/jet/equinox) — a repo with 498+ stars on GitHub.
 
 ---
 
