@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go).
+Original source: `copilot-instructions.md` in [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) — a repo with 6484+ stars on GitHub.
+From [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) — a repo with 6487+ stars on GitHub.
 
 ---
 
