@@ -1,0 +1,12 @@
+## rooks
+
+> Canonical instructions for authoring and validating Rooks documentation
+
+
+Follow [Authoring documentation](../../docs/authoring-documentation.md). Use only `apps/website/content/docs` for hand-authored site content, derive public facts from the package entrypoint barrels, and validate with `pnpm docs:check`.
+
+For contribution approval, style, and release boundaries, follow [CONTRIBUTING.md](../../CONTRIBUTING.md), the [code style guide](../../code-style-guide.md), and [MAINTENANCE.md](../../MAINTENANCE.md).
+
+---
+> Source: [imbhargav5/rooks](https://github.com/imbhargav5/rooks) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-26 -->
