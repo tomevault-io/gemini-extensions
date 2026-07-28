@@ -1,22 +1,28 @@
-# CopilotStudioSamples
+# AI instruction files for CopilotStudioSamples
 
-> Config by [microsoft](https://github.com/microsoft/CopilotStudioSamples) — distributed by [TomeVault](https://tomevault.io/claim/microsoft)
+> Sourced from [microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples).
+Original source: `copilot-instructions.md` in [microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/microsoft](https://tomevault.io/claim/microsoft)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples)
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/microsoft) to manage distribution.
+Install this config instantly:
+```
+npx tomevault install microsoft/CopilotStudioSamples
+```
+Source: [github.com/microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples).
+
+<!-- genome:a-i-q -->
