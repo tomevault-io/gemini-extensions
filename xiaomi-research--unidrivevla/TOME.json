@@ -4,7 +4,7 @@
   "repo": "unidrivevla",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/xiaomi-research/unidrivevla",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-26T20:11:23Z"
+  "distributed_at": "2026-07-29T03:55:20Z"
 }
