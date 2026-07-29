@@ -1,23 +1,21 @@
 # AI instruction files for agentregistry
 
-> Sourced from [agentregistry-dev/agentregistry](https://github.com/agentregistry-dev/agentregistry) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Fast-track AI innovation with a centralized, trusted, curated registry
+> Sourced from [agentregistry-dev/agentregistry](https://github.com/agentregistry-dev/agentregistry), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [agentregistry-dev/agentregistry](https://github.com/agentregistry-dev/agentregistry).
+Original source: `copilot-instructions.md` in [agentregistry-dev/agentregistry](https://github.com/agentregistry-dev/agentregistry).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/agentregistry-dev/agentregistry](https://github.com/agentregistry-dev/agentregistry)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/agentregistry-dev/agentregistry](https://github.com/agentregistry-dev/agentregistry)
 
 ---
 
