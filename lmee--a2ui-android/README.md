@@ -1,0 +1,24 @@
+# A2UI-Android
+
+> Source: [lmee/A2UI-Android](https://github.com/lmee/A2UI-Android). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [lmee/A2UI-Android](https://github.com/lmee/A2UI-Android).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [lmee/A2UI-Android](https://github.com/lmee/A2UI-Android) — a repo with 69+ stars on GitHub.
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:d-c-s -->
