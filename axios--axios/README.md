@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [axios/axios](https://github.com/axios/axios).
+Original source: `copilot-instructions.md` in [axios/axios](https://github.com/axios/axios).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [axios/axios](https://github.com/axios/axios) — a repo with 109125+ stars on GitHub.
+From [axios/axios](https://github.com/axios/axios) — a repo with 109146+ stars on GitHub.
 
 ---
 
