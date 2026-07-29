@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [srl-labs/containerlab](https://github.com/srl-labs/containerlab).
+Original source: `copilot-instructions.md` in [srl-labs/containerlab](https://github.com/srl-labs/containerlab).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [srl-labs/containerlab](https://github.com/srl-labs/containerlab) — a repo with 2689+ stars on GitHub.
+From [srl-labs/containerlab](https://github.com/srl-labs/containerlab) — a repo with 2694+ stars on GitHub.
 
 ---
 
