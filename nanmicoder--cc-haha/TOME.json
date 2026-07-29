@@ -2,9 +2,9 @@
   "name": "cc-haha",
   "owner": "NanmiCoder",
   "repo": "cc-haha",
-  "description": "Claude Code \u6cc4\u9732\u6e90\u7801 - \u672c\u5730\u53ef\u8fd0\u884c\u7248\u672c\uff0c\u65b0\u589e\u8de8\u5e73\u53f0\u684c\u9762\u7aef\u8f6f\u4ef6\u8865\u9f50Computer Use\uff08\u9644\u5e26\u6838\u5fc3\u6a21\u5757\u89e3\u6790\uff09",
+  "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/NanmiCoder/cc-haha",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T05:31:56Z"
+  "distributed_at": "2026-07-29T05:33:00Z"
 }
