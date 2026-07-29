@@ -4,7 +4,7 @@
   "repo": "po-angular",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/po-ui/po-angular",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-25T13:29:12Z"
+  "distributed_at": "2026-07-29T08:13:25Z"
 }
