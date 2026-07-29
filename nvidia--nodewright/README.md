@@ -1,26 +1,24 @@
 # nodewright
 
-> Source: [NVIDIA/nodewright](https://github.com/NVIDIA/nodewright) — distributed by [TomeVault](https://tomevault.io)
-
-A Kubernetes Operator to manage Node OS customizations.
+> Source: [NVIDIA/nodewright](https://github.com/NVIDIA/nodewright). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NVIDIA/nodewright](https://github.com/NVIDIA/nodewright).
+Original source: `copilot-instructions.md` in [NVIDIA/nodewright](https://github.com/NVIDIA/nodewright).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/NVIDIA/nodewright](https://github.com/NVIDIA/nodewright)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/NVIDIA/nodewright](https://github.com/NVIDIA/nodewright)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-q -->
