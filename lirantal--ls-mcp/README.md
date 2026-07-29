@@ -1,15 +1,16 @@
 # ls-mcp
 
-> Tome by [lirantal](https://github.com/lirantal/ls-mcp) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [lirantal](https://github.com/lirantal/ls-mcp), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lirantal/ls-mcp](https://github.com/lirantal/ls-mcp).
+Original source: `` in [lirantal/ls-mcp](https://github.com/lirantal/ls-mcp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
