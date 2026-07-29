@@ -1,15 +1,42 @@
-## general
+## supabase
 
-> - Prefer complete, long-term implementations over workarounds or quick patches.
+> Supabase conventions (local project, migrations, SSR auth, RLS)
 
-# General Rules
+# Supabase (database + auth)
 
-- Prefer complete, long-term implementations over workarounds or quick patches.
-- Keep existing behavior, routes, and UI intact unless explicitly asked to remove/rename them.
-- This repo is a Turborepo + Bun monorepo: use `bun` + root scripts; avoid introducing `npm`/`yarn` workflows.
-- Prefer workspace imports (`@proxed/*`) and package entrypoints over deep relative imports across workspaces.
-- Next.js apps default to React Server Components; add `"use client"` only when necessary.
-- Security: never expose or log secrets (AI provider keys, Supabase keys, tokens). Provider calls should go through `apps/api` when applicable.
+## Repo layout
+
+- Local Supabase project: `packages/supabase/supabase/`
+  - Schemas: `packages/supabase/supabase/schemas/*.sql`
+  - Migrations: `packages/supabase/supabase/migrations/*.sql`
+  - Functions: `packages/supabase/supabase/functions/*`
+- Runtime clients & queries: `packages/supabase/` (import via `@proxed/supabase/*`)
+- Generated types:
+  - Public schema: `packages/supabase/src/types/db.generated.ts` (via `bun run supabase:generate`)
+  - Functions schema (optional): `packages/supabase/src/types/functions.generated.ts` (via `generate-functions` script)
+
+## Commands (run from repo root)
+
+- Start: `bun run supabase:start`
+- Reset: `bun run supabase:reset`
+- Migrate: `bun run supabase:migrate`
+- New migration: `bun run supabase:migration:create`
+- Typegen: `bun run supabase:generate`
+
+## Auth (Next.js)
+
+- Use the shared clients:
+  - Server: `@proxed/supabase/server`
+  - Browser: `@proxed/supabase/client`
+  - Middleware session refresh: `@proxed/supabase/middleware`
+- Do **not** use `@supabase/auth-helpers-nextjs`.
+- Cookie integration must use **only** `getAll` / `setAll` (no `get`/`set`/`remove`).
+
+## DB & RLS guidelines
+
+- Prefer `snake_case` for tables/columns.
+- Enable RLS on new tables and write explicit policies (avoid `FOR ALL`; separate select/insert/update/delete).
+- Default to `security invoker`. If you must use `security definer`, always set an explicit `search_path` and fully-qualify referenced objects.
 
 ---
 > Source: [nech-ai/proxed](https://github.com/nech-ai/proxed) — distributed by [TomeVault](https://tomevault.io).
