@@ -5,10 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Jeromski62/SCALES-Design-Tokens-Starter-Set](https://github.com/Jeromski62/SCALES-Design-Tokens-Starter-Set).
+Original source: `` in [Jeromski62/SCALES-Design-Tokens-Starter-Set](https://github.com/Jeromski62/SCALES-Design-Tokens-Starter-Set).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
