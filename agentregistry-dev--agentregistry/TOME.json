@@ -2,9 +2,9 @@
   "name": "agentregistry",
   "owner": "agentregistry-dev",
   "repo": "agentregistry",
-  "description": "Fast-track AI innovation with a centralized, trusted, curated registry",
+  "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/agentregistry-dev/agentregistry",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-23T06:09:17Z"
+  "distributed_at": "2026-07-29T07:52:43Z"
 }
