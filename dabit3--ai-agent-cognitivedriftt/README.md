@@ -5,12 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [dabit3/ai-agent-cognitivedriftt](https://github.com/dabit3/ai-agent-cognitivedriftt).
+Original source: `AGENTS.md` in [dabit3/ai-agent-cognitivedriftt](https://github.com/dabit3/ai-agent-cognitivedriftt).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
