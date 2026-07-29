@@ -2,17 +2,15 @@
 
 > Sourced from [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
-Claude Code 泄露源码 - 本地可运行版本，新增跨平台桌面端软件补齐Computer Use（附带核心模块解析）
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha).
+Original source: `copilot-instructions.md` in [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
