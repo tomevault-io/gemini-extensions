@@ -4,7 +4,7 @@
   "repo": "go-git",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/go-git/go-git",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-26T18:21:50Z"
+  "distributed_at": "2026-07-29T13:11:20Z"
 }
