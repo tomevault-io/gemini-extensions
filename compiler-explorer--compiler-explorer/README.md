@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer).
+Original source: `copilot-instructions.md` in [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) — a repo with 18915+ stars on GitHub.
+From [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) — a repo with 18930+ stars on GitHub.
 
 ---
 
