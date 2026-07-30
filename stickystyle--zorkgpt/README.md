@@ -5,11 +5,10 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [stickystyle/ZorkGPT](https://github.com/stickystyle/ZorkGPT).
+Original source: `CLAUDE.md` in [stickystyle/ZorkGPT](https://github.com/stickystyle/ZorkGPT).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
