@@ -7,13 +7,13 @@ SpiderBrain v3 is a multi-platform skill/framework to reduce token usage and AI 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [abhishek-performdigital/Spiderbrain-V3](https://github.com/abhishek-performdigital/Spiderbrain-V3).
+Original source: `.cursor/rules/*.mdc` in [abhishek-performdigital/Spiderbrain-V3](https://github.com/abhishek-performdigital/Spiderbrain-V3).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
