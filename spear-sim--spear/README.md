@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [spear-sim/spear](https://github.com/spear-sim/spear).
+Original source: `AGENTS.md` in [spear-sim/spear](https://github.com/spear-sim/spear).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [spear-sim/spear](https://github.com/spear-sim/spear) — a repo with 538+ stars on GitHub.
+From [spear-sim/spear](https://github.com/spear-sim/spear) — a repo with 537+ stars on GitHub.
 
 ---
 
