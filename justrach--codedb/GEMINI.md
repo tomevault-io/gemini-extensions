@@ -1,12 +1,12 @@
 ## codedb
 
-> Zig 0.16.x code intelligence server. Tests live in `src/tests.zig`. Build and test with `zig build test`.
+> Zig 0.17.0-dev code intelligence server (pinned to `0.17.0-dev.813+2153f8143`). Tests live in the split `src/test_*.zig` files — one binary per area (see `build.zig`). Build and test with `zig build test`; run a single binary with e.g. `zig build test-index`.
 
 # codedb — Agent Instructions
 
 ## Project
 
-Zig 0.16.x code intelligence server. Tests live in `src/tests.zig`. Build and test with `zig build test`.
+Zig 0.17.0-dev code intelligence server (pinned to `0.17.0-dev.813+2153f8143`). Tests live in the split `src/test_*.zig` files — one binary per area (see `build.zig`). Build and test with `zig build test`; run a single binary with e.g. `zig build test-index`.
 
 ## Rules
 
@@ -16,7 +16,7 @@ Zig 0.16.x code intelligence server. Tests live in `src/tests.zig`. Build and te
 
 When creating an issue:
 
-1. Write a `test "issue-XX: <description>"` block in `src/tests.zig` that **fails** on the current `main` branch
+1. Write a `test "issue-XX: <description>"` block in the matching `src/test_*.zig` file (e.g. `src/test_index.zig` for index bugs) that **fails** on the current `main` branch
 2. Verify it fails: `zig build test 2>&1 | grep "issue-XX"`
 3. File the issue via `gh issue create` with this structure:
    - **Title:** `<module>: <concise description>`
@@ -43,4 +43,4 @@ If you cannot write a failing test, the issue is not well-defined enough to file
 
 ---
 > Source: [justrach/codedb](https://github.com/justrach/codedb) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-21 -->
