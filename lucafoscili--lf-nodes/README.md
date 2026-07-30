@@ -1,23 +1,21 @@
 # lf-nodes
 
-> Source: [lucafoscili/lf-nodes](https://github.com/lucafoscili/lf-nodes) — distributed by [TomeVault](https://tomevault.io)
-
-Custom nodes with a touch of extra UX ✨ Client-side LLM chat, mid-workflow image editing, history for primitives, JSON manipulation, analytics nodes, CivitAI metadata fetching and saving... and more!
+> Source: [lucafoscili/lf-nodes](https://github.com/lucafoscili/lf-nodes). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [lucafoscili/lf-nodes](https://github.com/lucafoscili/lf-nodes).
+Original source: `AGENTS.md` in [lucafoscili/lf-nodes](https://github.com/lucafoscili/lf-nodes).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [lucafoscili/lf-nodes](https://github.com/lucafoscili/lf-nodes) — a repo with 34+ stars on GitHub.
+From [lucafoscili/lf-nodes](https://github.com/lucafoscili/lf-nodes) — a repo with 35+ stars on GitHub.
 
 ---
 
