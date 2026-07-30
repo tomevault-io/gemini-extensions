@@ -5,12 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [ComposioHQ/openclaw-composio](https://github.com/ComposioHQ/openclaw-composio).
+Original source: `AGENTS.md` in [ComposioHQ/openclaw-composio](https://github.com/ComposioHQ/openclaw-composio).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
