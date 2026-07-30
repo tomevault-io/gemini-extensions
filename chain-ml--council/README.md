@@ -5,18 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [chain-ml/council](https://github.com/chain-ml/council).
+Original source: `AGENTS.md` in [chain-ml/council](https://github.com/chain-ml/council).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [chain-ml/council](https://github.com/chain-ml/council) — a repo with 857+ stars on GitHub.
+From [chain-ml/council](https://github.com/chain-ml/council) — a repo with 858+ stars on GitHub.
 
 ---
 
