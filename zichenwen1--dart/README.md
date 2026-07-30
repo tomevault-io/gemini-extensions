@@ -5,12 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [ZichenWen1/DART](https://github.com/ZichenWen1/DART).
+Original source: `AGENTS.md` in [ZichenWen1/DART](https://github.com/ZichenWen1/DART).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
