@@ -1,27 +1,22 @@
 ## trinity-rft
 
-> This repository supports multiple coding agents.
+> - Agent documentation root: `docs/agents/`
 
-# Multi-Agent Entry Guide
+# Codex Repository Guide
 
-This repository supports multiple coding agents.
-
-## Canonical Knowledge Location
+## Canonical Documentation Roots
 
 - Agent documentation root: `docs/agents/`
-- veRL upgrade docs: `docs/agents/verl_upgrade/`
 
-## Agent-Specific Templates
+## Agent Entry Files
 
-- Copilot instructions: `.github/instructions/verl-upgrade.instructions.md`
-- Claude skill: `.claude/skills/verl-upgrade/SKILL.md`
-- Codex template: `.codex/AGENTS.md`
+- Workspace-level guide: `AGENTS.md`
+- Codex-specific guide: `.codex/AGENTS.md`
 
-## Shared Rule
+## Repository Convention
 
-All agents should follow this order for veRL upgrades: read checklist first, generate/select a version-specific migration plan from current->target version, then review only target-version detailed content during execution.
+Treat `docs/agents/` as the single source of truth for agent-facing process and navigation documents.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/agentscope-ai)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/agentscope-ai)
-<!-- tomevault:4.0:gemini_md:2026-04-08 -->
+> Source: [agentscope-ai/Trinity-RFT](https://github.com/agentscope-ai/Trinity-RFT) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-21 -->
