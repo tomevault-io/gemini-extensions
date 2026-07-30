@@ -5,11 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Genocs/clean-architecture-template](https://github.com/Genocs/clean-architecture-template).
+Original source: `` in [Genocs/clean-architecture-template](https://github.com/Genocs/clean-architecture-template).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
