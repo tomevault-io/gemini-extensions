@@ -2,7 +2,6 @@
 
 > Ultracite enforces strict type safety, accessibility standards, and consistent code quality for JavaScript/TypeScript projects using Biome's lightning-fast formatter and linter.
 
-
 # Project Context
 Ultracite enforces strict type safety, accessibility standards, and consistent code quality for JavaScript/TypeScript projects using Biome's lightning-fast formatter and linter.
 
@@ -333,4 +332,4 @@ try {
 
 ---
 > Source: [voidhashcom/effect-query](https://github.com/voidhashcom/effect-query) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-23 -->
