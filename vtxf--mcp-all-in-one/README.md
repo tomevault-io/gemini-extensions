@@ -1,17 +1,15 @@
 # mcp-all-in-one
 
-> Tome by [vtxf](https://github.com/vtxf/mcp-all-in-one) — distributed by [TomeVault](https://tomevault.io)
-
-A powerful MCP (Model Context Protocol) service aggregator that combines multiple MCP services into a single unified MCP service with self-configuration capabilities.
+> Tome by [vtxf](https://github.com/vtxf/mcp-all-in-one), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vtxf/mcp-all-in-one](https://github.com/vtxf/mcp-all-in-one).
+Original source: `AGENTS.md` in [vtxf/mcp-all-in-one](https://github.com/vtxf/mcp-all-in-one).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
