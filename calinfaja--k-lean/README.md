@@ -5,11 +5,10 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [calinfaja/K-LEAN](https://github.com/calinfaja/K-LEAN).
+Original source: `CLAUDE.md` in [calinfaja/K-LEAN](https://github.com/calinfaja/K-LEAN).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
