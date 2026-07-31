@@ -5,18 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [DataDog/integrations-core](https://github.com/DataDog/integrations-core).
+Original source: `AGENTS.md` in [DataDog/integrations-core](https://github.com/DataDog/integrations-core).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [DataDog/integrations-core](https://github.com/DataDog/integrations-core) — a repo with 1129+ stars on GitHub.
+From [DataDog/integrations-core](https://github.com/DataDog/integrations-core) — a repo with 1127+ stars on GitHub.
 
 ---
 
