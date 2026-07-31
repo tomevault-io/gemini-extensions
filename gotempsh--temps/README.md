@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gotempsh/temps](https://github.com/gotempsh/temps).
+Original source: `CLAUDE.md` in [gotempsh/temps](https://github.com/gotempsh/temps).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [gotempsh/temps](https://github.com/gotempsh/temps) — a repo with 545+ stars on GitHub.
+From [gotempsh/temps](https://github.com/gotempsh/temps) — a repo with 554+ stars on GitHub.
 
 ---
 
