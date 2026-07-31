@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [1CatAI/1Cat-vLLM](https://github.com/1CatAI/1Cat-vLLM).
+Original source: `CLAUDE.md` in [1CatAI/1Cat-vLLM](https://github.com/1CatAI/1Cat-vLLM).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [1CatAI/1Cat-vLLM](https://github.com/1CatAI/1Cat-vLLM) — a repo with 539+ stars on GitHub.
+From [1CatAI/1Cat-vLLM](https://github.com/1CatAI/1Cat-vLLM) — a repo with 544+ stars on GitHub.
 
 ---
 
