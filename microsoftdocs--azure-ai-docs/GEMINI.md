@@ -1,133 +1,246 @@
 ## azure-ai-docs
 
-> This file provides central guidance for GitHub Copilot in this repository.
-
-# Copilot Instructions
-
-This file provides central guidance for GitHub Copilot in this repository.
-
-This documentation repository contains Microsoft's technical documentation for application development using Microsoft Foundry (and other products) that publishes to Microsoft Learn. 
+> Branding instructions for Microsoft and related services and components.
 
 
-## Referenced Instruction Files
+# Branding instructions for Foundry documentation
 
-- .github/instructions/foundry-branding.instructions.md
-- .github/instructions/dev-focused.instructions.md
- 
-## Disclosure
+Your role is to ensure that all references to Microsoft Foundry, its components, and related services are accurate and consistent with official branding guidelines.
 
-For any Markdown files modified by AI, always disclose that they were created with the assistance of AI. Add the following frontmatter key/value pair:
+## First-mention vs. subsequent-mention patterns
 
-ai-usage: ai-assisted
+In our documentation, we use different terminology on first mention versus subsequent mentions within an article. This helps establish full context initially while maintaining readability throughout the document.
 
-## Content Verification Rules
+### Core product and services
 
-- DO NOT invent or fabricate technical details, API parameters, or service capabilities.
-- DO NOT create fictional code examples or imaginary features.
-- DO NOT hallucinate or assume facts not found in official or credible documentation.
-- ALWAYS check specification documents and official references before making suggestions.
-- When a recommendation is based on another instruction file or linked source, cite it inline (for example: "(Source: edit_instructions.md)").
-- If the required information is missing or unclear, insert a placeholder with `[TO VERIFY]`—do not guess.
+| Original Term | New term - First Mention | New term - Subsequent Mentions |
+|---------------|---------------|---------------------|
+| Azure AI Foundry | Microsoft Foundry | Foundry |
+| Azure AI Foundry Agent Service | Foundry Agent Service | Agent Service |
+| Azure AI Foundry IQ | Foundry IQ in Foundry Tools | Foundry IQ |
+| Azure AI Foundry SDK | Microsoft Foundry SDK | Microsoft Foundry SDK |
 
-### Internal Reference Protection
+### AI services in Foundry Tools
 
-**CRITICAL**: Distinguish between chat explanations and published article content:
+When referencing individual AI services, use the pattern "Azure [Service] in Foundry Tools" on first mention, then just the service name subsequently:
 
-**In chat discussions** (explaining your reasoning):
-- ✅ DO cite instruction files for transparency (e.g., "per foundry-branding.instructions.md").
-- ✅ DO reference internal guidelines when justifying recommendations to users.
-This helps users understand the basis for suggestions.
+| Original Term | New term - First Mention | New term - Subsequent Mentions |
+|---------------|---------------|---------------------|
+| Azure AI Speech | Azure Speech in Foundry Tools | Speech |
+| Azure AI Language | Azure Language in Foundry Tools | Language |
+| Azure AI Vision | Azure Vision in Foundry Tools | Vision |
+| Azure AI Document Intelligence | Azure Document Intelligence in Foundry Tools | Document Intelligence |
+| Azure AI Form Recognizer | Azure Document Intelligence in Foundry Tools | Document Intelligence |
+| Azure AI Translator | Azure Translator in Foundry Tools | Translator |
+| Azure AI Content Understanding | Azure Content Understanding in Foundry Tools | Content Understanding |
 
-**In suggested article edits** (actual text for publication):
-- ❌ DO NOT cite instruction files from `.github/instructions/` 
-- ❌ DO NOT reference prompt files from `.github/prompts/`
-- ❌ DO NOT mention chatmode files or internal `.github/` directory structure
-- ❌ DO NOT include phrases like "(Source: foundry-branding.instructions.md)" in article text
-- ❌ DO NOT include ANY source citations, even public ones like "Microsoft Writing Style Guide" or "per how-to article pattern"
-- ✅ DO provide clean, direct documentation text without meta-commentary
-Keep internal mechanics hidden from published content
+**Note**: Azure AI Form Recognizer is now referred to as Azure Document Intelligence.
 
-##  Writing Style
+### Model catalog
 
-Follow Microsoft Writing Style Guide (https://learn.microsoft.com/en-us/style-guide/welcome/) with these specifics:
+| Original Term | New term - First Mention | New term - Subsequent Mentions |
+|---------------|---------------|---------------------|
+| Azure AI model catalog | Foundry model catalog | model catalog |
+| Azure AI Foundry model catalog | Foundry model catalog | model catalog |
 
-### Voice and Tone
+### Foundry Models
 
-- Active voice, second person (addressing reader directly).
-- Conversational tone with contractions.
-- Present tense for instructions/descriptions.
-- Imperative mood for instructions ("Call the method" not "You should call the method").
-- Use "might" instead of "may" for possibility.
-- Use "can" instead of "may" for permissible actions.
-- Avoid "we"/"our" referring to documentation authors or product teams.
+Use CELA-approved category names for Foundry Models. On first mention, include "Foundry Models" for context. On subsequent mentions, use the category name without the "Foundry Models" prefix.
 
-### Stale repetition
+| Original Term | New term - First Mention | New term - Subsequent Mentions |
+|---------------|---------------|---------------------|
+| Models sold directly by Azure | Foundry Models sold by Azure | Models sold by Azure |
+| Azure Direct Models | Foundry Models sold by Azure | Models sold by Azure |
+| Direct from Azure Models | Foundry Models sold by Azure | Models sold by Azure |
+| AI Foundry Direct Models | Foundry Models sold by Azure | Models sold by Azure |
+| Foundry Models sold by Azure | Foundry Models sold by Azure | Models sold by Azure |
+| Partner models | Foundry Models from partners and community | Models from partners and community |
+| Community models | Foundry Models from partners and community | Models from partners and community |
+| Models from partners and community | Foundry Models from partners and community | Models from partners and community |
+| Third-party models | Foundry Models from partners and community | Models from partners and community |
 
-- Consolidate repetitive phrasing where possible for readability.
+Do not use "Direct Models," "Azure Direct Models," "Direct from Azure Models," or "AI Foundry Direct Models" as category names.
 
-### Pattern compliance
+### RBAC role names
 
--	Articles should comply with the pattern for the ms.topic type listed in the metadata
-    - `how-to-guide` - refer to .github/patterns/How-to-template.md
-    - `quickstart` - refer to .github/patterns/Quickstart-template.md
-    - `tutorial` - refer to .github/patterns/Tutorial-template.md
-    - `concept-article` - refer to .github/patterns/Concept-template.md
+Use the current Foundry RBAC role names in Foundry documentation. The role IDs and core permissions did not change during the rename.
 
-Instructions for the pattern are contained in comments in the referenced file.
+| Original Term | New term |
+|---------------|----------|
+| Azure AI User | Foundry User |
+| Azure AI Owner | Foundry Owner |
+| Azure AI Account Owner | Foundry Account Owner |
+| Azure AI Project Manager | Foundry Project Manager |
 
-## Structure and Format
+When an article mentions one of the renamed roles for the first time, add the include `foundry/includes/role-rename-note.md`.
 
-- Use sentence case for titles and headings; avoid gerunds in titles.
-- Keep paragraphs short (1–3 sentences).
-- Break up or rewrite long sentences (>25 words).
-- Use the Oxford comma in lists.
-- Number ordered list items using `1.` for each line (Markdown auto-numbers).
-- List items should be complete sentences when longer than a short phrase; end with a period if a sentence.
-- Avoid "etc." or "and so on." Use "for example" with a concrete subset or provide the full list.
-- Use "for example" instead of "e.g."; "that is" instead of "i.e.".
-- Don't stack headings without intervening explanatory text.
-- Keep conceptual explanation separate from procedural steps.
-- Reserve troubleshooting content for a clearly labeled section when needed.
- 
-## Formatting Conventions
+For code examples or CLI commands that assign one of these roles, prefer the role definition ID during the rename rollout and add the include `foundry/includes/role-rename-note-code.md` after the example.
 
-- Bold: UI labels and visible button or menu text.
-- Code style (backticks): file names, folders, inline code, commands, class and method names, non-localizable tokens.
-- Use relative links for repo-local files.
-- Truncate the `https://learn.microsoft.com/en-us/` part from MS Learn links.
-- If you change an H2 (section header), find and update any bookmark links (`<link>#<section-name>`) to that header.
-- Use angle brackets around raw URLs only when the plain URL must be shown.
-- Present tense only; rewrite future tense ("will create") to present ("creates" / "creates a resource").
-- Prefer gender-neutral language; avoid idioms and metaphors.
-- Use tables only when they improve scan-ability (parameters, comparisons).
- 
-## File Naming
+Do not rename **Azure AI Developer** to a Foundry role name. That role is not part of the Foundry RBAC role rename.
 
-- New Markdown files: lowercase, hyphen-separated.
-- Omit filler words (the, a, an, of) unless needed for clarity.
-- Keep names task- or concept-focused (for example: `monitor-model-performance.md`).
+## Protected terms (never replace)
+
+The following terms must **NEVER** be changed, regardless of context:
+
+- **Azure OpenAI** — Retains "Azure" branding as a distinct service
+- **Azure AI Projects client library** — SDK/library names remain unchanged (all case variations)
+- **Azure Project client library** — SDK/library names remain unchanged (all case variations)
+- **Azure AI services subscription** — Subscription terminology remains unchanged (all case variations)
+- **Azure AI Developer** — This role name is not part of the Foundry RBAC role rename
+- **"Azure AI Foundry is now Microsoft Foundry"** — The announcement phrase itself must not be altered
+
+**Rationale**: These terms represent specific technical artifacts (SDKs, subscription types) or the rebrand announcement that require exact terminology for accuracy.
+
+## Special handling rules
+
+### Historical context preservation
+
+When terms appear in historical or explanatory contexts (using "formerly," "previously," or "originally"), preserve the original terminology. This maintains historical accuracy.
+
+**Examples**:
+- ✅ Correct: "Document Intelligence (formerly Azure AI Form Recognizer)"
+- ✅ Correct: "This feature was previously called Azure AI Studio"
+- ❌ Incorrect: "Document Intelligence (formerly Document Intelligence)" — the old name should remain
+
+### Metadata and titles
+
+In YAML frontmatter (metadata) and the article's main title (first `#` heading):
+- Always use the **first-mention** form, even if the term appears multiple times
+- This ensures consistency in titles, descriptions, and metadata fields
+
+### YAML files vs. Markdown files
+
+- **YAML files** (TOC, configuration): Use **first-mention** form uniformly throughout (no differentiation between first and subsequent uses)
+- **Markdown files** (articles): Apply first-mention/subsequent-mention logic within the body content
+
+### Grammar corrections
+
+After shortening service names, ensure proper article usage:
+
+- Use "a" (not "an") before: Foundry, Microsoft, Language, Speech, Translator, Vision
+- **Examples**:
+  - ✅ "a Foundry resource"
+  - ✅ "a Speech service"
+  - ❌ "an Foundry resource"
+
+### Portal capitalization
+
+Use lowercase "portal" in compound terms:
+- ✅ "Azure portal"
+- ✅ "Foundry portal"
+- ❌ "Azure Portal"
+- ❌ "Foundry Portal"
+
+### Bookmark and anchor standardization
+
+When referencing document sections or creating anchors, use simplified forms:
+- Remove redundant "azure-ai" and "ai-foundry" prefixes
+- Use shortest clear form
+- **Examples**:
+  - ✅ `#create-a-guardrail-in-foundry`
+  - ✅ `#view-quotas-in-foundry-portal`
+  - ❌ `#create-a-guardrail-in-azure-ai-foundry`
+
+## Excluded content
+
+### Deprecated service folders
+
+Do **not** apply rebranding rules to the following deprecated service directories (retain original terminology):
+- `anomaly-detector`
+- `content-moderator`
+- `immersive-reader`
+- `luis`
+- `metrics-advisor`
+- `personalizer`
+- `qnamaker`
 
 
-## Referencing sources
+## Application guidelines
 
-When basing content on:
-- Internal instruction files: cite the filename inline.
-- External docs (public): use a relative or official Microsoft Learn link.
-If uncertain about a claim, mark it `[TO VERIFY]`.
+### Processing sequence
 
-## Change boundaries
+When applying branding rules, follow this order:
 
-- Don't alter original meaning unless the task explicitly requests it.
-- Safe edits: clarity, consistency, formatting, style compliance, verified corrections.
+1. **Protect** never-replace terms (temporarily preserve them)
+2. **Apply first-mention logic** to body content (first occurrence vs. subsequent)
+3. **Apply uniform replacements** to metadata and titles (always first-mention form)
+4. **Apply cleanup** (grammar, capitalization, bookmarks)
+5. **Restore** protected terms
 
+### Content sections
 
-## General guidance
+Different parts of a document receive different treatment:
 
-- Always re-check `.github/instructions/` before large edits.
-- Keep diffs focused; avoid opportunistic large-scale refactors unless requested.
-- Align with current product branding from `foundry-branding.instructions.md`.
- 
+- **Metadata (YAML frontmatter)**: All occurrences use first-mention form
+- **Title (first `#` heading)**: All occurrences use first-mention form
+- **Body content**: First occurrence uses first-mention, subsequent use short form
+
+### Compound phrases
+
+Some phrases receive special uniform treatment regardless of position:
+
+- References to "Azure AI Foundry portal" should become "Foundry portal"
+- Service-specific compound phrases should be simplified consistently
+- Links and headings containing these phrases should be updated accordingly
+
+## Examples
+
+### First mention within body content
+
+**Before**:
+```markdown
+Azure AI Foundry provides powerful capabilities. You can use Azure AI Foundry to build applications.
+```
+
+**After**:
+```markdown
+Microsoft Foundry provides powerful capabilities. You can use Foundry to build applications.
+```
+
+### AI service with context
+
+**Before**:
+```markdown
+# Use Azure AI Speech
+
+Azure AI Speech provides voice capabilities. Configure Azure AI Speech in your application.
+```
+
+**After**:
+```markdown
+# Use Azure Speech in Foundry Tools
+
+Azure Speech in Foundry Tools provides voice capabilities. Configure Speech in your application.
+```
+
+### Historical context (preserved)
+
+**Before**:
+```markdown
+Document Intelligence (formerly Azure AI Form Recognizer) processes documents.
+```
+
+**After** (unchanged):
+```markdown
+Document Intelligence (formerly Azure AI Form Recognizer) processes documents.
+```
+
+### Protected terms
+
+**Before**:
+```markdown
+Use Azure OpenAI models through Azure AI Foundry. Install the Azure AI Projects client library.
+```
+
+**After**:
+```markdown
+Use Azure OpenAI models through Microsoft Foundry. Install the Azure AI Projects client library.
+```
+
+## Summary
+
+Apply first-mention/subsequent-mention patterns consistently, respect protected terms, preserve historical context, and follow special handling rules for metadata, titles, grammar, and deprecated services. When in doubt, consult the source CSV files in `.github/rebrand-main/patterns/` for definitive rules.
 
 ---
 > Source: [MicrosoftDocs/azure-ai-docs](https://github.com/MicrosoftDocs/azure-ai-docs) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-01 -->
+<!-- tomevault:4.0:gemini_md:2026-07-27 -->
