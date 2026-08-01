@@ -1,23 +1,21 @@
 # harness
 
-> Source: [mastersof-ai/harness](https://github.com/mastersof-ai/harness) — distributed by [TomeVault](https://tomevault.io)
-
-Agent runtime with full system prompt control. Define agents in markdown, run them in a terminal TUI or multi-user web UI. Powered by the Claude Agent SDK.
+> Source: [mastersof-ai/harness](https://github.com/mastersof-ai/harness). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [mastersof-ai/harness](https://github.com/mastersof-ai/harness).
+Original source: `AGENTS.md` in [mastersof-ai/harness](https://github.com/mastersof-ai/harness).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [mastersof-ai/harness](https://github.com/mastersof-ai/harness) — a repo with 33+ stars on GitHub.
+From [mastersof-ai/harness](https://github.com/mastersof-ai/harness) — a repo with 37+ stars on GitHub.
 
 ---
 
