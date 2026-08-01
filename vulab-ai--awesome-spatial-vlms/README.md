@@ -5,12 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [vulab-AI/Awesome-Spatial-VLMs](https://github.com/vulab-AI/Awesome-Spatial-VLMs).
+Original source: `AGENTS.md` in [vulab-AI/Awesome-Spatial-VLMs](https://github.com/vulab-AI/Awesome-Spatial-VLMs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
