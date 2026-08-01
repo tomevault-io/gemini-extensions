@@ -2,9 +2,9 @@
   "name": "EasyImageEdit",
   "owner": "Zuntan03",
   "repo": "EasyImageEdit",
-  "description": "Z-Image \u3092\u7c21\u5358\u306b\u8a66\u305b\u308b\u74b0\u5883\u3067\u3059\u3002",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Zuntan03/EasyImageEdit",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-02T22:37:59Z"
+  "distributed_at": "2026-08-01T09:37:47Z"
 }
