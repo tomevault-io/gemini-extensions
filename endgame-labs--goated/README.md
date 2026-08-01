@@ -1,23 +1,21 @@
 # AI instruction files for goated
 
-> Sourced from [Endgame-Labs/goated](https://github.com/Endgame-Labs/goated) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Always-on personal AI assistant built around Claude Code and Codex.
+> Sourced from [Endgame-Labs/goated](https://github.com/Endgame-Labs/goated), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Endgame-Labs/goated](https://github.com/Endgame-Labs/goated).
+Original source: `AGENTS.md` in [Endgame-Labs/goated](https://github.com/Endgame-Labs/goated).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/Endgame-Labs/goated](https://github.com/Endgame-Labs/goated)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/Endgame-Labs/goated](https://github.com/Endgame-Labs/goated)
 
 ---
 
