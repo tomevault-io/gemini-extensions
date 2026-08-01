@@ -1,8 +1,6 @@
 # AI instruction files for codeburn
 
-> Sourced from [getagentseal/codeburn](https://github.com/getagentseal/codeburn) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.
+> Sourced from [getagentseal/codeburn](https://github.com/getagentseal/codeburn), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
@@ -17,7 +15,7 @@ Original source: `CLAUDE.md` in [getagentseal/codeburn](https://github.com/getag
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/getagentseal/codeburn](https://github.com/getagentseal/codeburn)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/getagentseal/codeburn](https://github.com/getagentseal/codeburn)
 
 ---
 
