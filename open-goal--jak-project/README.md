@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [open-goal/jak-project](https://github.com/open-goal/jak-project).
+Original source: `CLAUDE.md` in [open-goal/jak-project](https://github.com/open-goal/jak-project).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [open-goal/jak-project](https://github.com/open-goal/jak-project) — a repo with 3462+ stars on GitHub.
+From [open-goal/jak-project](https://github.com/open-goal/jak-project) — a repo with 3463+ stars on GitHub.
 
 ---
 
