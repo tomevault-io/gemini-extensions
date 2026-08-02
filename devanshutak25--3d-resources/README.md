@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [devanshutak25/3d-resources](https://github.com/devanshutak25/3d-resources).
+Original source: `AGENTS.md` in [devanshutak25/3d-resources](https://github.com/devanshutak25/3d-resources).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [devanshutak25/3d-resources](https://github.com/devanshutak25/3d-resources) — a repo with 882+ stars on GitHub.
+From [devanshutak25/3d-resources](https://github.com/devanshutak25/3d-resources) — a repo with 879+ stars on GitHub.
 
 ---
 
