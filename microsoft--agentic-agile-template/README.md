@@ -5,11 +5,10 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template).
+Original source: `CLAUDE.md` in [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
