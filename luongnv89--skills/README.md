@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [luongnv89/skills](https://github.com/luongnv89/skills).
+Original source: `CLAUDE.md` in [luongnv89/skills](https://github.com/luongnv89/skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [luongnv89/skills](https://github.com/luongnv89/skills) — a repo with 96+ stars on GitHub.
+From [luongnv89/skills](https://github.com/luongnv89/skills) — a repo with 99+ stars on GitHub.
 
 ---
 
