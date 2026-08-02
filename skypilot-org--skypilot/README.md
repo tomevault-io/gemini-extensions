@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot).
+Original source: `CLAUDE.md` in [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) — a repo with 10337+ stars on GitHub.
+From [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) — a repo with 10370+ stars on GitHub.
 
 ---
 
