@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [IoTSharp/IoTSharp](https://github.com/IoTSharp/IoTSharp).
+Original source: `AGENTS.md` in [IoTSharp/IoTSharp](https://github.com/IoTSharp/IoTSharp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [IoTSharp/IoTSharp](https://github.com/IoTSharp/IoTSharp) — a repo with 1363+ stars on GitHub.
+From [IoTSharp/IoTSharp](https://github.com/IoTSharp/IoTSharp) — a repo with 1362+ stars on GitHub.
 
 ---
 
