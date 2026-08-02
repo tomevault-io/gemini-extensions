@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ZcashFoundation/zebra](https://github.com/ZcashFoundation/zebra).
+Original source: `AGENTS.md` in [ZcashFoundation/zebra](https://github.com/ZcashFoundation/zebra).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [ZcashFoundation/zebra](https://github.com/ZcashFoundation/zebra) — a repo with 587+ stars on GitHub.
+From [ZcashFoundation/zebra](https://github.com/ZcashFoundation/zebra) — a repo with 586+ stars on GitHub.
 
 ---
 
