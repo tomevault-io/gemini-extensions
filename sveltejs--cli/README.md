@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sveltejs/cli](https://github.com/sveltejs/cli).
+Original source: `AGENTS.md` in [sveltejs/cli](https://github.com/sveltejs/cli).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [sveltejs/cli](https://github.com/sveltejs/cli) — a repo with 487+ stars on GitHub.
+From [sveltejs/cli](https://github.com/sveltejs/cli) — a repo with 488+ stars on GitHub.
 
 ---
 
