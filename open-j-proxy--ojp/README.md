@@ -1,21 +1,21 @@
 # ojp
 
-> Source: [Open-J-Proxy/ojp](https://github.com/Open-J-Proxy/ojp) — distributed by [TomeVault](https://tomevault.io)
+> Source: [Open-J-Proxy/ojp](https://github.com/Open-J-Proxy/ojp). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Open-J-Proxy/ojp](https://github.com/Open-J-Proxy/ojp).
+Original source: `AGENTS.md` in [Open-J-Proxy/ojp](https://github.com/Open-J-Proxy/ojp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [Open-J-Proxy/ojp](https://github.com/Open-J-Proxy/ojp) — a repo with 209+ stars on GitHub.
+From [Open-J-Proxy/ojp](https://github.com/Open-J-Proxy/ojp) — a repo with 218+ stars on GitHub.
 
 ---
 
