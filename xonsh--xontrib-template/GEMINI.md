@@ -6,4 +6,4 @@ Use principles from https://github.com/xonsh/xonsh/blob/main/CLAUDE.md during de
 
 ---
 > Source: [xonsh/xontrib-template](https://github.com/xonsh/xontrib-template) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-22 -->
+<!-- tomevault:4.0:gemini_md:2026-07-24 -->
