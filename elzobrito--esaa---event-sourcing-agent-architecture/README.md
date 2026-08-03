@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [elzobrito/ESAA---Event-Sourcing-Agent-Architecture](https://github.com/elzobrito/ESAA---Event-Sourcing-Agent-Architecture).
+Original source: `AGENTS.md` in [elzobrito/ESAA---Event-Sourcing-Agent-Architecture](https://github.com/elzobrito/ESAA---Event-Sourcing-Agent-Architecture).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
