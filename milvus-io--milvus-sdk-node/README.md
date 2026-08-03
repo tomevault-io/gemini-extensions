@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [milvus-io/milvus-sdk-node](https://github.com/milvus-io/milvus-sdk-node).
+Original source: `AGENTS.md` in [milvus-io/milvus-sdk-node](https://github.com/milvus-io/milvus-sdk-node).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
