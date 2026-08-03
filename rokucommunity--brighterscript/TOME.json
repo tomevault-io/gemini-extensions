@@ -4,7 +4,7 @@
   "repo": "brighterscript",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/rokucommunity/brighterscript",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T05:49:28Z"
+  "distributed_at": "2026-08-03T23:51:49Z"
 }
