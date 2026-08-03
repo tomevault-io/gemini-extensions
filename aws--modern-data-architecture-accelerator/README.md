@@ -5,11 +5,10 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [aws/modern-data-architecture-accelerator](https://github.com/aws/modern-data-architecture-accelerator).
+Original source: `CLAUDE.md` in [aws/modern-data-architecture-accelerator](https://github.com/aws/modern-data-architecture-accelerator).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
