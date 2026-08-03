@@ -2,9 +2,9 @@
   "name": "copilot-agents-dojo",
   "owner": "andreaswasita",
   "repo": "copilot-agents-dojo",
-  "description": "A behavioral governance framework for GitHub Copilot agents \u2014 skills.md and instructions to make AI coding agents think like senior engineers.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/andreaswasita/copilot-agents-dojo",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-03T07:52:53Z"
+  "distributed_at": "2026-08-03T23:35:55Z"
 }
