@@ -1,26 +1,24 @@
 # AI instruction files for copilot-agents-dojo
 
-> Sourced from [andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-A behavioral governance framework for GitHub Copilot agents — skills.md and instructions to make AI coding agents think like senior engineers.
+> Sourced from [andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo).
+Original source: `AGENTS.md` in [andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-q -->
