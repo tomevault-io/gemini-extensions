@@ -2,9 +2,9 @@
   "name": "ruler",
   "owner": "intellectronica",
   "repo": "ruler",
-  "description": "Ruler \u2014 apply the same rules to all coding agents",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/intellectronica/ruler",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T03:20:01Z"
+  "distributed_at": "2026-08-03T09:11:53Z"
 }
