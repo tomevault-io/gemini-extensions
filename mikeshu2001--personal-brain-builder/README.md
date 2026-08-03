@@ -1,0 +1,30 @@
+# personal-brain-builder
+
+> Tome by [mikeshu2001](https://github.com/mikeshu2001/personal-brain-builder), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+Beginner-guided cross-project memory builder for AI assistants
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [mikeshu2001/personal-brain-builder](https://github.com/mikeshu2001/personal-brain-builder).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/mikeshu2001/personal-brain-builder](https://github.com/mikeshu2001/personal-brain-builder)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install mikeshu2001/personal-brain-builder
+```
+Source: [github.com/mikeshu2001/personal-brain-builder](https://github.com/mikeshu2001/personal-brain-builder).
+
+<!-- genome:t-i-q -->
