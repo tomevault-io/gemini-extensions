@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [47ng/nuqs](https://github.com/47ng/nuqs).
+Original source: `CLAUDE.md` in [47ng/nuqs](https://github.com/47ng/nuqs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [47ng/nuqs](https://github.com/47ng/nuqs) — a repo with 10692+ stars on GitHub.
+From [47ng/nuqs](https://github.com/47ng/nuqs) — a repo with 10703+ stars on GitHub.
 
 ---
 
