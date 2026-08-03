@@ -4,7 +4,7 @@
   "repo": "zsh-eza",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/z-shell/zsh-eza",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-28T09:07:53Z"
+  "distributed_at": "2026-08-03T14:00:48Z"
 }
