@@ -7,12 +7,12 @@ Read, create, and modify Figma designs programmatically via MCP, empowering AI t
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [neozhehan/figma-edit-mcp](https://github.com/neozhehan/figma-edit-mcp).
+Original source: `CLAUDE.md` in [neozhehan/figma-edit-mcp](https://github.com/neozhehan/figma-edit-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
