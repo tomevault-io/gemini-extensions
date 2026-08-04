@@ -4,7 +4,7 @@
   "repo": "PR-Metrics",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/microsoft",
+  "source_url": "https://github.com/microsoft/PR-Metrics",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-16T19:56:41Z"
+  "distributed_at": "2026-08-04T22:28:51Z"
 }
