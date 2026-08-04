@@ -1,26 +1,24 @@
 # proxy
 
-> Source: [dependabot/proxy](https://github.com/dependabot/proxy) — distributed by [TomeVault](https://tomevault.io)
-
-Dependabot's HTTP proxy to authenticate requests to package registries, git servers, and the GitHub API
+> Source: [dependabot/proxy](https://github.com/dependabot/proxy). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [dependabot/proxy](https://github.com/dependabot/proxy).
+Original source: `AGENTS.md` in [dependabot/proxy](https://github.com/dependabot/proxy).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/dependabot/proxy](https://github.com/dependabot/proxy)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/dependabot/proxy](https://github.com/dependabot/proxy)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-q -->
