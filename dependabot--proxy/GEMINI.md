@@ -1,90 +1,179 @@
 ## proxy
 
-> This is a MITM (Man-in-the-Middle) HTTP/HTTPS proxy that intercepts requests and injects authentication credentials. Built on [elazarl/goproxy](https://github.com/elazarl/goproxy), it adds auth to requests for GitHub API, private package registries, and git servers based on configured credentials.
+> generates Go client/server/shape code from Smithy models.
 
-# Dependabot Proxy - AI Coding Instructions
+# AGENTS.md
 
-## Architecture Overview
+## Project overview
 
-This is a MITM (Man-in-the-Middle) HTTP/HTTPS proxy that intercepts requests and injects authentication credentials. Built on [elazarl/goproxy](https://github.com/elazarl/goproxy), it adds auth to requests for GitHub API, private package registries, and git servers based on configured credentials.
+smithy-go is the Go code generator and runtime for [Smithy](https://smithy.io/).
+It has two major components:
 
-**Request Flow:**
+1. **Codegen** (`codegen/`) — A Smithy build plugin written in Java that
+   generates Go client/server/shape code from Smithy models.
+2. **Runtime** (`./`, top-level Go module) — The Go packages that generated
+   code depends on at runtime.
 
-1. `main.go` bootstraps server, parses config (JSON from file or stdin)
-2. `proxy.go` chains handlers via `proxy.OnRequest().DoFunc()` and `proxy.OnResponse().DoFunc()`
-3. Each handler in `internal/handlers/` checks if it should handle the request (host match, scheme, method), then injects auth headers
+The primary downstream consumer is
+[aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2).
 
-## Handler Pattern
+## Repository layout
 
-Handlers follow a consistent structure - see [github_api.go](../internal/handlers/github_api.go) as the canonical example:
-
-```go
-type FooHandler struct {
-    credentials *someCredentialsMap  // credential storage
-}
-
-func NewFooHandler(creds config.Credentials) *FooHandler {
-    // Filter credentials by type, extract to internal struct
-}
-
-func (h *FooHandler) HandleRequest(req *http.Request, ctx *goproxy.ProxyCtx) (*http.Request, *http.Response) {
-    // 1. Guard: check scheme (https), method (GET/HEAD), host match
-    // 2. Find matching credentials
-    // 3. Set auth header (Authorization, BasicAuth, or custom)
-    // 4. Use ctxdata.SetValue() to mark request for response handling
-    return req, nil
-}
-
-func (h *FooHandler) HandleResponse(rsp *http.Response, ctx *goproxy.ProxyCtx) *http.Response {
-    // Retry with alternate credentials on 401/403/404
-}
+```
+.                               # Root Go module (github.com/aws/smithy-go)
+├── auth/                       # Auth identity + scheme interfaces
+│   └── bearer/                 # Bearer token auth
+├── aws-http-auth/              # Separate module: AWS SigV4/SigV4A HTTP signing
+├── codegen/                    # Java/Gradle: Smithy code generator
+│   ├── smithy-go-codegen/      # Main codegen source (Java)
+│   └── smithy-go-codegen-test/ # Codegen integration tests
+├── container/                  # Generic container types
+├── context/                    # Context helpers
+├── document/                   # Smithy document type abstraction
+│   └── json/                   # JSON document codec
+├── encoding/                   # Wire format encoders/decoders
+│   ├── cbor/                   # CBOR (used by rpcv2Cbor)
+│   ├── httpbinding/            # HTTP binding serde helpers
+│   ├── json/                   # JSON encoder/decoder
+│   └── xml/                    # XML encoder/decoder
+├── endpoints/                  # Endpoint resolution types
+├── internal/                   # Internal utilities (singleflight, etc.)
+├── io/                         # I/O helpers
+├── logging/                    # Logging interfaces
+├── metrics/                    # Metrics interfaces
+│   └── smithyotelmetrics/      # Separate module: OpenTelemetry metrics adapter
+├── middleware/                 # Middleware stack (the core of the operation pipeline)
+├── ptr/                        # Pointer-to/from-value helpers
+├── testing/                    # Test assertion helpers for generated protocol tests
+│   └── xml/                    # XML comparison utilities
+├── time/                       # Smithy timestamp format helpers
+├── tracing/                    # Tracing interfaces
+│   └── smithyoteltracing/      # Separate module: OpenTelemetry tracing adapter
+└── transport/
+    └── http/                   # HTTP request/response types and middleware
 ```
 
-## Key Conventions
+## Building and testing
 
-- **Helper functions**: Use `helpers.GetHost(req)`, `helpers.MethodPermitted(req, "GET", "HEAD")`, `helpers.CheckHost()` for request validation
-- **Context data**: Use `ctxdata.SetValue(ctx, key, value)` and `ctxdata.GetBool(ctx, key)` to pass state between request/response handlers
-- **Logging**: Use `logging.RequestLogf(ctx, "* message %s", arg)` - asterisk prefix is convention, ctx adds session ID
-- **Credentials**: Parse from `config.Credentials` slice, use `cred.GetString("key")`, `cred.Host()`, `cred.Type()`
-
-## Build & Test
+### Runtime (Go)
 
 ```bash
-make build           # Build binary
-make docker-build    # Build Docker image
-script/test          # Run tests in Docker with race detection (-race -count=2)
-go test ./...        # Run tests locally
+# Run unit tests
+make unit
 ```
 
-**Test pattern**: Tests use `httptest.NewRequest()` and test helper functions from [test_helpers.go](../internal/handlers/test_helpers.go):
+### Codegen (Java)
 
-- `testGitSourceCred(host, username, password, opts...)` - create test credentials
-- `assertHasTokenAuth(t, req, "Bearer", token, "msg")` - verify auth header
-- `assertHasBasicAuth(t, req, user, pass, "msg")` - verify basic auth
-- `assertUnauthenticated(t, req, "msg")` - verify no auth added
+```bash
+# Build and test codegen
+cd codegen && ./gradlew build
 
-## Adding a New Handler
+# Publish to local Maven for downstream use
+cd codegen && ./gradlew publishToMavenLocal
+```
 
-1. Create `internal/handlers/{name}.go` and `{name}_test.go`
-2. Define handler struct with credentials storage
-3. Implement `NewXxxHandler(creds config.Credentials)` constructor
-4. Implement `HandleRequest` with guard clauses first
-5. Register in `proxy.go`: `proxy.OnRequest().DoFunc(handler.HandleRequest)`
+The codegen artifact version is fixed at `0.1.0` and is not published to
+Maven Central — you **MUST** `publishToMavenLocal`.
 
-## OIDC Support
+## Runtime architecture
 
-Handlers can support OIDC token exchange for Azure, JFrog, or AWS. See [oidc_credential.go](../internal/oidc/oidc_credential.go):
+### Middleware stack
 
-- Check `oidc.CreateOIDCCredential(cred)` to detect OIDC config
-- Use `oidc.GetOrRefreshOIDCToken(cred, ctx)` for cached token retrieval
-- Tokens are cached with 5-minute expiry buffer
+The operation pipeline is built on a middleware stack defined in `middleware/`.
+Steps execute in order: Initialize → Serialize → Build → Finalize →
+Deserialize. Each step is a `middleware.Step` that holds an ordered list of
+middleware. The codegen generates middleware registrations for each operation.
 
-## Environment Variables
+### Encoding packages
 
-- `DEPENDABOT_API_URL`, `JOB_ID`, `JOB_TOKEN` - API client config
-- `SENTRY_DSN` - Error reporting
-- `PROXY_CACHE=true` - Enable response caching
+Each wire format has its own encoder/decoder under `encoding/`. These are
+low-level — they produce/consume raw tokens or values, not full Smithy shapes.
+Generated serde code calls into these packages.
+
+## Codegen: GoWriter and template system
+
+GoWriter extends Smithy's `SymbolWriter` and is the primary mechanism for
+generating Go source. It has **two distinct writing styles** that must not be
+confused.
+
+### Style 1: Positional args (`writer.write` / `writer.openBlock`)
+
+Inherited from `SymbolWriter`. Arguments are positional and referenced with
+`$`-prefixed format characters. Each `$X` consumes the next argument in order.
+
+Format characters:
+- `$L` — Literal (toString). Strings, names, anything that should be inserted
+  verbatim.
+- `$S` — String, quoted. Wraps the value in Go double-quotes.
+- `$T` — Type (Symbol). Inserts the symbol name and auto-adds its import.
+- `$P` — Pointable type (Symbol). Like `$T` but prepends `*` if the symbol is
+  marked pointable.
+- `$W` — Writable. Evaluates a `Writable` (lambda/closure) inline.
+- `$D` — Dependency. Adds a `GoDependency` import, expands to empty string.
+
+Numbered variants (`$1L`, `$2T`, etc.) allow reusing the same argument
+multiple times. The number is 1-indexed and refers to the position in the
+argument list:
+
+```java
+// $1L is used twice, $2L once — only 2 args needed
+writer.write("type $1L struct{}\nvar _ $2L = (*$1L)(nil)",
+    DEFAULT_NAME, INTERFACE_NAME);
+```
+
+`openBlock`/`closeBlock` manage indentation for braced blocks. Arguments are
+positional:
+
+```java
+writer.openBlock("func (c $P) $T(ctx $T) ($P, error) {", "}",
+    serviceSymbol, operationSymbol, contextSymbol, outputSymbol,
+    () -> {
+        writer.write("return nil, nil");
+    });
+```
+
+### Style 2: Named template args (`goTemplate` / `writeGoTemplate`)
+
+Uses `$name:X` syntax where `name` is a key in a `Map<String, Object>` and `X`
+is the format character. Arguments are passed as one or more maps. This is the
+**preferred style for new code** — it is more readable and less error-prone
+than positional args.
+
+```java
+return goTemplate("""
+    func $name:L(v $cborValue:T) ($type:T, error) {
+        return $coercer:T(v)
+    }
+    """,
+    Map.of(
+        "name", getDeserializerName(shape),
+        "cborValue", SmithyGoTypes.Encoding.Cbor.Value,
+        "type", symbolProvider.toSymbol(shape),
+        "coercer", coercer
+    ));
+```
+
+Rules:
+- `goTemplate(String, Map...)` is a **static** method that returns a
+  `Writable` (a `Consumer<GoWriter>` lambda). It does NOT write immediately.
+- `writeGoTemplate(String, Map...)` is an **instance** method that writes
+  immediately to the writer.
+- Maps are merged into the writer's context scope for the duration of the
+  template. Multiple maps can be passed and are applied in order.
+- The writer pre-populates common symbols in context: `fmt.Sprintf`,
+  `fmt.Errorf`, `errors.As`, `context.Context`, `time.Now`.
+
+### Composing writables
+
+- `ChainWritable` — Collects multiple `Writable`s and composes them with
+  newlines between each. Use `.compose()` (with newlines) or
+  `.compose(false)` (without).
+
+### Symbol constants
+
+For symbols, use `SmithyGoDependency.*.valueSymbol("Name")` or
+`SmithyGoDependency.*.pointableSymbol("Name")`.
 
 ---
 > Source: [dependabot/proxy](https://github.com/dependabot/proxy) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-21 -->
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
