@@ -7,13 +7,13 @@ Top arena Roblox game
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [CloudyOutside/TopSpin](https://github.com/CloudyOutside/TopSpin).
+Original source: `CLAUDE.md` in [CloudyOutside/TopSpin](https://github.com/CloudyOutside/TopSpin).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
