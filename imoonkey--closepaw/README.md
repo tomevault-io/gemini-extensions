@@ -1,19 +1,19 @@
 # closepaw
 
-> Source: [imoonkey/closepaw](https://github.com/imoonkey/closepaw). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [imoonkey/closepaw](https://github.com/imoonkey/closepaw). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 Open-source Android phone-use agent. Your phone, on autopilot.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [imoonkey/closepaw](https://github.com/imoonkey/closepaw).
+Original source: `CLAUDE.md` in [imoonkey/closepaw](https://github.com/imoonkey/closepaw).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
