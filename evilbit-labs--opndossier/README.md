@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [EvilBit-Labs/opnDossier](https://github.com/EvilBit-Labs/opnDossier).
+Original source: `AGENTS.md` in [EvilBit-Labs/opnDossier](https://github.com/EvilBit-Labs/opnDossier).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
