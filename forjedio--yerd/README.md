@@ -7,12 +7,12 @@ A powerful, developer-friendly tool for local PHP development
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [forjedio/yerd](https://github.com/forjedio/yerd).
+Original source: `CLAUDE.md` in [forjedio/yerd](https://github.com/forjedio/yerd).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
