@@ -142,5 +142,5 @@ via `TokenManager`.
 - The localization system requires `locInitialize()` before using `loc()` calls
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/microsoft) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-13 -->
+> Source: [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
