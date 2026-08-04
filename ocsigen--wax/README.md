@@ -1,0 +1,30 @@
+# wax
+
+> Source: [ocsigen/wax](https://github.com/ocsigen/wax). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+Rust-like syntax for WebAssembly featuring a full toolchain for conversion, type-checking, and auto-formatting.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [ocsigen/wax](https://github.com/ocsigen/wax).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [ocsigen/wax](https://github.com/ocsigen/wax) — a repo with 31+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install ocsigen/wax
+```
+Source: [github.com/ocsigen/wax](https://github.com/ocsigen/wax).
+
+<!-- genome:d-i-s -->
