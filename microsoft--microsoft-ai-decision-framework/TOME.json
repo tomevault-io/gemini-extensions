@@ -2,9 +2,9 @@
   "name": "Microsoft-AI-Decision-Framework",
   "owner": "microsoft",
   "repo": "Microsoft-AI-Decision-Framework",
-  "description": "Evidence-based decision framework for selecting the right Microsoft AI technology (M365 Copilot, Copilot Studio, Azure AI Foundry, Agent Service) for your business needs",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/Microsoft-AI-Decision-Framework",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-25T00:37:20Z"
+  "distributed_at": "2026-08-04T06:25:25Z"
 }
