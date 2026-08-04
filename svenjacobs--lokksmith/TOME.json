@@ -4,7 +4,7 @@
   "repo": "lokksmith",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -38,7 +38,7 @@
     }
   ],
   "skills": [],
-  "claim_url": "https://tomevault.io/claim/svenjacobs",
+  "source_url": "https://github.com/svenjacobs/lokksmith",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-15T07:06:10Z"
+  "distributed_at": "2026-08-04T19:33:07Z"
 }
