@@ -2,9 +2,9 @@
   "name": "railtracks",
   "owner": "RailtownAI",
   "repo": "railtracks",
-  "description": "An agentic framework that helps developers build resilient agentic systems",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/RailtownAI/railtracks",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-18T16:15:16Z"
+  "distributed_at": "2026-08-04T18:02:12Z"
 }
