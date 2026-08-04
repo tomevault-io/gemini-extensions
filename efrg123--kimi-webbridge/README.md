@@ -1,0 +1,30 @@
+# kimi-webbridge
+
+> Source: [efrg123/kimi-webbridge](https://github.com/efrg123/kimi-webbridge). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+Kimi WebBridge v2.0 — Chrome Extension + Node.js WebSocket daemon for browser automation
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [efrg123/kimi-webbridge](https://github.com/efrg123/kimi-webbridge).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/efrg123/kimi-webbridge](https://github.com/efrg123/kimi-webbridge)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install efrg123/kimi-webbridge
+```
+Source: [github.com/efrg123/kimi-webbridge](https://github.com/efrg123/kimi-webbridge).
+
+<!-- genome:d-i-q -->
