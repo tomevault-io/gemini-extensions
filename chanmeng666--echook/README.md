@@ -1,17 +1,15 @@
 # echook
 
-> Source: [ChanMeng666/echook](https://github.com/ChanMeng666/echook) — distributed by [TomeVault](https://tomevault.io)
-
-🔊 echook — AI-operated audio notifications for Claude Code, Cursor IDE & Codex CLI — 26 hooks, voice + chime themes, TTS, webhooks, rate-limit alerts, status line. Tell your AI agent to install — natural language forever after.
+> Source: [ChanMeng666/echook](https://github.com/ChanMeng666/echook). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ChanMeng666/echook](https://github.com/ChanMeng666/echook).
+Original source: `AGENTS.md` in [ChanMeng666/echook](https://github.com/ChanMeng666/echook).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
