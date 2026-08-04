@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [zeljkoobrenovic/sokrates](https://github.com/zeljkoobrenovic/sokrates).
+Original source: `AGENTS.md` in [zeljkoobrenovic/sokrates](https://github.com/zeljkoobrenovic/sokrates).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
