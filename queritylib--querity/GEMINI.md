@@ -1,85 +1,215 @@
 ## querity
 
-> This document provides essential information for GitHub Copilot to understand the Querity project structure and tech
+> This document provides instructions for AI coding agents working on the Querity project.
 
-# Copilot Project Instructions
+# AGENTS.md - AI Coding Agent Instructions
 
-This document provides essential information for GitHub Copilot to understand the Querity project structure and tech
-stack.
+This document provides instructions for AI coding agents working on the Querity project.
 
 ## Project Overview
 
-Querity is an open-source, extensible Java query builder for SQL and NoSQL databases. It is modular, supporting various
-database technologies via dedicated modules.
+Querity is an open-source, extensible Java query builder for SQL and NoSQL databases. It is modular, supporting JPA,
+MongoDB, and Elasticsearch via dedicated modules.
 
-## Tech Stack
+**Tech Stack:**
 
-- **Language:** Java (minimum version 17)
-- **Frameworks:**
-    - Spring Framework 6
-    - Spring Boot 3 (optional, recommended for simplicity)
-- **Build Tool:** Maven (with wrapper scripts)
-- **Testing:** JUnit (standard for Java projects)
-- **Code Quality:** SonarCloud integration
-- **Other:** Lombok (for code generation)
+- Java 17+
+- Spring Boot 4
+- Maven (with wrapper scripts)
+- JUnit 5 + AssertJ for testing
+- Lombok for boilerplate reduction
+- Jackson 3 for JSON serialization
 
-## Main Modules
+## Build Commands
 
-- **querity-api:** Core API definitions
-- **querity-common:** Shared utilities and abstractions
-- **querity-jpa:** Jakarta Persistence API support (plain JPA)
-- **querity-jpa-common:** Common JPA logic
-- **querity-jpa-common-test:** JPA test utilities
-- **querity-parser:** Query language parser
-- **querity-spring-data-jpa:** Spring Data JPA integration
-- **querity-spring-data-mongodb:** Spring Data MongoDB integration
-- **querity-spring-data-elasticsearch:** Spring Data Elasticsearch integration
-- **querity-spring-web:** Spring Web MVC support (JSON serialization/deserialization)
-- **querity-test:** Test utilities and datasets
+```bash
+# Build and run all tests (from querity/ directory)
+./mvnw verify
 
-## Usage Patterns
+# Compile only (skip tests)
+./mvnw compile -DskipTests
 
-- Queries are built using a fluent API or a simple query language (via `querity-parser`).
-- Integration with Spring and JPA is modular; import only the modules needed for your project.
-- All Spring modules are "Spring Boot starters" for easy integration.
+# Run all tests
+./mvnw test
 
-## Directory Structure
+# Run tests for a specific module
+./mvnw test -pl querity-api
+./mvnw test -pl querity-jpa-common
+./mvnw test -pl querity-spring-data-jpa
 
-- Each module is a Maven subproject with its own `pom.xml` and `src/main`/`src/test` directories.
-- The root project contains a parent `pom.xml` with common configurations and dependencies, and Maven Wrapper scripts (
-  `mvnw`, `mvnw.cmd`).
+# Run a single test class
+./mvnw test -pl querity-api -Dtest=ConditionTests
 
-## Development Notes
+# Run a single test method
+./mvnw test -pl querity-api -Dtest=ConditionTests#givenNoOperator_whenBuildSimpleCondition_thenReturnEqualsCondition
 
-- Use Maven Wrapper for building and testing the project (`./mvnw` on Linux or `.\mvnw.cmd` on Windows).
+# Clean build
+./mvnw clean verify
+```
 
-## Testing
+On Windows, use `mvnw.cmd` instead of `./mvnw`.
 
-- You should aim for complete test coverage in each module using unit tests and integration tests.
-- A generic integration test suite is provided in
-  `querity-test/src/main/java/io/github/queritylib/querity/test/QuerityGenericTestSuite.java`, this file gets extended
-  in other modules to ensure consistent behavior across different database implementations, specifically:
-    - `querity-jpa/src/test/java/io/github/queritylib/querity/jpa/QuerityJpaImplTests.java`
-      abstract class for plain JPA (there is actually one concrete classes for H2)
-    - `querity-spring-data-jpa/src/test/java/io/github/queritylib/querity/spring/data/jpa/QuerityJpaImplTests.java`
-      abstract class for Spring Data JPA (there are actually two concrete classes: one for H2 and one for PostgreSQL)
-    -
-    `querity-spring-data-mongodb/src/test/java/io/github/queritylib/querity/spring/data/mongodb/QuerityMongodbImplTests.java`
-    for Spring Data MongoDB
-    -
-    `querity-spring-data-elasticsearch/src/test/java/io/github/queritylib/querity/spring/data/elasticsearch/QuerityElasticsearchImplTests.java`
-    for Spring Data Elasticsearch
-- You should avoid implementing integration tests specific for a single database technology; instead, use the generic
-  test suite wherever possible.
+## Project Structure
 
-## References
+```
+querity/
+├── querity-api/           # Core API definitions (Query, Condition, Operator, etc.)
+├── querity-common/        # Shared utilities and abstractions
+├── querity-jpa/           # Plain Jakarta Persistence API support
+├── querity-jpa-common/    # Common JPA logic shared between JPA modules
+├── querity-jpa-common-test/ # JPA test utilities
+├── querity-spring-data-jpa/       # Spring Data JPA integration
+├── querity-spring-data-mongodb/   # Spring Data MongoDB integration
+├── querity-spring-data-elasticsearch/ # Spring Data Elasticsearch integration
+├── querity-spring-web/    # Spring Web MVC support (JSON de/serialization)
+├── querity-parser/        # Query language parser (textual query syntax)
+└── querity-test/          # Test utilities and shared test datasets
+```
 
-- [Querity Documentation](https://queritylib.github.io/querity)
+## Code Style Guidelines
+
+### Formatting
+
+- **Indentation:** 2 spaces (no tabs)
+- **Line endings:** LF (Unix style)
+- **Charset:** UTF-8
+- **Trailing whitespace:** Remove
+- **Final newline:** Insert
+
+### Imports
+
+- Use specific imports, avoid wildcards in production code
+- Static imports are encouraged for test readability and fluent API usage:
+  ```java
+  import static io.github.queritylib.querity.api.Operator.*;
+  import static io.github.queritylib.querity.api.Querity.*;
+  import static org.assertj.core.api.Assertions.assertThat;
+  ```
+- Order: java.*, jakarta.*, third-party, project classes
+
+### Naming Conventions
+
+- **Classes:** PascalCase (e.g., `PropertyValueExtractor`, `JpaOperatorMapper`)
+- **Interfaces:** PascalCase, no `I` prefix (e.g., `Querity`, `Condition`)
+- **Methods:** camelCase (e.g., `filterBy`, `getPropertyName`)
+- **Constants:** UPPER_SNAKE_CASE (e.g., `PROPERTY_LAST_NAME`)
+- **Test classes:** `{ClassName}Tests` (e.g., `ConditionTests`, `QueryTests`)
+- **Test methods:** `given{Precondition}_when{Action}_then{ExpectedResult}`
+
+### Lombok Usage
+
+- Use `@Builder`, `@Getter`, `@EqualsAndHashCode`, `@ToString` for DTOs/value objects
+- Use `@NoArgsConstructor(access = AccessLevel.PRIVATE)` for utility classes
+- Use `@Jacksonized` with `@Builder` for JSON deserialization support
+- Lombok config: `lombok.addLombokGeneratedAnnotation = true` (for code coverage)
+
+### Types and Generics
+
+- Prefer interfaces over concrete types in method signatures
+- Use bounded wildcards appropriately (`? extends`, `? super`)
+- Suppress warnings explicitly when unchecked casts are necessary:
+  ```java
+  @SuppressWarnings({"unchecked", "rawtypes"})
+  ```
+
+### Error Handling
+
+- Throw `IllegalArgumentException` for invalid method arguments
+- Throw `UnsupportedOperationException` for unimplemented features
+- Use descriptive error messages explaining what went wrong
+- Validate inputs in builder `build()` methods
+
+### Documentation
+
+- Use Javadoc for public API methods with `@param`, `@return`, `@see`
+- Include code examples in Javadoc using `{@code}` or `<pre>{@code ... }</pre>`
+- Document backend-specific behavior (JPA vs MongoDB vs Elasticsearch)
+
+## Testing Guidelines
+
+### Test Structure
+
+- Use JUnit 5 with AssertJ assertions
+- Use `@Nested` classes to group related tests
+- Follow the given-when-then naming pattern for test methods
+
+### Integration Tests
+
+- A generic test suite exists in `querity-test/src/main/java/.../QuerityGenericTestSuite.java`
+- Database-specific tests extend this suite for consistent behavior across backends
+- Avoid database-specific test implementations; use the generic suite when possible
+
+### Test Examples
+
+```java
+@Test
+void givenFilterByIdEqualsCondition_whenFindAll_thenReturnOnlyFilteredElements() {
+    Query query = Querity.query()
+        .filter(filterBy("id", EQUALS, entity1.getId()))
+        .build();
+    List<T> result = querity.findAll(getEntityClass(), query);
+    assertThat(result).containsExactly(entity1);
+}
+```
+
+### Coverage Requirements
+
+- JaCoCo enforces 80% line coverage per class
+- Excluded from coverage: generated ANTLR parser classes (`QueryLexer`, `QueryParser*`)
+
+## API Design Patterns
+
+### Fluent Builder Pattern
+
+```java
+Query query = Querity.query()
+    .filter(filterBy("status", EQUALS, "ACTIVE"))
+    .sort(sortBy("lastName", DESC))
+    .pagination(1, 10)
+    .build();
+```
+
+### Static Factory Methods
+
+The `Querity` interface provides static factory methods:
+
+- `filterBy()`, `filterByField()`, `filterByNative()`
+- `sortBy()`, `sortByNative()`
+- `selectBy()`, `selectByNative()`
+- `and()`, `or()`, `not()`
+- `prop()`, `lit()` for function expressions
+- `upper()`, `lower()`, `length()`, `concat()`, etc. for functions
+
+### Native Expression Support
+
+JPA modules support native expressions using functional interfaces:
+
+```java
+OrderSpecification<Person> spec = (root, cb) -> cb.asc(cb.length(root.get("name")));
+Query query = Querity.query().sort(sortByNative(spec)).build();
+```
+
+## Module Dependencies
+
+- All modules depend on `querity-api`
+- `querity-common` provides shared utilities used by implementations
+- `querity-test` provides test fixtures used by implementation tests
+- `querity-jpa-common-test` provides JPA-specific test utilities
+
+## SonarCloud Integration
+
+- Project is analyzed on SonarCloud: https://sonarcloud.io/summary/new_code?id=queritylib_querity
+- Excluded from analysis: `querity-test/**`, `querity-jpa-common-test/**`
+
+## GitHub Copilot Instructions
+
+(From `.github/copilot-instructions.md`)
+
+- Use Maven Wrapper for building: `./mvnw` (Linux) or `.\mvnw.cmd` (Windows)
+- Aim for complete test coverage using unit and integration tests
+- Use the generic integration test suite (`QuerityGenericTestSuite`) for consistent behavior
+- Avoid database-specific test implementations; extend the generic suite instead
 
 ---
-This file is intended for Copilot and other automation tools to understand the structure, tech stack, and integration
-points of the Querity project.
-
----
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/queritylib) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:gemini_md:2026-04-09 -->
+> Source: [queritylib/querity](https://github.com/queritylib/querity) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
