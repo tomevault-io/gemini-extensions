@@ -1,21 +1,21 @@
-# PR-Metrics — distributed by TomeVault
+# PR-Metrics
 
-> Originally from [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics). Converted and distributed by [TomeVault](https://tomevault.io)
+> Source: [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics).
+Original source: `AGENTS.md` in [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From a repo with 0+ stars on GitHub. [See the full profile](https://tomevault.io/claim/microsoft)
+From [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics) — a repo with 84+ stars on GitHub.
 
 ---
 
@@ -23,6 +23,6 @@ Install this config instantly:
 ```
 npx tomevault install microsoft/PR-Metrics
 ```
-Or browse all formats at [https://tomevault.io/claim/microsoft](https://tomevault.io/claim/microsoft).
+Source: [github.com/microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics).
 
 <!-- genome:d-i-s -->
