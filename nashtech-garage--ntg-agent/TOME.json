@@ -2,9 +2,9 @@
   "name": "ntg-agent",
   "owner": "nashtech-garage",
   "repo": "ntg-agent",
-  "description": "A sample Chatbot in C# using Microsoft Agent Framework",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/nashtech-garage/ntg-agent",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T23:36:42Z"
+  "distributed_at": "2026-08-05T11:26:01Z"
 }
