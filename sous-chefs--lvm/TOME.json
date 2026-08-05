@@ -4,7 +4,7 @@
   "repo": "lvm",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/sous-chefs/lvm",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-27T06:08:59Z"
+  "distributed_at": "2026-08-05T23:41:46Z"
 }
