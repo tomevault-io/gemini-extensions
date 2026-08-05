@@ -1,147 +1,114 @@
 ## swissgeol-viewer-suite
 
-> A 3D geological data viewer for Switzerland (viewer.swissgeol.ch).
+> A 3D geological viewer for Switzerland built on CesiumJS, with a Rust API backend. Uses Docker Compose for development.
 
-# Copilot Instructions — swissgeol-viewer-app
+# AGENTS.md — swissgeol-viewer-suite
 
-A 3D geological data viewer for Switzerland (viewer.swissgeol.ch).
-Four services: **UI** (Lit/Vite, port 8000), **API** (Rust/Axum, port 3000), **titiler** (GeoTIFF tiles, port 8481), **abbreviator** (URL shortener, port 8001).
+A 3D geological viewer for Switzerland built on CesiumJS, with a Rust API backend. Uses Docker Compose for development.
 
-## Build, Test, and Lint Commands
+## Architecture Overview
 
-### UI (`ui/`)
+Four services wired together:
 
-```sh
-npm start              # Dev server (port 8000)
-npm run build          # Full production build (clean + static + vite)
-npm run lint           # ESLint + Prettier check
-npm run lint:fix       # ESLint + Prettier auto-fix
-npm run check          # TypeScript type-check (tsc --noEmit)
+| Service       | Tech                      | Port                 | Purpose                                 |
+| ------------- | ------------------------- | -------------------- | --------------------------------------- |
+| `ui`          | TypeScript, Lit, CesiumJS | 8000                 | 3D viewer SPA                           |
+| `api`         | Rust (Axum, SQLx)         | 3000 (8480 external) | REST API, layer config, project storage |
+| `abbreviator` | External Go service       | 8001                 | URL shortening                          |
+| `titiler`     | Python (TiTiler)          | 8481                 | GeoTIFF tile server                     |
 
-# E2E tests (Cypress + Cucumber BDD) — requires running dev server
-npm run e2e            # Start server + run all Cypress tests headless
-npm run cypress:open   # Open Cypress interactive runner
-npm run cypress:run    # Run Cypress headless (server must be running)
+The UI dev server proxies `/api` → Rust API and `/abbr` → abbreviator (see `ui/vite.config.ts`). The API reads layer configuration from `layers/layertree.json5` at startup and serves it at `GET /api/layers`. PostgreSQL stores user projects; MinIO (dev) / AWS S3 (prod) stores project assets.
 
-# Run a single Cypress feature file
-npx cypress run --spec cypress/e2e/someFeature.feature
+## Developer Workflows
+
+```bash
+# Full stack (required before local API/UI work)
+docker compose up
+
+# UI dev server (hot-reload, runs inside Docker but can also run directly)
+cd ui && npm install && npm start        # http://localhost:8000
+
+# API local dev
+cd api && cargo fetch
+make run                                 # starts Docker db + minio, runs API natively
+
+# Type-check UI
+cd ui && npm run check
+
+# Lint & format UI (ESLint + Prettier; also runs via husky pre-commit)
+cd ui && npm run lint:fix
+
+# Run Rust tests / lint
+cd api && cargo test && cargo clippy && cargo fmt
+
+# Run E2E tests (Cypress + Cucumber, needs built app)
+cd ui && npm run e2e
+
+# Validate layer config (runs API with --validate-only)
+cd ui && npm run config:validate
+
+# Extract i18n keys
+cd ui && npm run extract-i18n
 ```
 
-### API (`api/`)
+### DB Migrations (sqlx-cli required)
 
-```sh
-cargo build            # Build
-cargo test             # Run tests (requires Postgres via docker compose)
-cargo fmt              # Format
-cargo clippy           # Lint
-
-# Run a single test
-cargo test test_name
+```bash
+sqlx migrate add -r <description>   # create reversible migration in api/migrations/
+sqlx database reset                  # reset + re-run all migrations
+cargo sqlx prepare -- --lib          # regenerate sqlx offline query cache after SQL changes
 ```
 
-API tests require a running PostgreSQL instance. Use `docker compose -f docker-compose-tests.yaml up` or the dev composition.
+## UI Component Patterns
 
-### Full Stack (Docker)
+**Two base classes** — use `CoreElement` for new components, `LitElementI18n` for legacy:
 
-```sh
-docker compose up      # Start all 4 services with hot-reload
+- `CoreElement` (`src/features/core/core-element.element.ts`): handles i18n re-renders, RxJS subscriptions via `this.register()`, and a `willFirstUpdate()` lifecycle hook.
+- All UI components are custom elements; older ones use the `ngm-` prefix, newer feature-based ones use the `core-` prefix.
+
+**Feature modules** (`src/features/`): each sub-directory has a `*.module.ts` that side-effect-imports all elements in that feature (e.g., `layer.module.ts`, `core.module.ts`). Import the module file to register its elements.
+
+**Global state** lives in RxJS `BehaviorSubject`-based store classes under `src/store/` (e.g., `MainStore`, `ToolboxStore`, `DashboardStore`). Cross-component data also flows via `@lit/context` (e.g., `clientConfigContext` in `src/context/`).
+
+## Layer Configuration
+
+Layers are defined in JSON5 files under `layers/`. The main file is `layers/layertree.json5`, which uses `includes` to compose from `01-maps_and_models.json5`, `layers_3dtiles.json5`, etc.
+
+Every layer needs at minimum `{ type, id }`. Types: `Wmts`, `Tiles3d`, `Voxel`, `Tiff`, `Earthquakes`. Full property docs in `docs/layer-config/`. Example:
+
+```json5
+// layers/layertree.json5
+{ includes: ['./layers_3dtiles'] }
+// layers_3dtiles.json5 defines layers array with type/id entries
 ```
 
-## Architecture
+Run `npm run config:validate` after editing layer files to catch errors before starting the stack.
 
-### UI — Lit Web Components + CesiumJS
+## i18n
 
-The UI is a **Lit 3** web components app bundled with **Vite**. It renders a 3D globe via **CesiumJS** and uses **RxJS** for reactive state.
+Four supported languages: `de`, `fr`, `it`, `en` (fallback). Translation files live in `ui/locales/<namespace>/<namespace>.<lang>.json`. Namespaces: `app`, `assets`, `layers`, `layout`, `catalog`, `toolbox`. Language is stored in the `?lang=` URL query param. Run `npm run extract-i18n` after adding `i18next.t('new.key')` calls.
 
-**Feature modules** (`ui/src/features/`): The primary organizational unit. Each feature contains elements, services, models, and controllers scoped to a domain (e.g., `layer/`, `catalog/`, `session/`).
+## Build Notes
 
-**Service injection**: Services are provided via `@lit/context`. A custom `BaseService` class wraps this with RxJS support (`inject$()` returns an Observable, `inject()` returns a Promise). Services are registered in `ui/src/context/register-context.ts`.
+- `npm run build` runs three steps: `build:static` (generates `dist/env.js`, manuals, versions) → `build:js` (Vite + Babel for decorator/polyfill support).
+- Cesium static assets (Workers, ThirdParty, Assets, Widgets) are copied to `dist/cesium/` via `vite-plugin-static-copy`.
+- The `src` alias resolves to `ui/src/` — use `import { X } from 'src/features/...'` throughout the UI source.
+- Target browsers: last 2 versions of Chrome/Firefox/Safari/Edge + Edge 18 (Babel handles the gap).
 
-**Legacy stores** (`ui/src/store/`): Older code uses static classes with RxJS `BehaviorSubject` fields (e.g., `MainStore`, `DashboardStore`). New code should prefer `@lit/context`-based services.
+## Key Files
 
-**Element base class**: New elements extend `CoreElement` (from `features/core/`), which provides i18n reactivity, RxJS subscription management via `register()`, and lifecycle hooks (`willFirstUpdate`, `willChangeLanguage`).
-
-### API — Rust/Axum
-
-A REST API using **Axum 0.7** with **sqlx** (Postgres) and **AWS S3**. Flat module layout with a domain-specific `layers/` submodule.
-
-**Auth**: JWT validation against AWS Cognito JWKS, implemented as an Axum `FromRequestParts` extractor (`Claims`). Handlers opt in by adding `claims: Claims` (or `Option<Claims>`) as a parameter.
-
-**Layer config**: Layers are defined in JSON5 files under `layers/`. The API parses these at startup into a typed tree, filters by user access (Cognito groups + environment), and serves them to the UI.
-
-### Layer Configuration (`layers/`)
-
-Layers are defined in **JSON5** files with a hierarchical include system. `layertree.json5` is the root config.
-
-Layer types: `Wmts`, `Tiles3d`, `Voxel`, `Tiff`, `Earthquakes`, `GeoJson`, `Kml`.
-
-The info box config uses a `source` discriminator:
-
-- `{ source: 'api3.geo.admin.ch' }` — legend fetched from geo.admin.ch
-- `{ source: 'custom', legend_url?, information? }` — custom content with optional `{ key, url }` link objects
-
-See `docs/layer-config/` for full documentation of all layer properties.
-
-## Key Conventions
-
-### File Naming
-
-- `*.element.ts` — Lit custom elements (registered via `@customElement`)
-- `*.service.ts` — injectable services (extend `BaseService`, provided via `@lit/context`)
-- `*.model.ts` — TypeScript data models and interfaces
-- `*.module.ts` — side-effect-only files that import elements to register them
-- `*.controller.ts` — Lit reactive controllers
-
-### Module Registration
-
-Features self-register their custom elements via side-effect imports in `*.module.ts` files. These modules are imported from the root `ngm-app.ts`. When adding a new element, add its import to the feature's module file.
-
-### Barrel Exports
-
-Each feature re-exports its public API through `index.ts` barrel files:
-
-```
-features/layer/index.ts → features/layer/models/index.ts → features/layer/models/layer.model.ts
-```
-
-Import from the feature root (e.g., `import { LayerService } from 'src/features/layer'`), not from internal paths.
-
-### Path Aliases
-
-TypeScript and Vite both resolve `src/*` to `ui/src/*`. Use `import { ... } from 'src/features/...'` style imports.
-
-### CSS / Styling
-
-New components use Lit's `static readonly styles = css\`...\``with Shadow DOM scoping. Shared design tokens are in`ui/src/styles/theme.ts`(provides`applyTypography()`, `applyEffect()`, `applyTransition()`, `hostStyles`). Global CSS and Fomantic UI are in `ui/src/styles/`.
-
-### ESLint: Class Member Ordering
-
-The ESLint config enforces a specific order for Lit element class members:
-
-1. Decorated properties/accessors (`@property`, `@state`, `@consume`, `@query`)
-2. Constructor
-3. Lifecycle methods and other methods
-4. `render()` method
-5. `static styles`
-
-### ESLint: Boolean Naming
-
-Boolean variables/properties must use one of these prefixes: `is`, `has`, `show`, `hide`, `should`, `does`, `can`, `use`, `needs`, `was`.
-
-### i18n
-
-Uses **i18next** with 4 languages (`de`, `en`, `fr`, `it`; fallback: `en`) and 6 namespaces (`app`, `assets`, `catalog`, `layers`, `layout`, `toolbox`). Translation files are in `ui/locales/{namespace}/{namespace}.{lang}.json`. Run `npm run extract-i18n` after adding new translation keys.
-
-### Rust Serde Conventions
-
-Layer configs use **snake_case in JSON5** (deserialization) and **camelCase in API responses** (serialization). This is controlled via `#[serde(rename_all(serialize = "camelCase", deserialize = "snake_case"))]`.
-
-### Git Branching & Versioning
-
-- Branches: `feature/viewer-{issue}-{title}`, `bugfix/...`, `hotfix/...`, `chore/...`
-- Flow: `feature/*` → `develop` → `main` → production
-- Semantic versioning with pre-release labels: `-devX`, `-rcX`, `-hotfixX`
+| File                     | Purpose                                  |
+| ------------------------ | ---------------------------------------- |
+| `layers/layertree.json5` | Root layer/group configuration           |
+| `ui/src/viewer.ts`       | CesiumJS `Viewer` initialization         |
+| `ui/src/ngm-app.ts`      | Root LitElement, wires features together |
+| `ui/src/features/`       | Feature-sliced UI modules                |
+| `ui/src/store/*.ts`      | RxJS-based global state                  |
+| `ui/vite.config.ts`      | Dev proxy config and build pipeline      |
+| `api/src/lib.rs`         | Axum router with all `/api/*` routes     |
+| `api/migrations/`        | SQL migration files (sqlx)               |
+| `k8s/`                   | Helm chart for Kubernetes deployment     |
 
 ---
 > Source: [swisstopo/swissgeol-viewer-suite](https://github.com/swisstopo/swissgeol-viewer-suite) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-07-25 -->
