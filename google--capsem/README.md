@@ -1,15 +1,15 @@
 # capsem
 
-> Tome by [google](https://github.com/google/capsem) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [google](https://github.com/google/capsem), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [google/capsem](https://github.com/google/capsem).
+Original source: `AGENTS.md` in [google/capsem](https://github.com/google/capsem).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
