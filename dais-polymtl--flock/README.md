@@ -1,23 +1,21 @@
 # flock
 
-> Tome by [dais-polymtl](https://github.com/dais-polymtl/flock) — distributed by [TomeVault](https://tomevault.io)
-
-Beyond Quacking: Deep Integration of Language Models and RAG into DuckDB (VLDB Demo 2025)
+> Tome by [dais-polymtl](https://github.com/dais-polymtl/flock), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [dais-polymtl/flock](https://github.com/dais-polymtl/flock).
+Original source: `AGENTS.md` in [dais-polymtl/flock](https://github.com/dais-polymtl/flock).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [dais-polymtl/flock](https://github.com/dais-polymtl/flock) — a repo with 340+ stars on GitHub.
+From [dais-polymtl/flock](https://github.com/dais-polymtl/flock) — a repo with 350+ stars on GitHub.
 
 ---
 
