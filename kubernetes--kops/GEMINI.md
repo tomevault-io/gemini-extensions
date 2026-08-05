@@ -1,127 +1,49 @@
 ## kops
 
-> kOps is a command-line tool for creating, destroying, upgrading, and maintaining production-grade, highly available Kubernetes clusters. It is written in Go and supports multiple cloud providers, including AWS, GCP, DigitalOcean, Hetzner, OpenStack, and Azure.
+> - This is a Go workspace (`go.work`) with three modules: root `github.com/linode/linodego/v2`, `./k8s`, and `./test`.
 
-# kOps Project Overview
+# AGENTS.md
 
-kOps is a command-line tool for creating, destroying, upgrading, and maintaining production-grade, highly available Kubernetes clusters. It is written in Go and supports multiple cloud providers, including AWS, GCP, DigitalOcean, Hetzner, OpenStack, and Azure.
+## Repo Shape
+- This is a Go workspace (`go.work`) with three modules: root `github.com/linode/linodego/v2`, `./k8s`, and `./test`.
+- Root package files implement the public API client; `k8s/` is a separate helper module for LKE Kubernetes client behavior; `test/` is a separate module for unit and integration tests and replaces both local modules.
+- API resource files follow a flat root pattern (`instances.go`, `volumes.go`, etc.) and usually pair public types with `Client` methods that call helpers in `request_helpers.go`.
 
-The project is well-structured, with a clear separation of concerns between the different packages. The `cmd` directory contains the main entry points for the `kops` CLI and other related commands. The `pkg` directory contains the core logic for managing clusters, and the `upup` directory contains the code for provisioning cloud infrastructure.
+## Commands
+- Full CI-like local check: `make test` runs build, lint, unit tests, and fixture-backed integration tests; it can be slow because `test-int` uses a 5h timeout.
+- Faster focused default: run `go test ./...` at the repo root for root-module unit coverage only, then run focused tests in `test/` or `k8s/` as needed.
+- Unit tests excluding integration playback: `make test-unit`; pass focused args as `make TEST_ARGS="-run TestName" test-unit`.
+- Integration fixture playback: `make test-int`; focused playback: `make TEST_ARGS="-run TestListVolumes" test-int`.
+- K8s module verification: `cd k8s && go test ./...` or use root `make build`/`make vet`, which enter `k8s/` explicitly.
+- Tidy all modules after dependency changes: `make tidy`.
 
-The project has a comprehensive test suite, including unit tests, integration tests, and end-to-end tests. It also has a robust CI/CD pipeline that runs these tests on every pull request.
+## Lint And Formatting
+- `make lint` uses Docker by default: `docker run ... golangci/golangci-lint:latest`; set `SKIP_DOCKER=1` to use local `golangci-lint`.
+- `golangci-lint fmt` is the preferred formatter, if available. Fallback to `gofumpt` if `golangci-lint` is unavailable. Fallback to `go fmt` if `gofumpt` is unavailable.
+- `make build` already depends on `vet` and `lint`; use `SKIP_LINT=1 make test` only when intentionally matching CI's test job behavior.
+- CI runs `make tidy`, then installs `gofumpt` at commit `86bffd62437a3c437c0b84d5d5ab244824e762fc` and runs `gofumpt -l -w .`, then fails on any diff.
 
-## Building and Running
+## Tests And Fixtures
+- `test/unit` uses embedded JSON fixtures from `test/unit/fixtures/*.json` and `ClientBaseCase` helpers in `test/unit/base.go`; add/update JSON fixtures there for unit tests.
+- `test/integration` uses go-vcr YAML fixtures under `test/integration/fixtures`; `make test-int` runs them in replay mode with a fake token and `LINODE_API_VERSION=v4beta`.
+- To record integration fixtures, set a real `LINODE_TOKEN` and run `make fixtures`; focus recording with `make TEST_ARGS="-run TestName" fixtures`.
+- Fixture recording creates real Linode resources and `TestMain` creates a Cloud Firewall by default; set `ENABLE_CLOUD_FW=false` only if you intentionally want to skip that setup.
+- Fixture sanitization is partial: auth headers, dates, some keys, and IPv6 are scrubbed, but `README.md` warns that sensitive account details such as `fixtures/*Account*.yaml` are not fully sanitized. Inspect recorded fixture diffs before committing.
+- Smoke tests are live record-mode tests: `make test-smoke` requires `LINODE_TOKEN`.
 
-### Prerequisites
+## Environment
+- `.env` is loaded by the root Makefile if present; `.gitignore` excludes it.
+- Common env vars: `LINODE_TOKEN`, `LINODE_DEBUG`, `LINODE_URL`, `LINODE_API_VERSION`, `LINODE_CA`, `LINODE_CONFIG`, and `LINODE_PROFILE`.
+- `NewClient` reads `LINODE_URL`, `LINODE_API_VERSION`, `LINODE_CA`, and `LINODE_DEBUG`; `NewClientFromEnv` prefers `LINODE_TOKEN` over config-file profiles.
 
-* `make`
-
-### Building
-
-To build the `kops` binary, run the following command:
-
-```bash
-make kops
-```
-
-This will create the `kops` binary in the `.build/dist/<os>/<arch>` directory.
-
-To build all the binaries, including `kops`, `protokube`, `nodeup`, and `channels`, run the following command:
-
-```bash
-make all
-```
-
-### Running
-
-To run the `kops` binary, you can either run it directly from the `dist` directory or install it to your `$GOPATH/bin` directory by running the following command:
-
-```bash
-make install
-```
-
-### Testing
-
-To run the unit tests, run the following command:
-
-```bash
-make test
-```
-
-To run the verification scripts, run the following command:
-
-```bash
-make verify
-```
-
-To run the full suite of CI checks, run the following command:
-
-```bash
-make ci
-```
-
-## Development Conventions
-
-### Guidelines for Programming Assistance
-
-When assisting with programming tasks, you will adhere to the following principles:
-
-* **Follow Requirements**: Carefully follow the user's requirements to the letter.
-* **Plan First**: For any non-trivial change, first describe a detailed, step-by-step plan, including the files you intend to modify and the tests you will add or update.
-* **Test Thoroughly**: Implement comprehensive tests to ensure correctness and prevent regressions.
-* **Comment Intelligently**: Add comments to explain the "why" behind complex or non-obvious code, keeping in mind that the reader may not be a Kubernetes expert.
-* **No TODOs**: Leave no `TODO` comments, placeholders, or incomplete implementations.
-* **Prioritize Correctness**: Always prioritize security, scalability, and maintainability in your implementations.
-
-### Avoiding Loops
-
-When performing complex tasks, especially those involving code modifications and verification, it's important to avoid getting into loops. A loop can occur when the agent repeatedly tries the same action without success, or when it gets stuck in a cycle of analysis, action, and failure.
-
-To avoid loops:
-*   **Analyze the problem carefully**: Before taking any action, make sure you understand the problem and have a clear plan to solve it.
-*   **Break down the problem**: Break down complex problems into smaller, more manageable steps.
-*   **Verify each step**: After each step, verify that it was successful before moving on to the next one.
-*   **Don't repeat failed actions**: If an action fails, don't just repeat it. Analyze the cause of the failure and try a different approach.
-*   **Ask for help**: If you're stuck, don't hesitate to ask for help from the user.
-
-### Code Style
-
-The project follows the standard Go code style and the official [Kubernetes coding conventions](https://www.k8s.dev/docs/guide/coding-convention/). All code should be formatted with `gofmt` and `goimports`. You can format the code by running the following commands:
-
-```bash
-make gofmt
-make goimports
-```
-
-### Linting
-
-The project uses `golangci-lint` to lint the code. You can run the linter by running the following command:
-
-```bash
-make verify-golangci-lint
-```
-
-### Dependencies
-
-The project uses Go modules to manage dependencies. To add a new dependency, add it to the `go.mod` file and then run the following command:
-
-```bash
-make gomod
-```
-
-### Commits
-
-The project follows the conventional commit message format.
-
-### Contributions
-
-Contributions are welcome! Before submitting a pull request, please open an issue to discuss your proposed changes. All pull requests must be reviewed and approved by a maintainer before they can be merged.
-
-## E2E CI Failure Troubleshooting
-
-For investigating E2E CI job failures — including locating artifacts, diagnosing root causes, and finding correlations across failing jobs — see [docs/e2e-failure-troubleshooting.md](docs/e2e-failure-troubleshooting.md).
+## Conventions And Gotchas
+- Optional fields in create or update options structs must use `json:",omitzero"`.
+- Optional fields in create or update options structs must be pointer types so explicit zero values can be serialized when needed.
+- List APIs mutate the supplied `*ListOptions` with `Page`, `Pages`, and `Results`; do not reuse one `ListOptions` across list calls.
+- Use `formatAPIPath` for endpoint paths with user-provided string path segments so path escaping matches the client helpers.
+- CI enforces PR titles like `TPT-1234: Description` unless labels exempt the PR (`dependencies`, `hotfix`, `community-contribution`, `ignore-for-release`).
+- The `e2e_scripts` directory is a git submodule used by CI report/upload and cleanup jobs; clone/update submodules before reproducing those workflows.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/kubernetes)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/kubernetes)
-<!-- tomevault:4.0:gemini_md:2026-04-07 -->
+> Source: [kubernetes/kops](https://github.com/kubernetes/kops) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-07-25 -->
