@@ -1,15 +1,15 @@
 # claude-code-quickstart
 
-> Tome by [MrNine-666](https://github.com/MrNine-666/claude-code-quickstart) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [MrNine-666](https://github.com/MrNine-666/claude-code-quickstart), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MrNine-666/claude-code-quickstart](https://github.com/MrNine-666/claude-code-quickstart).
+Original source: `AGENTS.md` in [MrNine-666/claude-code-quickstart](https://github.com/MrNine-666/claude-code-quickstart).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
