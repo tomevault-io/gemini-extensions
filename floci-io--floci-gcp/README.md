@@ -1,23 +1,21 @@
 # floci-gcp
 
-> Tome by [floci-io](https://github.com/floci-io/floci-gcp) — distributed by [TomeVault](https://tomevault.io)
-
-Light, fluffy, and always free - GCP Local Emulator
+> Tome by [floci-io](https://github.com/floci-io/floci-gcp), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [floci-io/floci-gcp](https://github.com/floci-io/floci-gcp).
+Original source: `AGENTS.md` in [floci-io/floci-gcp](https://github.com/floci-io/floci-gcp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [floci-io/floci-gcp](https://github.com/floci-io/floci-gcp) — a repo with 10+ stars on GitHub.
+From [floci-io/floci-gcp](https://github.com/floci-io/floci-gcp) — a repo with 144+ stars on GitHub.
 
 ---
 
