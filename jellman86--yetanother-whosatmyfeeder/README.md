@@ -1,17 +1,15 @@
 # AI instruction files for YetAnother-WhosAtMyFeeder
 
-> Sourced from [Jellman86/YetAnother-WhosAtMyFeeder](https://github.com/Jellman86/YetAnother-WhosAtMyFeeder) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-🐦 AI-powered bird identification for Frigate NVR. Classifies birds from your feeder camera using TensorFlow Lite and displays them in a real-time dashboard.
+> Sourced from [Jellman86/YetAnother-WhosAtMyFeeder](https://github.com/Jellman86/YetAnother-WhosAtMyFeeder), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Jellman86/YetAnother-WhosAtMyFeeder](https://github.com/Jellman86/YetAnother-WhosAtMyFeeder).
+Original source: `AGENTS.md` in [Jellman86/YetAnother-WhosAtMyFeeder](https://github.com/Jellman86/YetAnother-WhosAtMyFeeder).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
