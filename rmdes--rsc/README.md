@@ -7,11 +7,11 @@ RSC — Really Simple Conversations — is a feeds-native social timeline: peopl
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rmdes/rsc](https://github.com/rmdes/rsc).
+Original source: `AGENTS.md` in [rmdes/rsc](https://github.com/rmdes/rsc).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
