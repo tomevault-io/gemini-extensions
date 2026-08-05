@@ -1,6 +1,6 @@
-# kops
+# AI instruction files for kops
 
-> Config by [kubernetes](https://github.com/kubernetes/kops) — distributed by [TomeVault](https://tomevault.io/claim/kubernetes)
+> Sourced from [kubernetes/kops](https://github.com/kubernetes/kops), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
@@ -15,9 +15,10 @@ Original source: `AGENTS.md` in [kubernetes/kops](https://github.com/kubernetes/
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/kubernetes](https://tomevault.io/claim/kubernetes)
+From [kubernetes/kops](https://github.com/kubernetes/kops) — a repo with 16650+ stars on GitHub.
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/kubernetes) to manage distribution.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:a-c-s -->
