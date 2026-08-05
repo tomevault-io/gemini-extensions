@@ -1,18 +1,16 @@
 # bonsai
 
-> Source: [utter-one/bonsai](https://github.com/utter-one/bonsai) — distributed by [TomeVault](https://tomevault.io)
-
-Build safe on-brand voice and chat agents with structured flows, guardrails, and compliance
+> Source: [utter-one/bonsai](https://github.com/utter-one/bonsai). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [utter-one/bonsai](https://github.com/utter-one/bonsai).
+Original source: `AGENTS.md` in [utter-one/bonsai](https://github.com/utter-one/bonsai).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
