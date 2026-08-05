@@ -7,11 +7,11 @@ A git-native, review-gated knowledge base for AI agents: they propose writes, yo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vouchdev/vouch](https://github.com/vouchdev/vouch).
+Original source: `AGENTS.md` in [vouchdev/vouch](https://github.com/vouchdev/vouch).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
