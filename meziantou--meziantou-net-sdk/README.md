@@ -1,23 +1,21 @@
 # Meziantou.NET.Sdk
 
-> Tome by [meziantou](https://github.com/meziantou/Meziantou.NET.Sdk) — distributed by [TomeVault](https://tomevault.io)
-
-Opinionated MSBuild SDK for .NET projects with standardized build, CI, test, and analyzer defaults
+> Tome by [meziantou](https://github.com/meziantou/Meziantou.NET.Sdk), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [meziantou/Meziantou.NET.Sdk](https://github.com/meziantou/Meziantou.NET.Sdk).
+Original source: `AGENTS.md` in [meziantou/Meziantou.NET.Sdk](https://github.com/meziantou/Meziantou.NET.Sdk).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [meziantou/Meziantou.NET.Sdk](https://github.com/meziantou/Meziantou.NET.Sdk) — a repo with 30+ stars on GitHub.
+From [meziantou/Meziantou.NET.Sdk](https://github.com/meziantou/Meziantou.NET.Sdk) — a repo with 34+ stars on GitHub.
 
 ---
 
