@@ -1,112 +1,95 @@
 ## advanced-homeassistant-mcp
 
-> This document provides essential guidance for AI agents working on the `homeassistant-mcp` codebase.
+> > **Note**: This file was updated 2026-06-10 as part of a project audit and cleanup.
 
-# AI Agent Instructions for `homeassistant-mcp`
+# Agent Instructions
 
-This document provides essential guidance for AI agents working on the `homeassistant-mcp` codebase.
+> **Note**: This file was updated 2026-06-10 as part of a project audit and cleanup.
+> Several claims below were corrected to match the current state of the repo
+> after removal of dead code, dependency cleanup, and config consolidation.
 
-## 1. Architecture & Core Concepts
+## Commands
 
-The project is a **Model Context Protocol (MCP)** server for Home Assistant. It has two primary modes of operation, determined by which entry point is used:
+- **Build (all 3 entry points)**: `bun run build:all` (esbuild → `dist/`, minified, with inline sourcemaps)
+- **Single test**: `bun test __tests__/path/to/file.test.ts`
+- **All tests**: `bun test` (auto-preloads `test/setup.ts` per `bunfig.toml`)
+- **Typecheck**: `bun x tsc --noEmit` (tsconfig is typecheck-only, not used by build)
+- **Lint**: `bun run lint`
+- **Format**: `bun run format`
+- **Clean**: `bun run clean` (removes `dist/`, `dist-ts/`, `.bun/`, `coverage/`, `bin/*.js`)
 
-1.  **Standalone HTTP/WebSocket Server (`src/index.ts`)**: This is the main entry point. It creates an Express server that handles HTTP REST, WebSocket, and Server-Sent Events (SSE) transports. This is the mode for production deployments and general use.
-2.  **STDIO Server (`src/stdio-server.ts`)**: A lightweight, dependency-minimal server that communicates over `stdin`/`stdout`. This is used for integration with tools like the Smithery CLI and other local clients that manage the server as a child process.
+## Architecture
 
-### Key Components:
+- **Three entry points** (post-cleanup):
+  - `src/index.ts` → `dist/index.cjs` — HTTP+WS, custom `MCPServer` (Express)
+  - `src/stdio-server.ts` → `dist/stdio-server.mjs` — STDIO, `fastmcp` v3
+  - `src/http-server.ts` → `dist/http-server.mjs` — HTTP, `fastmcp` v3
+- **MCP core**: `src/mcp/MCPServer.ts` (custom) + `src/mcp/transports/` (transport layers)
+- **Tools**: `src/tools/homeassistant/` (domain-specific), `src/tools/` (generic) — **not** under `src/mcp/`
+- **HA client**: `src/hass/` (WebSocket API client)
+- **Build output**: `dist/` with external deps (esbuild config in `package.json` scripts)
 
--   **`src/index.ts`**: The main application entry point. It initializes the Express app, sets up middleware (security, logging), and instantiates the `MCPServer`.
--   **`src/mcp/MCPServer.ts`**: The core of the application. It manages different transport layers (HTTP, WebSocket, STDIO), loads tools, and handles the MCP request/response lifecycle. It is designed to be transport-agnostic.
--   **`src/mcp/transports/`**: Contains the logic for different communication protocols. The `http.transport.ts` is crucial as it hooks into the main Express app created in `src/index.ts`.
--   **`src/tools/`**: This directory contains all the "tools" that the MCP server exposes. Each tool is a self-contained module that interacts with the Home Assistant API. See `src/tools/homeassistant/` for examples.
--   **`src/hass/`**: This directory contains the client for interacting with the Home Assistant WebSocket API. It's the primary way the server communicates with Home Assistant.
+## Module System
 
-## 2. Developer Workflow & Commands
+- **Source**: TypeScript with ESM-style imports, path alias `@/*` → `src/*`
+- **Build**: esbuild outputs CJS (`.cjs`) and ESM (`.mjs`) — NOT tsc
+- **Imports**: `.js` extensions are **required** for relative imports (esbuild resolves to `.ts` source); the project uses them throughout
+  ```typescript
+  // Correct (matches current codebase)
+  import { MCPServer } from "@/mcp/MCPServer";
+  // or
+  import { MCPServer } from "../mcp/MCPServer.js";
+  ```
+- **tsconfig**: `module: ESNext`, `moduleResolution: Bundler` (matches `package.json#type: module`)
 
-The project has recently transitioned from Bun to **`esbuild` and `node`**. The `package.json` contains the most up-to-date commands.
+## Testing Gotchas
 
-### Building the Project
+- **Preload required**: `test/setup.ts` sets `HASS_TOKEN`, `JWT_SECRET`, and other env vars
+- **Coverage thresholds**: 80% statements/lines/functions, 70% branches (see `bunfig.toml`)
+- **Test location**: `__tests__/` directory (not `src/` or `test/`)
+- **E2E tests**: under `__tests__/integration/` (not `test/e2e/` which was removed)
+- **Config**: `bunfig.toml` `[test]` section controls test behavior; `testMatch` only matches `.test.ts` (no `.js`, no `.disabled`)
 
-The project is written in TypeScript and must be compiled to CommonJS (`.cjs`) before running.
+## Important Patterns
 
--   **Build everything**:
-    ```bash
-    npm run build:all
-    ```
-    This command compiles `src/index.ts`, `src/stdio-server.ts`, and `src/http-server.ts` into the `dist/` directory.
+- **Logging**: Use `winston` logger from `@/utils/logger`, never `console.log`
+- **Error handling**: Always check `instanceof Error` before accessing `.message`
+  ```typescript
+  catch (error) {
+    const msg = error instanceof Error ? error.message : String(error);
+  }
+  ```
+- **External deps**: Listed in esbuild `--external` flags (not bundled). Keep this list in sync with `package.json#dependencies`.
+- **Config**: Import from `src/config/app.config` (single source of truth). The legacy `src/config.ts` and `src/config.js` are gone.
+- **Validation**: Zod (NOT Valibot, despite earlier docs). Schemas live in `src/schemas/`.
 
-### Running the Server
+## Smithery Deployment
 
--   **Run the main HTTP/WebSocket server**:
-    ```bash
-    npm run start
-    ```
--   **Run the STDIO-only server**:
-    ```bash
-    npm run start:stdio
-    ```
+- **Entry**: `src/smithery-sdk.ts` (uses `@modelcontextprotocol/sdk`)
+- **Build**: `bun run smithery:build` → `dist/smithery.js`
+- **Container**: `Dockerfile.smithery` builds `dist/http-simple.mjs` (the simple HTTP server)
+- **Local debug**: `npx @smithery/cli playground-stdio -- npm run start:stdio`
 
-### Testing
+## Docs Site
 
--   **Run all tests**:
-    ```bash
-    bun test
-    ```
-    *Note: The test runner is still `bun test` even though the runtime is Node.*
+The project documentation lives in `docs-site/` (Astro v6 + MDX + Tailwind v4 + shadcn-style components, deployed to GitHub Pages). It is a separate package — `cd docs-site` to work on it.
 
-### Smithery Integration
+- **Dev**: `cd docs-site && bun install && bun run dev` (http://localhost:4321)
+- **Build**: `cd docs-site && bun run build` → `docs-site/dist/`
+- **Typecheck**: `cd docs-site && bun x astro check`
+- **Preview build**: `cd docs-site && bun run preview`
+- **Content**: MDX files in `docs-site/src/content/docs/`, one per page. Frontmatter schema (zod) is in `docs-site/src/content.config.ts` and enforces `title`, `description`, `section`, `order`, `draft`.
+- **Theme**: pure grayscale B/W with a single indigo accent (`--ring: hsl(239 84% 67%)`). All semantic tokens live in `docs-site/src/styles/global.css` and are mapped to Tailwind utilities via `@theme inline`. The shadcn config in `docs-site/components.json` matches.
+- **Base path**: `/advanced-homeassistant-mcp` (matches the GitHub Pages URL).
+- **Deploy**: `.github/workflows/deploy-docs.yml` runs on push to `main` when `docs-site/**` changes.
 
-Smithery is used for deployment and local development testing.
+## Environment
 
--   **Run the server in a Smithery-like environment**:
-    ```bash
-    npx @smithery/cli playground-stdio -- npm run start:stdio
-    ```
-    This is the most important command for debugging deployment issues. It simulates how the Smithery platform will run the STDIO server.
-
-## 3. Code Conventions & Patterns
-
-### Module System: CommonJS
-
-The entire project is being converted from ESM to **CommonJS (CJS)** to ensure compatibility with the Smithery runtime.
-
--   **DO NOT** use `.js` extensions in `import` or `export` statements.
-    ```typescript
-    // Correct
-    import { MCPServer } from '../mcp/MCPServer';
-
-    // Incorrect
-    import { MCPServer } from '../mcp/MCPServer.js';
-    ```
--   The build process (`esbuild`) is configured to output `.cjs` files. Ensure `package.json` scripts reflect this.
-
-### Configuration
-
--   Configuration is managed via environment variables, loaded by `dotenv`.
--   The `src/config.ts` file is responsible for parsing and validating environment variables.
-
-### Error Handling
-
--   The project uses `winston` for logging. Use the logger from `src/utils/logger.ts` instead of `console.log`.
--   When catching errors, always check if the error is an `instanceof Error` before accessing properties like `message`.
-
-    ```typescript
-    try {
-      // ...
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
-      logger.error(`Something went wrong: ${errorMessage}`);
-    }
-    ```
-
-## 4. Key Dependencies
-
--   **`express`**: The web server framework.
--   **`fastmcp`**: Used in `stdio-server.ts` and `http-server.ts` for a lightweight MCP implementation. Note that `src/index.ts` uses a custom, more complex MCP server implementation.
--   **`esbuild`**: The build tool for compiling TypeScript to CommonJS.
--   **`winston`**: The logging library.
--   **`ws`**: The WebSocket client for connecting to Home Assistant.
+- **Runtime**: Bun (dev/test/build), Node.js >=18 (production)
+- **Config**: `src/config/app.config.ts` loads from `dotenv`, validates with **Zod** (Valibot was removed)
+- **Lockfile**: `bun.lock` is canonical; `package-lock.json` is also present for npm fallback
+- **TypeScript**: Strict mode enabled, `bun-types` in type array
 
 ---
 > Source: [jango-blockchained/advanced-homeassistant-mcp](https://github.com/jango-blockchained/advanced-homeassistant-mcp) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-20 -->
+<!-- tomevault:4.0:gemini_md:2026-07-22 -->
