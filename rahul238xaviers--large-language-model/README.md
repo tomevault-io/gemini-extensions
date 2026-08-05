@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rahul238xaviers/large-language-model](https://github.com/rahul238xaviers/large-language-model).
+Original source: `AGENTS.md` in [rahul238xaviers/large-language-model](https://github.com/rahul238xaviers/large-language-model).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
