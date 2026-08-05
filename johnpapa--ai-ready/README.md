@@ -1,16 +1,16 @@
 # ai-ready
 
-> Source: [johnpapa/ai-ready](https://github.com/johnpapa/ai-ready). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [johnpapa/ai-ready](https://github.com/johnpapa/ai-ready). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [johnpapa/ai-ready](https://github.com/johnpapa/ai-ready).
+Original source: `copilot-instructions.md` in [johnpapa/ai-ready](https://github.com/johnpapa/ai-ready).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
