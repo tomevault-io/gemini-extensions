@@ -7,11 +7,11 @@ Sandbox untrusted code with safe access to the host.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [penberg/chimera](https://github.com/penberg/chimera).
+Original source: `AGENTS.md` in [penberg/chimera](https://github.com/penberg/chimera).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
