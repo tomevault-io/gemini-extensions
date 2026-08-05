@@ -7,11 +7,11 @@ STAR: Systematic Toolchain for AI Research (Harness, WIP)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wanghao9610/STAR](https://github.com/wanghao9610/STAR).
+Original source: `AGENTS.md` in [wanghao9610/STAR](https://github.com/wanghao9610/STAR).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
