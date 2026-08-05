@@ -7,11 +7,11 @@ Laguna-S 2.1 NVFP4 with DFlash on a single RTX PRO 6000 Blackwell
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Infatoshi/laguna-s-vllm](https://github.com/Infatoshi/laguna-s-vllm).
+Original source: `AGENTS.md` in [Infatoshi/laguna-s-vllm](https://github.com/Infatoshi/laguna-s-vllm).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
