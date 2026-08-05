@@ -7,11 +7,11 @@ WIP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vanga/indian-district-court-judgments](https://github.com/vanga/indian-district-court-judgments).
+Original source: `AGENTS.md` in [vanga/indian-district-court-judgments](https://github.com/vanga/indian-district-court-judgments).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
