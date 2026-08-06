@@ -7,11 +7,11 @@ Native macOS menu bar app: track quota, usage and cost for Codex (multi-account)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nanvon/cc-bar](https://github.com/nanvon/cc-bar).
+Original source: `AGENTS.md` in [nanvon/cc-bar](https://github.com/nanvon/cc-bar).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
