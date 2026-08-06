@@ -7,11 +7,11 @@ A minimal full-stack proof-of-concept demonstrating end-to-end type safety acros
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ZRktty/nestjs-nextjs-trpc-poc](https://github.com/ZRktty/nestjs-nextjs-trpc-poc).
+Original source: `AGENTS.md` in [ZRktty/nestjs-nextjs-trpc-poc](https://github.com/ZRktty/nestjs-nextjs-trpc-poc).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
