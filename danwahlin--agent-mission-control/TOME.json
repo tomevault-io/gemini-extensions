@@ -4,7 +4,7 @@
   "repo": "agent-mission-control",
   "description": "Tauri 2 + Phaser 4 desktop dashboard that visualizes live GitHub Copilot CLI activity.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/DanWahlin/agent-mission-control",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-30T00:05:44Z"
+  "distributed_at": "2026-08-06T17:13:55Z"
 }
