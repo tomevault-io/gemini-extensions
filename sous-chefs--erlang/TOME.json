@@ -4,7 +4,7 @@
   "repo": "erlang",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/sous-chefs/erlang",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-27T10:14:18Z"
+  "distributed_at": "2026-08-06T00:20:25Z"
 }
