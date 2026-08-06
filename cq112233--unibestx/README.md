@@ -7,11 +7,11 @@ unibestX —— 最好的 uni-app X 开发模板，由 uni-app X + Vue3 + UTS + 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cq112233/unibestX](https://github.com/cq112233/unibestX).
+Original source: `AGENTS.md` in [cq112233/unibestX](https://github.com/cq112233/unibestX).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
