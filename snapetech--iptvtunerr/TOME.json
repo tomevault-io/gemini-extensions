@@ -4,7 +4,7 @@
   "repo": "iptvtunerr",
   "description": "IPTV live TV streaming + XMLTV guide for Plex, Emby, and Jellyfin. EPG DVR injection and HDHomeRun tuner emulation with external EPG remapping",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/snapetech/iptvtunerr",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-30T02:40:43Z"
+  "distributed_at": "2026-08-06T19:34:37Z"
 }
