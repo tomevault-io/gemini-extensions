@@ -4,7 +4,7 @@
   "repo": "mad-os",
   "description": "Custom Linux distribution based on Arch. Configurations, scripts, and dotfiles for optimized development environment. AI-orchestrated with OpenCode and Ollama. v1.0.0 - Production Ready.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/madoslinux/mad-os",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-30T04:31:46Z"
+  "distributed_at": "2026-08-06T20:38:36Z"
 }
