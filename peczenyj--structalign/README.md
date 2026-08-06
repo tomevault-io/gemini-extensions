@@ -7,11 +7,11 @@ Preview Go struct field-alignment savings as a diff, not a rewrite.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [peczenyj/structalign](https://github.com/peczenyj/structalign).
+Original source: `AGENTS.md` in [peczenyj/structalign](https://github.com/peczenyj/structalign).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
