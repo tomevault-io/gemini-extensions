@@ -4,7 +4,7 @@
   "repo": "sdlc-quality",
   "description": "Software Development Lifecycle standards plugin for AI coding assistants. Enforces build, quality, testing, CI/CD, security, and documentation best practices.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/zircote-plugins/sdlc-quality",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T22:14:55Z"
+  "distributed_at": "2026-08-06T10:56:50Z"
 }
