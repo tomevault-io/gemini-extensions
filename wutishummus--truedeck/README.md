@@ -7,11 +7,11 @@ Free multi-agent coding workbench: Grok/Codex/Claude/Cursor panes + TrueMemory (
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [WutIsHummus/TrueDeck](https://github.com/WutIsHummus/TrueDeck).
+Original source: `AGENTS.md` in [WutIsHummus/TrueDeck](https://github.com/WutIsHummus/TrueDeck).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
