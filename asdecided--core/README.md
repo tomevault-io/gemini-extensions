@@ -7,11 +7,11 @@ Native deterministic requirements-as-code engine and read-only MCP server.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [asdecided/core](https://github.com/asdecided/core).
+Original source: `AGENTS.md` in [asdecided/core](https://github.com/asdecided/core).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
