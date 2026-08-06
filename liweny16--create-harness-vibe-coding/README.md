@@ -7,11 +7,11 @@ Scaffold a 0-1 product harness for AI-assisted research, PRD, planning, architec
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [LiWeny16/create-harness-vibe-coding](https://github.com/LiWeny16/create-harness-vibe-coding).
+Original source: `AGENTS.md` in [LiWeny16/create-harness-vibe-coding](https://github.com/LiWeny16/create-harness-vibe-coding).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
