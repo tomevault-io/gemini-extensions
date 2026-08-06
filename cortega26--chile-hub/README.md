@@ -7,11 +7,11 @@ Datos públicos de Chile curados, normalizados y validados: geografía, demograf
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cortega26/chile-hub](https://github.com/cortega26/chile-hub).
+Original source: `AGENTS.md` in [cortega26/chile-hub](https://github.com/cortega26/chile-hub).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
