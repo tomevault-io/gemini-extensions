@@ -1,18 +1,18 @@
 # meshtastic-firmware-zhtw
 
-> Source: [Kent-Liu/meshtastic-firmware-zhtw](https://github.com/Kent-Liu/meshtastic-firmware-zhtw). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [Kent-Liu/meshtastic-firmware-zhtw](https://github.com/Kent-Liu/meshtastic-firmware-zhtw). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 Unofficial Meshtastic firmware with Traditional Chinese display and a Bopomofo input method
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Kent-Liu/meshtastic-firmware-zhtw](https://github.com/Kent-Liu/meshtastic-firmware-zhtw).
+Original source: `AGENTS.md` in [Kent-Liu/meshtastic-firmware-zhtw](https://github.com/Kent-Liu/meshtastic-firmware-zhtw).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
