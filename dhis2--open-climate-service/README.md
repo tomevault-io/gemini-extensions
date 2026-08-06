@@ -1,18 +1,18 @@
 # open-climate-service
 
-> Source: [dhis2/open-climate-service](https://github.com/dhis2/open-climate-service). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [dhis2/open-climate-service](https://github.com/dhis2/open-climate-service). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 Open Climate Service allows data from multiple sources (primarily earth observation data) to be extracted, transformed and loaded into DHIS2 and the Chap Modelling Platform.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [dhis2/open-climate-service](https://github.com/dhis2/open-climate-service).
+Original source: `AGENTS.md` in [dhis2/open-climate-service](https://github.com/dhis2/open-climate-service).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
