@@ -7,11 +7,11 @@ Multi-LLM deliberation system with 6 protocols: council, debate, red-team, conse
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [appleweiping/WEIPING_COUNCIL](https://github.com/appleweiping/WEIPING_COUNCIL).
+Original source: `AGENTS.md` in [appleweiping/WEIPING_COUNCIL](https://github.com/appleweiping/WEIPING_COUNCIL).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
