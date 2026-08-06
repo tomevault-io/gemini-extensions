@@ -4,7 +4,7 @@
   "repo": "WikibaseIntegrator",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/LeMyst/WikibaseIntegrator",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-25T05:41:23Z"
+  "distributed_at": "2026-08-06T03:53:27Z"
 }
