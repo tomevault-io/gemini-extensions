@@ -7,11 +7,11 @@ Claude Code memory system — auto context injection, drift detection, compoundi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [LARIkoz/eidetic](https://github.com/LARIkoz/eidetic).
+Original source: `AGENTS.md` in [LARIkoz/eidetic](https://github.com/LARIkoz/eidetic).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
