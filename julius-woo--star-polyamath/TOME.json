@@ -4,7 +4,7 @@
   "repo": "STAR-PolyaMath",
   "description": "STAR-P\u00f3lyaMath: Multi-Agent Reasoning under Persistent Meta-Strategic Supervision",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Julius-Woo/STAR-PolyaMath",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T21:18:24Z"
+  "distributed_at": "2026-08-06T07:36:40Z"
 }
