@@ -7,11 +7,11 @@ Late-night voice chats with an AI who blushes when you flirt, laughs at your jok
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vincenzo-afk/Lucie-AI](https://github.com/vincenzo-afk/Lucie-AI).
+Original source: `AGENTS.md` in [vincenzo-afk/Lucie-AI](https://github.com/vincenzo-afk/Lucie-AI).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
