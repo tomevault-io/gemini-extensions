@@ -7,11 +7,11 @@ Distill great thinkers into source-grounded Codex Skills that reason, debate, an
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [20240610ldx-hub/Mind-Distill-Factory](https://github.com/20240610ldx-hub/Mind-Distill-Factory).
+Original source: `AGENTS.md` in [20240610ldx-hub/Mind-Distill-Factory](https://github.com/20240610ldx-hub/Mind-Distill-Factory).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
