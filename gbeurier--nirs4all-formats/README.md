@@ -7,11 +7,11 @@ Rust-first NIRS and spectroscopy file loading core with Python/R bindings and co
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [GBeurier/nirs4all-formats](https://github.com/GBeurier/nirs4all-formats).
+Original source: `AGENTS.md` in [GBeurier/nirs4all-formats](https://github.com/GBeurier/nirs4all-formats).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
