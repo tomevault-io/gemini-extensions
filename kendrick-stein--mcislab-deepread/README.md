@@ -7,11 +7,11 @@ AI Research Notebook - GUI Agent, VLM, AI Agent papers and notes
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Kendrick-Stein/MCISLAB_DeepRead](https://github.com/Kendrick-Stein/MCISLAB_DeepRead).
+Original source: `AGENTS.md` in [Kendrick-Stein/MCISLAB_DeepRead](https://github.com/Kendrick-Stein/MCISLAB_DeepRead).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
