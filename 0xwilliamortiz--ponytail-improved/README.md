@@ -1,18 +1,18 @@
 # ponytail-improved
 
-> Source: [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved).
+Original source: `AGENTS.md` in [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
