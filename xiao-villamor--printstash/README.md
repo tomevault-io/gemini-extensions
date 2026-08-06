@@ -7,11 +7,11 @@ Self-hosted asset management for 3D printing files, slicer metadata, and printer
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [xiao-villamor/PrintStash](https://github.com/xiao-villamor/PrintStash).
+Original source: `AGENTS.md` in [xiao-villamor/PrintStash](https://github.com/xiao-villamor/PrintStash).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
