@@ -4,7 +4,7 @@
   "repo": "open-climate-service",
   "description": "Open Climate Service allows data from multiple sources (primarily earth observation data) to be extracted, transformed and loaded into DHIS2 and the Chap Modelling Platform.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/dhis2/open-climate-service",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-30T02:32:43Z"
+  "distributed_at": "2026-08-06T19:26:26Z"
 }
