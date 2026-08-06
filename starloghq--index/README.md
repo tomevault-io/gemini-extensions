@@ -7,13 +7,13 @@ Vet a package before your AI coding agent uses it — authoritative facts (CVEs,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [starloghq/index](https://github.com/starloghq/index).
+Original source: `AGENTS.md` in [starloghq/index](https://github.com/starloghq/index).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
