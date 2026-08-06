@@ -7,11 +7,11 @@ Connect any MCP client to Firefly III — 140 tools via stdio (PAT) or HTTP (OAu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [daften/fireflyiii-mcp](https://github.com/daften/fireflyiii-mcp).
+Original source: `AGENTS.md` in [daften/fireflyiii-mcp](https://github.com/daften/fireflyiii-mcp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
