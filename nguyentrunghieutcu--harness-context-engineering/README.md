@@ -7,11 +7,11 @@ MCP Tool Server chạy local — tối ưu hóa context window cho AI assistant 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nguyentrunghieutcu/Harness-context-engineering](https://github.com/nguyentrunghieutcu/Harness-context-engineering).
+Original source: `AGENTS.md` in [nguyentrunghieutcu/Harness-context-engineering](https://github.com/nguyentrunghieutcu/Harness-context-engineering).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
