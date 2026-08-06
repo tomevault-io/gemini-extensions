@@ -7,11 +7,11 @@ Akari 是一个面向开发者团队的 AI Agent 并行开发管理平台。它�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [chenzhen7/akari](https://github.com/chenzhen7/akari).
+Original source: `AGENTS.md` in [chenzhen7/akari](https://github.com/chenzhen7/akari).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
