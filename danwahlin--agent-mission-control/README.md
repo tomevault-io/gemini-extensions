@@ -7,12 +7,12 @@ Tauri 2 + Phaser 4 desktop dashboard that visualizes live GitHub Copilot CLI act
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [DanWahlin/agent-mission-control](https://github.com/DanWahlin/agent-mission-control).
+Original source: `AGENTS.md` in [DanWahlin/agent-mission-control](https://github.com/DanWahlin/agent-mission-control).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
