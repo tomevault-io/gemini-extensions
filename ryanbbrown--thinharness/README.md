@@ -7,11 +7,11 @@ A minimal, opinionated agent harness — focused scope, straightforward code, ea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ryanbbrown/thinharness](https://github.com/ryanbbrown/thinharness).
+Original source: `AGENTS.md` in [ryanbbrown/thinharness](https://github.com/ryanbbrown/thinharness).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
