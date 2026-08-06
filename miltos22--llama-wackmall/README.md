@@ -7,11 +7,11 @@ Caching experts made model agnostic for llama. Drastically speeds up generation 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [miltos22/llama-wackMall](https://github.com/miltos22/llama-wackMall).
+Original source: `AGENTS.md` in [miltos22/llama-wackMall](https://github.com/miltos22/llama-wackMall).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
