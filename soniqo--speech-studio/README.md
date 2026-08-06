@@ -7,11 +7,11 @@ Open-source desktop voice-cloning studio for creators — clone a voice, script 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [soniqo/speech-studio](https://github.com/soniqo/speech-studio).
+Original source: `AGENTS.md` in [soniqo/speech-studio](https://github.com/soniqo/speech-studio).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
