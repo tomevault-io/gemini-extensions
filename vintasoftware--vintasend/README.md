@@ -1,18 +1,18 @@
 # vintasend
 
-> Source: [vintasoftware/vintasend](https://github.com/vintasoftware/vintasend). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [vintasoftware/vintasend](https://github.com/vintasoftware/vintasend). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 A flexible package for implementing transactional notifications
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [vintasoftware/vintasend](https://github.com/vintasoftware/vintasend).
+Original source: `AGENTS.md` in [vintasoftware/vintasend](https://github.com/vintasoftware/vintasend).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
