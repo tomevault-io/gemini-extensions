@@ -7,11 +7,11 @@ an Effect-native UI framework where E/R channels survive to compile-time — for
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [m9tdev/verrex](https://github.com/m9tdev/verrex).
+Original source: `AGENTS.md` in [m9tdev/verrex](https://github.com/m9tdev/verrex).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
