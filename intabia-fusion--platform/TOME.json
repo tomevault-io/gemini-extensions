@@ -4,7 +4,7 @@
   "repo": "platform",
   "description": "Intabia Platform \u2014 All-in-One Foundation for Project Management Platform's and services",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/intabia-fusion/platform",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T22:36:31Z"
+  "distributed_at": "2026-08-06T12:33:37Z"
 }
