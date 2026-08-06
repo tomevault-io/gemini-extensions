@@ -7,11 +7,11 @@ Example open-source implementation of a delta-neutral funding-rate arbitrage bot
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vooi-app/vooi-funding-bot-example](https://github.com/vooi-app/vooi-funding-bot-example).
+Original source: `AGENTS.md` in [vooi-app/vooi-funding-bot-example](https://github.com/vooi-app/vooi-funding-bot-example).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
