@@ -7,11 +7,11 @@ A SKILL that turns a code diff into an evidence-backed ledger of hidden assumpti
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Teycir/Assumptions](https://github.com/Teycir/Assumptions).
+Original source: `AGENTS.md` in [Teycir/Assumptions](https://github.com/Teycir/Assumptions).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
