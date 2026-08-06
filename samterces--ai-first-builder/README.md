@@ -1,18 +1,18 @@
 # AI-first-Builder
 
-> Source: [SamTerces/AI-first-Builder](https://github.com/SamTerces/AI-first-Builder). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [SamTerces/AI-first-Builder](https://github.com/SamTerces/AI-first-Builder). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 AI-Powered Website & App Builder - Generate modern, production-ready web apps using AI. Built with Next.js, Tailwind CSS, Convex, and OpenAI. Includes component-based architecture, dynamic UI generation, and rapid prototyping workflows for founders and developers.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [SamTerces/AI-first-Builder](https://github.com/SamTerces/AI-first-Builder).
+Original source: `AGENTS.md` in [SamTerces/AI-first-Builder](https://github.com/SamTerces/AI-first-Builder).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
