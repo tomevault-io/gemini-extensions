@@ -7,11 +7,11 @@ Your job hunt as mission control — a zero-dependency, agent-native job-search 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rachitkhurana/huntbench](https://github.com/rachitkhurana/huntbench).
+Original source: `AGENTS.md` in [rachitkhurana/huntbench](https://github.com/rachitkhurana/huntbench).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
