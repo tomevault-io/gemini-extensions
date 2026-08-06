@@ -7,11 +7,11 @@ MCP proxy server that reduces LLM context overhead with on-demand tool loading f
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [asyrjasalo/dynamic-mcp](https://github.com/asyrjasalo/dynamic-mcp).
+Original source: `AGENTS.md` in [asyrjasalo/dynamic-mcp](https://github.com/asyrjasalo/dynamic-mcp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
