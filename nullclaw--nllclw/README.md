@@ -7,13 +7,13 @@ Tiny Zig 0.16 local AI assistant with OpenAI-compatible providers, memory, tools
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [nullclaw/nllclw](https://github.com/nullclaw/nllclw).
+Original source: `AGENTS.md` in [nullclaw/nllclw](https://github.com/nullclaw/nllclw).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
