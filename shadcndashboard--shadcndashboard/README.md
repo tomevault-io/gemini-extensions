@@ -7,11 +7,11 @@ Free, open source admin dashboard built with React + vite, shadcn/ui, Tailwind C
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [shadcndashboard/shadcndashboard](https://github.com/shadcndashboard/shadcndashboard).
+Original source: `AGENTS.md` in [shadcndashboard/shadcndashboard](https://github.com/shadcndashboard/shadcndashboard).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
