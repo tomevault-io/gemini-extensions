@@ -7,11 +7,11 @@ Real-time profiler for AI coding agents (Claude Code / Codex) — wraps your age
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [androidZzT/cctrace](https://github.com/androidZzT/cctrace).
+Original source: `AGENTS.md` in [androidZzT/cctrace](https://github.com/androidZzT/cctrace).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
