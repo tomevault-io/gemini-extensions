@@ -7,11 +7,11 @@ kcptun-rs is a Vibe Coding porting test — an experiment in AI-assisted program
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [xsean2020/kcptun-rs](https://github.com/xsean2020/kcptun-rs).
+Original source: `AGENTS.md` in [xsean2020/kcptun-rs](https://github.com/xsean2020/kcptun-rs).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
