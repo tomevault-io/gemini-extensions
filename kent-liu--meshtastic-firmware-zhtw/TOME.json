@@ -4,7 +4,7 @@
   "repo": "meshtastic-firmware-zhtw",
   "description": "Unofficial Meshtastic firmware with Traditional Chinese display and a Bopomofo input method",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Kent-Liu/meshtastic-firmware-zhtw",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-31T10:32:59Z"
+  "distributed_at": "2026-08-06T23:32:53Z"
 }
