@@ -7,11 +7,11 @@ Autonomous backend platform. Your coding agent builds it over MCP, Backenly keep
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [backenly/backenly](https://github.com/backenly/backenly).
+Original source: `AGENTS.md` in [backenly/backenly](https://github.com/backenly/backenly).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
