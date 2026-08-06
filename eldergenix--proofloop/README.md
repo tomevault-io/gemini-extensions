@@ -7,11 +7,11 @@ Proof-driven Claude/Codex agent loop with paired execution, persistent resume, a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Eldergenix/Proofloop](https://github.com/Eldergenix/Proofloop).
+Original source: `AGENTS.md` in [Eldergenix/Proofloop](https://github.com/Eldergenix/Proofloop).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
