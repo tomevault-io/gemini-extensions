@@ -7,11 +7,11 @@ AStock AI Copilot V2 — 真正理解A股市场行为逻辑的AI认知系统。A
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [gergchen/astock-market-engine](https://github.com/gergchen/astock-market-engine).
+Original source: `AGENTS.md` in [gergchen/astock-market-engine](https://github.com/gergchen/astock-market-engine).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
