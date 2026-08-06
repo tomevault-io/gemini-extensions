@@ -7,11 +7,11 @@ Persistent AI memory with hybrid search and embedded sync. Open, free, unlimited
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [n24q02m/mnemo-mcp](https://github.com/n24q02m/mnemo-mcp).
+Original source: `AGENTS.md` in [n24q02m/mnemo-mcp](https://github.com/n24q02m/mnemo-mcp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
