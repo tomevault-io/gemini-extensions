@@ -7,11 +7,11 @@ Server Side Rendering for go backends using Go + Alpine.js + Tailwind + Templ an
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [araihu/goshtoso](https://github.com/araihu/goshtoso).
+Original source: `AGENTS.md` in [araihu/goshtoso](https://github.com/araihu/goshtoso).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
