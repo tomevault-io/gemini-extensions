@@ -7,11 +7,11 @@ Self-host the expo-updater manifest with full environment switching
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dustinsoftware/react-native-ota-gateway](https://github.com/dustinsoftware/react-native-ota-gateway).
+Original source: `AGENTS.md` in [dustinsoftware/react-native-ota-gateway](https://github.com/dustinsoftware/react-native-ota-gateway).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
