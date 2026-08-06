@@ -7,11 +7,11 @@ Modern self-hosted DNS administration UI for PowerDNS Authoritative - RBAC, OIDC
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [PowerDNS-AuthAdmin/powerdns-authadmin](https://github.com/PowerDNS-AuthAdmin/powerdns-authadmin).
+Original source: `AGENTS.md` in [PowerDNS-AuthAdmin/powerdns-authadmin](https://github.com/PowerDNS-AuthAdmin/powerdns-authadmin).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
