@@ -7,11 +7,11 @@ Uxnan (pronounced /uʃ.nan/) is a suite of tools I built to solve a very specifi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [luisgamas/uxnan](https://github.com/luisgamas/uxnan).
+Original source: `AGENTS.md` in [luisgamas/uxnan](https://github.com/luisgamas/uxnan).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
