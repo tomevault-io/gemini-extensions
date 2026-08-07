@@ -7,12 +7,12 @@ Multi-agent demo for Statewave conflict resolution. Concurrent agents write to a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [smaramwbc/statewave-multi-agent-memory](https://github.com/smaramwbc/statewave-multi-agent-memory).
+Original source: `AGENTS.md` in [smaramwbc/statewave-multi-agent-memory](https://github.com/smaramwbc/statewave-multi-agent-memory).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
