@@ -4,7 +4,7 @@
   "repo": "same-day-social-app",
   "description": "\u540c\u983b Today",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/dariowu1222/same-day-social-app",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-07T06:38:03Z"
+  "distributed_at": "2026-08-07T19:16:15Z"
 }
