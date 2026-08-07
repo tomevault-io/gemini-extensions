@@ -7,11 +7,11 @@ Forge your own agent harness — a config-to-code generator that renders a thin,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [EpisodeYu/HarnessSmith](https://github.com/EpisodeYu/HarnessSmith).
+Original source: `AGENTS.md` in [EpisodeYu/HarnessSmith](https://github.com/EpisodeYu/HarnessSmith).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
