@@ -7,11 +7,11 @@ AI skills for presentation slides generation with Typst and Touying
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [touying-typ/seaslides](https://github.com/touying-typ/seaslides).
+Original source: `AGENTS.md` in [touying-typ/seaslides](https://github.com/touying-typ/seaslides).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
