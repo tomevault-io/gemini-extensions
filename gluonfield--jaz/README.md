@@ -7,11 +7,11 @@ A personal AI on machines you own — any agent, loops that run overnight, board
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [gluonfield/jaz](https://github.com/gluonfield/jaz).
+Original source: `AGENTS.md` in [gluonfield/jaz](https://github.com/gluonfield/jaz).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
