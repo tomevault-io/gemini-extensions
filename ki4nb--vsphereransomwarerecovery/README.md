@@ -7,11 +7,11 @@ Recover VMware ESXi VMs after Babuk/.babyk ransomware. The encryptor only destro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Ki4nb/VSphereRansomwareRecovery](https://github.com/Ki4nb/VSphereRansomwareRecovery).
+Original source: `AGENTS.md` in [Ki4nb/VSphereRansomwareRecovery](https://github.com/Ki4nb/VSphereRansomwareRecovery).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
