@@ -4,7 +4,7 @@
   "repo": "statewave-multi-agent-memory",
   "description": "Multi-agent demo for Statewave conflict resolution. Concurrent agents write to a shared subject; the compiler detects contradicting facts via Jaccard similarity and supersedes the stale one with provenance. FastAPI + SSE, Apache-2.0.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/smaramwbc/statewave-multi-agent-memory",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-07T01:15:58Z"
+  "distributed_at": "2026-08-07T18:50:59Z"
 }
