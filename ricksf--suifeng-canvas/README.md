@@ -7,11 +7,11 @@ Suifeng Canvas - AI Storyboard Workstation based on Node Canvas
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rickSF/Suifeng-Canvas](https://github.com/rickSF/Suifeng-Canvas).
+Original source: `AGENTS.md` in [rickSF/Suifeng-Canvas](https://github.com/rickSF/Suifeng-Canvas).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
