@@ -7,11 +7,11 @@ Practical toolkit for writing, reviewing & validating requirements in the AI era
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [clarityisrare/ai-requirements-toolkit](https://github.com/clarityisrare/ai-requirements-toolkit).
+Original source: `AGENTS.md` in [clarityisrare/ai-requirements-toolkit](https://github.com/clarityisrare/ai-requirements-toolkit).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
