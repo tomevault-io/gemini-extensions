@@ -7,11 +7,11 @@ Open-source TypeScript framework for building operational software used by human
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sixb-ai/sixb](https://github.com/sixb-ai/sixb).
+Original source: `AGENTS.md` in [sixb-ai/sixb](https://github.com/sixb-ai/sixb).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
