@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [burakorkmez/cal-ai-tutorial](https://github.com/burakorkmez/cal-ai-tutorial).
+Original source: `AGENTS.md` in [burakorkmez/cal-ai-tutorial](https://github.com/burakorkmez/cal-ai-tutorial).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
