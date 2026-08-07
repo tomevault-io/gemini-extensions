@@ -7,11 +7,11 @@ dewasm converts WebAssembly binaries into pure source code for languages like Ru
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dewasm/dewasm](https://github.com/dewasm/dewasm).
+Original source: `AGENTS.md` in [dewasm/dewasm](https://github.com/dewasm/dewasm).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
