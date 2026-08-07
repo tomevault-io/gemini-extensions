@@ -7,11 +7,11 @@ Bitcoin monitoring tool with transaction alerts and intelligent balance notifica
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [schjonhaug/canary](https://github.com/schjonhaug/canary).
+Original source: `AGENTS.md` in [schjonhaug/canary](https://github.com/schjonhaug/canary).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
