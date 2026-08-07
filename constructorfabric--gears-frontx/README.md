@@ -7,11 +7,11 @@ Cyber Ware FrontX - UI development kit for modern SaaS applications
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [constructorfabric/gears-frontx](https://github.com/constructorfabric/gears-frontx).
+Original source: `AGENTS.md` in [constructorfabric/gears-frontx](https://github.com/constructorfabric/gears-frontx).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
