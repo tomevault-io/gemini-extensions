@@ -7,11 +7,11 @@ Thinkroom — where deeper thinking compounds. Try it free at https://thinkroom.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kieranklaassen/thinkroom](https://github.com/kieranklaassen/thinkroom).
+Original source: `AGENTS.md` in [kieranklaassen/thinkroom](https://github.com/kieranklaassen/thinkroom).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
