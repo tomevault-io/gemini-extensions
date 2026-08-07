@@ -7,11 +7,11 @@ AI-powered skill that turns product ideas or existing repositories into secure, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Faizalimam990/Startup_builder_pro](https://github.com/Faizalimam990/Startup_builder_pro).
+Original source: `AGENTS.md` in [Faizalimam990/Startup_builder_pro](https://github.com/Faizalimam990/Startup_builder_pro).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
