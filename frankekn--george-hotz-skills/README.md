@@ -7,11 +7,11 @@ Unofficial George Hotz–inspired radical-simplicity coding guidelines for AI ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [frankekn/george-hotz-skills](https://github.com/frankekn/george-hotz-skills).
+Original source: `AGENTS.md` in [frankekn/george-hotz-skills](https://github.com/frankekn/george-hotz-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
