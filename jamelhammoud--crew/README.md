@@ -7,11 +7,11 @@ Build Together
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [JamelHammoud/crew](https://github.com/JamelHammoud/crew).
+Original source: `AGENTS.md` in [JamelHammoud/crew](https://github.com/JamelHammoud/crew).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
