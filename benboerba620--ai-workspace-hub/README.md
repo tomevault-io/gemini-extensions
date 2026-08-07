@@ -7,11 +7,11 @@ All-in-one AI 研究工作台：把 Codex / Claude Code / Cursor 变成有长期
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Benboerba620/ai-workspace-hub](https://github.com/Benboerba620/ai-workspace-hub).
+Original source: `AGENTS.md` in [Benboerba620/ai-workspace-hub](https://github.com/Benboerba620/ai-workspace-hub).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
