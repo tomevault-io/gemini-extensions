@@ -7,11 +7,11 @@ A better customizable terminal
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cdbkk/vu](https://github.com/cdbkk/vu).
+Original source: `AGENTS.md` in [cdbkk/vu](https://github.com/cdbkk/vu).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
