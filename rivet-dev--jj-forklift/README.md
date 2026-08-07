@@ -7,11 +7,11 @@ jj-native stacked PR workflow tool
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rivet-dev/jj-forklift](https://github.com/rivet-dev/jj-forklift).
+Original source: `AGENTS.md` in [rivet-dev/jj-forklift](https://github.com/rivet-dev/jj-forklift).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
