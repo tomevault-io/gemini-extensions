@@ -7,11 +7,11 @@ Besok3d is an app store and package manager for Klipper 3D printers. Install plu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Bespok3d/Bespok3d-desktop](https://github.com/Bespok3d/Bespok3d-desktop).
+Original source: `AGENTS.md` in [Bespok3d/Bespok3d-desktop](https://github.com/Bespok3d/Bespok3d-desktop).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
