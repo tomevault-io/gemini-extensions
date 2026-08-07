@@ -7,11 +7,11 @@ Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS).
+Original source: `AGENTS.md` in [agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
