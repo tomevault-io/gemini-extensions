@@ -7,11 +7,11 @@ Self-hosted Twitch & Kick drops miner: multi-account, auto-claim, channel switch
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [aalejandrofer/GrubDrops](https://github.com/aalejandrofer/GrubDrops).
+Original source: `AGENTS.md` in [aalejandrofer/GrubDrops](https://github.com/aalejandrofer/GrubDrops).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
