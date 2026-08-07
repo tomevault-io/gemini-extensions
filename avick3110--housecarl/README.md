@@ -7,11 +7,11 @@ Comprehensive data-layer access to your Skyrim SE load order: read any record, a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Avick3110/houseCARL](https://github.com/Avick3110/houseCARL).
+Original source: `AGENTS.md` in [Avick3110/houseCARL](https://github.com/Avick3110/houseCARL).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
