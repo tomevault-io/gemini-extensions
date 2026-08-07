@@ -7,11 +7,11 @@ A modern app that brings the jewish library to every device
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Otzaria/otzaria](https://github.com/Otzaria/otzaria).
+Original source: `AGENTS.md` in [Otzaria/otzaria](https://github.com/Otzaria/otzaria).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
