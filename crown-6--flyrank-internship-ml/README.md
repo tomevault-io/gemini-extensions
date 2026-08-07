@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [crown-6/flyrank-internship-ML](https://github.com/crown-6/flyrank-internship-ML).
+Original source: `AGENTS.md` in [crown-6/flyrank-internship-ML](https://github.com/crown-6/flyrank-internship-ML).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
