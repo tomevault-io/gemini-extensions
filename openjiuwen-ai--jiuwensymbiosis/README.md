@@ -7,11 +7,11 @@ Built on the openJiuwen agent-core framework, JiuwenSymbiosis is a Physical AI a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [openJiuwen-ai/jiuwensymbiosis](https://github.com/openJiuwen-ai/jiuwensymbiosis).
+Original source: `CLAUDE.md` in [openJiuwen-ai/jiuwensymbiosis](https://github.com/openJiuwen-ai/jiuwensymbiosis).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
