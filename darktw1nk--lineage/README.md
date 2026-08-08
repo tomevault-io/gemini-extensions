@@ -7,11 +7,11 @@ Evolve LLM prompts with a genetic algorithm: score candidates on your test set a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [darktw1nk/Lineage](https://github.com/darktw1nk/Lineage).
+Original source: `AGENTS.md` in [darktw1nk/Lineage](https://github.com/darktw1nk/Lineage).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
