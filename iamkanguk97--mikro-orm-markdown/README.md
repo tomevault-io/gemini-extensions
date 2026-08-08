@@ -7,11 +7,11 @@ Generate Mermaid ERD diagrams and Markdown schema docs from MikroORM entities wi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [iamkanguk97/mikro-orm-markdown](https://github.com/iamkanguk97/mikro-orm-markdown).
+Original source: `AGENTS.md` in [iamkanguk97/mikro-orm-markdown](https://github.com/iamkanguk97/mikro-orm-markdown).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
