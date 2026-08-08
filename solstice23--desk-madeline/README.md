@@ -7,11 +7,11 @@ Madeline pet on desktop
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [solstice23/desk-madeline](https://github.com/solstice23/desk-madeline).
+Original source: `AGENTS.md` in [solstice23/desk-madeline](https://github.com/solstice23/desk-madeline).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
