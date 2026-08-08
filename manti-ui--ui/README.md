@@ -7,11 +7,11 @@ Manti is a framework-agnostic design system & UI kit inspired by Turkish dumplin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [manti-ui/ui](https://github.com/manti-ui/ui).
+Original source: `AGENTS.md` in [manti-ui/ui](https://github.com/manti-ui/ui).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
