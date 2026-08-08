@@ -4,7 +4,7 @@
   "repo": "maxcompute-semantic",
   "description": "Agent-agnostic semantic skill for MaxCompute SQL \u2014 CLI + bare SKILL.md bundle",
   "type": "config",
-  "source_format": "CLAUDE.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/aliyun/maxcompute-semantic",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-08T01:00:40Z"
+  "distributed_at": "2026-08-08T01:06:01Z"
 }
