@@ -7,11 +7,11 @@ Self-hosted voice assistant. Speak to your computer: it answers aloud, types you
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [PersonalJarvis/PersonalJarvis](https://github.com/PersonalJarvis/PersonalJarvis).
+Original source: `AGENTS.md` in [PersonalJarvis/PersonalJarvis](https://github.com/PersonalJarvis/PersonalJarvis).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
