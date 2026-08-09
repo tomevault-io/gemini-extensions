@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Ddiidev/tabua_mare_api](https://github.com/Ddiidev/tabua_mare_api).
+Original source: `CLAUDE.md` in [Ddiidev/tabua_mare_api](https://github.com/Ddiidev/tabua_mare_api).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [Ddiidev/tabua_mare_api](https://github.com/Ddiidev/tabua_mare_api) — a repo with 38+ stars on GitHub.
+From [Ddiidev/tabua_mare_api](https://github.com/Ddiidev/tabua_mare_api) — a repo with 39+ stars on GitHub.
 
 ---
 
