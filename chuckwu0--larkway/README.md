@@ -7,11 +7,11 @@ Turn your Claude Code / Codex subscription into a Feishu agent your whole team c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [chuckwu0/larkway](https://github.com/chuckwu0/larkway).
+Original source: `CLAUDE.md` in [chuckwu0/larkway](https://github.com/chuckwu0/larkway).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
