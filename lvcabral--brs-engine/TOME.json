@@ -4,7 +4,7 @@
   "repo": "brs-engine",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -43,9 +43,15 @@
       "path": ".claude/skills/brs-reference/SKILL.md",
       "github_url": "https://github.com/lvcabral/brs-engine/tree/main/.claude/skills/brs-reference/SKILL.md",
       "description": ""
+    },
+    {
+      "name": "brs-engine",
+      "path": ".agents/skills/brs-reference/SKILL.md",
+      "github_url": "https://github.com/lvcabral/brs-engine/tree/main/.agents/skills/brs-reference/SKILL.md",
+      "description": ""
     }
   ],
   "source_url": "https://github.com/lvcabral/brs-engine",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T14:04:33Z"
+  "distributed_at": "2026-08-09T11:33:38Z"
 }
