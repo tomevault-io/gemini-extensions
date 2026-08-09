@@ -4,7 +4,7 @@
   "repo": "paperless-api",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -49,9 +49,21 @@
       "path": ".github/skills/update-filters/SKILL.md",
       "github_url": "https://github.com/tb1337/paperless-api/tree/main/.github/skills/update-filters/SKILL.md",
       "description": ""
+    },
+    {
+      "name": "paperless-api",
+      "path": ".agent/skills/pp-add-resource/SKILL.md",
+      "github_url": "https://github.com/tb1337/paperless-api/tree/main/.agent/skills/pp-add-resource/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "paperless-api",
+      "path": ".agent/skills/pp-update-filters/SKILL.md",
+      "github_url": "https://github.com/tb1337/paperless-api/tree/main/.agent/skills/pp-update-filters/SKILL.md",
+      "description": ""
     }
   ],
   "source_url": "https://github.com/tb1337/paperless-api",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-30T00:42:04Z"
+  "distributed_at": "2026-08-09T13:37:28Z"
 }
