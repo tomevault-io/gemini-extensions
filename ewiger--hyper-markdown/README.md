@@ -7,11 +7,11 @@ Hyper-Markdown helps building your own local wiki knowledge base
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ewiger/hyper-markdown](https://github.com/ewiger/hyper-markdown).
+Original source: `CLAUDE.md` in [ewiger/hyper-markdown](https://github.com/ewiger/hyper-markdown).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
