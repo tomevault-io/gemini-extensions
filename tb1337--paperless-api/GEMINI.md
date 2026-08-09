@@ -1,86 +1,91 @@
 ## paperless-api
 
-> Python async client library for the Paperless-ngx REST API.
+> Guidance for AI coding agents working in this repo.
 
-# pypaperless – Copilot Instructions
+# AGENTS.md
 
-## Project
+Guidance for AI coding agents working in this repo.
 
-Python async client library for the Paperless-ngx REST API.
+## Project overview
 
-- `pypaperless/models/` — Pydantic models · `pypaperless/services/` — service classes + mixins
-- `tests/` — pytest + httpx mocks · `script/pngx_smoketest.py` — live smoketest · `script/pngx_audit_coverage.py` — API coverage audit
+Async Python client library for the Paperless-ngx REST API. Package manager: **uv**.
 
-Live instance: `http://172.17.0.1:8000` · Token: `3e9505078d32d8ad4ecea00fa0eec8e426622b52` · Test doc: `1980`
-Dev venv: `/home/vscode/.local/dev-venv/bin/activate`
+Public entry point: `PaperlessClient` (also exported: `PaperlessSettings`, `generate_api_token`) —
+see `pypaperless/__init__.py`.
 
----
+- `pypaperless/` — library source
+  - `models/` — Pydantic v2 resource models (subpackages `documents/`, `mails/`, `mixins/`,
+    `permissions/`, `share_links/`, `workflows/`); public types re-exported via `models/types.py`;
+    filter TypedDicts in `models/filters.py`
+  - `services/` — API service classes composed from `services/mixins/` (base `ResourceService` in
+    `services/base.py`); registered lazily via `@property`
+  - `builders/` — fluent query builders (`search.py`, `custom_fields.py`)
+  - top-level: `client.py`, `const.py`, `settings.py`, `transport.py`, `cache.py`, `dispatch.py`,
+    `pagination.py`, `runtime.py`, `exceptions.py`, `utils.py`
+- `tests/` — pytest + `pytest-httpx`; fixture data per resource in `tests/data/`
+- `script/` — `pngx_smoketest.py` (live smoketest), `pngx_audit_coverage.py` (API coverage audit),
+  `pngx_fetch_schema.py` (refresh `tests/data/schema.json`)
+- `docs/` — Markdown, built with `zensical`
 
-## Validation (always run after any code change)
+Current code surface (trust these over older docs): `const.py` uses `EndpointPath(StrEnum)` (no
+`API_PATH` dict) · service base `ResourceService` / `PaperlessService` · mixins are `*Service`
+(`Iterable`, `Callable`, `Creatable`, `Updatable`, `Deletable`, `Securable`) · runtime handle
+`self._runtime`.
 
-```
-/usr/local/py-utils/bin/pytest -x -q                                                  # all green, coverage ≥ 95 %
-source /home/vscode/.local/dev-venv/bin/activate && python script/pngx_smoketest.py  # 0 failures
-```
+## Dev Commands
 
-**Unit tests are always required.** The smoketest is only required when the change falls into one of these categories:
+- `uv sync` — install deps (add `--group docs` for docs)
+- `uv run pytest -x -q` — unit tests, coverage ≥ 95 %
+- `uv run ruff check pypaperless` — lint (`select = ALL`)
+- `uv run ruff format pypaperless` — format
+- `uv run mypy` — static type check (strict-ish)
+- `uv run codespell` — spell check
+- `uv run yamllint .` — lint YAML (enforced by pre-commit)
+- `prek run --all-files` — all pre-commit hooks
 
-- New service or model wired up (new API resource, new sub-service, new endpoint)
-- Existing service/model/mixin behaviour changed in a way that could break live API interaction
-- Changes to `client.py`, `const.py`, or `utils.py`
+Local dev instance credentials live in the git-ignored `.env`
+(`PYPAPERLESS_URL`, `PYPAPERLESS_TOKEN`, `PYPAPERLESS_TEST_DOC`) — copy `.env.example` to `.env`.
+Activate the dev venv before running scripts. The `script/*.py` tools and `run/debug.py` read the
+`.env` via `script/_dev_env.py`.
 
-For everything else (docs, tests, filters, pure refactors, docstrings) — run unit tests only and explicitly state that the smoketest was skipped and why.
+## Testing instructions
 
-Report both results (or the skip reason) before closing the task.
+1. `uv run pytest -x -q` — always required, all green, coverage ≥ 95 %.
+2. `uv run python script/pngx_smoketest.py` — **only** when the change could affect live API
+   interaction: new/changed service, model, mixin or endpoint, or edits to `client.py`, `const.py`,
+   `utils.py`. Needs a live instance (below); expect 0 failures.
 
----
+For docs, filters, pure refactors and docstrings, run unit tests only and state that the smoketest
+was skipped and why. Report both results (or the skip reason) before closing the task.
 
-## Code Conventions
+## PR instructions
 
-- Ruff (`select = ALL`) and mypy (strict-ish) must report **0 findings** on all new/modified code.
+- Branch off `main`; keep the branch scoped to one logical change.
+- Title format: `<type>: <summary>` (e.g. `fix:`, `feat:`, `docs:`, `refactor:`).
+- Before opening a PR, all `## Dev Commands` pass and the `## Testing instructions` are satisfied
+  (report the smoketest result or the skip reason).
+- Fill in the PR template and do not uncheck/remove its checkboxes.
+
+## Code style
+
+- Ruff (`select = ALL`) and mypy must report **0 findings** on new/modified code.
+- `# noqa`, `# type: ignore` and all other suppressions are **forbidden** — fix the root cause.
+  Only `# noqa: F401` on re-export lines in `__init__.py` is allowed without asking.
 - Pydantic v2 (`BaseModel`, `model_validator`, `Field`) · httpx for async HTTP.
 - `@asynccontextmanager` always uses `try/finally`.
-- Public types re-exported via `pypaperless/models/types.py` · internal helpers prefixed with `_`.
-- New resource → follow `.github/skills/add-resource/SKILL.md`.
-- Filter changes → follow `.github/skills/update-filters/SKILL.md`.
-- `# noqa`, `# type: ignore`, and all other suppression forms are **forbidden** — always fix the root cause; only `# noqa: F401` on re-export lines in `__init__.py` is allowed without asking.
+- Public types re-exported via `models/types.py`; internal helpers prefixed with `_`.
+- New resource → `.claude/skills/pp-add-resource/SKILL.md` (or `/pp-add-resource`).
+  Filter changes → `.claude/skills/pp-update-filters/SKILL.md` (or `/pp-update-filters`).
+  These skills track the current code surface and hold the canonical templates.
 
----
+## Good practices
 
-## Docstring Conventions
-
-### Public APIs
-
-RST-style, one-line summary ending with a period, `Args:` (Google-style), `Example::` (RST literal block).
-Every public symbol needs a usage example. Use Sphinx cross-references for other library symbols.
-**No** Markdown fenced code blocks inside docstrings.
-
-```python
-def method(self, param: int) -> str:
-    """One-line summary ending with a period.
-
-    Args:
-        param: What this parameter does.
-
-    Example::
-
-        result = await paperless.documents(42)
-        print(result.title)
-
-    """
-```
-
-Reference implementations: `pypaperless/builders/search.py`, `pypaperless/builders/custom_fields.py`.
-
-### Private / internal APIs (`_` prefix or internal-only)
-
-One- or two-line docstring only — focus on _why_ or non-obvious behaviour. No `Args:`, no example.
-
-```python
-def _get_document_pk(self, pk: int | None = None) -> int:
-    """Return the attached document pk, or the parameter."""
-```
+- Comments explain *why* (non-obvious constraints, surprises, workarounds), never *what*. Prefer
+  one short line, or none. Never justify a change by referencing what the code used to be.
+- No section/divider comments (e.g. `# --- Triggers ---`) — they go stale.
+- Keep try-clauses minimal: wrap only the statement that can raise, catch only expected exceptions.
+- Docstrings: public APIs RST-style (one-line summary, Google `Args:`, mandatory `Example::` block, no Markdown fences — see `pypaperless/builders/search.py`); private `_` symbols one or two lines on *why* only.
 
 ---
 > Source: [tb1337/paperless-api](https://github.com/tb1337/paperless-api) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-29 -->
+<!-- tomevault:4.0:gemini_md:2026-08-09 -->
