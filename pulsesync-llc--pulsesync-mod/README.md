@@ -1,17 +1,16 @@
 # AI instruction files for PulseSync-mod
 
-> Sourced from [PulseSync-LLC/PulseSync-mod](https://github.com/PulseSync-LLC/PulseSync-mod) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Модификация для настольного приложения Яндекс Музыки. Fork of: https://github.com/TheKing-OfTime/YandexMusicModClient
+> Sourced from [PulseSync-LLC/PulseSync-mod](https://github.com/PulseSync-LLC/PulseSync-mod), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PulseSync-LLC/PulseSync-mod](https://github.com/PulseSync-LLC/PulseSync-mod).
+Original source: `` in [PulseSync-LLC/PulseSync-mod](https://github.com/PulseSync-LLC/PulseSync-mod).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
