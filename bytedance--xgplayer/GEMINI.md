@@ -1,58 +1,50 @@
 ## xgplayer
 
-> Global agent map for this repo. Keep package-specific design/background in package docs or package-level AGENTS.md files.
+> - This repository is a Yarn workspace monorepo (`workspaces: ["packages/*"]`). Most work happens under `packages/`.
 
-# AGENTS.md
+# Project Guidelines
 
-Global agent map for this repo. Keep package-specific design/background in package docs or package-level AGENTS.md files.
+## Architecture
+- This repository is a Yarn workspace monorepo (`workspaces: ["packages/*"]`). Most work happens under `packages/`.
+- Core player logic is in `packages/xgplayer`. Format and feature plugins live in sibling packages such as `packages/xgplayer-hls`, `packages/xgplayer-flv`, `packages/xgplayer-mp4`, `packages/xgplayer-dash`, `packages/xgplayer-ads`, `packages/xgplayer-cast`, and `packages/xgplayer-music`.
+- Streaming internals are shared across packages like `packages/xgplayer-transmuxer` and `packages/xgplayer-streaming-shared`. Prefer reusing shared logic instead of duplicating code in one plugin.
+- Local manual verification uses fixture apps in `fixtures/` (for example `fixtures/xgplayer`, `fixtures/hls`, `fixtures/flv`).
 
-## Locate
+## Build and Test
+- Install deps: `yarn`
+- Dev fixtures:
+  - `yarn dev:xgplayer`
+  - `yarn dev:hls` / `yarn dev:flv` / `yarn dev:mp4` / `yarn dev:dash` / `yarn dev:music` / `yarn dev:subtitle` / `yarn dev:ads` / `yarn dev:cast`
+- Build:
+  - `yarn build` (current package flow)
+  - `yarn build:all` (all workspace packages)
+- Test:
+  - `yarn test`
+  - `yarn test:coverage`
+  - Note: Jest coverage/test matching is focused on `xgplayer-flv`, `xgplayer-hls`, and `xgplayer-transmuxer` in `jest.config.js`.
+- Lint/format:
+  - `yarn lint`
+  - `yarn format`
 
-| Need | Go to |
-|------|-------|
-| Package source | `packages/*/src/` |
-| Package metadata/docs | `packages/*/{package.json,README.md,CHANGELOG.md}` |
-| Build tooling | `scripts/{cli.js,commands/,workflow/}` |
-| Demos/repros | `fixtures/<format>/` |
-| Quality gates | `docs/ai-harness/quality-gates.md` |
-| Repo commands | root `package.json` |
-| Lint/test config | `biome.json`, `jest.config.js`, `jest.setup.js` |
-| Release process | `.github/release-guideline.md` |
+## Code Style
+- Follow `biome.json`:
+  - 2-space indentation, single quotes, semicolons as needed, line width 90.
+  - Prefer optional chaining where suitable.
+  - Do not use `==` / `!=`; use strict equality.
+- Keep existing module style (ESM `import`/`export`) and preserve current package APIs unless the task explicitly requires API changes.
+- Match surrounding style in each package; avoid unrelated refactors or broad formatting churn.
 
-## Commands
+## Conventions and Pitfalls
+- Many plugin packages are consumed independently; check each package's `package.json` (`peerDependencies`, `files`, exports) when changing public behavior.
+- Release is tag-driven CI (`.github/workflows/publish.yml`). Do not invent new release steps; follow `.github/release-guideline.md`.
+- Avoid copying long docs into chat outputs or code comments. Link to authoritative docs instead.
 
-| Intent | Command |
-|--------|---------|
-| Install | `yarn` |
-| Demo | `yarn dev:<format>` |
-| Build | `yarn build` / `yarn build:all` |
-| Lint/format | `yarn lint` / `yarn format` |
-| Staged format | `yarn format:staged` |
-| Test | `yarn test` / `yarn test:ci` |
-| Quiet test | `yarn test --verbose=false --silent` |
-
-## Rules
-
-- Package manager: Yarn 1.x only; only touch `yarn.lock`.
-- Dependencies: keep pins deliberate; do not loosen/downgrade ad hoc.
-- Commits: use meaningful conventional commit titles, `monorepo` or `*` for cross-package changes, and a short body for non-trivial changes covering problem and key change.
-- CHANGELOG: only add entries for stable releases (patch/minor/major); skip prerelease tags (`rc`/`alpha`/`beta`) — fold their commits into the next stable entry.
-
-## Never
-
-- Release/publish/tag, modify `version`, force-push, or rewrite shared history.
-- Commit `dist/`, `es/`, `node_modules/`, logs, or OS junk.
-- Add unaudited runtime network calls or remote scripts.
-- Switch package managers or regenerate lockfiles with other tools.
-
-## Debug
-
-| Symptom | Start here |
-|---------|------------|
-| Format-specific regression | `fixtures/<format>/`, `yarn dev:<format>` |
-| HLS/FLV/DASH issue | shared streaming/transmuxing packages |
-| Demo stale after source edit | rebuild relevant package `es/` output |
-| Build pipeline issue | `scripts/commands/`, then `scripts/workflow/` |
+## Key References
+- Root overview: `README.md` and `README.zh-CN.md`
+- Release process: `.github/release-guideline.md` and `.github/release-guideline.zh-CN.md`
+- Testing scope/config: `jest.config.js`
+- Build/dev command entry: `scripts/cli.js`
+- Package-specific usage and constraints: each package `README.md` / `CHANGELOG.md` under `packages/`
 
 ---
 > Source: [bytedance/xgplayer](https://github.com/bytedance/xgplayer) — distributed by [TomeVault](https://tomevault.io).
