@@ -2,9 +2,9 @@
   "name": "autograder",
   "owner": "webtech-network",
   "repo": "autograder",
-  "description": "Flexible, Consistent and Powerful Autograding Tool that grades and generates reports on your students submissions.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/webtech-network/autograder",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T22:59:22Z"
+  "distributed_at": "2026-08-10T02:38:25Z"
 }
