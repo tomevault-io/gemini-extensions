@@ -7,11 +7,11 @@ A batteries-included framework for building web apps
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat).
+Original source: `AGENTS.md` in [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
