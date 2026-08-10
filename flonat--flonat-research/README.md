@@ -7,11 +7,11 @@ Shareable Claude Code + Codex infrastructure for PhD researchers — skills, age
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [flonat/flonat-research](https://github.com/flonat/flonat-research).
+Original source: `CLAUDE.md` in [flonat/flonat-research](https://github.com/flonat/flonat-research).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
