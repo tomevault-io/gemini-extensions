@@ -7,11 +7,11 @@ Curso e biblioteca educacional de skills e squads das turmas AIOX Advanced
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [oalanicolas/aiox-advanced-brain](https://github.com/oalanicolas/aiox-advanced-brain).
+Original source: `CLAUDE.md` in [oalanicolas/aiox-advanced-brain](https://github.com/oalanicolas/aiox-advanced-brain).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
