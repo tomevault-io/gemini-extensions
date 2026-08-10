@@ -1,70 +1,96 @@
 ## bilibili-tui
 
-> Use Cargo commands directly from the repository root:
+> This repository is a Rust 2024 terminal client for Bilibili. Keep changes small,
 
-# Copilot instructions for `bilibili-tui`
+# Repository Guidelines
 
-## Build, test, and lint commands
+## Scope
 
-Use Cargo commands directly from the repository root:
+This repository is a Rust 2024 terminal client for Bilibili. Keep changes small,
+typed, and testable. Preserve existing keyboard behavior, navigation state, and
+configuration compatibility unless the task explicitly changes them.
 
-- Build (dev): `cargo build`
-- Build (release): `cargo build --release`
-- Run app: `cargo run`
-- Fast compile check: `cargo check`
-- Lint (warning-free policy): `cargo clippy -- -D warnings`
-- Format: `cargo fmt`
-- Full test suite: `cargo test`
-- Run a single test: `cargo test api::wbi::tests::test_encode_wbi`
+## Architecture
 
-Pre-commit is configured and mirrors project checks:
+- `src/api/`: HTTP/WebSocket clients, wire models, signing, and protocol parsing.
+- `src/application/`: application actions, network commands, and network events.
+- `src/app/`: page orchestration, navigation, runtime event handling, and action dispatch.
+- `src/ui/`: Ratatui pages, widgets, themes, and input state machines.
+- `src/domain/`: application-domain state such as playback queues.
+- `src/player/`: mpv integration, stream failover, proxying, and danmaku scripts.
+- `src/storage/`: persisted configuration, credentials, and keybindings.
+- `src/infrastructure/` and `src/presentation/`: adapters and public-facing re-exports.
 
-- Run all hooks: `pre-commit run --all-files`
+Keep wire-format concerns in `api`, state transitions in `app`/`ui`, and external
+process or persistence details in their dedicated modules. Do not make rendering
+functions perform network requests.
 
-Runtime tools expected by the app (from project docs): `mpv` and `yt-dlp`.
+## Development Workflow
 
-## High-level architecture
+Use the native toolchain when available. On NixOS, run the same commands through
+`nix develop --command`:
 
-- Entry point is `src/main.rs`, which initializes Ratatui + mouse capture and runs `App::run()` from `src/app/mod.rs`.
-- `App` is the central state machine:
-  - Owns global state (`current_page`, `api_client`, credentials, sidebar/theme/keybindings, cached home page).
-  - Runs the event loop (keyboard + mouse + periodic `tick()`).
-  - Routes page intents via `AppAction` (`src/app/action.rs`) in `handle_action()`.
-  - Performs async page initialization in `init_current_page()` whenever switching pages.
-- UI uses a component model in `src/ui/mod.rs`:
-  - Every page implements `Component` (`draw`, input handlers, optional mouse handling).
-  - `Page` enum holds all concrete pages (`Login`, `Home`, `Search`, `Dynamic`, `History`, `Live`, detail pages, `Settings`).
-- Networking is centralized in `src/api/client.rs`:
-  - Shared `reqwest::Client` with fixed Bilibili headers (`User-Agent`, `Referer`).
-  - Cookie and WBI key state are kept in `RwLock`s.
-  - Feature APIs (search/recommend/video/comments/live/etc.) are methods on `ApiClient`.
-- Live streaming has a separate stack:
-  - `ApiClient::get_danmu_info()` fetches signed WS connection metadata.
-  - `src/api/live_client.rs` manages WS lifecycle + heartbeat.
-  - `src/api/live_ws.rs` handles packet encode/decode, zlib/brotli decompression, and message parsing.
-- Media playback is in `src/player/mod.rs`:
-  - Launches `mpv` asynchronously.
-  - Exports cookies for authenticated playback.
-  - Sends watch heartbeat/start/end events through heartbeat APIs.
-- Persistence is in `src/storage/mod.rs`:
-  - Reads/writes `~/.config/bilibili-tui/{credentials.json,config.json}`.
-  - Stores theme + keybindings in `AppConfig`.
+```sh
+cargo fmt --check
+cargo test
+cargo clippy --all-targets --all-features -- -D warnings
+cargo build
+```
 
-## Key conventions in this repository
+Run focused tests while iterating, then run all four checks before handoff. Do
+not commit `target/`, local configuration, credentials, cookies, or diagnostics.
 
-- Page-to-app communication is action-based: pages should return `Option<AppAction>` instead of directly mutating global app state.
-- New page-level async loading should follow the existing lifecycle split:
-  - initial load in `App::init_current_page()`
-  - background/non-blocking updates in `App::tick()`.
-- Input handling should use `Keybindings` matcher helpers (`matches_*`) instead of hardcoded `KeyCode` checks to preserve user-configurable bindings.
-- Home page state is intentionally cached when navigating to detail pages and restored on return (`App.cached_home`); avoid changes that force unnecessary home reloads.
-- Image-heavy pages use non-blocking cover loading with `tokio::spawn` + mpsc channels (`start_cover_downloads` / `poll_cover_results`) to keep the TUI responsive.
-- API wrappers consistently deserialize `ApiResponse<T>` and either:
-  - return explicit errors for required payloads, or
-  - provide typed empty defaults for list-style responses.
-- WBI signing is mandatory for WBI endpoints (search/recommend and live danmu info); preserve signing logic and the retry-on-`-352` refresh flow in `get_danmu_info()`.
-- UI copy and labels are predominantly Chinese; keep new user-facing text consistent with that localization style.
+## Rust Style
+
+- Follow `rustfmt`; use `snake_case` for functions/modules and `PascalCase` for types.
+- Prefer small helpers that express one state transition or protocol operation.
+- Reuse shared UI helpers such as `shortcut_footer` instead of duplicating styles.
+- Avoid cloning collections in draw loops; borrow slices and separate mutable widget state.
+- Avoid `unwrap`/`expect` outside tests unless an invariant is established at startup.
+- Keep error messages concise and actionable; retain the original error as context.
+- Use explicit action/event names such as `OpenVideoDetail` and `VideoDetailLoaded`.
+
+## Behavioral Invariants
+
+- A page must never remain in a loading/deleting/input mode after a request is
+  rejected or fails. Every asynchronous transition needs a success and failure exit.
+- Preserve history shortcuts: Space toggles, Ctrl+A selects loaded eligible items,
+  Ctrl+R inverts them, `d` confirms deletion, and Esc cancels selection/dialogs.
+- PGC history uses season and exact episode identifiers; normal archives use BVID/AID.
+- Playback quality caps must never silently select a stream above the configured limit.
+- Keep footer hints centered, bracketed, color-coded, and built from configured keybindings.
+- Paginated and asynchronous results must ignore stale request IDs.
+
+## API and Security
+
+Treat Bilibili endpoints as unstable contracts. Use serde defaults only where the
+field is genuinely optional, and add minimized fixtures for numeric/string/null drift.
+Keep endpoint details behind API client methods.
+
+Never log or persist cookies, CSRF tokens, response bodies, signed media URLs,
+private identifiers, or query strings. Redact sensitive URL components in errors
+and diagnostics.
+
+## Testing
+
+Place unit tests beside the implementation. Name tests by observable behavior,
+for example `cancel_deletion_restores_selection_mode`. Add tests for:
+
+- mixed or drifting API payloads;
+- keyboard and mouse state transitions;
+- pagination and stale network responses;
+- configuration defaults and round trips;
+- playback queue and stream-selection behavior.
+
+Network, login, and mpv contract tests may remain ignored with a clear reason.
+
+## Commits and Pull Requests
+
+Use scoped Conventional Commit subjects (`feat:`, `fix:`, `refactor:`, `test:`,
+`chore:`). Pull requests should summarize user-visible effects, implementation
+choices, API/configuration assumptions, and exact validation commands. Include a
+screenshot when layout or theme behavior changes.
 
 ---
 > Source: [MareDevi/bilibili-tui](https://github.com/MareDevi/bilibili-tui) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-21 -->
+<!-- tomevault:4.0:gemini_md:2026-08-09 -->
