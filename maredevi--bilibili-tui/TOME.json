@@ -2,9 +2,9 @@
   "name": "bilibili-tui",
   "owner": "MareDevi",
   "repo": "bilibili-tui",
-  "description": "A terminal user interface (TUI) client for Bilibili",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/MareDevi/bilibili-tui",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-21T14:21:48Z"
+  "distributed_at": "2026-08-10T02:17:06Z"
 }
