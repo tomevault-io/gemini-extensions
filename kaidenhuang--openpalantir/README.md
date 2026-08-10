@@ -7,11 +7,11 @@ OpenPalantir 是一个基于 AI 的数据分析与知识图谱构建系统。支
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [KaidenHuang/OpenPalantir](https://github.com/KaidenHuang/OpenPalantir).
+Original source: `AGENTS.md` in [KaidenHuang/OpenPalantir](https://github.com/KaidenHuang/OpenPalantir).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
