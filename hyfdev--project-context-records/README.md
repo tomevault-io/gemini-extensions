@@ -7,11 +7,11 @@ Project Context Records (PCR) gives autonomous AI work durable, reviewable memor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hyfdev/project-context-records](https://github.com/hyfdev/project-context-records).
+Original source: `AGENTS.md` in [hyfdev/project-context-records](https://github.com/hyfdev/project-context-records).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
