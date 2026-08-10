@@ -4,7 +4,7 @@
   "repo": "sqlkit",
   "description": "Agentic SQL database manager for 40+ databases \u2014 PostgreSQL, MySQL, SQL Server, SQLite, DuckDB, ClickHouse, Oracle and more. Lightweight, privacy-first, AI-powered, cross-platform. Built with Tauri (Rust).",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/geek-fun/sqlkit",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-10T13:32:00Z"
+  "distributed_at": "2026-08-10T13:33:14Z"
 }
