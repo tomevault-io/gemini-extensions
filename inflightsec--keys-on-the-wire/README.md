@@ -7,11 +7,11 @@ Just-in-time API keys for AI agents - and any other process you route through it
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [inflightsec/keys-on-the-wire](https://github.com/inflightsec/keys-on-the-wire).
+Original source: `AGENTS.md` in [inflightsec/keys-on-the-wire](https://github.com/inflightsec/keys-on-the-wire).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
