@@ -7,12 +7,12 @@ SYM-Lite is a lean, purpose-built script for executing MDM-agnostic Installoma
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [setup-your-mac/SYM-Lite](https://github.com/setup-your-mac/SYM-Lite).
+Original source: `AGENTS.md` in [setup-your-mac/SYM-Lite](https://github.com/setup-your-mac/SYM-Lite).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
