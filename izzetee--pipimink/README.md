@@ -7,12 +7,12 @@ Route every prompt to the best LLM — for you specifically.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Izzetee/PiPiMink](https://github.com/Izzetee/PiPiMink).
+Original source: `AGENTS.md` in [Izzetee/PiPiMink](https://github.com/Izzetee/PiPiMink).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
