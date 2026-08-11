@@ -7,11 +7,11 @@ Low-memory, zero-dependency image codecs and processing in pure TypeScript for N
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [a-r-d/PureJsImage](https://github.com/a-r-d/PureJsImage).
+Original source: `CLAUDE.md` in [a-r-d/PureJsImage](https://github.com/a-r-d/PureJsImage).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
