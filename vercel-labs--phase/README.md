@@ -7,11 +7,11 @@ Lifecycle-aware UI performance layer for the web
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vercel-labs/phase](https://github.com/vercel-labs/phase).
+Original source: `AGENTS.md` in [vercel-labs/phase](https://github.com/vercel-labs/phase).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
