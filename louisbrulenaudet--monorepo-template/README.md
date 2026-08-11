@@ -7,11 +7,11 @@ A concise, AI native and production-grade starter template for full-stack applic
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [louisbrulenaudet/monorepo-template](https://github.com/louisbrulenaudet/monorepo-template).
+Original source: `AGENTS.md` in [louisbrulenaudet/monorepo-template](https://github.com/louisbrulenaudet/monorepo-template).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
