@@ -7,11 +7,11 @@ CodeX / Claude Code 分级通知插件 — 11 个渠道，短通知即时触达�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MarioZZJ/cc-notify-hooks](https://github.com/MarioZZJ/cc-notify-hooks).
+Original source: `AGENTS.md` in [MarioZZJ/cc-notify-hooks](https://github.com/MarioZZJ/cc-notify-hooks).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
