@@ -7,11 +7,11 @@ AI skills framework for petroleum engineering workflows, built on Superpowers fo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kucherenko/petropowers](https://github.com/kucherenko/petropowers).
+Original source: `AGENTS.md` in [kucherenko/petropowers](https://github.com/kucherenko/petropowers).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
