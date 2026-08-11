@@ -7,11 +7,11 @@ Windows desktop workbench for Crimson Desert modding: browse and extract archive
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Ratty123/CDMW-Full](https://github.com/Ratty123/CDMW-Full).
+Original source: `AGENTS.md` in [Ratty123/CDMW-Full](https://github.com/Ratty123/CDMW-Full).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
