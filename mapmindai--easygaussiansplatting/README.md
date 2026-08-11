@@ -7,11 +7,11 @@ From insta360 to Gaussian Splatting Easy and Direct
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MapMindAI/EasyGaussianSplatting](https://github.com/MapMindAI/EasyGaussianSplatting).
+Original source: `AGENTS.md` in [MapMindAI/EasyGaussianSplatting](https://github.com/MapMindAI/EasyGaussianSplatting).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
