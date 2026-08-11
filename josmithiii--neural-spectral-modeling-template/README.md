@@ -7,11 +7,11 @@ Neural spectral modeling template based on extended Lightning-Hydra-Template
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [josmithiii/neural-spectral-modeling-template](https://github.com/josmithiii/neural-spectral-modeling-template).
+Original source: `AGENTS.md` in [josmithiii/neural-spectral-modeling-template](https://github.com/josmithiii/neural-spectral-modeling-template).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
