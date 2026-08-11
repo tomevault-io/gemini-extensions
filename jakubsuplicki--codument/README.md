@@ -7,11 +7,11 @@ Docs-based guardrails for AI coding workflows: coverage scoring, doc-drift check
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jakubsuplicki/codument](https://github.com/jakubsuplicki/codument).
+Original source: `CLAUDE.md` in [jakubsuplicki/codument](https://github.com/jakubsuplicki/codument).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
