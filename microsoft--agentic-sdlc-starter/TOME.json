@@ -4,7 +4,7 @@
   "repo": "agentic-sdlc-starter",
   "description": " Reference architecture for spec-driven, AI-assisted software development using GitHub Copilot, MCP, and repo-based context engineering.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/microsoft/agentic-sdlc-starter",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-11T20:41:11Z"
+  "distributed_at": "2026-08-11T23:28:14Z"
 }
