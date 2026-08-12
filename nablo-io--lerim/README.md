@@ -7,11 +7,11 @@ Compiles AI agent traces and truns them into reusable context.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nablo-io/lerim](https://github.com/nablo-io/lerim).
+Original source: `CLAUDE.md` in [nablo-io/lerim](https://github.com/nablo-io/lerim).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
