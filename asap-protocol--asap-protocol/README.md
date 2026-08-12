@@ -7,13 +7,13 @@ Protocol for agent-to-agent communication with stateful orchestration, MCP-compa
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [asap-protocol/asap-protocol](https://github.com/asap-protocol/asap-protocol).
+Original source: `AGENTS.md` in [asap-protocol/asap-protocol](https://github.com/asap-protocol/asap-protocol).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
