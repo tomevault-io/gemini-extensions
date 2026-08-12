@@ -7,11 +7,11 @@ ChatGPT Codex skill package for Vulkan-first C++ GPU, CUDA, and donor-reference 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [tarkansarim/CppStudio](https://github.com/tarkansarim/CppStudio).
+Original source: `AGENTS.md` in [tarkansarim/CppStudio](https://github.com/tarkansarim/CppStudio).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
