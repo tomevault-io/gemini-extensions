@@ -7,11 +7,11 @@ An open source robot on your desk
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [autonomous-ai/autonomous-lamp](https://github.com/autonomous-ai/autonomous-lamp).
+Original source: `CLAUDE.md` in [autonomous-ai/autonomous-lamp](https://github.com/autonomous-ai/autonomous-lamp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
