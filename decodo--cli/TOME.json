@@ -4,7 +4,7 @@
   "repo": "cli",
   "description": "The official Decodo web scraper CLI for terminal web scraping and AI agent workflows.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Decodo/cli",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-12T09:16:14Z"
+  "distributed_at": "2026-08-12T09:34:05Z"
 }
