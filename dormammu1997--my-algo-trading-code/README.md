@@ -7,11 +7,11 @@ Python algorithmic trading suite: signal generators, backtests, and a multithrea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [DoRmAmMu1997/My-Algo-Trading-Code](https://github.com/DoRmAmMu1997/My-Algo-Trading-Code).
+Original source: `AGENTS.md` in [DoRmAmMu1997/My-Algo-Trading-Code](https://github.com/DoRmAmMu1997/My-Algo-Trading-Code).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
