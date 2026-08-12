@@ -7,11 +7,11 @@ A complex business system in 170k tokens. ObjectStack compresses an entire app �
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [objectstack-ai/objectstack](https://github.com/objectstack-ai/objectstack).
+Original source: `AGENTS.md` in [objectstack-ai/objectstack](https://github.com/objectstack-ai/objectstack).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
