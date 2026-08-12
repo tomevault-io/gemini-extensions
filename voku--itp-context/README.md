@@ -1,0 +1,26 @@
+# AI instruction files for itp-context
+
+> Sourced from [voku/itp-context](https://github.com/voku/itp-context), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
+
+🎯 A small PHP library for attaching architecture rules to code via PHP attributes and resolving those rules from a matching catalog.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `copilot-instructions.md` in [voku/itp-context](https://github.com/voku/itp-context).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [voku/itp-context](https://github.com/voku/itp-context) — a repo with 9+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
+
+<!-- genome:a-e-s -->
