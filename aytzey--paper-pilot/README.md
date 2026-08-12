@@ -7,11 +7,11 @@ Your AI's research copilot. Searches 6 academic databases, downloads real PDFs, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [aytzey/paper-pilot](https://github.com/aytzey/paper-pilot).
+Original source: `AGENTS.md` in [aytzey/paper-pilot](https://github.com/aytzey/paper-pilot).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
