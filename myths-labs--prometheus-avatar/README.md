@@ -7,11 +7,11 @@ Open-source SDK for driving Live2D & 3D avatars with LLM output. Give your AI a 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [myths-labs/prometheus-avatar](https://github.com/myths-labs/prometheus-avatar).
+Original source: `CLAUDE.md` in [myths-labs/prometheus-avatar](https://github.com/myths-labs/prometheus-avatar).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
