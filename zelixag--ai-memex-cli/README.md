@@ -7,13 +7,13 @@ Your AI agents, finally with a memory that compounds.  AI Memex turns chats, doc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [zelixag/ai-memex-cli](https://github.com/zelixag/ai-memex-cli).
+Original source: `CLAUDE.md` in [zelixag/ai-memex-cli](https://github.com/zelixag/ai-memex-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
