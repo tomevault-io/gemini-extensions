@@ -7,11 +7,11 @@ evidence-backed guidance for coding agents in production software, from individu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [anipotts/coding-agent-tips](https://github.com/anipotts/coding-agent-tips).
+Original source: `CLAUDE.md` in [anipotts/coding-agent-tips](https://github.com/anipotts/coding-agent-tips).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
