@@ -7,11 +7,11 @@ AI-powered interactive fiction engine: players write actions, and a living story
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [bei666qi-pan/VerseCraft](https://github.com/bei666qi-pan/VerseCraft).
+Original source: `CLAUDE.md` in [bei666qi-pan/VerseCraft](https://github.com/bei666qi-pan/VerseCraft).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
