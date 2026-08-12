@@ -7,11 +7,11 @@ PoLang is an on-device AI agent smart photo gallery that treats the LLM as the c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [littleseven/polang](https://github.com/littleseven/polang).
+Original source: `CLAUDE.md` in [littleseven/polang](https://github.com/littleseven/polang).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
