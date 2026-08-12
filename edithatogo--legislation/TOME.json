@@ -4,7 +4,7 @@
   "repo": "legislation",
   "description": "CLI tool for searching and retrieving New Zealand legislation data",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/edithatogo/legislation",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-11T22:58:56Z"
+  "distributed_at": "2026-08-12T05:26:26Z"
 }
