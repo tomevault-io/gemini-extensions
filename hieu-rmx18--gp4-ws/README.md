@@ -7,11 +7,11 @@ My gp4_ws for review and fix (Student Prj)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Hieu-RMX18/gp4_ws](https://github.com/Hieu-RMX18/gp4_ws).
+Original source: `AGENTS.md` in [Hieu-RMX18/gp4_ws](https://github.com/Hieu-RMX18/gp4_ws).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
