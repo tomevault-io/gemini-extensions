@@ -7,11 +7,11 @@ Agent operating framework for Agor - inspired by OpenClaw
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [preset-io/agor-teammate](https://github.com/preset-io/agor-teammate).
+Original source: `AGENTS.md` in [preset-io/agor-teammate](https://github.com/preset-io/agor-teammate).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
