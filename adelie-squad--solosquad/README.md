@@ -7,11 +7,11 @@ AI agent system designed to help solo founders build and ship products efficient
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Adelie-Squad/solosquad](https://github.com/Adelie-Squad/solosquad).
+Original source: `AGENTS.md` in [Adelie-Squad/solosquad](https://github.com/Adelie-Squad/solosquad).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
