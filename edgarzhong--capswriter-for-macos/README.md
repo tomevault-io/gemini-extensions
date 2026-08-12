@@ -7,11 +7,11 @@ CapsWriter-Offline项目的macOS适配。利用MLX框架运行Qwen3-ASR模型的
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [EdgarZhong/CapsWriter-for-macOS](https://github.com/EdgarZhong/CapsWriter-for-macOS).
+Original source: `CLAUDE.md` in [EdgarZhong/CapsWriter-for-macOS](https://github.com/EdgarZhong/CapsWriter-for-macOS).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
