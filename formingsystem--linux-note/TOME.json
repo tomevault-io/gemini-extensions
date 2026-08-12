@@ -4,7 +4,7 @@
   "repo": "linux_note",
   "description": "\u4f5c\u4e3a\u6211\u7684linux\u5185\u6838\u548c\u9a71\u52a8\u5f00\u53d1\u7684\u7b14\u8bb0\u3002",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/FormingSystem/linux_note",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-11T22:50:03Z"
+  "distributed_at": "2026-08-12T05:02:03Z"
 }
