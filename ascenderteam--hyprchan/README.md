@@ -7,11 +7,11 @@ A homeostatic AI agent, the character and mascot of Hyprland that lives in your 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AscenderTeam/Hyprchan](https://github.com/AscenderTeam/Hyprchan).
+Original source: `CLAUDE.md` in [AscenderTeam/Hyprchan](https://github.com/AscenderTeam/Hyprchan).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
