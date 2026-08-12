@@ -7,11 +7,11 @@ Cassandra-compatible distributed database in Rust with S3-backed storage. Develo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ferrosadb/ferrosa](https://github.com/ferrosadb/ferrosa).
+Original source: `AGENTS.md` in [ferrosadb/ferrosa](https://github.com/ferrosadb/ferrosa).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
