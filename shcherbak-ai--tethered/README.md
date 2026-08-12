@@ -7,11 +7,11 @@ tethered — Runtime network egress control for Python. One function call to res
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [shcherbak-ai/tethered](https://github.com/shcherbak-ai/tethered).
+Original source: `CLAUDE.md` in [shcherbak-ai/tethered](https://github.com/shcherbak-ai/tethered).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
