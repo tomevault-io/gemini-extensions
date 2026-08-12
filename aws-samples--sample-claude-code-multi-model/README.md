@@ -7,11 +7,11 @@ Run Claude Code with any foundation model on Amazon Bedrock (43 models) or a sel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [aws-samples/sample-claude-code-multi-model](https://github.com/aws-samples/sample-claude-code-multi-model).
+Original source: `AGENTS.md` in [aws-samples/sample-claude-code-multi-model](https://github.com/aws-samples/sample-claude-code-multi-model).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
