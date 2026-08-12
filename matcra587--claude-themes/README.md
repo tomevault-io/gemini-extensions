@@ -7,11 +7,11 @@ A marketplace of UI themes for Claude
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [matcra587/claude-themes](https://github.com/matcra587/claude-themes).
+Original source: `AGENTS.md` in [matcra587/claude-themes](https://github.com/matcra587/claude-themes).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
