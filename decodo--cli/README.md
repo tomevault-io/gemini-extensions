@@ -7,11 +7,11 @@ The official Decodo web scraper CLI for terminal web scraping and AI agent workf
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Decodo/cli](https://github.com/Decodo/cli).
+Original source: `CLAUDE.md` in [Decodo/cli](https://github.com/Decodo/cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
