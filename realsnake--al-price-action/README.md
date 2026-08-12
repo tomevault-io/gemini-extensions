@@ -7,11 +7,11 @@ AL Brooks 价格行为学
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [realsnake/AL_price_action](https://github.com/realsnake/AL_price_action).
+Original source: `CLAUDE.md` in [realsnake/AL_price_action](https://github.com/realsnake/AL_price_action).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
