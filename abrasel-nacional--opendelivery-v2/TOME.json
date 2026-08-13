@@ -4,7 +4,7 @@
   "repo": "opendelivery-v2",
   "description": "Reposit\u00f3rio da vers\u00e3o 2.0 do Open Delivery",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Abrasel-Nacional/opendelivery-v2",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-12T21:00:15Z"
+  "distributed_at": "2026-08-13T15:13:39Z"
 }
