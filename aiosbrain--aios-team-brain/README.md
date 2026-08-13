@@ -7,13 +7,13 @@ The shared Team Brain: receives tier-tagged sync from AIOS workspaces and surfac
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [aiosbrain/aios-team-brain](https://github.com/aiosbrain/aios-team-brain).
+Original source: `AGENTS.md` in [aiosbrain/aios-team-brain](https://github.com/aiosbrain/aios-team-brain).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
