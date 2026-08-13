@@ -7,11 +7,11 @@ Central storage & webhook bridge for Contabo VPS. Handles audio, shaders, notes,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ford442/contabo_storage_manager](https://github.com/ford442/contabo_storage_manager).
+Original source: `CLAUDE.md` in [ford442/contabo_storage_manager](https://github.com/ford442/contabo_storage_manager).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
