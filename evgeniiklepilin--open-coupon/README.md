@@ -7,11 +7,11 @@ OpenCoupon - Open-Source Framework for Building Coupon Browser Extensions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [EvgeniiKlepilin/open-coupon](https://github.com/EvgeniiKlepilin/open-coupon).
+Original source: `CLAUDE.md` in [EvgeniiKlepilin/open-coupon](https://github.com/EvgeniiKlepilin/open-coupon).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
