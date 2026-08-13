@@ -4,7 +4,7 @@
   "repo": "momentum-marketing",
   "description": "Marketing Powerhouse (MP) ist unsere Basis f\u00fcr alle Marketingaktivit\u00e4ten und bietet eine vollumf\u00e4ngliche Erfahrung f\u00fcr alle Unterst\u00fctzer beim Marketing.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Wamocon/momentum-marketing",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-12T15:03:19Z"
+  "distributed_at": "2026-08-13T07:24:24Z"
 }
