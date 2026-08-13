@@ -7,11 +7,11 @@ Vorno — work with AI agents across your real data. Independent fork of Craft A
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Swagatar-LLC/vorno](https://github.com/Swagatar-LLC/vorno).
+Original source: `CLAUDE.md` in [Swagatar-LLC/vorno](https://github.com/Swagatar-LLC/vorno).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
