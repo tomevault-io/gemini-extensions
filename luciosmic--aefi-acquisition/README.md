@@ -7,11 +7,11 @@ Acquisition software for AEFI experimental test bench
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Luciosmic/AEFI_Acquisition](https://github.com/Luciosmic/AEFI_Acquisition).
+Original source: `CLAUDE.md` in [Luciosmic/AEFI_Acquisition](https://github.com/Luciosmic/AEFI_Acquisition).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
