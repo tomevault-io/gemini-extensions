@@ -7,11 +7,11 @@ Agentic Dataflow-Oriented Robotic Architecture -- a 100% Rust framework for real
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dora-rs/adora](https://github.com/dora-rs/adora).
+Original source: `CLAUDE.md` in [dora-rs/adora](https://github.com/dora-rs/adora).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
