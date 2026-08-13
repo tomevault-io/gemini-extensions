@@ -7,11 +7,11 @@ omg.dev — run AI coding agents on your own machine (formerly BennyKok/lfg)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [BennyKok/omg.dev](https://github.com/BennyKok/omg.dev).
+Original source: `CLAUDE.md` in [BennyKok/omg.dev](https://github.com/BennyKok/omg.dev).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
