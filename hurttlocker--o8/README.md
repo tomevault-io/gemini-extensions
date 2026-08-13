@@ -7,11 +7,11 @@ The operating system for AI engineering.  Coordinate models, agents, tools, repo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hurttlocker/o8](https://github.com/hurttlocker/o8).
+Original source: `CLAUDE.md` in [hurttlocker/o8](https://github.com/hurttlocker/o8).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
