@@ -7,11 +7,11 @@ Mobile design skills for iOS (Liquid Glass) and Android (M3 Expressive) that hel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ivan-magda/mobile-design-skills](https://github.com/ivan-magda/mobile-design-skills).
+Original source: `CLAUDE.md` in [ivan-magda/mobile-design-skills](https://github.com/ivan-magda/mobile-design-skills).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
