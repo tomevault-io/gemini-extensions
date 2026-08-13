@@ -7,11 +7,11 @@ Flight recorder for Claude Code, Codex & OpenCode
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TheAceTeam/CC-Flight](https://github.com/TheAceTeam/CC-Flight).
+Original source: `CLAUDE.md` in [TheAceTeam/CC-Flight](https://github.com/TheAceTeam/CC-Flight).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
