@@ -7,11 +7,11 @@ Interactive OOXML (ECMA-376) reference explained by people who actually implemen
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [superdoc/ooxml-dev](https://github.com/superdoc/ooxml-dev).
+Original source: `CLAUDE.md` in [superdoc/ooxml-dev](https://github.com/superdoc/ooxml-dev).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
