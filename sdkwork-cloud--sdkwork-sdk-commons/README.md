@@ -7,11 +7,11 @@ sdkwork-sdk-commons
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Sdkwork-Cloud/sdkwork-sdk-commons](https://github.com/Sdkwork-Cloud/sdkwork-sdk-commons).
+Original source: `CLAUDE.md` in [Sdkwork-Cloud/sdkwork-sdk-commons](https://github.com/Sdkwork-Cloud/sdkwork-sdk-commons).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
