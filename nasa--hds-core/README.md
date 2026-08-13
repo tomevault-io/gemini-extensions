@@ -7,13 +7,13 @@ Documentation for NASA's Horizon Design System (HDS), with a Sass/CSS theme laye
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [nasa/hds-core](https://github.com/nasa/hds-core).
+Original source: `.cursor/rules/*.mdc` in [nasa/hds-core](https://github.com/nasa/hds-core).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
