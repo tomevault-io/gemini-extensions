@@ -7,11 +7,11 @@ Desktop app that automates apartment applications on ImmobilienScout24 — polls
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [B1Z0N/homelander](https://github.com/B1Z0N/homelander).
+Original source: `CLAUDE.md` in [B1Z0N/homelander](https://github.com/B1Z0N/homelander).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
