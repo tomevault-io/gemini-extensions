@@ -7,11 +7,11 @@ A fast git projects manager. Clone, jump, and organise repos from the terminal.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [joshuaboys/gx](https://github.com/joshuaboys/gx).
+Original source: `CLAUDE.md` in [joshuaboys/gx](https://github.com/joshuaboys/gx).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
