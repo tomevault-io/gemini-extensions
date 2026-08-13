@@ -7,11 +7,11 @@ A command-line interface for Bitbucket Cloud
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [0pilatos0/bitbucket-cli](https://github.com/0pilatos0/bitbucket-cli).
+Original source: `CLAUDE.md` in [0pilatos0/bitbucket-cli](https://github.com/0pilatos0/bitbucket-cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
