@@ -7,11 +7,11 @@ Interactive visualization and exploration of large language model (LLM) systems,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [skyliulu/LLM-Infra-Explorer](https://github.com/skyliulu/LLM-Infra-Explorer).
+Original source: `CLAUDE.md` in [skyliulu/LLM-Infra-Explorer](https://github.com/skyliulu/LLM-Infra-Explorer).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
