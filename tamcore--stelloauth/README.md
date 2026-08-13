@@ -7,11 +7,11 @@ Web-based OAuth helper for Stellantis vehicles (MyPeugeot, MyCitroën, MyDS, MyO
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tamcore/stelloauth](https://github.com/tamcore/stelloauth).
+Original source: `CLAUDE.md` in [tamcore/stelloauth](https://github.com/tamcore/stelloauth).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
