@@ -7,11 +7,11 @@ A DSL and tooling for source-to-target mappings that works for humans AND AIs.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [EqualExperts/satsuma-lang](https://github.com/EqualExperts/satsuma-lang).
+Original source: `CLAUDE.md` in [EqualExperts/satsuma-lang](https://github.com/EqualExperts/satsuma-lang).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
