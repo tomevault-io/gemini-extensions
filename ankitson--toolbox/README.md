@@ -7,11 +7,11 @@ portable toolbox of scripts, skills and misc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ankitson/toolbox](https://github.com/ankitson/toolbox).
+Original source: `CLAUDE.md` in [ankitson/toolbox](https://github.com/ankitson/toolbox).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
