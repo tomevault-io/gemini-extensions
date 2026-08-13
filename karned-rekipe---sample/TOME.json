@@ -4,7 +4,7 @@
   "repo": "_sample",
   "description": "Functional Arclith sample implementation for validating framework features",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/karned-rekipe/_sample",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-12T13:24:26Z"
+  "distributed_at": "2026-08-13T04:53:16Z"
 }
