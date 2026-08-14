@@ -7,11 +7,11 @@ A native music streaming client, built with Rust and GPUI.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [nolight132/sonora](https://github.com/nolight132/sonora).
+Original source: `CLAUDE.md` in [nolight132/sonora](https://github.com/nolight132/sonora).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
