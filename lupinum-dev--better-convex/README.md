@@ -7,11 +7,11 @@ Convex integration for Nuxt with SSR, real-time subscriptions, and authenticatio
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lupinum-dev/better-convex](https://github.com/lupinum-dev/better-convex).
+Original source: `CLAUDE.md` in [lupinum-dev/better-convex](https://github.com/lupinum-dev/better-convex).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
