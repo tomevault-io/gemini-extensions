@@ -7,11 +7,11 @@ Contribution branch for garrytan/gbrain#2066: link_chat cycle phase + test-suite
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [cheRoma/gbrain-link-chat](https://github.com/cheRoma/gbrain-link-chat).
+Original source: `CLAUDE.md` in [cheRoma/gbrain-link-chat](https://github.com/cheRoma/gbrain-link-chat).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
