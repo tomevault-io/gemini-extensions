@@ -7,11 +7,11 @@ MyClass — open-source private tutoring management (students, schedules, bills,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [t1112000/tutor-management-app](https://github.com/t1112000/tutor-management-app).
+Original source: `CLAUDE.md` in [t1112000/tutor-management-app](https://github.com/t1112000/tutor-management-app).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
