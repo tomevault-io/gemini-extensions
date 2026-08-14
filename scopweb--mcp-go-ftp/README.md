@@ -7,12 +7,12 @@ A Go-based MCP (Model Context Protocol) server for FTP, SFTP, and FTPS operation
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [scopweb/mcp-go-ftp](https://github.com/scopweb/mcp-go-ftp).
+Original source: `CLAUDE.md` in [scopweb/mcp-go-ftp](https://github.com/scopweb/mcp-go-ftp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
