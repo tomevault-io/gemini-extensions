@@ -7,11 +7,11 @@ KMP app - recipe keeper, grocery list, and meal planner
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Plus-Mobile-Apps/chef-mate](https://github.com/Plus-Mobile-Apps/chef-mate).
+Original source: `CLAUDE.md` in [Plus-Mobile-Apps/chef-mate](https://github.com/Plus-Mobile-Apps/chef-mate).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
