@@ -7,11 +7,11 @@ A typed, hash-verifiable ledger of who-owns-what, sitting underneath a codebase 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [statecrafting/spec-spine](https://github.com/statecrafting/spec-spine).
+Original source: `CLAUDE.md` in [statecrafting/spec-spine](https://github.com/statecrafting/spec-spine).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
