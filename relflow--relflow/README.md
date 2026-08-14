@@ -7,11 +7,11 @@ RelFlow turns nested, ragged data into neural representations. It lets users def
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [relflow/relflow](https://github.com/relflow/relflow).
+Original source: `CLAUDE.md` in [relflow/relflow](https://github.com/relflow/relflow).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
