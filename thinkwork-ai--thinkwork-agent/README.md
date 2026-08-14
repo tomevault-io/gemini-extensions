@@ -7,11 +7,11 @@ ThinkWork AI Open Source Enterprise Agent Harness
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [thinkwork-ai/thinkwork-agent](https://github.com/thinkwork-ai/thinkwork-agent).
+Original source: `CLAUDE.md` in [thinkwork-ai/thinkwork-agent](https://github.com/thinkwork-ai/thinkwork-agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
