@@ -7,11 +7,11 @@ A portable multi-agent engineering kit for Codex, Cursor, and Claude Code develo
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [FernandeZ-hjm/Agent-General-Staff](https://github.com/FernandeZ-hjm/Agent-General-Staff).
+Original source: `CLAUDE.md` in [FernandeZ-hjm/Agent-General-Staff](https://github.com/FernandeZ-hjm/Agent-General-Staff).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
