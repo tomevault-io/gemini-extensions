@@ -1,18 +1,18 @@
 # med-paper-assistant
 
-> Source: [u9401066/med-paper-assistant](https://github.com/u9401066/med-paper-assistant) — distributed by [TomeVault](https://tomevault.io)
+> Source: [u9401066/med-paper-assistant](https://github.com/u9401066/med-paper-assistant). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 🔬 AI-powered medical paper writing toolkit — from PubMed search to Word export, all inside VS Code
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [u9401066/med-paper-assistant](https://github.com/u9401066/med-paper-assistant).
+Original source: `copilot-instructions.md` in [u9401066/med-paper-assistant](https://github.com/u9401066/med-paper-assistant).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
