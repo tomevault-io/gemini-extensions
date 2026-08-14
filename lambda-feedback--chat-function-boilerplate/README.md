@@ -7,11 +7,11 @@ Boilerplate repository for chat functions written in Python
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [lambda-feedback/chat-function-boilerplate](https://github.com/lambda-feedback/chat-function-boilerplate).
+Original source: `AGENTS.md` in [lambda-feedback/chat-function-boilerplate](https://github.com/lambda-feedback/chat-function-boilerplate).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
