@@ -4,7 +4,7 @@
   "repo": "med-paper-assistant",
   "description": "\ud83d\udd2c AI-powered medical paper writing toolkit \u2014 from PubMed search to Word export, all inside VS Code",
   "type": "tome",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/u9401066/med-paper-assistant",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-10T22:30:21Z"
+  "distributed_at": "2026-08-14T23:36:39Z"
 }
