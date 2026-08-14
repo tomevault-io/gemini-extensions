@@ -7,13 +7,13 @@ Staff-engineer layer for AI coding agents: routes per-edit architectural constra
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [MicSm/boffin](https://github.com/MicSm/boffin).
+Original source: `AGENTS.md` in [MicSm/boffin](https://github.com/MicSm/boffin).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
