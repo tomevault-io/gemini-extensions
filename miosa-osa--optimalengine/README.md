@@ -7,11 +7,11 @@ Self-hosted second brain and operating engine for human and AI workspaces: topol
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Miosa-osa/OptimalEngine](https://github.com/Miosa-osa/OptimalEngine).
+Original source: `CLAUDE.md` in [Miosa-osa/OptimalEngine](https://github.com/Miosa-osa/OptimalEngine).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
