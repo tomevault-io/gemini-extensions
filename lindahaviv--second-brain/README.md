@@ -7,11 +7,11 @@ Build a second brain every AI can share: your content in Oracle AI Database 26ai
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [LindaHaviv/second-brain](https://github.com/LindaHaviv/second-brain).
+Original source: `CLAUDE.md` in [LindaHaviv/second-brain](https://github.com/LindaHaviv/second-brain).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
