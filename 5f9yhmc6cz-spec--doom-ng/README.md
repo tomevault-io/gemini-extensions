@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [5f9yhmc6cz-spec/doom-ng](https://github.com/5f9yhmc6cz-spec/doom-ng).
+Original source: `AGENTS.md` in [5f9yhmc6cz-spec/doom-ng](https://github.com/5f9yhmc6cz-spec/doom-ng).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
