@@ -7,11 +7,11 @@ PromptGuard provides a secure method to protect AI prompts through passcode encr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [AIPaPaCha/PromptGuard](https://github.com/AIPaPaCha/PromptGuard).
+Original source: `AGENTS.md` in [AIPaPaCha/PromptGuard](https://github.com/AIPaPaCha/PromptGuard).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
