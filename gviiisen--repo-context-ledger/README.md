@@ -7,12 +7,12 @@ Open Agent Skill that keeps repository context, feature specs, change handoffs, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [gviiisen/repo-context-ledger](https://github.com/gviiisen/repo-context-ledger).
+Original source: `copilot-instructions.md` in [gviiisen/repo-context-ledger](https://github.com/gviiisen/repo-context-ledger).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
