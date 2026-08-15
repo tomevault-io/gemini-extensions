@@ -7,11 +7,11 @@ A repeatable process for coding with AI while being the architect of your projec
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [bradtraversy/ai-blueprint](https://github.com/bradtraversy/ai-blueprint).
+Original source: `AGENTS.md` in [bradtraversy/ai-blueprint](https://github.com/bradtraversy/ai-blueprint).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
