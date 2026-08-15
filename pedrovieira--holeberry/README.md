@@ -7,11 +7,11 @@ A native and modern macOS menu bar app to monitor and control your Pi-hole insta
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [pedrovieira/Holeberry](https://github.com/pedrovieira/Holeberry).
+Original source: `CLAUDE.md` in [pedrovieira/Holeberry](https://github.com/pedrovieira/Holeberry).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
