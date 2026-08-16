@@ -1,53 +1,39 @@
 ## aspnetcore
 
-> * Make only high confidence suggestions when reviewing code changes.
+> Read the parent `src/Components/AGENTS.md` first. This file adds narrower rules for work under `src/Components/Testing`.
 
-## General
+# Components.Testing contributor guidance
 
-* Make only high confidence suggestions when reviewing code changes.
-* Always use the latest version C#, currently C# 13 features.
-* Never change global.json unless explicitly asked to.
-* Never change package.json or package-lock.json files unless explicitly asked to.
-* Never change NuGet.config files unless explicitly asked to.
+Read the parent `src/Components/AGENTS.md` first. This file adds narrower rules for work under `src/Components/Testing`.
 
-## Formatting
+## Design boundary
 
-* Apply code-formatting style defined in `.editorconfig`.
-* Prefer file-scoped namespace declarations and single-line using directives.
-* Insert a newline before the opening curly brace of any code block (e.g., after `if`, `for`, `while`, `foreach`, `using`, `try`, etc.).
-* Ensure that the final return statement of a method is on its own line.
-* Use pattern matching and switch expressions wherever possible.
-* Use `nameof` instead of string literals when referring to member names.
-* Ensure that XML doc comments are created for any public APIs. When applicable, include `<example>` and `<code>` documentation in the comments.
+Treat the Components.Testing assembly, generators, tasks, and shipped MSBuild assets as product code intended for external package consumers. Keep them independent of the ASP.NET Core repository layout, build graph, source-build conventions, CI providers, and repository-only projects or properties.
 
-### Nullable Reference Types
+Distinguish portable product capabilities from environment-specific orchestration. Discovering, building, publishing, packaging, launching, and diagnosing applications under test are product capabilities. Scheduling jobs, provisioning machines, uploading results, and adapting to a particular CI service belong in repository or service integration.
 
-* Declare variables non-nullable, and check for `null` at entry points.
-* Always use `is null` or `is not null` instead of `== null` or `!= null`.
-* Trust the C# null annotations and don't add null checks when the type system says a value cannot be null.
+Shipped package assets must be self-contained and deterministic:
 
-### Testing
+- Resolve only files included in the package or supplied through documented, product-neutral extension points.
+- Do not depend on source-tree bootstrapping, incidental build order, stale outputs, sentinel files, or callers setting repository globals.
+- Keep Build, Publish, clean, incremental, parallel, and no-build behavior consistent.
+- Produce portable manifests and complete payloads that can run on a separately provisioned machine.
 
-* We use xUnit SDK v3 for tests.
-* Do not emit "Act", "Arrange" or "Assert" comments.
-* Use Moq for mocking in tests.
-* Copy existing style in nearby files for test method names and capitalization.
+Keep public APIs focused on customer scenarios. Hide storage layout, path composition, build plumbing, and other implementation details unless customers need to control them directly.
 
-## Running tests
+## Repository integration and validation
 
-* To build and run tests in the repo, use the `build.sh` script that is located in each subdirectory within the `src` folder. For example, to run the build with tests in the `src/Http` directory, run `./src/Http/build.sh -test`.
+Use `testassets/**` for sample consumer configuration, scenarios, and ASP.NET Core source-tree development hooks. Test assets should exercise the package as an external consumer would; they must not cause repository assumptions to leak into shipped assets.
 
-## .NET Environment
+Before changing repository-wide `eng/**` infrastructure, search Arcade, the .NET SDK, and existing ASP.NET Core mechanisms. Add repository-wide behavior only when the requirement is genuinely shared and no suitable extension point exists.
 
-* Before running any `dotnet` commands in this repository, always activate the locally installed .NET environment first by running the appropriate activation script from the repository root:
-  * On Windows: `. ./activate.ps1` (from repository root)
-  * On Linux/Mac: `source activate.sh` (from repository root)
-* If not in the repository root, navigate there first or use the full path to the activation script.
-* This ensures that the correct version of .NET SDK is used for the repository.
+For changes that affect packaging or build integration:
 
-## ASP.NET Core Components Area
-* When working on issues under the src/Components area, follow the instructions in [./instructions/components.instructions.md](./instructions/components.instructions.md).
+1. Inspect the produced package, not only source-tree outputs.
+2. Validate an isolated consumer using only packaged assets and normal restore sources.
+3. Exercise Build and Publish, plus relevant clean, incremental, parallel, and no-build paths.
+4. Verify the payload contains everything required to execute away from the source checkout.
 
 ---
 > Source: [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-08-16 -->
