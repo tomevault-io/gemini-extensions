@@ -7,11 +7,11 @@ Plugin-first open-source role-playing distribution for DeepSeek Harness
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yhny1001/dsh-rp-distribution](https://github.com/yhny1001/dsh-rp-distribution).
+Original source: `AGENTS.md` in [yhny1001/dsh-rp-distribution](https://github.com/yhny1001/dsh-rp-distribution).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
