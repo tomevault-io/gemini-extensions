@@ -7,11 +7,11 @@ DeepSeek Harness Studio：面向 DeepSeek Harness 的现代化桌面开发环境
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio).
+Original source: `CLAUDE.md` in [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
