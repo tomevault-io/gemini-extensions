@@ -1,8 +1,6 @@
 # fspec
 
-> Source: [sengac/fspec](https://github.com/sengac/fspec) — distributed by [TomeVault](https://tomevault.io)
-
-FSPEC: The Spec-Driven, Multi-Agent Coding Factory. It is infrastructure for the "Dark Factory"—the emerging model of fully autonomous software development where AI agents handle all implementation while humans focus on defining what to build and why.
+> Source: [sengac/fspec](https://github.com/sengac/fspec). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
