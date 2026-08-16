@@ -3,8 +3,8 @@
   "owner": "makenotion",
   "repo": "notion-cookbook",
   "description": "Hub for getting started with Notion, including documentation, customizable scripts, and quick-start guides.",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,33 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "notion-cookbook",
+      "path": "skills/claude/knowledge-capture/SKILL.md",
+      "github_url": "https://github.com/makenotion/notion-cookbook/tree/main/skills/claude/knowledge-capture/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "notion-cookbook",
+      "path": "skills/claude/meeting-intelligence/SKILL.md",
+      "github_url": "https://github.com/makenotion/notion-cookbook/tree/main/skills/claude/meeting-intelligence/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "notion-cookbook",
+      "path": "skills/claude/spec-to-implementation/SKILL.md",
+      "github_url": "https://github.com/makenotion/notion-cookbook/tree/main/skills/claude/spec-to-implementation/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "notion-cookbook",
+      "path": "skills/claude/research-documentation/SKILL.md",
+      "github_url": "https://github.com/makenotion/notion-cookbook/tree/main/skills/claude/research-documentation/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/makenotion/notion-cookbook",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-23T00:01:17Z"
+  "distributed_at": "2026-08-16T12:34:16Z"
 }
