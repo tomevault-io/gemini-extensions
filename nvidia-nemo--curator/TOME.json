@@ -4,7 +4,7 @@
   "repo": "Curator",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/NVIDIA-NeMo/Curator",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T15:33:05Z"
+  "distributed_at": "2026-08-16T12:31:35Z"
 }
