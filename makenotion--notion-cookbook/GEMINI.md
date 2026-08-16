@@ -1,65 +1,165 @@
 ## notion-cookbook
 
-> <!-- .github/copilot-instructions.md - guidance for AI coding agents -->
+> This is the canonical repository guide for coding agents. Tool-specific files
 
-<!-- .github/copilot-instructions.md - guidance for AI coding agents -->
+# Agent instructions
 
-# Copilot instructions for contributors and AI agents
+This is the canonical repository guide for coding agents. Tool-specific files
+should point here instead of restating these rules.
 
-Purpose
+## Repository map
 
-- Give concise, actionable guidance so an AI assistant can be productive in this repo.
+| Path                                  | Purpose                                                                                                              |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `catalog.json`                        | Machine-readable index of every runnable recipe, including paths, entrypoints, integrations, and supported commands. |
+| `examples/<task>/`                    | Self-contained TypeScript programs that call the Notion API and run locally with Node.js.                            |
+| `workers/<integration>-<capability>/` | Self-contained Notion Worker syncs, agent tools, and webhooks.                                                       |
+| `skills/`                             | Reusable instructions and evaluations for AI-assisted Notion workflows.                                              |
+| `docs/`                               | Longer developer guides that are not standalone runnable projects.                                                   |
+| `scripts/`                            | Repository-wide installation, validation, and maintenance commands.                                                  |
 
-Quick context
+Do not infer a recipe's category from a path segment that no longer exists.
+`examples/` and `workers/` are both flat collections; `kind` in `catalog.json`
+is the authoritative classification.
 
-- This repo is a collection of Notion examples and AI "skills" (Claude/MCP). See the top-level README for intent.
-- Important areas:
-  - examples/javascript/ — runnable TypeScript/Node examples (each example has its own README and often an example.env).
-  - skills/claude/ — AI skill definitions. Each skill contains a `SKILL.md` (authoring) and an `evaluations/` folder (test scenarios).
-  - docs/ — additional developer docs and MCP integration notes.
-  - scripts/ — helper scripts: `install-examples.sh` and `typecheck-examples.sh`.
+## Find the right recipe
 
-What to do first
+1. Translate the request into an outcome, integration, and recipe kind.
+2. Search `catalog.json` before scanning the tree. For example:
 
-- Read `skills/README.md` and `skills/claude/README.md` to understand conventions for SKILL.md and evaluations.
-- Open the example's own README before making changes to an example (examples are self-contained).
+   ```sh
+   jq '.recipes[] | select(.integrations | index("linear"))' catalog.json
+   jq '.recipes[] | select(.kind == "worker-tool") | {id, summary, path}' catalog.json
+   ```
 
-Project-specific workflows
+3. Read the selected recipe's README, `package.json`, and listed entrypoints.
+4. Check nearby recipes only when they demonstrate a pattern the selected
+   project does not cover.
 
-- Examples: change into the example folder, run `npm install`, then follow the example README. Many examples expose a `ts-run` script (e.g. examples/javascript/generate-random-data/package.json uses `npm run ts-run`). Example env files are named `example.env` — copy to `.env` and fill secrets.
-- Type checks: use `scripts/typecheck-examples.sh` to run TypeScript checks across examples.
-- Bulk setup: `scripts/install-examples.sh` installs dependencies for examples; prefer it when adding or updating many examples.
+Prefer the narrowest working recipe. For example, adapt `linear-sync` for a new
+Linear field; do not start from a generic Worker if the integration already has
+an implemented sync.
 
-Conventions and patterns
+## Run a recipe
 
-- Examples are lightweight, TypeScript-first, often using `ts-node` for quick runs. Respect the example's package.json scripts rather than adding global runners.
-- Skills: `SKILL.md` is authoritative for the AI flow. Evaluations in `evaluations/` are small JSON scenarios used to validate behavior — modify or add evaluations when changing a skill.
-- Keep SKILL.md concise (<500 lines) and place detailed references in separate files (as the repo already does in `skills/*/reference`).
+Recipes are independent projects. Run commands from the recipe directory and
+install dependencies there. Never assume every project uses `npm start` or has
+the same environment variables.
 
-Integration points and external dependencies
+1. Use the commands declared for the recipe in `catalog.json`.
+2. Read its README before creating `.env` or configuring an external service.
+3. Copy the provided environment template when present. Never commit `.env`,
+   tokens, service credentials, or generated Worker state.
+4. Prefer offline checks before commands that call live APIs, mutate a Notion
+   workspace, or deploy a Worker.
+5. State clearly when a live check was not run because credentials or external
+   access were unavailable.
 
-- Notion API: examples rely on `@notionhq/client` (check the examples' package.json).
-- MCP/Claude: skills assume a configured Notion MCP server and Claude environment. See `skills/claude/README.md` for install/usage notes.
+For Workers, Node.js 22 and npm 10.9.2 or newer are required. Authenticate and
+deploy only when the user asks for a live deployment. Treat generated
+`workers.json` files as local state unless a tracked fixture explicitly says
+otherwise.
 
-Editing guidance for AI agents
+## Adapt an existing recipe
 
-- When editing examples, run the example's README steps and the local `ts-run` (or `npm start`) to verify behavior where feasible.
-- For skills, update or add evaluations alongside any SKILL.md change. Evaluations are the minimal runnable spec for verifying the behavior.
-- Prefer small, focused commits that update a single example or skill and its tests/evaluations.
+- Preserve the recipe's standalone install and run flow.
+- Keep the change inside one recipe unless shared documentation or repository
+  tooling genuinely needs to change.
+- Follow the existing registration and data-flow patterns in `src/index.ts` or
+  the listed entrypoint.
+- Document new prerequisites, environment variables, external permissions,
+  expected output, and extension points.
+- Update or add offline tests for transforms, pagination, validation, signature
+  handling, or query safety before relying on a live integration test.
+- If behavior, entrypoints, integrations, or commands change, update the
+  matching `catalog.json` entry in the same change.
 
-Files to inspect when beginning work
+Worker-specific safety rules:
 
-- [scripts/install-examples.sh](scripts/install-examples.sh)
-- [scripts/typecheck-examples.sh](scripts/typecheck-examples.sh)
-- examples/javascript/\*/README.md (per-example instructions)
-- skills/claude/_/SKILL.md and skills/claude/_/evaluations/
+- Sync records need deterministic keys and pagination that cannot silently skip
+  records. Document replace versus incremental behavior.
+- Agent-facing query tools must enforce read-only access, bound result sizes,
+  and explain the real security boundary; a prompt instruction is not one.
+- Webhooks must authenticate deliveries and defend against replay where the
+  provider supports timestamps or delivery IDs.
+- Use the Notion client supplied by the Worker context when the platform owns
+  authentication. Do not introduce a Notion token unnecessarily.
 
-If something's unclear
+## Add a recipe
 
-- Ask: which example or skill should be the focus and whether you should run the example locally.
+Choose one project root:
 
-Please review and tell me any sections that need more detail or examples.
+- `examples/<task-name>/` for a local Notion API/SDK program.
+- `workers/<integration>-<capability>/` for a deployed Worker. Put the
+  integration first so related projects sort together, such as
+  `zendesk-sync` and `zendesk-webhook`.
+
+Every new recipe must include:
+
+- A unique package name and a `package.json` with accurate scripts and engine
+  requirements.
+- A README covering the outcome, when to use it, prerequisites, setup, exact
+  run or deploy commands, expected result, code map, extension points, and
+  verification.
+- A clear TypeScript entrypoint and `tsconfig.json`.
+- `.env.example` when configuration is required, containing names and safe
+  placeholders only.
+- Deterministic offline checks for meaningful logic. New Workers should expose
+  `build`, `check`, and `test` scripts.
+- One complete `catalog.json` entry and links from the appropriate landing page
+  and root README.
+
+Do not add placeholder projects or catalog entries. Add a recipe only when its
+code, setup instructions, and checks are runnable.
+
+## Validate changes
+
+Use proportional validation and report exactly what ran.
+
+For an API example:
+
+```sh
+cd examples/<task>
+npm install
+npx tsc --noEmit
+# Run the catalog's `run` command only when its required configuration is safe.
+```
+
+For a Worker:
+
+```sh
+cd workers/<integration>-<capability>
+npm install
+npm run check
+npm test
+npm run build
+```
+
+Run only scripts that exist in that project's `package.json`. Then, from the
+repository root, install the repository tooling and run:
+
+```sh
+npm install
+npm run verify:all
+```
+
+Before finishing, confirm that:
+
+- Documentation links and commands use the current flat paths.
+- `catalog.json` matches every package-backed direct child of `examples/` and
+  `workers/`, with no placeholder entries.
+- No secrets, build output, dependency directories, or local Worker state were
+  added.
+- A recipe README still describes the behavior implemented by its entrypoint.
+
+## Documentation and skills
+
+For documentation-only changes, validate links and run the root Markdown and
+format checks. For skill changes, read [`skills/README.md`](skills/README.md)
+and the provider-specific guide first; update evaluations when behavior
+changes. Do not treat a skill as a runnable cookbook recipe or add it to
+`catalog.json`.
 
 ---
 > Source: [makenotion/notion-cookbook](https://github.com/makenotion/notion-cookbook) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-22 -->
+<!-- tomevault:4.0:gemini_md:2026-08-16 -->
