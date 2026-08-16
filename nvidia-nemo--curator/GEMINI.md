@@ -1,503 +1,348 @@
 ## curator
 
-> NVIDIA NeMo Curator is a generic, pluggable framework for building distributed data processing pipelines using Ray. It provides a unified API for running the same pipeline logic across different Ray orchestration backends.
+> Use this guide when diagnosing or tuning a NeMo Curator pipeline running on the
 
-# GitHub Copilot Instructions for NVIDIA NeMo Curator
+# Ray Data Backend — Agent Tuning Guide
 
-## Overview
+Use this guide when diagnosing or tuning a NeMo Curator pipeline running on the
+Ray Data backend. Start from measured scheduler behavior; do not apply a setting
+only because it helped another pipeline.
 
-NVIDIA NeMo Curator is a generic, pluggable framework for building distributed data processing pipelines using Ray. It provides a unified API for running the same pipeline logic across different Ray orchestration backends.
+**Supported baseline:** Curator requires Ray 2.57.0 or later. The diagnostic shim
+in `diagnostics.py` targets exactly Ray 2.57.0 unless the installed Ray version
+already provides the diagnostics natively. Ray Data defaults and private APIs can
+change between releases, so re-check source before carrying this guidance forward.
 
-### 🎯 Core Concept
-Enable users to define a data processing pipeline once and execute it using different Ray backends in a multi-node setting (Xenna, Ray Actors, Ray Data) without changing the pipeline logic.
+## Start here
 
-This scalable data preprocessing tool focuses on data curation pipelines for text, audio, video, and image modalities with support for both CPU and GPU processing.
+1. Treat a Curator `Task`, not a document or ordinary Ray row, as the unit of work.
+2. Enable diagnostics and inspect `ray-data.log` before changing worker counts,
+   concurrency, memory, or backpressure.
+3. Distinguish starvation, actor saturation, resource admission, and downstream
+   backpressure. Similar GPU utilization can arise from different causes.
+4. Change one lever per run and compare scheduler events, operator timing, task
+   timing, object-store usage, and GPU telemetry—not wall time alone.
 
-## Development Environment
+## Curator execution model
 
-### Python Environment
-- **Python Version**: 3.13 (recommended and tested), supports 3.11-3.13
-- **Package Manager**: [uv](https://docs.astral.sh/uv/) for fast, reliable dependency management
-- **Virtual Environment**: Use uv's built-in virtual environment management
+Ray Data parallelizes map work over blocks, then forms row batches within those
+blocks. Curator constructs its initial dataset with:
 
-### CUDA Environment (Optional)
-- **CUDA Version**: 12.x (12.0+) for GPU acceleration
-- **GPU Requirements**: NVIDIA GPU with Volta™ architecture or higher (compute capability 7.0+)
-- **GPU Libraries**: RAPIDS (cuDF, cuML), PyTorch with CUDA 12 support, CuPy
-- **Note**: GPU features are optional and CPU fallbacks are provided
+```python
+ray.data.from_items(tasks, override_num_blocks=len(tasks))
+```
 
-## Key Technologies and Frameworks
+This creates one opaque Task row per block. Fanout stages repartition their outputs
+back to one row per block. In practice, **one row = one block = one Task**.
 
-### Core Dependencies
-- **PyTorch**: Deep learning framework with CUDA support
-- **Ray**: Distributed computing framework for data processing
-- **Pandas/CuDF**: Data manipulation (CPU/GPU respectively)
-- **Transformers**: Hugging Face transformers library
-- **Loguru**: Structured logging
+The default stage `batch_size=1` passes one Task to each stage call. Ray cannot see
+or split records contained inside that Task. If a task is too large, too small, or
+too slow, tune Curator task partitioning and per-task payload size rather than Ray
+block-size knobs. Pipeline completion calls `take_all()`, so final Task payloads are
+collected back to the driver.
 
-### Modality-Specific Libraries
-- **Text Processing**: PyTorch, BeautifulSoup, fasttext, sentencepiece, trafilatura
-- **Audio Processing**: NeMo Toolkit ASR components
-- **Video Processing**: OpenCV, PyAV, CvCuda, PyNvVideoCodec
-- **Image Processing**: NVIDIA DALI for optimized data loading
+### Task stages and actor stages
 
-### Testing Framework
-- **pytest**: Primary testing framework
-- **pytest-asyncio**: Async testing support
-- **pytest-coverage**: Code coverage measurement
-- **GPU Testing**: Use `@pytest.mark.gpu` for GPU-dependent tests
+`RayDataStageAdapter` applies every stage with `map_batches` and chooses the compute
+strategy as follows:
 
-## Setup Instructions
+| Stage | Curator selection | Worker behavior |
+|---|---|---|
+| Actor | Overrides `setup()`, or requests both CPU and GPU; can be forced with `IS_ACTOR_STAGE=True` | Persistent state and `ActorPoolStrategy`; fixed or autoscaling pool |
+| Task | Stateless and not selected as an actor; can be forced with `IS_ACTOR_STAGE=False` | `TaskPoolStrategy`; no actor startup or actor autoscaler |
 
-### Basic Setup
+For a task stage, `num_workers=N` caps the task pool at N; without it, Ray Data
+controls parallelism through resources and backpressure. For an actor stage,
+`num_workers=N` creates a fixed pool. Otherwise Curator passes `MIN_WORKERS`,
+`MAX_WORKERS`, and `INITIAL_WORKERS` to an autoscaling actor pool.
+
+## Log-first tuning workflow
+
+### 1. Record the pipeline shape
+
+Before tuning, record:
+
+- task count, representative serialized task size, and work contained in each Task;
+- stage `batch_size`, task-versus-actor selection, CPU/GPU request, and worker bounds;
+- `max_concurrency` and the global `max_tasks_in_flight_per_actor` override;
+- cluster CPU/GPU resources, object-store size, and Ray temporary directory;
+- per-stage processing time, gaps between tasks, and GPU utilization/power.
+
+Without this baseline, a faster run can be a workload, cache, GPU-power, or startup
+artifact rather than a scheduler improvement.
+
+### 2. Enable and find diagnostics
+
+Set the opt-in environment variable before starting the driver:
+
 ```bash
-# Install uv package manager
-pip3 install uv
-
-# Clone and setup development environment
-git clone <repository-url>
-cd Curator
-uv sync
-
-# For GPU development (requires CUDA 12.x)
-uv sync --extra deduplication_cuda12x
+export NEMO_CURATOR_RAY_DATA_DIAGNOSTICS=1
 ```
 
-### Optional Feature Groups
-```bash
-# Text processing capabilities
-uv sync --extra text
+The values `true`, `yes`, and `on` also enable it.
 
-# Video processing with GPU acceleration
-uv sync --extra video --extra video_cuda
+The shim emits structured logfmt events through the `ray.data` logger to:
 
-# All features (includes CUDA dependencies)
-uv sync --extra all
+```text
+$RAY_TEMP_DIR/session_latest/logs/ray-data/ray-data.log
 ```
 
-## Coding Standards and Patterns
+Set `RAY_TEMP_DIR` with `RayClient(ray_temp_dir=...)` or
+`SlurmRayClient(ray_temp_dir=...)`; the default is `~/.ray`. Ray can also resolve
+the directory with `ray.data._internal.logging.get_log_directory()`.
 
-### Code Quality
-- **Linting**: Ruff with comprehensive rule set (see pyproject.toml)
-- **Line Length**: 119 characters maximum
-- **Type Hints**: Use comprehensive type annotations
-- **Imports**: Follow import sorting conventions
+Events are emitted on scheduler **state changes**, not on every tick. Actor counts
+and utilization in an event are snapshots, not a time series. Pair them with Ray
+operator timing and GPU telemetry.
 
-### Module Structure
-- **Stages**: Processing stages organized by modality (`text/`, `video/`, `audio/`, `image/`)
-- **Utils**: Shared utilities for common operations
-- **Datasets**: Data loading and manipulation classes
-- **Modules**: Core processing algorithms
+### 3. Classify the bottleneck
 
-### Error Handling Patterns
-```python
-# Standard error handling for missing dependencies
-try:
-    import required_library
-except ImportError as e:
-    logger.error(f"Required dependency not found: {e}")
-    raise ImportError("Please install the required dependencies")
+| Symptom | Evidence to inspect | Likely interpretation | First controlled experiment |
+|---|---|---|---|
+| GPU actors are idle and `queued_input_blocks=0` | Upstream operator timing and admission events | GPU stage is starved | Adjust task partitioning or upstream parallelism; verify the producer is not blocked |
+| Inputs are queued but work is not admitted | `scheduling_reason`, remaining budget, actor slots | Resource, capacity, concurrency, or actor-slot limit | Change the indicated limit only |
+| Autoscaling pool stays near its minimum despite backlog | `utilization`, `tasks_in_flight`, scheduling reason | In-flight/concurrency ratio cannot reach scale-up threshold, or backpressure suppresses scaling | Fix the ratio or the blocking condition |
+| Producer stops while object-store bytes rise | Resource admission reason and internal/output bytes | Pending output or total object-store budget is exhausted | Reduce per-task payload or increase object-store capacity |
+| Frequent downstream blocked/allowed transitions | Queue ratio, configured ratio, recovered blocked duration | Producer is repeatedly outrunning consumer capacity | Compare one capacity-ratio change on the same workload |
+| `INITIAL_WORKERS=N` starts N actors, then the pool shrinks | Autoscaling decisions after first input | Initial size is not a minimum | Set `MIN_WORKERS`, or use `num_workers` for a fixed pool |
+| Concurrency 2 lowers idle gaps but raises processing time or memory | Task timings, queued bytes, object-store and GPU memory | Batching overlap helps, but preparation/contention costs increased | Compare concurrency 1 and 2 with all other settings fixed |
+
+### 4. Compare runs
+
+Use the same input, cluster shape, warmup policy, and instrumentation. Compare:
+
+- total wall time and per-operator time;
+- stage processing time versus idle/handoff gaps;
+- actor pool size, utilization, and scale transitions;
+- count and duration of admission blocks;
+- `object_store_internal_bytes` versus `object_store_output_bytes`;
+- GPU utilization, power, and memory.
+
+For admission events, count recovered blocked intervals and sum
+`blocked_duration_ms`. The sum undercounts an interval still blocked when the
+pipeline ends, and a blocked operator does not imply zero progress elsewhere.
+
+## Diagnostic events
+
+Every event includes `operator`, the Curator/Ray Data stage name.
+
+### `ray_data_actor_autoscaling_decision`
+
+Emitted when an actor pool's scaling decision changes.
+
+| Field group | Fields | Interpretation |
+|---|---|---|
+| Decision | `decision`, `delta`, `scaling_reason`, `scheduling_reason` | Requested scale change and why it did or did not occur |
+| Pool | `current_actors`, `min_actors`, `max_actors`, `running_actors`, `pending_actors`, `active_actors`, `idle_actors` | Current actor lifecycle and occupancy snapshot |
+| Work | `utilization`, `tasks_in_flight`, `queued_input_blocks`, `queued_input_bytes` | Submitted work relative to actor concurrency and queued input |
+| Resources | `allocation_*`, `usage_*`, `remaining_budget_*` | CPU, GPU, heap, and object-store allocation and headroom |
+| Object store | `object_store_internal_bytes`, `object_store_output_bytes` | Pending task output versus completed output retained in the pipeline |
+
+`scheduling_reason` can be `runnable`, `ResourceBudget`, `DownstreamCapacity`,
+`ConcurrencyCap`, `no_pending_inputs`, `no_actor_slot`,
+`operator_cannot_accept_input`, or `completed`.
+
+### `ray_data_resource_budget_admission`
+
+Emitted when an operator changes between resource-budget `allowed` and `blocked`.
+
+| Field group | Fields | Interpretation |
+|---|---|---|
+| Decision | `state`, `reason` | Whether the next task fits and the failed condition |
+| Next task | `requested_*`, `pending_output_estimate` | Incremental resources and worst-case pending output estimate |
+| Budget | `remaining_budget_*`, `usage_*`, `allocation_*` | Current headroom, usage, and total allocation |
+| Object store | `object_store_internal_bytes`, `object_store_output_bytes` | Where the producing operator's object-store budget is held |
+| Duration | `blocked_duration_ms` | Completed blocked interval, populated on recovery to `allowed` |
+
+Resource families ending in `_*` contain `cpu`, `gpu`, `heap_memory`, and
+`object_store_memory`. Admission `reason` can be:
+
+| Reason | Meaning |
+|---|---|
+| `allowed` or `unlimited` | Task can be admitted |
+| `incremental_cpu_exceeds_budget` | CPU request exceeds remaining budget |
+| `incremental_gpu_exceeds_budget` | GPU request exceeds remaining budget |
+| `incremental_heap_memory_exceeds_budget` | Heap-memory request exceeds remaining budget |
+| `incremental_object_store_memory_exceeds_budget` | Incremental object-store request exceeds remaining budget |
+| `pending_output_exceeds_object_store_budget` | Worst-case task output exceeds remaining object-store budget |
+
+### `ray_data_downstream_capacity_admission`
+
+Emitted when an upstream operator changes between downstream-capacity `allowed` and
+`blocked`.
+
+| Field | Interpretation |
+|---|---|
+| `state` | `allowed` or `blocked` |
+| `queue_bytes` | Upstream output queued for downstream consumption |
+| `downstream_capacity_bytes` | Bytes held by pending downstream task inputs |
+| `queue_ratio`, `configured_ratio` | Current queue/capacity ratio and its threshold |
+| `utilized_object_store_budget_fraction` | Object-store budget utilization gate |
+| `object_store_internal_bytes`, `object_store_output_bytes` | Producer-attributed object-store categories |
+| `blocked_duration_ms` | Completed blocked interval, populated on recovery |
+
+The diagnostics do not directly time metadata fetching. All three event types include
+the two object-store byte categories. Resource and downstream events report blocked
+duration only after recovery; it is `null` when entering the blocked state.
+
+## Scheduler decisions that matter
+
+### Resource reservation and task admission
+
+Ray Data divides resources between eligible TaskPool and ActorPool operators. With
+`op_resource_reservation_ratio=0.5`, each operator starts from:
+
+```text
+default_reserved = total_resources * reservation_ratio / eligible_operators
 ```
 
-### Configuration Patterns
-- Use YAML configuration files for processing pipelines
-- Support hierarchical configuration (CLI args > env vars > config files > defaults)
-- Follow the configuration structure in `docs/admin/config/`
+The reservation contains task resources and object-store space for operator outputs;
+unreserved resources form a shared pool. Usage above an operator's reservation is
+deducted from that shared pool before it is divided again.
 
-## Testing Guidelines
+The resource policy admits the next task only when both are true:
 
-### Test Organization
-- **Unit Tests**: Test individual functions and classes
-- **Integration Tests**: Test complete processing pipelines
-- **GPU Tests**: Mark with `@pytest.mark.gpu` decorator
-- **Mock External Dependencies**: Use pytest mocks for external services
+1. its incremental CPU, GPU, heap, and object-store use fit the current budget; and
+2. the remaining object-store budget covers the operator's maximum pending output
+   estimate for one task.
 
-### Test Environment Setup
-```python
-# Example GPU test structure
-@pytest.mark.gpu
-def test_gpu_processing():
-    import cudf  # Only import in GPU tests
-    df = cudf.DataFrame({"col1": [1, 2, 3], "col2": [4, 5, 6]})
-    assert len(df) == 3
+Ray attributes buffered object-store bytes to the **producing** operator, including
+completed blocks already queued at a downstream input. This is why a fast reader can
+be blocked on object-store budget while a slower GPU stage consumes its output.
+
+`object_store_internal_bytes` represents pending task outputs. Completed blocks in
+the operator output queue or retained downstream appear in
+`object_store_output_bytes`. Heap memory is separate process memory for Python
+objects, models, and tensors. Standard Curator `Resources` exposes CPU and GPU but
+not a heap-memory request, so heap-budget denial is uncommon unless `memory` is
+passed through `RAY_REMOTE_ARGS`.
+
+### Downstream-capacity backpressure
+
+When object-store utilization is available, downstream-capacity backpressure blocks
+an upstream operator only when both are true:
+
+1. its object-store budget utilization is greater than `0.5`; and
+2. `queue_bytes / downstream_capacity_bytes` is greater than the configured ratio,
+   which defaults to `2.0`.
+
+If utilization is unavailable, Ray evaluates the queue ratio alone. If downstream
+capacity is zero because no downstream tasks are pending, the queue ratio is treated
+as zero. When the policy blocks, Ray stops both new task admission and pulling
+additional task output. Lower ratios throttle producers sooner but can starve or
+suppress scaling of the consumer. Tune the ratio only with controlled measurements.
+
+If every operator is blocked and no task is active, Ray can bypass backpressure to
+dispatch pending work and preserve liveness.
+
+### Actor autoscaling
+
+Task stages do not use the actor autoscaler. For an actor pool:
+
+```text
+utilization = tasks_in_flight / (max_concurrency * current_actors)
 ```
 
-### Test Configuration
-- Tests use a unified Ray cluster configuration via `conftest.py`
-- GPU availability is automatically detected using multiple methods (pynvml, nvidia-ml-py)
-- Tests gracefully handle missing GPU dependencies
-
-### Running Tests
-```bash
-# Run all tests (CPU only by default)
-uv run pytest
-
-# Run GPU tests (requires CUDA environment)
-uv run pytest -m gpu
-
-# Run specific test categories
-uv run pytest -m "not gpu"  # CPU tests only
-
-# Run tests for specific modules
-uv run pytest tests/stages/text/
-uv run pytest tests/stages/image/
-```
-
-## Build and Development
-
-### Development Workflow
-```bash
-# Install development dependencies
-uv sync
-
-# Run linting and formatting
-uv run ruff check .
-uv run ruff format .
-
-# Run tests
-uv run pytest
-
-# Run specific test modules
-uv run pytest tests/utils/test_nvcodec_utils.py
-
-# Local docs dev server (Fern; see fern/README.md)
-make docs
-
-# Check for dependency updates
-uv lock --upgrade
-```
-
-### Common Development Patterns
-
-#### Processing Pipeline Structure
-```python
-# Task-centric pipeline following API design patterns
-from nemo_curator.core.client import RayClient
-from nemo_curator.pipeline import Pipeline
-from nemo_curator.stages.text.classifiers import FineWebMixtralEduClassifier
-from nemo_curator.stages.text.io.reader.jsonl import JsonlReader
-from nemo_curator.stages.text.io.writer.jsonl import JsonlWriter
-
-# Example workflow following API design
-ray_client = RayClient()
-ray_client.start()
-
-# Define pipeline stages
-read_stage = JsonlReader(input_file_path, files_per_partition=1)
-classifier_stage = FineWebMixtralEduClassifier()
-write_stage = JsonlWriter(output_file_path)
-
-# Build and run pipeline
-pipeline = Pipeline(name="classifier_pipeline")
-pipeline.add_stage(read_stage)
-pipeline.add_stage(classifier_stage)
-pipeline.add_stage(write_stage)
-
-result = pipeline.run()
-ray_client.stop()
-```
-
-#### GPU vs CPU Handling
-```python
-# Resource specification for stages
-from nemo_curator.stages.resources import Resources
-
-class MyProcessingStage(ProcessingStage):
-    @property
-    def resources(self) -> Resources:
-        return Resources(cpus=1.0, gpu_memory_gb=4.0)
-```
-
-## API Design Architecture
-
-### 📦 Key Components
-
-#### 1. **Tasks** (`nemo_curator/tasks/`)
-- **Purpose**: Represent batches of data to be processed
-- **Base Class**: `Task[T]` - Generic task container with metadata
-- **Specializations**: `DocumentBatch`, `ImageBatch`, `FileGroupTask`
-
-#### 2. **Stages** (`nemo_curator/stages/`)
-- **Purpose**: Define processing operations that transform tasks
-- **Base Class**: `ProcessingStage[X, Y]` - Generic stage that transforms input type X to output type Y
-- **Key Features**:
-  - Resource requirements specification (CPU, memory)
-  - Input/output validation
-
-#### 3. **Backends/Executors** (`nemo_curator/backends/`)
-- **Purpose**: Provide adapters to run stages on different Ray orchestration systems
-- **Available Backends**:
-  - **Xenna**: NVIDIA's Cosmos orchestration system
-  - **Ray Actor Pool**: Classic Ray actor-based execution
-  - **Ray Data**: Ray's dataset processing framework
-- **Key Features**:
-  - Unified executor interface (`BaseExecutor`)
-  - Stage adaptation layer (`BaseStageAdapter`)
-  - Backend-specific optimizations
-  - Worker/node metadata handling
-
-#### 4. **Pipeline** (`nemo_curator/pipeline/`)
-- **Purpose**: Define sequence of stages and orchestrate execution
-- **Features**:
-  - Stage composition and validation
-  - Execution across different backends
-  - Result aggregation
-
-### 🔄 Execution Flow
-
-1. **Pipeline Definition**: User defines stages in sequence
-2. **Backend Selection**: Choose executor (Xenna/Ray Actors/Ray Data)
-3. **Stage Adaptation**: Executor adapts stages to backend format
-4. **Task Distribution**: Initial tasks distributed across workers
-5. **Stage Execution**: Each stage processes tasks in parallel
-6. **Result Collection**: Final results aggregated and returned
-
-### 🎯 Design Principles
-
-- **Backend Agnostic**: Same pipeline logic runs on any supported backend
-- **Type Safety**: Generic types ensure input/output compatibility
-- **Scalability**: Designed for large-scale distributed processing
-- **Extensibility**: Easy to add new task types, stages, and backends
-- **Performance**: Built-in metrics and optimization hooks
-- **Composability**: Stages can be combined and reused
-
-### 💡 Usage Pattern
-
-```python
-# Define pipeline
-pipeline = Pipeline(name="data_processing")
-pipeline.add_stage(ReaderStage(...))
-pipeline.add_stage(ProcessingStage(...))
-
-# Execute on different backends
-results_xenna = pipeline.run(XennaExecutor())
-results_ray_data = pipeline.run(RayDataExecutor())
-results_ray_actors = pipeline.run(RayActorExecutor())
-```
-
-### Task-Centric Architecture Design Details
-The design of NeMo Curator is based on Ray and operates on individual **Tasks** - batches of data that flow through the pipeline. This enables:
-- Finer-grained control and monitoring
-- Better resource utilization
-
-#### Map-style (Data-Parallel) Execution
-All stages are designed to be map-style on tasks, meaning they take task as input and produce task as output. This allows for easy parallelization and scaling.
-- We do not enforce 1-1 mapping between input and output tasks, but rather allow for multiple output tasks from a single input task and multiple input tasks from a single output task. More specifically, a stage applies a transformation from `X` to `Y`, where both `X` and `Y` can be `Task | list[Task] | None`.
-
-#### Fault Tolerance Requirements
-**All stages MUST be fault-tolerant and retry-safe.** This is a critical requirement because:
-
-- **Task Preemption:** Xenna can preempt/kill running tasks before completion and potentially reschedule them later, especially during autoscaling events
-- **Partial Operations:** Tasks may be interrupted mid-execution, leaving partial state (e.g., incomplete file downloads)
-
-## Core Components
-
-### Tasks
-
-A **Task** is the fundamental unit of data that flows through the curation pipeline, representing a batch of input data for processing.
-
-#### Base Task Implementation
-
-```python
-@dataclass
-class Task(ABC, Generic[T]):
-    """Abstract base class for tasks in the pipeline."""
-    task_id: str
-    dataset_name: str
-    data: T
-    _stage_perf: list[StagePerfStats] = field(default_factory=list)
-    _metadata: dict[str, Any] = field(default_factory=dict)
-
-    @property
-    @abstractmethod
-    def num_items(self) -> int:
-        """Get the number of items in this task."""
-
-    @abstractmethod
-    def validate(self) -> bool:
-        """Validate the task data."""
-```
-
-#### Example Task Types
-
-```python
-@dataclass
-class DocumentBatch(Task[pa.Table | pd.DataFrame]):
-    """Task for document processing."""
-
-    @property
-    def num_items(self) -> int:
-        return len(self.data)
-
-    def validate(self) -> bool:
-        return isinstance(self.data, pd.DataFrame) and not self.data.empty
-```
-
-### Stages
-
-#### Base Stage Interface
-
-```python
-class ProcessingStage(ABC, Generic[X, Y], metaclass=StageMeta):
-    """Base class for all processing stages that accepts a task of type X and outputs a task of type Y."""
-
-    @property
-    @abstractmethod
-    def name(self) -> str:
-        """Unique name for this stage."""
-
-    @property
-    def resources(self) -> Resources:
-        """Resource requirements for this stage."""
-        return Resources(cpus=1.0)
-
-    @abstractmethod
-    def process(self, task: X) -> Y | list[Y]:
-        """Process a single task, can output one or more task."""
-```
-
-#### Resource Specification
-
-```python
-@dataclass
-class Resources:
-    """Define resource requirements for a processing stage."""
-    cpus: float = 1.0 # Number of CPU cores
-    gpu_memory_gb: float = 0.0 # Number of GPU memory in GB (Only for single GPU)
-    gpus: float = 0.0 # Number of GPUs (Only for multi-GPU)
-```
-
-### Pipelines
-
-A **Pipeline** is a collection of stages that defines the complete processing workflow.
-
-```python
-class Pipeline:
-    """A pipeline defines a sequence of processing stages."""
-
-    def __init__(self, stages: list[ProcessingStage]):
-        self.stages = stages
-
-    def add_stage(self, stage: ProcessingStage):
-        """Add a stage to the pipeline."""
-
-    def run(self, executor: BaseExecutor | None = None) -> list[Task] | None:
-        """Run the pipeline."""
-```
-
-### Executors (Advanced)
-
-**Executors** are responsible for running pipelines on different backends while maintaining a unified interface.
-They do so with the help of **Adapters** which are the translation piece between our `ProcessingStage` and the desired "executor".
-Each Executor runs a `list[ProcessingStage]` and then wraps each `ProcessingStage` to an `Adapter`, and then finally those wrapped classes, i.e adapters are executed.
-
-#### Base Executor Interface
-
-```python
-class BaseExecutor(ABC):
-    """Executor for a pipeline."""
-
-    def __init__(self, config: dict[str, Any] | None = None):
-        self.config = config or {}
-
-    @abstractmethod
-    def execute(self, stages: list[ProcessingStage], initial_tasks: list[Task] | None = None) -> None:
-        """Execute the pipeline."""
-```
-
-### Backend Implementations
-
-#### Xenna Executor
-```python
-class XennaExecutor(BaseExecutor):
-    """Ray-based executor using Xenna backend."""
-
-    def execute(self, stages: list[ProcessingStage], initial_tasks: list[Task] | None = None) -> None:
-        # Convert stages to Xenna acceptable format using Xenna Adapters
-        # Handle resource allocation
-        # Execute with autoscaling
-```
-
-#### Ray Data Executor
-```python
-class RayDataExecutor(BaseExecutor):
-    """Ray Data-based executor."""
-
-    def execute(self, stages: list[ProcessingStage], initial_tasks: list[Task] | None = None) -> None:
-        # Convert to Ray Data operations
-        # Execute pipeline
-```
-
-### 🔧 Development Guidelines
-
-- **Task Types**: Create new task types for different data modalities
-- **Stage Implementation**: Inherit from `ProcessingStage` and implement required methods
-- **Backend Development**: Extend `BaseExecutor` for new orchestration systems
-- **Testing**: Use the example pipelines to validate new components
-- **Performance**: Leverage batch processing and resource specifications
-
-This framework enables data scientists and engineers to focus on pipeline logic while abstracting away the complexities of different Ray execution environments.
-
-### API Status
-**Status:** Pre Release - This API design is currently under development and may change.
-
-### Examples and Usage
-For practical examples of the API in action, refer to the quickstart examples in `nemo_curator/examples/quickstart.py` and the tutorial notebooks that demonstrate complete pipeline workflows following these design patterns.
-
-## File Structure Conventions
-
-- **Processing Stages**: `nemo_curator/stages/{modality}/` (text, image, audio, video)
-- **Tasks**: `nemo_curator/tasks/` (task definitions and implementations)
-- **Backends/Executors**: `nemo_curator/backends/` (execution adapters)
-- **Pipeline**: `nemo_curator/pipeline/` (pipeline orchestration)
-- **Utilities**: `nemo_curator/utils/` (shared functionality)
-- **Tests**: `tests/` (mirrors source structure with 162+ test files)
-- **Documentation**: `docs/` (Sphinx-based documentation with MyST)
-- **Examples**: `tutorials/` (Jupyter notebooks and example scripts)
-- **Configuration**: `config/` (YAML configuration templates)
-
-### Key Directories
-```
-nemo_curator/
-├── stages/
-│   ├── text/          # Text processing pipelines
-│   ├── image/         # Image processing and filtering
-│   ├── audio/         # Audio processing capabilities
-│   └── video/         # Video processing and analysis
-├── tasks/             # Task definitions and implementations
-├── backends/          # Execution adapters for different Ray backends
-├── pipeline/          # Pipeline orchestration components
-├── utils/             # Shared utilities and helpers
-├── datasets/          # Dataset loading and manipulation
-└── modules/           # Core processing algorithms
-```
-
-## GPU Development Notes
-
-### Memory Management
-- Use context managers for GPU memory allocation
-- Implement memory pool management for large datasets
-- Monitor GPU memory usage during development
-
-### CUDA Compatibility
-- Ensure CUDA 12.x compatibility for all GPU code
-- Test both single-GPU and multi-GPU scenarios
-- Handle graceful degradation when GPU resources are unavailable
-
-### Performance Considerations
-- Profile GPU kernels for performance bottlenecks
-- Use async processing where possible with Ray
-- Implement batch processing for efficient GPU utilization
-
-## Documentation Guidelines
-
-- Update docstrings for all public APIs
-- Include usage examples in docstrings
-- Update relevant documentation in `docs/` for significant changes
-- Use type hints and document parameter types and return values
-
-This repository follows NVIDIA's coding standards and emphasizes scalable, robust data processing pipelines with optional GPU acceleration for high-performance computing environments.
+Important defaults are `1.75` for scale-up, `0.5` for scale-down, and one actor as
+the maximum scale-up delta per decision. In decision order, the autoscaler:
+
+1. drains idle actors after input is exhausted;
+2. creates actors up to `MIN_WORKERS`;
+3. enforces `MAX_WORKERS` and dynamic resource shrinkage;
+4. waits for the first input before utilization-based scaling;
+5. scales up above `1.75` only when budgets and backpressure permit; or
+6. scales down at or below `0.5` only when no actors are pending and the pool is
+   above `MIN_WORKERS`.
+
+`INITIAL_WORKERS` is only the startup size. After the first input, low utilization
+can shrink the pool toward `MIN_WORKERS`. Use `num_workers=N` for a fixed pool, or
+set `MIN_WORKERS` when a warm pool must be retained. A fixed pool is useful only if
+the pipeline can keep all N actors fed.
+
+Scale-up happens in bounded increments, but the scheduling loop can iterate sooner
+than its task-completion wait timeout. Do not infer an actor-per-second rate from that
+timeout; measure scaling transitions in the log.
+
+### Concurrency and tasks in flight
+
+`max_concurrency` is a per-stage Ray actor setting. The actor's in-flight task limit
+defaults to `2 * max_concurrency`, unless the global
+`DataContext.max_tasks_in_flight_per_actor` overrides it.
+
+These settings also bound autoscaler utilization. The in-flight limit divided by
+`max_concurrency` must be at least the `1.75` scale-up threshold. For example,
+`max_concurrency=2` with an in-flight limit of `2` can reach only `1.0` and cannot
+scale up; the default limit of `4` can reach `2.0`.
+
+With `enable_true_multi_threading=False` (the default), concurrency above 1 overlaps
+input and output batching for multiple actor task envelopes but serializes the stage
+UDF. Concurrency 2 can hide handoff latency, but it can also increase CPU preparation,
+queued data, object-store pressure, and GPU memory. Compare concurrency 1 and 2 per
+stage; do not make 2 a blanket default.
+
+### Metadata fetching
+
+Ray fetches block metadata on a background thread by default, controlled by
+`RAY_DATA_METADATA_PREFETCH_ON_THREAD`. This keeps metadata `ray.get()` calls off the
+scheduler thread but does not prefetch block contents, run the UDF concurrently, or
+remove batching work. It is not a first-line tuning lever, and Curator diagnostics do
+not time it. To compare the inline path, set the variable to `0` before Ray Data is
+imported, restart the driver, and use a controlled run only when other evidence points
+to metadata retrieval.
+
+### Operator fusion
+
+Ray can fuse TaskPool → TaskPool or TaskPool → ActorPool map operators when their
+remote arguments are compatible. ActorPool → ActorPool does not fuse. Fusion reduces
+the number of scheduled operators and changes how resource reservations are divided.
+Curator's `RAY_NUM_CPUS` override can make Ray-only resource arguments compatible,
+but changing it also changes resource accounting; do not use it only to force fusion.
+
+## Curator tuning controls
+
+Prefer Curator's stage and client APIs. Use `DataContext` and environment variables
+only when the Curator API has no equivalent, and set them before pipeline execution.
+
+### Per-stage controls
+
+| Goal | Curator API | Effect |
+|---|---|---|
+| Change Task rows per stage call | `stage.with_(batch_size=N)` | Batch size counts Tasks, not records inside a Task |
+| Fixed worker pool | `stage.with_(num_workers=N)` | Fixed ActorPool or capped TaskPool, depending on stage type |
+| Autoscaling actor bounds | `stage.with_(ray_stage_spec={RayStageSpecKeys.MIN_WORKERS: N, RayStageSpecKeys.MAX_WORKERS: M})` | Maps to Ray `min_size` and `max_size` |
+| Actor startup size | `stage.with_(ray_stage_spec={RayStageSpecKeys.INITIAL_WORKERS: N})` | Startup target only; does not retain actors above `MIN_WORKERS` |
+| Force actor or task | `stage.with_(ray_stage_spec={RayStageSpecKeys.IS_ACTOR_STAGE: bool})` | Overrides adapter selection |
+| Actor task-envelope concurrency | `stage.with_(ray_stage_spec={RayStageSpecKeys.RAY_REMOTE_ARGS: {"max_concurrency": N}})` | Overlaps actor task envelopes; the UDF remains serialized by default |
+| CPU/GPU request | `stage.with_(resources=Resources(cpus=N, gpus=M))` | Per-worker resources used in scheduling and budgets |
+| Ray-only CPU override | `stage.with_(ray_stage_spec={RayStageSpecKeys.RAY_NUM_CPUS: N})` | Changes Ray Data resource accounting without changing other backends |
+| Recycle task workers | `stage.with_(ray_stage_spec={RayStageSpecKeys.MAX_CALLS_PER_WORKER: N})` | Passed as `max_calls` for task stages |
+
+### Client and global controls
+
+| Goal | API or environment variable | Default / scope |
+|---|---|---|
+| Object-store capacity | `RayClient(object_store_memory=N)` or `SlurmRayClient(...)` | Ray initialization setting, in bytes |
+| Ray log directory | `RayClient(ray_temp_dir=PATH)` or `SlurmRayClient(...)` | `~/.ray` |
+| Enable Curator diagnostics | `NEMO_CURATOR_RAY_DATA_DIAGNOSTICS=1` | Off; set before driver startup |
+| Actor scale-up threshold | `DataContext.get_current().autoscaling_config.actor_pool_util_upscaling_threshold = R` | `1.75` |
+| Actor scale-down threshold | `DataContext.get_current().autoscaling_config.actor_pool_util_downscaling_threshold = R` | `0.5` |
+| Actors added per decision | `DataContext.get_current().autoscaling_config.actor_pool_max_upscaling_delta = N` | `1` |
+| In-flight tasks per actor | `DataContext.get_current().max_tasks_in_flight_per_actor = N` | Global override; otherwise `2 * max_concurrency` |
+| Reserved resource fraction | `DataContext.get_current().op_resource_reservation_ratio = R` | `0.5` |
+| Downstream queue/capacity ratio | `DataContext.get_current().downstream_capacity_backpressure_ratio = R` | `2.0` |
+| Downstream object-store gate | `RAY_DATA_DOWNSTREAM_CAPACITY_OBJECT_STORE_BUDGET_UTIL_THRESHOLD` | `0.5` |
+| Metadata fetch path | `RAY_DATA_METADATA_PREFETCH_ON_THREAD` | Background thread enabled |
+
+## Guardrails
+
+- Do not infer a scheduler cause from wall time alone.
+- Do not treat `num_workers`, concurrency 2, or a backpressure threshold as a
+  universal GPU-utilization fix.
+- Do not use Ray block-size knobs to split an opaque Curator Task.
+- Keep `max_concurrency`, the in-flight limit, and the scale-up threshold compatible.
+- Remember that a state-change log is not continuous utilization telemetry.
+- Re-check Ray source and `diagnostics.py` when changing the supported Ray version.
 
 ---
 > Source: [NVIDIA-NeMo/Curator](https://github.com/NVIDIA-NeMo/Curator) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-08-16 -->
