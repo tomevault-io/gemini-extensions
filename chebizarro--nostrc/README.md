@@ -1,21 +1,21 @@
-# nostrc — distributed by TomeVault
+# nostrc
 
-> Originally from [chebizarro/nostrc](https://github.com/chebizarro/nostrc). Converted and distributed by [TomeVault](https://tomevault.io)
+> Source: [chebizarro/nostrc](https://github.com/chebizarro/nostrc). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-AI instruction files for nostrc by chebizarro
+A C library for the Nostr protocol
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.windsurf/rules/*.md` in [chebizarro/nostrc](https://github.com/chebizarro/nostrc).
+Original source: `CLAUDE.md` in [chebizarro/nostrc](https://github.com/chebizarro/nostrc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 ## Bundled Skills (4)
 
@@ -24,7 +24,7 @@ Original source: `.windsurf/rules/*.md` in [chebizarro/nostrc](https://github.co
 - [gdb-debug](https://github.com/chebizarro/nostrc/tree/main/skills/gdb-debug)
 - [gtk-inspector](https://github.com/chebizarro/nostrc/tree/main/skills/gtk-inspector)
 
-Quality verified by TomeVault's automated analysis pipeline. [View quality report](https://tomevault.io/claim/chebizarro#quality)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/chebizarro/nostrc](https://github.com/chebizarro/nostrc)
 
 ---
 
@@ -32,6 +32,6 @@ Install this config instantly:
 ```
 npx tomevault install chebizarro/nostrc
 ```
-Or browse all formats at [https://tomevault.io/claim/chebizarro](https://tomevault.io/claim/chebizarro).
+Source: [github.com/chebizarro/nostrc](https://github.com/chebizarro/nostrc).
 
 <!-- genome:d-i-q -->
