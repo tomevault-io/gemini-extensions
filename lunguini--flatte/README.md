@@ -7,11 +7,11 @@ Build TUIs like ordinary Go — one state struct, direct mutation, pure views �
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [lunguini/flatte](https://github.com/lunguini/flatte).
+Original source: `AGENTS.md` in [lunguini/flatte](https://github.com/lunguini/flatte).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
