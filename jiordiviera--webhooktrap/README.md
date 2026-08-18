@@ -7,11 +7,11 @@ Open-source webhook debugger. Capture, inspect, replay webhooks.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jiordiviera/webhooktrap](https://github.com/jiordiviera/webhooktrap).
+Original source: `AGENTS.md` in [jiordiviera/webhooktrap](https://github.com/jiordiviera/webhooktrap).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
