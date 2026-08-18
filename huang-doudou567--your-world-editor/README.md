@@ -7,11 +7,11 @@ AI驱动的自我认知操作系统，通过"事件→模式→叙事"三层数�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [huang-doudou567/your-world-editor](https://github.com/huang-doudou567/your-world-editor).
+Original source: `AGENTS.md` in [huang-doudou567/your-world-editor](https://github.com/huang-doudou567/your-world-editor).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
