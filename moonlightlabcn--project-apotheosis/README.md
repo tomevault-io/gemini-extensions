@@ -7,11 +7,11 @@ Porting modern WebKit/WebCore to Windows 10 Mobile (ARM32, UWP) — a JIT-accele
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MoonlightLabCN/Project-Apotheosis](https://github.com/MoonlightLabCN/Project-Apotheosis).
+Original source: `AGENTS.md` in [MoonlightLabCN/Project-Apotheosis](https://github.com/MoonlightLabCN/Project-Apotheosis).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
