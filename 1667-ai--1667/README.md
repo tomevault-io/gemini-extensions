@@ -7,11 +7,11 @@ A full-screen terminal environment for writing fiction with language models.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [1667-ai/1667](https://github.com/1667-ai/1667).
+Original source: `AGENTS.md` in [1667-ai/1667](https://github.com/1667-ai/1667).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
