@@ -7,13 +7,13 @@ Agentic research control plane: queue state, worker preflight, wake-gated execut
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [aliasocracy/enoch-agentic-research-system](https://github.com/aliasocracy/enoch-agentic-research-system).
+Original source: `AGENTS.md` in [aliasocracy/enoch-agentic-research-system](https://github.com/aliasocracy/enoch-agentic-research-system).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
