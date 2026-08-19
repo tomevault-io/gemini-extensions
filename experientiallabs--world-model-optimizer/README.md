@@ -7,11 +7,11 @@ Build continually improving models on your agent traces by distilling frontier o
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [experientiallabs/world-model-optimizer](https://github.com/experientiallabs/world-model-optimizer).
+Original source: `CLAUDE.md` in [experientiallabs/world-model-optimizer](https://github.com/experientiallabs/world-model-optimizer).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
