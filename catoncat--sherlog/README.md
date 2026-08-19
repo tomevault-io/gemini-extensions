@@ -7,11 +7,11 @@ Progressive search CLI for local Codex session logs
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [catoncat/sherlog](https://github.com/catoncat/sherlog).
+Original source: `AGENTS.md` in [catoncat/sherlog](https://github.com/catoncat/sherlog).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
