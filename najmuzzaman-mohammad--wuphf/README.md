@@ -7,11 +7,11 @@ WUPHF lets you spin up your personal office of AI teammates who collaborate over
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [najmuzzaman-mohammad/wuphf](https://github.com/najmuzzaman-mohammad/wuphf).
+Original source: `CLAUDE.md` in [najmuzzaman-mohammad/wuphf](https://github.com/najmuzzaman-mohammad/wuphf).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
