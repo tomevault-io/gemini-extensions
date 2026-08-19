@@ -7,13 +7,13 @@ Personal context for your agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hpbrn/creed](https://github.com/hpbrn/creed).
+Original source: `.cursor/rules/*.mdc` in [hpbrn/creed](https://github.com/hpbrn/creed).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
