@@ -4,7 +4,7 @@
   "repo": "Cedarflake-Nami",
   "description": "Personal edge redirect playground with a database-backed control plane, WebUI, optional analytics, and compile-time adapters for Cloudflare, Vercel, and Netlify.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Cedarflake/Cedarflake-Nami",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-19T20:31:15Z"
+  "distributed_at": "2026-08-19T20:32:37Z"
 }
