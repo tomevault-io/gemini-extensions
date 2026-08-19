@@ -7,11 +7,11 @@ Evidence-based audit methodology and read-only Laravel context tools for existin
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MrPunyapal/laravel-auditor](https://github.com/MrPunyapal/laravel-auditor).
+Original source: `AGENTS.md` in [MrPunyapal/laravel-auditor](https://github.com/MrPunyapal/laravel-auditor).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
