@@ -7,11 +7,11 @@ Training models inside world models
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [james0248/visionary](https://github.com/james0248/visionary).
+Original source: `CLAUDE.md` in [james0248/visionary](https://github.com/james0248/visionary).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
