@@ -7,11 +7,11 @@ VibeApp is an on-device Android app builder powered by a specialized harness for
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Skykai521/VibeApp](https://github.com/Skykai521/VibeApp).
+Original source: `CLAUDE.md` in [Skykai521/VibeApp](https://github.com/Skykai521/VibeApp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
