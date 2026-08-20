@@ -7,11 +7,11 @@ RouterOS L6 Serial Generator & License Key Converter — AVX-512 SIMD collision 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cheebun/ros-serialgen](https://github.com/cheebun/ros-serialgen).
+Original source: `AGENTS.md` in [cheebun/ros-serialgen](https://github.com/cheebun/ros-serialgen).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
