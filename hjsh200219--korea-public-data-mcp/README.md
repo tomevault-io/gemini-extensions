@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hjsh200219/korea-public-data-mcp](https://github.com/hjsh200219/korea-public-data-mcp).
+Original source: `AGENTS.md` in [hjsh200219/korea-public-data-mcp](https://github.com/hjsh200219/korea-public-data-mcp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
