@@ -7,13 +7,13 @@ SEO Skills AI: Universal AI SEO Agent & Technical Optimization Suite across Clau
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [seoskillsai/seo-skills-ai](https://github.com/seoskillsai/seo-skills-ai).
+Original source: `AGENTS.md` in [seoskillsai/seo-skills-ai](https://github.com/seoskillsai/seo-skills-ai).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
