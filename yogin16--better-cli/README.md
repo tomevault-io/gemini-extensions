@@ -7,12 +7,12 @@ SKILL.md for AI Agents to vibe best practices of CLIs that are good for humans a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [yogin16/better-cli](https://github.com/yogin16/better-cli).
+Original source: `AGENTS.md` in [yogin16/better-cli](https://github.com/yogin16/better-cli).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
