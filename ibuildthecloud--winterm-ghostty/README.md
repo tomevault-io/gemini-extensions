@@ -7,11 +7,11 @@ Windows Terminal's shell with ghostty's engine behind the pane, selectable per p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ibuildthecloud/winterm-ghostty](https://github.com/ibuildthecloud/winterm-ghostty).
+Original source: `AGENTS.md` in [ibuildthecloud/winterm-ghostty](https://github.com/ibuildthecloud/winterm-ghostty).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
