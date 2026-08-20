@@ -7,11 +7,11 @@ Never hit a quota limit mid-task: see Claude, Codex, Grok and Agy usage live in 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [levi-qiao/herdr-agent-quota](https://github.com/levi-qiao/herdr-agent-quota).
+Original source: `AGENTS.md` in [levi-qiao/herdr-agent-quota](https://github.com/levi-qiao/herdr-agent-quota).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
