@@ -7,11 +7,11 @@ Open-source database management and analytics desktop app for SQL, NoSQL, Redis,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [trungvinh2102/QurioDB](https://github.com/trungvinh2102/QurioDB).
+Original source: `CLAUDE.md` in [trungvinh2102/QurioDB](https://github.com/trungvinh2102/QurioDB).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
