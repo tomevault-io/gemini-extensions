@@ -7,11 +7,11 @@ Official SPACE GASS API specifications, developer SDKs, and automation examples
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [SpaceGass/space-gass-api](https://github.com/SpaceGass/space-gass-api).
+Original source: `CLAUDE.md` in [SpaceGass/space-gass-api](https://github.com/SpaceGass/space-gass-api).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
