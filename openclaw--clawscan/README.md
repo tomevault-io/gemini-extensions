@@ -7,11 +7,11 @@ Composable security scanning harness for agent skills
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [openclaw/clawscan](https://github.com/openclaw/clawscan).
+Original source: `AGENTS.md` in [openclaw/clawscan](https://github.com/openclaw/clawscan).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
