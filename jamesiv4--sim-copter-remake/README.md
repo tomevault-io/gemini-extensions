@@ -7,11 +7,11 @@ A ground-up remake of Maxis’s 1996 classic SimCopter, rebuilt in Unreal Engine
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [JamesIV4/sim-copter-remake](https://github.com/JamesIV4/sim-copter-remake).
+Original source: `AGENTS.md` in [JamesIV4/sim-copter-remake](https://github.com/JamesIV4/sim-copter-remake).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
