@@ -7,11 +7,11 @@ This is a cute character derived from the kangaroo icon of a Chinese food delive
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [peibingchen/You-are-really-bold](https://github.com/peibingchen/You-are-really-bold).
+Original source: `AGENTS.md` in [peibingchen/You-are-really-bold](https://github.com/peibingchen/You-are-really-bold).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
