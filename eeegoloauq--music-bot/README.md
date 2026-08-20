@@ -7,11 +7,11 @@ Telegram companion for your Navidrome library: paste a link to get a tagged FLAC
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [eeegoloauq/music-bot](https://github.com/eeegoloauq/music-bot).
+Original source: `CLAUDE.md` in [eeegoloauq/music-bot](https://github.com/eeegoloauq/music-bot).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
