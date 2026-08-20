@@ -7,11 +7,11 @@ A curated library of production-ready system prompts for building with AI. Stati
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [SarutobiSasuke8/Prompt-Library](https://github.com/SarutobiSasuke8/Prompt-Library).
+Original source: `AGENTS.md` in [SarutobiSasuke8/Prompt-Library](https://github.com/SarutobiSasuke8/Prompt-Library).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
