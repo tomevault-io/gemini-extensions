@@ -7,11 +7,11 @@ Give your AI coding assistant a design eye. 12 principles, 13 reference docs, 7 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [narenkatakam/ux-audit](https://github.com/narenkatakam/ux-audit).
+Original source: `AGENTS.md` in [narenkatakam/ux-audit](https://github.com/narenkatakam/ux-audit).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
