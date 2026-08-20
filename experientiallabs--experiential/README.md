@@ -7,11 +7,11 @@ An open source model gateway that provides one control plane across closed, open
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [experientiallabs/experiential](https://github.com/experientiallabs/experiential).
+Original source: `CLAUDE.md` in [experientiallabs/experiential](https://github.com/experientiallabs/experiential).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
