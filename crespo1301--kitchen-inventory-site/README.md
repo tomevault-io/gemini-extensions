@@ -7,11 +7,11 @@ Marketing site for Kitchen Inventory — restaurant stock & ordering app
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Crespo1301/kitchen-inventory-site](https://github.com/Crespo1301/kitchen-inventory-site).
+Original source: `AGENTS.md` in [Crespo1301/kitchen-inventory-site](https://github.com/Crespo1301/kitchen-inventory-site).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
