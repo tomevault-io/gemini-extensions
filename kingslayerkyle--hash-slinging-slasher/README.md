@@ -7,11 +7,11 @@ Finding the names for hashed assets in CoD games
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [KingslayerKyle/hash-slinging-slasher](https://github.com/KingslayerKyle/hash-slinging-slasher).
+Original source: `AGENTS.md` in [KingslayerKyle/hash-slinging-slasher](https://github.com/KingslayerKyle/hash-slinging-slasher).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
