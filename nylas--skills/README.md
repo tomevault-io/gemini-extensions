@@ -7,11 +7,11 @@ Agent Skills for building with the Nylas platform — email, calendar, contacts.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nylas/skills](https://github.com/nylas/skills).
+Original source: `AGENTS.md` in [nylas/skills](https://github.com/nylas/skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
