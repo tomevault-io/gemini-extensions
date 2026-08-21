@@ -4,7 +4,7 @@
   "repo": "sharpcompress",
   "description": "",
   "type": "tome",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -61,9 +61,15 @@
       "path": ".agents/skills/sevenzip-format/SKILL.md",
       "github_url": "https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/sevenzip-format/SKILL.md",
       "description": ""
+    },
+    {
+      "name": "sharpcompress",
+      "path": ".agents/skills/xz-lzma-format/SKILL.md",
+      "github_url": "https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/xz-lzma-format/SKILL.md",
+      "description": ""
     }
   ],
   "source_url": "https://github.com/adamhathcock/sharpcompress",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-21T02:45:54Z"
+  "distributed_at": "2026-08-21T05:00:03Z"
 }
