@@ -7,11 +7,11 @@ a html edit tool with genius idea
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [chenerzhong123-cloud/htmlGenius](https://github.com/chenerzhong123-cloud/htmlGenius).
+Original source: `AGENTS.md` in [chenerzhong123-cloud/htmlGenius](https://github.com/chenerzhong123-cloud/htmlGenius).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
