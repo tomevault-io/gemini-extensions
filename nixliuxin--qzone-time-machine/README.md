@@ -7,13 +7,13 @@ QQ空间时光机 - 全量导出与本地浏览工具 | Archive your entire QZon
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [nixliuxin/QZone-Time-Machine](https://github.com/nixliuxin/QZone-Time-Machine).
+Original source: `AGENTS.md` in [nixliuxin/QZone-Time-Machine](https://github.com/nixliuxin/QZone-Time-Machine).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
