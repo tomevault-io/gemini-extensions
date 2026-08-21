@@ -5,22 +5,23 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [adamhathcock/sharpcompress](https://github.com/adamhathcock/sharpcompress).
+Original source: `copilot-instructions.md` in [adamhathcock/sharpcompress](https://github.com/adamhathcock/sharpcompress).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (4)
+## Bundled Skills (5)
 
 - [sharpcompress](https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/tar-format/SKILL.md)
 - [sharpcompress](https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/zip-format/SKILL.md)
 - [sharpcompress](https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/rar-format/SKILL.md)
 - [sharpcompress](https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/sevenzip-format/SKILL.md)
+- [sharpcompress](https://github.com/adamhathcock/sharpcompress/tree/main/.agents/skills/xz-lzma-format/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/adamhathcock/sharpcompress](https://github.com/adamhathcock/sharpcompress)
 
