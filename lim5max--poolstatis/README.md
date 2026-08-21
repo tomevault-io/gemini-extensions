@@ -7,11 +7,11 @@ Agent-native product analytics for coding agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [lim5max/poolstatis](https://github.com/lim5max/poolstatis).
+Original source: `AGENTS.md` in [lim5max/poolstatis](https://github.com/lim5max/poolstatis).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
