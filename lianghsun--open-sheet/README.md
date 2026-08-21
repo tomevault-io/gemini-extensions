@@ -7,11 +7,11 @@ The spreadsheet framework built for agents — write the model as React, export 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lianghsun/open-sheet](https://github.com/lianghsun/open-sheet).
+Original source: `CLAUDE.md` in [lianghsun/open-sheet](https://github.com/lianghsun/open-sheet).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
