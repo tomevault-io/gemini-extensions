@@ -1,21 +1,31 @@
 # bootstrap-vue-next
 
-> Source: [bootstrap-vue-next/bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [bootstrap-vue-next/bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [bootstrap-vue-next/bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next).
+Original source: `AGENTS.md` in [bootstrap-vue-next/bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [bootstrap-vue-next/bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next) — a repo with 1284+ stars on GitHub.
+## Bundled Skills (7)
+
+- [vitepress](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/vitepress)
+- [bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/vitepress/SKILL.md)
+- [bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/vue-debug-guides/SKILL.md)
+- [bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/vue-best-practices/SKILL.md)
+- [bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/vue-router-best-practices/SKILL.md)
+- [bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/vue-testing-best-practices/SKILL.md)
+- [bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next/tree/main/.agents/skills/create-adaptable-composable/SKILL.md)
+
+From [bootstrap-vue-next/bootstrap-vue-next](https://github.com/bootstrap-vue-next/bootstrap-vue-next) — a repo with 1286+ stars on GitHub.
 
 ---
 
