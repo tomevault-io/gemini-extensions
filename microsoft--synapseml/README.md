@@ -5,20 +5,23 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/SynapseML](https://github.com/microsoft/SynapseML).
+Original source: `AGENTS.md` in [microsoft/SynapseML](https://github.com/microsoft/SynapseML).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (2)
+## Bundled Skills (5)
 
 - [SynapseML](https://github.com/microsoft/SynapseML/tree/main/.github/skills/code-review/SKILL.md)
 - [SynapseML](https://github.com/microsoft/SynapseML/tree/main/.github/skills/synapseml-local-setup/SKILL.md)
+- [SynapseML](https://github.com/microsoft/SynapseML/tree/main/.github/skills/scala-code/SKILL.md)
+- [SynapseML](https://github.com/microsoft/SynapseML/tree/main/.github/skills/synapseml-pr-loop/SKILL.md)
+- [SynapseML](https://github.com/microsoft/SynapseML/tree/main/.github/skills/synapseml-branches/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/microsoft/SynapseML](https://github.com/microsoft/SynapseML)
 
