@@ -7,11 +7,11 @@ Multi-currency personal finance PWA with offline support and real-time conversio
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [erfanansari/kharji](https://github.com/erfanansari/kharji).
+Original source: `CLAUDE.md` in [erfanansari/kharji](https://github.com/erfanansari/kharji).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
