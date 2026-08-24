@@ -5,11 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [gravitee-io/gravitee-api-management](https://github.com/gravitee-io/gravitee-api-management).
+Original source: `` in [gravitee-io/gravitee-api-management](https://github.com/gravitee-io/gravitee-api-management).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
