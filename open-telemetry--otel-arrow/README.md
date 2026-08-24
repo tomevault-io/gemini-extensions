@@ -5,17 +5,18 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [open-telemetry/otel-arrow](https://github.com/open-telemetry/otel-arrow).
+Original source: `` in [open-telemetry/otel-arrow](https://github.com/open-telemetry/otel-arrow).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [open-telemetry/otel-arrow](https://github.com/open-telemetry/otel-arrow) — a repo with 384+ stars on GitHub.
+From [open-telemetry/otel-arrow](https://github.com/open-telemetry/otel-arrow) — a repo with 402+ stars on GitHub.
 
 ---
 
