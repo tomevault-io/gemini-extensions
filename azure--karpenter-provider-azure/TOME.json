@@ -3,8 +3,8 @@
   "owner": "Azure",
   "repo": "karpenter-provider-azure",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "karpenter-provider-azure",
+      "path": ".github/skills/run-e2e-tests/SKILL.md",
+      "github_url": "https://github.com/Azure/karpenter-provider-azure/tree/main/.github/skills/run-e2e-tests/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/Azure/karpenter-provider-azure",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-16T13:33:41Z"
+  "distributed_at": "2026-08-24T13:12:24Z"
 }
