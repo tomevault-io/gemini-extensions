@@ -7,13 +7,13 @@ AI Video Studio — OpenClaw skill for AI video generation (Seedance 2.0) + edit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [iPythoning/ai-video-studio](https://github.com/iPythoning/ai-video-studio).
+Original source: `copilot-instructions.md` in [iPythoning/ai-video-studio](https://github.com/iPythoning/ai-video-studio).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
