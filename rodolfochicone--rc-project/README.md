@@ -7,11 +7,11 @@ Plugin de skills e agentes para Claude Code workflows de engenharia reais, do PR
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rodolfochicone/rc-project](https://github.com/rodolfochicone/rc-project).
+Original source: `AGENTS.md` in [rodolfochicone/rc-project](https://github.com/rodolfochicone/rc-project).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
