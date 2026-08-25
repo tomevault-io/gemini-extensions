@@ -4,7 +4,7 @@
   "repo": "doraemon",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/DTStack/doraemon",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-24T21:45:09Z"
+  "distributed_at": "2026-08-25T16:12:56Z"
 }
