@@ -7,11 +7,11 @@ A self-hosted media hub for music lovers: local library + streaming integration,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [soundspan/soundspan](https://github.com/soundspan/soundspan).
+Original source: `AGENTS.md` in [soundspan/soundspan](https://github.com/soundspan/soundspan).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
