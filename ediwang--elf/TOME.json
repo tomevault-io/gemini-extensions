@@ -4,7 +4,7 @@
   "repo": "Elf",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/EdiWang/Elf",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-30T18:32:31Z"
+  "distributed_at": "2026-08-25T16:09:59Z"
 }
