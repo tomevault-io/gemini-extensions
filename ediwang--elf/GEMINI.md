@@ -26,7 +26,7 @@
 - Keep `Elf.Api` optimized for high-frequency redirect traffic. Prefer Dapper and small SQL projections for forwarder reads/writes instead of adding EF Core to the API path.
 - Keep `Elf.Admin` as the place for management workflows and richer relational operations. Use `ElfDbContext` and EF Core for link, tag, and tracking management.
 - Use LiteBus records for business operations:
-	- Commands mutate state and are named like `CreateLinkCommand`, `EditLinkCommand`, `TrackSucessRedirectionCommand`.
+	- Commands mutate state and are named like `CreateLinkCommand`, `EditLinkCommand`, `TrackSuccessRedirectionCommand`.
 	- Queries return data and are named like `GetLinkQuery`, `ListLinkQuery`, `GetLinkByTokenQuery`.
 	- Register new handlers by keeping them in the project assembly; `Program.cs` already registers command and query modules from the assembly.
 - Keep controllers thin. Controllers should validate HTTP concerns, invoke mediators, manage response codes, and delegate business logic to command/query handlers or shared services.
@@ -78,4 +78,4 @@
 
 ---
 > Source: [EdiWang/Elf](https://github.com/EdiWang/Elf) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-29 -->
+<!-- tomevault:4.0:gemini_md:2026-08-23 -->
