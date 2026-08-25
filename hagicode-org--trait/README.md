@@ -7,11 +7,11 @@ Frontend workspace for Trait Builder, where HagiCode traits are searched and sel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [HagiCode-org/trait](https://github.com/HagiCode-org/trait).
+Original source: `AGENTS.md` in [HagiCode-org/trait](https://github.com/HagiCode-org/trait).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
