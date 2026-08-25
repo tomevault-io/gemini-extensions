@@ -7,11 +7,11 @@ A Git-backed context and workflow layer for Claude Code, Codex, Hermes Agent, an
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [conorbronsdon/agent-context-os](https://github.com/conorbronsdon/agent-context-os).
+Original source: `AGENTS.md` in [conorbronsdon/agent-context-os](https://github.com/conorbronsdon/agent-context-os).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
