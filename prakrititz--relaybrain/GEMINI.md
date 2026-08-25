@@ -1,6 +1,7 @@
-## relaybrain
+## relay
 
-> <!-- BEGIN:relay-os -->
+> Relay coordination — room context, locks, /relay ask
+
 
 <!-- BEGIN:relay-os -->
 # Relay (auto-installed)
