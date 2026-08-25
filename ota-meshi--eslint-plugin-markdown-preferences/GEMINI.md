@@ -2,7 +2,7 @@
 
 > This document provides guidelines for AI coding agents to work efficiently in this repository.
 
-# Copilot Instructions for `eslint-plugin-markdown-preferences`
+# Repository Instructions for Coding Agents
 
 This document provides guidelines for AI coding agents to work efficiently in this repository.
 
@@ -31,6 +31,14 @@ If you are addressed in Japanese, please conduct the conversation in Japanese.
 
 ## Development Workflow
 
+### General Quality Standard
+
+For every task, make a deliberate best effort to prevent mistakes.
+
+Before finalizing work, re-read the user's request and all applicable instructions, inspect the complete result in context, challenge your assumptions, and evaluate correctness, simplicity, consistency, edge cases, unintended effects, maintainability, and validation adequacy.
+
+Actively look for problems beyond explicit requirements, examples, checklists, tests, and automated checks. Do not treat any checklist or passing test suite as an exhaustive guarantee. Investigate remaining uncertainty and resolve every known concern before claiming completion.
+
 ### Adding a New Rule
 
 1. Use `npm run new -- <rule-name>` to generate a template for the new rule.
@@ -48,6 +56,13 @@ When editing files, please note the following:
   - In particular, ensure that sample code and the order of sections are consistent with other documents.
 
 ### Rule Testing
+
+#### Fixture-first Rule Test Policy
+
+- Rule behavior tests must use fixtures under `tests/fixtures/rules/<rule-name>/` and load them through the repository's fixture-based test utilities.
+- Do not add inline `valid` or `invalid` rule test cases when the same case can be represented by a fixture.
+- Use a non-fixture testing approach only when the fixture infrastructure cannot express the test. In that exceptional case, add a comment explaining why a fixture cannot be used and keep the non-fixture test as small as possible.
+- Direct unit tests for extracted, general-purpose utilities are not rule behavior tests and may be written without rule fixtures.
 
 #### Creating Test Fixtures
 
@@ -174,8 +189,8 @@ Below are the main npm scripts useful for development:
 Refer to [`CONTRIBUTING.md`] for more details.
 
 [`@eslint/markdown`]: https://github.com/eslint/markdown
-[`CONTRIBUTING.md`]: ../CONTRIBUTING.md
+[`CONTRIBUTING.md`]: ./CONTRIBUTING.md
 
 ---
 > Source: [ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-06 -->
+<!-- tomevault:4.0:gemini_md:2026-08-23 -->
