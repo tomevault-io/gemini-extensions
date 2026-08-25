@@ -4,7 +4,7 @@
   "repo": "Fluence.Wpf",
   "description": "Fluence.Wpf is a modern theming and control library based on WinUI 3, but for WPF on .NET 4.7.2 / .NET 10",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/sintaxasn/Fluence.Wpf",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-24T17:50:38Z"
+  "distributed_at": "2026-08-25T07:59:35Z"
 }
