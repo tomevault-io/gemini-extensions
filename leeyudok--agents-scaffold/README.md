@@ -1,0 +1,30 @@
+# agents-scaffold
+
+> Tome by [LeeYudok](https://github.com/LeeYudok/agents-scaffold), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+Fork-and-fill bootstrap for AI coding agents (Claude Code first, Codex/Gemini via AGENTS.md) — agents, skills, hooks, tiered rules (P0/P1/P2) and stack presets composed into one enforced pre-commit gate. 한국어/English
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [LeeYudok/agents-scaffold](https://github.com/LeeYudok/agents-scaffold).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/LeeYudok/agents-scaffold](https://github.com/LeeYudok/agents-scaffold)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install LeeYudok/agents-scaffold
+```
+Source: [github.com/LeeYudok/agents-scaffold](https://github.com/LeeYudok/agents-scaffold).
+
+<!-- genome:t-i-p -->
