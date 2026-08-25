@@ -4,7 +4,7 @@
   "repo": "lazyff",
   "description": "An interactive TUI for ffmpeg that makes video and audio operations simple without complex commands.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Manas-Kenge/lazyff",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-24T15:52:13Z"
+  "distributed_at": "2026-08-25T02:22:01Z"
 }
