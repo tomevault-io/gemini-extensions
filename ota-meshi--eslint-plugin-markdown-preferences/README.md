@@ -1,23 +1,21 @@
 # AI instruction files for eslint-plugin-markdown-preferences
 
-> Sourced from [ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-ESLint plugin that enforces our markdown preferences.
+> Sourced from [ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences).
+Original source: `AGENTS.md` in [ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/ota-meshi/eslint-plugin-markdown-preferences](https://github.com/ota-meshi/eslint-plugin-markdown-preferences)
 
 ---
 
