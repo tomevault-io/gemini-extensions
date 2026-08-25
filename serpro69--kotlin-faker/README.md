@@ -1,15 +1,15 @@
 # kotlin-faker
 
-> Source: [serpro69/kotlin-faker](https://github.com/serpro69/kotlin-faker). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [serpro69/kotlin-faker](https://github.com/serpro69/kotlin-faker). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [serpro69/kotlin-faker](https://github.com/serpro69/kotlin-faker).
+Original source: `AGENTS.md` in [serpro69/kotlin-faker](https://github.com/serpro69/kotlin-faker).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
