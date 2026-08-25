@@ -7,11 +7,11 @@ Open-source backend for multiplayer games
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [automoto/gg-scale](https://github.com/automoto/gg-scale).
+Original source: `AGENTS.md` in [automoto/gg-scale](https://github.com/automoto/gg-scale).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
