@@ -505,4 +505,4 @@ live in a separate **ActualLab.Fusion.Samples** sibling project.
 
 ---
 > Source: [alexyakunin/BoardGames](https://github.com/alexyakunin/BoardGames) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-08-16 -->
+<!-- tomevault:4.0:gemini_md:2026-08-23 -->
