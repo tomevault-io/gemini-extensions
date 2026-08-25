@@ -7,13 +7,13 @@ HAR: open agent harness (CLI + MCP) for coding agents. Isolated worktrees, deter
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [os-factory/har](https://github.com/os-factory/har).
+Original source: `CLAUDE.md` in [os-factory/har](https://github.com/os-factory/har).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
