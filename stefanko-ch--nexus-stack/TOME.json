@@ -4,7 +4,7 @@
   "repo": "Nexus-Stack",
   "description": "One-command deployment: Hetzner + Cloudflare Zero Trust + Docker",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/stefanko-ch/Nexus-Stack",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-24T17:32:14Z"
+  "distributed_at": "2026-08-25T06:12:59Z"
 }
