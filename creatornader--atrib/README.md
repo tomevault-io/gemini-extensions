@@ -7,11 +7,11 @@ Verifiable agent actions. Every action becomes signed context for the next. Ed25
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [creatornader/atrib](https://github.com/creatornader/atrib).
+Original source: `AGENTS.md` in [creatornader/atrib](https://github.com/creatornader/atrib).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
