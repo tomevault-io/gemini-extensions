@@ -1,6 +1,7 @@
-## zolt
+## agent
 
 > > Finance features: **Enabled**
+
 
 # Jetro Agent Context
 
