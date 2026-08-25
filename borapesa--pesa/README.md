@@ -7,11 +7,11 @@ A unified, open-source payments SDK for Tanzania.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [borapesa/pesa](https://github.com/borapesa/pesa).
+Original source: `CLAUDE.md` in [borapesa/pesa](https://github.com/borapesa/pesa).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
