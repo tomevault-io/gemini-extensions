@@ -7,11 +7,11 @@ Your AI coding agent starts every session knowing your repos, your clients, and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [bks-lab/open-bridge](https://github.com/bks-lab/open-bridge).
+Original source: `AGENTS.md` in [bks-lab/open-bridge](https://github.com/bks-lab/open-bridge).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
