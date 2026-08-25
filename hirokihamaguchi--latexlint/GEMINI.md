@@ -2,12 +2,12 @@
 
 > - このレポジトリは、LaTeXもしくはMarkdown向けのLinterであるVSCode 拡張機能「latexlint」の開発を行っている。
 
-# latexlint: Copilot Instructions
+# latexlint: AGENTS.md
 
 ## 概要
 
 - このレポジトリは、LaTeXもしくはMarkdown向けのLinterであるVSCode 拡張機能「latexlint」の開発を行っている。
-- 殆どのフォルダはVSCode向けの実装である。`web/`にはwebサイトのUIに関する実装があり、lint処理はsrcなどから共通のコードを参照している。
+- 殆どのフォルダはVSCode向けの実装である。WebサイトのUIは別レポジトリ `latexpages` に移され、lint処理はこのレポジトリの `src` を参照している。
 
 ## 変更対象の原則
 
@@ -39,4 +39,4 @@ rule修正時は、まず「実装層＋再現・検証層」を更新し、そ�
 
 ---
 > Source: [HirokiHamaguchi/latexlint](https://github.com/HirokiHamaguchi/latexlint) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-20 -->
+<!-- tomevault:4.0:gemini_md:2026-08-23 -->
