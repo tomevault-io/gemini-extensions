@@ -7,12 +7,12 @@ MCP server giving AI agents complete control of Blender, modeling, rigging, anim
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [PoBruno/mcp-blender-agent](https://github.com/PoBruno/mcp-blender-agent).
+Original source: `CLAUDE.md` in [PoBruno/mcp-blender-agent](https://github.com/PoBruno/mcp-blender-agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
