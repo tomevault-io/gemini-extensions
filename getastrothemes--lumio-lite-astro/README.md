@@ -7,11 +7,11 @@ Lumio is a modern, high-performance Astro 6 & Tailwind CSS theme crafted for IT 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [getastrothemes/lumio-lite-astro](https://github.com/getastrothemes/lumio-lite-astro).
+Original source: `AGENTS.md` in [getastrothemes/lumio-lite-astro](https://github.com/getastrothemes/lumio-lite-astro).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
