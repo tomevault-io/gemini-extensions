@@ -7,11 +7,11 @@ Free, local-first evaluation dashboard for agent CLIs with cross-harness transcr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [RasputinKaiser/OpenEval](https://github.com/RasputinKaiser/OpenEval).
+Original source: `AGENTS.md` in [RasputinKaiser/OpenEval](https://github.com/RasputinKaiser/OpenEval).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
