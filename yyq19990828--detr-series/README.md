@@ -7,11 +7,11 @@ Unified PyTorch implementations of RT-DETRv3, D-FINE, DEIM, RT-DETRv4 & DEIMv2 �
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yyq19990828/DETR-series](https://github.com/yyq19990828/DETR-series).
+Original source: `AGENTS.md` in [yyq19990828/DETR-series](https://github.com/yyq19990828/DETR-series).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
