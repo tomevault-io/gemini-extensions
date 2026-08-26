@@ -7,11 +7,11 @@ Pallets and a runtime to manage Proof-of-Personhood (PoP) and related on-chain l
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [paritytech/individuality-community](https://github.com/paritytech/individuality-community).
+Original source: `AGENTS.md` in [paritytech/individuality-community](https://github.com/paritytech/individuality-community).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
