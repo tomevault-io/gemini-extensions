@@ -7,11 +7,11 @@ Self-improving agents, governed. Areev is the substrate for adaptive agents — 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [AreevAI/areev](https://github.com/AreevAI/areev).
+Original source: `CLAUDE.md` in [AreevAI/areev](https://github.com/AreevAI/areev).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
