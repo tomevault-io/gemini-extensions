@@ -1,0 +1,28 @@
+# lerobot-vulcan
+
+> Tome by [vulcan-forge](https://github.com/vulcan-forge/lerobot-vulcan), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [vulcan-forge/lerobot-vulcan](https://github.com/vulcan-forge/lerobot-vulcan).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/vulcan-forge/lerobot-vulcan](https://github.com/vulcan-forge/lerobot-vulcan)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install vulcan-forge/lerobot-vulcan
+```
+Source: [github.com/vulcan-forge/lerobot-vulcan](https://github.com/vulcan-forge/lerobot-vulcan).
+
+<!-- genome:t-i-q -->
