@@ -4,7 +4,7 @@
   "repo": "recallist",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/gourabporey/recallist",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-26T09:44:00Z"
+  "distributed_at": "2026-08-26T10:05:35Z"
 }
