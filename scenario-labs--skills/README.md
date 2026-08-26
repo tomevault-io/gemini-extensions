@@ -7,11 +7,11 @@ Agent Skills for Scenario: image, video, audio, texture, 3D and custom-model wor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [scenario-labs/skills](https://github.com/scenario-labs/skills).
+Original source: `AGENTS.md` in [scenario-labs/skills](https://github.com/scenario-labs/skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
