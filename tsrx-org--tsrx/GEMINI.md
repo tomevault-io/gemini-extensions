@@ -1,6 +1,7 @@
-## tsrx
+## project
 
-> TSRX (TypeScript Render Extensions) is a framework-neutral language for authoring
+> TSRX monorepo overview and development guidelines
+
 
 # TSRX Project Guide for AI Agents
 
