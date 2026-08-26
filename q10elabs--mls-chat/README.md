@@ -7,11 +7,11 @@ Example client/server for the MLS protocol based on the OpenMLS library
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [q10elabs/mls-chat](https://github.com/q10elabs/mls-chat).
+Original source: `CLAUDE.md` in [q10elabs/mls-chat](https://github.com/q10elabs/mls-chat).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
