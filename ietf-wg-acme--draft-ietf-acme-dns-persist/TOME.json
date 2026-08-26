@@ -4,7 +4,7 @@
   "repo": "draft-ietf-acme-dns-persist",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/ietf-wg-acme/draft-ietf-acme-dns-persist",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-26T23:38:11Z"
+  "distributed_at": "2026-08-26T23:40:58Z"
 }
