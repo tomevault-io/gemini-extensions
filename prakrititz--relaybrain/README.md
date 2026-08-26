@@ -7,11 +7,11 @@ Coordination and context layer for AI coding agents. Shared file locks, live pat
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [prakrititz/relayBrain](https://github.com/prakrititz/relayBrain).
+Original source: `AGENTS.md` in [prakrititz/relayBrain](https://github.com/prakrititz/relayBrain).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
