@@ -7,11 +7,11 @@ Write a book from first idea to a finished EPUB/PDF with AI — one cross-tool s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hottweelz/writing-template-for-ai](https://github.com/hottweelz/writing-template-for-ai).
+Original source: `AGENTS.md` in [hottweelz/writing-template-for-ai](https://github.com/hottweelz/writing-template-for-ai).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
