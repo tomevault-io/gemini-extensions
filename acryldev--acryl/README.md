@@ -7,11 +7,11 @@ ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one c
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [acryldev/acryl](https://github.com/acryldev/acryl).
+Original source: `CLAUDE.md` in [acryldev/acryl](https://github.com/acryldev/acryl).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
