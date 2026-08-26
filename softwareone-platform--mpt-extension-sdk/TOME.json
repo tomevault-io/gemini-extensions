@@ -4,7 +4,7 @@
   "repo": "mpt-extension-sdk",
   "description": "SDK for SoftwareONE python extensions",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/softwareone-platform/mpt-extension-sdk",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-25T05:37:58Z"
+  "distributed_at": "2026-08-26T06:00:32Z"
 }
