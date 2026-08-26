@@ -7,11 +7,11 @@ Devify is an AI-driven development platform created to accelerate R&D workflows 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [oneprolabs/devify](https://github.com/oneprolabs/devify).
+Original source: `AGENTS.md` in [oneprolabs/devify](https://github.com/oneprolabs/devify).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
