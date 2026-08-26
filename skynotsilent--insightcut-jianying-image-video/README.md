@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [SkyNotSilent/insightcut-jianying-image-video](https://github.com/SkyNotSilent/insightcut-jianying-image-video).
+Original source: `AGENTS.md` in [SkyNotSilent/insightcut-jianying-image-video](https://github.com/SkyNotSilent/insightcut-jianying-image-video).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
