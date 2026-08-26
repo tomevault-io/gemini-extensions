@@ -7,11 +7,11 @@ Pi coding-agent harness with durable sessions, causal history, reversible compon
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [abhishekgahlot2/pi-dsh](https://github.com/abhishekgahlot2/pi-dsh).
+Original source: `AGENTS.md` in [abhishekgahlot2/pi-dsh](https://github.com/abhishekgahlot2/pi-dsh).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
