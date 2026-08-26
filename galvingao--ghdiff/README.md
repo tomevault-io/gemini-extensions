@@ -7,11 +7,11 @@ Blazing-fast PR reviewer
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [GalvinGao/ghdiff](https://github.com/GalvinGao/ghdiff).
+Original source: `AGENTS.md` in [GalvinGao/ghdiff](https://github.com/GalvinGao/ghdiff).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
