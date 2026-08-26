@@ -7,11 +7,11 @@ Loopcraft AI Engineer workshop learner rig for building an issue-progress loop
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [joelhooks/aie-loopcraft-workshop-2026](https://github.com/joelhooks/aie-loopcraft-workshop-2026).
+Original source: `AGENTS.md` in [joelhooks/aie-loopcraft-workshop-2026](https://github.com/joelhooks/aie-loopcraft-workshop-2026).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
