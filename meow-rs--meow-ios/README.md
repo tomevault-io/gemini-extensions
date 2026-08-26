@@ -7,11 +7,11 @@ iOS port of meow — VPN/proxy client for iOS 26, powered by meow-rs
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [meow-rs/meow-ios](https://github.com/meow-rs/meow-ios).
+Original source: `AGENTS.md` in [meow-rs/meow-ios](https://github.com/meow-rs/meow-ios).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
