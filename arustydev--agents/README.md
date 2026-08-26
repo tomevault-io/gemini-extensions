@@ -7,11 +7,11 @@ AI Contexts, Commands, Plugins, Docs, Examples, Specs, Etc
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aRustyDev/agents](https://github.com/aRustyDev/agents).
+Original source: `CLAUDE.md` in [aRustyDev/agents](https://github.com/aRustyDev/agents).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
