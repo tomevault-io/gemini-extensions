@@ -7,11 +7,11 @@ Desktop client for the ccLoad multi-channel LLM gateway
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ChenYCL/ccload-client](https://github.com/ChenYCL/ccload-client).
+Original source: `AGENTS.md` in [ChenYCL/ccload-client](https://github.com/ChenYCL/ccload-client).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
