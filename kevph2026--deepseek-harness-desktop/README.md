@@ -7,11 +7,11 @@ DeepSeek Harness Desktop 是 @KevPH2026 维护的非官方社区 macOS 桌面封
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [KevPH2026/deepseek-harness-desktop](https://github.com/KevPH2026/deepseek-harness-desktop).
+Original source: `AGENTS.md` in [KevPH2026/deepseek-harness-desktop](https://github.com/KevPH2026/deepseek-harness-desktop).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
