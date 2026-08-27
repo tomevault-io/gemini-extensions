@@ -1,24 +1,24 @@
 # vscode-language-pascal
 
-> Source: [alefragnani/vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [alefragnani/vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [alefragnani/vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal).
+Original source: `copilot-instructions.md` in [alefragnani/vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 ## Bundled Skills (2)
 
-- [vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal/tree/main/.github/skills/vscode-ext-commands/SKILL.md)
-- [vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal/tree/main/.github/skills/vscode-ext-localization/SKILL.md)
+- [vscode-pascal-formatter](https://github.com/alefragnani/vscode-language-pascal/tree/main/.github/skills/vscode-ext-commands/SKILL.md)
+- [vscode-pascal-formatter](https://github.com/alefragnani/vscode-language-pascal/tree/main/.github/skills/vscode-ext-localization/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/alefragnani/vscode-language-pascal](https://github.com/alefragnani/vscode-language-pascal)
 
