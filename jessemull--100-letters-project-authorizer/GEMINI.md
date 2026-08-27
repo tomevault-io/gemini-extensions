@@ -1,43 +1,16 @@
-## 000-context
+## 010-architecture
 
-> Mandatory governance context loading and non-negotiable constraints before any repository changes.
+> Authorizer architecture: handler boundaries, packaging, CloudFormation.
 
 
-# Repository Context Loading
+# Architecture
 
-Context loading is **not optional** — it is the first step before any work.
+Read `docs/ARCHITECTURE.md`.
 
-## Before ANY Changes
-
-Read in order:
-
-1. `CONTEXT.md`
-2. `AGENTS.md`
-3. Mandatory docs from CONTEXT.md: `docs/GOVERNANCE.md`, `docs/ARCHITECTURE.md`, `docs/TESTING.md`, `docs/COMMENTS.md`, `docs/SECURITY.md`, `docs/DEPENDENCIES.md`, `docs/RELEASES.md`, `docs/CI_CD.md`
-
-## MUST
-
-- [ ] Read `CONTEXT.md` first
-- [ ] Read `AGENTS.md` second
-- [ ] Read mandatory docs (do not skip as "unrelated")
-
-## MUST NOT
-
-- Skip context loading
-- Selectively read only "relevant" docs
-- Begin changes before loading is complete
-
-## Precedence
-
-CONTEXT.md > GOVERNANCE.md > ARCHITECTURE.md > domain docs > inline comments
-
-## Non-negotiables (summary)
-
-- Lambda TOKEN authorizer; Node 24; fail closed
-- TypeScript strict; ≥80% Jest coverage
-- Conventional Commits + Husky
-- No hardcoded secrets
-- Quality gate: `make preflight`
+- Keep auth logic in `src/index.ts` (or clearly named modules under `src/` if split later).
+- Do not expand this Lambda into a general API.
+- Preserve Webpack → zip → S3 → CloudFormation deploy topology unless migrating with human approval.
+- Fail closed on auth errors (`Unauthorized`).
 
 ---
 > Source: [jessemull/100-letters-project-authorizer](https://github.com/jessemull/100-letters-project-authorizer) — distributed by [TomeVault](https://tomevault.io).
