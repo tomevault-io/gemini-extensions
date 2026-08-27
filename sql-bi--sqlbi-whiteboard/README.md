@@ -7,11 +7,11 @@ A free, open-source, native Windows 11 whiteboard for teaching DAX, SQL, and dat
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sql-bi/SQLBI-Whiteboard](https://github.com/sql-bi/SQLBI-Whiteboard).
+Original source: `AGENTS.md` in [sql-bi/SQLBI-Whiteboard](https://github.com/sql-bi/SQLBI-Whiteboard).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
