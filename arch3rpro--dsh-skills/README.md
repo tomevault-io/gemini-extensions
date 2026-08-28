@@ -7,11 +7,11 @@ Generalized development-specification skills distilled from DeepSeek Harness's e
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [arch3rPro/dsh-skills](https://github.com/arch3rPro/dsh-skills).
+Original source: `AGENTS.md` in [arch3rPro/dsh-skills](https://github.com/arch3rPro/dsh-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
