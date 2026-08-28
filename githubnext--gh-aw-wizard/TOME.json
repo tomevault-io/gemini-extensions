@@ -4,7 +4,7 @@
   "repo": "gh-aw-wizard",
   "description": "A wizard interface to create GitHub Agentic Workflows",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/githubnext/gh-aw-wizard",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-28T04:36:04Z"
+  "distributed_at": "2026-08-28T13:35:12Z"
 }
