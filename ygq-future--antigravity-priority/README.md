@@ -7,11 +7,11 @@ Intelligent dual-window quota pacing, Weekly Urgency scheduler, and Dynamic Boos
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ygq-future/antigravity-priority](https://github.com/ygq-future/antigravity-priority).
+Original source: `AGENTS.md` in [ygq-future/antigravity-priority](https://github.com/ygq-future/antigravity-priority).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
