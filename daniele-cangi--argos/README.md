@@ -7,11 +7,11 @@ ARGOS — evidence-driven Polymarket probability intelligence research core. No 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Daniele-Cangi/Argos](https://github.com/Daniele-Cangi/Argos).
+Original source: `AGENTS.md` in [Daniele-Cangi/Argos](https://github.com/Daniele-Cangi/Argos).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
