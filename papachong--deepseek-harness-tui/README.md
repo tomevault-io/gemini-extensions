@@ -7,11 +7,11 @@ This is a standalone terminal for deepseek-harness (designed based on a plug-in 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [papachong/deepseek-harness-tui](https://github.com/papachong/deepseek-harness-tui).
+Original source: `AGENTS.md` in [papachong/deepseek-harness-tui](https://github.com/papachong/deepseek-harness-tui).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
