@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [new-bee-666/deepseek_harness_client](https://github.com/new-bee-666/deepseek_harness_client).
+Original source: `AGENTS.md` in [new-bee-666/deepseek_harness_client](https://github.com/new-bee-666/deepseek_harness_client).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
