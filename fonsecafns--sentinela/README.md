@@ -7,13 +7,13 @@ Um auditor de segurança que vive dentro do seu agente de IA. Varre o projeto in
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [fonsecafns/sentinela](https://github.com/fonsecafns/sentinela).
+Original source: `AGENTS.md` in [fonsecafns/sentinela](https://github.com/fonsecafns/sentinela).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
