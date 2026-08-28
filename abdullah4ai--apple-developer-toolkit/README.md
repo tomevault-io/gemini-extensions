@@ -7,13 +7,13 @@ Apple Developer Documentation CLI skill for AI agents. Search docs, frameworks, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [Abdullah4AI/apple-developer-toolkit](https://github.com/Abdullah4AI/apple-developer-toolkit).
+Original source: `AGENTS.md` in [Abdullah4AI/apple-developer-toolkit](https://github.com/Abdullah4AI/apple-developer-toolkit).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
