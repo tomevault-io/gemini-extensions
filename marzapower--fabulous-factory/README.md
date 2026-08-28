@@ -7,11 +7,11 @@ The Next.js starter built for agent-driven development — auth, billing, jobs, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [marzapower/fabulous-factory](https://github.com/marzapower/fabulous-factory).
+Original source: `AGENTS.md` in [marzapower/fabulous-factory](https://github.com/marzapower/fabulous-factory).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
