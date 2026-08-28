@@ -7,11 +7,11 @@ Tote — one window for all your LLMs. Web apps, native apps and CLI agents (Cla
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yusufkaraaslan/tote](https://github.com/yusufkaraaslan/tote).
+Original source: `AGENTS.md` in [yusufkaraaslan/tote](https://github.com/yusufkaraaslan/tote).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
