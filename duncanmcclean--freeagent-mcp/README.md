@@ -7,11 +7,11 @@ Local, read-only MCP server for FreeAgent. Built on Laravel.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [duncanmcclean/freeagent-mcp](https://github.com/duncanmcclean/freeagent-mcp).
+Original source: `AGENTS.md` in [duncanmcclean/freeagent-mcp](https://github.com/duncanmcclean/freeagent-mcp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
