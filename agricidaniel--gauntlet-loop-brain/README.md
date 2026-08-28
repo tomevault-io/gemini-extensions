@@ -7,11 +7,11 @@ Evidence-gated Obsidian brain for bounded multi-agent improvement loops.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [AgriciDaniel/gauntlet-loop-brain](https://github.com/AgriciDaniel/gauntlet-loop-brain).
+Original source: `AGENTS.md` in [AgriciDaniel/gauntlet-loop-brain](https://github.com/AgriciDaniel/gauntlet-loop-brain).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
