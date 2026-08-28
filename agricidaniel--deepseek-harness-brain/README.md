@@ -1,0 +1,30 @@
+# deepseek-harness-brain
+
+> Tome by [AgriciDaniel](https://github.com/AgriciDaniel/deepseek-harness-brain), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+Independent evidence-gated second brain for understanding and porting DeepSeek Harness architecture.
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [AgriciDaniel/deepseek-harness-brain](https://github.com/AgriciDaniel/deepseek-harness-brain).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/AgriciDaniel/deepseek-harness-brain](https://github.com/AgriciDaniel/deepseek-harness-brain)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install AgriciDaniel/deepseek-harness-brain
+```
+Source: [github.com/AgriciDaniel/deepseek-harness-brain](https://github.com/AgriciDaniel/deepseek-harness-brain).
+
+<!-- genome:t-i-q -->
