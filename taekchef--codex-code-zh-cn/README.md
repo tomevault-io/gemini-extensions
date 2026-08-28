@@ -7,11 +7,11 @@ OpenAI Codex CLI 简体中文本地化扩展（PTY 实时翻译 + 桌面中文�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [taekchef/codex-code-zh-cn](https://github.com/taekchef/codex-code-zh-cn).
+Original source: `AGENTS.md` in [taekchef/codex-code-zh-cn](https://github.com/taekchef/codex-code-zh-cn).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
