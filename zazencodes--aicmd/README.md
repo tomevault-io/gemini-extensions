@@ -7,11 +7,11 @@ Turn plain English into a shell command without leaving your terminal.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [zazencodes/aicmd](https://github.com/zazencodes/aicmd).
+Original source: `AGENTS.md` in [zazencodes/aicmd](https://github.com/zazencodes/aicmd).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
