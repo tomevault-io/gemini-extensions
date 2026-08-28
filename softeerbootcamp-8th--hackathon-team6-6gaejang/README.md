@@ -7,11 +7,11 @@ Softeer 8기 6팀 해커톤
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [softeerbootcamp-8th/HACKATHON-TEAM6-6GaeJang](https://github.com/softeerbootcamp-8th/HACKATHON-TEAM6-6GaeJang).
+Original source: `AGENTS.md` in [softeerbootcamp-8th/HACKATHON-TEAM6-6GaeJang](https://github.com/softeerbootcamp-8th/HACKATHON-TEAM6-6GaeJang).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
