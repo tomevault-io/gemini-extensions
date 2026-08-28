@@ -7,11 +7,11 @@ Badge QR check-in and Bluetooth name-tag printing for AI Tinkerers events, entir
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cr2007/ait-tagforge](https://github.com/cr2007/ait-tagforge).
+Original source: `AGENTS.md` in [cr2007/ait-tagforge](https://github.com/cr2007/ait-tagforge).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
