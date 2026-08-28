@@ -7,12 +7,12 @@ A wizard interface to create GitHub Agentic Workflows
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [githubnext/gh-aw-wizard](https://github.com/githubnext/gh-aw-wizard).
+Original source: `AGENTS.md` in [githubnext/gh-aw-wizard](https://github.com/githubnext/gh-aw-wizard).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
