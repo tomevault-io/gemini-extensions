@@ -7,12 +7,12 @@ Native iOS DeepSeek Harness port: BYOK inference, on-device Agent tools, iSH san
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [liulingfei-1/deepseek-harness-ios](https://github.com/liulingfei-1/deepseek-harness-ios).
+Original source: `CLAUDE.md` in [liulingfei-1/deepseek-harness-ios](https://github.com/liulingfei-1/deepseek-harness-ios).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
