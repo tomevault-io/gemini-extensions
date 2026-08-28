@@ -7,11 +7,11 @@ Experimental Windows-first fork of DeepSeek Harness: minimal preset with pwsh + 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [shutongcao1-design/dsh-win-minimal-cot](https://github.com/shutongcao1-design/dsh-win-minimal-cot).
+Original source: `AGENTS.md` in [shutongcao1-design/dsh-win-minimal-cot](https://github.com/shutongcao1-design/dsh-win-minimal-cot).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
