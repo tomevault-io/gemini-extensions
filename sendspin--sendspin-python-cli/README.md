@@ -7,11 +7,11 @@ Synchronized audio player for Sendspin servers
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Sendspin/sendspin-python-cli](https://github.com/Sendspin/sendspin-python-cli).
+Original source: `AGENTS.md` in [Sendspin/sendspin-python-cli](https://github.com/Sendspin/sendspin-python-cli).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
