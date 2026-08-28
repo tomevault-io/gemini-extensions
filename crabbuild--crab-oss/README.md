@@ -7,11 +7,11 @@ Serverless Git for large files: store models, datasets, and assets in your own S
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [crabbuild/crab-oss](https://github.com/crabbuild/crab-oss).
+Original source: `AGENTS.md` in [crabbuild/crab-oss](https://github.com/crabbuild/crab-oss).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
