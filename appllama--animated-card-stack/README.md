@@ -7,11 +7,11 @@ An animated card stack that shuffles like it was designed to. Measured motion, l
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Appllama/animated-card-stack](https://github.com/Appllama/animated-card-stack).
+Original source: `AGENTS.md` in [Appllama/animated-card-stack](https://github.com/Appllama/animated-card-stack).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
