@@ -7,11 +7,11 @@ The harness that gives an agent complete freedom on an Omarchy desktop.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [fabiopauli/omarchy-quattro-harness](https://github.com/fabiopauli/omarchy-quattro-harness).
+Original source: `AGENTS.md` in [fabiopauli/omarchy-quattro-harness](https://github.com/fabiopauli/omarchy-quattro-harness).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
