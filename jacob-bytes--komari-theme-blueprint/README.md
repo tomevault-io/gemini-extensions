@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jacob-bytes/komari-theme-blueprint](https://github.com/jacob-bytes/komari-theme-blueprint).
+Original source: `AGENTS.md` in [jacob-bytes/komari-theme-blueprint](https://github.com/jacob-bytes/komari-theme-blueprint).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
