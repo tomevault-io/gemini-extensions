@@ -2,9 +2,9 @@
   "name": "n8n-mcp",
   "owner": "czlonkowski",
   "repo": "n8n-mcp",
-  "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+  "description": "",
   "type": "tome",
-  "source_format": "CLAUDE.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -39,13 +39,85 @@
   ],
   "skills": [
     {
-      "name": "n8n-mcp-tools-expert",
-      "path": "skills/n8n-mcp-tools-expert",
-      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/skills/n8n-mcp-tools-expert",
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-validation-expert/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-validation-expert/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-expression-syntax/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-expression-syntax/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-node-configuration/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-node-configuration/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-agents/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-agents/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-code-tool/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-code-tool/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-subworkflows/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-subworkflows/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-self-hosting/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-self-hosting/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-error-handling/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-error-handling/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-multi-instance/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-multi-instance/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/n8n-binary-and-data/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-binary-and-data/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-mcp",
+      "path": "data/skills/using-n8n-mcp-skills/SKILL.md",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/using-n8n-mcp-skills/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "n8n-code-tool",
+      "path": "data/skills/n8n-code-tool",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-code-tool",
+      "description": ""
+    },
+    {
+      "name": "n8n-agents",
+      "path": "data/skills/n8n-agents",
+      "github_url": "https://github.com/czlonkowski/n8n-mcp/tree/main/data/skills/n8n-agents",
       "description": ""
     }
   ],
   "source_url": "https://github.com/czlonkowski/n8n-mcp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T20:56:39Z"
+  "distributed_at": "2026-08-28T09:19:00Z"
 }
