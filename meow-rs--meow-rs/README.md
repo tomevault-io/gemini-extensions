@@ -7,11 +7,11 @@ A high-performance Rust implementation of the mihomo (Clash Meta) proxy kernel.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [meow-rs/meow-rs](https://github.com/meow-rs/meow-rs).
+Original source: `AGENTS.md` in [meow-rs/meow-rs](https://github.com/meow-rs/meow-rs).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
