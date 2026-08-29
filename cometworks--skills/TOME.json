@@ -4,7 +4,7 @@
   "repo": "skills",
   "description": "Skill library for Space Engineers plugin, mod and in-game script development. Usable with any \"skills\" compatible agentic coding harness.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/CometWorks/skills",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-28T20:35:12Z"
+  "distributed_at": "2026-08-29T03:14:05Z"
 }
