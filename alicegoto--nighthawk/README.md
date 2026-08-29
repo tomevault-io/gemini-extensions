@@ -7,11 +7,11 @@ NightHawk — security-first coding agent (渗透测试与代码安全审计 CLI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [AliceGoto/nighthawk](https://github.com/AliceGoto/nighthawk).
+Original source: `AGENTS.md` in [AliceGoto/nighthawk](https://github.com/AliceGoto/nighthawk).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
