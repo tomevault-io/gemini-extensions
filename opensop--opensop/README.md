@@ -7,11 +7,11 @@ Process as Infrastructure for agentic processes — the OpenSOP specification + 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [opensop/opensop](https://github.com/opensop/opensop).
+Original source: `AGENTS.md` in [opensop/opensop](https://github.com/opensop/opensop).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
