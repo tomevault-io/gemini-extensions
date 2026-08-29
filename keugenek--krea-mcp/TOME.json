@@ -4,7 +4,7 @@
   "repo": "krea-mcp",
   "description": "MCP server for Krea.ai - Generate stunning AI images & videos with Flux, Hailuo, Runway, Kling, Ideogram, Imagen & more. Works with Claude Desktop, Claude Code, and any MCP client.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/keugenek/krea-mcp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-28T18:36:15Z"
+  "distributed_at": "2026-08-29T02:50:22Z"
 }
