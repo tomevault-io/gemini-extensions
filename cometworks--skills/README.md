@@ -7,12 +7,12 @@ Skill library for Space Engineers plugin, mod and in-game script development. Us
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [CometWorks/skills](https://github.com/CometWorks/skills).
+Original source: `AGENTS.md` in [CometWorks/skills](https://github.com/CometWorks/skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
