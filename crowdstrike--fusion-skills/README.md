@@ -7,11 +7,11 @@ AI coding assistant skills for building CrowdStrike Falcon Fusion workflows: act
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [CrowdStrike/fusion-skills](https://github.com/CrowdStrike/fusion-skills).
+Original source: `AGENTS.md` in [CrowdStrike/fusion-skills](https://github.com/CrowdStrike/fusion-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
