@@ -7,11 +7,11 @@ Midad by Foulad — Arabic-first e-reader firmware for Xteink X4/X3. Fork of Cro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sfoulad/midad-by-foulad](https://github.com/sfoulad/midad-by-foulad).
+Original source: `AGENTS.md` in [sfoulad/midad-by-foulad](https://github.com/sfoulad/midad-by-foulad).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
