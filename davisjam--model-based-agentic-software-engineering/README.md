@@ -7,11 +7,11 @@ Book, website, and skills for MAGE: the Model-Based Agentic Software Engineering
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [davisjam/model-based-agentic-software-engineering](https://github.com/davisjam/model-based-agentic-software-engineering).
+Original source: `AGENTS.md` in [davisjam/model-based-agentic-software-engineering](https://github.com/davisjam/model-based-agentic-software-engineering).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
