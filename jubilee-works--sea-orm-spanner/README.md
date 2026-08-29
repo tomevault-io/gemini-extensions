@@ -7,11 +7,11 @@ Google Cloud Spanner backend for SeaORM
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jubilee-works/sea-orm-spanner](https://github.com/jubilee-works/sea-orm-spanner).
+Original source: `AGENTS.md` in [jubilee-works/sea-orm-spanner](https://github.com/jubilee-works/sea-orm-spanner).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
