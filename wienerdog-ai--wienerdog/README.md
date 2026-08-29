@@ -7,11 +7,11 @@ Give your AI a memory, habits, and a daily routine — with nothing but files. O
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wienerdog-ai/wienerdog](https://github.com/wienerdog-ai/wienerdog).
+Original source: `AGENTS.md` in [wienerdog-ai/wienerdog](https://github.com/wienerdog-ai/wienerdog).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
