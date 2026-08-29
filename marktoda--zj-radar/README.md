@@ -7,11 +7,11 @@ A Zellij sidebar that shows Claude Code, Codex, and other AI-agent status across
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [marktoda/zj-radar](https://github.com/marktoda/zj-radar).
+Original source: `AGENTS.md` in [marktoda/zj-radar](https://github.com/marktoda/zj-radar).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
