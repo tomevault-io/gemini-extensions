@@ -7,11 +7,11 @@ Local-first AI intelligence workbench for agents. Generate daily digests across 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [weishao831/ai-intel-workbench](https://github.com/weishao831/ai-intel-workbench).
+Original source: `AGENTS.md` in [weishao831/ai-intel-workbench](https://github.com/weishao831/ai-intel-workbench).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
