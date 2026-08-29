@@ -4,7 +4,7 @@
   "repo": "drawsy-ai",
   "description": "AI-powered visual workspace for drawing, planning, building, and working with connected context.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/DrawsyAI/drawsy-ai",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-29T02:31:56Z"
+  "distributed_at": "2026-08-29T09:37:39Z"
 }
