@@ -7,13 +7,13 @@ spec-first
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [leo-kuang-ai/spec-first](https://github.com/leo-kuang-ai/spec-first).
+Original source: `CLAUDE.md` in [leo-kuang-ai/spec-first](https://github.com/leo-kuang-ai/spec-first).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
