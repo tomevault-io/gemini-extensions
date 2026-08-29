@@ -7,11 +7,11 @@ Fast full-text search file indexer using SQLite FTS5.  A high-performance file i
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [mneves75/ffts-grep](https://github.com/mneves75/ffts-grep).
+Original source: `AGENTS.md` in [mneves75/ffts-grep](https://github.com/mneves75/ffts-grep).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
