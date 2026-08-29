@@ -4,7 +4,7 @@
   "repo": "claw-os",
   "description": "The world\u2019s first agent-native operating system from the future",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/xiaoyu-work/claw-os",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-29T10:34:12Z"
+  "distributed_at": "2026-08-29T12:55:40Z"
 }
