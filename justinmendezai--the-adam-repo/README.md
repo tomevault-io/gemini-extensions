@@ -7,11 +7,11 @@ Bolt this onto your coding agent and build software
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Justinmendezai/The-Adam-Repo](https://github.com/Justinmendezai/The-Adam-Repo).
+Original source: `CLAUDE.md` in [Justinmendezai/The-Adam-Repo](https://github.com/Justinmendezai/The-Adam-Repo).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
