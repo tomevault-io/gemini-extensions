@@ -1,126 +1,66 @@
 ## stellar-cli
 
-> **Always follow these instructions first and fallback to additional search and context gathering only when the information here is incomplete or found to be in error.**
+> This is a Stellar smart-contract workspace (Soroban). Each contract is a workspace member under `contracts/<name>/`.
 
-# Stellar CLI Development Instructions
+# Agent instructions
 
-**Always follow these instructions first and fallback to additional search and context gathering only when the information here is incomplete or found to be in error.**
+This is a Stellar smart-contract workspace (Soroban). Each contract is a workspace member under `contracts/<name>/`.
 
-## Working Effectively
+## Layout
 
-Stellar CLI is a Rust-based command-line tool for interacting with the Stellar network. It's organized as a Cargo workspace with multiple crates and uses both Cargo and Make for build automation.
+- `Cargo.toml` — workspace root; contract crates inherit `soroban-sdk` from here
+- `contracts/<name>/src/lib.rs` — contract implementation (`#![no_std]`)
+- `contracts/<name>/src/test.rs` — host-side unit tests
 
-### Bootstrap and Build
+## Build
 
-- Install system dependencies: `sudo apt-get update && sudo apt-get install -y libudev-dev libdbus-1-dev build-essential`
-- Install Rust toolchain: `rustup update` (Rust 1.92.0+ required)
-- Add WebAssembly target: `rustup target add wasm32v1-none`
-- Build main CLI: `cargo build --bin stellar` -- takes 45 seconds. NEVER CANCEL.
-- Install CLI: `make install` -- takes 3 minutes with potential network timeouts. NEVER CANCEL. Set timeout to 10+ minutes.
+From the workspace root:
 
-### Core Development Commands
-
-- Format code: `make fmt` -- takes 2 seconds
-- Run linting: `make check` -- takes 7 minutes. NEVER CANCEL. Set timeout to 15+ minutes.
-- Build main CLI only: `cargo build --bin stellar` -- takes 45 seconds. Use this for quick iterations.
-
-### Testing
-
-- Test main soroban-cli library: `cargo test --package soroban-cli --lib` -- takes 52 seconds. NEVER CANCEL.
-- Test individual crates: `cargo test --package <crate-name>` -- typically takes 40 seconds per crate.
-- Test soroban-test integration tests: `cargo test --features it --test it -- integration` -- tests the commands of the cli and is where the bulk of the tests live for this repository. All new commands and changes to commands should include updates or additions to tests in soroban-test.
-- **WARNING**: Full test suite via `make test` requires building WebAssembly test fixtures and consumes significant memory and disk space. It may fail with "No space left on device" in constrained environments.
-
-### CLI Usage and Validation
-
-- Test CLI installation: `stellar --version`
-- Basic CLI validation: `stellar --help`
-- Generate test keys: `stellar keys generate <name>`
-- Get key address: `stellar keys address <name>`
-
-## Validation
-
-- **ALWAYS run basic validation after changes**: Build the CLI with `cargo build --bin stellar` and test basic functionality with `stellar --help`.
-- **Core testing workflow**: Run `cargo test --package soroban-cli --lib` to validate core functionality.
-- **Pre-commit validation**: Always run `make fmt` and `make check` before committing changes.
-- **Memory considerations**: Full test suite may fail in constrained environments due to memory and disk space requirements.
-
-## Common Tasks
-
-### Repository Structure
-
-```
-/home/runner/work/stellar-cli/stellar-cli/
-├── cmd/
-│   ├── stellar-cli/          # Main CLI binary package
-│   ├── soroban-cli/          # Core CLI functionality
-│   └── crates/               # Supporting crates
-│       ├── soroban-spec-tools/
-│       ├── soroban-spec-typescript/
-│       ├── soroban-test/
-│       └── stellar-ledger/
-├── Makefile                  # Build automation
-├── Cargo.toml               # Workspace configuration
-└── .github/workflows/       # CI configuration
+```sh
+stellar contract build
 ```
 
-### Key Commands Reference
+That compiles every `cdylib` member to WASM. Artifacts land in `target/wasm32v1-none/release/*.wasm`. Build one crate with `stellar contract build --package <name>`.
 
-```bash
-# Development workflow
-cargo build --bin stellar        # Quick build (45s)
-make install                     # Full install (3m, may timeout)
-make fmt                         # Format code (2s)
-make check                       # Lint code (7m)
+Do not substitute this with `cargo build --target wasm32v1-none`. `stellar contract build` applies the flags and metadata the network expects.
 
-# Testing
-cargo test --package soroban-cli --lib  # Core tests (52s)
-cargo test --package <crate>            # Individual crate tests (~40s)
+The `wasm32v1-none` Rust target must be installed (`rustup target add wasm32v1-none`). Rust 1.84 or newer is required for that target. Rust 1.82 and 1.83 cannot build contracts.
 
-# CLI validation
-stellar --version               # Check installation
-stellar --help                 # Verify functionality
-stellar keys generate test     # Test key generation
-stellar keys address test      # Test key operations
+## Test
+
+Host tests run with the normal Cargo test harness (not on-chain):
+
+```sh
+cargo test
 ```
 
-### Build Time Expectations
+A single crate: `cargo test -p <name>`.
 
-- **NEVER CANCEL** any build or test command before these timeouts:
-  - `cargo build --bin stellar`: 2 minutes timeout minimum
-  - `make install`: 10 minutes timeout (network issues common)
-  - `make check`: 15 minutes timeout minimum
-  - Individual crate tests: 5 minutes timeout minimum
-  - Core library tests: 5 minutes timeout minimum
+## Deploy and invoke
 
-### Known Issues
+On testnet, after a successful build:
 
-- **Network timeouts**: `make install` frequently encounters network timeouts with crates.io. This is normal in CI environments.
-- **Memory constraints**: Full workspace build and test may fail with OOM or "No space left on device" errors in constrained environments.
-- **Documentation generation**: `make docs` may fail due to disk space constraints.
+```sh
+stellar contract deploy \
+  --wasm target/wasm32v1-none/release/<name>.wasm \
+  --source-account <identity> \
+  --network testnet \
+  --alias <alias>
 
-### Working Around Constraints
+stellar contract invoke \
+  --id <alias> \
+  --network testnet \
+  --source-account <identity> \
+  -- hello --to world
+```
 
-- Use `cargo build --bin stellar` instead of full workspace build for development
-- Test individual packages with `cargo test --package <name>` instead of full test suite
-- Use `cargo install --force --locked --path ./cmd/stellar-cli` as alternative to `make install`
+The sample `hello_world` contract exposes `hello(to: String) -> Vec<String>`. Replace that with your own functions; `stellar contract invoke --id <id> -- -h` prints the generated CLI for the deployed contract.
 
-## Critical Warnings
+## Further reading
 
-- **NEVER CANCEL builds or tests** before the specified timeout periods
-- **Always validate changes** by building and testing the CLI before committing
-- **Network issues are common** - retry `make install` if it fails with timeouts
-- **Use surgical builds** when possible to avoid memory/disk issues
-
-## CI/CD Integration
-
-The project uses GitHub Actions with workflows in `.github/workflows/`:
-
-- `rust.yml`: Main CI pipeline with formatting, linting, building, and testing
-- `binaries.yml`: Multi-platform binary builds
-
-Always run `make fmt` and `make check` locally before pushing to ensure CI passes.
+- https://developers.stellar.org/docs/build/smart-contracts/overview
+- https://github.com/stellar/soroban-examples
 
 ---
 > Source: [stellar/stellar-cli](https://github.com/stellar/stellar-cli) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-08-30 -->
