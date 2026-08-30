@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [counterfact/api-simulator](https://github.com/counterfact/api-simulator).
+Original source: `AGENTS.md` in [counterfact/api-simulator](https://github.com/counterfact/api-simulator).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -29,7 +29,7 @@ Original source: `copilot-instructions.md` in [counterfact/api-simulator](https:
 - [api-simulator](https://github.com/counterfact/api-simulator/tree/main/.github/skills/counterfact-generator-internals/SKILL.md)
 - [api-simulator](https://github.com/counterfact/api-simulator/tree/main/.github/skills/counterfact-runtime-architecture/SKILL.md)
 
-From [counterfact/api-simulator](https://github.com/counterfact/api-simulator) — a repo with 166+ stars on GitHub.
+From [counterfact/api-simulator](https://github.com/counterfact/api-simulator) — a repo with 169+ stars on GitHub.
 
 ---
 
