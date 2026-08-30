@@ -4,7 +4,7 @@
   "repo": "yames",
   "description": "Yet Another Metronome \u2014 musician-grade floating desktop metronome",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/turutupa/yames",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-30T00:38:45Z"
+  "distributed_at": "2026-08-30T01:08:26Z"
 }
