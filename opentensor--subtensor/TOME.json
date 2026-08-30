@@ -3,8 +3,8 @@
   "owner": "opentensor",
   "repo": "subtensor",
   "description": "",
-  "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "type": "config",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,33 +37,8 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [
-    {
-      "name": "subtensor",
-      "path": ".agents/skills/skeptic/SKILL.md",
-      "github_url": "https://github.com/opentensor/subtensor/tree/main/.agents/skills/skeptic/SKILL.md",
-      "description": ""
-    },
-    {
-      "name": "subtensor",
-      "path": ".claude/skills/skeptic/SKILL.md",
-      "github_url": "https://github.com/opentensor/subtensor/tree/main/.claude/skills/skeptic/SKILL.md",
-      "description": ""
-    },
-    {
-      "name": "subtensor",
-      "path": ".agents/skills/auditor/SKILL.md",
-      "github_url": "https://github.com/opentensor/subtensor/tree/main/.agents/skills/auditor/SKILL.md",
-      "description": ""
-    },
-    {
-      "name": "subtensor",
-      "path": ".claude/skills/auditor/SKILL.md",
-      "github_url": "https://github.com/opentensor/subtensor/tree/main/.claude/skills/auditor/SKILL.md",
-      "description": ""
-    }
-  ],
+  "skills": [],
   "source_url": "https://github.com/opentensor/subtensor",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T15:50:27Z"
+  "distributed_at": "2026-08-30T05:16:55Z"
 }
