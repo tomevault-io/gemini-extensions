@@ -5,24 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [opentensor/subtensor](https://github.com/opentensor/subtensor).
+Original source: `AGENTS.md` in [opentensor/subtensor](https://github.com/opentensor/subtensor).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (4)
-
-- [subtensor](https://github.com/opentensor/subtensor/tree/main/.agents/skills/skeptic/SKILL.md)
-- [subtensor](https://github.com/opentensor/subtensor/tree/main/.claude/skills/skeptic/SKILL.md)
-- [subtensor](https://github.com/opentensor/subtensor/tree/main/.agents/skills/auditor/SKILL.md)
-- [subtensor](https://github.com/opentensor/subtensor/tree/main/.claude/skills/auditor/SKILL.md)
-
-From [opentensor/subtensor](https://github.com/opentensor/subtensor) — a repo with 365+ stars on GitHub.
+From [opentensor/subtensor](https://github.com/opentensor/subtensor) — a repo with 378+ stars on GitHub.
 
 ---
 
