@@ -1,140 +1,141 @@
 ## subtensor
 
-> You are reviewing code for a Substrate-based blockchain with a $4B market cap. Lives and livelihoods depend on the security and correctness of this code. Be thorough, precise, and uncompromising on safety.
+> Before handing off implementation work, run only the quick, deterministic
 
-# Bittensor PR Review Guidelines
+# Repository Agent Guidance
 
-You are reviewing code for a Substrate-based blockchain with a $4B market cap. Lives and livelihoods depend on the security and correctness of this code. Be thorough, precise, and uncompromising on safety.
+## Quick CI preflight
 
-## Branch Strategy
-* All PRs target `main`. Deployment is automated, not PR-driven: merges to `main` ride the release train, which promotes devnet → testnet → mainnet via on-chain `setCode` (see `docs/internals/release-process.mdx`)
-* `devnet`, `testnet`, and `mainnet` are CI-managed mirror branches recording what each network currently runs; they are ruleset-locked and only the release train updates them
-* Flag any PR that targets `devnet`, `testnet`, or `mainnet` — those branches never receive merges
+Before handing off implementation work, run only the quick, deterministic
+checks below that match the changed files. Heavy compilation, tests, audits,
+and environment-sensitive validation belong in CI unless the user explicitly
+requests them.
 
-## CRITICAL: Runtime Safety (Chain-Bricking Prevention)
-The runtime CANNOT panic under any circumstances. A single panic can brick the entire chain.
+This file does not authorize commits, pushes, labels, PR changes, dependency
+updates, or unrelated cleanup. Review and diagnostic tasks remain read-only.
+If scope or ownership is unclear, do not take action; report what remains.
 
-**Panic Sources to Flag:**
-* Direct indexing: `vec[i]`, `arr[3]` → Must use `.get()` returning `Option`
-* `.unwrap()`, `.expect()` → Must handle `Result`/`Option` properly
-* `.unwrap_or()` is acceptable only with safe defaults
-* Unchecked arithmetic: `a + b`, `a - b`, `a * b`, `a / b` → Must use `checked_*` or `saturating_*`
-* Division without zero checks
-* Type conversions: `.try_into()` without handling, casting that could truncate
-* Iterator operations that assume non-empty collections: `.first().unwrap()`, `.last().unwrap()`
-* String operations: slicing without bounds checking
-* `unsafe` blocks (absolutely prohibited in runtime)
+Before any command that can rewrite files, inspect `git status --short` and
+preserve all pre-existing changes as user-owned work. Run check mode first. Use
+fix mode only for a failure attributable to files in the current task, then
+inspect the resulting diff.
 
-## Substrate-Specific Vulnerabilities
+Always finish with:
 
-### Storage Safety
-* Unbounded storage iterations (DoS vector) - check for loops over storage maps without limits
-* Missing storage deposits/bonds for user-created entries (state bloat attack)
-* Storage migrations without proper version checks or error handling
-* Direct storage manipulation without proper weight accounting
-* `kill_storage()` or storage removals without cleanup of dependent data
+```bash
+git diff --check
+git status --short
+```
 
-### Weight & Resource Exhaustion
-* Missing or incorrect `#[pallet::weight]` annotations
-* Computational complexity not reflected in weight calculations
-* Database reads/writes not accounted for in weights
-* Potential for weight exhaustion attacks through parameter manipulation
-* Loops with user-controlled bounds in extrinsics
+Report the exact checks run and any check skipped because its existing locked
+environment was unavailable. Do not install dependencies solely for this quick
+preflight.
 
-### Origin & Permission Checks
-* Missing `ensure_signed`, `ensure_root`, or `ensure_none` checks
-* Origin checks that can be bypassed
-* Privilege escalation paths
-* Missing checks before state-modifying operations
-* Incorrect origin forwarding in cross-pallet calls
+## Rust formatting
 
-### Economic & Cryptoeconomic Exploits
-* Integer overflow/underflow in token/balance calculations
-* Rounding errors that can be exploited (especially in repeated operations)
-* MEV/front-running vulnerabilities in auction/pricing mechanisms
-* Flash loan-style attacks or single-block exploits
-* Reward calculation errors or manipulation vectors
-* Slashing logic vulnerabilities
-* Economic denial of service (forcing expensive operations on others)
+For Rust source, manifest, fixture, or feature changes, run:
 
-### Migration Safety
-* Migrations without try-state checks or validation
-* Missing version guards (checking current vs new version)
-* Unbounded migrations that could time out
-* Data loss risks during migration
-* Missing rollback handling for failed migrations
+```bash
+cargo fmt --check --all
+```
 
-### Consensus & Chain State
-* Anything that could cause non-deterministic behavior (randomness sources, timestamps without validation)
-* Fork-causing conditions due to different execution paths
-* Block production or finalization blockers
-*Validator set manipulation vulnerabilities
+If it fails only because of task-owned files, run `cargo fmt --all`, inspect the
+diff, and repeat the check. Do not run `scripts/fix_rust.sh`; it creates a
+commit.
 
-### Cross-Pallet Interactions
-* Reentrancy-like patterns when calling other pallets
-* Circular dependencies between pallets
-* Assumptions about other pallet state that could be violated
-* Missing error handling from pallet calls
+Leave Clippy, Rust builds and tests, and `cargo audit` to CI unless explicitly
+requested. If `Cargo.toml` or `Cargo.lock` changed, confirm the lockfile change
+is intentional; do not update dependencies or add advisory ignores merely to
+make CI pass.
 
-## Supply Chain & Dependency Security
+## Python SDK formatting and ABI drift
 
-**Flag any PR that:**
-* Adds new dependencies (require justification and thorough vetting)
-* Updates cryptographic or core dependencies
-* Uses dependencies with known vulnerabilities (check advisories)
-* Depends on unmaintained or obscure crates
-* Introduces git dependencies or path dependencies pointing outside the repo
-* Uses pre-release versions of critical dependencies
-* Includes large dependency version jumps without explanation
+If the existing `sdk/python` environment is available, run from that directory:
 
-**For dependency changes, verify:**
-* Changelog review for security fixes or breaking changes
-* Maintainer reputation and project activity
-* Number of reverse dependencies (more = more scrutiny)
-* Whether it introduces new transitive dependencies
+```bash
+uv run --no-sync ruff check .
+uv run --no-sync ruff format --check .
+```
 
-## Code Quality & Maintainability
+For failures confined to task-owned files, use
+`uv run --no-sync ruff check . --fix` and
+`uv run --no-sync ruff format .`, inspect the diff, and repeat both checks.
+Leave full type checking and tests to CI.
 
-* Code duplication that could lead to inconsistent bug fixes
-* Overly complex logic that obscures security issues
-* Missing error messages or unclear panic contexts in tests
-* Insufficient test coverage for new extrinsics or storage operations
-* Missing or inadequate documentation for complex algorithms
-* Magic numbers without explanation
-* TODO/FIXME comments introducing technical debt in critical paths
+The Solidity ABI files in `precompiles/src/solidity/*.abi` are canonical. When
+one of those or a vendored ABI changes, run this narrow consistency test from
+`sdk/python`:
 
-## External Contributor Scrutiny
-For contributors without "Nucleus" role, apply **maximum scrutiny**:
-* Verify the PR solves a real, documented issue
-* Check for hidden backdoors or logic bombs
-* Review commit history for suspicious patterns
-* Validate that changes match the stated purpose
-* Question any unusual patterns or overcomplicated solutions
-* Require clear explanations for non-obvious changes
+```bash
+uv run --no-sync pytest tests/unit/test_evm.py::TestVendoredAbiSync -q
+```
 
-## Build & Tooling
-* If lints fail (clippy, rustfmt, cargo check), suggest running `./scripts/fix_rust.sh`
-* Uncommitted `Cargo.lock` changes should be included in commits
-* Ensure CI passes before deep review
+Update `sdk/python/bittensor/evm/abi/*.json` only when drift is caused by the
+current canonical ABI change. Do not edit only the vendored copy.
 
-## Review Style
-* Be **concise** - report only legitimate issues, no nitpicks
-* Provide **specific line numbers** and **concrete examples**
-* Suggest **fixes** when possible, not just problems
-* **Severity levels**: Use [CRITICAL], [HIGH], [MEDIUM], [LOW] tags
-* Block PRs on [CRITICAL] and [HIGH] issues
-* For security issues, consider discussing privately before commenting publicly
+Runtime metadata bindings under `sdk/python/bittensor/_generated/` require the
+correct upgraded node. Do not regenerate them as routine preflight. If CI or
+the task indicates they are stale, report the required regeneration unless the
+user explicitly requests it and the correct node provenance is known.
 
-## Final Check
-Before approving, ask yourself:
-1. Could this brick the chain? (panic, consensus break)
-2. Could this lose or steal funds? (arithmetic, logic errors)
-3. Could this DOS the network? (unbounded operations, weight issues)
-4. Could this introduce a backdoor? (especially for external contributors)
-5. Is this change necessary and minimal?
+## Generated reference docs
 
-**Remember: $4B market cap. Err on the side of caution. When in doubt, escalate.**
+Changes to Python registries, calls, queries, errors, hyperparameters, or other
+docs-generator inputs require this check from `sdk/python` when its existing
+locked environment is available:
+
+```bash
+uv run --no-sync python ../../website/apps/bittensor-website/scripts/generate.py --check
+```
+
+If drift is attributable to the current task, run
+`uv run --no-sync python ../../website/apps/bittensor-website/scripts/generate.py`,
+repeat the check, and inspect the generated diff. Unexpected broad drift is a
+reason to stop and report it. Do not hand-edit generated files under
+`docs/tx/`, `docs/query/`, `docs/errors/`, generated hyperparameter index/meta
+files, or `website/apps/bittensor-website/public/catalog/`.
+
+For rendered Markdown and MDX changes, verify that pages have string `title`
+and `description` frontmatter and that referenced MDX components exist. Leave
+the full website install and build to CI.
+
+## TypeScript formatting
+
+For `ts-tests` changes, run this when its existing locked environment is
+available:
+
+```bash
+pnpm run fmt
+```
+
+If it fails only in task-owned files, run `pnpm run fmt:fix`, inspect the diff,
+and repeat the check. Leave lint, type checking, builds, and E2E tests to CI.
+
+## Advisory-only checks
+
+Runtime-affecting changes may require a `spec_version` newer than mainnet or the
+`no-spec-version-bump` PR label. Do not change `spec_version` or apply labels
+unless the user explicitly requests that action; report the requirement.
+
+Adding or changing a dispatchable requires matching benchmarks and
+`WeightInfo` wiring. CI performs reference measurements and prepares a patch.
+Do not apply benchmark labels, run `scripts/benchmark_all.sh`, commit locally
+measured weights, or invent weight values unless explicitly requested on
+appropriate reference hardware.
+
+Treat unexpected lockfile changes as a stop-and-report condition. Relevant
+lockfiles are `Cargo.lock`, `sdk/python/uv.lock`,
+`ts-tests/pnpm-lock.yaml`, `website/yarn.lock`, and
+`.github/docs-preview-vercel/package-lock.json`. Do not regenerate or revert a
+pre-existing lockfile change merely to make the working tree or CI clean.
+
+For `.github/**` changes, run `actionlint` only when it is already available.
+Leave workflow execution to CI, preserve action pinning, and do not add an
+unapproved third-party action merely to make a workflow pass.
+
+Do not start clone/regression workflows, full builds, comprehensive test
+suites, dependency audits, or benchmark generation as routine preflight.
 
 ---
 > Source: [opentensor/subtensor](https://github.com/opentensor/subtensor) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-08-30 -->
