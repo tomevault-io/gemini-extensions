@@ -7,11 +7,11 @@ A CLI toolkit for MediaWiki article editing, research and maintenance, focused o
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [remiliacorporation/wikitool](https://github.com/remiliacorporation/wikitool).
+Original source: `CLAUDE.md` in [remiliacorporation/wikitool](https://github.com/remiliacorporation/wikitool).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
