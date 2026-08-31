@@ -7,13 +7,13 @@ Opinionated design language + token-driven React components. 31 presets, 70+ com
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Kevin-Liu-01/Sigil-UI](https://github.com/Kevin-Liu-01/Sigil-UI).
+Original source: `.cursor/rules/*.mdc` in [Kevin-Liu-01/Sigil-UI](https://github.com/Kevin-Liu-01/Sigil-UI).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
