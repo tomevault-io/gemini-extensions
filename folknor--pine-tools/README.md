@@ -7,11 +7,11 @@ Unofficial Pine Script v6 tools, including a language service, LSP, MCP, Visual 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [folknor/pine-tools](https://github.com/folknor/pine-tools).
+Original source: `AGENTS.md` in [folknor/pine-tools](https://github.com/folknor/pine-tools).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
