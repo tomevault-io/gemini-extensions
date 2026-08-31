@@ -7,11 +7,11 @@ Open, reproducible TTS/STT evaluation toolkit: WER/CER via Whisper ASR, NISQAv2,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [inworld-ai/open-tts-eval](https://github.com/inworld-ai/open-tts-eval).
+Original source: `CLAUDE.md` in [inworld-ai/open-tts-eval](https://github.com/inworld-ai/open-tts-eval).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
