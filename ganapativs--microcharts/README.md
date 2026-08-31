@@ -7,11 +7,11 @@ Word-sized charts for React, made for LLMs and humans — 106 chart types, zero 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ganapativs/microcharts](https://github.com/ganapativs/microcharts).
+Original source: `AGENTS.md` in [ganapativs/microcharts](https://github.com/ganapativs/microcharts).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
