@@ -7,11 +7,11 @@ Self-hosted personal AI assistant: chat, cost tracking, tasks, automations, and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [timothy-agent/timothy](https://github.com/timothy-agent/timothy).
+Original source: `AGENTS.md` in [timothy-agent/timothy](https://github.com/timothy-agent/timothy).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
