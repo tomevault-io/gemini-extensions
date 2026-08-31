@@ -7,12 +7,12 @@ Pokémon Card Binder Placeholder Card Generator
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Level42-dev/BinderPokedex](https://github.com/Level42-dev/BinderPokedex).
+Original source: `copilot-instructions.md` in [Level42-dev/BinderPokedex](https://github.com/Level42-dev/BinderPokedex).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
