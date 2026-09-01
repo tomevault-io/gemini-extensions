@@ -7,11 +7,11 @@ Agent-friendly tools for automated earthquake cataloging from continuous seismic
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cangyeone/seismicx-catalog-skill](https://github.com/cangyeone/seismicx-catalog-skill).
+Original source: `AGENTS.md` in [cangyeone/seismicx-catalog-skill](https://github.com/cangyeone/seismicx-catalog-skill).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
