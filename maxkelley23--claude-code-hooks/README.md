@@ -7,11 +7,11 @@ Powerful hooks for Claude Code: safety guardrails, auto-formatting, skill activa
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [maxkelley23/claude-code-hooks](https://github.com/maxkelley23/claude-code-hooks).
+Original source: `CLAUDE.md` in [maxkelley23/claude-code-hooks](https://github.com/maxkelley23/claude-code-hooks).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
