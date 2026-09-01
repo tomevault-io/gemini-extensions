@@ -7,11 +7,11 @@ DE: Erkennt ROM-Archive, sortiert sie in ES-DE/Batocera/Onion-Ordner, patcht (IP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Strugglechen1337/ThorROMButler](https://github.com/Strugglechen1337/ThorROMButler).
+Original source: `AGENTS.md` in [Strugglechen1337/ThorROMButler](https://github.com/Strugglechen1337/ThorROMButler).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
