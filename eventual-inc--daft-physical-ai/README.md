@@ -7,11 +7,11 @@ Physical-AI data processing on Daft: hand tracking, reward scoring, and motion t
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Eventual-Inc/daft-physical-ai](https://github.com/Eventual-Inc/daft-physical-ai).
+Original source: `AGENTS.md` in [Eventual-Inc/daft-physical-ai](https://github.com/Eventual-Inc/daft-physical-ai).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
