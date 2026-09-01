@@ -7,13 +7,13 @@ JAX-native simulation engine for hybrid dynamical systems — block-diagram mode
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [machinavitalis/jaxonomy](https://github.com/machinavitalis/jaxonomy).
+Original source: `.cursor/rules/*.mdc` in [machinavitalis/jaxonomy](https://github.com/machinavitalis/jaxonomy).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
