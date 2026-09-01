@@ -7,12 +7,12 @@ JusPlayer — high-performance, privacy-focused YouTube Music client for Android
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [shubh72010/Greeny-Goblins](https://github.com/shubh72010/Greeny-Goblins).
+Original source: `CLAUDE.md` in [shubh72010/Greeny-Goblins](https://github.com/shubh72010/Greeny-Goblins).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
