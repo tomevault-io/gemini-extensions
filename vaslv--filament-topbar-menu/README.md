@@ -7,11 +7,11 @@ Filament Topbar Menu
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vaslv/filament-topbar-menu](https://github.com/vaslv/filament-topbar-menu).
+Original source: `AGENTS.md` in [vaslv/filament-topbar-menu](https://github.com/vaslv/filament-topbar-menu).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
