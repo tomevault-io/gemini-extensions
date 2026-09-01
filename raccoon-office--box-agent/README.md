@@ -7,11 +7,11 @@ AI agent framework with Jupyter sandbox, data analysis, MCP tools, ACP protocol,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Raccoon-Office/Box-Agent](https://github.com/Raccoon-Office/Box-Agent).
+Original source: `CLAUDE.md` in [Raccoon-Office/Box-Agent](https://github.com/Raccoon-Office/Box-Agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
