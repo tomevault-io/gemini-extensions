@@ -7,11 +7,11 @@ A lightweight AI coding agent that actually works. KodaX is modular, zero-config
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [icetomoyo/KodaX](https://github.com/icetomoyo/KodaX).
+Original source: `AGENTS.md` in [icetomoyo/KodaX](https://github.com/icetomoyo/KodaX).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
