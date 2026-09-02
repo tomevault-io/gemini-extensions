@@ -7,13 +7,13 @@ Your voice, at your cursor, in milliseconds. Free, open-source, 100% on-device d
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [piyushxt43/sayszz](https://github.com/piyushxt43/sayszz).
+Original source: `AGENTS.md` in [piyushxt43/sayszz](https://github.com/piyushxt43/sayszz).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
