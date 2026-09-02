@@ -7,11 +7,11 @@ Local multi-agent harness for running persistent agent teams, long-run, society-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [2youg1/sprawling-agents](https://github.com/2youg1/sprawling-agents).
+Original source: `CLAUDE.md` in [2youg1/sprawling-agents](https://github.com/2youg1/sprawling-agents).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
