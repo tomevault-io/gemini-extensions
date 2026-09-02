@@ -7,11 +7,11 @@ N 体引力实验室：Java 17 + Spring Boot + Vue 3 + WebSocket。RK4、OpenAPI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dailiuyi/ThreeBodySimulation](https://github.com/dailiuyi/ThreeBodySimulation).
+Original source: `CLAUDE.md` in [dailiuyi/ThreeBodySimulation](https://github.com/dailiuyi/ThreeBodySimulation).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
