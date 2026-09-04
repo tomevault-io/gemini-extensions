@@ -7,11 +7,11 @@ Open-source robotics simulator for coding agents: HTTP/JSON + MCP control, Newto
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [omnilink-tech/omnisim](https://github.com/omnilink-tech/omnisim).
+Original source: `CLAUDE.md` in [omnilink-tech/omnisim](https://github.com/omnilink-tech/omnisim).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
