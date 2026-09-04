@@ -7,13 +7,13 @@ Thompson-mode systems discipline for AI agents. Think first, build bottom-up, br
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [rajnandan1/ken](https://github.com/rajnandan1/ken).
+Original source: `.cursor/rules/*.mdc` in [rajnandan1/ken](https://github.com/rajnandan1/ken).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
