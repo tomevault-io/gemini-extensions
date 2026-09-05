@@ -7,11 +7,11 @@ Turn your Windows PC into a high-fidelity Bluetooth Speaker.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [GorangN/EasyBluetoothAudio](https://github.com/GorangN/EasyBluetoothAudio).
+Original source: `AGENTS.md` in [GorangN/EasyBluetoothAudio](https://github.com/GorangN/EasyBluetoothAudio).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
