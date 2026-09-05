@@ -7,11 +7,11 @@ FreeWili 2 (RP2350B) board support package: one CMake BSP library + hello apps +
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [freewili/wilibsp](https://github.com/freewili/wilibsp).
+Original source: `AGENTS.md` in [freewili/wilibsp](https://github.com/freewili/wilibsp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
