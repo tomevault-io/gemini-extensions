@@ -7,11 +7,11 @@ Turn YouTube videos into reviewable blog articles inside an Obsidian workflow.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [AgriciDaniel/you2betoblog](https://github.com/AgriciDaniel/you2betoblog).
+Original source: `AGENTS.md` in [AgriciDaniel/you2betoblog](https://github.com/AgriciDaniel/you2betoblog).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
