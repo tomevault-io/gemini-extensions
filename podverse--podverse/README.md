@@ -7,13 +7,13 @@ Podverse monorepo for all infrastructure, modules, applications, and deployments
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [podverse/podverse](https://github.com/podverse/podverse).
+Original source: `AGENTS.md` in [podverse/podverse](https://github.com/podverse/podverse).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
