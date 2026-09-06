@@ -7,11 +7,11 @@ Provider-agnostic autonomous agent loop for JavaScript. Built on the Vercel AI S
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PaulKinlan/agent-do](https://github.com/PaulKinlan/agent-do).
+Original source: `CLAUDE.md` in [PaulKinlan/agent-do](https://github.com/PaulKinlan/agent-do).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
