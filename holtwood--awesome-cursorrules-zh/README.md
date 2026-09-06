@@ -7,11 +7,11 @@ Cursor AI 编程规则精选集 | 132+ 规则，覆盖前端/后端/AI/DevOps �
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [holtwood/awesome-cursorrules-zh](https://github.com/holtwood/awesome-cursorrules-zh).
+Original source: `CLAUDE.md` in [holtwood/awesome-cursorrules-zh](https://github.com/holtwood/awesome-cursorrules-zh).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
