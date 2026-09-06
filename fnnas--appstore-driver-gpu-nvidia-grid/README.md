@@ -7,11 +7,11 @@ nVidia vGPU Guest Driver for fygonas
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [fnnas/appstore.driver.gpu.nvidia.grid](https://github.com/fnnas/appstore.driver.gpu.nvidia.grid).
+Original source: `CLAUDE.md` in [fnnas/appstore.driver.gpu.nvidia.grid](https://github.com/fnnas/appstore.driver.gpu.nvidia.grid).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
