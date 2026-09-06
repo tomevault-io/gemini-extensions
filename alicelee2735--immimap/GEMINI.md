@@ -9,5 +9,5 @@ This version has breaking changes — APIs, conventions, and file structure may 
 <!-- END:nextjs-agent-rules -->
 
 ---
-> Source: [alicelee2735/immimap](https://github.com/alicelee2735/immimap) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-01 -->
+> Source: [alicelee2735/ImmiMap](https://github.com/alicelee2735/ImmiMap) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:gemini_md:2026-09-06 -->
