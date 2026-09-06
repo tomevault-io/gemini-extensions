@@ -7,11 +7,11 @@ For FlyRankAi Internships
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [roochieng/robley-flyrank-ml-internship-starter](https://github.com/roochieng/robley-flyrank-ml-internship-starter).
+Original source: `CLAUDE.md` in [roochieng/robley-flyrank-ml-internship-starter](https://github.com/roochieng/robley-flyrank-ml-internship-starter).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
