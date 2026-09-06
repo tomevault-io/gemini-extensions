@@ -7,11 +7,11 @@ Most AI will tell you your startup idea is brilliant. This   one researches it p
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas).
+Original source: `CLAUDE.md` in [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
