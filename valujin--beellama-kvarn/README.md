@@ -7,11 +7,11 @@ BeeLlama.cpp fork: KVarN KV-cache correctness fixes and decode optimizations
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [valujin/beellama-kvarn](https://github.com/valujin/beellama-kvarn).
+Original source: `AGENTS.md` in [valujin/beellama-kvarn](https://github.com/valujin/beellama-kvarn).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
