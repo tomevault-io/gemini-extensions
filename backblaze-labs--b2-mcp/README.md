@@ -7,11 +7,11 @@ MCP server for Backblaze B2 Cloud Storage: a focused, safe 40-tool surface (17 n
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [backblaze-labs/b2-mcp](https://github.com/backblaze-labs/b2-mcp).
+Original source: `CLAUDE.md` in [backblaze-labs/b2-mcp](https://github.com/backblaze-labs/b2-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
