@@ -7,11 +7,11 @@ DupersUnited's public mod for dupehunting!
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [DupersUnited/dupersunited-mod](https://github.com/DupersUnited/dupersunited-mod).
+Original source: `AGENTS.md` in [DupersUnited/dupersunited-mod](https://github.com/DupersUnited/dupersunited-mod).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
