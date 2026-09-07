@@ -7,13 +7,13 @@ A macOS menu bar app for quick access to your upcoming meetings from a Microsoft
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [ilyabazhenov/mac-owa-widget](https://github.com/ilyabazhenov/mac-owa-widget).
+Original source: `.cursor/rules/*.mdc` in [ilyabazhenov/mac-owa-widget](https://github.com/ilyabazhenov/mac-owa-widget).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
