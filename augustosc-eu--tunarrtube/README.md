@@ -7,12 +7,12 @@ Self-hosted YouTube companion for building and maintaining Tunarr channels
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [augustosc-eu/TunarrTube](https://github.com/augustosc-eu/TunarrTube).
+Original source: `AGENTS.md` in [augustosc-eu/TunarrTube](https://github.com/augustosc-eu/TunarrTube).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
