@@ -7,11 +7,11 @@ MCP server for reusable prompt templates, multi-step workflow chains, and qualit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [minipuft/claude-prompts-mcp](https://github.com/minipuft/claude-prompts-mcp).
+Original source: `CLAUDE.md` in [minipuft/claude-prompts-mcp](https://github.com/minipuft/claude-prompts-mcp).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
