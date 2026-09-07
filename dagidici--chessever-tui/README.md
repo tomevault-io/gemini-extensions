@@ -7,11 +7,11 @@ Terminal UI chess — play Maia in your terminal. Flutter/Dart powered by nocter
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dagidici/chessever-tui](https://github.com/dagidici/chessever-tui).
+Original source: `CLAUDE.md` in [dagidici/chessever-tui](https://github.com/dagidici/chessever-tui).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
