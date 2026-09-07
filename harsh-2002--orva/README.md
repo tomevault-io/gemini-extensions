@@ -7,11 +7,11 @@ Self-hosted FaaS for homelabs and on-prem. Run Node.js and Python functions on h
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Harsh-2002/Orva](https://github.com/Harsh-2002/Orva).
+Original source: `AGENTS.md` in [Harsh-2002/Orva](https://github.com/Harsh-2002/Orva).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
