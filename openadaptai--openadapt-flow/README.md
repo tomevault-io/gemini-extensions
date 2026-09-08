@@ -7,11 +7,11 @@ Compiler and governed runtime for demonstrated GUI workflows, with explicit iden
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [OpenAdaptAI/openadapt-flow](https://github.com/OpenAdaptAI/openadapt-flow).
+Original source: `AGENTS.md` in [OpenAdaptAI/openadapt-flow](https://github.com/OpenAdaptAI/openadapt-flow).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
