@@ -2,7 +2,7 @@
 
 > - 这是 Arcadia 的公共开源源代码仓库，主要提供后端服务与 CLI 能力。
 
-# Arcadia 源代码仓库 Copilot Instructions
+# Arcadia Instructions
 
 项目概述
 - 这是 Arcadia 的公共开源源代码仓库，主要提供后端服务与 CLI 能力。
@@ -46,4 +46,4 @@ CLI 约束
 
 ---
 > Source: [SuperManito/Arcadia](https://github.com/SuperManito/Arcadia) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
