@@ -7,11 +7,11 @@ Local visual diffing with git worktrees
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [cristobalwee/sidebranch](https://github.com/cristobalwee/sidebranch).
+Original source: `AGENTS.md` in [cristobalwee/sidebranch](https://github.com/cristobalwee/sidebranch).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
