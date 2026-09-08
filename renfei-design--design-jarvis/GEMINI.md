@@ -1,94 +1,80 @@
 ## design-jarvis
 
-> This file provides shared context that applies to ALL agents in this workspace.
+> Open-standard guidance for contributors and agent runtimes working in this repository.
 
-# Design Jarvis — Project Context
+# AGENTS.md
 
-This file provides shared context that applies to ALL agents in this workspace.
+Open-standard guidance for contributors and agent runtimes working in this repository.
 
-## Project Overview
+## Project overview
 
-This workspace uses the **Design Jarvis** multi-agent system — an AI design team embedded in VS Code + Figma.
+Design Jarvis is an open-source, vendor-neutral multi-agent system for product and UX design. It ships:
 
-### How It Works
+- six agent roles under `.github/agents/`;
+- reusable task skills under `.github/skills/`;
+- per-project artifacts under `projects/<slug>/`;
+- durable project memory under `.jarvis/memory/projects/<slug>/`;
+- an optional editor extension under `extensions/`;
+- scenario-based evaluation under `evals/`.
 
-- **@Design Jarvis** is the orchestrator — talk to it and it routes to the right specialist
-- **5 specialist agents** handle different design domains (wireframes, hi-fi, content, research, direction)
-- **1 operations agent** (Design Ops) manages project memory and decision persistence
-- **6 skills** provide domain knowledge that agents reference automatically
-- **Figma integration** via MCP server (official Figma MCP) — optional
+## Output rules
 
-### Agents
+- `projects/_starters/` is read-only. Copy a starter before editing it.
+- Specs, prototypes, research, diagrams, and assets belong under `projects/<slug>/`.
+- Project slugs use lowercase hyphenated names.
+- Create artifact folders only when the first artifact of that type is produced.
+- Do not create planning or notes files unless the user asks for them.
 
-| Agent | Role | What It Does |
-|-------|------|-------------|
-| Design Jarvis | Orchestrator | Routes your tasks to the right specialist |
-| Design Lead | Director | Strategic direction, critique, quality gates |
-| UX Designer | Specialist | Wireframes, user flows, information architecture |
-| UI Designer | Specialist | Hi-fi screens, visual design, presentations |
-| UX Researcher | Specialist | Competitive analysis, market research |
-| Content Designer | Specialist | UI text, terminology, content strategy |
-| Design Ops | Operations | Project memory, decisions, session persistence |
+## Design-system defaults
 
-### Skills
+Design Jarvis does not assume a vendor design system. Discover and follow, in order:
 
-| Skill | Used By | Purpose |
-|-------|---------|---------|
-| wireframe | UX Designer | Build low-fi wireframe screens |
-| hifi-design | UI Designer | Build high-fidelity design screens |
-| competitive-ux | UX Researcher | Competitive UX analysis reports |
-| content-review | Content Designer | Review and fix UI text |
-| design-checklist | Design Ops | Track design process progress |
-| memory | Design Ops | Three-tier persistent memory management |
+1. the design system named by the user;
+2. tokens and components already present in the project;
+3. project memory and existing artifacts;
+4. the neutral starter tokens in `projects/_starters/design-tokens.css`.
 
-### Skill Dependencies
+Baseline defaults when no system exists:
 
-Each agent requires specific skills to function. Core skills (`.skills/`) are always available. Extras skills (`extras/skills/`) must be activated first.
+- system UI font stack;
+- accessible blue accent `#2563EB`;
+- 4px spacing grid;
+- 4px controls, 8px cards, and 12px dialogs;
+- WCAG 2.2 AA minimum;
+- responsive layouts beginning at 1440 × 900, with smaller widths verified as relevant.
 
-| Agent | Required Skills (core) | Optional Skills (extras) |
-|-------|----------------------|------------------------|
-| Design Jarvis | — | — |
-| Design Lead | — | — |
-| Design Ops | memory, design-checklist | — |
-| UX Designer | wireframe | — |
-| UI Designer | hifi-design | — |
-| UX Researcher | competitive-ux | online-research |
-| Content Designer | content-review | — |
+Document intentional deviations from the active design system.
 
-If an agent references an extras skill that isn't activated, it should fall back to its core capabilities and note the limitation.
+## Workflows
 
-Additional agents and skills are available in the `extras/` directory — copy them into `.github/agents/` or `.skills/` to activate.
+- **HTML capture:** copy `projects/_starters/_template.html`, build under `projects/<slug>/prototypes/`, and optionally capture the result into Figma.
+- **Native Figma:** load `figma-use` before any Figma write and use the project’s configured component libraries.
+- **Code prototype:** use the project’s existing stack. If none exists, prefer standards-based TypeScript, semantic HTML, and CSS custom properties.
 
-### Design System Defaults
+## Memory
 
-Update these values in `jarvis.config.yaml` to match your project:
+Load `.jarvis/memory/projects/<slug>/memory.md` first. Read `manifest.json`, `artifacts.json`, `decisions.md`, sessions, and archive entries only when the task needs deeper context.
 
-- **Screen size:** 1920 × 1080
-- **Font:** Inter (Regular 400, Semibold 600, Bold 700)
-- **Brand color:** `#0078D4`
-- **Spacing grid:** 4px increments
-- **Corner radius:** 4px buttons/inputs, 8px cards, 12px dialogs
+Never store credentials, personal data, private customer information, or proprietary source material in project memory.
 
-### Content Style
+## Verification
 
-Content follows the **Google** developer documentation style guide by default. Change this by updating `contentStyle` in `jarvis.config.yaml` or instructing the Content Designer agent.
+Match evidence to the claim:
 
-### Memory System
+- Figma changes: created or updated node IDs plus screenshots.
+- Code changes: build, tests, and rendered-state verification.
+- Research: direct links to credible, current sources and explicit separation of observation from inference.
+- Specs and memory: schema/path validation and review of the written artifact.
+- Agent/skill changes: `node evals/health-check.mjs` and `node --test 'evals/tests/*.test.mjs'`.
 
-Project memory lives in `.jarvis/memory/` with a three-tier architecture:
-- **Hot** (always loaded): `context.md`, `decisions-active.md`, `last-session.md`
-- **Warm** (on demand): `sessions/`
-- **Cold** (auto-logged): `auto-log/`
+## Contributing
 
-**Design Ops** manages all memory operations. The orchestrator invokes Design Ops at session start (load context), after decisions (log with D-numbers), and at session end (write summary). Other agents should never write to memory files directly.
-
-### Figma Integration (Optional)
-
-Figma MCP server is configured in `.vscode/mcp.json`. When running:
-- `figma-desktop` — Official Figma MCP (reads design context, screenshots, metadata)
-
-Agents work without Figma for non-visual tasks (research, UX briefs, content strategy). If Figma tools are unavailable, agents will describe designs in text or create HTML prototypes instead.
+- Keep agent guidance useful across industries and companies.
+- Avoid private connectors, internal organization names, employee identifiers, proprietary repositories, and fixed vendor component libraries.
+- Prefer configurable integration points and public standards.
+- Use imperative commit messages.
+- State what changed, why, and how it was verified.
 
 ---
 > Source: [renfei-design/design-jarvis](https://github.com/renfei-design/design-jarvis) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
