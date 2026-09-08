@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [MarsonShine/MS.Microservice](https://github.com/MarsonShine/MS.Microservice).
+Original source: `AGENTS.md` in [MarsonShine/MS.Microservice](https://github.com/MarsonShine/MS.Microservice).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -23,7 +23,7 @@ Original source: `copilot-instructions.md` in [MarsonShine/MS.Microservice](http
 - [MS.Microservice](https://github.com/MarsonShine/MS.Microservice/tree/main/.github/skills/baoyu-url-to-markdown/SKILL.md)
 - [MS.Microservice](https://github.com/MarsonShine/MS.Microservice/tree/main/.github/skills/csharp-dotnet-code-checklist/SKILL.md)
 
-From [MarsonShine/MS.Microservice](https://github.com/MarsonShine/MS.Microservice) — a repo with 50+ stars on GitHub.
+From [MarsonShine/MS.Microservice](https://github.com/MarsonShine/MS.Microservice) — a repo with 52+ stars on GitHub.
 
 ---
 
