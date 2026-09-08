@@ -7,11 +7,11 @@ Local desktop agent for end-to-end mathematical modeling, plotting, LaTeX papers
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yjz211/HaJiMi-Math-Model-Agent](https://github.com/yjz211/HaJiMi-Math-Model-Agent).
+Original source: `AGENTS.md` in [yjz211/HaJiMi-Math-Model-Agent](https://github.com/yjz211/HaJiMi-Math-Model-Agent).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
