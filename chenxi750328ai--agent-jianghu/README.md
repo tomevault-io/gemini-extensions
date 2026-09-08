@@ -1,18 +1,18 @@
 # AI instruction files for agent-jianghu
 
-> Sourced from [chenxi750328ai/agent-jianghu](https://github.com/chenxi750328ai/agent-jianghu) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [chenxi750328ai/agent-jianghu](https://github.com/chenxi750328ai/agent-jianghu), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 agent江湖 - 多Agent协作平台
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [chenxi750328ai/agent-jianghu](https://github.com/chenxi750328ai/agent-jianghu).
+Original source: `copilot-instructions.md` in [chenxi750328ai/agent-jianghu](https://github.com/chenxi750328ai/agent-jianghu).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -24,7 +24,7 @@ Original source: `AGENTS.md` in [chenxi750328ai/agent-jianghu](https://github.co
 - [jianghu-status-view](https://github.com/chenxi750328ai/agent-jianghu/tree/main/agentfuture/skills/jianghu-status-view)
 - [member-create](https://github.com/chenxi750328ai/agent-jianghu/tree/main/agentfuture/skills/member-create)
 
-From [chenxi750328ai/agent-jianghu](https://github.com/chenxi750328ai/agent-jianghu) — a repo with 9+ stars on GitHub.
+From [chenxi750328ai/agent-jianghu](https://github.com/chenxi750328ai/agent-jianghu) — a repo with 0+ stars on GitHub.
 
 ---
 
