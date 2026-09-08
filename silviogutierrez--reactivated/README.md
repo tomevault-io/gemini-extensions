@@ -1,21 +1,21 @@
 # reactivated
 
-> Source: [silviogutierrez/reactivated](https://github.com/silviogutierrez/reactivated) — distributed by [TomeVault](https://tomevault.io)
+> Source: [silviogutierrez/reactivated](https://github.com/silviogutierrez/reactivated). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [silviogutierrez/reactivated](https://github.com/silviogutierrez/reactivated).
+Original source: `AGENTS.md` in [silviogutierrez/reactivated](https://github.com/silviogutierrez/reactivated).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [silviogutierrez/reactivated](https://github.com/silviogutierrez/reactivated) — a repo with 743+ stars on GitHub.
+From [silviogutierrez/reactivated](https://github.com/silviogutierrez/reactivated) — a repo with 742+ stars on GitHub.
 
 ---
 
