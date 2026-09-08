@@ -1,21 +1,47 @@
 # packer
 
-> Tome by [gusztavvargadr](https://github.com/gusztavvargadr/packer) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [gusztavvargadr](https://github.com/gusztavvargadr/packer), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [gusztavvargadr/packer](https://github.com/gusztavvargadr/packer).
+Original source: `AGENTS.md` in [gusztavvargadr/packer](https://github.com/gusztavvargadr/packer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [gusztavvargadr/packer](https://github.com/gusztavvargadr/packer) — a repo with 502+ stars on GitHub.
+## Bundled Skills (23)
+
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/tdd/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/teach/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/triage/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/to-spec/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/handoff/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/ask-matt/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/grill-me/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/research/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/grilling/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/wayfinder/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/prototype/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/implement/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/to-tickets/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/code-review/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/hitl-explore/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/diagnosing-bugs/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/domain-modeling/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/codebase-design/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/grill-with-docs/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/writing-great-skills/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/setup-matt-pocock-skills/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/resolving-merge-conflicts/SKILL.md)
+- [packer](https://github.com/gusztavvargadr/packer/tree/main/.agents/skills/improve-codebase-architecture/SKILL.md)
+
+From [gusztavvargadr/packer](https://github.com/gusztavvargadr/packer) — a repo with 501+ stars on GitHub.
 
 ---
 
