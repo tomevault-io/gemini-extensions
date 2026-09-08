@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [FHIR/fhir-codegen](https://github.com/FHIR/fhir-codegen).
+Original source: `AGENTS.md` in [FHIR/fhir-codegen](https://github.com/FHIR/fhir-codegen).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (6)
+## Bundled Skills (10)
 
 - [dev-review](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-review)
 - [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-do/SKILL.md)
@@ -23,6 +23,10 @@ Original source: `copilot-instructions.md` in [FHIR/fhir-codegen](https://github
 - [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-review/SKILL.md)
 - [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-report/SKILL.md)
 - [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-request/SKILL.md)
+- [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-issue/SKILL.md)
+- [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-pr-open/SKILL.md)
+- [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-complete/SKILL.md)
+- [fhir-codegen](https://github.com/FHIR/fhir-codegen/tree/main/.github/skills/dev-approach/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/FHIR/fhir-codegen](https://github.com/FHIR/fhir-codegen)
 
