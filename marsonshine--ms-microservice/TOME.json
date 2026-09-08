@@ -4,7 +4,7 @@
   "repo": "MS.Microservice",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -71,5 +71,5 @@
   ],
   "source_url": "https://github.com/MarsonShine/MS.Microservice",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T13:58:24Z"
+  "distributed_at": "2026-09-08T21:33:33Z"
 }
