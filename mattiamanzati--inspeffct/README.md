@@ -7,11 +7,11 @@ A CLI to help agents and humans inspect Effect applications
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [mattiamanzati/inspeffct](https://github.com/mattiamanzati/inspeffct).
+Original source: `AGENTS.md` in [mattiamanzati/inspeffct](https://github.com/mattiamanzati/inspeffct).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
