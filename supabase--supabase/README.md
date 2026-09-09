@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [supabase/supabase](https://github.com/supabase/supabase).
+Original source: `AGENTS.md` in [supabase/supabase](https://github.com/supabase/supabase).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (17)
+## Bundled Skills (42)
 
 - [vitest](https://github.com/supabase/supabase/tree/main/.agents/skills/vitest)
 - [vercel-composition-patterns](https://github.com/supabase/supabase/tree/main/.claude/skills/vercel-composition-patterns)
@@ -34,6 +34,31 @@ Original source: `copilot-instructions.md` in [supabase/supabase](https://github
 - [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/studio-best-practices/SKILL.md)
 - [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/studio-error-handling/SKILL.md)
 - [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/vercel-composition-patterns/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/clickhouse-logs-queries/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/copywriting/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/docs-content/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.claude/skills/react-hook-form/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/pm-the-docs/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/ask-the-docs/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/write-the-docs/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/review-the-docs/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/apps/studio/.claude/skills/explorer/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/copywriting/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/test-the-docs/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/edit-the-docs/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-testing/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-queries/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/react-hook-form/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-e2e-tests/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-shortcuts/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/safe-sql-execution/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-ui-patterns/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/dev-toolbar-review/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/telemetry-standards/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-mock-api-tests/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/studio-error-handling/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/clickhouse-logs-queries/SKILL.md)
+- [supabase](https://github.com/supabase/supabase/tree/main/.agents/skills/vercel-composition-patterns/SKILL.md)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/supabase/supabase](https://github.com/supabase/supabase)
 
