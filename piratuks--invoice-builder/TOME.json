@@ -2,9 +2,9 @@
   "name": "invoice-builder",
   "owner": "piratuks",
   "repo": "invoice-builder",
-  "description": "Invoice and quotation builder desktop app with PDF export, designed for small businesses and freelancers. Create, manage, and export invoices and quotes easily using a local database in an Electron-based app.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/piratuks/invoice-builder",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-20T22:48:58Z"
+  "distributed_at": "2026-09-09T14:55:54Z"
 }
