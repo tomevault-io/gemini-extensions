@@ -78,4 +78,4 @@ This repository contains `Edi.Captcha`, an ASP.NET Core captcha library, plus a 
 
 ---
 > Source: [EdiWang/Edi.Captcha.AspNetCore](https://github.com/EdiWang/Edi.Captcha.AspNetCore) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-29 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
