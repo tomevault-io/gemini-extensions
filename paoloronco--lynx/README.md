@@ -1,23 +1,21 @@
 # Lynx
 
-> Tome by [paoloronco](https://github.com/paoloronco/Lynx) — distributed by [TomeVault](https://tomevault.io)
-
-Lynx is an open-source, self-hosted link manager that helps you gather all your digital touchpoints in a single page, with secure authentication and a fully customizable design.
+> Tome by [paoloronco](https://github.com/paoloronco/Lynx), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [paoloronco/Lynx](https://github.com/paoloronco/Lynx).
+Original source: `AGENTS.md` in [paoloronco/Lynx](https://github.com/paoloronco/Lynx).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [paoloronco/Lynx](https://github.com/paoloronco/Lynx) — a repo with 52+ stars on GitHub.
+From [paoloronco/Lynx](https://github.com/paoloronco/Lynx) — a repo with 57+ stars on GitHub.
 
 ---
 
