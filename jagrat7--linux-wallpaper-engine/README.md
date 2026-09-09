@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jagrat7/linux-wallpaper-engine](https://github.com/jagrat7/linux-wallpaper-engine).
+Original source: `AGENTS.md` in [jagrat7/linux-wallpaper-engine](https://github.com/jagrat7/linux-wallpaper-engine).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
