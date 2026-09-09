@@ -4,7 +4,7 @@
   "repo": "Edi.Captcha.AspNetCore",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/EdiWang/Edi.Captcha.AspNetCore",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-30T03:15:28Z"
+  "distributed_at": "2026-09-09T05:31:45Z"
 }
