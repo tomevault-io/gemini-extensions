@@ -3,8 +3,8 @@
   "owner": "FormalizedFormalLogic",
   "repo": "Foundation",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Foundation",
+      "path": ".claude/skills/lean4-update/SKILL.md",
+      "github_url": "https://github.com/FormalizedFormalLogic/Foundation/tree/main/.claude/skills/lean4-update/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/FormalizedFormalLogic/Foundation",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-26T19:54:12Z"
+  "distributed_at": "2026-09-09T03:44:08Z"
 }
