@@ -4,7 +4,7 @@
   "repo": "sdk",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -97,9 +97,57 @@
       "path": ".github/skills/migrate-xunit-to-mstest/SKILL.md",
       "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/migrate-xunit-to-mstest/SKILL.md",
       "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/code-review/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/code-review/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/add-cli-command/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/add-cli-command/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/dotnet-aot-compat/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/dotnet-aot-compat/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/add-dotnet-aot-command/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/add-dotnet-aot-command/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/targeted-test/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/targeted-test/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/add-net-analyzer/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/add-net-analyzer/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/run-tests/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/run-tests/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sdk",
+      "path": ".github/skills/update-docs/SKILL.md",
+      "github_url": "https://github.com/dotnet/sdk/tree/main/.github/skills/update-docs/SKILL.md",
+      "description": ""
     }
   ],
   "source_url": "https://github.com/dotnet/sdk",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T15:32:10Z"
+  "distributed_at": "2026-09-09T00:34:12Z"
 }
