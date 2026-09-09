@@ -4,7 +4,7 @@
   "repo": "popochiu",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/carenalgas/popochiu",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T16:29:18Z"
+  "distributed_at": "2026-09-09T03:39:33Z"
 }
