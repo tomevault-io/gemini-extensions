@@ -1,58 +1,97 @@
 ## wasmer
 
-> - Follow established code-writing standards for your language (spacing, comments, naming).
+> Before your first edit, read `docs/CONTRIBUTING.md` and `docs/BUILD.md` in
 
-# GitHub Copilot Instructions
+# Working in this repo as an agent
 
-## Code Writing Standards
-- Follow established code-writing standards for your language (spacing, comments, naming).
-- Consider internal coding rules for folder and function naming.
-- Follow the "boy scout rule": Always leave the codebase cleaner than you found it.
+Before your first edit, read `docs/CONTRIBUTING.md` and `docs/BUILD.md` in
+full, plus the row below covering whatever you are about to touch. Skipping one
+of those docs does not exempt you from what it says.
 
-## Comment Usage
-- Use comments sparingly and make them meaningful.
-- Avoid commenting on obvious things; use comments to explain "why" or unusual behavior.
+Always read:
 
-## Conditional Encapsulation
-- Encapsulate nested if/else statements into functions with descriptive names for clarity.
+| Read                   | For                                                    |
+| ---------------------- | ------------------------------------------------------ |
+| `docs/CONTRIBUTING.md` | PR expectations, commit format, lint gates, code style |
+| `docs/ARCHITECTURE.md` | the crate map, one place per concern, submodules       |
+| `docs/BUILD.md`        | toolchain setup, compiler backends, fast iteration     |
+| `docs/TEST.md`         | test suites, WAST spec tests, `tests/ignores.txt`      |
+| `docs/SECURITY.md`     | supported versions, how to report vulnerabilities      |
 
-## DRY Principle
-- Avoid code duplication; reuse code via functions, classes, modules, or libraries.
-- Modify code in one place if updates are needed.
+Read if necessary:
 
-## Function Length & Responsibility
-- Write short, focused functions (single responsibility principle).
-- Break up long or complex functions into smaller ones.
+| If necessary        | For                            |
+| ------------------- | ------------------------------ |
+| `docs/journal.md`   | snapshot and restore internals |
+| `docs/PACKAGING.md` | distro packaging constraints   |
+| `docs/RISCV.md`     | state of RISC-V support        |
 
-## General Code Style & Readability
-- Write readable, understandable, and maintainable code.
-- Prioritize clarity and adhere to coding standards.
-- Regularly review and refactor code for structure and maintainability.
-- Use version control (e.g., Git) for collaboration.
+Trust the repository more than any doc. `Makefile` targets and `--help`
+output beat external docs, and docs.wasmer.io lags this repository.
 
-## Naming Conventions
-- Use meaningful, descriptive names for variables, functions, and classes.
-- Names should reflect purpose and behavior; avoid names that require comments to explain intent.
+## Before you write code
 
-## Making your changes pass CI
-- Before submitting any changes
-  - Run the commands for formatting
-  - Run the linter command shown below
-  - Run tests for code you changed and everything that depends on it.
-- CI will reject code with formatting or linting issues.
+Every new test, fixture, syscall implementation, or backend arm has a
+sibling in this repo that already does the same kind of thing. Find it and
+match its location, naming, and structure. If you cannot find one, say so
+before inventing a layout.
 
-## Useful commands:
-- Format the code: `cargo fmt`
-- Lint and fix common mistakes: `RUSTFLAGS="-D dead-code -D nonstandard-style -D unused-imports -D unused-mut -D unused-variables -D unused-unsafe -D unreachable-patterns -D bad-style -D improper-ctypes -D unused-allocation -D unused-comparisons -D while-true -D unconditional-recursion -D bare-trait-objects -D function_item_references -D clippy::uninlined_format_args " cargo clippy --all --exclude wasmer-swift --locked --fix --allow-dirty -- -D clippy::all`
-- Build the cli: `cargo build -p wasmer-cli --features cranelift,llvm,wasmer-artifact-create,static-artifact-create,wasmer-artifact-load,static-artifact-load`
-- Test the cli: `cargo test -p wasmer-cli --features cranelift,llvm,wasmer-artifact-create,static-artifact-create,wasmer-artifact-load,static-artifact-load`
-- Test WASIX: `cargo test -p wasmer-wasix --features sys`
-- Convert a wasm module to wat (always limit the output with head/grep/tail): `wasm-tools print file.wasm`
-- Convert a wat module to wasm: `wasm-tools parse file.wat -o file.wasm`
-- For really hard debugging, creduce is available
-- Optimize a wasm module and strip debug info: `wasm-opt -O3 file.wasm -o file.opt.wasm`
-- Compile a C file to a WASIX module: `WASIXCC_WASM_EXCEPTIONS=1 WASIXCC_PIC=1 wasixcc -g -O0 file.c -o file.wasm`
+Before implementing a new mechanism, state the design in one or two
+sentences and get agreement. Prioritise the smallest diff that slots into
+existing machinery. Work already done is not an argument for keeping a
+shape: if the design is wrong, say so rather than defending it.
+
+## Attribution
+
+An agent MUST disclose that it is the one that committed its changes, and
+MUST NOT feign being a user. The human user is fully responsible for all
+contributions.
+
+## Debugging the Runtime
+
+### Logging
+
+Set `RUST_LOG` with standard EnvFilter syntax, for example:
+
+```bash
+RUST_LOG="warn,wasmer_wasix=trace" wasmer run file.wasm
+```
+
+The `-v` to `-vvvv` flags map to warn/info/debug/trace for the targets
+`wasmer`, `wasmer_wasix`, and `virtual_fs`.
+
+`make build-wasmer-debug` builds a debug binary with tokio-console support.
+
+### Run the Workspace CLI Directly
+
+```bash
+cargo run -p wasmer-cli --features cranelift -- run file.wasm
+```
+
+### Inspect and Author Wasm
+
+- Inspect a module with `wasm-tools print file.wasm`. Pipe through `head`
+  or `grep` — the output is large.
+- Author test cases with `wasm-tools parse file.wat -o file.wasm`.
+- Reduce hard cases with `wasm-opt` and `creduce`.
+
+### Compile a C Repro to WASIX
+
+```bash
+WASIXCC_WASM_EXCEPTIONS=1 WASIXCC_PIC=1 wasixcc -g -O0 file.c -o file.wasm
+```
+
+### Debug a Failing WAST Test
+
+Find the `.wast` file under `tests/wast/`, then rerun with the
+backend-filtered command from [docs/TEST.md](./docs/TEST.md). The runner
+prints `Running wast <path>`.
+
+## Personal execution preferences
+
+The gitignored `AGENTS.override.md` is the user's personal addendum. When
+it exists, it overrides this file's defaults.
 
 ---
 > Source: [wasmerio/wasmer](https://github.com/wasmerio/wasmer) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
