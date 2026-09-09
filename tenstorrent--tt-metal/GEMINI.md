@@ -1,129 +1,116 @@
 ## tt-metal
 
-> > Path-specific review criteria live in `.github/instructions/`.
+> This file is for agents **writing** changes to tt-metal (GitHub Copilot cloud
 
-# TT-Metal / TT-Metalium — Copilot PR Review Instructions
+# AGENTS.md — instructions for coding agents authoring changes
 
-> Path-specific review criteria live in `.github/instructions/`.
-> This file covers cross-cutting concerns that apply to every PR.
+This file is for agents **writing** changes to tt-metal (GitHub Copilot cloud
+agent and equivalents).
 
-## Codebase Snapshot
+Related instruction files:
 
-| Path | What lives there |
-|------|-----------------|
-| `tt_metal/` | Core runtime, device APIs, dispatch, allocators, firmware |
-| `tt_metal/hw/` | Firmware, SOC descriptors, hardware includes |
-| `tt_metal/hw/ckernels/` | Compute kernels (math, unpack, pack) |
-| `tt_metal/tt-llk/` | Low-level kernel library (SFPU ops, per-architecture) |
-| `ttnn/` | High-level op layer, Python/C++ integration (nanobind) |
-| `tt-train/` | Training library built on ttnn |
-| `models/` | Model implementations and demos |
-| `tools/` | Profiler, debugger, scaleout tooling |
-| `.github/` | CI/CD workflows and infra |
+| File | Audience | Purpose |
+| --- | --- | --- |
+| `AGENTS.md` (this file) | cloud agent | how to author and **verify** a change |
+| `.github/copilot-instructions.md` | code review | cross-cutting review criteria |
+| `.github/instructions/*.instructions.md` | code review | path-scoped review criteria (all carry `excludeAgent: "cloud-agent"`) |
 
-## Review Language
+The review files describe how to critique a PR. They are not a specification
+for your own work.
 
-Respond in **English**. Be terse. Use code blocks for every actionable diff.
+## Your environment
 
-## Review Priorities
+You run on an internal runner. The tt-metal toolchain is **not** installed on
+that host — it lives in the CI build image, and you reach it through a wrapper
+script. Do not try to install compilers or dependencies; do not run
+`install_dependencies.sh`.
 
-### 🔴 CRITICAL (Block merge)
-- **Correctness**: logic errors, data corruption risks, race conditions
-- **ABI Breakage**: struct layout change, symbol deleted from a public header in `tt_metal/api/` or `ttnn/api/ttnn/`
-- **Kernel Safety**: missing bounds check on L1 tile addressing; broken synchronization barrier order
-- **Security**: hardcoded credentials, secrets, or tokens anywhere in the diff
+What the host does have: `docker`, a checkout with submodules already
+initialised, and a shared remote ccache.
 
-### 🟡 IMPORTANT (Requires discussion)
-- **Missing test coverage** for new public API or changed behavior
-- **New dependency** added without infra team awareness
-- **API contract change** without versioning or deprecation path
+## Match the check to the change
 
-### 🟢 SUGGESTION (Non-blocking)
-- **Naming and readability**: names that don't match surrounding conventions
-- **Simplification**: complex logic that could be expressed more clearly
+| You changed | What to run |
+| --- | --- |
+| C++, headers, kernels — `.cpp` / `.hpp` under `tt_metal/`, `ttnn/`, `tt_stl/`, `tt-train/` | **Build.** See below. |
+| nanobind bindings (the C++ behind the Python API) | **Build** — this is C++. |
+| CMake — `CMakeLists.txt`, `sources.cmake`, `cmake/`, `build_metal.sh` | **Build**, or at minimum `--configure-only` if you only need to prove configure still works. |
+| Python only | No build. Formatting is enforced by `pre-commit` (black, isort, autoflake). |
+| YAML, workflows | No build. `pre-commit` runs yamllint and check-yaml. |
+| Docs, markdown, CODEOWNERS | No build. |
 
-## Code Quality Principles
+`.pre-commit-config.yaml` defines the formatting and lint hooks the repo enforces
+(including `clang-format` and `gersemi` for CMake). Run them if available; do not
+treat their absence in your environment as a reason to skip the table above.
 
-### Names must reflect actual behavior
-A function named `write_to_all_chips()` that only writes to one chip is misleading and reviewable as a defect. Names are documentation — if the implementation scope narrows or widens, the name must track it. Flag any mismatch between what a symbol promises and what it delivers.
+**If you are unsure whether your change affects the build, build it.**
 
-### Flag duplication — suggest commonization
-When the same logic appears in more than one place, it will inevitably drift. Flag duplicated code blocks and suggest extracting a shared helper. Constants that appear in both a header and a builder file should live in one canonical location.
+## Building
 
-### Magic numbers require a derivation
-Bare numeric literals in code are invisible assumptions. Every hardcoded offset, size, or threshold should either be derived from a named constant or accompanied by a comment explaining where the value comes from and under what conditions it might change.
+If you changed C++ or CMake, compile before opening the PR.
 
-### Complex conditions belong in named variables
-When an `if` condition involves multiple conjuncts or non-obvious logic, hoist it into a descriptively named `bool`. The variable name serves as the comment the reader would otherwise have to reconstruct mentally.
+From the repository root:
 
-```cpp
-// Difficult to parse at review time
-if (conn_type == FabricConnectionType::Transient && channel_idx == 0 && !is_mux_target) { ... }
-
-// Clear intent
-const bool is_transient_direct_to_router = conn_type == FabricConnectionType::Transient
-                                        && channel_idx == 0
-                                        && !is_mux_target;
-if (is_transient_direct_to_router) { ... }
+```bash
+.github/scripts/copilot-build.sh
 ```
 
-## Comment Format
+That runs `build_metal.sh --enable-ccache` inside the CI build image against
+your working tree, and prints a ccache summary when it finishes. Any arguments
+you pass go straight through to `build_metal.sh`:
 
-Use this format for every finding:
+| Command | When |
+| --- | --- |
+| `.github/scripts/copilot-build.sh` | default — the usual case |
+| `… --configure-only` | prove CMake still configures, without compiling (~6 min) |
+| `… --build-metal-tests` | you changed something under `tt_metal/` with tests |
+| `… --build-ttnn-tests` | likewise for `ttnn/` |
+| `… --build-programming-examples` | you touched `tt_metal/programming_examples/` |
+| `… --build-tt-train` | you touched `tt-train/` |
+| `… -b Debug` | you need assertions to reproduce something |
 
-````
-**[🔴/🟡/🟢] Category: Short title**
+`--enable-ccache` is always applied for you. Build the narrowest thing that
+actually exercises your change; do not reach for `--build-all`.
 
-What the issue is and where (file:line).
+If the wrapper warns that Garage credentials are missing, you are building
+against a cold cache and it will most likely not finish. Say so in the PR
+rather than burning the session on it.
 
-**Why it matters:** one sentence on impact.
+## What to do about a build
 
-**Suggested fix:**
-```cpp
-// minimal diff
-```
-````
+- **Builds clean** — say so explicitly in the PR description, including the
+  exact command you ran.
+- **Fails to build** — fix it and rebuild. Do not open the PR and let CI find
+  a compile error you could have caught.
+- **Did not need a build** (see the table above) — say which check you ran
+  instead, e.g. that it is a docs-only change.
+- **Genuinely cannot build** (cold cache, docker unavailable, environment
+  problem) — open the PR anyway, and state in the description that the change
+  is **unverified**, and why.
 
-## PR Title Clarity
+Do not claim you ran anything you did not run.
 
-The PR title becomes the release-note entry for this change, so it must read clearly to someone outside the team. Using the title **and** the description, assess whether the title is clear, accurate, and externally meaningful. When it is not, suggest one improved title.
+## Things you cannot verify here
 
-Flag and rewrite when the title:
-- has spelling or grammar errors;
-- references something a reader can't resolve (a bare ticket/PR number, "fix the thing from yesterday");
-- uses internal-only codenames or raw symbol names that mean nothing externally, with no plain-language hint;
-- is vague about what changed ("update code", "fixes", "address comments").
+The runner has no Tenstorrent accelerator attached, so anything requiring real
+silicon — device tests, performance measurements, hardware-dependent
+behaviour — cannot be checked in your environment. Compilation and host-side
+unit tests are in scope; on-device results are not.
 
-Rules for the suggested title:
-- Keep it concise and imperative; preserve the original technical meaning — do not invent scope the diff doesn't support.
-- **Preserve any functional prefix such as `[skip ci]` exactly** — it controls CI and must not be dropped.
-- Prefer plain external wording; keep a meaningful component name when it aids clarity.
+If a change's correctness depends on device behaviour, say so.
 
-Use the standard finding format, with the proposed title on a `Suggested title:` line:
+Never state a performance improvement without measurements.
 
-````
-**[🟢] Suggestion: Title clarity**
+## Scope discipline
 
-Why it matters: this title is the release-note line; <reason>.
-
-Suggested title: `<rewritten title>`
-````
-
-## Testing Expectations
-
-- New public API → unit test in the nearest `tests/` target
-- Changed behavior in a hot path → micro-benchmark or reference to existing perf harness
-- Bug fix → regression test that would have caught the original bug
-
-## Security & Reliability
-
-- **No secrets**: flag any hardcoded token, key, password, or internal IP with a port
-- **Kernel/firmware**: bounds checks on all NOC address calculations; mailbox and semaphore release ordering must be preserved exactly
-
-## Docs-Only PRs
-
-Title must be prefixed with `[skip ci]` to avoid running unnecessary CI checks.
+- Change the minimum needed to solve the stated issue.
+- New source files go in the relevant `sources.cmake`, not into
+  `CMakeLists.txt` build structure.
+- Adding an external dependency (`find_package`, `CPMAddPackage`,
+  `FetchContent_Declare`, a new `third_party/` submodule) requires infra team
+  review. If the issue seems to need one, stop and say so in the PR rather than
+  adding it.
 
 ---
 > Source: [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
