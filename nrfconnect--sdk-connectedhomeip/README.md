@@ -5,15 +5,28 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [nrfconnect/sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip).
+Original source: `AGENTS.md` in [nrfconnect/sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (10)
+
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/chip-tool-testing/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/python-test-runner/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/zap-matter-analysis/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/python-test-reviewer/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/all-devices-app-new-device/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/matter-specification-access/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/github-pr-description-writer/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/code-driven-cluster-migration/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/code-driven-cluster-development/SKILL.md)
+- [sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip/tree/main/.agents/skills/code-driven-cluster-tdd-implementation/SKILL.md)
 
 From [nrfconnect/sdk-connectedhomeip](https://github.com/nrfconnect/sdk-connectedhomeip) — a repo with 55+ stars on GitHub.
 
