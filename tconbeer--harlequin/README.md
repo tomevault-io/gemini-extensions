@@ -5,15 +5,19 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [tconbeer/harlequin](https://github.com/tconbeer/harlequin).
+Original source: `CLAUDE.md` in [tconbeer/harlequin](https://github.com/tconbeer/harlequin).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (1)
+
+- [harlequin](https://github.com/tconbeer/harlequin/tree/main/src/harlequin/hsql/skill/SKILL.md)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/tconbeer/harlequin](https://github.com/tconbeer/harlequin)
 
