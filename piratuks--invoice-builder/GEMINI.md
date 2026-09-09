@@ -1,73 +1,140 @@
 ## invoice-builder
 
-> This repository is an Electron app with a separate backend webserver used for the web/docker mode. Key runtime pieces are:
+> This repository follows a lightweight BMAD-style workflow for coding tasks.
 
-# Copilot instructions for Invoice Builder
+# Agent workflow for Invoice Builder
 
-Overview
---------
-This repository is an Electron app with a separate backend webserver used for the web/docker mode. Key runtime pieces are:
-- Electron main process: built by `vite` via `vite.electron.config.ts` -> outputs `dist-be/backend/main/main.cjs`
-- Preload script: `src/preload/preload.ts` -> built with `vite.preload.config.ts` -> outputs `dist-be/preload/preload.cjs`
-- Renderer (React + Vite): `src/renderer` (dev: `vite`, build: `vite build`)
-- Optional backend webserver: `src/backend/webserver/main.ts` (dev: `npm run dev:webserver`, build: `npm run build:webserver`)
-- Migrations: source files in `src/backend/shared/migrations`, built into `dist-be/backend/migrations` using `vite.migrations.config.ts`.
+This repository follows a lightweight BMAD-style workflow for coding tasks.
 
-Primary developer commands
---------------------------
-- Full local dev (electron + renderer + preload + migrations):
-  - `npm run dev`
-- Frontend-only dev: `npm run dev:react` (uses Vite)
-- Backend webserver dev: `npm run dev:webserver` (runs `src/backend/webserver/main.ts` via `tsx`)
-- Build production bundles: `npm run build` (runs `build:react`, `build:preload`, `build:migrations`, `build:electron`)
-- Package for Windows: `npm run package` (calls `electron-builder`)
-- Tests: `npm test` (runs `vitest`), coverage: `npm run test:coverage`
+## Operating model
 
-Important patterns and conventions
---------------------------------
-- Multi-config Vite builds: see `vite.electron.config.ts`, `vite.preload.config.ts`, and `vite.migrations.config.ts`. When adding runtime files for main/preload/migrations, update those configs.
-- IPC surface is declared in `src/preload/preload.ts` as `window.electronAPI`. When adding or renaming IPC channels:
-  - Add/remove the `ipcMain` handlers in the Electron main process (src/backend/main)
-  - Mirror the channel name and typings in `src/preload/preload.ts` and update related renderer types under `src/renderer/shared/types`
-  - Keep the exposed function names stable (renderer code expects methods like `electronAPI.getAllInvoices`, `electronAPI.addInvoice`).
-- Web vs Electron mode:
-  - Renderer detects runtime via `isWebMode()` (see `src/renderer/shared/api/restApi`) and either calls the web API or talks to `window.electronAPI`.
-  - Mocking: MSW is enabled via `VITE_ENABLE_MOCKS` (set in `.env.*`), and the renderer starts the worker in `src/renderer/main.tsx`.
-- Database & migrations:
-  - Migrations live in `src/backend/shared/migrations` and are built into `dist-be/backend/migrations`. Use `npm run build:migrations` for CI packaging.
-  - The app uses SQLite (`sqlite3`). Be careful when changing schema—migrations need to run in a controlled order.
+- Plan before coding: identify the requested outcome, affected layers, and verification steps.
+- Keep changes focused: prefer a narrow implementation over broad refactors.
+- Verify before claiming completion: run the relevant tests or build checks and report the result.
+- Keep the handoff clear: summarize what changed, evidence gathered, and any remaining risk.
 
-Files to inspect for changes
-----------------------------
-- Electron main entry: `src/backend/main/main.ts` (built via `vite.electron.config.ts`)
-- Preload: `src/preload/preload.ts` (exposes `electronAPI`)
-- Renderer entry: `src/renderer/main.tsx` and `src/renderer/app/*`
-- Webserver: `src/backend/webserver/main.ts`
-- Vite configs: `vite.electron.config.ts`, `vite.preload.config.ts`, `vite.migrations.config.ts`, `vite.config.ts`
-- Package scripts in `package.json` (many composite scripts use `concurrently`, `wait-on`, and `electronmon`)
+## When to use this workflow
 
-Practical tips for changes
---------------------------
-- Small, focused PRs: prefer narrow changes (one feature/bug per PR). CI builds multiple Vite targets, which can be slow.
-- When adding IPC channels, update types in `src/renderer/shared/types` and ensure the preload exposes matching functions.
-- To run the Electron dev loop locally, use `npm run dev`; it runs multiple watchers and `wait-on` to coordinate start order.
-- If you touch packaging or `electron-builder` config, ask for a human review before merging (release artifacts are sensitive).
+Use this workflow for:
 
-Commit and PR etiquette
-----------------------
-- Use conventional prefixes: `feat:`, `fix:`, `chore:`, `docs:`. Keep subject short.
-- Include which platform you tested on if the change touches OS-specific code (Windows/Linux/macOS).
+- new features
+- bug fixes
+- UI changes
+- IPC or preload changes
+- backend or webserver changes
+- persistence or migration work
 
-When to ask a human
--------------------
-- Changes to packaging, CI, or release steps.
-- Database schema changes that require migration strategy.
-- Large refactors affecting both main, preload, and renderer code.
+## Repository map
 
-Contact
--------
-Open a draft PR or an issue describing the intended change and runtime verification steps; maintainers prefer small iterative changes.
+- Renderer/UI: src/renderer
+- Electron main process: src/backend/main
+- Preload bridge: src/preload/preload.ts
+- Webserver: src/backend/webserver
+- Database and migrations: src/backend/shared
+
+## Default workflow
+
+1. Read the request and identify the likely runtime layer.
+2. List the files that are likely to change.
+3. Implement the smallest safe solution.
+4. Run the relevant verification command(s).
+5. Report the outcome and any follow-up suggestions.
+
+## Quick start (issue -> done)
+
+Use this sequence for a typical GitHub issue:
+
+1. `po validate <issue_summary>` - clarify user value, acceptance criteria, risks, and verification plan.
+2. `delivery plan_delivery <release_goal>` - optional for multi-slice or timeline-sensitive changes.
+3. `scrum plan_sprint <sprint_goal>` - optional when managing several active issues.
+4. `dev develop <implementation_task>` - implement in agreed slice order and run relevant checks.
+5. `qa review <implemented_task>` - verify acceptance criteria, regressions, evidence, and state progression.
+6. Move state through `draft` -> `validated` -> `in-dev` -> `qa-review` -> `done`.
+
+If the issue is small, you can skip Delivery and Scrum and run `po -> dev -> qa`.
+
+Routing guide:
+
+- Small issue: `po -> dev -> qa`
+- Medium issue: `po -> delivery -> dev -> qa`
+- Large or multi-session issue: `po -> delivery -> scrum -> dev -> qa`
+
+Rule of thumb:
+
+- If the work fits one implementation task, treat it as small.
+- If sequencing or release-order matters, treat it as medium.
+- If the work spans multiple slices, sessions, or contributors, treat it as large.
+
+## Good default checks
+
+- UI change: run the relevant test or build path for the renderer.
+- IPC/main process change: build the Electron target.
+- Webserver change: build or run the webserver target.
+- Persistence change: review migration safety and run the relevant build/test path.
+
+## Prompt templates and agents
+
+- Use [.github/prompts/bmad-po.prompt.md](.github/prompts/bmad-po.prompt.md) for product-owner style acceptance criteria.
+- Use [.github/prompts/bmad-dev.prompt.md](.github/prompts/bmad-dev.prompt.md) for implementation.
+- Use [.github/prompts/bmad-qa.prompt.md](.github/prompts/bmad-qa.prompt.md) for review and verification.
+- Use [.github/prompts/bmad-delivery.prompt.md](.github/prompts/bmad-delivery.prompt.md) for release planning, sequencing, and dependency-aware delivery slices.
+- Use [.github/prompts/bmad-scrum.prompt.md](.github/prompts/bmad-scrum.prompt.md) for sprint-level planning and daily execution cadence.
+- Custom agents in [.github/agents](.github/agents) back each role — invoke them directly as `po`, `dev`, `qa`, `delivery`, and `scrum`.
+
+## Lightweight artifacts
+
+- Story template: [.github/artifacts/story-template.md](.github/artifacts/story-template.md)
+- Task template: [.github/artifacts/task-template.md](.github/artifacts/task-template.md)
+
+Use these artifacts only when helpful for clarity, not as mandatory bureaucracy. Keep them concise and linked to PRs/issues.
+
+Artifact policy:
+
+- Do not create artifact instances by default for small issues.
+- For medium or large work, let agents create or update shared artifact instances under [artifacts/README.md](artifacts/README.md).
+- Preferred instance paths:
+  - `artifacts/story-<issue-or-slug>.md`
+  - `artifacts/task-<issue-or-slug>.md`
+- PO owns initial story artifact creation when needed.
+- Scrum owns task artifact creation when task-level breakdown is needed.
+- Delivery, Dev, and QA should update the same shared artifact rather than creating duplicates.
+
+## State model
+
+Use this minimal flow for work tracking:
+
+1. `draft` - request captured but not yet clarified
+2. `validated` - PO acceptance criteria and constraints are clear
+3. `in-dev` - implementation in progress
+4. `qa-review` - QA is validating behavior and evidence
+5. `done` - checks passed, risks documented, ready to merge/release
+
+Suggested transition gates:
+
+- `draft -> validated`: acceptance criteria and scope are explicit
+- `validated -> in-dev`: implementation owner and target files identified
+- `in-dev -> qa-review`: relevant checks/tests executed with results captured
+- `qa-review -> done`: QA verdict is pass or approved with known follow-ups
+
+## Verification expectations
+
+- Prefer the smallest relevant check first, such as a targeted test or build step.
+- If the change affects the UI, run the relevant renderer or app test coverage if available.
+- If the change affects IPC or the main process, validate the build path for Electron.
+- If the change affects data persistence, consider migration safety and schema impact.
+
+## Team expectations
+
+- Keep PRs focused.
+- Prefer explanation over guesswork.
+- Do not claim success without verification output.
+
+## When to ask for human input
+
+- Packaging, release, or installer changes.
+- Database schema changes that need migration strategy.
+- Large cross-cutting refactors.
 
 ---
 > Source: [piratuks/invoice-builder](https://github.com/piratuks/invoice-builder) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-20 -->
+<!-- tomevault:4.0:gemini_md:2026-09-09 -->
