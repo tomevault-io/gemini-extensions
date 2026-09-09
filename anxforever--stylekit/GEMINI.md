@@ -1,45 +1,63 @@
 ## stylekit
 
-> Read and follow these files before generating code:
+> Rules for any AI assistant working in this repository. Checked into version
 
-# Copilot Instructions for StyleKit
+# StyleKit Agent Rules
 
-Read and follow these files before generating code:
+Rules for any AI assistant working in this repository. Checked into version
+control on purpose: `CLAUDE.md` is a local, gitignored file, so anything that
+should reach every contributor and every assistant belongs here.
 
-1. `docs/AGENTS.md`
-2. `docs/CONTRIBUTING.md`
-3. `docs/STYLE_ADDITION_CHECKLIST.md` (for new styles)
+If instructions conflict, follow this order:
 
-## Required Coding Rules
+1. `AGENTS.md` (this file)
+2. `CONTRIBUTING.md`
+3. `docs/STYLE_ADDITION_CHECKLIST.md`
 
-- Use TypeScript with strict typing.
-- Keep 2-space indentation, double quotes, semicolons.
-- Prefer `@/` aliases for internal imports.
-- Keep presentational primitives in `components/ui`.
-- Keep domain logic in `lib`.
+## Tech Stack
 
-## PR and Commit Rules
+- Next.js 16 (App Router, NOT Pages Router)
+- React 19
+- TypeScript strict mode
+- Tailwind CSS v4 (CSS-based config, NO `tailwind.config.js`)
+- pnpm (NOT npm or yarn)
+- Vitest for unit tests, Playwright for E2E
+- Radix UI primitives for accessible components
 
-- Use Conventional Commits (`feat:`, `fix:`, `docs:`, `refactor:`, `chore:`).
-- Keep PRs focused and small.
-- Include validation command results in PR description.
+## Interface Rules
 
-## Security Rules
+- **Never use a native `<select>` in product UI.** Its dropdown is drawn by the
+  operating system, so the arrow, option typography, highlight color and radius
+  cannot follow the design system. Use segmented buttons when the option set is
+  short (see `Segmented` in `app/submit/_style-form.tsx`), or a custom listbox
+  built on Radix when it is long.
+  - Exempt: `app/styles/*/showcase/` pages. Their form controls are demo content
+    illustrating what a style looks like, not product chrome.
+- Do not use emoji in code, UI text, or docs unless explicitly requested.
+- Prefer existing components in `components/ui/` over adding duplicates.
+- Keep UI components in `components/` and domain logic in `lib/`.
 
-- Never commit real secrets or `.env` files.
-- Only use placeholders in `.env.example`.
-- Keep service keys server-side only (no `NEXT_PUBLIC_` prefix).
+## Code Rules
 
-## Validation Commands
+- Use TypeScript strict-safe changes.
+- Keep formatting consistent: 2 spaces, double quotes, semicolons.
+- Never commit secrets, API keys, or real `.env` files.
+- Keep server keys server-side only (never expose via `NEXT_PUBLIC_`).
+
+## Verification Before Final Output
 
 ```bash
-npm run security:secrets
-npm run lint
+pnpm run lint
 npx tsc --noEmit
-npm run test
-npm run build
+pnpm run test
+pnpm run build
 ```
+
+## Commits
+
+Conventional Commits, one concern per commit: `feat:` `fix:` `refactor:`
+`docs:` `chore:` `test:` `perf:`.
 
 ---
 > Source: [AnxForever/stylekit](https://github.com/AnxForever/stylekit) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-19 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
