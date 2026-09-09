@@ -1,10 +1,10 @@
 ## pycon
 
-> This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+> This file provides guidance to coding agents when working with code in this repository.
 
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to coding agents when working with code in this repository.
 
 ## Development Commands
 
@@ -84,6 +84,23 @@ The project uses Docker Compose for local development with services:
 - Ruff handles both linting and formatting for Python code
 - Biome handles linting and formatting for JavaScript/TypeScript
 
+## GraphQL API Conventions
+
+When working in `backend/api`:
+
+- Name Strawberry GraphQL classes after their GraphQL schema types, without a
+  `Type` suffix.
+- Import Django model modules and access models through the module namespace,
+  for example `from job_board import models` and `models.JobListing`.
+- If a file needs models from multiple Django apps, alias the modules, for
+  example `job_board_models` and `conference_models`.
+- Do not alias individual Django models with a `Model` suffix or GraphQL types
+  with a `Type` suffix solely to avoid naming conflicts.
+- Use `strawberry.auto` instead of importing `auto` directly from Strawberry.
+- Use `strawberry.ID` instead of importing `ID` directly from Strawberry.
+- Preserve existing GraphQL schema names when migrating types to Strawberry
+  Django.
+
 ## Local Development
 
 **IMPORTANT**: When running locally, all Python/Django commands must run inside Docker. The local virtual environment will not work.
@@ -104,4 +121,4 @@ Use `docker exec pycon-backend-1` (without `-t` flag for non-interactive/script 
 
 ---
 > Source: [pythonitalia/pycon](https://github.com/pythonitalia/pycon) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-23 -->
+<!-- tomevault:4.0:gemini_md:2026-09-08 -->
