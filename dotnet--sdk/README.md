@@ -1,21 +1,21 @@
 # sdk
 
-> Source: [dotnet/sdk](https://github.com/dotnet/sdk). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [dotnet/sdk](https://github.com/dotnet/sdk). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [dotnet/sdk](https://github.com/dotnet/sdk).
+Original source: `AGENTS.md` in [dotnet/sdk](https://github.com/dotnet/sdk).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (10)
+## Bundled Skills (18)
 
 - [generate-release-notes](https://github.com/dotnet/sdk/tree/main/.claude/skills/generate-release-notes)
 - [validate-static-web-asset-change](https://github.com/dotnet/sdk/tree/main/.claude/skills/validate-static-web-asset-change)
@@ -27,8 +27,16 @@ Original source: `copilot-instructions.md` in [dotnet/sdk](https://github.com/do
 - [sdk](https://github.com/dotnet/sdk/tree/main/.claude/skills/validate-static-web-asset-change/SKILL.md)
 - [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/incremental-test/SKILL.md)
 - [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/migrate-xunit-to-mstest/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/code-review/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/add-cli-command/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/dotnet-aot-compat/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/add-dotnet-aot-command/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/targeted-test/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/add-net-analyzer/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/run-tests/SKILL.md)
+- [sdk](https://github.com/dotnet/sdk/tree/main/.github/skills/update-docs/SKILL.md)
 
-From [dotnet/sdk](https://github.com/dotnet/sdk) — a repo with 3177+ stars on GitHub.
+From [dotnet/sdk](https://github.com/dotnet/sdk) — a repo with 3196+ stars on GitHub.
 
 ---
 
