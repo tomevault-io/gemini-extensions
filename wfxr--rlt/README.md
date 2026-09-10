@@ -1,15 +1,15 @@
 # rlt
 
-> Tome by [wfxr](https://github.com/wfxr/rlt) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [wfxr](https://github.com/wfxr/rlt), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wfxr/rlt](https://github.com/wfxr/rlt).
+Original source: `AGENTS.md` in [wfxr/rlt](https://github.com/wfxr/rlt).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
