@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [BetterDiscord/Installer](https://github.com/BetterDiscord/Installer).
+Original source: `CLAUDE.md` in [BetterDiscord/Installer](https://github.com/BetterDiscord/Installer).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [BetterDiscord/Installer](https://github.com/BetterDiscord/Installer) — a repo with 1798+ stars on GitHub.
+From [BetterDiscord/Installer](https://github.com/BetterDiscord/Installer) — a repo with 1796+ stars on GitHub.
 
 ---
 
