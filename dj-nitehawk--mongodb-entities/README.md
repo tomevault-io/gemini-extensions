@@ -5,11 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [dj-nitehawk/MongoDB.Entities](https://github.com/dj-nitehawk/MongoDB.Entities).
+Original source: `` in [dj-nitehawk/MongoDB.Entities](https://github.com/dj-nitehawk/MongoDB.Entities).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
