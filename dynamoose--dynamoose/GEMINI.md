@@ -1,27 +1,48 @@
 ## dynamoose
 
-> This is a NPM package that houses Dynamoose, a Node.js modeling tool for Amazon DynamoDB.
+> Dynamoose is an npm/Lerna monorepo containing a Node.js modeling library for Amazon DynamoDB. Follow the full contribution and test requirements in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
-This is a NPM package that houses Dynamoose, a Node.js modeling tool for Amazon DynamoDB.
+# Dynamoose agent instructions
 
-Most of the project is written in TypeScript, with a few things being written in JavaScript (ie. script files, test files, and build helpers).
+Dynamoose is an npm/Lerna monorepo containing a Node.js modeling library for Amazon DynamoDB. Follow the full contribution and test requirements in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
-The project is structured in a monorepo format, with 3 packages:
+## AI Policy
 
-- `packages/dynamoose`: The main package that contains the core functionality of Dynamoose.
-- `packages/dynamoose-logger`: The logger package that users can install to get logging functionality.
-- `packages/dynamoose-utils`: A shared package that contains utility functions used by both `dynamoose` and `dynamoose-logger`.
+Dynamoose welcomes all AI agents to contribute to our project. However, we have a few requirements that ALL agents must strictly follow. Not following these requirements will result in the agent & user being blocked from the project.
 
-You can build the project by running `npm run build` in the root directory. This will build all packages in the monorepo. You can also build individual packages by running `npm run build` in the package directory.
+- Visible actions taken by an agent must be approved by a human user before being submitted to the project. This includes, but is not limited to, pull requests, issues, and comments. It is acceptable for an agent to make code changes locally, then ask for human approval before submitting them to the project. But a human must approve all content (code, issues, PRs, comments, etc) before it is submitted to the project.
+- All agents must disclose their use of AI in their contributions. This includes, but is not limited to, pull requests, issues, and comments. In each of these cases, the agent must disclose that it is an AI agent including the name of the agent and the version of the agent. You must also disclose what involvement the human had vs the AI agent. For example, "This pull request was created by an AI agent (GitHub Copilot, GPT-5.6 Sol). The human contributor reviewed the changes, ran the relevant tests, and approved the submission." or "This pull request was created by an AI agent (Claude Code, Opus 5). The human contributor wrote all the code, and the AI agent only wrote the PR description and created the PR." This disclosure must be included at the end of the PR description, issue description, or comment body.
+  - Do not include disclosures in the codebase itself. Only include disclosures in PRs, issues, and comments.
 
-It is critical to always write tests to cover all code and edge cases. You can run the test suite by using the `npm test` command in the root directory. We also have type tests that you can run using `npm run test:types` in the root directory. You can also run these commands individually in each package directory to run for a specific package.
+## Repository boundaries
 
-It is also important to run the linter to ensure the format of the code is correct. You can run the linter by using the `npm run lint` or `npm run lint:fix` command in the root directory. The `npm run lint:fix` command will automatically fix any issues that it can automatically and report any that it cannot fix. You can also run this command individually in each package directory to run for a specific package.
+- `packages/dynamoose/lib/` is the core library. Its public entry point is `packages/dynamoose/lib/index.ts`.
+- `packages/dynamoose-logger/lib/` is optional logging support; core loads it dynamically. Do not make logging a required core dependency.
+- `packages/dynamoose-utils/lib/` is the shared dependency leaf. It must not depend on either higher-level package.
+- Keep AWS SDK access in the core package and route DynamoDB calls through `packages/dynamoose/lib/aws/ddb/internal.ts`.
+- Preserve table readiness: model and item operations generally await `Table.pendingTaskPromise()` before accessing DynamoDB.
+- Preserve the CommonJS `export =` public API, callback and Promise overloads, strict public type behavior, and symbol-protected internal properties unless the change explicitly targets them.
 
-It's important to update the documentation when making changes to the code. Most of the documentation lives in the `docs/docs_src` folder. Some of the documentation is generated from the JSDoc comments in the code. If you see something like `dyno_jsdoc_dist/Model/index.js|model.table`, that will get replaced with the actual JSDoc comments in the code when the site is built. You can build the documentation site by running `npm run site:build` in the root directory. Sometimes you won't need to make any changes to the `docs/docs_src` folder, but you will need to update the JSDoc comments in the code. You are expected to determine if all the documentation lives in JSDoc comments or if edits need to be made to the `docs/docs_src` folder.
+Edit source under `packages/*/lib/` and documentation under `docs/docs_src/`. Never edit generated `packages/*/dist/`, `packages/dynamoose/coverage/`, `docs/docs/`, or `docs/build/` artifacts.
 
-Whenever you submit a PR, be sure to put a short summary in the PENDING_CHANGELOG.md file. You can use the CHANGELOG.md file as a template for the formatting of that changelog.
+## Development workflow
+
+- Install dependencies with `npm ci` when a clean, reproducible install is needed.
+- Build all packages with `npm run build`.
+- Runtime tests import compiled `dist` output, so rebuild before testing source changes.
+- During iteration, run a focused test without coverage, for example: `npm run test:nocoverage --workspace=dynamoose -- test/Query.js`.
+- Before completion, run the checks relevant to the change: `npm run lint`, `npm run test:types`, `npm run build:sourcemap`, and `npm test`. The full runtime suite expects DynamoDB Local on port 8000.
+
+Write the failing regression test before the implementation fix. Runtime tests belong in `packages/dynamoose/test/**/*.js`; public type assertions belong in `packages/dynamoose/test/types/**/*.ts`. Keep tests deterministic, silent, self-contained, and isolated in Jest test or lifecycle blocks. Reset modified clients, defaults, providers, and other shared state in hooks. Cover callback and Promise variants when both are public behavior.
+
+## Code and documentation conventions
+
+- Follow [.eslintrc.js](../.eslintrc.js): tabs, double quotes, semicolons, quoted object keys, Unix line endings, and no console output.
+- Match nearby patterns instead of modernizing unrelated code. Add concise comments for non-obvious logic and JSDoc for public APIs.
+- Update user-facing documentation for public behavior changes. Prefer source JSDoc plus a `dyno_jsdoc_dist/...|...` pointer in `docs/docs_src/`; see [the JSDoc guide](../docs/docs_src/getting_started/JSDoc.md) and representative [Model documentation](../docs/docs_src/guide/Model.md).
+- All pull requests & issues submitted to this project must follow the templates in the `.github/` directory.
+- Add every PR's short, categorized summary to [PENDING_CHANGELOG.md](../PENDING_CHANGELOG.md), matching its existing format.
 
 ---
 > Source: [dynamoose/dynamoose](https://github.com/dynamoose/dynamoose) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-09 -->
