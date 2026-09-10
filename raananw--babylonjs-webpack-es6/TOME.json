@@ -4,7 +4,7 @@
   "repo": "babylonjs-webpack-es6",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/RaananW/babylonjs-webpack-es6",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-10T00:00:43Z"
+  "distributed_at": "2026-09-10T08:51:18Z"
 }
