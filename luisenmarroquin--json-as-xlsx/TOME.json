@@ -4,7 +4,7 @@
   "repo": "json-as-xlsx",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/LuisEnMarroquin/json-as-xlsx",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-09T08:03:18Z"
+  "distributed_at": "2026-09-10T00:51:02Z"
 }
