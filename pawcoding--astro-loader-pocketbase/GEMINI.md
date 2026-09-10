@@ -1,217 +1,121 @@
 ## astro-loader-pocketbase
 
-> This document provides comprehensive instructions for GitHub Copilot and other AI agents working on the `astro-loader-pocketbase` repository.
+> Compact ramp-up guide for AI agents. Each item exists because an agent would likely miss it.
 
-# Copilot Instructions - Astro Loader PocketBase
+# AGENTS.md
 
-This document provides comprehensive instructions for GitHub Copilot and other AI agents working on the `astro-loader-pocketbase` repository.
+Compact ramp-up guide for AI agents. Each item exists because an agent would likely miss it.
 
-## Project Overview
+## Project
 
-This is an Astro content loader package that integrates PocketBase as a data source. It allows Astro sites to load content from PocketBase databases using Astro 5's Content Loader API.
+An Astro content loader package that integrates PocketBase as a data source, using Astro's Content Loader API. Key capabilities: loading PocketBase collections, real-time updates (via `astro-integration-pocketbase`), incremental builds, schema generation/validation, and file handling.
 
-### Key Features
-
-- Content loading from PocketBase collections
-- Real-time updates support (via `astro-integration-pocketbase`)
-- Incremental builds
-- Schema generation and validation
-- File handling and transformations
-
-### Additional documentation
+Relevant upstream documentation:
 
 - [Astro Content Loader API](https://docs.astro.build/en/reference/content-loader-reference/)
 - [PocketBase Documentation](https://pocketbase.io/docs/)
 
-## Repository Structure
+## Environment
 
-```
-src/
-├── loader/              # Core loader functionality
-├── schema/              # Schema handling and generation
-├── types/               # TypeScript type definitions
-├── utils/               # Utility functions
-├── index.ts             # Main export file
-└── pocketbase-loader.ts # Main loader function
-test/                    # Test files
-```
+- Node >= 22.12.0 required; `.nvmrc` specifies node version. Use `nvm use` before anything.
+- Package manager: `npm` (version enforced via `packageManager` field). Do not use pnpm or yarn.
 
-## Development Workflow
-
-### Essential NPM Scripts
-
-#### Code Quality
+## Essential commands
 
 ```bash
-# Format code (required before commit)
-npm run format
-
-# Lint code (oxlint, includes type-checking)
-npm run lint:fix
-
-# Type checking (required before commit)
-npm run typecheck
+npm run format       # oxfmt — format all files
+npm run lint:fix     # oxlint --fix — lint + auto-fix
+npm run typecheck    # tsc --noEmit on src/ and test/
+npm test             # vitest run (unit + e2e, needs PocketBase for e2e)
+npm run test:unit    # unit tests only — no PocketBase needed
+npm run test:e2e     # e2e tests only — PocketBase must be running first
+npm run build        # tsdown → dist/
 ```
 
-#### Testing
+Run a single test file:
 
 ```bash
-# Run all tests
-npm test
+npx vitest run test/path/to/file.spec.ts
+```
 
-# Run only unit tests
-npm run test:unit
+## Pre-commit order (husky enforces this)
 
-# Run only e2e tests
+All three must pass before committing, in this order:
+
+1. `npm run format`
+2. `npm run lint:fix`
+3. `npm run typecheck`
+
+`lint-staged` runs oxfmt + oxlint on staged files automatically. The pre-commit hook also runs `npm run typecheck` if any `.ts` files are staged.
+
+## E2E test setup
+
+E2E tests require a PocketBase instance at `http://localhost:8090`.
+
+```bash
+# One-time: download PocketBase binary to .pocketbase/ (gitignored)
+npm run test:e2e:setup
+
+# Start PocketBase (blocks terminal — use a separate terminal)
+./.pocketbase/pocketbase serve
+
+# Then run e2e tests
 npm run test:e2e
 ```
 
-### Pre-commit Requirements
+Hardcoded test credentials: `test@pawcode.de` / `test1234` (created by the setup script).
 
-Before any commit, the following MUST pass:
+`npm run test:unit` is safe without PocketBase. The vitest global setup (`test/global-setup.ts`) skips the connection check when no e2e-spec files are in scope.
 
-1. `npm run format` - Code formatting
-2. `npm run lint:fix` - Linting with oxlint (and type-checking at the same time)
-3. `npm run typecheck` - TypeScript type checking
+## Code conventions (enforced by oxlint — violations are errors)
 
-These are enforced by husky pre-commit hooks and lint-staged configuration.
+- Use `interface`, not `type`, for object shapes.
+- Use `Array<T>`, not `T[]`.
+- Use `undefined`, never `null` (`unicorn/no-null: error`).
+- Use `import type` for type-only imports (`typescript/consistent-type-imports`).
+- Filenames must be kebab-case (`unicorn/filename-case`).
+- No circular imports (`import/no-cycle`).
+- No CommonJS (`import/no-commonjs`).
+- Max 500 lines per file, 100 lines per function.
+- JS/CJS files are not linted (oxlint ignores `*.{js,cjs}`).
 
-## Testing Guidelines
+## Testing conventions
 
-### Test Structure
+- Unit tests: `*.spec.ts` — mock everything, no real PocketBase.
+- E2E tests: `*.e2e-spec.ts` — use a real PocketBase instance, not mocks.
+- For any PocketBase interaction, write an e2e test instead of mocking the HTTP layer.
+- Reuse helpers from `test/_mocks/`: `createLoaderOptions`, `createLoaderContext`, `StoreMock`, `LoggerMock`, etc.
+- `restoreMocks: true` globally — all `vi.fn()` mocks auto-restore after each test.
+- Access the superuser token in e2e tests via vitest's `ProvidedContext` (injected by global setup).
 
-- **Unit tests**: `*.spec.ts` files
-- **E2E tests**: `*.e2e-spec.ts` files
-- **Mocks**: Located in `test/_mocks/` directory
+## Commit messages
 
-### Test Patterns
-
-#### For Bug Fixes
-
-1. **Always create a test case first** that reproduces the issue
-2. Run the test to confirm it fails
-3. Fix the issue
-4. Verify the test now passes
-5. Add any additional edge case tests
-
-Example:
-
-```typescript
-// Link to the bug report or issue
-test("should handle edge case that was causing the bug", () => {
-  // Arrange: Setup the problematic scenario
-  const problematicInput = createProblematicInput();
-
-  // Act: Execute the function that was buggy
-  const result = functionThatWasBuggy(problematicInput);
-
-  // Assert: Verify it now works correctly
-  expect(result).toBe(expectedCorrectResult);
-});
-```
-
-#### For New Features
-
-- Write tests for each public function
-- Cover happy path, edge cases, and error scenarios
-- Use descriptive test names that explain behavior
-
-#### Test Organization
-
-```typescript
-describe("FunctionName", () => {
-  describe("when normal conditions", () => {
-    test("should return expected result", () => {
-      // Test implementation
-    });
-  });
-
-  describe("when edge case occurs", () => {
-    test("should handle gracefully", () => {
-      // Test implementation
-    });
-  });
-
-  describe("when error occurs", () => {
-    test("should throw appropriate error", () => {
-      // Test implementation
-    });
-  });
-});
-```
-
-## Commit Message Format
-
-This project uses **Conventional Commits** enforced by commitlint:
-
-### Format
+Enforced by commitlint (`@commitlint/config-conventional`):
 
 ```
 <type>(scope): <description>
-
-[optional body]
-
-[optional footer(s)]
 ```
 
-### Types
+Types: `feat`, `fix`, `docs`, `refactor`, `test`, `build`
+Scopes: `loader`, `schema` (or custom)
 
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `refactor`: Code refactoring
-- `test`: Adding or updating tests
-- `build`: Maintenance tasks
+## Branch and release
 
-### Examples
+- Default PR target: `next` branch (pre-release), not `master`.
+- Releases are driven by semantic-release from `master`/`next`. Commit types determine version bumps automatically.
 
-```bash
-feat(loader): add support for file attachments
-fix(schema): handle missing updated field correctly
-docs(README): update installation instructions
-test(utils): add tests for slugify function
-refactor(loader): extract entry parsing logic
-```
+## Build output
 
-### Scope Guidelines
+- Bundler: `tsdown` → `dist/` (ESM only, `.mjs`).
+- Only `dist/` is published to npm.
+- Build runs automatically on `npm publish` via `prepublishOnly`.
 
-Use these scopes when applicable or custom ones:
+## CI notes
 
-- `loader`: Core loading functionality
-- `schema`: Schema-related changes
-
-## Code Conventions
-
-### TypeScript
-
-- Use strict TypeScript configuration
-- Define types in the `types/` directory
-- Import types using `import type` syntax
-- Use relative imports
-- Use descriptive interface names with PascalCase
-
-### Function Organization
-
-- Keep functions small and focused
-- Use descriptive names that explain what the function does
-- Place utility functions in appropriate `utils/` files
-- Export only what's needed externally
-
-### Error Handling
-
-- Provide meaningful error messages
-- Handle async operations properly with try/catch
-
-### Testing
-
-- Use `getSuperuserToken()` for authentication in tests
-- Create temporary collections for testing
-- Clean up test data after each test
-- Use `checkE2eConnection()` to verify PocketBase availability
-- Use existing mocks from `test/_mocks/`
-- Create reusable mocks for common test scenarios
-- For PocketBase interactions create e2e tests that use a real PocketBase instance instead of mocks
+- `HUSKY=0` is set in all CI jobs — do not remove it.
+- CI runs `npm run lint`, `npm run format:check`, `npx tsc --noEmit`, `npm run build`, and `npm test` in sequence.
+- PocketBase is downloaded and started as a background process in CI before tests run.
 
 ---
 > Source: [pawcoding/astro-loader-pocketbase](https://github.com/pawcoding/astro-loader-pocketbase) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-03 -->
+<!-- tomevault:4.0:gemini_md:2026-09-09 -->
