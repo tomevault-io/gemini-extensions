@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lnfiniteMonkeys/TimeLines-hs](https://github.com/lnfiniteMonkeys/TimeLines-hs).
+Original source: `CLAUDE.md` in [lnfiniteMonkeys/TimeLines-hs](https://github.com/lnfiniteMonkeys/TimeLines-hs).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
