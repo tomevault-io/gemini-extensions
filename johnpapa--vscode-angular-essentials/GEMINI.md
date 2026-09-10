@@ -1,86 +1,71 @@
 ## vscode-angular-essentials
 
-> This repository publishes the **Angular Essentials** VS Code extension pack (`johnpapa.angular-essentials`).
+> This repository is a **VS Code extension pack**. Treat it as a metadata/release repo, not an Angular runtime app.
 
-# AGENTS.md
+# Copilot instructions for vscode-angular-essentials
 
-## Project Overview
+This repository is a **VS Code extension pack**. Treat it as a metadata/release repo, not an Angular runtime app.
 
-This repository publishes the **Angular Essentials** VS Code extension pack (`johnpapa.angular-essentials`).
-It is a metadata-first project: the main source of truth is `package.json` (`extensionPack`, metadata, version), with supporting release notes in `CHANGELOG.md` and user-facing docs in `README.md`.
+## Project intent
 
-## Repository Structure
+- Keep the extension pack minimal, stable, and broadly useful for Angular developers.
+- Prefer well-maintained, mainstream extensions over niche additions.
+- Avoid deprecated tooling and references.
 
-- `package.json` — extension manifest, extension pack entries, version, publish scripts
-- `README.md` — marketplace-facing docs and included extension links
-- `CHANGELOG.md` — release history
-- `CONTRIBUTING.md` — contribution process
-- `ISSUE_TEMPLATE.md` / `PULL_REQUEST_TEMPLATE.md` — legacy root templates
-- `.devcontainer/` — development container config
-- `images/` — extension icon assets
+## Core files and responsibilities
 
-## Tech Stack
+- `package.json`
+  - Source of truth for extension metadata, version, and `extensionPack`.
+- `README.md`
+  - Public-facing docs and included extension Marketplace links.
+- `CHANGELOG.md`
+  - Release history and rationale.
+- `CONTRIBUTING.md`
+  - Contributor flow expectations.
 
-- Node.js tooling via npm scripts
-- VS Code extension packaging/publishing via `vsce`
-- No runtime application code; this repo manages extension-pack metadata
+## Conventions mined from prior maintenance
 
-## Build & Run
+- Extension list changes should include docs + changelog updates in the same PR.
+- Remove outdated/deprecated integrations when surfaced in issues/PRs.
+- Keep release changes explicit and small; avoid unrelated churn.
+- Prefer direct Marketplace links over retired badge providers.
 
-- Package extension:
+## Code change conventions
+
+- Make targeted edits only; do not reformat large files unnecessarily.
+- Keep naming consistent with existing extension IDs (exact case where required by Marketplace IDs).
+- Do not add runtime/framework assumptions (no Angular package upgrades in this repo unless explicitly requested).
+
+## Testing and validation conventions
+
+- Run packaging validation after meaningful manifest/docs release changes:
   - `npm run package`
-- Publish extension (maintainers):
-  - `npm run publish`
-- Local extension-pack test:
-  - Open VS Code in this repo and press `F5` (see `vsc-extension-quickstart.md`)
+- For release actions, ensure version and changelog are aligned before publish:
+  - `package.json` version
+  - top changelog entry in `CHANGELOG.md`
 
-## Testing
+## Asset/content rules
 
-There is no unit/integration test suite in this repo.
-Validation is packaging-oriented:
+- `README.md` should match the current `extensionPack` entries.
+- Changelog entries should be chronological, newest first.
+- Keep icon/image references stable unless intentionally updating branding.
 
-- Ensure manifest is valid and pack still builds: `npm run package`
-- Verify docs and manifest stay in sync (`README.md`, `CHANGELOG.md`, `package.json`)
+## Maintenance matrix
 
-## Key Patterns and Conventions
+| If you change | Also review/update | Why |
+| --- | --- | --- |
+| `package.json` `extensionPack` | `README.md` Included table, `CHANGELOG.md` | Keep public docs and release notes synchronized with manifest |
+| `package.json` `version` | `CHANGELOG.md`, release/publish workflow steps | Prevent marketplace version/changelog drift |
+| Included extension IDs | Case-sensitive Marketplace links in `README.md` | Broken IDs/links cause install confusion |
+| Contribution process or review expectations | `CONTRIBUTING.md`, PR template(s) | Keep contributor guidance and review rubric aligned |
+| Legacy templates at repo root | `ISSUE_TEMPLATE.md`, `PULL_REQUEST_TEMPLATE.md` | Keep existing community templates usable and consistent with docs |
 
-- Keep the extension pack curated and broadly useful; avoid niche or deprecated extensions.
-- When changing included extensions, update all linked surfaces in one PR:
-  - `package.json` (`extensionPack`)
-  - `README.md` (Included table links)
-  - `CHANGELOG.md`
-- Use direct VS Marketplace links in README; avoid retired badge providers.
-- Versioning follows release intent:
-  - major for Angular-major branding updates
-  - patch for documentation/maintenance updates
+## What not to do
 
-## CI/CD
-
-This repo does not currently maintain a required CI workflow.
-Release/publish is maintainer-driven via `npm run publish`.
-
-## Adding or Removing an Extension from the Pack
-
-1. Edit `package.json` and update `extensionPack`.
-2. Update `README.md` Included table so docs match manifest.
-3. Add a `CHANGELOG.md` entry in the current release section.
-4. Run `npm run package` to validate packaging.
-5. Open a PR with clear rationale (value, maintenance burden, deprecation risk).
-
-## Common Pitfalls
-
-- Updating only one of README/manifest/changelog and leaving the others stale.
-- Reintroducing deprecated tooling/extensions.
-- Publishing without bumping `package.json` version and changelog.
-- Assuming this is an Angular runtime repo; it is a VS Code extension-pack repo.
-
-## Documentation Status
-
-This repo intentionally has lightweight docs:
-
-- Primary docs: `README.md`, `CONTRIBUTING.md`, `CHANGELOG.md`
-- No separate docs site is currently needed for this project size/scope.
+- Don’t add speculative dependencies or framework tooling.
+- Don’t overwrite existing contributor docs wholesale; patch specific sections.
+- Don’t delete legacy templates unless asked; prefer additive migration.
 
 ---
 > Source: [johnpapa/vscode-angular-essentials](https://github.com/johnpapa/vscode-angular-essentials) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-08 -->
+<!-- tomevault:4.0:gemini_md:2026-09-10 -->
