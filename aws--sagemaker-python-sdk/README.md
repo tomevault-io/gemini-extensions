@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [aws/sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk).
+Original source: `CLAUDE.md` in [aws/sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [aws/sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) — a repo with 2257+ stars on GitHub.
+From [aws/sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) — a repo with 2260+ stars on GitHub.
 
 ---
 
