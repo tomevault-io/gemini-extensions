@@ -1,15 +1,10 @@
 ## seekdb
 
-> - New C++ classes, including interface classes, do not need the legacy `Ob` prefix.
+> When performing a pull request code review, read and follow
 
-# Project Agent Guidance
-
-## C++ Type Naming
-
-- New C++ classes, including interface classes, do not need the legacy `Ob` prefix.
-- Keep the `I` prefix for interface classes. For example, use `ICacheMemoryGetter` instead of `ObICacheMemoryGetter`.
-- Do not rename existing types only to remove the `Ob` prefix unless the task explicitly requires it.
+When performing a pull request code review, read and follow
+`/.agents/skills/code-review/SKILL.md`.
 
 ---
 > Source: [oceanbase/seekdb](https://github.com/oceanbase/seekdb) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-08-09 -->
+<!-- tomevault:4.0:gemini_md:2026-09-10 -->
