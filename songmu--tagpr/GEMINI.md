@@ -1,28 +1,19 @@
 ## tagpr
 
-> - This is a Go project. Use `go build` to build and `go test ./...` to run tests.
+> `docs/site` is a Hugo module, not a Go source module.
 
-# Copilot Instructions for tagpr
+# Contributor instructions
 
-## Language & Build
+## Hugo site dependencies
 
-- This is a Go project. Use `go build` to build and `go test ./...` to run tests.
+`docs/site` is a Hugo module, not a Go source module.
 
-## Code Quality Checks
-
-Before committing, always run the following in order:
-
-1. `goimports -w .` — format code and organize imports
-2. `go vet ./...` — check for common errors
-3. `staticcheck ./...` — run static analysis
-
-All three must pass with no errors before pushing.
-
-## Testing
-
-- Run `go test ./...` to execute all tests.
-- Ensure all existing tests pass after making changes.
+- Never run `go mod tidy` in `docs/site`. It removes Hugo theme dependencies,
+  such as Hextra, because they are not Go packages.
+- Use `make docs-deps` or run `hugo mod tidy` from `docs/site` instead.
+- Running `go mod tidy` at the repository root is safe; it does not traverse
+  into the nested `docs/site` module.
 
 ---
 > Source: [Songmu/tagpr](https://github.com/Songmu/tagpr) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-29 -->
+<!-- tomevault:4.0:gemini_md:2026-09-09 -->
