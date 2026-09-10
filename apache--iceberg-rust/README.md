@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [apache/iceberg-rust](https://github.com/apache/iceberg-rust).
+Original source: `copilot-instructions.md` in [apache/iceberg-rust](https://github.com/apache/iceberg-rust).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [apache/iceberg-rust](https://github.com/apache/iceberg-rust) — a repo with 1348+ stars on GitHub.
+From [apache/iceberg-rust](https://github.com/apache/iceberg-rust) — a repo with 1399+ stars on GitHub.
 
 ---
 
