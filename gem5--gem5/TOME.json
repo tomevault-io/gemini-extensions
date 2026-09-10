@@ -4,7 +4,7 @@
   "repo": "gem5",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/gem5/gem5",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-10T11:28:05Z"
+  "distributed_at": "2026-09-10T17:30:58Z"
 }
