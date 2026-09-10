@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [tui-cs/Terminal.Gui](https://github.com/tui-cs/Terminal.Gui).
+Original source: `.cursor/rules/*.mdc` in [tui-cs/Terminal.Gui](https://github.com/tui-cs/Terminal.Gui).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [tui-cs/Terminal.Gui](https://github.com/tui-cs/Terminal.Gui) — a repo with 11206+ stars on GitHub.
+From [tui-cs/Terminal.Gui](https://github.com/tui-cs/Terminal.Gui) — a repo with 11207+ stars on GitHub.
 
 ---
 
