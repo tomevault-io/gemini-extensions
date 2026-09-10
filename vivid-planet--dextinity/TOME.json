@@ -4,7 +4,7 @@
   "repo": "dextinity",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/vivid-planet/dextinity",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-09T11:48:40Z"
+  "distributed_at": "2026-09-10T11:21:56Z"
 }
