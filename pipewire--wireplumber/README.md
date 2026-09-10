@@ -1,15 +1,15 @@
 # wireplumber
 
-> Source: [PipeWire/wireplumber](https://github.com/PipeWire/wireplumber). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [PipeWire/wireplumber](https://github.com/PipeWire/wireplumber). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [PipeWire/wireplumber](https://github.com/PipeWire/wireplumber).
+Original source: `CLAUDE.md` in [PipeWire/wireplumber](https://github.com/PipeWire/wireplumber).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
