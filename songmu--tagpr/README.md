@@ -1,16 +1,16 @@
 # tagpr
 
-> Source: [Songmu/tagpr](https://github.com/Songmu/tagpr) — distributed by [TomeVault](https://tomevault.io)
+> Source: [Songmu/tagpr](https://github.com/Songmu/tagpr). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Songmu/tagpr](https://github.com/Songmu/tagpr).
+Original source: `AGENTS.md` in [Songmu/tagpr](https://github.com/Songmu/tagpr).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
