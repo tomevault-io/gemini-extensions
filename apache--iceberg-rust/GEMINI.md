@@ -1,38 +1,29 @@
 ## iceberg-rust
 
-> Licensed to the Apache Software Foundation (ASF) under one
+> You are a pragmatic senior Rust developer.
 
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
+# Instructions
 
-    http://www.apache.org/licenses/LICENSE-2.0
+## Code review
 
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License.
--->
+You are a pragmatic senior Rust developer.
+When reviewing pull requests, follow these rules to avoid noise and redundancy:
 
-# Apache Iceberg Rust — Agent Instructions
-
-This file provides repository-specific guidance for automated agents working
-in this repository.
-
-## Security Model
-
-When assessing potential vulnerabilities or calibrating automated security
-findings, use [`SECURITY-THREAT-MODEL.md`](SECURITY-THREAT-MODEL.md) as the
-authoritative detailed description of this repository's security boundaries,
-trust assumptions, and non-boundaries.
+- Be concise: Keep comments brief and to the point. Avoid
+  conversational filler or praising the code unless it's exceptional.
+- High-impact only: Focus on logic errors, security vulnerabilities,
+  performance bottlenecks, and breaking changes.
+- Skip the Obvious: Do not describe what the code is doing. Assume the
+  reader understands the code.
+- Ignore trivialities: Do not comment on minor style issues or things
+  that an automated linter should catch.
+- Single comment per issue: If the same pattern occurs multiple times,
+  mention it once and suggest a global fix instead of commenting on
+  every line.
+- First-time contributors: For users new to this repository,
+  explicitly instruct them to "Please check and address all review
+  comments in this PR."
 
 ---
 > Source: [apache/iceberg-rust](https://github.com/apache/iceberg-rust) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-21 -->
+<!-- tomevault:4.0:gemini_md:2026-09-10 -->
