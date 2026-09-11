@@ -7,11 +7,11 @@ ESPHome external component that turns an ESP32 into an AirPlay 2 receiver. Non-C
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [henriklied/esphome-airplay2](https://github.com/henriklied/esphome-airplay2).
+Original source: `AGENTS.md` in [henriklied/esphome-airplay2](https://github.com/henriklied/esphome-airplay2).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
