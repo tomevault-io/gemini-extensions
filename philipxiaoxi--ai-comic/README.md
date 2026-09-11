@@ -7,11 +7,11 @@ AI 漫画创作平台 是一个 AI 驱动的漫画自动生成工具。用户通
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [philipxiaoxi/ai-comic](https://github.com/philipxiaoxi/ai-comic).
+Original source: `AGENTS.md` in [philipxiaoxi/ai-comic](https://github.com/philipxiaoxi/ai-comic).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
