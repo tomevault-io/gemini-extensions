@@ -7,12 +7,12 @@ Agent skills for Angular development – the companion repo for the Agentic Engi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [L-X-T/ng-agentic-skills](https://github.com/L-X-T/ng-agentic-skills).
+Original source: `AGENTS.md` in [L-X-T/ng-agentic-skills](https://github.com/L-X-T/ng-agentic-skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
