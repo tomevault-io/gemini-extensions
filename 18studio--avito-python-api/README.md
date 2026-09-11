@@ -7,11 +7,11 @@ Avito SDK для python
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [18studio/avito_python_api](https://github.com/18studio/avito_python_api).
+Original source: `AGENTS.md` in [18studio/avito_python_api](https://github.com/18studio/avito_python_api).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
