@@ -7,11 +7,11 @@ Fudan University Natural Language Processing and Large Language Models, Fall 202
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [baojian/llm-26-fall](https://github.com/baojian/llm-26-fall).
+Original source: `AGENTS.md` in [baojian/llm-26-fall](https://github.com/baojian/llm-26-fall).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
