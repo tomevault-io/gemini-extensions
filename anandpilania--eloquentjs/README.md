@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [AnandPilania/eloquentjs](https://github.com/AnandPilania/eloquentjs).
+Original source: `.windsurf/rules/*.md` in [AnandPilania/eloquentjs](https://github.com/AnandPilania/eloquentjs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
-- **Windsurf** — `project-config.md`
 
-From [AnandPilania/eloquentjs](https://github.com/AnandPilania/eloquentjs) — a repo with 73+ stars on GitHub.
+From [AnandPilania/eloquentjs](https://github.com/AnandPilania/eloquentjs) — a repo with 74+ stars on GitHub.
 
 ---
 
