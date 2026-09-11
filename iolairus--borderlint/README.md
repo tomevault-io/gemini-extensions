@@ -7,11 +7,11 @@ A tool for mapping where your AI data flows and governing it against your reside
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [iolairus/borderlint](https://github.com/iolairus/borderlint).
+Original source: `AGENTS.md` in [iolairus/borderlint](https://github.com/iolairus/borderlint).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
