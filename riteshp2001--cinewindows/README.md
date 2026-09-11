@@ -7,12 +7,12 @@ A modern Qt 6 desktop media player built with QML, C++20, and libmpv, with hardw
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Riteshp2001/CineWindows](https://github.com/Riteshp2001/CineWindows).
+Original source: `AGENTS.md` in [Riteshp2001/CineWindows](https://github.com/Riteshp2001/CineWindows).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
