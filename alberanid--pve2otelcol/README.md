@@ -7,11 +7,11 @@ collect logs from a Proxmox node and its LXC containers and send them to a OpenT
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [alberanid/pve2otelcol](https://github.com/alberanid/pve2otelcol).
+Original source: `AGENTS.md` in [alberanid/pve2otelcol](https://github.com/alberanid/pve2otelcol).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
