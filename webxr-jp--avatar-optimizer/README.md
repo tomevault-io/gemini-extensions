@@ -7,11 +7,11 @@ XRift向けにThree.js上でアバターを最適化するためのライブラ�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [WebXR-JP/avatar-optimizer](https://github.com/WebXR-JP/avatar-optimizer).
+Original source: `AGENTS.md` in [WebXR-JP/avatar-optimizer](https://github.com/WebXR-JP/avatar-optimizer).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
