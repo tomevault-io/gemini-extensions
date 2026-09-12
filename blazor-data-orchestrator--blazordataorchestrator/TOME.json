@@ -4,7 +4,7 @@
   "repo": "BlazorDataOrchestrator",
   "description": "Agentic platform to create deploy schedule and execute containerized jobs ",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Blazor-Data-Orchestrator/BlazorDataOrchestrator",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-12T18:31:24Z"
+  "distributed_at": "2026-09-12T18:32:47Z"
 }
