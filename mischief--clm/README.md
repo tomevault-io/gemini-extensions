@@ -7,11 +7,11 @@ embeddable llm agent in c with lua plugins
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [mischief/clm](https://github.com/mischief/clm).
+Original source: `CLAUDE.md` in [mischief/clm](https://github.com/mischief/clm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
