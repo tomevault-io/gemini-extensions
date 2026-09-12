@@ -7,11 +7,11 @@ mSpace Skill for AI Assisted Coding that supports A-Z implementation of telco AP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hSenidMobileCPaaS/mSpace-as-a-skill](https://github.com/hSenidMobileCPaaS/mSpace-as-a-skill).
+Original source: `CLAUDE.md` in [hSenidMobileCPaaS/mSpace-as-a-skill](https://github.com/hSenidMobileCPaaS/mSpace-as-a-skill).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
