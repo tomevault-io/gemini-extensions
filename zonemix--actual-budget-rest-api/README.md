@@ -7,11 +7,11 @@ Actual Budget RESTful API built on top of the Actual Budget API npm package
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ZoneMix/actual-budget-rest-api](https://github.com/ZoneMix/actual-budget-rest-api).
+Original source: `AGENTS.md` in [ZoneMix/actual-budget-rest-api](https://github.com/ZoneMix/actual-budget-rest-api).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
