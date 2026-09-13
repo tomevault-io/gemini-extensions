@@ -1,0 +1,44 @@
+{
+  "name": "claude-code-2-days",
+  "owner": "hoanghd218",
+  "repo": "claude-code-2-days",
+  "description": "66+ Claude Code skills curated by Tony Hoang for Freedom Builders community \u2014 Marketing/Kane series, HyperFrames video, docs, design, dev tools",
+  "type": "config",
+  "source_format": "CLAUDE.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [],
+  "source_url": "https://github.com/hoanghd218/claude-code-2-days",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-09-13T09:35:38Z"
+}
