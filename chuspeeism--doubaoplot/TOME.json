@@ -1,0 +1,44 @@
+{
+  "name": "doubaoplot",
+  "owner": "chuspeeism",
+  "repo": "doubaoplot",
+  "description": "DoubaoPlot \u2014 \u5728\u8c46\u5305/\u8c46\u5305\u5de5\u4f5c\u91cc\u7528 Origin \u753b\u53ef\u7f16\u8f91\u7684\u79d1\u7814\u56fe\uff0c\u4e5f\u652f\u6301 Codex\u3001Claude Code\u3002\u57fa\u4e8e hang-jin/editaplot \u7684\u4e8c\u6b21\u521b\u4f5c\uff0c\u589e\u52a0 45 \u56fe\u53ef\u70b9\u9009\u62e9\u5668\u3002",
+  "type": "config",
+  "source_format": "AGENTS.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [],
+  "source_url": "https://github.com/chuspeeism/doubaoplot",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-09-13T08:48:53Z"
+}
