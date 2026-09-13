@@ -7,11 +7,11 @@ Obzorarr is a "Wrapped for Plex" application that syncs viewing history from you
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [edbfi/obzorarr](https://github.com/edbfi/obzorarr).
+Original source: `CLAUDE.md` in [edbfi/obzorarr](https://github.com/edbfi/obzorarr).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
