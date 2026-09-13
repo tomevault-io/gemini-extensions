@@ -7,11 +7,11 @@ Fully typed frontend framework for Python with server events and Alpine.js, insp
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [citry-dev/citry](https://github.com/citry-dev/citry).
+Original source: `CLAUDE.md` in [citry-dev/citry](https://github.com/citry-dev/citry).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
