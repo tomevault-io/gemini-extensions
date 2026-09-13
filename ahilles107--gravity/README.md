@@ -7,11 +7,11 @@ Gravity — a desktop workspace for AI coding agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ahilles107/gravity](https://github.com/ahilles107/gravity).
+Original source: `AGENTS.md` in [ahilles107/gravity](https://github.com/ahilles107/gravity).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
