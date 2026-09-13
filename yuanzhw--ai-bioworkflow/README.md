@@ -7,12 +7,12 @@ Auditable bioinformatics workflow compiler: Catalog-bound planning, Workflow IR,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [yuanzhw/AI-bioworkflow](https://github.com/yuanzhw/AI-bioworkflow).
+Original source: `AGENTS.md` in [yuanzhw/AI-bioworkflow](https://github.com/yuanzhw/AI-bioworkflow).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
