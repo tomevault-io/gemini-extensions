@@ -7,13 +7,13 @@ STEER — AI4R (AI for Research) experiment framework for auto-research and auto
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [xieyulai/steer](https://github.com/xieyulai/steer).
+Original source: `.cursor/rules/*.mdc` in [xieyulai/steer](https://github.com/xieyulai/steer).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
