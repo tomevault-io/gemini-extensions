@@ -4,7 +4,7 @@
   "repo": "antigravity-patch-proxy-remote",
   "description": "One IDE, every model. Custom LLM proxy for Google Antigravity IDE and 2.0 and control remote",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Aminetwiti/antigravity-patch-proxy-remote",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-15T02:32:14Z"
+  "distributed_at": "2026-09-15T03:06:23Z"
 }
