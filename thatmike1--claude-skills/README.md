@@ -7,11 +7,11 @@ stuff i made for myself, some of it orignally quite situational, but now general
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [thatmike1/claude-skills](https://github.com/thatmike1/claude-skills).
+Original source: `AGENTS.md` in [thatmike1/claude-skills](https://github.com/thatmike1/claude-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
