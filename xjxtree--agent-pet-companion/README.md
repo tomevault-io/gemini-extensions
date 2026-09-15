@@ -7,11 +7,11 @@ Native macOS AI desktop pet companion for coding agents
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [xjxtree/agent-pet-companion](https://github.com/xjxtree/agent-pet-companion).
+Original source: `AGENTS.md` in [xjxtree/agent-pet-companion](https://github.com/xjxtree/agent-pet-companion).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
