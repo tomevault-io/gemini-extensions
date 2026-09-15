@@ -7,11 +7,11 @@ One repository for every rebase project: PigroCRM, the rebase hub and the public
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [letsrebase/rebase](https://github.com/letsrebase/rebase).
+Original source: `AGENTS.md` in [letsrebase/rebase](https://github.com/letsrebase/rebase).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
