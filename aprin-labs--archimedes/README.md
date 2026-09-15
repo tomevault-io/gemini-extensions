@@ -7,11 +7,11 @@ AI trading strategies that fuse user intent with market data, academic research,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [aprin-labs/archimedes](https://github.com/aprin-labs/archimedes).
+Original source: `AGENTS.md` in [aprin-labs/archimedes](https://github.com/aprin-labs/archimedes).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
