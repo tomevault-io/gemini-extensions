@@ -7,11 +7,11 @@ A memory-frugal, multiplatform, layered raster image editor built with Qt (PySid
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [CryptoJones/Photoslop](https://github.com/CryptoJones/Photoslop).
+Original source: `CLAUDE.md` in [CryptoJones/Photoslop](https://github.com/CryptoJones/Photoslop).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
