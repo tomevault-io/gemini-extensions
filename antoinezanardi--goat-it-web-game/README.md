@@ -7,12 +7,12 @@ Goat It Web Game is a web game built with Nuxt 4 and Vue 3, part of the Goat It 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [antoinezanardi/goat-it-web-game](https://github.com/antoinezanardi/goat-it-web-game).
+Original source: `AGENTS.md` in [antoinezanardi/goat-it-web-game](https://github.com/antoinezanardi/goat-it-web-game).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
