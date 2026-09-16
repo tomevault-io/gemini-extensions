@@ -5,12 +5,12 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [oaslananka/kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro).
+Original source: `copilot-instructions.md` in [oaslananka/kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -35,7 +35,7 @@ Original source: `AGENTS.md` in [oaslananka/kicad-mcp-pro](https://github.com/oa
 - [kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro/tree/main/integrations/claude-code/kicad-pcb-review-skill/SKILL.md)
 - [kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro/tree/main/.github/skills/code-review/SKILL.md)
 
-From [oaslananka/kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro) — a repo with 77+ stars on GitHub.
+From [oaslananka/kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro) — a repo with 0+ stars on GitHub.
 
 ---
 
