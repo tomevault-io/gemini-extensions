@@ -4,7 +4,7 @@
   "repo": "goat-it-web-game",
   "description": "Goat It Web Game is a web game built with Nuxt 4 and Vue 3, part of the Goat It app ecosystem.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/antoinezanardi/goat-it-web-game",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-16T10:32:31Z"
+  "distributed_at": "2026-09-16T10:35:38Z"
 }
