@@ -7,11 +7,11 @@ OpenXR VR mod for Prey (2017). Research build - stereo, 6DoF, motion controls, n
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [phunkaeg/PreyVR](https://github.com/phunkaeg/PreyVR).
+Original source: `AGENTS.md` in [phunkaeg/PreyVR](https://github.com/phunkaeg/PreyVR).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
