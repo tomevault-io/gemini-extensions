@@ -4,7 +4,7 @@
   "repo": "kicad-mcp-pro",
   "description": "",
   "type": "tome",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -143,5 +143,5 @@
   ],
   "source_url": "https://github.com/oaslananka/kicad-mcp-pro",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-09T00:57:24Z"
+  "distributed_at": "2026-09-16T11:32:57Z"
 }
