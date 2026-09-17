@@ -7,12 +7,12 @@ NestJS integration for Temporal.io with Worker and Client support
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hmake98/nestjs-temporal-core](https://github.com/hmake98/nestjs-temporal-core).
+Original source: `copilot-instructions.md` in [hmake98/nestjs-temporal-core](https://github.com/hmake98/nestjs-temporal-core).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
