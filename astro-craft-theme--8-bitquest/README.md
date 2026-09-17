@@ -7,11 +7,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Astro-Craft-Theme/8-BitQuest](https://github.com/Astro-Craft-Theme/8-BitQuest).
+Original source: `AGENTS.md` in [Astro-Craft-Theme/8-BitQuest](https://github.com/Astro-Craft-Theme/8-BitQuest).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
