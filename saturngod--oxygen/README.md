@@ -7,11 +7,11 @@ Streaming transcode server with S3
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [saturngod/oxygen](https://github.com/saturngod/oxygen).
+Original source: `AGENTS.md` in [saturngod/oxygen](https://github.com/saturngod/oxygen).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
