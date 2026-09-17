@@ -7,12 +7,12 @@ Structured file edits for AI agents (JSON/YAML/TOML, markdown, AST, dry-run, MCP
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [patchloom/patchloom](https://github.com/patchloom/patchloom).
+Original source: `CLAUDE.md` in [patchloom/patchloom](https://github.com/patchloom/patchloom).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
