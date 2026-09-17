@@ -7,11 +7,11 @@ A personal marketplace of AI-oriented plugins for the GitHub Copilot CLI.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [urikanonov/ai-marketplace](https://github.com/urikanonov/ai-marketplace).
+Original source: `AGENTS.md` in [urikanonov/ai-marketplace](https://github.com/urikanonov/ai-marketplace).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
