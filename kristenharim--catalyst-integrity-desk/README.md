@@ -7,11 +7,11 @@ An auditable monitor for the moment a biotech investment thesis quietly stops be
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kristenharim/catalyst-integrity-desk](https://github.com/kristenharim/catalyst-integrity-desk).
+Original source: `AGENTS.md` in [kristenharim/catalyst-integrity-desk](https://github.com/kristenharim/catalyst-integrity-desk).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
