@@ -7,13 +7,13 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [openstarterkit/nextjs-saas-starter-kit](https://github.com/openstarterkit/nextjs-saas-starter-kit).
+Original source: `AGENTS.md` in [openstarterkit/nextjs-saas-starter-kit](https://github.com/openstarterkit/nextjs-saas-starter-kit).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
