@@ -7,13 +7,13 @@ One AI trade decision every Monad block. Jev on Kuru MON-USDC.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [jarrodwatts/jev-trader](https://github.com/jarrodwatts/jev-trader).
+Original source: `CLAUDE.md` in [jarrodwatts/jev-trader](https://github.com/jarrodwatts/jev-trader).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
