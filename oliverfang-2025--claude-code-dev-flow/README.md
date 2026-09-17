@@ -7,12 +7,12 @@ dev-flow: 完整工程开发整套 skill（13-phase 编排 + gates 执行保障 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Oliverfang-2025/claude-code-dev-flow](https://github.com/Oliverfang-2025/claude-code-dev-flow).
+Original source: `CLAUDE.md` in [Oliverfang-2025/claude-code-dev-flow](https://github.com/Oliverfang-2025/claude-code-dev-flow).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
