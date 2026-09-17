@@ -7,11 +7,11 @@ A fast, provider-independent coding agent for the terminal, written in Rust.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [whycorporation/whycodes](https://github.com/whycorporation/whycodes).
+Original source: `AGENTS.md` in [whycorporation/whycodes](https://github.com/whycorporation/whycodes).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
