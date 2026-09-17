@@ -7,11 +7,11 @@ Rust terminal UI for BitTorrent search and downloads.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Ishannaik/harbour](https://github.com/Ishannaik/harbour).
+Original source: `AGENTS.md` in [Ishannaik/harbour](https://github.com/Ishannaik/harbour).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
