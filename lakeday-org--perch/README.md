@@ -7,11 +7,11 @@ Semantic code linting with Jev
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lakeday-org/perch](https://github.com/lakeday-org/perch).
+Original source: `CLAUDE.md` in [lakeday-org/perch](https://github.com/lakeday-org/perch).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
