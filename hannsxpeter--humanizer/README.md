@@ -7,12 +7,12 @@ Pure-prompt skill that de-slops AI-sounding prose and rewrites it in a writer's 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [hannsxpeter/humanizer](https://github.com/hannsxpeter/humanizer).
+Original source: `AGENTS.md` in [hannsxpeter/humanizer](https://github.com/hannsxpeter/humanizer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
