@@ -7,11 +7,11 @@ Reproduction code for "A Single Neuron Is Sufficient to Bypass Safety Alignment 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [apple-aiml-research/ml-refusal-neurons](https://github.com/apple-aiml-research/ml-refusal-neurons).
+Original source: `AGENTS.md` in [apple-aiml-research/ml-refusal-neurons](https://github.com/apple-aiml-research/ml-refusal-neurons).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
