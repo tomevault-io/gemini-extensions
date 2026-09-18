@@ -7,11 +7,11 @@ Intent on paper, agents on the line, and every merge remembers why.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kidus-tiliksew/conveyor](https://github.com/kidus-tiliksew/conveyor).
+Original source: `AGENTS.md` in [kidus-tiliksew/conveyor](https://github.com/kidus-tiliksew/conveyor).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
