@@ -7,11 +7,11 @@ Identity broker for AI agents with OAuth2 delegation and consent management
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [zalando-incubator/agentic-identity-broker](https://github.com/zalando-incubator/agentic-identity-broker).
+Original source: `CLAUDE.md` in [zalando-incubator/agentic-identity-broker](https://github.com/zalando-incubator/agentic-identity-broker).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
