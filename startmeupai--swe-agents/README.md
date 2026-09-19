@@ -7,12 +7,12 @@ Portable Codex, Claude Code, and GitHub Copilot agentic engineering reference
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [startmeupai/swe-agents](https://github.com/startmeupai/swe-agents).
+Original source: `CLAUDE.md` in [startmeupai/swe-agents](https://github.com/startmeupai/swe-agents).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
