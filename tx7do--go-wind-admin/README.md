@@ -5,15 +5,15 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.windsurf/rules/*.md` in [tx7do/go-wind-admin](https://github.com/tx7do/go-wind-admin).
+Original source: `AGENTS.md` in [tx7do/go-wind-admin](https://github.com/tx7do/go-wind-admin).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 ## Bundled Skills (5)
 
