@@ -7,11 +7,11 @@ Open-source, self-hostable Rust runtime for running Cloud Agents.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [davidondrej/cloudroom-core](https://github.com/davidondrej/cloudroom-core).
+Original source: `CLAUDE.md` in [davidondrej/cloudroom-core](https://github.com/davidondrej/cloudroom-core).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
