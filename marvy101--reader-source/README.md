@@ -7,11 +7,11 @@ Open-source native macOS AI reading workspace for PDF, EPUB, and TXT with highli
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Marvy101/reader-source](https://github.com/Marvy101/reader-source).
+Original source: `CLAUDE.md` in [Marvy101/reader-source](https://github.com/Marvy101/reader-source).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
