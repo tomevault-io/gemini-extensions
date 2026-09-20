@@ -7,11 +7,11 @@ Propuesta de subida de materiales
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [edwin0975/adipa-material-docentes](https://github.com/edwin0975/adipa-material-docentes).
+Original source: `AGENTS.md` in [edwin0975/adipa-material-docentes](https://github.com/edwin0975/adipa-material-docentes).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
