@@ -1,40 +1,34 @@
-## ai-knowledge-base
+## ai-workflow
 
-> AI knowledge-base index — what to trust and keep in sync
+> AI implementation workflow — inspect, verify, senior review before PR
 
 
-# AI Knowledge Base Index
+# AI workflow (always apply)
 
-Use this map to pick the **right** source of truth. Prefer these over guessing from memory.
+Full standards: [docs/ai/CODING_STANDARDS.md](../../docs/ai/CODING_STANDARDS.md) · Repo map: [docs/ai/ZIZKADB_MAPPINGS.md](../../docs/ai/ZIZKADB_MAPPINGS.md)
 
-## Canonical sources (trust these)
+## Lifecycle (every meaningful task)
 
-| Document | Role |
-|---|---|
-| `AGENTS.md` | Repo-root entry for all AI tools |
-| `docs/ai/CODING_STANDARDS.md` | Full team engineering standards (44 sections) |
-| `docs/ai/ZIZKADB_MAPPINGS.md` | How standards map to this repo's folders |
-| `docs/ai/README.md` | AI-assisted development map |
-| `docs/ai/MAINTAINER.md` | Maintainer-only PR/issue metadata |
-| Root `CLAUDE.md` | Stack, module map, test commands |
-| `dashboard/DASHBOARD_KNOWLEDGE_BASE.md` | Dashboard flows, API contract, per-screen behavior |
-| `core/CLAUDE.md` | Router map, auth tree, asyncpg patterns |
-| `examples/CLAUDE.md` | Runnable example agents |
-| `docs/adr/` | Architectural decisions (incl. ADR-008 AI workflow) |
-| `.cursor/rules/*.mdc` | Focused agent guides (always-on + globs) |
-| `.cursor/skills/zizkadb-*/SKILL.md` | Setup, test, release workflows |
+1. **Understand** — requirement, acceptance criteria, edge cases.
+2. **Inspect** — read relevant code, tests, KB/ADR, `lib/api.ts`, schema; search for reuse.
+3. **Impact** — list consumers, API contracts, DB, cache, auth, docs that could break.
+4. **Implement** — smallest clean diff; match [ZIZKADB_MAPPINGS.md](../../docs/ai/ZIZKADB_MAPPINGS.md).
+5. **Test** — run layer commands from [zizkadb-test skill](../skills/zizkadb-test/SKILL.md).
+6. **Document** — update canonical docs in the **same** PR when behavior changes.
+7. **Senior review** — review your own diff; fix before PR.
+8. **PR** — per [CONTRIBUTING.md](../../CONTRIBUTING.md): open a GitHub issue with the right label (`bug`, `enhancement`, `documentation`) before the branch; **PR description must start with `Fixes #N`** (issue mentioned in the body, not only the branch name); CI must pass.
 
-## OSS repo scope (important)
+## Must not
 
-This open-source tree ships the **tenant dashboard**, API, SDKs, MCP, and marketing/community surfaces. It does **not** include the managed-cloud **operator admin console** (`/admin`, `/v1/admin/*`). Do not implement admin routes here.
+- Guess when the repo can be read; blindly overwrite files.
+- Claim tests/lint/build passed without running them.
+- Commit secrets; log API keys or tokens.
+- Modify unrelated files; speculative refactors.
+- Skip server-side authorization; trust client-supplied tenant IDs.
 
-## Keep docs accurate
+## Definition of done
 
-When your change affects behavior listed in a KB section, update that doc **in the same PR**.
-
-## Billing reality
-
-No Stripe/checkout gate. Signup uses `selectBillingPlan` after OTP. `billing_status_payload()` always returns `has_access: true`.
+Code works **and** is testable, scoped, and documented if contracts changed. See CODING_STANDARDS.md §44.
 
 ---
 > Source: [ZIZKA-AI-SL/ZizkaDB](https://github.com/ZIZKA-AI-SL/ZizkaDB) — distributed by [TomeVault](https://tomevault.io).
