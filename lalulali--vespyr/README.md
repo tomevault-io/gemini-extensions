@@ -7,11 +7,11 @@ A platform-agnostic, file-based multi-agent engine. Install 20 specialized AI pe
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [lalulali/vespyr](https://github.com/lalulali/vespyr).
+Original source: `AGENTS.md` in [lalulali/vespyr](https://github.com/lalulali/vespyr).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
