@@ -7,11 +7,11 @@ SwiftLearningApp 是一个 Swift 语言学习应用，使用 SwiftUI 构建，�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [SSLoong/SwiftLearningApp](https://github.com/SSLoong/SwiftLearningApp).
+Original source: `AGENTS.md` in [SSLoong/SwiftLearningApp](https://github.com/SSLoong/SwiftLearningApp).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
