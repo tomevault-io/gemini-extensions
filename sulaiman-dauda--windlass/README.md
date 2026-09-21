@@ -7,11 +7,11 @@ Lightweight self-hosted Docker Compose control plane: projects, Git deployments,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Sulaiman-Dauda/windlass](https://github.com/Sulaiman-Dauda/windlass).
+Original source: `AGENTS.md` in [Sulaiman-Dauda/windlass](https://github.com/Sulaiman-Dauda/windlass).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
