@@ -7,11 +7,11 @@ See how one change in a PR flows into the rest. Skip the noise.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [LalitSinghRana/pr-constellation](https://github.com/LalitSinghRana/pr-constellation).
+Original source: `AGENTS.md` in [LalitSinghRana/pr-constellation](https://github.com/LalitSinghRana/pr-constellation).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
