@@ -7,11 +7,11 @@ Audio player and library manager for Linux (Rust + GTK4) openly inspired by iTun
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [open-sustain/sustain](https://github.com/open-sustain/sustain).
+Original source: `CLAUDE.md` in [open-sustain/sustain](https://github.com/open-sustain/sustain).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
