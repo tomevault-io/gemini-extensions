@@ -7,11 +7,11 @@ Anvilate is an open-source, local-first design agent for mechanical engineers. D
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [clay-good/anvilate](https://github.com/clay-good/anvilate).
+Original source: `AGENTS.md` in [clay-good/anvilate](https://github.com/clay-good/anvilate).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
