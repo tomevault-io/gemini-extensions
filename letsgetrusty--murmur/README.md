@@ -7,11 +7,11 @@ Free, private, open-source voice dictation for developers. Built by Let's Get Ru
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [letsgetrusty/Murmur](https://github.com/letsgetrusty/Murmur).
+Original source: `AGENTS.md` in [letsgetrusty/Murmur](https://github.com/letsgetrusty/Murmur).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
