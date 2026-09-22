@@ -4,7 +4,7 @@
   "repo": "claude-rename-agent",
   "description": "AI-powered file renaming agent built with Claude Agent SDK",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/omarshahine/claude-rename-agent",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-22T06:32:22Z"
+  "distributed_at": "2026-09-22T06:57:13Z"
 }
