@@ -7,11 +7,11 @@ Local MCP server for cross-agent adversarial code review — Claude Code and Cod
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [subvertnormality/paranoia](https://github.com/subvertnormality/paranoia).
+Original source: `AGENTS.md` in [subvertnormality/paranoia](https://github.com/subvertnormality/paranoia).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
