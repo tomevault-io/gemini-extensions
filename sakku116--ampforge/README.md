@@ -7,11 +7,11 @@ AmpForge - desktop guitar amp & effects host for Windows. VST3/VST2, real-time, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sakku116/ampforge](https://github.com/sakku116/ampforge).
+Original source: `AGENTS.md` in [sakku116/ampforge](https://github.com/sakku116/ampforge).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
