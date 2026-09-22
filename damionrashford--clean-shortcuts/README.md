@@ -7,11 +7,11 @@ Build Apple Shortcuts in Swift. Result-builder DSL that compiles to signed .shor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [damionrashford/clean-shortcuts](https://github.com/damionrashford/clean-shortcuts).
+Original source: `AGENTS.md` in [damionrashford/clean-shortcuts](https://github.com/damionrashford/clean-shortcuts).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
