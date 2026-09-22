@@ -1,6 +1,7 @@
-## starlight-intelligence-system
+## editorial
 
-> <!-- STARLIGHT-EDITORIAL:START -->
+> Portfolio brand and editorial contract
+
 
 <!-- STARLIGHT-EDITORIAL:START -->
 ## Editorial contract
