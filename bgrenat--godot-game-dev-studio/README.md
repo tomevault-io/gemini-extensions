@@ -7,11 +7,11 @@ Portable Godot 4.7+ game-development skills for Codex, Claude Code, Cursor, and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [bgrenat/godot-game-dev-studio](https://github.com/bgrenat/godot-game-dev-studio).
+Original source: `AGENTS.md` in [bgrenat/godot-game-dev-studio](https://github.com/bgrenat/godot-game-dev-studio).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
