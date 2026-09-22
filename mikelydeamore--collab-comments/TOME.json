@@ -4,7 +4,7 @@
   "repo": "collab-comments",
   "description": "Adds the ability to have collaborative comments on anything in VSCode / Positron",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/MikeLydeamore/collab-comments",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-22T18:33:44Z"
+  "distributed_at": "2026-09-22T18:38:46Z"
 }
