@@ -7,11 +7,11 @@ Build, test & publish iOS apps directly in Claude Code, Codex, and Cursor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [rorkai/rork-local](https://github.com/rorkai/rork-local).
+Original source: `AGENTS.md` in [rorkai/rork-local](https://github.com/rorkai/rork-local).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
