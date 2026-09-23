@@ -7,13 +7,13 @@ Sanity command line tool (CLI)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [sanity-io/cli](https://github.com/sanity-io/cli).
+Original source: `CLAUDE.md` in [sanity-io/cli](https://github.com/sanity-io/cli).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
