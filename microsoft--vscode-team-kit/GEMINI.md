@@ -1,35 +1,41 @@
 ## vscode-team-kit
 
-> This repo is a plugin marketplace following the [Open Plugin spec](https://open-plugins.com/plugin-builders/specification.md). Each top-level directory containing a `.plugin/plugin.json` is a plugin.
+> Each top-level directory containing a `.plugin/plugin.json` is a plugin. Plugins are self-contained — skills, hooks, scripts, agents, and commands all live inside the plugin directory.
 
 # Writing Plugins
 
-This repo is a plugin marketplace following the [Open Plugin spec](https://open-plugins.com/plugin-builders/specification.md). Each top-level directory containing a `.plugin/plugin.json` is a plugin.
+Each top-level directory containing a `.plugin/plugin.json` is a plugin. Plugins are self-contained — skills, hooks, scripts, agents, and commands all live inside the plugin directory.
 
 ## Creating a New Plugin
 
-1. Create a directory at the repo root with your plugin name (lowercase, hyphens ok, e.g. `my-plugin`).
-2. Add `.plugin/plugin.json` with at minimum a `name` field:
+1. Create a directory at the repo root (lowercase, hyphens ok, e.g. `my-plugin`).
+2. Add `.plugin/plugin.json`:
    ```json
    {
      "name": "my-plugin",
      "version": "1.0.0",
-     "description": "Brief description of what the plugin does."
+     "description": "Brief description of what the plugin does.",
+     "license": "MIT",
+     "keywords": ["relevant", "tags"]
    }
    ```
-3. Register the plugin in `marketplace.json` by adding an entry to the `plugins` array:
-   ```json
-   {
-     "name": "my-plugin",
-     "source": "./my-plugin/",
-     "description": "Brief description.",
-     "version": "1.0.0"
-   }
-   ```
-4. Add your components (commands, agents, skills, rules, hooks, MCP servers, etc.).
-5. Update the **Plugins** table in `README.md`.
+3. Add a `CHANGELOG.md` with the initial release entry (see [Versioning](#versioning) below).
+4. Add a `README.md` with: one-sentence description, skills table, how it works, and plugin structure tree.
+5. Register the plugin in `marketplace.json` — add an entry to the `plugins` array with matching `name`, `version`, and `description`.
+6. Add the plugin to the appropriate workflow section in the repo `README.md`.
+7. Add your components (skills, commands, agents, hooks, scripts, etc.).
 
-For the full specification on plugin structure, component types, and file formats, fetch https://open-plugins.com/plugin-builders/specification.md.
+## Versioning
+
+Every plugin uses [semantic versioning](https://semver.org/). Version numbers must stay in sync across three places:
+
+| File | Field |
+|---|---|
+| `my-plugin/.plugin/plugin.json` | `"version"` |
+| `marketplace.json` | `"version"` in the plugin's entry |
+| `my-plugin/CHANGELOG.md` | Top entry heading |
+
+**On every change to a plugin**, bump the version and add a changelog entry in the same commit. Don't batch version bumps across multiple PRs.
 
 ## Node Scripts
 
@@ -63,4 +69,4 @@ if (isEditTool(event.tool_name)) {
 
 ---
 > Source: [microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-04-26 -->
+<!-- tomevault:4.0:gemini_md:2026-09-23 -->
