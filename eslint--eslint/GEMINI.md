@@ -1,96 +1,102 @@
 ## eslint
 
-> - The ESLint project is organized into several directories:
+> This file provides guidance to AI agents when working with code in this repository.
 
-# ESLint Project Knowledge
+# AI Agent Instructions
 
-## Project Structure
+This file provides guidance to AI agents when working with code in this repository.
 
-- The ESLint project is organized into several directories:
-    - `bin`: Contains the command-line interface (CLI) files
-    - `conf`: Contains configuration data for ESLint
-    - `docs`: Contains the documentation website for ESLint
-    - `lib`: Contains the main source code for ESLint
-    - `messages`: Contains verbose error messages for certain errors in ESLint
-    - `packages`: Contains additional packages that are published separately
-        - `eslint-config-eslint`: Contains the ESLint configuration package
-        - `js`: Contains the `@eslint/js` package
-    - `templates`: Contains templates tools that generate files
-    - `tests`: Contains the test files for ESLint
-    - `tools`: Contains scripts for building, testing, and other tasks
-- Test files mirror the structure of the source code files they're testing
-- Configuration files are in the root directory, including `eslint.config.js`.
+## AI Disclosure Requirement
 
-## Source File Conventions
+ESLint's [AI Usage Policy](docs/src/contribute/ai-policy.md) requires that AI-assisted contributions be disclosed. Whenever you (an AI) create content on GitHub for this project, you **must** include a disclosure, using the name of the model actually producing the content (for example, `Claude Opus 5`):
 
-- Source files follow a standard structure:
-    - Header with `@fileoverview` and `@author`
-    - Requirements section with necessary imports
-    - Optionally a type definitions section for importing types
-    - Optionally a helpers section with utility functions and constants
-    - Optionally an exports section where the file has its classes, functions, and constants to export
-    - For tools and scripts, a main section that executes code
+- **Issues** — add a bold sentence to the top of body:
 
-## Testing Conventions
+    **This issue was created with AI (Claude Opus 5).**
 
-- Tests use Mocha for the testing framework
-- Chai is used for assertions with `const assert = require("chai").assert`
-- Test files follow a standard structure:
-    - Header with `@fileoverview` and `@author`
-    - Requirements section with necessary imports
-    - Optionally a helpers section with utility functions and constants
-    - Tests section with describe/it blocks
-- Tests are organized in describe blocks for classes and methods
-- Before running tests, objects like mock contexts/configs are set up
-- Testing patterns include:
-    - Verifying object properties are set correctly
-    - Testing for expected behaviors and edge cases
-    - Validating error handling scenarios
-    - Testing deprecated methods for backward compatibility
-- All new exported functions and public class members require writing new tests
-- All bug fixes must have corresponding tests
-- Never delete existing tests even if they are failing
-- `npm test` command runs all tests in the `tests` directory
-- `npx mocha <filename>` command runs a specific test file
+- **Pull requests** — add a bold sentence to the top of the description:
+
+    **This pull request was created with AI (Claude Opus 5).**
+
+- **Comments, review comments, and review summaries** — add a final paragraph in bold:
+
+    **Created by AI (Claude Opus 5).**
+
+This applies to every AI-authored submission without exception, including follow-up comments on an existing thread. Note two related policy points: AI-generated PRs are only considered for issues labeled `accepted`, and maintainer feedback is expected to be answered by a human rather than fed back into an AI.
+
+## Commands
+
+```bash
+npm test                 # full suite: rule-file checks, mocha + coverage thresholds, fuzzer, license check
+npm run test:cli tests/lib/rules/no-undef.js   # run a single test file (alias for local mocha)
+npm run lint             # lint everything (JS, docs JS, docs Markdown, rule types, config files)
+npm run lint:fix
+npm run fmt              # prettier --write . (prettier is the formatter; eslint does not handle style here)
+npm run test:types       # tsc against tests/lib/types
+npm run test:browser     # cypress against the webpack bundle
+npm run test:performance
+```
+
+Useful details:
+
+- Coverage gates are enforced in `npm test` (99% statements/functions/lines, 98% branches). A change that lowers coverage below those thresholds fails the build even if all tests pass.
+- Mocha's default timeout is 10000ms; override with `ESLINT_MOCHA_TIMEOUT=20000 npm test`.
+- `npm test` runs mocha with `--forbid-only`, so `only: true` / `RuleTester.only(...)` must be removed before pushing.
+- Task definitions live in `Makefile.js` (shelljs-based), not a Makefile. `npm run lint`, `npm test`, etc. are thin wrappers around `node Makefile.js <target>`.
+- The docs website is a separate workspace with its own scripts: `cd docs && npm start` serves it locally.
+- A `lint-staged` pre-commit hook regenerates derived files. Editing `lib/rules/*.js` regenerates `packages/js/src/configs/*.js` and `lib/types/rules.d.ts`; editing `docs/src/rules/*.md` regenerates `docs/src/_data/further_reading_links.json`. Don't hand-edit those generated files.
+
+## Architecture
+
+Beyond `lib/` (the source) and `tests/` (which mirrors it), the top-level directories are `bin/` (CLI entry point), `conf/` (configuration data), `docs/` (the documentation website), `messages/` (verbose text for certain runtime errors), `packages/` (separately published packages), `templates/` (templates for generated files), and `tools/` (build, release, and check scripts).
+
+The layering is strict, and each layer is forbidden from doing what the layer below it does. Respect these boundaries — tests and reviews enforce them.
+
+- `bin/eslint.js` → `lib/cli.js` → `lib/eslint/eslint.js` → `lib/linter/linter.js` → `lib/rules/*.js`
+- **`lib/cli.js`** is the only place that reads argv, writes to the console, and sets exit codes. It may not call `process.exit()` directly.
+- **`lib/eslint/`** (`ESLint` class) owns all file system access: file/glob resolution, config loading, plugin and formatter loading. It must not print anything or use a formatter itself. `lib/eslint/worker.js` supports multithreaded linting.
+- **`lib/linter/`** (`Linter` class) is pure and synchronous: no file I/O, no console, no Node-specific APIs, no async. `verify()` parses text, traverses the AST, and emits node-type events (plus `:exit` events and code path analysis events from `lib/linter/code-path-analysis/`) that rules subscribe to.
+- **`lib/rules/`** rules are the most constrained layer: inspect the AST, report problems. Same prohibitions as `Linter`.
+- **`lib/config/`** implements flat config: `config-loader.js` finds and loads `eslint.config.js`, `flat-config-array.js` and `flat-config-schema.js` normalize and validate it, `default-config.js` supplies base values.
+- **`lib/languages/js/`** is the JavaScript language implementation, including `SourceCode`. ESLint's language plugin abstraction means JS is one language among potential others, so language-specific logic belongs here rather than in `Linter`.
+- **`lib/rule-tester/`** is `RuleTester`, a wrapper over Mocha-style globals used by essentially every rule test.
+- **`lib/shared/`** is cross-cutting utilities (`flags.js` for feature flags, `traverser.js`, severity/naming/serialization helpers).
+- **`lib/services/`** holds parser, processor, suppressions, and warning services used by `ESLint`.
+- **`packages/js`** (`@eslint/js`) publishes the `recommended` and `all` configs, generated from rule metadata. **`packages/eslint-config-eslint`** is the config this repo lints itself with.
 
 ## Rules
 
-- Rules are located in the `lib/rules` directory
-- Documentation for rules is located in the `docs/src/rules` directory
-- Each rule module exports an object with the following structure:
-    - `meta`: Contains metadata about the rule, including:
-        - `type`: The type of rule (e.g., "suggestion", "problem", "layout")
-        - `docs`: Documentation properties including description, recommended status, and URL
-        - `schema`: JSON Schema for rule configuration options
-        - `fixable`: Whether the rule provides auto-fixes (e.g., "code", "whitespace")
-        - `messages`: Message IDs and text templates for reporting
-    - `create`: A function that accepts a context object and returns an object with AST visitor methods
+- Rule source: `lib/rules/<name>.js`. Test: `tests/lib/rules/<name>.js`. Docs: `docs/src/rules/<name>.md`. All three are required, and `npm test` fails if they aren't consistent.
+- New rules must be registered in `lib/rules/index.js`, in the alphabetically-sorted `LazyLoadingRuleMap`.
+- Each rule exports `{ meta, create }`. `meta` carries `type` (`problem` | `suggestion` | `layout`), `docs` (description, recommended, url), `schema` (JSON Schema for the rule's options), `fixable` (`"code"` or `"whitespace"`) / `hasSuggestions`, and `messages`. Report with `messageId`, never a raw string.
+- `create` receives a `context` object and returns AST visitor methods; rules analyze the AST through the visitor pattern.
+- Define helper functions at module scope, not inside `create`, so they aren't rebuilt per file. Factor common checks into helpers rather than recomputing them across visitors.
+- Fixable rules implement a fixer function that returns the corrections to apply.
+- Shared AST helpers live in `lib/rules/utils/ast-utils.js`.
+- `RuleTester` uses flat config (`languageOptions.ecmaVersion`, not `parserOptions.ecmaVersion`).
 
-## Rule Implementation Patterns
+### Rule documentation
 
-- Rules use the visitor pattern to analyze JavaScript AST nodes
-- Helper functions should be defined outside the `create` function to avoid recreating them on each execution
-- Common utilities for working with ASTs are available in `./utils/ast-utils`
-- Rules that need to fix code should implement a fixer function that returns corrections to apply
-- Rules should avoid duplicate computations by factoring out common checks into helper functions
-- The rule tester configuration now uses flat configuration format (`languageOptions` instead of `parserOptions`)
+Rule docs use frontmatter with `title` and `rule_type`, and generally contain a description of what the rule checks, a rule details section explaining when it reports, examples, a "When Not To Use It" section, and optionally version information and further resources.
 
-## Rule Documentation
+Examples go in `::: incorrect` / `::: correct` containers, and each example includes its own `/*eslint rule-name: "error"*/` comment. `npm run lint:docs:rule-examples` validates that these examples actually produce (or don't produce) the reported problems.
 
-- Documentation files use frontmatter with `title` and `rule_type` fields
-- Rule documentation should include:
-    - A description of what the rule checks
-    - The rule details section explaining when the rule reports issues
-    - Examples of incorrect and correct code wrapped in ::: incorrect and ::: correct blocks
-    - A "When Not To Use It" section explaining when the rule might not be appropriate
-    - Optional version information and additional resources
-- Code examples in the documentation should include the enabling comment (e.g., `/*eslint rule-name: "error"*/`)
+`tools/internal-rules/` contains lint rules that check ESLint's own rule files (e.g. `no-invalid-meta`).
 
-## Rules Registration
+## Testing
 
-- New rules must be added to the `lib/rules/index.js` file to be available in ESLint
-- Rules are registered in an alphabetically sorted object using the `LazyLoadingRuleMap` for efficient loading
+- Mocha with `const assert = require("chai").assert`. Tests mirror the source tree under `tests/`.
+- Test files follow the same layout as source files: `@fileoverview`/`@author` header, requirements, optional helpers, then the tests. Group `describe` blocks by class and method, and set up mock contexts and configs before the assertions that use them.
+- Cover expected behavior, edge cases, error handling, and deprecated APIs kept for backward compatibility.
+- Every new exported function and public class member needs tests, and every bug fix needs a test that fails without the fix.
+- Never delete existing tests, even failing ones.
+
+## Conventions
+
+- CommonJS (`"type": "commonjs"`), Node `^20.19.0 || ^22.13.0 || >=24`.
+- Source files follow a fixed layout: `@fileoverview`/`@author` header, requirements (imports), optional type definitions, optional helpers, then exports. Tools and scripts add a main section at the end.
+- Commits follow Conventional Commits without scopes: `fix:`, `feat:`, `fix!:`, `feat!:`, `docs:`, `chore:`, `build:`, `refactor:`, `test:`, `ci:`, `perf:`. Summary ≤72 characters. Reference issues in the body with `Fixes #1234` or `Refs #1234`. The PR title is checked in CI because it becomes the changelog entry.
 
 ---
 > Source: [eslint/eslint](https://github.com/eslint/eslint) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-23 -->
