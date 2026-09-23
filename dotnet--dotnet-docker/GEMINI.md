@@ -13,6 +13,7 @@
 - To generate Dockerfiles from templates, run `pwsh ./eng/dockerfile-templates/Get-GeneratedDockerfiles.ps1`.
 - Do not edit `*README*.md` files directly.
 - To generate READMEs, run `pwsh ./eng/readme-templates/Get-GeneratedReadmes.ps1`.
+- Use the [`dockerfile-and-readme-templating`](.agents/skills/dockerfile-and-readme-templating/SKILL.md) skill when modifying their Cottle templates.
 
 ## Manifests
 
@@ -29,7 +30,13 @@
 
 ## How to add images
 
-- To add new images or a new Linux distro, use the [image management documentation](./agents/image-manager.agent.md).
+- To add new images or a new Linux distro, use the [`image-management`](.agents/skills/image-management/SKILL.md) skill.
+
+## How to work across branches
+
+- Use the [`porting-changes`](.agents/skills/porting-changes/SKILL.md) skill to port or backport changes between branches.
+- Use the [`resolving-conflicts`](.agents/skills/resolving-conflicts/SKILL.md) skill when a merge or cherry-pick has conflicts.
+- Use the [`merge-main-to-nightly`](.agents/skills/merge-main-to-nightly/SKILL.md) skill when asked to merge `main` into `nightly` after a release.
 
 ## Samples
 
@@ -37,4 +44,4 @@
 
 ---
 > Source: [dotnet/dotnet-docker](https://github.com/dotnet/dotnet-docker) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-23 -->
