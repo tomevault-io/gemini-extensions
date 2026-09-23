@@ -7,11 +7,11 @@ Demo: IA detecta golpe do Pix e rastreia a quadrilha. Rust + Jev vs Python + Dee
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sandeco/pix-golpe](https://github.com/sandeco/pix-golpe).
+Original source: `AGENTS.md` in [sandeco/pix-golpe](https://github.com/sandeco/pix-golpe).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
