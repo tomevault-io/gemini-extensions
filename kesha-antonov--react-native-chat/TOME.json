@@ -2,9 +2,9 @@
   "name": "react-native-chat",
   "owner": "kesha-antonov",
   "repo": "react-native-chat",
-  "description": "The most complete chat UI for React Native & Web - streaming AI messages, emoji reactions, replies, quick replies, and full customization. TypeScript-first, Expo-ready.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/kesha-antonov/react-native-chat",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-04T14:31:39Z"
+  "distributed_at": "2026-09-23T09:36:03Z"
 }
