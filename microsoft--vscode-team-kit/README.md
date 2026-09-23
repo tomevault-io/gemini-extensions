@@ -1,51 +1,53 @@
 # AI instruction files for vscode-team-kit
 
-> Sourced from [microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 Plugins the VS Code team uses
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit).
+Original source: `AGENTS.md` in [microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (25)
+## Bundled Skills (27)
 
-- [accessibility](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/accessibility)
-- [agent-sessions-layout](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/agent-sessions-layout)
-- [author-contributions](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/author-contributions)
-- [fix-errors](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/fix-errors)
-- [sessions](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/sessions)
-- [agent-customization](https://github.com/microsoft/vscode-team-kit/tree/main/assets/prompts/skills/agent-customization)
-- [form-github-search-query](https://github.com/microsoft/vscode-team-kit/tree/main/src/lm/skills/form-github-search-query)
-- [show-github-search-result](https://github.com/microsoft/vscode-team-kit/tree/main/src/lm/skills/show-github-search-result)
-- [summarize-github-issue-pr-notification](https://github.com/microsoft/vscode-team-kit/tree/main/src/lm/skills/summarize-github-issue-pr-notification)
-- [cross-platform-paths](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/cross-platform-paths)
-- [debug-failing-test](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/debug-failing-test)
-- [generate-snapshot](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/generate-snapshot)
-- [python-manager-discovery](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/python-manager-discovery)
-- [run-e2e-tests](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/run-e2e-tests)
-- [run-integration-tests](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/run-integration-tests)
-- [run-pre-commit-checks](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/run-pre-commit-checks)
-- [run-smoke-tests](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/run-smoke-tests)
-- [settings-precedence](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/settings-precedence)
-- [accessibility-aria-expert](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/accessibility-aria-expert)
-- [react-webview-architecture](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/react-webview-architecture)
-- [skill-creator](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/skill-creator)
-- [webview-trpc-messaging](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/webview-trpc-messaging)
-- [writing-release-notes](https://github.com/microsoft/vscode-team-kit/tree/main/.github/skills/writing-release-notes)
-- [project-setup-info-context7](https://github.com/microsoft/vscode-team-kit/tree/main/assets/prompts/skills/project-setup-info-context7)
-- [project-setup-info-local](https://github.com/microsoft/vscode-team-kit/tree/main/assets/prompts/skills/project-setup-info-local)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/goal/skills/goal/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/debug/skills/debug/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/goal/skills/follow-goal/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/research/skills/research/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/ban-ast/skills/manage-bans/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/monitor-pr/skills/monitor-pr/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/review-plan/skills/review-plan/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/rubber-duck/skills/rubber-duck/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-setup/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/review-areas/skills/review-areas/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/build-health/skills/build-health/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-memory/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/model-council/skills/council-plan/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/model-council/skills/council-review/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-add-reaction/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-search-issues/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-mark-all-read/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-install-gh-cli/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-open-notification/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-list-notifications/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-manage-subscription/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-dismiss-notification/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/component-explorer/skills/use-component-explorer/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/component-explorer/skills/setup-component-explorer/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/github-inbox/skills/inbox-get-notification-details/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/component-explorer/skills/setup-component-explorer-full/SKILL.md)
+- [vscode-team-kit](https://github.com/microsoft/vscode-team-kit/tree/main/component-explorer/skills/setup-component-explorer-light/SKILL.md)
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/microsoft/vscode-team-kit](https://github.com/microsoft/vscode-team-kit)
 
 ---
 
