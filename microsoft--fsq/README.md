@@ -7,11 +7,11 @@ FSQ is an evidence-first agent harness for replayable, verifiable AI UI automati
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [microsoft/FSQ](https://github.com/microsoft/FSQ).
+Original source: `AGENTS.md` in [microsoft/FSQ](https://github.com/microsoft/FSQ).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
