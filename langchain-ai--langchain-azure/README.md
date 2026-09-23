@@ -1,26 +1,35 @@
 # langchain-azure
 
-> Source: [langchain-ai/langchain-azure](https://github.com/langchain-ai/langchain-azure) — distributed by [TomeVault](https://tomevault.io)
+> Source: [langchain-ai/langchain-azure](https://github.com/langchain-ai/langchain-azure). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 Build secure LangChain applications on Azure
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [langchain-ai/langchain-azure](https://github.com/langchain-ai/langchain-azure).
+Original source: `AGENTS.md` in [langchain-ai/langchain-azure](https://github.com/langchain-ai/langchain-azure).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/langchain-ai/langchain-azure](https://github.com/langchain-ai/langchain-azure)
+## Bundled Skills (6)
+
+- [langchain-azure](https://github.com/langchain-ai/langchain-azure/tree/main/.github/skills/release-notes/SKILL.md)
+- [langchain-azure](https://github.com/langchain-ai/langchain-azure/tree/main/samples/deepagents-storage-backend/mortgage-processing/skills/packet-intake/SKILL.md)
+- [langchain-azure](https://github.com/langchain-ai/langchain-azure/tree/main/samples/deepagents-storage-backend/mortgage-processing/skills/mortgage-underwriting/SKILL.md)
+- [langchain-azure](https://github.com/langchain-ai/langchain-azure/tree/main/samples/deepagents-storage-backend/mortgage-processing/skills/document-classification/SKILL.md)
+- [langchain-azure](https://github.com/langchain-ai/langchain-azure/tree/main/samples/deepagents-storage-backend/mortgage-processing/skills/mortgage-fact-extraction/SKILL.md)
+- [langchain-azure](https://github.com/langchain-ai/langchain-azure/tree/main/.github/skills/code-review/SKILL.md)
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/langchain-ai/langchain-azure](https://github.com/langchain-ai/langchain-azure)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-q -->
