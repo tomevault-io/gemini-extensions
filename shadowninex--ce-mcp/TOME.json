@@ -3,8 +3,8 @@
   "owner": "ShadowNineX",
   "repo": "ce-mcp",
   "description": "Automate Cheat Engine using MCP protocol for use with AI!",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "ce-mcp",
+      "path": "skills/ce-mcp/SKILL.md",
+      "github_url": "https://github.com/ShadowNineX/ce-mcp/tree/main/skills/ce-mcp/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/ShadowNineX/ce-mcp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-06T14:16:47Z"
+  "distributed_at": "2026-09-23T08:33:56Z"
 }
