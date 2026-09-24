@@ -2,8 +2,6 @@
 
 > Tome by [suleimanodetoro](https://github.com/suleimanodetoro/skills), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Agent skills for interface design, React, React Native, and software security.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
