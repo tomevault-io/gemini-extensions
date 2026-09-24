@@ -3,8 +3,8 @@
   "owner": "RussellSB",
   "repo": "pytrendy",
   "description": "Trend Detection in Python. Applicable for real-world industry use cases in time series.",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,45 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "pytrendy",
+      "path": ".opencode/skills/cicd/SKILL.md",
+      "github_url": "https://github.com/RussellSB/pytrendy/tree/main/.opencode/skills/cicd/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "pytrendy",
+      "path": ".opencode/skills/test/SKILL.md",
+      "github_url": "https://github.com/RussellSB/pytrendy/tree/main/.opencode/skills/test/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "pytrendy",
+      "path": ".opencode/skills/debug/SKILL.md",
+      "github_url": "https://github.com/RussellSB/pytrendy/tree/main/.opencode/skills/debug/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "pytrendy",
+      "path": ".opencode/skills/pytrendy/SKILL.md",
+      "github_url": "https://github.com/RussellSB/pytrendy/tree/main/.opencode/skills/pytrendy/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "pytrendy",
+      "path": ".opencode/skills/pr-plots/SKILL.md",
+      "github_url": "https://github.com/RussellSB/pytrendy/tree/main/.opencode/skills/pr-plots/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "pytrendy",
+      "path": ".opencode/skills/maintenance/SKILL.md",
+      "github_url": "https://github.com/RussellSB/pytrendy/tree/main/.opencode/skills/maintenance/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/RussellSB/pytrendy",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-13T16:33:00Z"
+  "distributed_at": "2026-09-24T03:30:42Z"
 }
