@@ -3,8 +3,8 @@
   "owner": "NVIDIA",
   "repo": "NVSentinel",
   "description": "NVSentinel is a cross-platform fault remediation service designed to rapidly remediate runtime node-level issues in GPU-accelerated computing environments",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,27 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "NVSentinel",
+      "path": "skills/mongodb-migration/bitnami-to-percona/migrate-mongodb-to-percona/SKILL.md",
+      "github_url": "https://github.com/NVIDIA/NVSentinel/tree/main/skills/mongodb-migration/bitnami-to-percona/migrate-mongodb-to-percona/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "NVSentinel",
+      "path": "skills/mongodb-migration/bitnami-to-percona/verify-mongodb-percona-migration/SKILL.md",
+      "github_url": "https://github.com/NVIDIA/NVSentinel/tree/main/skills/mongodb-migration/bitnami-to-percona/verify-mongodb-percona-migration/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "NVSentinel",
+      "path": "skills/mongodb-migration/bitnami-to-percona/check-mongodb-migration-readiness/SKILL.md",
+      "github_url": "https://github.com/NVIDIA/NVSentinel/tree/main/skills/mongodb-migration/bitnami-to-percona/check-mongodb-migration-readiness/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/NVIDIA/NVSentinel",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-04T08:32:37Z"
+  "distributed_at": "2026-09-24T11:30:46Z"
 }
