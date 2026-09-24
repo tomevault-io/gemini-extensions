@@ -7,13 +7,13 @@ BuggyBoard is a small web app for educational purposes. It is a full-stack Node 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [AutomationPanda/buggyboard-web-app](https://github.com/AutomationPanda/buggyboard-web-app).
+Original source: `copilot-instructions.md` in [AutomationPanda/buggyboard-web-app](https://github.com/AutomationPanda/buggyboard-web-app).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
