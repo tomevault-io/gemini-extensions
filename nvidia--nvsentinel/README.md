@@ -1,21 +1,27 @@
 # NVSentinel
 
-> Source: [NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel) — distributed by [TomeVault](https://tomevault.io)
+> Source: [NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 NVSentinel is a cross-platform fault remediation service designed to rapidly remediate runtime node-level issues in GPU-accelerated computing environments
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel).
+Original source: `AGENTS.md` in [NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (3)
+
+- [NVSentinel](https://github.com/NVIDIA/NVSentinel/tree/main/skills/mongodb-migration/bitnami-to-percona/migrate-mongodb-to-percona/SKILL.md)
+- [NVSentinel](https://github.com/NVIDIA/NVSentinel/tree/main/skills/mongodb-migration/bitnami-to-percona/verify-mongodb-percona-migration/SKILL.md)
+- [NVSentinel](https://github.com/NVIDIA/NVSentinel/tree/main/skills/mongodb-migration/bitnami-to-percona/check-mongodb-migration-readiness/SKILL.md)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel)
 
