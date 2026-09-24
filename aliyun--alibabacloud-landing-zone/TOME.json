@@ -1,0 +1,99 @@
+{
+  "name": "alibabacloud-landing-zone",
+  "owner": "aliyun",
+  "repo": "alibabacloud-landing-zone",
+  "description": "",
+  "type": "tome",
+  "source_format": "AGENTS.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/skills/aw-execution-optimizer-skill/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/skills/aw-execution-optimizer-skill/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/skills/deploying-autowonder-on-alibaba-cloud/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/skills/deploying-autowonder-on-alibaba-cloud/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/skills/upgrading-autowonder-on-alibaba-cloud/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/skills/upgrading-autowonder-on-alibaba-cloud/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/.agents/skills/deploying-autowonder-on-alibaba-cloud/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/.agents/skills/deploying-autowonder-on-alibaba-cloud/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/.agents/skills/upgrading-autowonder-on-alibaba-cloud/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/.agents/skills/upgrading-autowonder-on-alibaba-cloud/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/skills/initialize-autowonder-harness/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/skills/initialize-autowonder-harness/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/skills/optimize-autowonder-efficiency-cost/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/skills/optimize-autowonder-efficiency-cost/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/.agents/skills/initialize-autowonder-harness/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/.agents/skills/initialize-autowonder-harness/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "alibabacloud-landing-zone",
+      "path": "ai-sdlc/auto-wonder/.agents/skills/optimize-autowonder-efficiency-cost/SKILL.md",
+      "github_url": "https://github.com/aliyun/alibabacloud-landing-zone/tree/main/ai-sdlc/auto-wonder/.agents/skills/optimize-autowonder-efficiency-cost/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/aliyun/alibabacloud-landing-zone",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-09-24T16:34:46Z"
+}
