@@ -2,16 +2,14 @@
 
 > Sourced from [lgse/strata](https://github.com/lgse/strata), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
-A fast, keyboard-first file manager for Linux
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lgse/strata](https://github.com/lgse/strata).
+Original source: `CLAUDE.md` in [lgse/strata](https://github.com/lgse/strata).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
