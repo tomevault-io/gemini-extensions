@@ -2,9 +2,9 @@
   "name": "mochiOS",
   "owner": "mochiOS",
   "repo": "mochiOS",
-  "description": "A hybrid kernel that simply refuses to die. While other OSs are busy collecting Blue Screens, mochiOS is busy actually running your code",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mochiOS/mochiOS",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-17T14:37:52Z"
+  "distributed_at": "2026-09-25T20:44:57Z"
 }
