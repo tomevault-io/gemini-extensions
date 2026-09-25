@@ -2,16 +2,14 @@
 
 > Tome by [serejaris](https://github.com/serejaris/personal-corp-os), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Personal Corp OS — управление личной компанией через AI-агентов: задачи вне головы, отделы вместо памяти, недельное ретро. Открытые скиллы для Claude Code и Codex
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [serejaris/personal-corp-os](https://github.com/serejaris/personal-corp-os).
+Original source: `AGENTS.md` in [serejaris/personal-corp-os](https://github.com/serejaris/personal-corp-os).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
