@@ -2,8 +2,6 @@
 
 > Tome by [kenn-io](https://github.com/kenn-io/docbank), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Local-first system of record for documents (PDFs, images, text files, etc.) for you and your agents
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
