@@ -2,9 +2,9 @@
   "name": "OrbitPage",
   "owner": "paoloronco",
   "repo": "OrbitPage",
-  "description": "Self-hosted Linktree alternative with Docker, SQLite, themes, analytics, and privacy controls.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/paoloronco/OrbitPage",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-10T15:31:35Z"
+  "distributed_at": "2026-09-25T21:04:36Z"
 }
