@@ -2,8 +2,6 @@
 
 > Source: [guqiong96/Lvllmds4-x](https://github.com/guqiong96/Lvllmds4-x). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-CPU-GPU hybrid inference for DeepSeek-V4 on NVIDIA SM80+ (A100/RTX 4090 etc.), forked from yhfgyyf/vllm-deepseek-v4-sm89.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
