@@ -2,8 +2,6 @@
 
 > Source: [AkariLabs/akari-video](https://github.com/AkariLabs/akari-video). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-AKARI Video — AI video editing tool (Theia-based monorepo)
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
