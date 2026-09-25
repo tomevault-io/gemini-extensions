@@ -2,8 +2,6 @@
 
 > Tome by [AnastasiyaW](https://github.com/AnastasiyaW/codex-claude-code-config), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Claude Code, Codex, and multi-agent configuration system: principles, hooks, skills, and workflow patterns for AI-assisted development
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
