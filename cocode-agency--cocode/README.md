@@ -2,8 +2,6 @@
 
 > Source: [cocode-agency/cocode](https://github.com/cocode-agency/cocode). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Best ready-to-run DeepSeek Harness distribution: DSH desktop GUI, terminal TUI, and harness integration.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
