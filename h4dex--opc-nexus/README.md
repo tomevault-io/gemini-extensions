@@ -2,16 +2,14 @@
 
 > Source: [h4dex/opc-nexus](https://github.com/h4dex/opc-nexus). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-开源的企业版的数字员工工作台 （原内部项目AiBoxDash） 
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [h4dex/opc-nexus](https://github.com/h4dex/opc-nexus).
+Original source: `AGENTS.md` in [h4dex/opc-nexus](https://github.com/h4dex/opc-nexus).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
