@@ -1,23 +1,21 @@
 # mochiOS
 
-> Tome by [mochiOS](https://github.com/mochiOS/mochiOS) — distributed by [TomeVault](https://tomevault.io)
-
-A hybrid kernel that simply refuses to die. While other OSs are busy collecting Blue Screens, mochiOS is busy actually running your code
+> Tome by [mochiOS](https://github.com/mochiOS/mochiOS), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [mochiOS/mochiOS](https://github.com/mochiOS/mochiOS).
+Original source: `AGENTS.md` in [mochiOS/mochiOS](https://github.com/mochiOS/mochiOS).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [mochiOS/mochiOS](https://github.com/mochiOS/mochiOS) — a repo with 50+ stars on GitHub.
+From [mochiOS/mochiOS](https://github.com/mochiOS/mochiOS) — a repo with 64+ stars on GitHub.
 
 ---
 
