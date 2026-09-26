@@ -1,10 +1,10 @@
 ## unity-helpers
 
-> See the [AI Agent Guidelines](./.llm/context.md) for all AI agent guidelines.
+> See the [AI Agent Guidelines](../.llm/context.md) for all AI agent guidelines.
 
-# Repository Guidelines
+# GitHub Copilot Instructions
 
-See the [AI Agent Guidelines](./.llm/context.md) for all AI agent guidelines.
+See the [AI Agent Guidelines](../.llm/context.md) for all AI agent guidelines.
 
 ---
 > Source: [Ambiguous-Interactive/unity-helpers](https://github.com/Ambiguous-Interactive/unity-helpers) — distributed by [TomeVault](https://tomevault.io).
