@@ -1,51 +1,32 @@
 ## gflow-cli
 
-> gflow-cli is built to be driven by an AI assistant. It ships an **MCP server**, so Claude, Cursor, or Copilot connects to it natively — no pasting docs, no copying commands back and forth. CLI-to-MCP parity is enforced in CI: anything the terminal can do, your assistant can do.
+> Review this repository as a Python CLI that automates browser-authenticated
 
-# Let your assistant drive it
+# Copilot Code Review Instructions
 
-gflow-cli is built to be driven by an AI assistant. It ships an **MCP server**, so Claude, Cursor, or Copilot connects to it natively — no pasting docs, no copying commands back and forth. CLI-to-MCP parity is enforced in CI: anything the terminal can do, your assistant can do.
+Review this repository as a Python CLI that automates browser-authenticated
+Google Flow workflows. Treat auth, browser automation, CI, release, and secret
+handling changes as high-risk even when the diff is small.
 
-## Start the server
+For pull request reviews:
 
-```bash
-gflow mcp run
-#   serving over stdio:
-#   • gflow_generate_image
-#   • gflow_generate_video
-#   ready — your assistant can drive Flow.
-```
+- Check that PRs target `develop`, unless they are release PRs.
+- Flag unclear contributor provenance, missing DCO sign-off, placeholder author
+  emails, and any copied private data.
+- Look for leaked tokens, cookies, signed URLs, local profile paths, and captured
+  Google/Flow request data.
+- For auth/browser changes, check that the implementation preserves profile
+  isolation, does not weaken local path boundaries, and avoids remote debugging
+  unless explicitly documented.
+- For CI changes, check forked-PR secret behavior and avoid recommending
+  `pull_request_target` for jobs that checkout or execute contributor code.
+- For behavior changes, expect focused tests and docs/changelog updates.
+- Keep findings concrete: reference files/lines, explain the user-visible risk,
+  and separate blocking issues from cosmetic suggestions.
 
-`gflow mcp run` speaks MCP over stdio; `gflow serve` exposes a Streamable HTTP endpoint at `/mcp` if you'd rather connect over the network. `gflow mcp setup` helps wire it into a client.
-
-## Point your agent at it
-
-The repo ships the files an agent reads to understand the tool:
-
-| File | Purpose | Use with |
-| --- | --- | --- |
-| `AGENTS.md` | Universal agent onboarding | Cursor, Codex, Aider, Claude Code |
-| `llms.txt` | LLM-readable command reference | Paste into ChatGPT / Claude / Gemini |
-| `CLAUDE.md` | Claude Code memory hub | Claude Code specifically |
-
-Once connected, describe what you want in plain language:
-
-> "Make a 9:16 clip of a lighthouse in a storm, moody, slow push-in."
-
-The agent picks the Veo model, aspect, and prompt tooling, runs the generation on your own Flow session, and hands you the files.
-
-## What the agent leans on
-
-- **`--tool creative-director`** — expands a terse prompt with Google's 5-component formula before spending credits.
-- **`gflow instructions`** — persistent, credit-free brief cards that steer look and tone across generations.
-- **Asset reuse by UUID** — chain a still into a video by its id, no re-upload.
-- **`--ui-mode`** — aborts up front when Flow's UI cohort isn't what the command needs, instead of burning a generation.
-
-!!! note "It runs on your account"
-    Even when an agent drives it, gflow-cli still uses your own headed Flow session and bills your own credits. The same alpha/account-risk caveats apply.
-
-Next: [**Known issues →**](KNOWN_ISSUES.md).
+Do not approve pull requests. Copilot review is advisory; maintainer approval is
+still required.
 
 ---
 > Source: [ffroliva/gflow-cli](https://github.com/ffroliva/gflow-cli) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-26 -->
