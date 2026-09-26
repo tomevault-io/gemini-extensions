@@ -1,8 +1,7 @@
 ## protoconf
 
-> <!-- GSD Configuration — managed by gsd-core installer -->
+> - Use the gsd-core skill when the user asks for GSD or uses a `gsd-*` command.
 
-<!-- GSD Configuration — managed by gsd-core installer -->
 # Instructions for GSD
 
 - Use the gsd-core skill when the user asks for GSD or uses a `gsd-*` command.
@@ -10,8 +9,7 @@
 - When a command says to spawn a subagent, prefer a matching custom agent from `.github/agents`.
 - Do not apply GSD workflows unless the user explicitly asks for them.
 - After completing any `gsd-*` command (or any deliverable it triggers: feature, bug fix, tests, docs, etc.), ALWAYS: (1) offer the user the next step by prompting via `ask_user`; repeat this feedback loop until the user explicitly indicates they are done.
-<!-- /GSD Configuration -->
 
 ---
 > Source: [protoconf/protoconf](https://github.com/protoconf/protoconf) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-23 -->
+<!-- tomevault:4.0:gemini_md:2026-09-26 -->
