@@ -1,6 +1,6 @@
 # ruflow
 
-> Source: [henryalouf/ruflow](https://github.com/henryalouf/ruflow) — distributed by [TomeVault](https://tomevault.io)
+> Source: [henryalouf/ruflow](https://github.com/henryalouf/ruflow). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [henryalouf/ruflow](https://github.com/henryalou
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/henryalouf/ruflow](https://github.com/henryalouf/ruflow)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/henryalouf/ruflow](https://github.com/henryalouf/ruflow)
 
 ---
 
