@@ -15,4 +15,4 @@ one here instead of writing a shell script.
 
 ---
 > Source: [ilbertt/nibrun](https://github.com/ilbertt/nibrun) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-26 -->
