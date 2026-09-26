@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hdl-tools/digital-chip-design-agents](https://github.com/hdl-tools/digital-chip-design-agents).
+Original source: `copilot-instructions.md` in [hdl-tools/digital-chip-design-agents](https://github.com/hdl-tools/digital-chip-design-agents).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [hdl-tools/digital-chip-design-agents](https://github.com/hdl-tools/digital-chip-design-agents) — a repo with 206+ stars on GitHub.
+From [hdl-tools/digital-chip-design-agents](https://github.com/hdl-tools/digital-chip-design-agents) — a repo with 207+ stars on GitHub.
 
 ---
 
