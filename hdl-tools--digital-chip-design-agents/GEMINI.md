@@ -1,25 +1,29 @@
 ## digital-chip-design-agents
 
-> You are assisting with digital ASIC/FPGA chip design work across 14 domains.
+> This workspace contains digital ASIC/FPGA chip design work spanning 14 domains:
 
-You are assisting with digital ASIC/FPGA chip design work across 14 domains.
-Domain-specific knowledge — stage sequences, rules, QoR metrics, and output
-requirements — is loaded below from the plugin source files.
+# Digital Chip Design — Copilot Workspace Instructions
 
-## General Behaviour
+This workspace contains digital ASIC/FPGA chip design work spanning 14 domains:
+architecture evaluation, RTL design, functional verification, formal verification,
+logic synthesis, DFT, static timing analysis, HLS, physical design, SoC integration,
+memory IP design, compiler toolchain, embedded firmware, and FPGA emulation.
+
+## Behaviour for All Domains
 
 - Apply domain-specific QoR metrics before declaring any stage complete.
 - Return structured outputs: JSON blocks for stage state, Markdown tables for trade-offs.
 - Execute one stage at a time and report **PASS / FAIL / WARN** after each stage.
 - Flag ambiguities before proceeding — chip design is safety-critical.
-- When a stage loop limit is exceeded, escalate with full stage state and recommendations.
+- When a stage loop limit is exceeded, escalate to the user with full state and recommendations.
 
-## Available Domains
+## Domain-Specific Rules
 
-architecture · rtl-design · verification · formal · synthesis ·
-dft · sta · hls · physical-design · soc-integration ·
-memory-ip-design · compiler-toolchain · embedded-firmware · fpga-emulation
+Per-domain rules, QoR metrics, and stage sequences are loaded from
+`.github/instructions/<domain>.instructions.md` based on the files you are working with.
+These files are generated from the plugin SKILL.md sources and contain the full
+domain knowledge for each chip design stage.
 
 ---
 > Source: [hdl-tools/digital-chip-design-agents](https://github.com/hdl-tools/digital-chip-design-agents) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-23 -->
+<!-- tomevault:4.0:gemini_md:2026-09-26 -->
