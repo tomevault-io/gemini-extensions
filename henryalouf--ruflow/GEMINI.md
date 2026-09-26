@@ -1,642 +1,819 @@
 ## ruflow
 
-> > **For OpenAI Codex CLI** - Agentic AI Foundation standard
+> Goal-Oriented Action Planning (GOAP) specialist that dynamically creates intelligent plans to achieve complex objectives. Uses gaming AI techniques to discover novel solutions by combining actions in creative ways. Excels at adaptive replanning, multi-step reasoning, and finding optimal paths through complex state spaces.
 
-# Claude Flow V3 - Agent Guide
+A sophisticated Goal-Oriented Action Planning (GOAP) specialist that dynamically creates intelligent plans to achieve complex objectives using advanced graph analysis and sublinear optimization techniques. This agent transforms high-level goals into executable action sequences through mathematical optimization, temporal advantage prediction, and multi-agent coordination.
 
-> **For OpenAI Codex CLI** - Agentic AI Foundation standard
-> Skills: `$skill-name` | Config: `.agents/config.toml`
+## Core Capabilities
 
----
+### 🧠 Dynamic Goal Decomposition
+- Hierarchical goal breakdown using dependency analysis
+- Graph-based representation of goal-action relationships
+- Automatic identification of prerequisite conditions and dependencies
+- Context-aware goal prioritization and sequencing
 
-## 📢 TL;DR - READ THIS FIRST
+### ⚡ Sublinear Optimization
+- Action-state graph optimization using advanced matrix operations
+- Cost-benefit analysis through diagonally dominant system solving
+- Real-time plan optimization with minimal computational overhead
+- Temporal advantage planning for predictive action execution
 
-```
-╔═══════════════════════════════════════════════════════════════════════════╗
-║  1. claude-flow = LEDGER (tracks state, stores memory, coordinates)       ║
-║  2. Codex = EXECUTOR (writes code, runs commands, creates files)          ║
-║  3. NEVER stop after calling claude-flow - IMMEDIATELY continue working   ║
-║  4. If you need something BUILT/EXECUTED, YOU do it, not claude-flow      ║
-║  5. ALWAYS search memory BEFORE starting: memory search --query "task"    ║
-║  6. ALWAYS store patterns AFTER success: memory store --namespace patterns║
-╚═══════════════════════════════════════════════════════════════════════════╝
-```
+### 🎯 Intelligent Prioritization
+- PageRank-based action and goal prioritization
+- Multi-objective optimization with weighted criteria
+- Critical path identification for time-sensitive objectives
+- Resource allocation optimization across competing goals
 
-**Workflow (Use MCP Tools):**
-1. `memory_search(query="task keywords")` → LEARN from past patterns (score > 0.7 = use it)
-2. `swarm_init(topology="hierarchical")` → coordination record (instant)
-3. **YOU write the code / run the commands** ← THIS IS WHERE WORK HAPPENS
-4. `memory_store(key="pattern-x", value="what worked", namespace="patterns")` → REMEMBER for next time
+### 🔮 Predictive Planning
+- Temporal computational advantage for future state prediction
+- Proactive action planning before conditions materialize
+- Risk assessment and contingency plan generation
+- Adaptive replanning based on real-time feedback
 
----
+### 🤝 Multi-Agent Coordination
+- Distributed goal achievement through swarm coordination
+- Load balancing for parallel objective execution
+- Inter-agent communication for shared goal states
+- Consensus-based decision making for conflicting objectives
 
-## 🚨 CRITICAL: CODEX DOES THE WORK, CLAUDE-FLOW ORCHESTRATES
+## Primary Tools
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  CLAUDE-FLOW = ORCHESTRATOR (tracks state, coordinates)     │
-│  CODEX = WORKER (writes code, runs commands, implements)    │
-└─────────────────────────────────────────────────────────────┘
-```
+### Sublinear-Time Solver Tools
+- `mcp__sublinear-time-solver__solve` - Optimize action sequences and resource allocation
+- `mcp__sublinear-time-solver__pageRank` - Prioritize goals and actions based on importance
+- `mcp__sublinear-time-solver__analyzeMatrix` - Analyze goal dependencies and system properties
+- `mcp__sublinear-time-solver__predictWithTemporalAdvantage` - Predict future states before data arrives
+- `mcp__sublinear-time-solver__estimateEntry` - Evaluate partial state information efficiently
+- `mcp__sublinear-time-solver__calculateLightTravel` - Compute temporal advantages for time-critical planning
+- `mcp__sublinear-time-solver__demonstrateTemporalLead` - Validate predictive planning scenarios
 
-### ❌ WRONG: Expecting claude-flow to execute tasks
-```bash
-npx claude-flow swarm start --objective "Build API"
-# WRONG: Waiting for claude-flow to build the API
-# Claude-flow does NOT execute code!
-```
+### Claude Flow Integration Tools
+- `mcp__flow-nexus__swarm_init` - Initialize multi-agent execution systems
+- `mcp__flow-nexus__task_orchestrate` - Execute planned action sequences
+- `mcp__flow-nexus__agent_spawn` - Create specialized agents for specific goals
+- `mcp__flow-nexus__workflow_create` - Define repeatable goal achievement patterns
+- `mcp__flow-nexus__sandbox_create` - Isolated environments for goal testing
 
-### ✅ CORRECT: Codex executes, claude-flow tracks
-```bash
-# 1. Tell claude-flow what you're doing (optional coordination)
-npx claude-flow swarm init --topology hierarchical --max-agents 1
-npx claude-flow agent spawn --type coder --name codex-worker
+## Workflow
 
-# 2. YOU (CODEX) DO THE ACTUAL WORK:
-mkdir -p src
-cat > src/api.ts << 'EOF'
-export function hello() { return "Hello World"; }
-EOF
+### 1. State Space Modeling
+```javascript
+// World state representation
+const WorldState = {
+  current_state: new Map([
+    ['code_written', false],
+    ['tests_passing', false],
+    ['documentation_complete', false],
+    ['deployment_ready', false]
+  ]),
+  goal_state: new Map([
+    ['code_written', true],
+    ['tests_passing', true],
+    ['documentation_complete', true],
+    ['deployment_ready', true]
+  ])
+};
 
-# 3. Report to claude-flow what you did (optional)
-npx claude-flow memory store --key "api-created" --value "src/api.ts" --namespace results
-```
-
-### The Division of Labor
-
-| Component | Role | Examples |
-|-----------|------|----------|
-| **CODEX** | EXECUTES | Write files, run tests, create code, shell commands |
-| **claude-flow** | ORCHESTRATES | Track agents, store memory, coordinate tasks |
-
----
-
-## ⛔ DON'T STOP AFTER CALLING CLAUDE-FLOW
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  ❌ WRONG: Call claude-flow → STOP → Wait for results                   │
-│  ✅ RIGHT: Call claude-flow → IMMEDIATELY continue → YOU do the work    │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-### ❌ WRONG Pattern (Stopping)
-```bash
-npx claude-flow swarm init --topology hierarchical
-npx claude-flow agent spawn --type coder --name worker-1
-npx claude-flow swarm start --objective "Build hello world"
-# WRONG: Codex stops here and waits for something to happen
-# Nothing will happen! Claude-flow doesn't execute code!
-```
-
-### ✅ CORRECT Pattern (Continue Immediately)
-```bash
-# Step 1: Coordination (optional)
-npx claude-flow swarm init --topology hierarchical
-npx claude-flow agent spawn --type coder --name worker-1
-
-# Step 2: IMMEDIATELY DO THE WORK YOURSELF - DON'T WAIT!
-echo 'console.log("Hello World!");' > hello.js
-node hello.js
-
-# Step 3: Report what you did
-npx claude-flow memory store --key "result" --value "Hello World printed" --namespace results
-```
-
-### The Rule
-**After ANY claude-flow command, IMMEDIATELY continue with your own work.**
-
-Claude-flow commands return instantly. They create coordination RECORDS only.
-You must ALWAYS follow up with YOUR OWN execution.
-
-| After This... | IMMEDIATELY Do This... |
-|---------------|----------------------|
-| `swarm init` | Start writing code |
-| `agent spawn` | Continue implementation |
-| `task create` | Execute the task yourself |
-| `swarm start` | Begin actual work |
-
----
-
-### When to Use Claude-Flow Commands
-
-| Use Case | Claude-Flow Command | Then Codex Does |
-|----------|---------------------|-----------------|
-| Track progress | `memory store --key "step1" --value "done"` | Continue to next step |
-| Multi-step tasks | `task create --description "step 2"` | Execute step 2 |
-| Store results | `memory store --key "output" --value "..."` | Move on |
-| Coordinate | `swarm init` | Start working |
-
-### Hello World - Correct Pattern
-
-```bash
-# STEP 1: Optional - register with orchestrator
-npx claude-flow swarm init --topology mesh --max-agents 1
-
-# STEP 2: CODEX DOES THE WORK
-echo 'console.log("Hello World!");' > hello.js
-node hello.js
-
-# STEP 3: Optional - report completion
-npx claude-flow memory store --key "hello-result" --value "printed Hello World" --namespace results
+// Action definitions with preconditions and effects
+const Actions = [
+  {
+    name: 'write_code',
+    cost: 5,
+    preconditions: new Map(),
+    effects: new Map([['code_written', true]])
+  },
+  {
+    name: 'write_tests',
+    cost: 3,
+    preconditions: new Map([['code_written', true]]),
+    effects: new Map([['tests_passing', true]])
+  },
+  {
+    name: 'write_documentation',
+    cost: 2,
+    preconditions: new Map([['code_written', true]]),
+    effects: new Map([['documentation_complete', true]])
+  },
+  {
+    name: 'deploy_application',
+    cost: 4,
+    preconditions: new Map([
+      ['code_written', true],
+      ['tests_passing', true],
+      ['documentation_complete', true]
+    ]),
+    effects: new Map([['deployment_ready', true]])
+  }
+];
 ```
 
-**REMEMBER: If you need something DONE, YOU do it. Claude-flow just tracks.**
+### 2. Action Graph Construction
+```javascript
+// Build adjacency matrix for sublinear optimization
+async function buildActionGraph(actions, worldState) {
+  const n = actions.length;
+  const adjacencyMatrix = Array(n).fill().map(() => Array(n).fill(0));
 
----
+  // Calculate action dependencies and transitions
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (canTransition(actions[i], actions[j], worldState)) {
+        adjacencyMatrix[i][j] = 1 / actions[j].cost; // Weight by inverse cost
+      }
+    }
+  }
 
-## ⚡ QUICK COMMANDS (NO DISCOVERY NEEDED)
+  // Analyze matrix properties for optimization
+  const analysis = await mcp__sublinear_time_solver__analyzeMatrix({
+    matrix: {
+      rows: n,
+      cols: n,
+      format: "dense",
+      data: adjacencyMatrix
+    },
+    checkDominance: true,
+    checkSymmetry: false,
+    estimateCondition: true
+  });
 
-### Spawn N-Agent Swarm (Copy-Paste Ready)
-
-```bash
-# 5-AGENT SWARM - Run these commands in sequence:
-npx claude-flow swarm init --topology hierarchical --max-agents 8
-npx claude-flow agent spawn --type coordinator --name coord-1
-npx claude-flow agent spawn --type coder --name coder-1
-npx claude-flow agent spawn --type coder --name coder-2
-npx claude-flow agent spawn --type tester --name tester-1
-npx claude-flow agent spawn --type reviewer --name reviewer-1
-npx claude-flow swarm start --objective "Your task here" --strategy development
+  return { adjacencyMatrix, analysis };
+}
 ```
 
-### Common Swarm Patterns
+### 3. Goal Prioritization with PageRank
+```javascript
+async function prioritizeGoals(actionGraph, goals) {
+  // Use PageRank to identify critical actions and goals
+  const pageRank = await mcp__sublinear_time_solver__pageRank({
+    adjacency: {
+      rows: actionGraph.length,
+      cols: actionGraph.length,
+      format: "dense",
+      data: actionGraph
+    },
+    damping: 0.85,
+    epsilon: 1e-6
+  });
 
-| Task | Exact Command |
-|------|---------------|
-| Init hierarchical swarm | `npx claude-flow swarm init --topology hierarchical --max-agents 8` |
-| Init mesh swarm | `npx claude-flow swarm init --topology mesh --max-agents 5` |
-| Init V3 mode (15 agents) | `npx claude-flow swarm init --v3-mode` |
-| Spawn coder | `npx claude-flow agent spawn --type coder --name coder-1` |
-| Spawn tester | `npx claude-flow agent spawn --type tester --name tester-1` |
-| Spawn coordinator | `npx claude-flow agent spawn --type coordinator --name coord-1` |
-| Spawn architect | `npx claude-flow agent spawn --type architect --name arch-1` |
-| Spawn reviewer | `npx claude-flow agent spawn --type reviewer --name rev-1` |
-| Spawn researcher | `npx claude-flow agent spawn --type researcher --name res-1` |
-| Start swarm | `npx claude-flow swarm start --objective "task" --strategy development` |
-| Check swarm status | `npx claude-flow swarm status` |
-| List agents | `npx claude-flow agent list` |
-| Stop swarm | `npx claude-flow swarm stop` |
+  // Sort goals by importance scores
+  const prioritizedGoals = goals.map((goal, index) => ({
+    goal,
+    priority: pageRank.ranks[index],
+    index
+  })).sort((a, b) => b.priority - a.priority);
 
-### Agent Types (Use with `--type`)
-
-| Type | Purpose |
-|------|---------|
-| `coordinator` | Orchestrates other agents |
-| `coder` | Writes code |
-| `tester` | Writes tests |
-| `reviewer` | Reviews code |
-| `architect` | Designs systems |
-| `researcher` | Analyzes requirements |
-| `security-architect` | Security design |
-| `performance-engineer` | Optimization |
-
-### Task Commands
-
-| Action | Command |
-|--------|---------|
-| Create task | `npx claude-flow task create --type implementation --description "desc"` |
-| List tasks | `npx claude-flow task list` |
-| Assign task | `npx claude-flow task assign TASK_ID --agent AGENT_NAME` |
-| Task status | `npx claude-flow task status TASK_ID` |
-| Cancel task | `npx claude-flow task cancel TASK_ID` |
-
-### Memory Commands
-
-| Action | Command |
-|--------|---------|
-| Store | `npx claude-flow memory store --key "key" --value "value" --namespace patterns` |
-| Search | `npx claude-flow memory search --query "search terms"` |
-| List | `npx claude-flow memory list --namespace patterns` |
-| Retrieve | `npx claude-flow memory retrieve --key "key"` |
-
----
-
-## 🚀 SWARM RECIPES
-
-### Recipe 1: Hello World Test (COMPLETE EXAMPLE)
-
-**Step 1: Setup coordination** (returns instantly - don't stop!)
-```bash
-npx claude-flow swarm init --topology mesh --max-agents 5
-npx claude-flow agent spawn --type coder --name hello-main
-# ⚠️ DON'T STOP HERE - CONTINUE IMMEDIATELY TO STEP 2
+  return prioritizedGoals;
+}
 ```
 
-**Step 2: YOU (Codex) execute the task** (THIS IS THE REAL WORK)
-```bash
-# ✅ YOU create the file
-echo 'console.log("Hello World from Swarm!");' > /tmp/hello-swarm.js
+### 4. Temporal Advantage Planning
+```javascript
+async function planWithTemporalAdvantage(planningMatrix, constraints) {
+  // Predict optimal solutions before full problem manifestation
+  const prediction = await mcp__sublinear_time_solver__predictWithTemporalAdvantage({
+    matrix: planningMatrix,
+    vector: constraints,
+    distanceKm: 12000 // Global coordination distance
+  });
 
-# ✅ YOU execute it
-node /tmp/hello-swarm.js
-# Output: Hello World from Swarm!
+  // Validate temporal feasibility
+  const validation = await mcp__sublinear_time_solver__validateTemporalAdvantage({
+    size: planningMatrix.rows,
+    distanceKm: 12000
+  });
+
+  if (validation.feasible) {
+    return {
+      solution: prediction.solution,
+      temporalAdvantage: prediction.temporalAdvantage,
+      confidence: prediction.confidence
+    };
+  }
+
+  return null;
+}
 ```
 
-**Step 3: Report completion** (optional - store results)
-```bash
-npx claude-flow memory store --key "hello-world-result" --value "Executed: Hello World from Swarm!" --namespace results
+### 5. A* Search with Sublinear Optimization
+```javascript
+async function findOptimalPath(startState, goalState, actions) {
+  const openSet = new PriorityQueue();
+  const closedSet = new Set();
+  const gScore = new Map();
+  const fScore = new Map();
+  const cameFrom = new Map();
+
+  openSet.enqueue(startState, 0);
+  gScore.set(stateKey(startState), 0);
+  fScore.set(stateKey(startState), heuristic(startState, goalState));
+
+  while (!openSet.isEmpty()) {
+    const current = openSet.dequeue();
+    const currentKey = stateKey(current);
+
+    if (statesEqual(current, goalState)) {
+      return reconstructPath(cameFrom, current);
+    }
+
+    closedSet.add(currentKey);
+
+    // Generate successor states using available actions
+    for (const action of getApplicableActions(current, actions)) {
+      const neighbor = applyAction(current, action);
+      const neighborKey = stateKey(neighbor);
+
+      if (closedSet.has(neighborKey)) continue;
+
+      const tentativeGScore = gScore.get(currentKey) + action.cost;
+
+      if (!gScore.has(neighborKey) || tentativeGScore < gScore.get(neighborKey)) {
+        cameFrom.set(neighborKey, { state: current, action });
+        gScore.set(neighborKey, tentativeGScore);
+
+        // Use sublinear solver for heuristic optimization
+        const heuristicValue = await optimizedHeuristic(neighbor, goalState);
+        fScore.set(neighborKey, tentativeGScore + heuristicValue);
+
+        if (!openSet.contains(neighbor)) {
+          openSet.enqueue(neighbor, fScore.get(neighborKey));
+        }
+      }
+    }
+  }
+
+  return null; // No path found
+}
 ```
 
-### Recipe 1b: 5-Agent Concurrent Hello World (COMPLETE)
-```bash
-# COORDINATION (instant - creates records only)
-npx claude-flow swarm init --topology hierarchical --max-agents 5
-for i in 1 2 3 4 5; do
-  npx claude-flow agent spawn --type coder --name "worker-$i"
-done
+## 🌐 Multi-Agent Coordination
 
-# ⚠️ NOW YOU DO THE ACTUAL CONCURRENT WORK:
-for i in 1 2 3 4 5; do
-  (echo "Worker $i: Hello World!" && sleep 0.$i) &
-done
-wait
-echo "All 5 workers completed!"
+### Swarm-Based Planning
+```javascript
+async function coordinateWithSwarm(complexGoal) {
+  // Initialize planning swarm
+  const swarm = await mcp__claude_flow__swarm_init({
+    topology: "hierarchical",
+    maxAgents: 8,
+    strategy: "adaptive"
+  });
 
-# REPORT (optional)
-npx claude-flow memory store --key "concurrent-result" --value "5 workers completed" --namespace results
+  // Spawn specialized planning agents
+  const coordinator = await mcp__claude_flow__agent_spawn({
+    type: "coordinator",
+    capabilities: ["goal_decomposition", "plan_synthesis"]
+  });
+
+  const analyst = await mcp__claude_flow__agent_spawn({
+    type: "analyst",
+    capabilities: ["constraint_analysis", "feasibility_assessment"]
+  });
+
+  const optimizer = await mcp__claude_flow__agent_spawn({
+    type: "optimizer",
+    capabilities: ["path_optimization", "resource_allocation"]
+  });
+
+  // Orchestrate distributed planning
+  const planningTask = await mcp__claude_flow__task_orchestrate({
+    task: `Plan execution for: ${complexGoal}`,
+    strategy: "parallel",
+    priority: "high"
+  });
+
+  return { swarm, planningTask };
+}
 ```
 
-### Recipe 1b: Hello World (Single Command Block)
-```bash
-# All-in-one execution
-npx claude-flow swarm init --topology mesh --max-agents 5 && \
-npx claude-flow agent spawn --type coder --name hello-main && \
-npx claude-flow swarm start --objective "Print hello world" --strategy development && \
-echo 'console.log("Hello World from Swarm!");' > /tmp/hello-swarm.js && \
-node /tmp/hello-swarm.js && \
-npx claude-flow memory store --key "hello-world-result" --value "Success" --namespace results
+### Consensus-Based Decision Making
+```javascript
+async function achieveConsensus(agents, proposals) {
+  // Build consensus matrix
+  const consensusMatrix = buildConsensusMatrix(agents, proposals);
+
+  // Solve for optimal consensus
+  const consensus = await mcp__sublinear_time_solver__solve({
+    matrix: consensusMatrix,
+    vector: generatePreferenceVector(agents),
+    method: "neumann",
+    epsilon: 1e-6
+  });
+
+  // Select proposal with highest consensus score
+  const optimalProposal = proposals[consensus.solution.indexOf(Math.max(...consensus.solution))];
+
+  return {
+    selectedProposal: optimalProposal,
+    consensusScore: Math.max(...consensus.solution),
+    convergenceTime: consensus.convergenceTime
+  };
+}
 ```
 
-### Recipe 2: Feature Implementation (6 Agents)
-```bash
-npx claude-flow swarm init --topology hierarchical --max-agents 8
-npx claude-flow agent spawn --type coordinator --name lead
-npx claude-flow agent spawn --type architect --name arch
-npx claude-flow agent spawn --type coder --name impl-1
-npx claude-flow agent spawn --type coder --name impl-2
-npx claude-flow agent spawn --type tester --name test
-npx claude-flow agent spawn --type reviewer --name review
-npx claude-flow swarm start --objective "Implement [feature]" --strategy development
+## 🎯 Advanced Planning Workflows
+
+### 1. Hierarchical Goal Decomposition
+```javascript
+async function decomposeGoal(complexGoal) {
+  // Create sandbox for goal simulation
+  const sandbox = await mcp__flow_nexus__sandbox_create({
+    template: "node",
+    name: "goal-decomposition",
+    env_vars: {
+      GOAL_CONTEXT: complexGoal.context,
+      CONSTRAINTS: JSON.stringify(complexGoal.constraints)
+    }
+  });
+
+  // Recursive goal breakdown
+  const subgoals = await recursiveDecompose(complexGoal, 0, 3); // Max depth 3
+
+  // Build dependency graph
+  const dependencyMatrix = buildDependencyMatrix(subgoals);
+
+  // Optimize execution order
+  const executionOrder = await mcp__sublinear_time_solver__pageRank({
+    adjacency: dependencyMatrix,
+    damping: 0.9
+  });
+
+  return {
+    subgoals: subgoals.sort((a, b) =>
+      executionOrder.ranks[b.id] - executionOrder.ranks[a.id]
+    ),
+    dependencies: dependencyMatrix,
+    estimatedCompletion: calculateCompletionTime(subgoals, executionOrder)
+  };
+}
 ```
 
-### Recipe 3: Bug Fix (4 Agents)
-```bash
-npx claude-flow swarm init --topology hierarchical --max-agents 4
-npx claude-flow agent spawn --type coordinator --name lead
-npx claude-flow agent spawn --type researcher --name debug
-npx claude-flow agent spawn --type coder --name fix
-npx claude-flow agent spawn --type tester --name verify
-npx claude-flow swarm start --objective "Fix [bug]" --strategy development
+### 2. Dynamic Replanning
+```javascript
+class DynamicPlanner {
+  constructor() {
+    this.currentPlan = null;
+    this.worldState = new Map();
+    this.monitoringActive = false;
+  }
+
+  async startMonitoring() {
+    this.monitoringActive = true;
+
+    while (this.monitoringActive) {
+      // OODA Loop Implementation
+      await this.observe();
+      await this.orient();
+      await this.decide();
+      await this.act();
+
+      await new Promise(resolve => setTimeout(resolve, 1000)); // 1s cycle
+    }
+  }
+
+  async observe() {
+    // Monitor world state changes
+    const stateChanges = await this.detectStateChanges();
+    this.updateWorldState(stateChanges);
+  }
+
+  async orient() {
+    // Analyze deviations from expected state
+    const deviations = this.analyzeDeviations();
+
+    if (deviations.significant) {
+      this.triggerReplanning(deviations);
+    }
+  }
+
+  async decide() {
+    if (this.needsReplanning()) {
+      await this.replan();
+    }
+  }
+
+  async act() {
+    if (this.currentPlan && this.currentPlan.nextAction) {
+      await this.executeAction(this.currentPlan.nextAction);
+    }
+  }
+
+  async replan() {
+    // Use temporal advantage for predictive replanning
+    const newPlan = await planWithTemporalAdvantage(
+      this.buildCurrentMatrix(),
+      this.getCurrentConstraints()
+    );
+
+    if (newPlan && newPlan.confidence > 0.8) {
+      this.currentPlan = newPlan;
+
+      // Store successful pattern
+      await mcp__claude_flow__memory_usage({
+        action: "store",
+        namespace: "goap-patterns",
+        key: `replan_${Date.now()}`,
+        value: JSON.stringify({
+          trigger: this.lastDeviation,
+          solution: newPlan,
+          worldState: Array.from(this.worldState.entries())
+        })
+      });
+    }
+  }
+}
 ```
 
-### Recipe 4: Security Audit (3 Agents)
-```bash
-npx claude-flow swarm init --topology hierarchical --max-agents 4
-npx claude-flow agent spawn --type coordinator --name lead
-npx claude-flow agent spawn --type security-architect --name audit
-npx claude-flow agent spawn --type reviewer --name review
-npx claude-flow swarm start --objective "Security audit" --strategy development
+### 3. Learning from Execution
+```javascript
+class PlanningLearner {
+  async learnFromExecution(executedPlan, outcome) {
+    // Analyze plan effectiveness
+    const effectiveness = this.calculateEffectiveness(executedPlan, outcome);
+
+    if (effectiveness.success) {
+      // Store successful pattern
+      await this.storeSuccessPattern(executedPlan, effectiveness);
+
+      // Train neural network on successful patterns
+      await mcp__flow_nexus__neural_train({
+        config: {
+          architecture: {
+            type: "feedforward",
+            layers: [
+              { type: "input", size: this.getStateSpaceSize() },
+              { type: "hidden", size: 128, activation: "relu" },
+              { type: "hidden", size: 64, activation: "relu" },
+              { type: "output", size: this.getActionSpaceSize(), activation: "softmax" }
+            ]
+          },
+          training: {
+            epochs: 50,
+            learning_rate: 0.001,
+            batch_size: 32
+          }
+        },
+        tier: "small"
+      });
+    } else {
+      // Analyze failure patterns
+      await this.analyzeFailure(executedPlan, outcome);
+    }
+  }
+
+  async retrieveSimilarPatterns(currentSituation) {
+    // Search for similar successful patterns
+    const patterns = await mcp__claude_flow__memory_search({
+      pattern: `situation:${this.encodeSituation(currentSituation)}`,
+      namespace: "goap-patterns",
+      limit: 10
+    });
+
+    // Rank by similarity and success rate
+    return patterns.results
+      .map(p => ({ ...p, similarity: this.calculateSimilarity(currentSituation, p.context) }))
+      .sort((a, b) => b.similarity * b.successRate - a.similarity * a.successRate);
+  }
+}
 ```
 
-### Recipe 5: V3 Full Coordination (15 Agents)
-```bash
-npx claude-flow swarm init --v3-mode
-npx claude-flow swarm coordinate --agents 15
+## 🎮 Gaming AI Integration
+
+### Behavior Tree Implementation
+```javascript
+class GOAPBehaviorTree {
+  constructor() {
+    this.root = new SelectorNode([
+      new SequenceNode([
+        new ConditionNode(() => this.hasValidPlan()),
+        new ActionNode(() => this.executePlan())
+      ]),
+      new SequenceNode([
+        new ActionNode(() => this.generatePlan()),
+        new ActionNode(() => this.executePlan())
+      ]),
+      new ActionNode(() => this.handlePlanningFailure())
+    ]);
+  }
+
+  async tick() {
+    return await this.root.execute();
+  }
+
+  hasValidPlan() {
+    return this.currentPlan &&
+           this.currentPlan.isValid &&
+           !this.worldStateChanged();
+  }
+
+  async generatePlan() {
+    const startTime = performance.now();
+
+    // Use sublinear solver for rapid planning
+    const planMatrix = this.buildPlanningMatrix();
+    const constraints = this.extractConstraints();
+
+    const solution = await mcp__sublinear_time_solver__solve({
+      matrix: planMatrix,
+      vector: constraints,
+      method: "random-walk",
+      maxIterations: 1000
+    });
+
+    const endTime = performance.now();
+
+    this.currentPlan = {
+      actions: this.decodeSolution(solution.solution),
+      confidence: solution.residual < 1e-6 ? 0.95 : 0.7,
+      planningTime: endTime - startTime,
+      isValid: true
+    };
+
+    return this.currentPlan !== null;
+  }
+}
 ```
 
----
+### Utility-Based Action Selection
+```javascript
+class UtilityPlanner {
+  constructor() {
+    this.utilityWeights = {
+      timeEfficiency: 0.3,
+      resourceCost: 0.25,
+      riskLevel: 0.2,
+      goalAlignment: 0.25
+    };
+  }
 
-## 📋 BEHAVIORAL RULES
+  async selectOptimalAction(availableActions, currentState, goalState) {
+    const utilities = await Promise.all(
+      availableActions.map(action => this.calculateUtility(action, currentState, goalState))
+    );
 
-- **YOU (CODEX) execute tasks** - claude-flow only orchestrates
-- Do what is asked; nothing more, nothing less
-- NEVER create files unless absolutely necessary
-- ALWAYS prefer editing existing files
-- NEVER save to root folder
-- NEVER commit secrets or .env files
-- ALWAYS read a file before editing it
-- NEVER wait for claude-flow to "do work" - it doesn't execute, YOU do
-- Use claude-flow commands to TRACK progress, not to EXECUTE tasks
+    // Use sublinear optimization for multi-objective selection
+    const utilityMatrix = this.buildUtilityMatrix(utilities);
+    const preferenceVector = Object.values(this.utilityWeights);
 
-## 📁 FILE ORGANIZATION
+    const optimal = await mcp__sublinear_time_solver__solve({
+      matrix: utilityMatrix,
+      vector: preferenceVector,
+      method: "neumann"
+    });
 
-| Directory | Purpose |
-|-----------|---------|
-| `/src` | Source code |
-| `/tests` | Test files |
-| `/docs` | Documentation |
-| `/config` | Configuration |
-| `/scripts` | Utility scripts |
+    const bestActionIndex = optimal.solution.indexOf(Math.max(...optimal.solution));
+    return availableActions[bestActionIndex];
+  }
 
-## 🎯 WHEN TO USE SWARMS
+  async calculateUtility(action, currentState, goalState) {
+    const timeUtility = await this.estimateTimeUtility(action);
+    const costUtility = this.calculateCostUtility(action);
+    const riskUtility = await this.assessRiskUtility(action, currentState);
+    const goalUtility = this.calculateGoalAlignment(action, currentState, goalState);
 
-**USE SWARM:**
-- Multiple files (3+)
-- New feature implementation
-- Cross-module refactoring
-- API changes with tests
-- Security-related changes
-- Performance optimization
-
-**SKIP SWARM:**
-- Single file edits
-- Simple bug fixes (1-2 lines)
-- Documentation updates
-- Configuration changes
-
----
-
-## 🔧 CLI REFERENCE
-
-### Swarm Commands
-```bash
-npx claude-flow swarm init [--topology TYPE] [--max-agents N] [--v3-mode]
-npx claude-flow swarm start --objective "task" --strategy [development|research]
-npx claude-flow swarm status [SWARM_ID]
-npx claude-flow swarm stop [SWARM_ID]
-npx claude-flow swarm scale --count N
-npx claude-flow swarm coordinate --agents N
+    return {
+      action,
+      timeUtility,
+      costUtility,
+      riskUtility,
+      goalUtility,
+      totalUtility: (
+        timeUtility * this.utilityWeights.timeEfficiency +
+        costUtility * this.utilityWeights.resourceCost +
+        riskUtility * this.utilityWeights.riskLevel +
+        goalUtility * this.utilityWeights.goalAlignment
+      )
+    };
+  }
+}
 ```
 
-### Agent Commands
-```bash
-npx claude-flow agent spawn --type TYPE --name NAME
-npx claude-flow agent list [--filter active|idle|busy]
-npx claude-flow agent status AGENT_ID
-npx claude-flow agent stop AGENT_ID
-npx claude-flow agent metrics [AGENT_ID]
-npx claude-flow agent health
-npx claude-flow agent logs AGENT_ID
+## Usage Examples
+
+### Example 1: Complex Project Planning
+```javascript
+// Goal: Launch a new product feature
+const productLaunchGoal = {
+  objective: "Launch authentication system",
+  constraints: ["2 week deadline", "high security", "user-friendly"],
+  resources: ["3 developers", "1 designer", "$10k budget"]
+};
+
+// Decompose into actionable sub-goals
+const subGoals = [
+  "Design user interface",
+  "Implement backend authentication",
+  "Create security tests",
+  "Deploy to production",
+  "Monitor system performance"
+];
+
+// Build dependency matrix
+const dependencyMatrix = buildDependencyMatrix(subGoals);
+
+// Optimize execution order
+const optimizedPlan = await mcp__sublinear_time_solver__solve({
+  matrix: dependencyMatrix,
+  vector: resourceConstraints,
+  method: "neumann"
+});
 ```
 
-### Task Commands
-```bash
-npx claude-flow task create --type TYPE --description "desc"
-npx claude-flow task list [--all]
-npx claude-flow task status TASK_ID
-npx claude-flow task assign TASK_ID --agent AGENT_NAME
-npx claude-flow task cancel TASK_ID
-npx claude-flow task retry TASK_ID
+### Example 2: Resource Allocation Optimization
+```javascript
+// Multiple competing objectives
+const objectives = [
+  { name: "reduce_costs", weight: 0.3, urgency: 0.7 },
+  { name: "improve_quality", weight: 0.4, urgency: 0.8 },
+  { name: "increase_speed", weight: 0.3, urgency: 0.9 }
+];
+
+// Use PageRank for multi-objective prioritization
+const objectivePriorities = await mcp__sublinear_time_solver__pageRank({
+  adjacency: buildObjectiveGraph(objectives),
+  personalized: objectives.map(o => o.urgency)
+});
+
+// Allocate resources based on priorities
+const resourceAllocation = optimizeResourceAllocation(objectivePriorities);
 ```
 
-### Memory Commands
-```bash
-npx claude-flow memory store --key KEY --value VALUE [--namespace NS]
-npx claude-flow memory search --query "terms" [--namespace NS]
-npx claude-flow memory list [--namespace NS]
-npx claude-flow memory retrieve --key KEY [--namespace NS]
-npx claude-flow memory init [--force]
+### Example 3: Predictive Action Planning
+```javascript
+// Predict market conditions before they change
+const marketPrediction = await mcp__sublinear_time_solver__predictWithTemporalAdvantage({
+  matrix: marketTrendMatrix,
+  vector: currentMarketState,
+  distanceKm: 20000 // Global market data propagation
+});
+
+// Plan actions based on predictions
+const strategicActions = generateStrategicActions(marketPrediction);
+
+// Execute with temporal advantage
+const results = await executeWithTemporalLead(strategicActions);
 ```
 
-### Hooks Commands
-```bash
-npx claude-flow hooks pre-task --description "task"
-npx claude-flow hooks post-task --task-id ID --success true
-npx claude-flow hooks route --task "task"
-npx claude-flow hooks session-start --session-id ID
-npx claude-flow hooks session-end --export-metrics true
-npx claude-flow hooks worker list
-npx claude-flow hooks worker dispatch --trigger audit
+### Example 4: Multi-Agent Goal Coordination
+```javascript
+// Initialize coordinated swarm
+const coordinatedSwarm = await mcp__flow_nexus__swarm_init({
+  topology: "mesh",
+  maxAgents: 12,
+  strategy: "specialized"
+});
+
+// Spawn specialized agents for different goal aspects
+const agents = await Promise.all([
+  mcp__flow_nexus__agent_spawn({ type: "researcher", capabilities: ["data_analysis"] }),
+  mcp__flow_nexus__agent_spawn({ type: "coder", capabilities: ["implementation"] }),
+  mcp__flow_nexus__agent_spawn({ type: "optimizer", capabilities: ["performance"] })
+]);
+
+// Coordinate goal achievement
+const coordinatedExecution = await mcp__flow_nexus__task_orchestrate({
+  task: "Build and optimize recommendation system",
+  strategy: "adaptive",
+  maxAgents: 3
+});
 ```
 
-### System Commands
-```bash
-npx claude-flow init [--wizard] [--codex] [--full]
-npx claude-flow daemon start
-npx claude-flow daemon stop
-npx claude-flow daemon status
-npx claude-flow doctor [--fix]
-npx claude-flow status
-npx claude-flow mcp start
+### Example 5: Adaptive Replanning
+```javascript
+// Monitor execution progress
+const executionStatus = await mcp__flow_nexus__task_status({
+  taskId: currentExecutionId,
+  detailed: true
+});
+
+// Detect deviations from plan
+if (executionStatus.deviation > threshold) {
+  // Analyze new constraints
+  const updatedMatrix = updateConstraintMatrix(executionStatus.changes);
+
+  // Generate new optimal plan
+  const revisedPlan = await mcp__sublinear_time_solver__solve({
+    matrix: updatedMatrix,
+    vector: updatedObjectives,
+    method: "adaptive"
+  });
+
+  // Implement revised plan
+  await implementRevisedPlan(revisedPlan);
+}
 ```
 
----
+## Best Practices
 
-## 🔌 TOPOLOGIES
+### When to Use GOAP
+- **Complex Multi-Step Objectives**: When goals require multiple interconnected actions
+- **Resource Constraints**: When optimization of time, cost, or personnel is critical
+- **Dynamic Environments**: When conditions change and plans need adaptation
+- **Predictive Scenarios**: When temporal advantage can provide competitive benefits
+- **Multi-Agent Coordination**: When multiple agents need to work toward shared goals
 
-| Topology | Use Case | Command Flag |
-|----------|----------|--------------|
-| `hierarchical` | Coordinated teams, anti-drift | `--topology hierarchical` |
-| `mesh` | Peer-to-peer, equal agents | `--topology mesh` |
-| `hierarchical-mesh` | Hybrid (recommended for V3) | `--topology hierarchical-mesh` |
-| `ring` | Sequential processing | `--topology ring` |
-| `star` | Central coordinator | `--topology star` |
-| `adaptive` | Dynamic switching | `--topology adaptive` |
-
-## 🤖 AGENT TYPES
-
-### Core
-`coordinator`, `coder`, `tester`, `reviewer`, `architect`, `researcher`
-
-### Specialized
-`security-architect`, `security-auditor`, `memory-specialist`, `performance-engineer`
-
-### Swarm Coordination
-`hierarchical-coordinator`, `mesh-coordinator`, `adaptive-coordinator`
-
-### Consensus
-`byzantine-coordinator`, `raft-manager`, `gossip-coordinator`
-
----
-
-## ⚙️ CONFIGURATION
-
-### Default Swarm Config
-- Topology: `hierarchical`
-- Max Agents: 8
-- Strategy: `specialized`
-- Consensus: `raft`
-- Memory: `hybrid`
-
-### Environment Variables
-```bash
-CLAUDE_FLOW_CONFIG=./claude-flow.config.json
-CLAUDE_FLOW_LOG_LEVEL=info
-CLAUDE_FLOW_MEMORY_BACKEND=hybrid
+### Goal Structure Optimization
+```javascript
+// Well-structured goal definition
+const optimizedGoal = {
+  objective: "Clear and measurable outcome",
+  preconditions: ["List of required starting states"],
+  postconditions: ["List of desired end states"],
+  constraints: ["Time, resource, and quality constraints"],
+  metrics: ["Quantifiable success measures"],
+  dependencies: ["Relationships with other goals"]
+};
 ```
 
----
+### Integration with Other Agents
+- **Coordinate with swarm agents** for distributed execution
+- **Use neural agents** for learning from past planning success
+- **Integrate with workflow agents** for repeatable patterns
+- **Leverage sandbox agents** for safe plan testing
 
-## 🔗 SKILLS
+### Performance Optimization
+- **Matrix Sparsity**: Use sparse representations for large goal networks
+- **Incremental Updates**: Update existing plans rather than rebuilding
+- **Caching**: Store successful plan patterns for similar goals
+- **Parallel Processing**: Execute independent sub-goals simultaneously
 
-Invoke with `$skill-name`:
-
-| Skill | Purpose |
-|-------|---------|
-| `$swarm-orchestration` | Multi-agent coordination |
-| `$memory-management` | Pattern storage/retrieval |
-| `$sparc-methodology` | Structured development |
-| `$security-audit` | Security scanning |
-| `$performance-analysis` | Profiling |
-| `$github-automation` | CI/CD management |
-| `$hive-mind` | Byzantine consensus |
-| `$neural-training` | Pattern learning |
-
----
-
----
-
-## 🔌 MCP INTEGRATION (Learning & Coordination)
-
-Codex doesn't have native hooks like Claude Code, but uses **MCP (Model Context Protocol)** for learning and coordination.
-
-### MCP Auto-Registration
-
-When you run `npx claude-flow init --codex`, the MCP server is **automatically registered** with Codex.
-
-```bash
-# Verify MCP is registered:
-codex mcp list
-
-# Expected output:
-# Name         Command  Args                   Status
-# claude-flow  npx      claude-flow mcp start  enabled
-
-# If not present, add manually:
-codex mcp add claude-flow -- npx claude-flow mcp start
+### Error Handling & Resilience
+```javascript
+// Robust plan execution with fallbacks
+try {
+  const result = await executePlan(optimizedPlan);
+  return result;
+} catch (error) {
+  // Generate contingency plan
+  const contingencyPlan = await generateContingencyPlan(error, originalGoal);
+  return await executePlan(contingencyPlan);
+}
 ```
 
-### Test MCP Connection
-```bash
-# Test MCP server starts correctly:
-npx claude-flow mcp start --test
+### Monitoring & Adaptation
+- **Real-time Progress Tracking**: Monitor action completion and resource usage
+- **Deviation Detection**: Identify when actual progress differs from predictions
+- **Automatic Replanning**: Trigger plan updates when thresholds are exceeded
+- **Learning Integration**: Incorporate execution results into future planning
+
+## 🔧 Advanced Configuration
+
+### Customizing Planning Parameters
+```javascript
+const plannerConfig = {
+  searchAlgorithm: "a_star", // a_star, dijkstra, greedy
+  heuristicFunction: "manhattan", // manhattan, euclidean, custom
+  maxSearchDepth: 20,
+  planningTimeout: 30000, // 30 seconds
+  convergenceEpsilon: 1e-6,
+  temporalAdvantageThreshold: 0.8,
+  utilityWeights: {
+    time: 0.3,
+    cost: 0.3,
+    risk: 0.2,
+    quality: 0.2
+  }
+};
 ```
 
-### MCP Tools Available
-Once added, Codex can use these tools via MCP:
-
-**Coordination:**
-| Tool | Purpose |
-|------|---------|
-| `swarm_init` | Initialize swarm (topology, maxAgents) |
-| `swarm_status` | Check swarm state |
-| `agent_spawn` | Register agent roles |
-| `agent_status` | Check agent state |
-| `task_orchestrate` | Coordinate multi-agent tasks |
-
-**Learning & Memory (USE THESE!):**
-| Tool | Purpose | When |
-|------|---------|------|
-| `memory_search` | Semantic vector search | BEFORE every task |
-| `memory_store` | Store patterns with embeddings | AFTER success |
-| `memory_retrieve` | Get by exact key | When key is known |
-| `neural_train` | Train on patterns | Periodic improvement |
-| `neural_status` | Check learning state | Debugging |
-
-**Hive Mind (Advanced):**
-| Tool | Purpose |
-|------|---------|
-| `hive-mind_init` | Byzantine consensus swarm |
-| `hive-mind_spawn` | Spawn hive workers |
-| `hive-mind_broadcast` | Message all workers |
-
-### Self-Learning via MCP Tools (PREFERRED)
-
-Use MCP tools directly - faster than CLI commands:
-
-**BEFORE starting any task - SEARCH for patterns:**
-```
-Use tool: memory_search
-  query: "keywords related to your task"
-  namespace: "patterns"
+### Error Handling and Recovery
+```javascript
+class RobustPlanner extends GOAPAgent {
+  async handlePlanningFailure(error, context) {
+    switch (error.type) {
+      case 'MATRIX_SINGULAR':
+        return await this.regularizeMatrix(context.matrix);
+      case 'NO_CONVERGENCE':
+        return await this.relaxConstraints(context.constraints);
+      case 'TIMEOUT':
+        return await this.useApproximateSolution(context);
+      default:
+        return await this.fallbackToSimplePlanning(context);
+    }
+  }
+}
 ```
 
-**AFTER completing successfully - STORE the pattern:**
-```
-Use tool: memory_store
-  key: "pattern-[descriptive-name]"
-  value: "What worked: approach, code patterns, gotchas"
-  namespace: "patterns"
-```
+## Advanced Features
 
-### MCP Learning Workflow (Use This!)
+### Temporal Computational Advantage
+Leverage light-speed delays for predictive planning:
+- Plan actions before market data arrives from distant sources
+- Optimize resource allocation with future information
+- Coordinate global operations with temporal precision
 
-```
-1. LEARN: memory_search(query="task keywords", namespace="patterns")
-   → If score > 0.7, USE that pattern
+### Matrix-Based Goal Modeling
+- Model goals as constraint satisfaction problems
+- Use graph theory for dependency analysis
+- Apply linear algebra for optimization
+- Implement feedback loops for continuous improvement
 
-2. COORDINATE: swarm_init(topology="hierarchical")
-   → agent_spawn(type="coder", name="worker-1")
+### Creative Solution Discovery
+- Generate novel action combinations through matrix operations
+- Explore solution spaces beyond obvious approaches
+- Identify emergent opportunities from goal interactions
+- Optimize for multiple success criteria simultaneously
 
-3. EXECUTE: YOU write the code, run commands, create files
-
-4. REMEMBER: memory_store(key="pattern-x", value="what worked", namespace="patterns")
-```
-
-### MCP Tools for Learning
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| `memory_search` | Find similar past patterns | BEFORE starting any task |
-| `memory_store` | Save successful patterns | AFTER completing a task |
-| `memory_retrieve` | Get specific pattern by key | When you know the exact key |
-| `neural_train` | Train on successful patterns | After multiple successes |
-
-### Example: Learning-Enabled Task
-
-```
-STEP 1 - LEARN:
-Use tool: memory_search
-  query: "validation utility function"
-  namespace: "patterns"
-
-→ Found: pattern-email-validator (score: 0.82)
-→ Use this pattern as reference!
-
-STEP 2 - COORDINATE:
-Use tool: swarm_init with topology="hierarchical", maxAgents=3
-
-STEP 3 - EXECUTE:
-YOU create the files:
-  echo 'export function validate(x) { ... }' > /tmp/validator.js
-  node --test /tmp/validator.js
-
-STEP 4 - REMEMBER:
-Use tool: memory_store
-  key: "pattern-phone-validator"
-  value: "Phone validation: regex /^\+?[\d\s-]{10,}$/, normalize first, test edge cases"
-  namespace: "patterns"
-```
-
-### Vector Search Tips
-- Searches are SEMANTIC (meaning-based, not just keywords)
-- Score > 0.7 = strong match, use that pattern
-- Score 0.5-0.7 = partial match, adapt as needed
-- Store DETAILED values for better future retrieval
-
-### CLI Fallback (if MCP unavailable)
-```bash
-npx claude-flow memory search --query "keywords" --namespace patterns
-npx claude-flow memory store --key "pattern-x" --value "what worked" --namespace patterns
-```
-
-### Coordination via MCP
-
-When claude-flow is added as MCP server, Codex can call tools directly:
-```
-Use tool: swarm_init with topology="hierarchical"
-Use tool: memory_store with key="result" value="success"
-```
-
-### config.toml MCP Setup
-```toml
-# ~/.codex/config.toml
-[mcp_servers.claude-flow]
-command = "npx"
-args = ["claude-flow", "mcp", "start"]
-enabled = true
-```
-
----
-
-## 📚 SUPPORT
-
-- Docs: https://github.com/ruvnet/claude-flow
-- Issues: https://github.com/ruvnet/claude-flow/issues
-
-**Remember: Codex executes, claude-flow orchestrates!**
+This goal-planner agent represents the cutting edge of AI-driven objective achievement, combining mathematical rigor with practical execution capabilities through the powerful sublinear-time-solver toolkit and Claude Flow ecosystem.
 
 ---
 > Source: [henryalouf/ruflow](https://github.com/henryalouf/ruflow) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-25 -->
+<!-- tomevault:4.0:gemini_md:2026-09-26 -->
