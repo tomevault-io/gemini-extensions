@@ -2,8 +2,6 @@
 
 > Tome by [wilbowes](https://github.com/wilbowes/EchoMuse), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Alexa replacement and controller for Echo Dot 2nd Generation device.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
