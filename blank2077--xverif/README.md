@@ -5,17 +5,18 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [BLANK2077/xverif](https://github.com/BLANK2077/xverif).
+Original source: `` in [BLANK2077/xverif](https://github.com/BLANK2077/xverif).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [BLANK2077/xverif](https://github.com/BLANK2077/xverif) — a repo with 102+ stars on GitHub.
+From [BLANK2077/xverif](https://github.com/BLANK2077/xverif) — a repo with 105+ stars on GitHub.
 
 ---
 
