@@ -2,8 +2,6 @@
 
 > Tome by [objectstack-ai](https://github.com/objectstack-ai/objectstack), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-A complex business system in 170k tokens. ObjectStack compresses an entire app — data model, UI, workflows, permissions — into typed metadata, an AI agent can hold in context, reason about, and refactor whole.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
