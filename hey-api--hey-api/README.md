@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [hey-api/hey-api](https://github.com/hey-api/hey-api).
+Original source: `copilot-instructions.md` in [hey-api/hey-api](https://github.com/hey-api/hey-api).
 
 ## Also available for
 
+- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [hey-api/hey-api](https://github.com/hey-api/hey-api) — a repo with 5436+ stars on GitHub.
+From [hey-api/hey-api](https://github.com/hey-api/hey-api) — a repo with 5443+ stars on GitHub.
 
 ---
 
