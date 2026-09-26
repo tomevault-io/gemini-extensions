@@ -1,23 +1,22 @@
 # community_connectors
 
-> Source: [fivetran/community_connectors](https://github.com/fivetran/community_connectors) — distributed by [TomeVault](https://tomevault.io)
-
-Fivetran Connector SDK Connectors Catalog
+> Source: [fivetran/community_connectors](https://github.com/fivetran/community_connectors). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [fivetran/community_connectors](https://github.com/fivetran/community_connectors).
+Original source: `` in [fivetran/community_connectors](https://github.com/fivetran/community_connectors).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [fivetran/community_connectors](https://github.com/fivetran/community_connectors) — a repo with 15+ stars on GitHub.
+From [fivetran/community_connectors](https://github.com/fivetran/community_connectors) — a repo with 85+ stars on GitHub.
 
 ---
 
