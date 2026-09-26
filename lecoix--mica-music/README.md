@@ -2,18 +2,16 @@
 
 > Tome by [lecoix](https://github.com/lecoix/mica-music), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-一款以极简直角为设计语言的本地音乐播放器
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [lecoix/mica-music](https://github.com/lecoix/mica-music).
+Original source: `.cursor/rules/*.mdc` in [lecoix/mica-music](https://github.com/lecoix/mica-music).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
