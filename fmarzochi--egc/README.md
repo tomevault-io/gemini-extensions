@@ -1,18 +1,16 @@
 # AI instruction files for EGC
 
-> Sourced from [Fmarzochi/EGC](https://github.com/Fmarzochi/EGC) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Your AI agents never start from zero again. Local-first MCP runtime with persistent memory across sessions and tools.
+> Sourced from [Fmarzochi/EGC](https://github.com/Fmarzochi/EGC), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Fmarzochi/EGC](https://github.com/Fmarzochi/EGC).
+Original source: `copilot-instructions.md` in [Fmarzochi/EGC](https://github.com/Fmarzochi/EGC).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
