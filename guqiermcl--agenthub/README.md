@@ -7,13 +7,13 @@ AgentHub 是一个以 IM 聊天为核心交互范式的多 Agent 协作平台。
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [GuqierMcl/AgentHub](https://github.com/GuqierMcl/AgentHub).
+Original source: `AGENTS.md` in [GuqierMcl/AgentHub](https://github.com/GuqierMcl/AgentHub).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
