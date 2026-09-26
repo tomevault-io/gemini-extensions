@@ -2,8 +2,6 @@
 
 > Source: [JonasBaeumer/herdr-file-annotator](https://github.com/JonasBaeumer/herdr-file-annotator). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-A plugin for herder to maximize agentic development without losing touch with the actual codebase
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
