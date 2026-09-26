@@ -2,8 +2,6 @@
 
 > Source: [gluonfield/jaz](https://github.com/gluonfield/jaz). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-A personal AI on machines you own — any agent, loops that run overnight, boards, memory, and git control. Client/server split, always-on, open source end to end.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
