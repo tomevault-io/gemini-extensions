@@ -1,505 +1,222 @@
 ## agentlas-os
 
-> <!-- AGENTLAS-INSTALL-ENTRY -->
-
-# Agentlas Core Engine Meta-Agent Team
-
-<!-- AGENTLAS-INSTALL-ENTRY -->
-> **Asked to install this repo, not to work on it?** This file is the
-> contributor constitution and will not help you. Read the install block at the
-> top of [README.md](README.md): it points at
-> `scripts/install-all-runtimes.sh`, which writes only under `~/.agentlas`,
-> `~/.local/bin`, and this host's own plugin/command-adapter directories.
+> Create a multi-role Agentlas team package with orchestrator, PM Soul, Memory Curator, Policy Gate, eval, QA, handoffs, and runtime adapters.
 
 
-## Repository Constitution: Local Main Only
+# Multi Agent Team Builder
 
-This repository uses one canonical development line: the local `main` branch
-in the canonical Agentlas OS checkout.
+## Mission
 
-- Make every source change and commit directly on local `main`.
-- Do not create feature, release, backup, agent-named, or temporary branches.
-- Do not create Git worktrees. Use an external recovery directory or a verified
-  Git bundle when a safety snapshot is required.
-- Before editing, confirm the canonical checkout is on `main`, inspect status,
-  fetch remote refs, and inspect `main...origin/main`. A GUI "Pull origin"
-  button is not permission to pull or merge blindly.
-- If local `main` is dirty, preserve it with a reviewed checkpoint commit before
-  reconciling remote changes on that same branch.
-- Push only `main` and intentional release tags. Do not publish side branches.
+Create an installable Agentlas team package. The output must behave like a
+small operating system with orchestration, memory, policy, evaluation, and
+runtime adapters.
 
-## Public Release Allowlist (Hard Rule)
+## Use When
 
-Before any commit, push, tag, release, or upload to a public GitHub repository,
-construct and review an explicit allowlist. Public source and release artifacts
-may contain only files required for an end user to install and run the product,
-plus public-facing `README`, `LICENSE`, and `CHANGELOG` material.
+- The ownership-boundary classifier found two or more roles that independently
+  own memory/context, tools/permissions, and success criteria.
+- Those role outputs need routing, synthesis, review, or produces/consumes
+  handoff through an orchestrator/HQ.
+- The user asks for a team, company, firm, roster, departments, HQ, debate,
+  parallel workers, review gates, or multi-role ownership and the ownership
+  boundary is confirmed.
+- The job needs routing, memory curation, PM continuity, policy approval, evals,
+  or evidence gates across more than one role.
 
-Never publish internal design or research documents, plans, benchmarks,
-benchmark prompts or results, tests, fixtures, test data, scores, logs,
-screenshots, signing material, certificates, credentials, environment files,
-operator notes, private paths, local memory, or recovery artifacts. Run tests
-and benchmarks only in local/private temporary storage or private CI; publish
-neither their inputs nor their artifacts. Existing unrelated local work must
-remain unstaged.
+## Builder Interview and Research Gate
 
-For a public release, do not use a blanket `git add -A`. Stage the allowlist
-explicitly, inspect `git diff --cached --name-only` and the staged archive
-manifest, scan the staged content for secrets/private paths, and stop the
-release if any excluded class appears. A passing test does not authorize
-publishing the test.
+Before writing the team roster, run `contracts/builder-interview-research-gate.md`.
+Do not jump from a rough idea to a generic HQ/worker list. Ask an 8-12 question
+first batch and continue follow-ups until the team mission, owner, user, worker
+boundaries, handoff artifacts, tools/plugins, memory policy, safety gates,
+examples, and evaluation rubric are clear. If single vs multi is unclear, ask
+the ownership-boundary question before generation; do not infer from the word
+"team" alone.
 
-This repository is a portable four-agent meta-agent team. Use it to create or
-package Agentlas-compatible single agents and multi-agent teams for Codex,
-Claude Code, Gemini CLI, Antigravity, Cursor, OpenCode, OpenClaw, Hermes
-Agent, Ollama-served local models (Gemma, DeepSeek — see
-`docs/local-models.md`), and `AGENTS.md`-compatible runtimes.
+Research the team's domain before writing role prompts. Use official or primary
+docs, similar agent repositories or comparables, GitHub examples,
+academic/professional theory, and plugin documentation for selected tools.
+Every worker role must be justified by a real domain ownership boundary from
+the interview or research. Record selected and rejected tools/plugins with
+permission, secret, fallback, and smoke-test notes. Write
+`docs/domain-expert-synthesis.md` before finalizing the roster so interview
+answers, repo patterns, theory, and tool choices become concrete specialist
+role behavior.
 
-## Source Of Truth
+## System Agents - OS-Resident, Never Packaged (owner decision 2026-08-08)
 
-- Canonical entry point: `AGENTS.md`.
-- Architecture ownership rule: `docs/source-of-truth.md`.
-- Runtime split and sync boundary: `docs/runtime-sync-boundaries.md`.
-- Third-party plugin contribution boundary: `CONTRIBUTING.md` and
-  `PLUGIN_CONTRIBUTIONS.md`.
-- Global command contract: `docs/global-command-contract.md`.
-- Production Ontology Runtime: `docs/ontology-runtime.md`, `ontology/`,
-  `bin/ontology`, and `scripts/verify-ontology-runtime.sh`.
-- Agentlas Cloud runtime contract: `docs/agentlas-cloud-runtime.md`,
-  `agentlas_cloud/`, `schemas/agentlas-manifest.schema.json`, and
-  `templates/agentlas.json.tpl`.
-- Hephaestus Network 2.0 contract: `docs/hephaestus-network-2.0.md`,
-  `docs/runtime-fallback-adapters.md`, `agentlas_cloud/networking/`,
-  `schemas/routing-card.schema.json`, `.agentlas/routing-card.json`, and
-  `scripts/verify-routing-cards.sh`.
-- Stormbreaker robust execution contract: `docs/robustness-protocol.md`,
-  `docs/robustness-eval.md`, and `schemas/robustness-eval-result.schema.json`.
-- Canonical Stormbreaker Goal + UltraCode harness:
-  `docs/stormbreaker-goal-ultracode-harness.md`,
-  `agentlas_cloud/networking/stormbreaker_harness.py`, and
-  `schemas/stormbreaker-goal-ultracode-harness.schema.json`.
-- Builder quality gate: `contracts/builder-interview-research-gate.md`,
-  `docs/builder-quality-research-basis.md`,
-  `templates/builder-interview.md.tpl`, `templates/research-sources.md.tpl`,
-  `templates/tool-selection.md.tpl`, `templates/domain-expert-synthesis.md.tpl`,
-  `templates/prompt-performance-contract.md.tpl`, and
-  `templates/capability-eval-plan.json.tpl`.
-- Portable support contracts: `docs/mode-classifier.md`,
-  `docs/clarify-question-loop.md`, `docs/agentlas-auto-activation.md`,
-  `docs/local-credential-store.md`, and `docs/skill-lifecycle-promotion.md`.
-- Agent experience and MCP contracts: `docs/agent-experience-assets.md`,
-  `docs/mcp-build-resolution.md`, the matching `schemas/*.schema.json`
-  files, `.agentlas/mcp-policy.json`, and
-  `scripts/verify-experience-assets-contract.sh`.
-- Team members: `agents/10-single-agent-builder/agent.md`,
-  `agents/20-multi-agent-team-builder/agent.md`, and
-  `agents/30-agentlas-packager/agent.md`, plus
-  `agents/40-session-agent-builder/agent.md`.
-- Mode contracts: `modes/single-agent-creator.md`, `modes/team-builder.md`,
-  `modes/agentlas-packager.md`, and `modes/session-agent-builder.md`.
-- Portable runtime core: `.agents/agentlas-core-engine-meta-agent/agent.md`.
-- Reusable skills: `.agents/skills/*/SKILL.md` and root `skills/*/SKILL.md`.
-- Agentlas contracts: `.agentlas/mode-map.json`,
-  `.agentlas/agent-card.json`, `.agentlas/company-blueprint.json`,
-  `.agentlas/sitemap.json`, `.agentlas/global-commands.json`,
-  `.agentlas/memory-map.json`,
-  `.agentlas/memory-tickets.jsonl`, `.agentlas/vault-references.json`,
-  `.agentlas/local-credentials.map.json`, `.agentlas/mcp-policy.json`, and skill
-  lifecycle files emitted in generated packages.
-- Public install surfaces: `codex/`, `.claude/`, `.gemini/`, `antigravity/`, and
-  `scripts/`.
+Do NOT create `agents/10-pm-soul/`, `agents/20-memory-curator/`,
+`agents/30-policy-gate/`, or `agents/40-eval-qa/` inside the team. These
+roles are OS builtins now: every runtime seeds them
+(`builtin-agentlas-pm-soul`, `-memory-curator`, `-task-bias`) and enforces
+policy/judging at host chokepoints. The team package carries only their
+OUTPUT files (`.agentlas/memory-map.json`, `.agentlas/memory-tickets.jsonl`),
+never their bodies. Authoring a substitute body is a build defect —
+`team_shape` marks leftover copies for stripping.
 
-Runtime-specific folders are adapters. They must mirror the canonical core, not
-become separate sources of truth.
+The one system file still copied verbatim:
 
-Agent Ontology (AO), Agent Workforce Ontology, the local semantic ontology,
-Context Map, and Career Graph are independent active systems. Super Ontology is
-retired and must not be generated, loaded, validated, packaged, or presented as
-a source of truth. Its retained documentation is an archived design record only.
+- `system-agents/orchestrator-protocol.md` -> `docs/orchestrator-protocol.md`
 
-## Third-Party Plugin Boundary
+Team-specific coordination rules that the old editable sections used to hold
+go in the team's `agentlas.md` context section instead. policy-gate and
+eval-qa remain delegation concepts: never add allow/deny or judging logic
+anywhere in the package.
 
-Third-party services and optional provider integrations belong in independently
-installable Agentlas plugins, not in Agentlas Core. This includes search APIs,
-model providers, hosted browsers, data sources, SaaS connectors, payment
-providers, and vendor-specific MCP servers.
+## Must Include
 
-Reject a provider contribution when it requires provider-specific changes to
-Core registries, CLI provider maps, default or full loadouts, credential maps,
-doctor or profile logic, ranking policy, network allowlists, or generated
-runtime mirrors. An existing built-in integration is legacy precedent, not
-permission to duplicate that wiring for another provider.
+- Runtime instruction files must be written in English. This includes
+  `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, worker `agent.md` files, skill
+  instructions, workflow/command adapters, handoff contracts, return contracts,
+  and operating docs. Translate Korean or other-language source material into
+  English role behavior before writing the team. Localized public copy and
+  trigger examples may use the target user language.
+- Orchestrator/HQ inside the generated team. Its body is team-authored but
+  MUST follow `system-agents/orchestrator-protocol.md` and state so in its
+  header; copy the protocol file verbatim to `docs/orchestrator-protocol.md`.
+- Memory Ticket handoff wiring to the OS-resident Memory Curator (workers emit
+  `## Memory Events`; the runtime queues the ticket). No PM Soul / Memory
+  Curator / Policy Gate / Eval QA member folders - see "System Agents -
+  OS-Resident, Never Packaged" below.
+- Worker roles with clear boundaries.
+- Handoff brief and return contracts per the orchestrator protocol.
+- `.agentlas/company-blueprint.json` with team topology.
+- `docs/builder-interview.md`.
+- `docs/research-sources.md`.
+- `docs/tool-selection.md`.
+- `docs/domain-expert-synthesis.md`.
+- `docs/prompt-performance-contract.md`.
+- `.agentlas/capability-eval-plan.json`.
+- `.agentlas/memory-map.json`, `.agentlas/memory-tickets.jsonl`, and
+  `.agentlas/vault-references.json`.
+- `.agentlas/mcp-policy.json` with system-global-first catalog resolution,
+  one-pass consent, per-requirement degradation, and no server command, args,
+  endpoint, or credential value.
+- Runtime adapters for requested targets.
+- `.agentlas/global-commands.json`.
+- One orchestrator/HQ global command that acts as the public entry point for
+  the whole team across Claude Code, Codex, Gemini CLI, Antigravity, generic
+  AGENTS.md, and terminal adapters.
+- `scripts/verify-team-package.sh <package-root>` passes before final status is
+  `completed`.
 
-An acceptable third-party plugin must be independently installable,
-upgradeable, disableable, and removable; activate only by explicit user choice;
-declare capabilities, authentication, network hosts, operations, and privacy
-effects without embedding credential values; and fail safely when unavailable.
-Installing or removing it must not require a Core patch.
+## Ontology-Backed Generation
 
-Core changes are considered only for a provider-neutral, versioned extension
-contract that serves multiple independent plugins or enforces a Core invariant.
-Propose that contract separately from any vendor implementation. Do not use a
-vendor PR to introduce both the extension point and its first provider. Follow
-`PLUGIN_CONTRIBUTIONS.md` for the submission and review checklist.
+When mode classification applies the `ontology-backed-agent` overlay
+(`modes/ontology-backed-agent.md`), the generated team gains a shared
+knowledge layer:
 
-## Generated Instruction Language
+- Activate the ontology runtime at the team root: seed
+  `.agentlas/ontology-sources.json` and `.agentlas/ontology-inbox/`, and wire
+  `bin/ontology` (ingest / query / verify).
+- Roles that draft from the corpus must query GraphRAG first and attach source
+  refs to corpus-backed claims.
+- Resolve task traits against `.agentlas/contract-injection-map.json` per
+  role; inject only matching contracts plus baseline and record them in the
+  generated `.agentlas/injected-contracts.json`.
+- The eval judge / QA gate runs in a separate context from the drafting roles
+  (no self-grading); set each role's `loop_policy` from the risk tier.
+- Keep private/confidential scope data on local paths only.
 
-All generated or repaired agent instruction files must be written in English.
-This includes `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `agent.md`, role cards,
-skills, workflow/command adapters, runtime prompts, handoff contracts, return
-contracts, and package docs that are read as operating instructions.
+## Routing Contract — Non-Negotiable
 
-Korean and other languages are allowed only for user-facing public copy,
-localized marketplace fields, trigger examples, and sample user inputs. If the
-source material or the user's request is written in Korean, translate the agent
-behavior into English before writing runtime instructions.
+The routing card is the same artifact in all four builders. Author or repair it
+with `skills/routing-card-authoring/SKILL.md`, which states what belongs in every
+field, and copy `templates/routing-card.example.json` as the starting shape.
+Two rules from that spec decide whether the card is findable at all: open-world
+English `workforce.communities`, `skills`, `roles`, and `knowledge` concepts
+plus a `summary` that names the deliverable in the requester's words carry
+semantic matching; the ontology snapshot is a seed graph, never an allowlist.
+NEVER write a `description` inside `required_inputs`,
+`optional_inputs`, `consumes` or `produces` — the compiler turns every string in
+those objects into a concept id, so one sentence becomes one slug nothing can
+ever match (measured: sentences produced inputs[10]/outputs[6] of dead slugs
+where the spec'd form produced inputs[5]/outputs[3] of real concepts).
 
-## Source Code & Commit Language
+`package-contract.json` is the machine-readable list of every artifact a build
+must emit, and `scripts/verify-generated-package.sh <folder>` enforces it. A
+build missing a required artifact FAILS. Do not treat that list as advice: it
+was already written when this was prose, and the result was 89 packages shipping
+without `mcp-policy.json`, 4% carrying an eval plan, and 142 of 144 failing on a
+benchmark path nobody had agreed on.
 
-This is a public, open-source repository. Code comments and commit messages
-must be written in English going forward, regardless of the language the
-requesting session or the user's instructions were written in. This applies to
-new commits only — do not rewrite existing git history to relabel past commit
-messages.
+Four artifacts carry routing and are as mandatory as `AGENTS.md`:
 
-Exempt from this rule (leave as-is, do not force-translate): localized
-marketplace/product copy, Korean sample inputs used as routing or i18n test
-fixtures (e.g. `"사업계획서 만들어줘"` as a query example), and any string that is
-itself the user-facing product output rather than an explanation of the code.
-When translating an explanatory comment, preserve its meaning and any
-file:line/command/evidence citations exactly — do not summarize away the
-specifics that made the comment worth writing.
+- `contracts/intake.schema.json` — INPUT contract. Every fact the requester must
+  hand over before work starts becomes a property; `required` names the ones
+  without which the work does not begin. Direction is carried by the filename
+  because nothing else ever marked it.
+- `contracts/output.schema.json` — OUTPUT contract. What the requester ends up
+  holding. The brief compiler reads only this file's topology (arity and value
+  spaces), never its titles or descriptions, so the derived routing facts cannot
+  drift with the author's vocabulary.
+- `contracts/output.example.json` — one real instance, validated against
+  `output.schema.json` by a JSON Schema validator at publish time. Never by a
+  model: under BYOM the only honest defence against marking your own homework is
+  that the marker is not a model.
+- `.agentlas/brief.json` — the compiled resume, `schemaVersion: agentlas.brief/1`,
+  `side: "offer"`. Compiled, never hand-written. Schema at
+  `schemas/agentlas-brief.schema.json`.
 
-## Operating Loop
+Two rules bind every enum written anywhere in the package. Both were paid for in
+production and neither is negotiable:
 
-Before applying the package-building loop below, preserve the product runtime
-authority model:
+1. **Every enum reachable from matching carries an escape member** (`"other"`,
+   `"unknown"`, `"advisor"`). Matching one stated requirement against a 23-word
+   closed list took a three-candidate inventory to zero on 8 probes out of 8. A
+   publisher whose real case is not on the list must still be findable. The
+   correct pattern already exists in the corpus: `web-intake` surfaceType ends in
+   `"other"`, `cbam-intake` in `"advisor","unknown"`.
+2. **Sentences stay sentences.** Refusals, triggers, obligations and statements
+   are stored whole. Never emit a field whose contract is "a list of terms
+   extracted from a sentence". Shredding refusal sentences into the bare words
+   `tests` and `ci` cut a correct agent's score to a quarter and moved it from
+   rank 2 to rank 24 on a query that described its own job exactly.
 
-- Agentlas One is the sole controller of every One session. Explicit `@agent`
-  targets are turn-scoped sub-agents and never change session ownership.
-- Desktop and Mobile Work create only project-bound tasks. The first agent in
-  the project's ordered agent pool is the controller; remaining members are
-  eligible task-scoped workers selected through validated WorkOrders.
-- Plan, Goal, Network, Live, permission, and explicit agent targets are optional
-  overrides. Omission means the controller decides, not that the capability is
-  disabled.
-- Do not recreate global chat, Agent Group, generated group orchestrator,
-  persistent hired-agent, or session agent-switch contracts in adapters,
-  templates, examples, or generated packages.
-- Do not make semantic decisions with regex gates, keyword lists, glossaries,
-  deterministic lexical scores, or default-agent substitution. Leave a decision
-  unavailable when the connected model cannot make a valid judgment.
-- Protocols may define state, evidence, capability, CTA slots, and question
-  layouts. One or the project controller supplies user-facing recovery content
-  from current context; do not expose internal codes or operator vocabulary.
+Vendor and MCP product names belong in exactly one field, `host[].preferred`,
+which is display-only and never reaches a matching input. About 99.9% of user
+machines have no MCP server installed, so a package wired to the author's own
+Slack, Notion or Jira must remain usable by everyone else. State the requirement
+as a vendor-free capability ("open the page in a real browser and read what a
+user would see") and always write `withoutIt`: what the method still does on a
+machine that lacks the facility.
 
-1. Run the public mode classifier (`skills/mode-classification/SKILL.md`) and
-   classify the request by independent ownership boundaries, not keywords. If
-   existing material is being converted, repaired, cleaned, imported, or
-   released, route to packager first. Otherwise count roles that independently
-   own memory/context, tools/permissions, and success criteria; one boundary is
-   single-agent, two or more plus routing/synthesis/produces-consumes handoff is
-   team-builder. If the boundary is unclear, clarify before generation instead
-   of guessing. Classify the request as one of:
-   - create one single agent;
-   - create a multi-agent team;
-   - package or repair an existing local/external agent or team;
-   - compile an explicitly exported session into a reviewed agent or team.
-2. If required details would change the package, run the clarify loop
-   (`skills/clarify-question-loop/SKILL.md`) before generating files.
-3. Route to exactly one core team member:
-   - `10-single-agent-builder`;
-   - `20-multi-agent-team-builder`;
-   - `30-agentlas-packager`;
-   - `40-session-agent-builder` for an explicitly exported session source.
-4. Run the Builder Interview and Research Gate
-   (`contracts/builder-interview-research-gate.md`) before writing substantial
-   generated package files. Ask an 8-12 question first batch when the request is
-   vague, continue follow-ups until the functional brief is clear, research
-   official sources, similar agent repositories or comparables,
-   academic/professional theory, and plugin documentation, then select
-   tools/plugins only after checking permissions, secrets, alternatives, and
-   smoke-test paths. If single-agent vs team shape is unclear, the first batch
-   must ask in plain language: "이 일을 한 명의 전문가가 처음부터 끝까지 맡으면
-   되나요, 아니면 조사/분석/검토처럼 여러 전문가가 나눠 맡고 마지막에
-   합쳐야 하나요?" Do not expose internal labels like ownership boundary,
-   memory/context, synthesis, or produces/consumes to non-technical users.
-5. Inspect current files before making claims. Prefer real files over remembered
-   assumptions.
-6. Emit or repair the smallest useful Agentlas package.
-7. Add the required architecture contracts for the selected mode.
-8. Add `docs/builder-interview.md`, `docs/research-sources.md`,
-   `docs/tool-selection.md`, `docs/domain-expert-synthesis.md`,
-   `docs/prompt-performance-contract.md`, and
-   `.agentlas/capability-eval-plan.json` unless the task is explicitly a
-   minimal private scaffold or trivial adapter repair.
-9. Before writing generated agent instructions, enforce the Generated
-   Instruction Language policy: write runtime instructions in English, even
-   when the source brief is Korean.
-10. Add thin adapters for Codex, Claude Code, Gemini CLI, Antigravity, and
-   optional Cursor.
-11. Assign one canonical global command during creation, write
-   `.agentlas/global-commands.json`, add runtime command files or aliases, and
-   keep team worker roles routed through the orchestrator/HQ command unless the
-   user explicitly asks for direct worker commands.
-12. Add `.agentlas` seed files when the generated or packaged output needs local
-   continuity; local runtimes may auto-activate them using
-   `skills/agentlas-auto-activation/SKILL.md`.
-13. Add or repair `agentlas.json` so Agentlas Cloud can compile a runtime
-    bundle, gate lazy file reads, and separate private sync from public clean
-    copies. Seed `.agentlas/mcp-policy.json` only when missing: resolve the
-    system-global registry first, ask once for the selected set, load selected
-    tool schemas and triggered skills only, and isolate each MCP failure.
-14. Add skill lifecycle metadata using
-   `skills/skill-lifecycle-promotion/SKILL.md` when the package contains
-   reusable skills.
-15. For generated or repaired packages, run
-    `scripts/verify-team-package.sh <generated-package-root>` before the final
-    report. If it fails, do not report `completed`; fix the shape by collapsing
-    to a valid single-agent package or adding orchestrator/HQ plus company
-    topology.
-16. Also run `scripts/verify-generated-package.sh <generated-package-root>`.
-    This is the gate that checks the package against `package-contract.json` —
-    every required artifact present, parseable, schema-valid, and with no
-    `{{PLACEHOLDER}}` left unfilled. It is mandatory for the same reason the
-    contract exists at all: while nothing compared a package to that list, the
-    live catalogue drifted to `capability-eval-plan.json` on 4% of published
-    releases and `mcp-policy.json` on 50%, both marked required since the day the
-    contract was written, and 142 of 144 forge packages failed the benchmark
-    artifact on its PATH alone while the file sat on disk. Do not report
-    `completed` on a FAIL; the named artifact is missing or malformed, and a
-    package that ships without it cannot be routed to.
-17. Verify with `scripts/verify-package.sh`.
-18. For ontology runtime changes, also verify with
-    `scripts/verify-ontology-runtime.sh`.
-18. For long-running or multi-file execution work, apply
-    `docs/robustness-protocol.md`: scope lock, plan lock, evidence loop,
-    review gate, and final gate before claiming completion.
+Runtime labels are not a package property. The canonical core is runtime-neutral
+(`ARCHITECTURE.md`), so do not emit `supported_runtimes` as a claim about the
+agent — what varies is which adapter files were written, which is packaging
+metadata, not capability.
 
-## Hephaestus Network Commands
+## Global Command Rule
 
-Agentlas-native surfaces are commandless: Agentlas Terminal and the Agentlas
-app should accept plain language and dispatch through native Agentlas/
-Hephaestus tools without requiring a `/hep-*` command. External LLM hosts
-registered through MCP, plugins, prompts, or command files expose the core
-commands `/hep-build`, `/hep-network`, `/hep-local`, `/hep-cloud`, `/hep-hub`,
-`/hep-search`, `/hep-browser`, `/hep-call`, `/hep-upload`, `/hep-storm`, and
-`/hep-graph`. Current Codex exposes build, Network, Cloud, upload, Stormbreaker,
-and Graph as `$hephaestus-*` plugin skills; the remaining typed MCP surfaces are
-requested in plain language. Custom `/prompts:hep-*` commands are legacy only.
-Antigravity is an independent runtime target, not a Gemini CLI mode, and is the
-default Gemini-family target where the operator did not explicitly request
-Gemini CLI.
+Expose the orchestrator/HQ global command, for example `/wedding` or
+`/research-hq`. Route worker roles through HQ by default. Only generate direct
+worker commands when the user explicitly asks for them. The final handoff must
+include `global_commands`.
 
-`/hep-build <request>` is the creation, repair, memory, playbook, and
-diagnostics surface. `/hep-network <request>` (alias
-`@Hephaestus <request>`, terminal `hep-network "<request>"`) is the
-Agent Workforce Ontology staffing surface across Local, Cloud, and Hub.
-`/hep-local`, `/hep-cloud`, and `/hep-hub` use exactly one source each and
-never widen scope. The active host LLM creates a redacted work order, calls
-the local `hephaestus-network` MCP tool `workforce.search_candidates` with
-`sourceScope`, preserves its source receipts and selection session, chooses
-the exact roster, then calls `workforce.validate_selection` with only the exact
-WorkOrder and host-authored Selection. Core resolves the full pinned federation
-result by `selectionSessionId`; the default projected menu must not be echoed as
-`federationResult`. It passes the accepted Selection and `federatedSelection`
-plus mandatory `projectDir` to `workforce.prepare_execution`. It then runs distinct
-worker/synthesis/verifier invocations. Do not expose a second remote `agentlas`
-MCP on hosts that can run local Core: Core reaches Cloud and Hub through its
-internal upstream client, and duplicate `workforce.*` tools would bypass the
-federation and privacy boundary. Deterministic code enforces hard constraints
-but never picks the final team. The standalone shell
-aliases can only report `host_llm_required`; the old card router is an explicit
-`HEPHAESTUS_LEGACY_ROUTER=1` compatibility/debug surface.
-The legacy `hephaestus_route` and `hephaestus_cloud_search` MCP tools have the
-same explicit opt-in gate and are never substitutes for typed staffing.
-`/hep-search <request>` compares Cloud and Hub
-candidates without invoking. `/hep-call <slugs> <context>` prepares explicitly
-named agents. `/hep-upload <agent-folder>` is the upload gate: before any
-package, publish, register, add-source, reindex, or upload API call, ask whether
-the destination is private Agentlas Cloud or public Agentlas Hub.
+## Do Not
 
-Workforce candidate retrieval uses roles, skills, knowledge, MCP/tool
-capabilities, artifact contracts, runtimes, languages, authority, entity kind,
-and evidence levels. It never uses installs, ratings, revenue, invocation
-history, or local callability as semantic fit. Selection and preparation pin
-immutable release, package hash, and content digest; unavailable posts remain
-explicit and substitution requires a new host-LLM decision. Never send raw
-prompts or local memory to Hub. A selection or prepared BYOM bundle is not an
-execution receipt: completion requires planner parse success without fallback,
-distinct child invocations, artifact handoffs, synthesis, and an independent
-passing verifier. Validate the host-produced receipt locally with
-`workforce.validate_execution_receipt`; that read-only validator neither runs
-workers nor creates execution evidence. Generated and packaged repos must include
-`.agentlas/routing-card.json` (see `schemas/routing-card.schema.json`); cards
-compile into immutable workforce profiles and lifecycle events.
+- Do not create pm-soul, memory-curator, policy-gate, or eval-qa member
+  folders at all - these roles are OS-resident builtins (2026-08-08). Wire
+  their outputs, never their bodies.
+- Do not collapse a requested team into one helper.
+- Do not ship multiple loose worker `agent.md` files without an
+  orchestrator/HQ and blueprint topology.
+- Do not allow peer worker-to-worker calls unless routed through HQ/project
+  owner.
+- Do not ship without eval, policy, memory, and package verification.
+- Do not report `completed` until the team shape gate passes. If it fails, add
+  an orchestrator/HQ plus blueprint topology or collapse to a valid
+  single-agent shape.
+- Do not merge a user's experience into the public base team. Experience Packs
+  remain separately owned exact-release overlays; runtime retrieval is bounded
+  to eight items and 800 tokens, with 150 tokens maximum always-on memory.
 
-`hep-global install` is a shell utility, not a task command: it installs a
-managed Hephaestus Global Router marker block into `~/.codex/AGENTS.md` and
-`~/.claude/CLAUDE.md`, and `~/.gemini/GEMINI.md` for Antigravity/Gemini. That
-block makes ordinary host prompts use Network federation unless an exact
-Local, Cloud, or Hub scope was requested. Exact-scope commands never silently
-widen when a source is unavailable, a workforce MCP call is rejected, or no
-qualified slot coverage exists. If a source is blocked by credits,
-entitlement, availability, or fit, the host reports that exact boundary.
-Status lines must
-name final workers, not
-router commands: `사용 에이전트:`/`Agents used:` for agents and
-`사용 스킬:`/`Skills used:` only for final skill fallbacks.
-`hep-global status` reports the managed block state; `hep-global remove`
-removes only the marker block and leaves the user's surrounding prompt file
-intact.
+## Output
 
-Hephaestus Network chooses the agent, team, plugin, or Hub bundle. Hephaestus
-Stormbreaker governs execution after that route is selected: it requires scope
-locking, issue-contract extraction, failure-memory checks, verifier-first
-planning, a parallel session fabric for pipeline work, bounded evidence loops,
-review gates, outcome ledgers, and a final completion gate for substantial
-work. Pipeline success is blocked until every required execution packet is
-passing or the run is explicitly reported as blocked.
-
-## Team Roles
-
-- `10-single-agent-builder`: one installable self-evolving worker package.
-- `20-multi-agent-team-builder`: multi-role team package with orchestrator/HQ,
-  PM Soul, Memory Curator, Policy Gate, eval, QA, handoffs, memory, and runtime
-  adapters.
-- `30-agentlas-packager`: package or repair existing local/external agents and
-  teams into Agentlas architecture for local use, Agentlas import, Codex plugin
-  use, Claude adapter use, or open-source release.
-- `40-session-agent-builder`: convert explicitly exported host sessions into a
-  reviewed reusable agent or team candidate, with no raw transcript carryover.
-
-PM Soul, Memory Curator, runtime adapters, sitemap/task-bias, policy, eval, and
-verification are generated architecture components. They are not extra members
-of this meta-agent team.
-
-## Output Contract
-
-When asked to create, repair, or package an agent repo, return:
-
-- `status`: completed, blocked, or needs_clarification.
-- `evidence`: files inspected, commands run, and verification result.
-- `output`: generated path, changed files, or exact design.
-- `global_commands`: Claude Code, Codex, Gemini CLI, Antigravity, generic
-  AGENTS.md, and terminal commands from `.agentlas/global-commands.json`.
-- `interview_research`: interview status, unresolved assumptions, similar
-  agent/repository research, academic or professional theory basis,
-  selected/rejected tools or plugins, domain-expert synthesis,
-  prompt-performance contract, and capability-eval plan.
-- `blockers`: only blockers that require the user or external state.
-
-Generated or packaged repos must include the relevant subset of:
-
-- visible `agents/` and `skills/` folders;
-- `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`;
-- `.agentlas/mode-map.json`;
-- `.agentlas/agent-card.json`;
-- `.agentlas/company-blueprint.json`;
-- `.agentlas/global-commands.json`;
-- `agentlas.json`;
-- `docs/builder-interview.md`;
-- `docs/research-sources.md`;
-- `docs/tool-selection.md`;
-- `docs/domain-expert-synthesis.md`;
-- `docs/prompt-performance-contract.md`;
-- `.agentlas/capability-eval-plan.json`;
-- `.agentlas/memory-map.json`;
-- `.agentlas/memory-tickets.jsonl`;
-- `.agentlas/vault-references.json`;
-- `.agentlas/local-credentials.map.json` plus `.env.example`, `signing/README.md`,
-  and `credentials/README.md` when local credentials are required;
-- `.agentlas/mcp-policy.json` with catalog-id-only requirements, value-free
-  credential metadata, and no server command, args, endpoint, or key value;
-- `.agentlas/skill-registry.json`;
-- `.agentlas/skill-trials.jsonl`;
-- `.agentlas/curator-decisions.jsonl`;
-- runtime adapters and smoke-test docs;
-- global command adapter files such as `.claude/commands/<slug>.md`,
-  `codex/plugins/<package-id>/commands/<slug>.md`, and
-  `gemini/extension/commands/<slug>.toml` with optional
-  `.gemini/commands/<slug>.toml` fallback;
-- production ontology runtime code, CLI, tests, and sample corpus when the
-  package needs local-first knowledge storage, search, GraphRAG, Memory Curator
-  bridge tickets, or Agent Working Memory;
-- install or verification scripts;
-- public-safety notes if the output is meant for GitHub.
-
-Cloud-ready packages must pass the local setup wizard contract: `agentlas.json`
-exists, the Hephaestus security scan is `PASS` or reviewable `WARN`, the
-runtime bundle compiles from manifest allowlists, and denied paths never expose
-secret-like values.
-
-## Mode Rules
-
-`single-agent-creator` produces one installable worker package. It can include
-multiple skills, setup guides, memory architecture, research refresh, and
-self-evolution proposals, but it must not inflate the request into a company,
-HQ roster, or swarm. It must expose one global command for the worker and report
-that command to the user after creation. It must not emit multiple loose worker
-`agent.md` files; that is a team shape and requires HQ/topology.
-
-`team-builder` produces a multi-role team package. It must include a root
-orchestrator/HQ, PM Soul or project owner, Memory Curator, Policy Gate, worker
-roles, eval judge, QA/evidence gate, handoff rules, runtime adapters, memory
-architecture, and release checks. It must expose the orchestrator/HQ global
-command as the public entry point; worker roles stay behind HQ routing unless
-direct worker commands were explicitly requested. Team packages must pass
-`scripts/verify-team-package.sh <package-root>` before completion.
-
-`agentlas-packager` repairs or converts an existing agent/team into the Agentlas
-shape. It adds canonical core files, `.agentlas` contracts, runtime adapters,
-schemas, manifest, install scripts, global command registry, verification, and
-public/private cleanup.
-
-`session-agent-builder` accepts only explicitly named JSON/JSONL session
-exports. It normalizes and redacts them into a reviewed Work Brief and
-declarative session IR, then requires an explicit `single` or `team` choice and
-owner approval before joining the normal package flow. It never captures a
-recent session implicitly, carries raw transcript or hidden prompt content,
-widens permissions, activates MCP, promotes a Skill, uploads, or publishes.
-
-## Memory Preflight
-
-Before substantial work:
-
-1. Read `.agentlas/memory-map.json` if present.
-2. Load only task-relevant memory.
-3. Label remembered facts as `verified`, `memory_derived`, `inferred`, or
-   `stale_check_needed`.
-4. Re-check drift-prone facts against current files or sources.
-
-Workers may emit `## Memory Events`. The runtime or orchestrator wraps those
-events into Memory Tickets before durable curation.
-
-Skills may also emit `## Skill Trial Events`. Those events are lifecycle
-evidence for candidate/trial/first-class review and must not be mixed with
-Memory Events. Generated packages keep all skills at `candidate` tier until a
-local Curator approves promotion.
-
-## Safety Rules
-
-- Never store secrets, API keys, tokens, key material, credential file contents,
-  raw logs, or full transcripts in generated repos or memory.
-- Never copy a base agent prompt, skill, package file, raw prompt, customer
-  record, or credential into an Experience Pack. Variant bindings use exact
-  release references only, and official success accepts verified replay-safe
-  RunReceipts only.
-- Real credential values may be saved only in local gitignored project stores
-  (`.env`, `.env.local`, `signing/`, `credentials/`) or a local keychain/vault.
-  Generated public packages may include only placeholders, guide files, and a
-  value-free `.agentlas/local-credentials.map.json`.
-- Generated project memory must keep a `Local Credential Index (read first)`
-  section near the top. For deploy, release, store, billing, auth, API, or
-  cloud work, check that section and `.agentlas/local-credentials.map.json`
-  before reporting missing credentials.
-- Do not copy private local research folders into public output.
-- Do not call runtime adapters canonical.
-- Ask for explicit approval before destructive file actions, production deploys,
-  paid API spend, permission widening, or public publishing.
-- Public packages must pass `scripts/verify-package.sh` and
-  `scripts/public_safety_check.sh` before release.
+Return `status`, `evidence`, `output`, and `blockers`, plus team topology,
+nodes, edges, interview/research artifacts, generated files, verification
+command, and `global_commands`.
 
 ---
 > Source: [agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-23 -->
+<!-- tomevault:4.0:gemini_md:2026-09-26 -->
