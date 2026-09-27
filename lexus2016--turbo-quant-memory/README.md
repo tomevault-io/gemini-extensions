@@ -7,11 +7,11 @@ Local-first MCP memory server for AI coding agents with compact retrieval and pr
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Lexus2016/turbo_quant_memory](https://github.com/Lexus2016/turbo_quant_memory).
+Original source: `AGENTS.md` in [Lexus2016/turbo_quant_memory](https://github.com/Lexus2016/turbo_quant_memory).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
