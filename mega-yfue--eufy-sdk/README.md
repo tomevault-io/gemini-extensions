@@ -7,12 +7,12 @@ One typed client for the whole eufy ecosystem — devices, realtime events, and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [mega-yfue/eufy-sdk](https://github.com/mega-yfue/eufy-sdk).
+Original source: `AGENTS.md` in [mega-yfue/eufy-sdk](https://github.com/mega-yfue/eufy-sdk).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
