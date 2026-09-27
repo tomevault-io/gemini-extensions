@@ -7,11 +7,11 @@ Open-source security for AI agents: kernel-enforced egress control on macOS and 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [eriknewton/sanctuary-framework](https://github.com/eriknewton/sanctuary-framework).
+Original source: `AGENTS.md` in [eriknewton/sanctuary-framework](https://github.com/eriknewton/sanctuary-framework).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
