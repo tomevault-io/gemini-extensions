@@ -7,11 +7,11 @@ Desktop ebook reader with a built-in AI companion - select a passage, ask a ques
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [eddmann/Marginalia](https://github.com/eddmann/Marginalia).
+Original source: `AGENTS.md` in [eddmann/Marginalia](https://github.com/eddmann/Marginalia).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
