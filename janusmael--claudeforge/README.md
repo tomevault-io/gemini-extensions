@@ -7,11 +7,11 @@ A cross-platform desktop editor for Claude Code (https://claude.ai/code) and Cla
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [JanusMael/ClaudeForge](https://github.com/JanusMael/ClaudeForge).
+Original source: `AGENTS.md` in [JanusMael/ClaudeForge](https://github.com/JanusMael/ClaudeForge).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
