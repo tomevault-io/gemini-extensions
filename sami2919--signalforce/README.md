@@ -7,11 +7,11 @@ The open-source GTM engineer toolkit — signal-based prospecting for any ICP. D
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [sami2919/SignalForce](https://github.com/sami2919/SignalForce).
+Original source: `AGENTS.md` in [sami2919/SignalForce](https://github.com/sami2919/SignalForce).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
