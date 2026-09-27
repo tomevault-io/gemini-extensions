@@ -7,11 +7,11 @@ Build the workspace your coding agents work in.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dip497/hivemind](https://github.com/dip497/hivemind).
+Original source: `AGENTS.md` in [dip497/hivemind](https://github.com/dip497/hivemind).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
