@@ -7,11 +7,11 @@ Local runtime for Claude Code and Codex — provider management, isolated sessio
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Aley3567/Agent-Hub](https://github.com/Aley3567/Agent-Hub).
+Original source: `AGENTS.md` in [Aley3567/Agent-Hub](https://github.com/Aley3567/Agent-Hub).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
