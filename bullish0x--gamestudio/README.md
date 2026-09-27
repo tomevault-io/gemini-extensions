@@ -7,11 +7,11 @@ Turn any supported coding-agent harness into a full game-dev studio - 55 special
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [bullish0x/GameStudio](https://github.com/bullish0x/GameStudio).
+Original source: `AGENTS.md` in [bullish0x/GameStudio](https://github.com/bullish0x/GameStudio).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
