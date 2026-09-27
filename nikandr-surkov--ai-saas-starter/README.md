@@ -7,11 +7,11 @@ AI SaaS boilerplate for Next.js 16 — Better Auth, Stripe subscriptions, credit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nikandr-surkov/ai-saas-starter](https://github.com/nikandr-surkov/ai-saas-starter).
+Original source: `AGENTS.md` in [nikandr-surkov/ai-saas-starter](https://github.com/nikandr-surkov/ai-saas-starter).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
