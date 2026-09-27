@@ -7,11 +7,11 @@ Harness-based Agentic RAG: search, understand, and answer questions over documen
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [oneprolabs/sourcelens](https://github.com/oneprolabs/sourcelens).
+Original source: `AGENTS.md` in [oneprolabs/sourcelens](https://github.com/oneprolabs/sourcelens).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
