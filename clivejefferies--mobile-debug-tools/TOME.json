@@ -4,7 +4,7 @@
   "repo": "mobile-debug-tools",
   "description": "MCP tools to enable agents to interact with mobile devices for mobile app development. ",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/clivejefferies/mobile-debug-tools",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-24T07:49:56Z"
+  "distributed_at": "2026-09-27T23:39:36Z"
 }
