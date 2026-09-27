@@ -7,11 +7,11 @@ RikkaHub Plus（酒馆和命理增强版）—— 基于 rikkahub 的深度定�
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [heikeyangle-code/rikkahub-plus](https://github.com/heikeyangle-code/rikkahub-plus).
+Original source: `AGENTS.md` in [heikeyangle-code/rikkahub-plus](https://github.com/heikeyangle-code/rikkahub-plus).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
