@@ -7,11 +7,11 @@ CLI tool to download and monitor manga and manhwa from various different sources
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nuxencs/mangarr](https://github.com/nuxencs/mangarr).
+Original source: `AGENTS.md` in [nuxencs/mangarr](https://github.com/nuxencs/mangarr).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
