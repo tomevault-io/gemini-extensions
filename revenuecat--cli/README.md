@@ -7,11 +7,11 @@ The official RevenueCat CLI — manage customers, subscriptions, and revenue fro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [RevenueCat/cli](https://github.com/RevenueCat/cli).
+Original source: `AGENTS.md` in [RevenueCat/cli](https://github.com/RevenueCat/cli).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
