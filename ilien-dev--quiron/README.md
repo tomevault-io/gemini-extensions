@@ -7,11 +7,11 @@ AI humanizer skill for Claude Code, Codex and Cursor. Removes AI slop and the si
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ilien-dev/quiron](https://github.com/ilien-dev/quiron).
+Original source: `AGENTS.md` in [ilien-dev/quiron](https://github.com/ilien-dev/quiron).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
