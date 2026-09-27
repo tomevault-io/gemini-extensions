@@ -5,11 +5,10 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `` in [henryalouf/ruflow](https://github.com/henryalouf/ruflow).
+Original source: `CLAUDE.md` in [henryalouf/ruflow](https://github.com/henryalouf/ruflow).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
