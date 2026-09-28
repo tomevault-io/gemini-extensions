@@ -7,11 +7,11 @@ agents that own themselves
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [compusophy/localharness](https://github.com/compusophy/localharness).
+Original source: `AGENTS.md` in [compusophy/localharness](https://github.com/compusophy/localharness).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
