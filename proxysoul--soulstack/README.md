@@ -7,11 +7,11 @@ ProxySoul × Empryo: skills, agents, an immune system and habits for coding agen
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [proxysoul/SoulStack](https://github.com/proxysoul/SoulStack).
+Original source: `AGENTS.md` in [proxysoul/SoulStack](https://github.com/proxysoul/SoulStack).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
