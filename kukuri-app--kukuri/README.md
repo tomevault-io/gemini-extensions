@@ -7,11 +7,11 @@ Reddit + X + VRChat, remixed as a topic-first hybrid P2P social app
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [kukuri-app/kukuri](https://github.com/kukuri-app/kukuri).
+Original source: `AGENTS.md` in [kukuri-app/kukuri](https://github.com/kukuri-app/kukuri).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
