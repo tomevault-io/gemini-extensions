@@ -7,11 +7,11 @@ Swift package for engraved music notation: MuseScore (.mscx/.mscz) & MusicXML im
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jiyimeta/swift-sheet-music](https://github.com/jiyimeta/swift-sheet-music).
+Original source: `AGENTS.md` in [jiyimeta/swift-sheet-music](https://github.com/jiyimeta/swift-sheet-music).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
