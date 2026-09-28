@@ -7,11 +7,11 @@ Set of instructions and quick setup for ai agents to interact with tally account
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [puneetkeshav/tally-integration](https://github.com/puneetkeshav/tally-integration).
+Original source: `AGENTS.md` in [puneetkeshav/tally-integration](https://github.com/puneetkeshav/tally-integration).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
