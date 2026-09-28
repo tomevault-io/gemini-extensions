@@ -7,11 +7,11 @@ DSoR (Data System of Record): the governed layer between AI agents and a company
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [panaversity/dsor](https://github.com/panaversity/dsor).
+Original source: `AGENTS.md` in [panaversity/dsor](https://github.com/panaversity/dsor).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
