@@ -7,11 +7,11 @@ HTML-first persistent planning skill for Claude Code, Cursor, and 15 other agent
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [OthmanAdi/plan-it](https://github.com/OthmanAdi/plan-it).
+Original source: `AGENTS.md` in [OthmanAdi/plan-it](https://github.com/OthmanAdi/plan-it).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
