@@ -7,11 +7,11 @@ Roblox game boilerplate for AI agents: Rojo, Wally, typed Packet networking, Pro
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [frrazer/roblox-game-boilerplate](https://github.com/frrazer/roblox-game-boilerplate).
+Original source: `AGENTS.md` in [frrazer/roblox-game-boilerplate](https://github.com/frrazer/roblox-game-boilerplate).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
