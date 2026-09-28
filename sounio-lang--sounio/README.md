@@ -7,11 +7,11 @@ Self-hosted systems + scientific programming language with epistemic types, unce
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Sounio-lang/sounio](https://github.com/Sounio-lang/sounio).
+Original source: `AGENTS.md` in [Sounio-lang/sounio](https://github.com/Sounio-lang/sounio).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
