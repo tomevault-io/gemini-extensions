@@ -7,13 +7,13 @@ Agent-driven Three.js talking-head video production. Source available for noncom
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [erduo1998-cell/agent-motion](https://github.com/erduo1998-cell/agent-motion).
+Original source: `CLAUDE.md` in [erduo1998-cell/agent-motion](https://github.com/erduo1998-cell/agent-motion).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
