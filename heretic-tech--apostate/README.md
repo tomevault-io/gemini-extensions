@@ -7,11 +7,11 @@ Apostate is a 100% free, fully open-source anti-detect browser built on Chromium
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [heretic-tech/apostate](https://github.com/heretic-tech/apostate).
+Original source: `AGENTS.md` in [heretic-tech/apostate](https://github.com/heretic-tech/apostate).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
