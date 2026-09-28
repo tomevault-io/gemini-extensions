@@ -7,11 +7,11 @@ groma.md - Your architecture as OKF Markdown in Git, and one C4 map you can walk
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MrLesk/groma.md](https://github.com/MrLesk/groma.md).
+Original source: `AGENTS.md` in [MrLesk/groma.md](https://github.com/MrLesk/groma.md).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
