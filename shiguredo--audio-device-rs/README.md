@@ -7,11 +7,11 @@ Cross-platform audio device library
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [shiguredo/audio-device-rs](https://github.com/shiguredo/audio-device-rs).
+Original source: `AGENTS.md` in [shiguredo/audio-device-rs](https://github.com/shiguredo/audio-device-rs).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
