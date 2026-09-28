@@ -7,11 +7,11 @@ AI-powered slide generator using Marp - Create beautiful presentations from JSON
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [itarutomy97/marp-ai-slide-generator](https://github.com/itarutomy97/marp-ai-slide-generator).
+Original source: `AGENTS.md` in [itarutomy97/marp-ai-slide-generator](https://github.com/itarutomy97/marp-ai-slide-generator).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
