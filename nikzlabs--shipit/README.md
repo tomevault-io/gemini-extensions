@@ -7,11 +7,11 @@ Self-hosted, chat-driven IDE for running coding agents through your real enginee
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nikzlabs/shipit](https://github.com/nikzlabs/shipit).
+Original source: `AGENTS.md` in [nikzlabs/shipit](https://github.com/nikzlabs/shipit).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
