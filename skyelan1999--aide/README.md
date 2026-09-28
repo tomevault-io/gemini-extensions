@@ -7,11 +7,11 @@ a ai+ide for deepseek herness（Other model will support in 27Q2）
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [skyelan1999/aide](https://github.com/skyelan1999/aide).
+Original source: `AGENTS.md` in [skyelan1999/aide](https://github.com/skyelan1999/aide).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
