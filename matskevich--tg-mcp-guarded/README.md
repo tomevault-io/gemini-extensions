@@ -7,11 +7,11 @@ dual-plane telegram mcp: read-only analytics + guarded actions with anti-spam an
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [matskevich/tg-mcp-guarded](https://github.com/matskevich/tg-mcp-guarded).
+Original source: `AGENTS.md` in [matskevich/tg-mcp-guarded](https://github.com/matskevich/tg-mcp-guarded).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
