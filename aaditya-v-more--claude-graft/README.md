@@ -2,16 +2,14 @@
 
 > Source: [aaditya-v-more/claude-graft](https://github.com/aaditya-v-more/claude-graft). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Run several Claude Desktop accounts side by side on macOS, sharing Claude Code chats between them
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [aaditya-v-more/claude-graft](https://github.com/aaditya-v-more/claude-graft).
+Original source: `AGENTS.md` in [aaditya-v-more/claude-graft](https://github.com/aaditya-v-more/claude-graft).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
