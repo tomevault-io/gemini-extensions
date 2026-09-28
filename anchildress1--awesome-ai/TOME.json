@@ -4,7 +4,7 @@
   "repo": "awesome-ai",
   "description": "My ongoing WIP \ud83c\udfd7\ufe0f AI prompts, custom agents, skills & instructions - curated by me (and Copilot, ChatGPT, and Claude). ",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/anchildress1/awesome-ai",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-27T04:31:49Z"
+  "distributed_at": "2026-09-28T11:08:12Z"
 }
