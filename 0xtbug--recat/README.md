@@ -7,11 +7,11 @@ A local workspace for security findings. Review findings from Hermes or other ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [0xtbug/Recat](https://github.com/0xtbug/Recat).
+Original source: `AGENTS.md` in [0xtbug/Recat](https://github.com/0xtbug/Recat).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
