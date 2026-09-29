@@ -7,11 +7,11 @@ Compile agent policy prose into deterministic verdict programs: narrow evidence 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [doronp/jevc](https://github.com/doronp/jevc).
+Original source: `CLAUDE.md` in [doronp/jevc](https://github.com/doronp/jevc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
