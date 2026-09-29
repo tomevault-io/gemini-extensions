@@ -7,12 +7,12 @@ Build the future of Combodied AI
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [ziloai/OpenZilo](https://github.com/ziloai/OpenZilo).
+Original source: `AGENTS.md` in [ziloai/OpenZilo](https://github.com/ziloai/OpenZilo).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
