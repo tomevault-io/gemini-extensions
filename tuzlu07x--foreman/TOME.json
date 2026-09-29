@@ -4,7 +4,7 @@
   "repo": "foreman",
   "description": "Your local AI agents talk to each other. You should know what they're saying. A terminal-first guardian that mediates every MCP call, scores it for risk, and asks before anything dangerous happens.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/tuzlu07x/foreman",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-29T08:33:51Z"
+  "distributed_at": "2026-09-29T08:54:22Z"
 }
