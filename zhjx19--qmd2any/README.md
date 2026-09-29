@@ -7,11 +7,11 @@ Quarto (.qmd) / Markdown 一键导出微信公众号 & 知乎 — VS Code 扩展
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [zhjx19/qmd2any](https://github.com/zhjx19/qmd2any).
+Original source: `AGENTS.md` in [zhjx19/qmd2any](https://github.com/zhjx19/qmd2any).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
