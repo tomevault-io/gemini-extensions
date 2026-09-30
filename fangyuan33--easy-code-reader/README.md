@@ -1,23 +1,21 @@
 # AI instruction files for easy-code-reader
 
-> Sourced from [FangYuan33/easy-code-reader](https://github.com/FangYuan33/easy-code-reader) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-A powerful MCP server for intelligently reading Java source code (For Jar and local project).
+> Sourced from [FangYuan33/easy-code-reader](https://github.com/FangYuan33/easy-code-reader), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [FangYuan33/easy-code-reader](https://github.com/FangYuan33/easy-code-reader).
+Original source: `AGENTS.md` in [FangYuan33/easy-code-reader](https://github.com/FangYuan33/easy-code-reader).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [FangYuan33/easy-code-reader](https://github.com/FangYuan33/easy-code-reader) — a repo with 145+ stars on GitHub.
+From [FangYuan33/easy-code-reader](https://github.com/FangYuan33/easy-code-reader) — a repo with 154+ stars on GitHub.
 
 ---
 
