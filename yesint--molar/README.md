@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [yesint/molar](https://github.com/yesint/molar).
+Original source: `AGENTS.md` in [yesint/molar](https://github.com/yesint/molar).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [yesint/molar](https://github.com/yesint/molar) — a repo with 56+ stars on GitHub.
+From [yesint/molar](https://github.com/yesint/molar) — a repo with 62+ stars on GitHub.
 
 ---
 
