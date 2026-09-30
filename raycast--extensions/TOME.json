@@ -3,8 +3,8 @@
   "owner": "raycast",
   "repo": "extensions",
   "description": "",
-  "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "type": "config",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,21 +37,8 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [
-    {
-      "name": "extensions",
-      "path": "extensions/vocabuilder/.agents/skills/raycast-extension-release/SKILL.md",
-      "github_url": "https://github.com/raycast/extensions/tree/main/extensions/vocabuilder/.agents/skills/raycast-extension-release/SKILL.md",
-      "description": ""
-    },
-    {
-      "name": "extensions",
-      "path": "extensions/codex-manager/tests/fixtures/skill.md",
-      "github_url": "https://github.com/raycast/extensions/tree/main/extensions/codex-manager/tests/fixtures/skill.md",
-      "description": ""
-    }
-  ],
+  "skills": [],
   "source_url": "https://github.com/raycast/extensions",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T14:02:55Z"
+  "distributed_at": "2026-09-30T07:55:32Z"
 }
