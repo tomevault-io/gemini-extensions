@@ -2,8 +2,6 @@
 
 > Source: [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Align TypeSafe's Jev with your judgement using GEPA
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
