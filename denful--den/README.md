@@ -1,15 +1,15 @@
 # den
 
-> Source: [denful/den](https://github.com/denful/den). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [denful/den](https://github.com/denful/den). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [denful/den](https://github.com/denful/den).
+Original source: `AGENTS.md` in [denful/den](https://github.com/denful/den).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
