@@ -4,7 +4,7 @@
   "repo": "omacal",
   "description": "Your calendar in the Omarchy bar: the stock calendar with your events laid over it, a day view, quick add, reminders and time tracking. HEY first, more backends to come.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/crmne/omacal",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-09-30T01:30:49Z"
+  "distributed_at": "2026-09-30T01:32:17Z"
 }
