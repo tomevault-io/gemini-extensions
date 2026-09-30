@@ -1,21 +1,21 @@
 # fsharp
 
-> Source: [dotnet/fsharp](https://github.com/dotnet/fsharp). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [dotnet/fsharp](https://github.com/dotnet/fsharp). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [dotnet/fsharp](https://github.com/dotnet/fsharp).
+Original source: `AGENTS.md` in [dotnet/fsharp](https://github.com/dotnet/fsharp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (13)
+## Bundled Skills (19)
 
 - [creating-skills](https://github.com/dotnet/fsharp/tree/main/.github/skills/creating-skills)
 - [hypothesis-driven-debugging](https://github.com/dotnet/fsharp/tree/main/.github/skills/hypothesis-driven-debugging)
@@ -30,8 +30,14 @@ Original source: `copilot-instructions.md` in [dotnet/fsharp](https://github.com
 - [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/reviewing-compiler-prs/SKILL.md)
 - [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/hypothesis-driven-debugging/SKILL.md)
 - [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/vsintegration-ide-debugging/SKILL.md)
+- [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/pr-description/SKILL.md)
+- [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/binlog-analysis/SKILL.md)
+- [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/realsig-codegen/SKILL.md)
+- [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/code-compaction/SKILL.md)
+- [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/feature-completeness/SKILL.md)
+- [fsharp](https://github.com/dotnet/fsharp/tree/main/.github/skills/proposing-pr-rewrites/SKILL.md)
 
-From [dotnet/fsharp](https://github.com/dotnet/fsharp) — a repo with 4320+ stars on GitHub.
+From [dotnet/fsharp](https://github.com/dotnet/fsharp) — a repo with 4339+ stars on GitHub.
 
 ---
 
