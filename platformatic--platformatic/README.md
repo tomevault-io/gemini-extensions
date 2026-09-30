@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [platformatic/platformatic](https://github.com/platformatic/platformatic).
+Original source: `AGENTS.md` in [platformatic/platformatic](https://github.com/platformatic/platformatic).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [platformatic/platformatic](https://github.com/platformatic/platformatic) — a repo with 2025+ stars on GitHub.
+From [platformatic/platformatic](https://github.com/platformatic/platformatic) — a repo with 2055+ stars on GitHub.
 
 ---
 
