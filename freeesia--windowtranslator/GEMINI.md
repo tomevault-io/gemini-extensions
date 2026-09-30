@@ -1,140 +1,94 @@
 ## windowtranslator
 
-> ﻿コメント・プランは日本語で出力してください。
+> このファイルはリポジトリ全体に適用する。Codex と GitHub Copilot で共通の作業規約はここを正とする。
 
-﻿コメント・プランは日本語で出力してください。
-PRのタイトルと説明は日本語で記載してください。
-PowerShell実行時は極力少ない行数で実行するように、処理を分割してください。
+# WindowTranslator の共通作業指示
 
-## アーキテクチャ概要
+このファイルはリポジトリ全体に適用する。Codex と GitHub Copilot で共通の作業規約はここを正とする。
 
-WindowTranslatorは、WindowsアプリのウィンドウテキストをリアルタイムにOCR認識・翻訳してオーバーレイ表示するWPFデスクトップアプリ（.NET 10）です。
+## 作業と報告
 
-### プロジェクト構成
+- コメントと作業プランは日本語で記載する。PR・課題のタイトルと説明も日本語にする。
+- GitHub への操作には GitHub プラグインを使用する。`gh` は使用しない。
+- PowerShell の処理は短いコマンドに分け、必要な範囲だけ実行する。
+- 指示された変更範囲を守る。ビルドエラーを理由に、依頼と異なる修正を加えない。
+- 「〇〇に追加して」「〇〇で完結するようにして」は既存の対象への変更を意図している可能性が高い。新規作成を判断する前に、対象の有無と現在の実装を確認する。
 
-| プロジェクト | 用途 |
-|---|---|
-| `WindowTranslator` | WPFメインアプリ（UI・オーケストレーション） |
-| `WindowTranslator.Abstractions` | プラグインインターフェース・共有型（NuGetパッケージとして公開） |
-| `Plugins/WindowTranslator.Plugin.*` | 各種翻訳・OCRプラグイン |
-| `WindowTranslator.Wix` | MSIインストーラー生成（WiX Toolset） |
+### 明示的な禁止指示
 
-### データフロー
+- ユーザーの「変更禁止」「変更しないで」「実行禁止」などは、即時に適用される絶対的なスコープ境界として扱う。
+- 禁止後は、新規実装だけでなく、取り消し、復元、修正、整形、生成物の更新、ステージ、コミット、push、PR・課題・コメントの更新など、禁止対象の状態を変える操作を行わない。
+- 「元に戻すだけ」「誤操作を直すだけ」「必要な後処理」を禁止の例外と推測しない。取り消しや復元も変更として扱う。
+- 禁止と別の依頼が同時にある場合、明示的に許可された対象だけを操作する。個別の許可を禁止全体の解除と解釈しない。
+- 禁止された変更が既に存在していても勝手に取り消さず、状態を報告する。対象が曖昧なら読み取りだけで確認し、変更前に確認する。
 
-```
-ICaptureModule → IOcrModule → IFilterModule（前処理）→ ITranslateModule → IFilterModule（後処理）→ オーバーレイ表示
-```
+## 構成
 
-### プラグインシステム
+WindowTranslator は Windows のウィンドウをキャプチャし、OCR、翻訳、オーバーレイ表示を行う .NET 10 の WPF アプリ。
 
-**Weikio.PluginFramework** を使用した動的プラグイン読み込み。プラグインは以下の場所から検出される：
-- メインアセンブリ・Abstractionsアセンブリ内
-- `./plugins/`（アプリディレクトリ）
-- `%AppData%\WindowTranslator\plugins\`（ユーザーディレクトリ）
+| 場所 | 役割 |
+| --- | --- |
+| `WindowTranslator/` | WPF アプリ、UI、処理の統合 |
+| `WindowTranslator.Abstractions/` | プラグインのインターフェースと共有型。NuGet パッケージとして公開 |
+| `Plugins/WindowTranslator.Plugin.*/` | 翻訳・OCR などのプラグイン |
+| `WindowTranslator.Wix/` | WiX による MSI インストーラー |
 
-**プラグインインターフェース一覧：**
+処理の流れ: `ICaptureModule` → `IOcrModule` → `IFilterModule`（翻訳前）→ `ITranslateModule` → `IFilterModule`（翻訳後）→ 表示。
 
-| インターフェース | 用途 | ライフタイム |
-|---|---|---|
-| `ITranslateModule` | テキスト翻訳 | Scoped |
-| `IOcrModule` | 画像からテキスト認識 | Scoped |
-| `ICaptureModule` | ウィンドウキャプチャ | Scoped |
-| `IFilterModule` | 翻訳前後のテキスト加工 | Scoped |
-| `IColorModule` | 色変換 | Scoped |
-| `ICacheModule` | 翻訳結果キャッシュ | Scoped |
-| `IPluginParam` | プラグイン設定パラメータ | Transient |
-| `ITargetSettingsValidator` | 設定バリデーション | Transient |
+### プラグイン
 
-**新規プラグイン作成手順：**
-1. `Plugins/WindowTranslator.Plugin.{名前}` にプロジェクトを作成
-2. `WindowTranslator.Abstractions` を参照
-3. 対象インターフェースを実装
-4. `[DisplayName("表示名")]` または `[LocalizedDisplayNameAttribute(typeof(Resources), "キー")]` を付与
-5. デフォルト実装にする場合は `[DefaultModule]` を付与
-6. 設定パラメータは `IPluginParam` を実装したクラスで定義し、PropertyTools.DataAnnotationsでUI属性を付ける
+- Weikio.PluginFramework でメインアセンブリ、Abstractions アセンブリ、アプリの `./plugins/`、ユーザーディレクトリの `plugins/` と `nuget-plugins/` から読み込む。登録と探索の実装は `WindowTranslator/Program.cs` を確認する。
+- `ITranslateModule`、`IOcrModule`、`ICaptureModule`、`IFilterModule`、`IColorModule`、`ICacheModule` は Scoped。`IPluginParam` と `ITargetSettingsValidator` は Transient。
+- 新規プラグインは `Plugins/WindowTranslator.Plugin.{名前}/` に作成し、`WindowTranslator.Abstractions` を参照して対象インターフェースを実装する。
+- 表示名には `[DisplayName("表示名")]` または `[LocalizedDisplayName(typeof(Resources), "キー")]` を使う。既定モジュールにする場合は `[DefaultModule]` を付ける。
+- プラグイン設定は `IPluginParam` 実装で定義し、必要な UI 属性は PropertyTools.DataAnnotations を使う。
+- 表示名の解決順は `LocalizedDisplayNameAttribute` → `ResourceManager` → `DisplayNameAttribute` → クラス名。
 
-**プラグイン表示名の解決優先度：** `LocalizedDisplayNameAttribute` > `ResourceManager` > `DisplayName` > クラス名
+### 設定
 
-### 設定システム
+- ユーザー設定は `%UserProfile%\.wt\settings.json`。Debug ビルドでは `%UserProfile%\.wt.debug\settings.json`。パスの定義は `WindowTranslator.Abstractions/PathUtility.cs`。
+- `UserSettings` は共通設定 `Common` と対象ごとの設定 `Targets` を持つ。`TargetSettings.SelectedPlugins` のキーはインターフェース名、`PluginParams` のキーは具体的なパラメータ型名。
+- 設定は `IOptionsSnapshot<T>` でスコープごとに取得する。対象名付きの設定とプラグインパラメータの結び付けは `WindowTranslator/Program.cs` の既存構成を確認する。
 
-- ユーザー設定ファイル: `%UserProfile%\.windowtranslator\settings.json`
-- 設定クラス階層: `UserSettings` > `CommonSettings`（共通）/ `TargetSettings`（アプリ別）
-- `TargetSettings.SelectedPlugins` にアプリ別のプラグイン選択を保持（キー: インターフェース名）
-- `TargetSettings.PluginParams` にプラグイン設定を保持（キー: パラメータクラス名）
-- `IOptionsSnapshot<T>` でスコープごとに設定を注入
-
-## ビルド・テスト
+## ビルドとテスト
 
 ```powershell
-# ビルド（デバッグ）
-dotnet build WindowTranslator.sln
-
-# メインアプリ発行
-dotnet publish WindowTranslator -c Release -o publish
-
-# プラグイン発行（例）
-dotnet publish Plugins\WindowTranslator.Plugin.DeepLTranslatePlugin -c Release -o publish\plugins\DeepL
-
-# テスト実行（全体）
-dotnet test
-
-# テスト実行（単一プロジェクト）
-dotnet test Plugins\WindowTranslator.Plugin.ColorThiefPlugin.Tests
-
-# ライセンス収集（dotnet toolのrestore後）
-dotnet tool restore
-dotnet nuget-license -t -ignore ignore-packages.json -override package-information.json -exclude-projects exclude-projects.json -ji include-projects.json -d licenses -fo licenses\third-party-licenses.txt -f net10.0 -err
+dotnet build WindowTranslator.slnx
+dotnet test WindowTranslator.slnx
+dotnet test WindowTranslator.Plugin.ColorThiefPlugin.Tests/WindowTranslator.Plugin.ColorThiefPlugin.Tests.csproj
 ```
 
-テストフレームワーク: **xunit** + **Moq**
+テストは xUnit と Moq を使用する。変更箇所に合うテストから実行し、未実行のビルド・テスト・UI 確認を実施済みとして報告しない。
 
-## 翻訳リソース作成時
+発行とライセンス収集が必要な場合:
 
-* 翻訳元言語は日本語
-* 翻訳先言語は英語、ドイツ語、韓国語、中国語（簡体字）、中国語（繁体字）、ベトナム語、マレーシア語、インドネシア語、ブラジルポルトガル語、フランス語、スペイン語、アラビア語、トルコ語、タイ語、ロシア語、フィリピン語、ポーランド語、ペルシア語、チェコ語、ハンガリー語
-* 翻訳先リソースファイルが存在しない場合は、リソースファイルを作成する
-* 既存の翻訳テキストは変更しない
-  * ただし、翻訳テキストに日本語が入っていた場合は各言語の翻訳に置き換える
-* ログメッセージはリソースを作成しない
-* 文字化けする可能性が高いので、スクリプトで翻訳リソースの作成は禁止
-* `Resources.Designer.cs` はT4テンプレート（`Resources.Designer.tt`）から自動生成されるため手動編集禁止
+```powershell
+dotnet publish WindowTranslator -c Release -o publish
+dotnet publish Plugins/WindowTranslator.Plugin.DeepLTranslatePlugin -c Release -o publish/plugins/DeepL
+dotnet tool restore
+dotnet nuget-license -t -ignore ignore-packages.json -override package-information.json -exclude-projects exclude-projects.json -ji include-projects.json -d licenses -fo licenses/third-party-licenses.txt -f net10.0 -err
+```
 
-### 新しい翻訳言語の追加時
+## 翻訳リソース
 
-* 翻訳元リソース
-  * `Properties/Resources.resx`
-  * `docs/*.md`
-* 翻訳対象
-  * `Properties/Resources.*.resx`
-  * `docs/*.*.md`
-* 各`docs/README.*.md`ファイルに新規言語へのリンクを記載する
-* `.github/copilot-instructions.md`に翻訳先言語として追記
-* `TargetSettingsViewModel.Languages`に新規言語カルチャーを追加
-* `store/store_info.csv`に新規言語列を追加し`ja`列から翻訳する
-  * `ja`列がURLなら他の言語列も同じURLを利用する
-  * `ja`列が`False`なら他の言語列も同じ`False`を利用する
-  * `SearchTerm`は各行40文字以内に収める
-  * `SearchTerm`は合計21単語以内に収める
+- 原文は日本語。対象言語は `WindowTranslator/Properties/Resources.*.resx`、`docs/README.*.md`、`store/store_info.csv` の既存言語列を確認する。ファイル名のカルチャー表記は既存ファイルに合わせる。
+- 対象言語のリソースファイルがない場合は作成する。既存の翻訳は変更しない。ただし翻訳文に日本語が残っている場合は、その言語の訳に置き換える。
+- ログメッセージのための翻訳リソースは作らない。
+- 文字化けを避けるため、スクリプトによる翻訳リソースの作成は禁止。`Resources.Designer.cs` は T4 テンプレート `Resources.Designer.tt` の生成物なので手動編集しない。
 
-## コード実装時
+### 言語を追加するとき
 
-* 指定された指示には必ず従う
-  * ビルドが通らないときも、指示と異なる修正をしてはいけない
-* LangVersion: `latest`、Nullable: `enable`、ImplicitUsings: `true` がすべてのプロジェクトで有効（`Directory.Build.props`）
-* `IAsyncEnumerable<TextRect>` を `IFilterModule` のパイプラインで使用（ストリーミング処理）
-* Windows固有APIは `#if WINDOWS` で条件コンパイル（`WindowTranslator.Abstractions` はクロスプラットフォームビルド対応）
+- 原文は `WindowTranslator/Properties/Resources.resx` と `docs/README.md` を参照し、対応する `Resources.*.resx` と `docs/README.*.md` を追加する。各言語の README に新しい言語へのリンクを追加する。
+- `WindowTranslator/Modules/Settings/AllSettingsViewModel.cs` の `TargetSettingsViewModel.Languages` にカルチャーを追加する。
+- `WindowTranslator.Package/AppxManifest.xml` の `<Resources>` にカルチャーを追加し、MSIX 生成時にマニフェストを検証する。
+- `store/store_info.csv` に新言語の列を追加し、`ja` 列から翻訳する。`ja` が URL または `False` の場合は同じ値を使う。`SearchTerm` は各行 40 文字以内、合計 21 単語以内に収める。
 
-## 指示の日本語解釈
+## コード実装
 
-### 助詞「に」と「を」で既存／新規を区別する
-
-日本語の助詞が対象の存在を示す：
-
-- **「〇〇**に**追加して」「〇〇**で**完結するようにして」** → 〇〇は**既存のもの**。新規作成ではなく、既存の〇〇に機能を追加・変更する
-- **「〇〇**を**追加して」「〇〇**を**作って」** → 〇〇はまだ存在しない。**新規作成**する
-
-この区別を誤ると、既存コンポーネントへの修正指示を新規クラス作成と誤解するため、必ず助詞を確認してから変更範囲を判断する。
+- `Directory.Build.props` で `LangVersion=latest`、Nullable、ImplicitUsings が有効。
+- `IFilterModule` の翻訳前後の処理は `IAsyncEnumerable<TextRect>` を使用する。
+- `WindowTranslator.Abstractions` で Windows 固有 API を扱う場合は `#if WINDOWS` で条件コンパイルする。
 
 ---
 > Source: [Freeesia/WindowTranslator](https://github.com/Freeesia/WindowTranslator) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-09-30 -->
