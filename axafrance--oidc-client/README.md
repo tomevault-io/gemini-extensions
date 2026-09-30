@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [AxaFrance/oidc-client](https://github.com/AxaFrance/oidc-client).
+Original source: `AGENTS.md` in [AxaFrance/oidc-client](https://github.com/AxaFrance/oidc-client).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [AxaFrance/oidc-client](https://github.com/AxaFrance/oidc-client) — a repo with 676+ stars on GitHub.
+From [AxaFrance/oidc-client](https://github.com/AxaFrance/oidc-client) — a repo with 682+ stars on GitHub.
 
 ---
 
