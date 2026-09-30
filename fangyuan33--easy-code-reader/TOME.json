@@ -2,9 +2,9 @@
   "name": "easy-code-reader",
   "owner": "FangYuan33",
   "repo": "easy-code-reader",
-  "description": "A powerful MCP server for intelligently reading Java source code (For Jar and local project).",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/FangYuan33/easy-code-reader",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-04-22T00:03:47Z"
+  "distributed_at": "2026-09-30T10:14:18Z"
 }
