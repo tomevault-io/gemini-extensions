@@ -7,11 +7,11 @@ A small, native RSS reader for macOS and iOS. Offline-first, no account required
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [nooker-app/nook](https://github.com/nooker-app/nook).
+Original source: `AGENTS.md` in [nooker-app/nook](https://github.com/nooker-app/nook).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
