@@ -5,22 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [raycast/extensions](https://github.com/raycast/extensions).
+Original source: `AGENTS.md` in [raycast/extensions](https://github.com/raycast/extensions).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (2)
-
-- [extensions](https://github.com/raycast/extensions/tree/main/extensions/vocabuilder/.agents/skills/raycast-extension-release/SKILL.md)
-- [extensions](https://github.com/raycast/extensions/tree/main/extensions/codex-manager/tests/fixtures/skill.md)
-
-From [raycast/extensions](https://github.com/raycast/extensions) — a repo with 7635+ stars on GitHub.
+From [raycast/extensions](https://github.com/raycast/extensions) — a repo with 7771+ stars on GitHub.
 
 ---
 
