@@ -2,22 +2,20 @@
 
 > Tome by [habit-hooks](https://github.com/habit-hooks/habit-hooks), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Automated quality checks that nudge AI coding agents toward better habits
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [habit-hooks/habit-hooks](https://github.com/habit-hooks/habit-hooks).
+Original source: `AGENTS.md` in [habit-hooks/habit-hooks](https://github.com/habit-hooks/habit-hooks).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [habit-hooks/habit-hooks](https://github.com/habit-hooks/habit-hooks) — a repo with 36+ stars on GitHub.
+From [habit-hooks/habit-hooks](https://github.com/habit-hooks/habit-hooks) — a repo with 193+ stars on GitHub.
 
 ---
 
