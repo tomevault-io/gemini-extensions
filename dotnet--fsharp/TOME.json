@@ -4,7 +4,7 @@
   "repo": "fsharp",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -115,9 +115,45 @@
       "path": ".github/skills/vsintegration-ide-debugging/SKILL.md",
       "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/vsintegration-ide-debugging/SKILL.md",
       "description": ""
+    },
+    {
+      "name": "fsharp",
+      "path": ".github/skills/pr-description/SKILL.md",
+      "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/pr-description/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "fsharp",
+      "path": ".github/skills/binlog-analysis/SKILL.md",
+      "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/binlog-analysis/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "fsharp",
+      "path": ".github/skills/realsig-codegen/SKILL.md",
+      "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/realsig-codegen/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "fsharp",
+      "path": ".github/skills/code-compaction/SKILL.md",
+      "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/code-compaction/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "fsharp",
+      "path": ".github/skills/feature-completeness/SKILL.md",
+      "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/feature-completeness/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "fsharp",
+      "path": ".github/skills/proposing-pr-rewrites/SKILL.md",
+      "github_url": "https://github.com/dotnet/fsharp/tree/main/.github/skills/proposing-pr-rewrites/SKILL.md",
+      "description": ""
     }
   ],
   "source_url": "https://github.com/dotnet/fsharp",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T11:31:52Z"
+  "distributed_at": "2026-09-30T11:30:49Z"
 }
