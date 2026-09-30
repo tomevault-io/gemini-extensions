@@ -5,15 +5,19 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [GoatGit/super-survey](https://github.com/GoatGit/super-survey).
+Original source: `CLAUDE.md` in [GoatGit/super-survey](https://github.com/GoatGit/super-survey).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (1)
+
+- [super-survey](https://github.com/GoatGit/super-survey/tree/main/SKILL.md)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/GoatGit/super-survey](https://github.com/GoatGit/super-survey)
 
