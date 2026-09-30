@@ -7,11 +7,11 @@ A modular, high-performance Rust implementation of the ASS (Advanced SubStation 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wiedymi/ass-rs](https://github.com/wiedymi/ass-rs).
+Original source: `AGENTS.md` in [wiedymi/ass-rs](https://github.com/wiedymi/ass-rs).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
