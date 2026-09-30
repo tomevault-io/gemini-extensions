@@ -1,15 +1,31 @@
 ## apollo-lite
 
-> - When work produces reusable project knowledge, write or move it into `docs/context/` instead of leaving it only in chat or ad hoc notes.
+> - Prepare the host: `sudo bash docker/setup_host/setup_host.sh`
 
-# Apollo Lite Workspace Instructions
+# Agent Guide
 
-## Context Capture
+## Commands
 
-- When work produces reusable project knowledge, write or move it into `docs/context/` instead of leaving it only in chat or ad hoc notes.
-- Place each context document under the appropriate category: `environment-setup/`, `build/`, `run/`, `knowledge/`, or `anti-patterns/`.
-- Use one topic per file with a kebab-case filename, and update both `docs/context/README.md` and the relevant category `README.md` whenever you add or move a document.
+- Prepare the host: `sudo bash docker/setup_host/setup_host.sh`
+- Start the dev container: `bash docker/scripts/whl.sh start dev`
+- Enter the dev container: `bash docker/scripts/whl.sh enter dev`
+- Build all modules: `bash apollo.sh build`
+- Build one module: `bash apollo.sh build <module>`
+- Run lint: `bash apollo.sh lint`
+
+## Principles & Anti-Patterns
+
+- **DO**: Read relevant source and tests first; follow existing Bazel targets,
+  cache, and user-ownership conventions.
+- **DO**: Read `.agents/skills/build/SKILL.md` before compiling.
+- **DO NOT**: Compile Apollo targets outside the managed container, run Bazel as
+  root, hardcode a container username, or change unrelated files.
+- **DO NOT**: Disable caches or retry blindly without locating the first error.
+
+## Skills
+
+- `.agents/skills/build/SKILL.md` — Apollo-Lite build and compile workflow.
 
 ---
 > Source: [wheelos/apollo-lite](https://github.com/wheelos/apollo-lite) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-04 -->
+<!-- tomevault:4.0:gemini_md:2026-09-30 -->
