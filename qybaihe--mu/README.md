@@ -2,8 +2,6 @@
 
 > Source: [qybaihe/mu](https://github.com/qybaihe/mu). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls, the big model does the work. Built on pi and AionUi.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
