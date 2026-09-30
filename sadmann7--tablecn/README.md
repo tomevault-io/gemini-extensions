@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [sadmann7/tablecn](https://github.com/sadmann7/tablecn).
+Original source: `AGENTS.md` in [sadmann7/tablecn](https://github.com/sadmann7/tablecn).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [sadmann7/tablecn](https://github.com/sadmann7/tablecn) — a repo with 6226+ stars on GitHub.
+From [sadmann7/tablecn](https://github.com/sadmann7/tablecn) — a repo with 6294+ stars on GitHub.
 
 ---
 
