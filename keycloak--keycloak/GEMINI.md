@@ -1,86 +1,33 @@
 ## keycloak
 
-> <!-- PR generation instructions initial created from https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions -->
+> Issues must be created using the repository's issue templates. Do not create blank issues.
 
-<!-- PR generation instructions initial created from https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions -->
+# Instructions for AI Agents
 
-# Copilot Cloud Agent Instructions for `keycloak/keycloak`
+## Creating Issues
 
-## Repository at a glance
-- Monorepo with a Maven multi-module Java codebase plus JavaScript/TypeScript UIs.
-- Main server/runtime work is centered around `quarkus/`, `services/`, `server-spi*`, `model/`, and `tests/`.
-- Frontend code lives in `js/` (PNPM workspace with apps/libs).
+Issues must be created using the repository's issue templates. Do not create blank issues.
 
-## Required toolchain
-- Use Maven Wrapper, not system Maven: `./mvnw`.
-- JDK: 17, 21, or 25 (CI uses 25 for most jobs, with some workflows pinned to 21; the Maven compiler release is 17).
-- Node.js: 24+ for UI work (`js/apps/admin-ui/CONTRIBUTING.md`).
-- PNPM workspace is managed from `js/`.
+Read the issue templates in `.github/ISSUE_TEMPLATE/` to understand the available types, required fields, and options. Choose the right template based on its `name` and `description` fields. Do not use the Task or Milestone templates -- those are for maintainers.
 
-## How to work efficiently
-1. Scope your change first (avoid broad refactors; keep unrelated files untouched).
-2. Prefer targeted Maven module builds/tests over full-repo runs (full runs can take hours).
-3. Mirror CI commands/profiles when possible to avoid local-vs-CI drift.
-4. For Java formatting checks, run Spotless from repo root.
+When creating an issue via the GitHub CLI or API, read the chosen template and format the issue body so that each field appears as a `### <label>` markdown header followed by the response. Fill in all required fields. For dropdowns, use exactly one of the values listed in the template's `options`.
 
-## High-value commands
+Example for a bug report's area field (from the `Area` dropdown in `bug.yml`):
 
-### Formatting / lint checks
-- `./mvnw -Pdocs,distribution,operator spotless:check`
-- `./mvnw -Pdocs,distribution,operator spotless:apply` (only when you intentionally want automatic formatting changes)
+```
+### Area
 
-### Fast focused Maven build/test pattern
-- Build a focused module with required profile(s):
-  - `./mvnw install -Pdistribution -DskipTests -DskipExamples -DskipTestsuite -DskipAdapters -DskipDocs -pl <module> -am`
-- Run tests for the same focused module:
-  - `./mvnw test -Pdistribution -DskipExamples -DskipTestsuite -DskipAdapters -DskipDocs -pl <module> -am`
+<one of the options from the template>
+```
 
-### Common full/large build references
-- Build without tests: `./mvnw clean install -DskipTests`
-- Build and test everything: `./mvnw clean install` (very slow)
-- Build server distribution only: `./mvnw -pl quarkus/deployment,quarkus/dist -am -DskipTests clean install`
+## Security vulnerabilities
 
-### UI workflow (when changing `js/`)
-- From `js/`: `pnpm install`
-- Lint a specific package (example Admin UI): `pnpm -C apps/admin-ui lint`
-- Build the full workspace: `pnpm build`
+Do not create public issues for security vulnerabilities. Follow the process in [SECURITY.md](SECURITY.md).
 
-## Testing strategy guidance
-- Start with tests closest to changed modules.
-- Use root CI helper for unit-test module selection when needed:
-  - `.github/scripts/find-modules-with-unit-tests.sh`
-- See `docs/tests-development.md` and `docs/tests.md` for running `testsuite/integration-arquillian` tests. Note `testsuite/DEPRECATED.md` - do not create new tests under `testsuite`.
-- If integration tests are needed, they belong under `tests`; see `tests/docs/README.md`
+## Contributing code
 
-## Repository-specific expectations
-- Every PR should map to a GitHub issue and keep a focused scope (`CONTRIBUTING.md`).
-- Include docs/tests when behavior changes.
-- Do not introduce new test frameworks or broad formatting/refactoring unrelated to the task.
-
-<!-- Review instructions from https://docs.github.com/en/copilot/tutorials/customize-code-review
-     and https://dev.to/techgirl1908/how-i-taught-github-copilot-code-review-to-think-like-a-maintainer-3l2c
-     It seems like the initial complaint is that it's overly verbose and hallucinates, rather than
-     misses problems, so the instructions are to keep it concise and confident, rather than calling
-     out specific things to check -->
-
-# General Code Review Standards
-
-## Review Philosophy
-
-* Only comment when you have HIGH CONFIDENCE (>85%) that an issue exists
-* Be concise: one or two sentences per comment when possible
-* The code should follow the Testing strategy guidance and other relevant parts of the preceding Copilot Cloud Agent Instructions
-* Focus on actionable feedback, not observations
-* When reviewing text, only comment on clarity issues if the text is genuinely confusing or could lead to errors.
-
-## Skip Low Value Feedback
-
-Do not comment on:
-
-* Formatting
-* Minor naming suggestions
-* Multiple issues in one comment
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on pull requests, testing, documentation, and commit messages.
 
 ---
 > Source: [keycloak/keycloak](https://github.com/keycloak/keycloak) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-25 -->
+<!-- tomevault:4.0:gemini_md:2026-09-30 -->
