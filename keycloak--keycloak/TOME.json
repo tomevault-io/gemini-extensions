@@ -3,8 +3,8 @@
   "owner": "keycloak",
   "repo": "keycloak",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "keycloak",
+      "path": "skills/kc-translation-review/SKILL.md",
+      "github_url": "https://github.com/keycloak/keycloak/tree/main/skills/kc-translation-review/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "keycloak",
+      "path": "skills/kc-update-release-notes/SKILL.md",
+      "github_url": "https://github.com/keycloak/keycloak/tree/main/skills/kc-update-release-notes/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/keycloak/keycloak",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T16:42:27Z"
+  "distributed_at": "2026-09-30T09:38:05Z"
 }
