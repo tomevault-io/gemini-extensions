@@ -3,8 +3,8 @@
   "owner": "jdubois",
   "repo": "boot-ui",
   "description": "The missing developer UI for Spring Boot!",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "boot-ui",
+      "path": "skills/bootui/SKILL.md",
+      "github_url": "https://github.com/jdubois/boot-ui/tree/main/skills/bootui/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "boot-ui",
+      "path": ".github/skills/bootui-java-development/SKILL.md",
+      "github_url": "https://github.com/jdubois/boot-ui/tree/main/.github/skills/bootui-java-development/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/jdubois/boot-ui",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-27T13:48:02Z"
+  "distributed_at": "2026-09-30T21:30:51Z"
 }
