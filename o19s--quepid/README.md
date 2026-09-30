@@ -1,15 +1,15 @@
 # quepid
 
-> Source: [o19s/quepid](https://github.com/o19s/quepid). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [o19s/quepid](https://github.com/o19s/quepid). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [o19s/quepid](https://github.com/o19s/quepid).
+Original source: `AGENTS.md` in [o19s/quepid](https://github.com/o19s/quepid).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
