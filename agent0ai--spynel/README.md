@@ -2,8 +2,6 @@
 
 > Source: [agent0ai/spynel](https://github.com/agent0ai/spynel). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-One chat, unlimited AI orchestration.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
