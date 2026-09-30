@@ -1,125 +1,95 @@
 ## lampo-rs
 
-> When reviewing pull requests, ensure all commits follow these standards:
+> Guidance for coding agents working in this repository.
 
-# GitHub Copilot PR Review Rules for Lampo.rs
+# AGENTS.md
 
-## Commit Message Standards
+Guidance for coding agents working in this repository.
 
-When reviewing pull requests, ensure all commits follow these standards:
+## Build & Test
 
-### Subject Line Requirements
-- **MUST** complete the sentence: "If applied, this commit will _____"
-- **MUST** be capitalized (first letter uppercase)
-- **MUST NOT** end with a period
-- **MUST** be 50 characters or less
-- **MAY** include an optional category prefix (e.g., `cli:`, `node:`, `tests:`, `docs:`)
+- `make fmt` — rustfmt (+ clippy when enabled)
+- `make check` — full test suite
+- `cargo check -p <crate>` / `cargo test -p <crate>` — single crate
 
-#### Examples
-✅ Good: `Add support for .gif files`
-✅ Good: `tests: Modernize CLN integration tests`
-❌ Bad: `Adding support for .gif files` (wrong verb form)
-❌ Bad: `add support for .gif files` (not capitalized)
-❌ Bad: `Add support for .gif files.` (has period)
+Always run `make fmt` before committing.
 
-### Commit Body Guidelines
-- **SHOULD** be included for complex changes
-- **MUST** be separated from subject by blank line
-- **MUST** wrap text at ~72 characters
-- **MUST** use imperative mood ("Fix bug" not "Fixed bug")
-- **MAY** include bullet points with hanging indent
-- **SHOULD** explain the "why" behind changes, not just "what"
+## Simulation harness (`simulations/`)
 
-### Sign-off Requirements
-- **MUST** include DCO sign-off for significant code contributions
-- Use `Signed-off-by: Name <email>` format
-- Can be added with `git commit -s`
+Pre-prod soak scripts live in `simulations/`. Full usage: [`simulations/README.md`](simulations/README.md).
 
-## PR Review Checklist
+### When to run them
 
-When reviewing PRs, verify:
+- After changes to shutdown, pid-lock, wallet sync, channel lifecycle, BOLT11/12 pay, or chain/reorg handling: run **Phase 1** at least.
+- Before calling a release / pre-prod branch “soak-green”: run **Phase 1 + Phase 2**.
+- Do **not** invent a second ad-hoc cluster; extend `simulations/` instead.
 
-### Code Quality
-- [ ] Each commit represents a single, focused change
-- [ ] No `fixup!` commits present
-- [ ] All tests pass for each commit
-- [ ] Code follows Rust conventions and project style
+### Phase 1 (recover + stress)
 
-### Commit Messages
-- [ ] Subject line follows format requirements
-- [ ] Complex changes have descriptive commit bodies
-- [ ] Imperative mood used throughout
-- [ ] Category prefixes used consistently when applicable
-
-### Testing
-- [ ] New features include tests
-- [ ] Existing tests updated for breaking changes
-- [ ] Integration tests cover critical paths
-- [ ] No flaky or timing-dependent tests introduced
-
-### Documentation
-- [ ] Public APIs documented with rustdoc
-- [ ] Complex logic includes inline comments
-- [ ] Breaking changes noted in commit message
-- [ ] README updated if user-facing changes
-
-## Automated Feedback Templates
-
-### Poor Commit Message
-```
-The commit message doesn't follow project conventions:
-- Subject should complete: "If applied, this commit will _____"
-- Use imperative mood (e.g., "Add" not "Added" or "Adding")
-- Capitalize first letter
-- Keep under 50 characters
-- No period at the end
-
-Please amend the commit message to follow the guidelines in CONTRIBUTING.md
+```bash
+cargo build --release -p lampod-cli
+export BIN=$PWD/target/release/lampod-cli REPO=$PWD
+export SIMDIR=$PWD/sim-run-recover
+SEED=99 MATRIX=1 STRESS=1 STRESS_CYCLES=25 ./simulations/recover.sh
 ```
 
-### Missing Commit Body
-```
-This appears to be a complex change that would benefit from a commit body explaining:
-- Why this change was necessary
-- What approach was taken
-- Any trade-offs or considerations
+Gate: `RECOVERY COMPLETE: … PASS / 0 FAIL` (campaign baseline: 46/0).
 
-Please add a descriptive commit body (separated by blank line from subject).
-```
+### Phase 2 (N-node soak — send/receive proof)
 
-### Missing Tests
-```
-This PR introduces new functionality but lacks corresponding tests.
-Please add tests covering:
-- Happy path scenarios
-- Error conditions
-- Edge cases
-
-Tests should be added in the same commit as the feature when possible.
+```bash
+export BIN=$PWD/target/release/lampod-cli REPO=$PWD
+export SIMDIR=$PWD/sim-run-phase2
+NODES=10 ROUNDS=20 SEED=99 CHAOS_EVERY=3 \
+  API_BASE=8310 P2P_BASE=20210 ./simulations/simulate.sh
 ```
 
-### Commit Organization
-```
-This PR contains multiple unrelated changes in a single commit.
-Please split into separate commits, each addressing a single concern:
-- One commit per logical change
-- Each commit should compile and pass tests
-- Use `git rebase -i` to reorganize if needed
-```
+Gates:
 
-## Integration with GitHub Actions
+- Edge-role matrix: every node sends and receives (`ROLE_MATRIX=1`).
+- Coverage: CSV Success rows include every node as `src` and as `dst`.
+- Final line: `SIMULATION COMPLETE: …` after `edge coverage OK: …`.
 
-These rules should be enforced through:
-1. Commit message linting in CI
-2. Automated PR comments for violations
-3. Required checks before merge
-4. Squash merge policies for external contributors
+Smoke: `NODES=3 ROUNDS=2 CHAOS_EVERY=2 ./simulations/simulate.sh`.
 
-## References
-- Full guidelines: [CONTRIBUTING.md](https://github.com/vincenzopalazzo/lampo.rs/blob/main/CONTRIBUTING.md)
-- Rust style guide: https://rust-lang.github.io/api-guidelines/
-- Conventional Commits (optional reference): https://www.conventionalcommits.org/
+Do **not** treat SimLN-only LDK-edge traffic as a send/recv proof for lampo —
+see `simulations/simln/README.md`. Use `multihop.sh` for structural
+`hs—hm—hr` path assertions.
+
+### Sacred constraints (non-negotiable)
+
+- Regtest bitcoind only (default `CORE_URL=http://127.0.0.1:18332`).
+- Never delete `lampod.pid` to “unstick” a node.
+- Never point `SIMDIR` / `BIN` at mainnet or production data directories.
+- Never stop or reconfigure production / sacred lampo nodes from these scripts.
+- Remote deploy: set `LAMPO_HOST` explicitly; `simulations/ship.sh` has no default host.
+
+### Harness design rules
+
+- Prefer extending `lib.sh` / chaos hooks over one-off shell.
+- Assert payment `state=="Success"` **and** preimage — never grep log prose.
+- Phase 2 must prove lampo as **sender and receiver** (edge-role matrix +
+  coverage gate), not only as a relay under SimLN.
+- Wait for funding tx in mempool **before** mining.
+- After tip-invalidate / reorg chaos: settle (wallet sync + payment probe) before the next pay round.
+- Keep `simulate.sh` runnable standalone (soak must not depend on mid-run edits).
+
+## Code Style
+
+- Match existing Rust style; `cargo fmt` is mandatory.
+- `unwrap` only when provably safe (`// SAFETY:`), panic = bug, or tests.
+- Logging: always set `target`, prefer `debug` for routine traces.
+- Imports: `std` → external → `crate::`, blank line between groups.
+- Keep changes small; no drive-by refactors.
+
+## Git & PRs
+
+- Imperative commit subjects ≤ 50 chars, body wrapped at 72.
+- Each commit must pass `make fmt` / relevant checks alone.
+- No fixup commits left in a PR — squash into the offending commit.
+- Optional prefixes: `cli:`, `chain:`, `node:`, `sim:`, `docs:`, `ci:`.
+- Ask maintainers before adding dependencies.
 
 ---
 > Source: [vincenzopalazzo/lampo.rs](https://github.com/vincenzopalazzo/lampo.rs) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-29 -->
+<!-- tomevault:4.0:gemini_md:2026-09-30 -->
