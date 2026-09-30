@@ -3,8 +3,8 @@
   "owner": "wheelos",
   "repo": "apollo-lite",
   "description": "A high-performance autonomous driving system",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "apollo-lite",
+      "path": ".agents/skills/build/SKILL.md",
+      "github_url": "https://github.com/wheelos/apollo-lite/tree/main/.agents/skills/build/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/wheelos/apollo-lite",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T00:46:13Z"
+  "distributed_at": "2026-09-30T11:32:12Z"
 }
