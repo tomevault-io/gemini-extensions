@@ -1,23 +1,28 @@
 # boot-ui
 
-> Tome by [jdubois](https://github.com/jdubois/boot-ui) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [jdubois](https://github.com/jdubois/boot-ui), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 The missing developer UI for Spring Boot!
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [jdubois/boot-ui](https://github.com/jdubois/boot-ui).
+Original source: `AGENTS.md` in [jdubois/boot-ui](https://github.com/jdubois/boot-ui).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [jdubois/boot-ui](https://github.com/jdubois/boot-ui) — a repo with 11+ stars on GitHub.
+## Bundled Skills (2)
+
+- [boot-ui](https://github.com/jdubois/boot-ui/tree/main/skills/bootui/SKILL.md)
+- [boot-ui](https://github.com/jdubois/boot-ui/tree/main/.github/skills/bootui-java-development/SKILL.md)
+
+From [jdubois/boot-ui](https://github.com/jdubois/boot-ui) — a repo with 297+ stars on GitHub.
 
 ---
 
