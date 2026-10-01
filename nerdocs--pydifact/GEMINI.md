@@ -59,4 +59,4 @@ and segments.
 
 ---
 > Source: [nerdocs/pydifact](https://github.com/nerdocs/pydifact) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-30 -->
+<!-- tomevault:4.0:gemini_md:2026-10-01 -->
