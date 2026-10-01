@@ -1,67 +1,64 @@
 ## shenyu
 
-> This file provides guidance to AI Coding CLI when working with code in this repository.
+> - This repository is Apache ShenYu, a high-performance, extensible, reactive API gateway for microservices.
 
-# AGENTS.md
+# Apache ShenYu Copilot Development Instructions
 
-This file provides guidance to AI Coding CLI when working with code in this repository.
+## Project Context
 
-## Project
+- This repository is Apache ShenYu, a high-performance, extensible, reactive API gateway for microservices.
+- The primary technology stack is Java 17, Spring Boot 3, Spring WebFlux/Reactor, and Maven. Most functionality is organized as a multi-module project.
+- Use the Maven Wrapper included in the repository. On Windows, run `\.\mvnw.cmd`; on Linux/macOS, run `./mvnw`.
+- Before making changes, read the target module's `pom.xml`, adjacent implementations, and tests. Existing conventions in the target module take precedence over general practices.
 
-Apache ShenYu — a reactive API gateway for microservices. Java 17, Maven multi-module build (root `pom.xml`, version `2.7.2-SNAPSHOT`). Use the wrapper `./mvnw`, not a local `mvn`.
+## Modules and Architecture
 
-## Commands
+- `shenyu-web` and `shenyu-bootstrap` provide gateway runtime and startup integration.
+- `shenyu-plugin` contains gateway plugins. Follow the existing plugin-chain, selector, rule, and handler patterns instead of bypassing the shared plugin API.
+- `shenyu-admin` provides the administration service; `shenyu-sync-data-center` handles data synchronization between the admin service and gateway instances.
+- `shenyu-client`, `shenyu-register-center`, and `shenyu-registry` provide service registration and discovery capabilities.
+- `shenyu-common`, `shenyu-spi`, and `shenyu-infra` provide shared models, extension points, and infrastructure capabilities. Search for reusable implementations before adding shared logic; avoid duplication across modules.
+- Preserve backward compatibility for SPIs, plugin names, selector/rule data structures, configuration keys, and serialization formats. Do not change public APIs or default behavior unless explicitly required.
+- When adding a protocol, registry, data synchronization method, or plugin, follow the directory layout, wiring, SPI declarations, and configuration patterns of similar modules.
 
-```bash
-# Full build (checkstyle + RAT license check run automatically at validate phase)
-./mvnw clean install -DskipTests
+## Java Coding Standards
 
-# Faster build of one module and its dependencies
-./mvnw -pl shenyu-admin -am clean install -DskipTests -Dmaven.javadoc.skip=true -Drat.skip=true -Djacoco.skip=true
+- Write code compatible with Java 17 and follow `script/shenyu_checkstyle.xml` and the existing style of the target module.
+- Use lowercase package names, `PascalCase` class names, `camelCase` method and variable names, and `UPPER_SNAKE_CASE` constants.
+- Do not use wildcard imports, `System.out.println`, or `printStackTrace()`. Use the project's established SLF4J logging patterns.
+- Prefer immutable data, explicit generics, and existing project utilities. Do not use raw types, unchecked casts, or swallowed exceptions to bypass type safety or error handling.
+- Catch only specific exceptions that can be handled. Include enough context in error logs to diagnose problems, but never log passwords, tokens, keys, or complete sensitive request data.
+- Keep methods focused, and avoid deep nesting and duplicated logic. Do not introduce abstractions that duplicate existing architecture for a local requirement.
+- Do not introduce blocking calls into reactive request chains. Avoid unnecessary `block()`, blocking I/O, or expensive work on event-loop threads. When blocking work is unavoidable, use the project's established scheduling and isolation patterns.
+- Comments should explain design rationale, boundary conditions, or protocol details rather than restating the code. Use English Javadoc for public APIs and complex extension points, consistent with adjacent code. Do not add `@author` tags.
+- Every new Java file must include the Apache License 2.0 header. Other checked files must follow the repository's existing license-header format.
 
-# Run all tests in a module
-./mvnw test -pl shenyu-common
+## Configuration and Dependencies
 
-# Run a single test class / method (surefire)
-./mvnw test -pl shenyu-common -Dtest=GsonUtilsTest
-./mvnw test -pl shenyu-common -Dtest='GsonUtilsTest#testToJson'
+- Follow the existing `shenyu.*` naming, binding classes, defaults, and documentation patterns for configuration. New configuration must consider default behavior and compatibility with existing properties.
+- Manage dependency versions through properties or `dependencyManagement` in the root `pom.xml` whenever possible. Do not add arbitrary versions to child modules.
+- Before adding a dependency, confirm that the repository does not already provide equivalent functionality. Consider its scope, transitive dependencies, license, and impact on release artifact size.
+- Never commit credentials, private keys, access tokens, real internal addresses, or other sensitive data. Use clearly marked placeholder values in example configurations.
 
-# Checkstyle only
-./mvnw checkstyle:check
-```
+## Testing Standards
 
-- **Checkstyle is enforced on every build** (validate phase). Config: `script/shenyu_checkstyle.xml`. It is strict (javadoc, import order, final parameters); match the style of surrounding files.
-- **Apache RAT** enforces license headers: every new source file needs the Apache 2.0 header (`script/checkstyle-header.txt`).
-- Distribution packages / Docker images: `make build-admin`, `make build-bootstrap`, `make build-all-image` (see `Makefile`; builds via `shenyu-dist/*`).
+- Add or update tests when behavior changes. Place unit tests under the relevant module's `src/test/java` directory, using the `*Test.java` naming convention.
+- Use the repository's existing JUnit 5, Mockito, Hamcrest/JUnit Assertions, and Reactor Test libraries. Prefer Reactor Test's `StepVerifier` for reactive flows.
+- Cover normal paths, boundary conditions, invalid inputs, and regression scenarios. Keep tests deterministic and avoid real network calls, arbitrary time delays, and shared external services.
+- For bug fixes, first add a regression test that reproduces the issue. Assert externally observable behavior rather than implementation details.
+- Prefer testing the affected module and its dependencies first, for example:
+  - Windows: `\.\mvnw.cmd -pl <module> -am test -DskipRemoteResources=true`
+  - Linux/macOS: `./mvnw -pl <module> -am test -DskipRemoteResources=true`
+- For cross-module, build-configuration, or release-related changes, follow the CI build pattern with `clean test -Prelease`. Before submitting a pull request, the complete local check is `./mvnw clean install -Dmaven.javadoc.skip=true`.
 
-## Architecture
+## Change Principles
 
-ShenYu is split into a **control plane** and a **data plane** that communicate only through data-sync channels — the gateway never reads the database.
-
-- **`shenyu-admin`** — control plane. Spring MVC + MyBatis app (port 9095) with a web dashboard. Persists plugins/selectors/rules/metadata (DB init scripts under `db/`; H2 by default, MySQL/PG/Oracle supported). Structure: `controller` → `service` → `mapper`, with `listener` publishing config-change events.
-- **`shenyu-admin-listener`** + **`shenyu-sync-data-center`** — config sync from admin to gateways. One submodule per channel: websocket (default), http long-polling, zookeeper, nacos, etcd, consul, apollo, polaris. Gateway-side subscribers update in-memory caches; changed config takes effect without restart.
-- **`shenyu-bootstrap`** — data plane. A thin Spring WebFlux launcher; its behavior is composed by which starters are on its classpath (`shenyu-spring-boot-starter-*`). Port 9195.
-- **`shenyu-web`** — gateway runtime core. `ShenyuWebHandler` (`shenyu-web/.../web/handler/ShenyuWebHandler.java`) executes an ordered chain of plugins per request.
-- **`shenyu-plugin`** — all gateway features are plugins.
-  - `shenyu-plugin-api`: `ShenyuPlugin` (reactive `execute(exchange, chain)` + `getOrder()`), `ShenyuPluginChain`, `ShenyuContext`.
-  - `shenyu-plugin-base`: `AbstractShenyuPlugin` implements selector → rule matching against cached config, then calls the concrete plugin's `doExecute`; `PluginDataHandler` implementations receive config updates from data sync into per-plugin caches.
-  - Feature plugins grouped by category: `shenyu-plugin-proxy` (dubbo, grpc, spring-cloud, sofa, tars, websocket, mqtt...), `-security`, `-logging`, `-cache`, `-fault-tolerance`, `-ai`, `-mcp-server`, etc. A plugin is activated by adding its starter to the bootstrap pom.
-- **`shenyu-spi`** — custom SPI extension mechanism: `@SPI` on the interface, `@Join` on implementations, registration files under `META-INF/shenyu/`. Used for load balancers, condition matchers, etc. (`shenyu-loadbalancer` plugs in this way).
-- **`shenyu-client`** + **`shenyu-register-center`** — client-side API registration. Backend services annotate endpoints (e.g. `@ShenyuSpringMvcClient`) and register metadata/URIs to admin through a register channel (http, zookeeper, nacos...). Admin consumes registrations through `shenyu-disruptor` (async event pipeline).
-- **`shenyu-common`** — shared model (`PluginData`, `SelectorData`, `RuleData`, `MetaData`), enums, constants, utils. Config semantics live here, so changes ripple to both admin and gateway.
-
-Typical config flow: dashboard/API change in admin → DB write + change event → sync channel → gateway subscriber updates cache → `AbstractShenyuPlugin` matches subsequent requests against new selectors/rules.
-
-## Testing modules
-
-- Unit tests live per module (surefire).
-- `shenyu-integrated-test` and `shenyu-e2e` are Docker-based integration/e2e suites run in CI; not part of a normal local build.
-- `shenyu-examples` contains sample backend services for manually exercising the gateway.
-
-## GitNexus code intelligence
-
-This repo is indexed by the GitNexus MCP server (repo name `shenyu`). Prefer `query`/`context` for finding execution flows across the admin↔gateway boundary, and `impact` before refactoring widely-used symbols (e.g. anything in `shenyu-common`). Skill docs live under `.claude/skills/gitnexus/`.
+- Keep changes focused on the current requirement. Do not perform unrelated formatting, renaming, or large-scale refactoring.
+- Do not modify generated files, build artifacts, archives, or `target` directories. Modify their source files or generation configuration instead.
+- When updating public behavior, configuration, or extension points, update directly related examples, documentation, and tests as well.
+- Preserve existing user changes in the working tree. Do not revert changes unrelated to the current task.
+- Pull request descriptions should explain the problem, solution, affected modules, compatibility risks, and testing approach. Commit messages should be concise and describe the actual behavioral change.
 
 ---
 > Source: [apache/shenyu](https://github.com/apache/shenyu) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-30 -->
+<!-- tomevault:4.0:gemini_md:2026-10-01 -->
