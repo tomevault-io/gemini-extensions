@@ -2,22 +2,20 @@
 
 > Sourced from [QiantangCredit/heimdall-agent](https://github.com/QiantangCredit/heimdall-agent), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
-An autonomous AI agent framework for authorized CTF and security labs
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [QiantangCredit/heimdall-agent](https://github.com/QiantangCredit/heimdall-agent).
+Original source: `CLAUDE.md` in [QiantangCredit/heimdall-agent](https://github.com/QiantangCredit/heimdall-agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [QiantangCredit/heimdall-agent](https://github.com/QiantangCredit/heimdall-agent) — a repo with 73+ stars on GitHub.
+From [QiantangCredit/heimdall-agent](https://github.com/QiantangCredit/heimdall-agent) — a repo with 102+ stars on GitHub.
 
 ---
 
