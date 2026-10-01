@@ -7,11 +7,11 @@ Landing de Arko, restaurante nikkei de Barcelona: un paseo en vídeo por el loca
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [midudev/mcp-higgsfield-landing](https://github.com/midudev/mcp-higgsfield-landing).
+Original source: `AGENTS.md` in [midudev/mcp-higgsfield-landing](https://github.com/midudev/mcp-higgsfield-landing).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
