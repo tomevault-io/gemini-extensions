@@ -4,7 +4,7 @@
   "repo": "ios-local-llm",
   "description": "OnDevice Local AI Studio \u2014 run LLMs on iPhone offline. SwiftUI workbench with MLX, llama.cpp, whisper.cpp, RAG, and authenticated OpenAI/Anthropic/Ollama-compatible local APIs.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Mesutcydev/ios-local-llm",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T02:18:21Z"
+  "distributed_at": "2026-10-01T22:46:02Z"
 }
