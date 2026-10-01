@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [crmne/spotifast](https://github.com/crmne/spotifast).
+Original source: `copilot-instructions.md` in [crmne/spotifast](https://github.com/crmne/spotifast).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [crmne/spotifast](https://github.com/crmne/spotifast) — a repo with 4776+ stars on GitHub.
+From [crmne/spotifast](https://github.com/crmne/spotifast) — a repo with 4812+ stars on GitHub.
 
 ---
 
