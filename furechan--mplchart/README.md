@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [furechan/mplchart](https://github.com/furechan/mplchart).
+Original source: `AGENTS.md` in [furechan/mplchart](https://github.com/furechan/mplchart).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [furechan/mplchart](https://github.com/furechan/mplchart) — a repo with 59+ stars on GitHub.
+From [furechan/mplchart](https://github.com/furechan/mplchart) — a repo with 61+ stars on GitHub.
 
 ---
 
