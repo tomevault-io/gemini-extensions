@@ -2,9 +2,9 @@
   "name": "wpfui.violeta",
   "owner": "emako",
   "repo": "wpfui.violeta",
-  "description": "WPF UI Violeta is based on WPF UI, and provides the Fluent experience in your known and loved WPF framework.",
+  "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/emako/wpfui.violeta",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-03T15:32:09Z"
+  "distributed_at": "2026-10-01T06:04:57Z"
 }
