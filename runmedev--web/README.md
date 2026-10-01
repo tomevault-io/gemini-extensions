@@ -2,16 +2,14 @@
 
 > Source: [runmedev/web](https://github.com/runmedev/web). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Monorepo for Web & React Components
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [runmedev/web](https://github.com/runmedev/web).
+Original source: `AGENTS.md` in [runmedev/web](https://github.com/runmedev/web).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
