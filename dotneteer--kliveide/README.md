@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Dotneteer/kliveide](https://github.com/Dotneteer/kliveide).
+Original source: `CLAUDE.md` in [Dotneteer/kliveide](https://github.com/Dotneteer/kliveide).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [Dotneteer/kliveide](https://github.com/Dotneteer/kliveide) — a repo with 129+ stars on GitHub.
+From [Dotneteer/kliveide](https://github.com/Dotneteer/kliveide) — a repo with 131+ stars on GitHub.
 
 ---
 
