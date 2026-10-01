@@ -1,9 +1,13 @@
 ## wpfui-violeta
 
-> - Localization pattern: add UI strings to Resources/Localization/SH*.resx and expose them via SH.Designer.cs; controls typically seed localized defaults through dependency properties in the constructor (for example MultiComboBox).
+> Commit messages follow [`doc/CommitConvention.md`](doc/CommitConvention.md): English imperative, verb-first (Add / Refactor / Fix / …), **no trailing period**.
 
-- Localization pattern: add UI strings to Resources/Localization/SH*.resx and expose them via SH.Designer.cs; controls typically seed localized defaults through dependency properties in the constructor (for example MultiComboBox).
+# Agent guidelines
+
+## Commits
+
+Commit messages follow [`doc/CommitConvention.md`](doc/CommitConvention.md): English imperative, verb-first (Add / Refactor / Fix / …), **no trailing period**.
 
 ---
 > Source: [emako/wpfui.violeta](https://github.com/emako/wpfui.violeta) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-06-03 -->
+<!-- tomevault:4.0:gemini_md:2026-09-30 -->
