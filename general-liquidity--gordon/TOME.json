@@ -4,7 +4,7 @@
   "repo": "gordon",
   "description": "Gordon is the frontier trading agent. The world's first agent harness for financial markets.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/general-liquidity/gordon",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T16:00:27Z"
+  "distributed_at": "2026-10-01T22:19:33Z"
 }
