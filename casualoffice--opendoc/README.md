@@ -7,11 +7,11 @@ A deterministic, embeddable Word-document engine written in Rust — it reads an
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [CasualOffice/opendoc](https://github.com/CasualOffice/opendoc).
+Original source: `CLAUDE.md` in [CasualOffice/opendoc](https://github.com/CasualOffice/opendoc).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
