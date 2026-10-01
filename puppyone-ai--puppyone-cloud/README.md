@@ -2,8 +2,6 @@
 
 > Source: [puppyone-ai/puppyone-cloud](https://github.com/puppyone-ai/puppyone-cloud). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Context drive for your AI agents
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
