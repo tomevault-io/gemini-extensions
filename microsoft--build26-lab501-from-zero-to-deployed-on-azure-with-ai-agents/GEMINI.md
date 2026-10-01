@@ -1,57 +1,26 @@
 ## build26-lab501-from-zero-to-deployed-on-azure-with-ai-agents
 
-> This file contains instructions and guidelines for AI agents working on this repository.
+> Always use Azure skills when working with Azure resources in this project:
 
-# AI Agent Guidelines
+# Copilot CLI — Lab Instructions
 
-This file contains instructions and guidelines for AI agents working on this repository.
+## Azure Skills
 
-## 🔒 Security Best Practices
+Always use Azure skills when working with Azure resources in this project:
 
-**Never commit sensitive information to this repository:**
-- API keys, tokens, or credentials
-- Personal access tokens (PATs)
-- Database connection strings with passwords
-- Environment-specific configuration values
+- **azure-prepare** — Scaffold infrastructure (Bicep, azure.yaml, Dockerfile)
+- **azure-validate** — Pre-flight checks before deployment
+- **azure-deploy** — Execute deployment via azd
+- **azure-rbac** — Role assignments and least-privilege access
+- **azure-diagnostics** — Troubleshoot production issues and analyze logs
+- **azure-resource-visualizer** — Architecture diagrams from deployed resources
 
-**For MCP configuration files (`mcp.json`):**
-- Use placeholder values like `"YOUR_API_KEY_HERE"` or `"${API_KEY}"`
-- Reference environment variables for sensitive data
-- Include documentation about required environment variables
+Do NOT use the **azure-quota** skill. Skip any quota-related checks or validations.
 
-## 📋 Repository Guidelines
+## Azure Container Apps
 
-### Purpose
-This repository is a Microsoft Build 2026 session content repository and should:
-- Provide clear, actionable content for session attendees
-- Support self-guided learning for remote/at-home learners
-- Follow the structure established by GUIDANCE.md
-
-### What NOT to modify without permission:
-- License files (`LICENSE`, `LICENSE-DOCS`, `CODE_OF_CONDUCT.md`)
-- Security files (`SECURITY.md`)
-- GitHub workflow files in `.github/` directory
-
-### Content Rules
-- No large binary files (PowerPoint decks, videos, recordings) in the repo
-- Links to slides and recordings are fine — just don't host the actual files
-- All README files should be kept up to date
-- Unused folders (containing only a placeholder README) should be removed before release
-
-### Issue Management
-When a user reports a problem, asks a question that should be tracked, or wants to file an issue:
-
-1. **Discover available templates** — Check `.github/ISSUE_TEMPLATE/` for any `.yml` or `.md` template files. Read them to understand what fields and labels each template expects.
-2. **Match the request to a template** — Based on what the user is describing, pick the best-fit template. If no templates exist, create a plain issue.
-3. **Help the user fill in the fields** — Walk through the template's required fields interactively, proposing answers where possible.
-4. **Create the issue** — Use `gh issue create --template <template-file>` if a template matches, or `gh issue create` for a plain issue.
-5. **Apply labels** — Check `gh label list` to see what labels exist in the repo. Apply relevant labels based on the issue type. Don't try to apply labels that don't exist.
-
-When reviewing open issues at the start of each phase, summarize them and propose actions — this behavior already exists in the Issue Tracking and Commits section of GUIDANCE.md.
-
-### Getting Started
-If this repo still has a `GUIDANCE.md` file, that means setup isn't complete yet. Read it and follow the instructions to prepare the repo for publication.
+Always use a placeholder image (`mcr.microsoft.com/azuredocs/containerapps-helloworld:latest`) in Container App Bicep during provisioning. Never reference the ACR image directly at provision time.Always set `minReplicas: 0` during provisioning. This prevents ARM from waiting for a healthy revision startup probe, which would time out because the placeholder image may not match the app's target port.
 
 ---
 > Source: [microsoft/Build26-LAB501-from-zero-to-deployed-on-azure-with-ai-agents](https://github.com/microsoft/Build26-LAB501-from-zero-to-deployed-on-azure-with-ai-agents) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-30 -->
+<!-- tomevault:4.0:gemini_md:2026-10-01 -->
