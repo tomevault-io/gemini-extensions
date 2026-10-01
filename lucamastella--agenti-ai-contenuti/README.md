@@ -7,11 +7,11 @@ Toolkit del webinar Agenti AI per i contenuti (Agents Week di Learnn): prompt, s
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [lucamastella/agenti-ai-contenuti](https://github.com/lucamastella/agenti-ai-contenuti).
+Original source: `AGENTS.md` in [lucamastella/agenti-ai-contenuti](https://github.com/lucamastella/agenti-ai-contenuti).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
