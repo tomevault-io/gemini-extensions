@@ -4,7 +4,7 @@
   "repo": "cookiecutter-modern-datascience",
   "description": "",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "copilot-instructions.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/crmne/cookiecutter-modern-datascience",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T00:48:21Z"
+  "distributed_at": "2026-10-01T13:09:11Z"
 }
