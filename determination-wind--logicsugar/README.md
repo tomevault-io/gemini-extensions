@@ -7,13 +7,13 @@ A user-friendly Mindustry logic editor mod with readable for, while, and switch 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `.cursor/rules/*.mdc` in [DeterMination-Wind/LogicSugar](https://github.com/DeterMination-Wind/LogicSugar).
+Original source: `AGENTS.md` in [DeterMination-Wind/LogicSugar](https://github.com/DeterMination-Wind/LogicSugar).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
