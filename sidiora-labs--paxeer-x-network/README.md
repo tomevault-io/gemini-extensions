@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Sidiora-Labs/Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network).
+Original source: `CLAUDE.md` in [Sidiora-Labs/Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
@@ -24,7 +24,7 @@ Original source: `AGENTS.md` in [Sidiora-Labs/Paxeer-X-Network](https://github.c
 - [Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network/tree/main/explorer/frontend/.cursor/skills/check-github-cli/SKILL.md)
 - [Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network/tree/main/explorer/frontend/.cursor/skills/get-checks-status/SKILL.md)
 
-From [Sidiora-Labs/Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network) — a repo with 576+ stars on GitHub.
+From [Sidiora-Labs/Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network) — a repo with 578+ stars on GitHub.
 
 ---
 
