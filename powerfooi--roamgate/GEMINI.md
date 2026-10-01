@@ -1,127 +1,68 @@
 ## roamgate
 
-> This repo contains a Bun-powered bridge and a React/Vite frontend for Herdr.
+> Roamgate is an independent community Web and PWA client for Herdr. It has two parts:
 
-# Repository Guidelines
+# Copilot Instructions
 
-## Project Structure & Module Organization
+## Project overview
 
-This repo contains a Bun-powered bridge and a React/Vite frontend for Herdr.
-Frontend code lives in `web/src`, with reusable UI under `web/src/components`,
-assets under `web/src/assets`, and styling split between `web/src/styles`
-(theme tokens, base primitives, vendor overrides, app-shell layout) and
-co-located `web/src/components/*.css` files (see the style organization
-guidelines in `CONTRIBUTING.md`).
-Server and bridge code lives in `server/src`. Release helpers live in `scripts/`.
-Generated build output belongs in `web/dist`, `server/public`,
+Roamgate is an independent community Web and PWA client for Herdr. It has two parts:
+
+- `server/src`: Bun-powered local bridge server (HTTP + WebSocket) that talks
+  to the local Herdr socket.
+- `web/src`: React + Vite frontend dashboard. Reusable UI lives in
+  `web/src/components`, assets in `web/src/assets`, global styling in
+  `web/src/styles.css`.
+- `scripts/`: release and packaging helpers.
+
+Generated build output lives in `server/public`,
 `server/src/public-files.gen.ts`, `server/roamgate*`, legacy `server/herdr-gui*`,
-and `dist/`; these paths
-are ignored and should not be committed.
+and `dist/`. These are
+build artifacts; they must not be edited or committed.
 
-## Build, Test, and Development Commands
+## Review priorities
 
-Install all Bun workspace dependencies from the repository root with
-`bun install --frozen-lockfile` (Bun 1.4.1 or newer). The root `bun.lock` is the
-only lockfile; shared TypeScript, Bun types, and lint/format tooling belong in
-the root manifest. Keep runtime dependencies in their owning workspace.
+When reviewing pull requests, focus on:
 
-- `bun run dev:web`: start the Vite frontend on port 5173.
-- `bun run dev:server`: start the Bun bridge with hot reload.
-- `bun run build`: build frontend assets and the default standalone server binary.
-- `bun run build:linux-x64`: build the Linux x86-64 standalone binary.
-- `bun run build:darwin-arm64`: build the macOS Apple Silicon binary.
-- `bun run package:linux-x64`: build and emit both versioned and latest `tar.xz`
-  archives and checksums in `dist/`.
-- `bun run package:linux-arm64`, `package:darwin-x64`,
-  `package:darwin-arm64`, `package:windows-x64`, and
-  `package:windows-arm64`: package the other supported release targets.
-- `bun run format [paths...]`: format the given paths with the pinned root
-  Biome config, or all supported files when no paths are given.
-- `bun run format:check [paths...]`: check formatting with the same path scope.
-- `bun run lint`: lint JavaScript, TypeScript, and React code with Oxlint.
-- `bun run test`: run all unit and server integration tests serially.
-- `bun run test:quick`: run the same complete suite with four workers.
-- `bun run typecheck`: build/embed web assets and run all TypeScript checks.
-- `bun run typecheck:quick`: check types without rebuilding existing web assets.
-  See [local validation](CONTRIBUTING.md#validation) for prerequisites and caching.
-- `bun run precommit`: run formatting, lint, full type checks, and `test:quick`.
+- Correctness of the Bun bridge: HTTP/WebSocket message handling, socket
+  lifecycle, reconnection and error paths, and cleanup of listeners, timers,
+  and subprocesses.
+- React state management: prefer the existing store and bridge helpers in
+  `web/src` over new abstractions; watch for missing effect cleanup and stale
+  closures over socket state.
+- Security: the server runs locally by default but can bind to a non-loopback
+  address; it also executes local processes. Flag any path traversal,
+  unvalidated message payloads, or injection-prone command construction.
+- Cross-platform behavior: releases target linux-x64, linux-arm64,
+  darwin-x64, darwin-arm64, windows-x64, and windows-arm64; avoid OS-specific
+  assumptions in shared code.
 
-## Coding Style & Naming Conventions
+## Style and conventions
 
-Use TypeScript, React function components, and the existing CSS class naming
-style. Format supported files with the root `biome.json`; do not rely on a
-global or editor fallback formatter. Prefer small, focused components in
-`web/src/components`. Keep manual edits ASCII unless the file already uses
-non-ASCII text. Use existing store and bridge helpers before adding new
-abstractions.
+- Use TypeScript for application code; use React function components; keep components
+  small and focused under `web/src/components`.
+- Formatting is enforced by the root `biome.json` (2-space indent, LF, double
+  quotes, semicolons, trailing commas). Do not suggest style changes that
+  conflict with it.
+- Keep edits ASCII unless the file already contains non-ASCII text.
+- Use the existing CSS class naming style; no CSS-in-JS or new styling
+  systems.
 
-## Documentation Guidelines
+## Verification
 
-Keep `README.md` concise and English-only. Use it as the project entry point and
-link to focused documents instead of embedding detailed operation or
-implementation material. Put the feature tour and shortcuts in `FEATURES.md`,
-deployment and configuration instructions in `docs/DEPLOYMENT.md`, and system
-contracts in `docs/ARCHITECTURE.md`. Permanent docs describe current supported
-behavior and contracts, not task status, plans, phases, dated verification logs,
-or agent transcripts; keep those details in PRs, external artifacts, or Git
-history. Add a focused document only when an enduring topic cannot fit an
-existing home. Keep one canonical home per topic and link to it. When finishing
-work, consolidate or delete stale status documents and repair their links.
+Install all workspace dependencies once with `bun install --frozen-lockfile`
+from the repo root. The root `bun.lock` is authoritative.
 
-## Testing Guidelines
+Changes are expected to pass, from the repo root:
 
-Tests live beside their modules as `*.test.ts` and use `bun:test`. During local
-iteration, run a related file with `bun test <path>` or use `bun run test:quick`.
-Process-level tests need generated web assets; on a fresh checkout, run
-`bun run typecheck` once after installing dependencies to generate them.
-Automated tests do not launch browsers; validate affected UI and browser security
-behavior manually against a real backend using the checklist in `CONTRIBUTING.md`.
-Use Bun's fake timers for timer deadlines and events for socket readiness rather
-than waiting out production timeouts; restore real timers in `finally`.
-Run `bun run precommit` before committing; `test:quick` alone does not replace
-its formatting, lint, and type checks.
-The installed pre-commit hook runs this gate, so do not also run it manually
-immediately before committing an unchanged revision. See the iteration workflow
-in [local validation](CONTRIBUTING.md#validation).
-For frontend-facing work, also run `bun run build:web`. Release work must package
-and inspect every supported platform archive and checksum.
+- `bun run format:check`
+- `bun run lint`
+- `bun run test`
+- `bun run typecheck`
+- For frontend-facing changes: `bun run build:web`
 
-## Commit & Pull Request Guidelines
-
-Git history uses concise imperative messages, for example `Use built-in CLI
-argument parser` or `Add command palette and release 0.0.3`. Keep commits
-focused and mention user-visible behavior in the message when relevant. PR
-descriptions should include a short summary and verification commands.
-Screenshots are not required for UI changes; capture or upload them only when
-explicitly requested. Do not commit screenshot files solely for PR review.
-
-## Release Notes
-
-GitHub Releases is the canonical release history. Notes are generated by GitHub
-from merged pull requests using `--generate-notes` and the categories in
-`.github/release.yml`; keep PR titles and labels accurate instead of maintaining
-a shared release-log file. Preserve migration, security, breaking-change,
-data-loss, and platform-compatibility guidance in permanent documentation linked
-from the release notes. Leave detailed records in PRs, external artifacts, or
-Git history.
-
-Stable releases use separate prepare and publish phases:
-
-1. Run the **Prepare Release** workflow with `X.Y.Z` or
-   `patch`/`minor`/`major`. It updates the three `package.json` versions plus
-   `herdr-plugin.toml` and opens a normal release PR.
-   Review that PR and select **Approve workflows to run** to start CI for the
-   bot-created PR. Wait for its checks to pass before merging; the workflow
-   never merges or tags on its own.
-2. Run the **Publish Release** workflow with the merged `X.Y.Z` version. It
-   finds and verifies the matching release commit on `main`, creates the
-   annotated `vX.Y.Z` tag there, and starts `.github/workflows/release.yml` on
-   that tag, which publishes the GitHub release with generated notes.
-
-For local preparation, `bun run release:prepare <X.Y.Z | patch | minor | major>`
-updates the release files without committing, tagging, or pushing. Submit those
-changes through a normal PR because direct pushes to `main` are not allowed.
+Call out missing verification when a PR touches these areas without it.
 
 ---
 > Source: [powerfooI/roamgate](https://github.com/powerfooI/roamgate) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-30 -->
+<!-- tomevault:4.0:gemini_md:2026-10-01 -->
