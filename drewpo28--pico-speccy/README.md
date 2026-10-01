@@ -7,11 +7,11 @@ ZX Spectrum emulator for Raspberry Pi Pico 2 / RP2350 (ESPectrum port)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [drewpo28/pico-speccy](https://github.com/drewpo28/pico-speccy).
+Original source: `CLAUDE.md` in [drewpo28/pico-speccy](https://github.com/drewpo28/pico-speccy).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
