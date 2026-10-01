@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [kairos-io/kairos](https://github.com/kairos-io/kairos).
+Original source: `copilot-instructions.md` in [kairos-io/kairos](https://github.com/kairos-io/kairos).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [kairos-io/kairos](https://github.com/kairos-io/kairos) — a repo with 1833+ stars on GitHub.
+From [kairos-io/kairos](https://github.com/kairos-io/kairos) — a repo with 1834+ stars on GitHub.
 
 ---
 
