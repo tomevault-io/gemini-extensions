@@ -7,11 +7,11 @@ Local-first desktop workspace for Word, Excel, PowerPoint and PDF. Merge, conver
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Zhangwei930/MagiesPdf](https://github.com/Zhangwei930/MagiesPdf).
+Original source: `CLAUDE.md` in [Zhangwei930/MagiesPdf](https://github.com/Zhangwei930/MagiesPdf).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
