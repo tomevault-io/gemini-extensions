@@ -4,7 +4,7 @@
   "repo": "openink",
   "description": "Describe screens in YAML. Get a clickable, hand-drawn wireframe prototype.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/mediuswareltd/openink",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T19:37:25Z"
+  "distributed_at": "2026-10-02T07:45:49Z"
 }
