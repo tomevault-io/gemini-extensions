@@ -7,11 +7,11 @@ Persona 3 Portable port for New Nintendo 3DS
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [endercodezz/P3P3DS](https://github.com/endercodezz/P3P3DS).
+Original source: `AGENTS.md` in [endercodezz/P3P3DS](https://github.com/endercodezz/P3P3DS).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
