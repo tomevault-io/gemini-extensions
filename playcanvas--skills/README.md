@@ -7,11 +7,11 @@ Reusable skills for AI coding agents working with PlayCanvas products
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [playcanvas/skills](https://github.com/playcanvas/skills).
+Original source: `AGENTS.md` in [playcanvas/skills](https://github.com/playcanvas/skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
