@@ -7,11 +7,11 @@ A full knowledgebase and toolset for all XI DAT modifications.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [vekien/xi-tools](https://github.com/vekien/xi-tools).
+Original source: `AGENTS.md` in [vekien/xi-tools](https://github.com/vekien/xi-tools).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
