@@ -7,11 +7,11 @@ A monster editor for OpenTibia servers. Open a workspace, pick a monster, edit, 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [Coldensjo/MONx](https://github.com/Coldensjo/MONx).
+Original source: `CLAUDE.md` in [Coldensjo/MONx](https://github.com/Coldensjo/MONx).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
