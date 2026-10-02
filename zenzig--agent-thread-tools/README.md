@@ -7,11 +7,11 @@ Health checks, handoffs, and archives for Claude Code and Codex sessions
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [zenzig/agent-thread-tools](https://github.com/zenzig/agent-thread-tools).
+Original source: `AGENTS.md` in [zenzig/agent-thread-tools](https://github.com/zenzig/agent-thread-tools).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
