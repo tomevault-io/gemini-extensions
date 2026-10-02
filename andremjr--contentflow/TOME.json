@@ -4,7 +4,7 @@
   "repo": "contentflow",
   "description": "Gerenciador estrat\u00e9gico de M\u00e9todos para produ\u00e7\u00e3o de conte\u00fado com ecossistema independente de plugins.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/andremjr/contentflow",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T02:24:17Z"
+  "distributed_at": "2026-10-02T00:23:16Z"
 }
