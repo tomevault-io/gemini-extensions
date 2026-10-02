@@ -7,11 +7,11 @@ A linter enforcing ASD-STE100 Simplified Technical English for your coding agent
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [jyooi/agent-simple-english](https://github.com/jyooi/agent-simple-english).
+Original source: `CLAUDE.md` in [jyooi/agent-simple-english](https://github.com/jyooi/agent-simple-english).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
