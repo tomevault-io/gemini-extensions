@@ -4,7 +4,7 @@
   "repo": "tonepush",
   "description": "Open-source editor and tone library for Line 6 HX pedals and the StompStation PRO. Shared GUI, CLI, cloud library, and reverse-engineered USB protocols.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/crmne/tonepush",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T23:56:03Z"
+  "distributed_at": "2026-10-02T12:15:13Z"
 }
