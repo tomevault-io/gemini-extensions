@@ -7,11 +7,11 @@ Amber Notes: the free, open-source notes app for iPhone and Mac that ChatGPT and
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [amber-notes/amber-notes](https://github.com/amber-notes/amber-notes).
+Original source: `AGENTS.md` in [amber-notes/amber-notes](https://github.com/amber-notes/amber-notes).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
