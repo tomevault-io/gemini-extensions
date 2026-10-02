@@ -7,11 +7,11 @@ Multi-agent (LangGraph + Claude) app that turns an earnings call into a source-a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [suhaas/earnings-edge](https://github.com/suhaas/earnings-edge).
+Original source: `AGENTS.md` in [suhaas/earnings-edge](https://github.com/suhaas/earnings-edge).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
