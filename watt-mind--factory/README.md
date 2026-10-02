@@ -7,11 +7,11 @@ The factory that builds software — and itself. A runtime for self-improving ag
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [watt-mind/factory](https://github.com/watt-mind/factory).
+Original source: `AGENTS.md` in [watt-mind/factory](https://github.com/watt-mind/factory).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
