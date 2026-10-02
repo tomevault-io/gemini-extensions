@@ -7,11 +7,11 @@ A correctness-first SCXML 1.0 interpreter (ECMAScript data model) with custom el
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [tinyactors-dev/scxmljs](https://github.com/tinyactors-dev/scxmljs).
+Original source: `AGENTS.md` in [tinyactors-dev/scxmljs](https://github.com/tinyactors-dev/scxmljs).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
