@@ -7,11 +7,11 @@ Interactive course material for an undergraduate signals and systems course: ste
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [huguryildiz/signals-and-systems](https://github.com/huguryildiz/signals-and-systems).
+Original source: `AGENTS.md` in [huguryildiz/signals-and-systems](https://github.com/huguryildiz/signals-and-systems).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
