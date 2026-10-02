@@ -7,11 +7,11 @@ Claude Code 的可视化工作台（网页 + 桌面），也能驱动 Codex / Ge
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ypyik0669/claude-web](https://github.com/ypyik0669/claude-web).
+Original source: `AGENTS.md` in [ypyik0669/claude-web](https://github.com/ypyik0669/claude-web).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
