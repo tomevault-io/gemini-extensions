@@ -1,0 +1,26 @@
+# tine
+
+> Source: [amutable-systems/tine](https://github.com/amutable-systems/tine). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+Build packages, go/Rust projects, and OS images with Buck2
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [amutable-systems/tine](https://github.com/amutable-systems/tine).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/amutable-systems/tine](https://github.com/amutable-systems/tine)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:d-c-p -->
