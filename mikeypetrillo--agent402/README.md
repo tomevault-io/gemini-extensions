@@ -7,11 +7,11 @@ agent402.tools: 500+ pay-per-call tools, metered models and finished reports for
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [MikeyPetrillo/Agent402](https://github.com/MikeyPetrillo/Agent402).
+Original source: `AGENTS.md` in [MikeyPetrillo/Agent402](https://github.com/MikeyPetrillo/Agent402).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
