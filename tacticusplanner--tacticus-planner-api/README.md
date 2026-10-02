@@ -5,11 +5,11 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [TacticusPlanner/tacticus-planner-api](https://github.com/TacticusPlanner/tacticus-planner-api).
+Original source: `AGENTS.md` in [TacticusPlanner/tacticus-planner-api](https://github.com/TacticusPlanner/tacticus-planner-api).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
