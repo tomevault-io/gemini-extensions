@@ -1,4 +1,4 @@
-## ecommerce
+## laravel-boost
 
 > <laravel-boost-guidelines>
 
