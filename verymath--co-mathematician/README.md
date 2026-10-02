@@ -7,11 +7,11 @@ Co-mathematician project for collaborative AI-assisted mathematical research.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [VeryMath/co-mathematician](https://github.com/VeryMath/co-mathematician).
+Original source: `AGENTS.md` in [VeryMath/co-mathematician](https://github.com/VeryMath/co-mathematician).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
