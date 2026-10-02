@@ -7,11 +7,11 @@ a daily-usable Markdown and MDX-compatible desktop editor
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wmasfoe/md-editor](https://github.com/wmasfoe/md-editor).
+Original source: `AGENTS.md` in [wmasfoe/md-editor](https://github.com/wmasfoe/md-editor).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
