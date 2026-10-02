@@ -7,11 +7,11 @@ ARK C2 by Zypheron: Speed · Stealth · Control. AI-native C2 for authorized red
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [KKingZero/ARK](https://github.com/KKingZero/ARK).
+Original source: `CLAUDE.md` in [KKingZero/ARK](https://github.com/KKingZero/ARK).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
