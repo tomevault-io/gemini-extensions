@@ -7,11 +7,11 @@ A free streaming-first open-source redaction toolit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [atomicpages/sensored](https://github.com/atomicpages/sensored).
+Original source: `AGENTS.md` in [atomicpages/sensored](https://github.com/atomicpages/sensored).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
