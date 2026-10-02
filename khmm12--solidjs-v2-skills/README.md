@@ -7,11 +7,11 @@ Agent skills for SolidJS 2.0 — write, migrate, and review solid-js 2.x code wi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [khmm12/solidjs-v2-skills](https://github.com/khmm12/solidjs-v2-skills).
+Original source: `AGENTS.md` in [khmm12/solidjs-v2-skills](https://github.com/khmm12/solidjs-v2-skills).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
