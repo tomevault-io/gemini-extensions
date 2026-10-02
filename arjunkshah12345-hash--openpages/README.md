@@ -7,11 +7,11 @@ Open-source AI workspace for humans and agents — SuperCompress as the core con
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [arjunkshah12345-hash/openpages](https://github.com/arjunkshah12345-hash/openpages).
+Original source: `AGENTS.md` in [arjunkshah12345-hash/openpages](https://github.com/arjunkshah12345-hash/openpages).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
