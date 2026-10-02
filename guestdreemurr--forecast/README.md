@@ -7,11 +7,11 @@ Decompilation of the Wii's Forecast Channel (USA/NTSC v7)
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [GuestDreemurr/forecast](https://github.com/GuestDreemurr/forecast).
+Original source: `AGENTS.md` in [GuestDreemurr/forecast](https://github.com/GuestDreemurr/forecast).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
