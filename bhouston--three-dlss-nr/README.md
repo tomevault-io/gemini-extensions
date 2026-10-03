@@ -7,11 +7,11 @@ A Three.js (TSL / WebGPU) port of OpenDLSS-NR, the open-source reimplementation 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [bhouston/three-dlss-nr](https://github.com/bhouston/three-dlss-nr).
+Original source: `CLAUDE.md` in [bhouston/three-dlss-nr](https://github.com/bhouston/three-dlss-nr).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
