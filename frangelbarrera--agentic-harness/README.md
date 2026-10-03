@@ -7,11 +7,11 @@ Open-source Python agent harness for auditable, cost-controlled LLM workflows wi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [frangelbarrera/agentic-harness](https://github.com/frangelbarrera/agentic-harness).
+Original source: `AGENTS.md` in [frangelbarrera/agentic-harness](https://github.com/frangelbarrera/agentic-harness).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
