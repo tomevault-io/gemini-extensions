@@ -7,11 +7,11 @@ integrating lsio/webstation and rommapp/romm
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [romm-streaming/romm-broker](https://github.com/romm-streaming/romm-broker).
+Original source: `AGENTS.md` in [romm-streaming/romm-broker](https://github.com/romm-streaming/romm-broker).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
