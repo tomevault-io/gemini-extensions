@@ -7,11 +7,11 @@ Open-source platform for building AI agents with long-term memory, multi-channel
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [polyant-ai/polyant](https://github.com/polyant-ai/polyant).
+Original source: `AGENTS.md` in [polyant-ai/polyant](https://github.com/polyant-ai/polyant).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
