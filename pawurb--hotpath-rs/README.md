@@ -5,22 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [pawurb/hotpath-rs](https://github.com/pawurb/hotpath-rs).
+Original source: `AGENTS.md` in [pawurb/hotpath-rs](https://github.com/pawurb/hotpath-rs).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (2)
-
-- [hotpath-rs](https://github.com/pawurb/hotpath-rs/tree/main/skills/syncmeta/SKILL.md)
-- [hotpath-rs](https://github.com/pawurb/hotpath-rs/tree/main/skills/hotpath_init/SKILL.md)
-
-From [pawurb/hotpath-rs](https://github.com/pawurb/hotpath-rs) — a repo with 1657+ stars on GitHub.
+From [pawurb/hotpath-rs](https://github.com/pawurb/hotpath-rs) — a repo with 1713+ stars on GitHub.
 
 ---
 
