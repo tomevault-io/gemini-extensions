@@ -7,11 +7,11 @@ Hover effects for React and Tailwind
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [raqibnur/hoverui](https://github.com/raqibnur/hoverui).
+Original source: `AGENTS.md` in [raqibnur/hoverui](https://github.com/raqibnur/hoverui).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
