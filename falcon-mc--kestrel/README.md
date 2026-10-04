@@ -7,11 +7,11 @@ Unofficial Minecraft: Bedrock Edition client written in C++20, not affiliated wi
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Falcon-MC/Kestrel](https://github.com/Falcon-MC/Kestrel).
+Original source: `AGENTS.md` in [Falcon-MC/Kestrel](https://github.com/Falcon-MC/Kestrel).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
