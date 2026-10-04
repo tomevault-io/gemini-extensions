@@ -7,11 +7,11 @@ Make a reel with your own AI assistant (Claude Code or Codex). Designed by E.B.E
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ebraheembinessa-E-vias/community-reels-engine](https://github.com/ebraheembinessa-E-vias/community-reels-engine).
+Original source: `AGENTS.md` in [ebraheembinessa-E-vias/community-reels-engine](https://github.com/ebraheembinessa-E-vias/community-reels-engine).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
