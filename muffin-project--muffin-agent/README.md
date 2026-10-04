@@ -7,11 +7,11 @@ Muffin — one owner-run personal agent: continuity of memory, work and authorit
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [muffin-project/muffin-agent](https://github.com/muffin-project/muffin-agent).
+Original source: `CLAUDE.md` in [muffin-project/muffin-agent](https://github.com/muffin-project/muffin-agent).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
