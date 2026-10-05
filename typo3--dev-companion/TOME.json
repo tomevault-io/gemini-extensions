@@ -4,7 +4,7 @@
   "repo": "dev-companion",
   "description": "A local MCP server (plain PHP) that gives MCP-enabled clients a curated TYPO3 knowledge base, for the three audiences that work with TYPO3: the core contributor, the extension author, and the site developer.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/TYPO3/dev-companion",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-05T21:30:52Z"
+  "distributed_at": "2026-10-05T21:32:47Z"
 }
