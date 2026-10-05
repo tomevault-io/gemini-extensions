@@ -7,11 +7,11 @@ Generate interactive API documentation and typed Python SDKs from any OpenAPI sp
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [ultralytics/openapi](https://github.com/ultralytics/openapi).
+Original source: `AGENTS.md` in [ultralytics/openapi](https://github.com/ultralytics/openapi).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
