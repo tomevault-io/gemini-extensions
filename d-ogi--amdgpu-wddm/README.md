@@ -7,11 +7,11 @@ Open Windows (WDDM) driver stack for AMD GPUs, developed first on the ASRock BC-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [D-Ogi/amdgpu-wddm](https://github.com/D-Ogi/amdgpu-wddm).
+Original source: `CLAUDE.md` in [D-Ogi/amdgpu-wddm](https://github.com/D-Ogi/amdgpu-wddm).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
