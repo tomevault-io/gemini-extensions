@@ -1,0 +1,585 @@
+{
+  "name": "covert-coder",
+  "owner": "AnonymousNomad",
+  "repo": "covert-coder",
+  "description": "Covert Coder \u2014 a local-first sovereign AI development environment for governed models, workflows, execution, evidence, and verification.",
+  "type": "tome",
+  "source_format": "AGENTS.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "aide-architect-editor-pattern",
+      "path": "skills/packs/aide-architect-editor-pattern/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-architect-editor-pattern/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-agent-harness-convergence",
+      "path": "skills/packs/aide-agent-harness-convergence/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-agent-harness-convergence/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-model-runtime",
+      "path": "skills/packs/aide-arch-model-runtime/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-model-runtime/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-model-task-recommender",
+      "path": "skills/packs/aide-model-task-recommender/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-model-task-recommender/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-context-retrieval-wiring",
+      "path": "skills/packs/aide-context-retrieval-wiring/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-context-retrieval-wiring/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-production-readiness-plan",
+      "path": "skills/packs/aide-production-readiness-plan/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-production-readiness-plan/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase1-model-runtime",
+      "path": "skills/packs/aide-phase1-model-runtime/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase1-model-runtime/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-helix-memory",
+      "path": "skills/packs/aide-helix-memory/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-helix-memory/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-inference-control",
+      "path": "skills/packs/aide-inference-control/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-inference-control/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-engine-lifecycle-doctrine",
+      "path": "skills/packs/aide-engine-lifecycle-doctrine/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-engine-lifecycle-doctrine/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-cloud-handoff",
+      "path": "skills/packs/aide-cloud-handoff/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-cloud-handoff/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-workflow-gap-roadmap",
+      "path": "skills/packs/aide-workflow-gap-roadmap/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-workflow-gap-roadmap/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-foundations",
+      "path": "skills/packs/aide-arch-foundations/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-foundations/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-typescript-strict-pass",
+      "path": "skills/packs/aide-typescript-strict-pass/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-typescript-strict-pass/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-packaging-release",
+      "path": "skills/packs/aide-arch-packaging-release/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-packaging-release/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-system-map",
+      "path": "skills/packs/aide-system-map/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-system-map/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-micro-expert-collective",
+      "path": "skills/packs/aide-micro-expert-collective/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-micro-expert-collective/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-house-model",
+      "path": "skills/packs/aide-house-model/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-house-model/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-plugin-author-guide",
+      "path": "skills/packs/aide-plugin-author-guide/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-plugin-author-guide/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-terminal",
+      "path": "skills/packs/aide-arch-terminal/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-terminal/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-protocols",
+      "path": "skills/packs/aide-arch-protocols/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-protocols/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-fine-tune-lane-wire-in",
+      "path": "skills/packs/aide-fine-tune-lane-wire-in/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-fine-tune-lane-wire-in/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-cipher-living-system",
+      "path": "skills/packs/aide-cipher-living-system/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-cipher-living-system/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase3-editor-core",
+      "path": "skills/packs/aide-phase3-editor-core/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase3-editor-core/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-windows-dev-reality",
+      "path": "skills/packs/aide-windows-dev-reality/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-windows-dev-reality/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-android-build",
+      "path": "skills/packs/aide-android-build/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-android-build/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-browser-ide",
+      "path": "skills/packs/aide-browser-ide/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-browser-ide/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-offline-rag",
+      "path": "skills/packs/aide-offline-rag/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-offline-rag/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase-router",
+      "path": "skills/packs/aide-phase-router/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase-router/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-trace-intelligence",
+      "path": "skills/packs/aide-trace-intelligence/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-trace-intelligence/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-p6-companion-model",
+      "path": "skills/packs/aide-p6-companion-model/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-p6-companion-model/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-p2-descent-intro",
+      "path": "skills/packs/aide-p2-descent-intro/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-p2-descent-intro/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-route-slice-sop",
+      "path": "skills/packs/aide-route-slice-sop/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-route-slice-sop/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-git",
+      "path": "skills/packs/aide-arch-git/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-git/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-rseries-refactor",
+      "path": "skills/packs/aide-rseries-refactor/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-rseries-refactor/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-rebrand-name-change",
+      "path": "skills/packs/aide-rebrand-name-change/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-rebrand-name-change/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-advanced-orchestration",
+      "path": "skills/packs/aide-advanced-orchestration/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-advanced-orchestration/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-orchestrator-awareness",
+      "path": "skills/packs/aide-orchestrator-awareness/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-orchestrator-awareness/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-frontend-core",
+      "path": "skills/packs/aide-arch-frontend-core/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-frontend-core/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-credo-guardrail",
+      "path": "skills/packs/aide-credo-guardrail/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-credo-guardrail/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-backend-autoselect",
+      "path": "skills/packs/aide-backend-autoselect/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-backend-autoselect/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-smart-workbench-flow",
+      "path": "skills/packs/aide-smart-workbench-flow/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-smart-workbench-flow/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-production-cutover",
+      "path": "skills/packs/aide-production-cutover/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-production-cutover/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-inhouse-only-policy-hook",
+      "path": "skills/packs/aide-inhouse-only-policy-hook/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-inhouse-only-policy-hook/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-flagship-twin-mind-train",
+      "path": "skills/packs/aide-flagship-twin-mind-train/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-flagship-twin-mind-train/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-power-surface",
+      "path": "skills/packs/aide-power-surface/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-power-surface/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-background-tasks",
+      "path": "skills/packs/aide-background-tasks/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-background-tasks/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-the-quad",
+      "path": "skills/packs/aide-the-quad/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-the-quad/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase9-extension-host",
+      "path": "skills/packs/aide-phase9-extension-host/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase9-extension-host/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-subagent-dispatch",
+      "path": "skills/packs/aide-subagent-dispatch/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-subagent-dispatch/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase5-training-arena",
+      "path": "skills/packs/aide-phase5-training-arena/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase5-training-arena/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-closed-loop-wiring",
+      "path": "skills/packs/aide-closed-loop-wiring/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-closed-loop-wiring/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-plugins-surface-v1",
+      "path": "skills/packs/aide-plugins-surface-v1/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-plugins-surface-v1/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase4-git-integration",
+      "path": "skills/packs/aide-phase4-git-integration/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase4-git-integration/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-release-engineering",
+      "path": "skills/packs/aide-release-engineering/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-release-engineering/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-task-verification-battery",
+      "path": "skills/packs/aide-task-verification-battery/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-task-verification-battery/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-ci-diagnostics",
+      "path": "skills/packs/aide-ci-diagnostics/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-ci-diagnostics/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-cipher",
+      "path": "skills/packs/aide-cipher/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-cipher/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-editor",
+      "path": "skills/packs/aide-arch-editor/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-editor/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-sandbox-loop",
+      "path": "skills/packs/aide-sandbox-loop/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-sandbox-loop/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-pre-push-gate",
+      "path": "skills/packs/aide-pre-push-gate/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-pre-push-gate/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase8-android-build",
+      "path": "skills/packs/aide-phase8-android-build/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase8-android-build/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-debugging-discipline",
+      "path": "skills/packs/aide-debugging-discipline/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-debugging-discipline/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase7-community-hub",
+      "path": "skills/packs/aide-phase7-community-hub/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase7-community-hub/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-unified-diff-repair",
+      "path": "skills/packs/aide-unified-diff-repair/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-unified-diff-repair/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-device-benchmark-runner",
+      "path": "skills/packs/aide-device-benchmark-runner/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-device-benchmark-runner/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-packaging-offline",
+      "path": "skills/packs/aide-packaging-offline/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-packaging-offline/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-tab-autocomplete",
+      "path": "skills/packs/aide-tab-autocomplete/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-tab-autocomplete/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-ide-research",
+      "path": "skills/packs/aide-ide-research/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-ide-research/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-p6-desktop-control",
+      "path": "skills/packs/aide-p6-desktop-control/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-p6-desktop-control/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-responsive-a11y",
+      "path": "skills/packs/aide-responsive-a11y/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-responsive-a11y/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-backend-core",
+      "path": "skills/packs/aide-arch-backend-core/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-backend-core/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-extensions",
+      "path": "skills/packs/aide-arch-extensions/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-extensions/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase2-view-switching",
+      "path": "skills/packs/aide-phase2-view-switching/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase2-view-switching/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-product-vision",
+      "path": "skills/packs/aide-product-vision/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-product-vision/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-cipher-self-healing-sop",
+      "path": "skills/packs/aide-cipher-self-healing-sop/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-cipher-self-healing-sop/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-arch-wiring",
+      "path": "skills/packs/aide-arch-wiring/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-arch-wiring/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-architect-editor-implementation",
+      "path": "skills/packs/aide-architect-editor-implementation/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-architect-editor-implementation/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-cipher-house-model",
+      "path": "skills/packs/aide-cipher-house-model/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-cipher-house-model/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-project-replay",
+      "path": "skills/packs/aide-project-replay/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-project-replay/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-phase6-tutor-mode",
+      "path": "skills/packs/aide-phase6-tutor-mode/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-phase6-tutor-mode/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aide-security-hardening",
+      "path": "skills/packs/aide-security-hardening/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aide-security-hardening/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aid-closed-loop-on-by-default",
+      "path": "skills/packs/aid-closed-loop-on-by-default/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aid-closed-loop-on-by-default/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aid-skills-auto-load-by-context",
+      "path": "skills/packs/aid-skills-auto-load-by-context/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aid-skills-auto-load-by-context/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "failure-desktop-staged-stack-exit",
+      "path": "skills/packs/failure-desktop-staged-stack-exit/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/failure-desktop-staged-stack-exit/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "cipher-qlora-finetune",
+      "path": "skills/packs/cipher-qlora-finetune/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/cipher-qlora-finetune/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aid-cipher-4b-fine-tune-pipeline",
+      "path": "skills/packs/aid-cipher-4b-fine-tune-pipeline/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aid-cipher-4b-fine-tune-pipeline/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "aid-dap-real-debugpy-fixture",
+      "path": "skills/packs/aid-dap-real-debugpy-fixture/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/aid-dap-real-debugpy-fixture/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "failure-desktop-runtime-env-name",
+      "path": "skills/packs/failure-desktop-runtime-env-name/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/failure-desktop-runtime-env-name/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "sft-format-marker-loop",
+      "path": "skills/packs/sft-format-marker-loop/SKILL.md",
+      "github_url": "https://github.com/AnonymousNomad/covert-coder/tree/main/skills/packs/sft-format-marker-loop/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/AnonymousNomad/covert-coder",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-10-05T22:30:52Z"
+}
