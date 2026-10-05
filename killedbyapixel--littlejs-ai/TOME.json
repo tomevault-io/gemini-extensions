@@ -2,9 +2,9 @@
   "name": "LittleJS-AI",
   "owner": "KilledByAPixel",
   "repo": "LittleJS-AI",
-  "description": "LittleJS AI Experiments and Games",
+  "description": "",
   "type": "config",
-  "source_format": "CLAUDE.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/KilledByAPixel/LittleJS-AI",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-11T17:51:28Z"
+  "distributed_at": "2026-10-05T05:30:47Z"
 }
