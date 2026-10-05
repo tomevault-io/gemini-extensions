@@ -7,11 +7,11 @@ A local MCP server (plain PHP) that gives MCP-enabled clients a curated TYPO3 kn
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [TYPO3/dev-companion](https://github.com/TYPO3/dev-companion).
+Original source: `CLAUDE.md` in [TYPO3/dev-companion](https://github.com/TYPO3/dev-companion).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
