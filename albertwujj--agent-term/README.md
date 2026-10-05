@@ -7,11 +7,11 @@ A substantially expanded terminal with rich visuals and tools for the new way of
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [albertwujj/agent-term](https://github.com/albertwujj/agent-term).
+Original source: `AGENTS.md` in [albertwujj/agent-term](https://github.com/albertwujj/agent-term).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
