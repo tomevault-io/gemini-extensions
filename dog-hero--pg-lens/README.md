@@ -7,11 +7,11 @@ A blazing-fast, modern TUI for PostgreSQL observability
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [dog-hero/pg_lens](https://github.com/dog-hero/pg_lens).
+Original source: `AGENTS.md` in [dog-hero/pg_lens](https://github.com/dog-hero/pg_lens).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
