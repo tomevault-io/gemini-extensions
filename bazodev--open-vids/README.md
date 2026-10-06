@@ -7,11 +7,11 @@ Open-source desktop video editor for macOS that you work in together with AI age
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [bazodev/open-vids](https://github.com/bazodev/open-vids).
+Original source: `AGENTS.md` in [bazodev/open-vids](https://github.com/bazodev/open-vids).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
