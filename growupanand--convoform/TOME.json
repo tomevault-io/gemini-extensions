@@ -4,7 +4,7 @@
   "repo": "ConvoForm",
   "description": "",
   "type": "tome",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -317,5 +317,5 @@
   ],
   "source_url": "https://github.com/growupanand/ConvoForm",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-01T11:30:44Z"
+  "distributed_at": "2026-10-06T18:34:58Z"
 }
