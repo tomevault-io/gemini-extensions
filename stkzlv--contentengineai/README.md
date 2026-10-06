@@ -7,11 +7,11 @@ AI-powered video production pipeline that scrapes e-commerce products, generates
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [stkzlv/ContentEngineAI](https://github.com/stkzlv/ContentEngineAI).
+Original source: `AGENTS.md` in [stkzlv/ContentEngineAI](https://github.com/stkzlv/ContentEngineAI).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
