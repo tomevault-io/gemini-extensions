@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [ma2za/python-substack](https://github.com/ma2za
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [ma2za/python-substack](https://github.com/ma2za/python-substack) — a repo with 170+ stars on GitHub.
+From [ma2za/python-substack](https://github.com/ma2za/python-substack) — a repo with 175+ stars on GitHub.
 
 ---
 
