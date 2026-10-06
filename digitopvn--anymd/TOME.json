@@ -4,7 +4,7 @@
   "repo": "anymd",
   "description": "Convert anything on the internet to clean Markdown, with a searchable library, API, CLI, MCP and WebMCP.",
   "type": "config",
-  "source_format": "AGENTS.md",
+  "source_format": "CLAUDE.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/digitopvn/anymd",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-06T06:30:49Z"
+  "distributed_at": "2026-10-06T06:31:45Z"
 }
