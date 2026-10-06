@@ -1,24 +1,29 @@
 # AI instruction files for logback-android
 
-> Sourced from [tony19/logback-android](https://github.com/tony19/logback-android) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [tony19/logback-android](https://github.com/tony19/logback-android), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [tony19/logback-android](https://github.com/tony19/logback-android).
+Original source: `AGENTS.md` in [tony19/logback-android](https://github.com/tony19/logback-android).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (2)
+
+- [logback-android](https://github.com/tony19/logback-android/tree/main/.claude/skills/phase-start/SKILL.md)
+- [logback-android](https://github.com/tony19/logback-android/tree/main/.claude/skills/architecture-sync/SKILL.md)
 
 From [tony19/logback-android](https://github.com/tony19/logback-android) — a repo with 1265+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-s -->
