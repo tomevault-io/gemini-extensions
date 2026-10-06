@@ -1,0 +1,40 @@
+# pigweed
+
+> Tome by [pigweed-project](https://github.com/pigweed-project/pigweed), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `AGENTS.md` in [pigweed-project/pigweed](https://github.com/pigweed-project/pigweed).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+## Bundled Skills (13)
+
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/docs/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/bluetooth/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/code_review/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/pw_kernel_testing/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/run_presubmit_checks/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/use_pw_toolchain_tools/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/pw_rpc_creating_services/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/gerrit/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/oncall/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/pw_async2/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/ghish/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/saleae/SKILL.md)
+- [pigweed](https://github.com/pigweed-project/pigweed/tree/main/.agents/skills/worktree/SKILL.md)
+
+From [pigweed-project/pigweed](https://github.com/pigweed-project/pigweed) — a repo with 547+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
+
+<!-- genome:t-e-s -->
