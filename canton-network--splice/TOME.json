@@ -3,8 +3,8 @@
   "owner": "canton-network",
   "repo": "splice",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "splice",
+      "path": ".claude/skills/ci-triage/SKILL.md",
+      "github_url": "https://github.com/canton-network/splice/tree/main/.claude/skills/ci-triage/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "splice",
+      "path": ".claude/skills/project-conventions/SKILL.md",
+      "github_url": "https://github.com/canton-network/splice/tree/main/.claude/skills/project-conventions/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/canton-network/splice",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-29T05:56:09Z"
+  "distributed_at": "2026-10-06T18:56:14Z"
 }
