@@ -1,40 +1,121 @@
 ## convoform
 
-> Founder-led study-abroad consultancies in India (B2B, non-technical). Owners and counsellors handling student inquiries over WhatsApp and walk-ins; they care about qualifying leads fast, not about forms or tech.
+> Guidance for AI coding agents (opencode, Codex, Copilot, Claude, …) working in this repository.
 
-# ConvoForm Design Context
+# AGENTS.md
 
-## Users
-Founder-led study-abroad consultancies in India (B2B, non-technical). Owners and counsellors handling student inquiries over WhatsApp and walk-ins; they care about qualifying leads fast, not about forms or tech.
+Guidance for AI coding agents (opencode, Codex, Copilot, Claude, …) working in this repository.
 
-## Brand Personality
-- **3-word personality**: Modern & minimal
-- **Emotional goal**: Confidence & trust
-- **Voice**: Professional but approachable. Clean, direct, no jargon. The interface should feel like a reliable business tool, not a consumer toy.
+## Git commits
 
-## Aesthetic Direction
-- **Theme**: Light mode only
-- **Visual tone**: Clean, professional, trustworthy. Think Stripe dashboard clarity meets Indian business pragmatism.
-- **Anti-references**: 
-  - Generic AI-generated SaaS template (centered titles, identical icon cards, same shadows/radius everywhere, placeholder metrics)
-  - Over-designed agency sites (heavy animations, gradient soup, flashy effects)
-  - No gradient text, no glassmorphism, no border-left accent stripes
-- **References**: Stripe, Linear, Vercel dashboard — clean, functional, confidence-inspiring
+The rules below are derived from this repo's own history (`git log -100`) plus `.commitlintrc.cjs`. Follow them exactly, and re-check `git log --oneline -100` before writing a message if you are unsure.
 
-## Design Principles
-1. **Trust over delight**: Every element should reinforce reliability. Counsellors need to feel this is a serious business tool.
-2. **Clarity over cleverness**: No confusing layouts or ambiguous interactions. Non-technical users need to accomplish tasks quickly.
-3. **Restraint over decoration**: Every visual element must earn its place. White space is a feature, not empty space.
-4. **Professional warmth**: Modern and minimal doesn't mean cold. Subtle warmth in typography and spacing creates approachability.
-5. **Functional hierarchy**: Visual weight should guide the eye to what matters most — lead qualification, form responses, student data.
+### Message format
 
-## Technical Context
-- Next.js 15 monorepo with Turborepo
-- Tailwind CSS with shadcn/ui components
-- Current fonts: Geist Sans (body) + Montserrat (headings)
-- Current theme: HSL-based CSS variables for light/dark
-- Light mode: near-white background (#f4f4f4), dark navy primary
+```text
+<type>: <emoji> <subject>
+
+<optional body>
+
+✅ Closes: #<issue-number>
+```
+
+### Subject line
+
+- Exact spacing: `type`, colon, one space, `emoji`, one space, `subject` — e.g. `chore: 🤖 add opencode new agent`.
+- `type` is lowercase and taken from the table below. **No `scope(...)`** — 0 of the last 100 commits use one.
+- First word after the emoji is lowercase (87 of 92 conventional commits), imperative mood, no trailing period.
+- Max **64 characters** (the `czg` limit in `.commitlintrc.cjs`). 17 of the last 100 exceeded it — do not copy those.
+- Never end with a PR reference like `(#482)`; that form only comes from GitHub squash merges.
+
+### Types and emoji
+
+| type     | emoji   | when to use                                            | last 100 |
+| -------- | ------- | ------------------------------------------------------ | -------- |
+| `chore`  | 🤖      | default: tooling, config, deps, skills, non-user-facing | 59       |
+| `feat`   | 🚀      | new user-visible behaviour                              | 14       |
+| `fix`    | 🐛      | bug fix                                                 | 6        |
+| `refactor` | 💡    | code change with no behaviour change                    | 3        |
+| `perf`   | ⚡️      | performance improvement                                 | 3        |
+| `docs`   | 📚      | documentation only                                      | 3        |
+| `style`  | 💄      | markup/formatting/UI styling                            | 2        |
+| `release`| 🏹      | release notes / version bumps                           | 2        |
+| `ci`     | 🎡      | CI workflows                                            | 0        |
+
+If nothing fits better, use `chore`.
+
+### Body (optional, ~29 of the last 100 commits have one)
+
+- Blank line between subject and body.
+- One short paragraph saying **why**, then `-` bullets for **what** changed.
+- Keep it factual; no restating the diff line by line.
+
+### Footer
+
+- Write `✅ Closes: #123` — the `#` is mandatory. All 28 pre-existing footers use it; `Closes: 488` (no `#`) was a defect that had to be amended.
+- Footer is the last line, preceded by a blank line.
+- Only this exact form is used in this repo: **no** `Fixes:`, `Resolves:`, `Refs:`, `Close:`.
+- Omit the footer entirely when the commit does not close an issue.
+
+### Example from history
+
+```text
+feat: 🚀 add google sheet integration for sync form responses
+
+✅ Closes: #482
+```
+
+With a body:
+
+```text
+fix: 🐛 serve robots.txt and sitemap.xml and add canonical urls
+
+Clerk middleware answered 404 for /robots.txt and /sitemap.xml because
+they were not in isPublicRoute.
+
+- allow robots.txt and sitemap.xml through the Clerk proxy
+- list all public www routes in the sitemap
+
+✅ Closes: #488
+```
+
+### Do not write
+
+```text
+feat: Add new stuff.            ← capital, no emoji, trailing period
+chore: fix stuff (#482)          ← squash-merge style, wrong emoji
+Update README.md                 ← GitHub web edit, not a commit message
+wip / temp / misc                ← meaningless subject
+✅ Closes: 488                   ← missing the #
+chore(scope): something          ← no scopes in this repo
+Co-authored-by: Cursor <cursoragent@cursor.com>  ← never add agent co-author trailers
+```
+
+### Before you commit
+
+- Stage the exact files you changed (`git add <paths>`), then check `git status`.
+- The `pre-commit` hook runs `pnpm format`, `pnpm lint`, `pnpm type-check` **and then `git add .`** — everything left in the working tree gets swept into the commit. Make sure no unrelated or generated files are sitting there.
+- The **`commit-msg` hook** strips `Co-authored-by: Cursor <cursoragent@cursor.com>` if the IDE injects it; everything else about message format is still your responsibility.
+- Run `pnpm lint-ci` and `pnpm type-check-ci` if you are not confident the hook will catch it.
+- Never commit `.env`, secrets, keys, or lockfile churn you did not intend.
+- Only commit when explicitly asked; never push, force-push, amend published commits, or open a PR unless asked.
+- Never add `Co-authored-by` trailers for Cursor or other agents; the author line should reflect the human maintainer only.
+- `pnpm commit` opens the interactive `czg` prompt (this is what humans use).
+
+## Agent skills
+
+### Issue tracker
+
+GitHub issues on `growupanand/ConvoForm`, with planning on [user project #6](https://github.com/users/growupanand/projects/6). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default Matt Pocock triage state labels (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`); category labels `bug` and `enhancement` already exist on the repo. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: root `GLOSSARY.md` and `docs/adr/` when present. See `docs/agents/domain.md`.
 
 ---
 > Source: [growupanand/ConvoForm](https://github.com/growupanand/ConvoForm) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-10-01 -->
+<!-- tomevault:4.0:gemini_md:2026-10-06 -->
