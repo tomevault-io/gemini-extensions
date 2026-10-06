@@ -1,0 +1,93 @@
+{
+  "name": "tonic-ui",
+  "owner": "trendmicro-frontend",
+  "repo": "tonic-ui",
+  "description": "",
+  "type": "tome",
+  "source_format": "AGENTS.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "tonic-ui-patterns",
+      "path": ".claude/skills/tonic-ui-patterns",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-patterns",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui-pr",
+      "path": ".claude/skills/tonic-ui-pr",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-pr",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui-types",
+      "path": ".claude/skills/tonic-ui-types",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-types",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui",
+      "path": ".claude/skills/tonic-ui-pr/SKILL.md",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-pr/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui",
+      "path": ".claude/skills/tonic-ui-types/SKILL.md",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-types/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui",
+      "path": ".claude/skills/tonic-ui-patterns/SKILL.md",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-patterns/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui",
+      "path": ".claude/skills/tonic-ui-sx/SKILL.md",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-sx/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "tonic-ui",
+      "path": ".claude/skills/tonic-ui-slots/SKILL.md",
+      "github_url": "https://github.com/trendmicro-frontend/tonic-ui/tree/main/.claude/skills/tonic-ui-slots/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/trendmicro-frontend/tonic-ui",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-10-06T11:30:57Z"
+}
