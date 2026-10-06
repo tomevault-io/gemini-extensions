@@ -7,11 +7,11 @@ MCP server for AI agents to explore SystemVerilog/Verilog netlists: trace connec
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [keplertech/naja-scope](https://github.com/keplertech/naja-scope).
+Original source: `AGENTS.md` in [keplertech/naja-scope](https://github.com/keplertech/naja-scope).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
