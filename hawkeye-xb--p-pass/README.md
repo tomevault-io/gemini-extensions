@@ -7,11 +7,11 @@ Family photo backup, peer-to-peer: your phone backs up automatically to the comp
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [hawkeye-xb/P-Pass](https://github.com/hawkeye-xb/P-Pass).
+Original source: `CLAUDE.md` in [hawkeye-xb/P-Pass](https://github.com/hawkeye-xb/P-Pass).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
