@@ -1,25 +1,21 @@
 ## python-substack
 
-> `GEMINI.md` is the authoritative project memory for every agent working in
+> This repository can be maintained with any compatible coding agent. Read
 
-# Shared agent instructions
 
-`GEMINI.md` is the authoritative project memory for every agent working in
-this repository. Read it completely before inspecting, changing, or running
-the project, and follow it for the entire task.
+# Agent workflow
 
-Repository workflows and policies under `.gemini/` are shared agent settings,
-not Gemini-only guidance. Read the relevant files before performing the
-corresponding operation. If an agent does not support the Gemini slash-command
-syntax, follow the command prompt manually:
+This repository can be maintained with any compatible coding agent. Read
+[`AGENTS.md`](../AGENTS.md) before inspecting or changing the project.
 
-- `.gemini/commands/release/prepare.toml` defines release preparation.
-- `.gemini/commands/release/verify.toml` defines release verification.
-- `.gemini/policies/git-override.toml` records repository Git tool policy.
+Private maintainer configuration is optional and lives under `.agents/`; it is
+not distributed with the package. Do not commit credentials, cookies, tokens,
+or local service-account files.
 
-Tool policies never override the user's request, the host's permissions, or
-higher-priority safety instructions.
+Use the documented Poetry commands for dependency installation, offline tests,
+and release validation. Live tests require explicit maintainer authorization
+and must never publish content.
 
 ---
 > Source: [ma2za/python-substack](https://github.com/ma2za/python-substack) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-09-09 -->
+<!-- tomevault:4.0:gemini_md:2026-10-06 -->
