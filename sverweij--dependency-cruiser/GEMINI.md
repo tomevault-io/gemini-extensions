@@ -1,10 +1,16 @@
 ## dependency-cruiser
 
-> These instructions help GitHub Copilot generate code that aligns with the dependency-cruiser project's conventions. Keep responses brief and focused on the task at hand.
+> Meant for both humans and agents.
 
-# GitHub Copilot Instructions for dependency-cruiser
+# Instructions for contributing code to dependency-cruiser
 
-These instructions help GitHub Copilot generate code that aligns with the dependency-cruiser project's conventions. Keep responses brief and focused on the task at hand.
+Meant for both humans and agents. 
+
+## Invariants
+
+- before proposing/ committing code `node --run=check:full` MUST ALWAYS pass without errors.
+- fix formatting issues with  `node --run=format`
+- run targeted tests with `node --run=test -- -f "title of the test"`
 
 ## Communication Style
 
@@ -40,7 +46,6 @@ Boundaries: code/commits/PRs written normal.
 - Source code is located in `/src` directory, organized in feature-specific subdirectories
 - Tests are in `/test` directory, mirroring the structure of `/src`
 - Test files have the same name as the file they test with a `.spec.mjs` extension
-- Place test files in the same directory structure as the source files
 
 ## Code Style & Formatting
 
@@ -52,10 +57,7 @@ Boundaries: code/commits/PRs written normal.
 - Local variables: prefix with `l` (e.g., `lVersion`)
 - Constants: UPPER_SNAKE_CASE
 - Boolean functions: use `is`/`has` prefixes
-- Strings: double quotes
-- Line length: ~80 characters
 - Prefer `const` over `let`
-- Use semicolons
 - Use ES6+ features (arrow functions, destructuring)
 
 ## Documentation
@@ -85,11 +87,12 @@ Example:
 ### Mocha Testing Framework
 
 - Tests use Mocha (note the `describe`, `it`, `beforeEach`, `afterEach` syntax)
-- Use Node.js built-in `assert` library for assertions (`import { deepEqual, ok } from "node:assert/strict"`)
+- Use Node.js built-in `assert/strict` library for assertions (`import { deepEqual, ok } from "node:assert/strict"`)
 - Group related tests in `describe` blocks
 - Use meaningful test descriptions that explain what's being tested
 - When appropriate, use `beforeEach`/`afterEach` hooks for setup and teardown
 - Test both success and error cases
+- Start the title of the _describe_ grouping unit tests with `[U] `, that of integration tests with `[I] ` and that of end-to-end tests with `[E] `
 
 Example test structure:
 ```javascript
@@ -147,6 +150,15 @@ describe("[I] module/functionToTest", () => {
 - Write defensive code that handles edge cases gracefully
 - For optional features/dependencies, use the `tryImport` pattern to check availability
 
+## Git
+
+- ALWAYS postfix commit messages with `[AI]`.
+- ALWAYS include user prompt in the commit body in markdown code block. NEVER include secrets, PII, or proprietary prompt content.
+
+## GitHub PR
+
+- If the user asks you to open a GitHub PR; ALWAYS add the phrase "I am an AI" to the `## AI disclosure` PR description section.
+
 ---
 > Source: [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-10-06 -->
