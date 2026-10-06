@@ -5,15 +5,21 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [bedrockio/bedrock-core](https://github.com/bedrockio/bedrock-core).
+Original source: `AGENTS.md` in [bedrockio/bedrock-core](https://github.com/bedrockio/bedrock-core).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (3)
+
+- [bedrock-core](https://github.com/bedrockio/bedrock-core/tree/main/.agents/skills/audit-log/SKILL.md)
+- [bedrock-core](https://github.com/bedrockio/bedrock-core/tree/main/.agents/skills/auth-token/SKILL.md)
+- [bedrock-core](https://github.com/bedrockio/bedrock-core/tree/main/.agents/skills/crud-api-endpoint/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/bedrockio/bedrock-core](https://github.com/bedrockio/bedrock-core)
 
