@@ -3,8 +3,8 @@
   "owner": "bedrockio",
   "repo": "bedrock-core",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,27 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "bedrock-core",
+      "path": ".agents/skills/audit-log/SKILL.md",
+      "github_url": "https://github.com/bedrockio/bedrock-core/tree/main/.agents/skills/audit-log/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "bedrock-core",
+      "path": ".agents/skills/auth-token/SKILL.md",
+      "github_url": "https://github.com/bedrockio/bedrock-core/tree/main/.agents/skills/auth-token/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "bedrock-core",
+      "path": ".agents/skills/crud-api-endpoint/SKILL.md",
+      "github_url": "https://github.com/bedrockio/bedrock-core/tree/main/.agents/skills/crud-api-endpoint/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/bedrockio/bedrock-core",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-24T22:59:06Z"
+  "distributed_at": "2026-10-06T11:32:31Z"
 }
