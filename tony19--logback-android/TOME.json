@@ -3,8 +3,8 @@
   "owner": "tony19",
   "repo": "logback-android",
   "description": "",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,21 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "logback-android",
+      "path": ".claude/skills/phase-start/SKILL.md",
+      "github_url": "https://github.com/tony19/logback-android/tree/main/.claude/skills/phase-start/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "logback-android",
+      "path": ".claude/skills/architecture-sync/SKILL.md",
+      "github_url": "https://github.com/tony19/logback-android/tree/main/.claude/skills/architecture-sync/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/tony19/logback-android",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-12T04:36:46Z"
+  "distributed_at": "2026-10-06T12:37:56Z"
 }
