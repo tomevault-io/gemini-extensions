@@ -3,8 +3,8 @@
   "owner": "kenrick95",
   "repo": "ikuyo",
   "description": "Plan your next trip!",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "ikuyo",
+      "path": ".pi/skills/webmcp/SKILL.md",
+      "github_url": "https://github.com/kenrick95/ikuyo/tree/main/.pi/skills/webmcp/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/kenrick95/ikuyo",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-01T15:42:59Z"
+  "distributed_at": "2026-10-07T00:37:36Z"
 }
