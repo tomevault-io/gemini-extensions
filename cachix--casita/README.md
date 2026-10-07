@@ -2,8 +2,6 @@
 
 > Source: [cachix/casita](https://github.com/cachix/casita). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-A content-addressed object store, written in Rust.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
