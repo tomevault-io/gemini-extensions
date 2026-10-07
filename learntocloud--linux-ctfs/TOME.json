@@ -3,8 +3,8 @@
   "owner": "learntocloud",
   "repo": "linux-ctfs",
   "description": "A collection of Linux CTFs to practice your CLI skills",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,27 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "linux-ctfs",
+      "path": ".github/skills/ctf-testing/SKILL.md",
+      "github_url": "https://github.com/learntocloud/linux-ctfs/tree/main/.github/skills/ctf-testing/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "review-lab-maintenance",
+      "path": ".github/skills/review-lab-maintenance/SKILL.md",
+      "github_url": "https://github.com/learntocloud/linux-ctfs/tree/main/.github/skills/review-lab-maintenance/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "review-lab-maintenance",
+      "path": ".github/skills/review-lab-maintenance",
+      "github_url": "https://github.com/learntocloud/linux-ctfs/tree/main/.github/skills/review-lab-maintenance",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/learntocloud/linux-ctfs",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-06-01T07:45:37Z"
+  "distributed_at": "2026-10-07T00:34:25Z"
 }
