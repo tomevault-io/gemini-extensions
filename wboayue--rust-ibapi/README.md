@@ -1,15 +1,15 @@
 # rust-ibapi
 
-> Source: [wboayue/rust-ibapi](https://github.com/wboayue/rust-ibapi). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [wboayue/rust-ibapi](https://github.com/wboayue/rust-ibapi). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wboayue/rust-ibapi](https://github.com/wboayue/rust-ibapi).
+Original source: `AGENTS.md` in [wboayue/rust-ibapi](https://github.com/wboayue/rust-ibapi).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
