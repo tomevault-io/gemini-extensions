@@ -1,98 +1,81 @@
 ## quay-operator
 
-> Kubernetes operator for deploying [Quay container registry](https://github.com/quay/quay) on OpenShift/Kubernetes.
+> This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-# Quay Operator - AI Agent Guide
+# CLAUDE.md
 
-Kubernetes operator for deploying [Quay container registry](https://github.com/quay/quay) on OpenShift/Kubernetes.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Tech Stack
+## Project Overview
 
-- **Language**: Go 1.23+
-- **Framework**: controller-runtime (Kubebuilder)
-- **CRD**: `QuayRegistry` in `quay.redhat.com/v1`
-- **Dependencies**: PostgreSQL, Redis, Clair, object storage (NooBaa/S3)
+pgx is a PostgreSQL driver and toolkit for Go (`github.com/jackc/pgx/v5`). It provides both a native PostgreSQL interface and a `database/sql` compatible driver. Requires Go 1.25+ and supports PostgreSQL 14+ and CockroachDB.
 
-## Development Workflow
+## Build & Test Commands
 
 ```bash
-# Build
-make manager
+# Run all tests (requires PGX_TEST_DATABASE to be set)
+go test ./...
 
-# Run locally against cluster (requires KUBECONFIG)
-make run
+# Run a specific test
+go test -run TestFunctionName ./...
 
-# Run without resource requests (dev mode)
-SKIP_RESOURCE_REQUESTS=true make run
+# Run tests for a specific package
+go test ./pgconn/...
 
-# Test
-make test
+# Run tests with race detector
+go test -race ./...
 
-# Format and vet
-make fmt && make vet
+# DevContainer: run tests against specific PostgreSQL versions
+./test.sh pg18                      # Default: PostgreSQL 18
+./test.sh pg16 -run TestConnect     # Specific test against PG16
+./test.sh crdb                      # CockroachDB
+./test.sh all                       # All targets (pg14-18 + crdb)
 
-# Generate CRDs and code
-make generate && make manifests
+# Format (always run after making changes)
+goimports -w .
+
+# Lint
+golangci-lint run ./...
 ```
 
-## Project Structure
+## Test Database Setup
 
-```
-apis/quay/v1/          # CRD type definitions (QuayRegistry)
-controllers/quay/      # Reconciliation logic
-pkg/kustomize/         # Manifest generation from Kustomize
-pkg/cmpstatus/         # Component health evaluation
-pkg/context/           # Runtime state (cluster capabilities, TLS, storage)
-kustomize/             # Base Kustomize manifests by component
-e2e/                   # E2E tests using kuttl
-hack/                  # Deployment and utility scripts
+Tests require `PGX_TEST_DATABASE` environment variable. In the devcontainer, `test.sh` handles this. For local development:
+
+```bash
+export PGX_TEST_DATABASE="host=localhost user=postgres password=postgres dbname=pgx_test"
 ```
 
-## Documentation by Topic
+The test database needs extensions: `hstore`, `ltree`, and a `uint64` domain. See `testsetup/postgresql_setup.sql` for full setup. Many tests are skipped unless additional `PGX_TEST_*` env vars are set (for TLS, SCRAM, MD5, unix socket, PgBouncer testing).
 
-Consult these files when working on specific areas:
+## Architecture
 
-| Topic | File | When to Read |
-|-------|------|--------------|
-| Architecture | `agent_docs/architecture.md` | Understanding reconciliation flow, controllers, status evaluation |
-| Testing | `agent_docs/testing.md` | Running tests, writing e2e tests, kuttl patterns |
-| Deployment | `agent_docs/deployment.md` | CRD management, OpenShift deployment, image building |
-| Components | `agent_docs/components.md` | Managed components, overrides, adding new components |
+The codebase is a layered architecture, bottom-up:
 
-## Contributing
+- **pgproto3/** — PostgreSQL wire protocol v3 encoder/decoder. Defines `FrontendMessage` and `BackendMessage` types for every protocol message.
+- **pgconn/** — Low-level connection layer (roughly libpq-equivalent). Handles authentication, TLS, query execution, COPY protocol, and notifications. `PgConn` is the core type.
+- **pgx** (root package) — High-level query interface built on `pgconn`. Provides `Conn`, `Rows`, `Tx`, `Batch`, `CopyFrom`, and generic helpers like `CollectRows`/`ForEachRow`. Includes automatic statement caching (LRU).
+- **pgtype/** — Type system mapping between Go and PostgreSQL types (70+ types). Key interfaces: `Codec`, `Type`, `TypeMap`. Custom types (enums, composites, domains) are registered through `TypeMap`.
+- **pgxpool/** — Concurrency-safe connection pool built on `puddle/v2`. `Pool` is the main type; wraps `pgx.Conn`.
+- **stdlib/** — `database/sql` compatibility adapter.
 
-All changes require a referenced [PROJQUAY Jira](https://issues.redhat.com/projects/PROJQUAY/issues).
+Supporting packages:
+- **internal/stmtcache/** — Prepared statement cache with LRU eviction
+- **internal/sanitize/** — SQL query sanitization
+- **tracelog/** — Logging adapter that implements tracer interfaces
+- **multitracer/** — Composes multiple tracers into one
+- **pgxtest/** — Test helpers for running tests across connection types
 
-Commit message format:
-```
-<subsystem>: <what changed> (PROJQUAY-####)
+## Key Design Conventions
 
-<why this change was made>
-```
-
-## Key Conventions
-
-- Maintain existing code style
-- Run `make fmt` before committing
-- Keep CRD backward compatible
-- Test component changes with e2e tests in `e2e/`
-
-## Contextification Addendum
-
-Low-token routing:
-
-- API type: `apis/quay/v1/`
-- Reconciler: `controllers/quay/`
-- Manifest generation: `pkg/kustomize/`
-- Component status: `pkg/cmpstatus/`
-- Runtime context: `pkg/context/`
-- Chainsaw tests: `test/chainsaw/`
-- Deeper docs: `agent_docs/`
-
-Commands: `make manager`, `make run`, `make test`, `make fmt && make vet`, `make generate && make manifests`.
-
-Guardrails: keep reconcile logic idempotent and preserve existing `QuayRegistry` compatibility.
+- **Semantic versioning** — strictly followed. Do not break the public API (no removing or renaming exported types, functions, methods, or fields; no changing function signatures).
+- **Minimal dependencies** — adding new dependencies is strongly discouraged (see CONTRIBUTING.md).
+- **Context-based** — all blocking operations take `context.Context`.
+- **Tracer interfaces** — observability via `QueryTracer`, `BatchTracer`, `CopyFromTracer`, `PrepareTracer` on `ConnConfig.Tracer`.
+- **Formatting** — always run `goimports -w .` after making changes to ensure code is properly formatted. CI checks formatting via `gofmt -l -s -w . && git diff --exit-code`. `gofumpt` with extra rules is also enforced via `golangci-lint`.
+- **Linters** — `govet` and `ineffassign` only (configured in `.golangci.yml`).
+- **CI matrix** — tests run against Go 1.25/1.26 × PostgreSQL 14-18 + CockroachDB, on Linux and Windows. Race detector enabled on Linux only.
 
 ---
 > Source: [quay/quay-operator](https://github.com/quay/quay-operator) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-20 -->
+<!-- tomevault:4.0:gemini_md:2026-10-07 -->
