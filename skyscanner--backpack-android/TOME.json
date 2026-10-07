@@ -4,7 +4,7 @@
   "repo": "backpack-android",
   "description": "",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/Skyscanner/backpack-android",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-07-26T01:10:11Z"
+  "distributed_at": "2026-10-07T01:46:27Z"
 }
