@@ -1,24 +1,24 @@
 # bonbon-strategy
 
-> Tome by [trashbytes](https://github.com/trashbytes/bonbon-strategy) — distributed by [TomeVault](https://tomevault.io/claim/trashbytes)
+> Tome by [trashbytes](https://github.com/trashbytes/bonbon-strategy), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [trashbytes/bonbon-strategy](https://github.com/trashbytes/bonbon-strategy).
+Original source: `AGENTS.md` in [trashbytes/bonbon-strategy](https://github.com/trashbytes/bonbon-strategy).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. [View quality report](https://tomevault.io/claim/trashbytes#quality)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/trashbytes/bonbon-strategy](https://github.com/trashbytes/bonbon-strategy)
 
 ---
 
-Is this your repo? [Claim it](https://tomevault.io/claim/trashbytes) to manage distribution and track installs.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
 
 <!-- genome:t-c-q -->
