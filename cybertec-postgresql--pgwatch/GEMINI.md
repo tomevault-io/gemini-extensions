@@ -1,98 +1,32 @@
 ## pgwatch
 
-> `pgwatch` is a PostgreSQL monitoring solution designed to provide insights into database performance and health. The project is structured as a multi-component system with Docker-based deployment for both development and production environments. Key components include:
+> - `internal/webserver/webserver.go` does `//go:embed build`; `internal/webserver/build/` is gitignored and produced by `task ui`. Without it Go build/test/lint all fail.
 
-# GitHub Copilot Instructions for `pgwatch`
+# AGENTS.md
 
-## Overview
-`pgwatch` is a PostgreSQL monitoring solution designed to provide insights into database performance and health. The project is structured as a multi-component system with Docker-based deployment for both development and production environments. Key components include:
+## Build prerequisites (easy to miss)
 
-- **Configuration and Metrics Database**: Stores monitoring configurations and collected metrics.
-- **pgwatch Monitoring Agent**: Collects metrics from PostgreSQL instances.
-- **Web UI**: Provides an interface for managing configurations and viewing metrics.
-- **Grafana Dashboards**: Visualizes collected metrics.
+- `internal/webserver/webserver.go` does `//go:embed build`; `internal/webserver/build/` is gitignored and produced by `task ui`. Without it Go build/test/lint all fail.
+- `api/pb/*.pb.go` are gitignored generated files. Regenerate after editing `api/pb/pgwatch.proto` with `task proto` (`task tools` installs the Go plugins; `protoc` is needed too).
+- Use the Taskfile: `task --list`. `task check` (lint + test) is the pre-PR gate.
 
-## Key Developer Workflows
+## Test
 
-### Generating Protobuf Files
-- Protobuf files are located in `api/pb/`.
-- To regenerate them, use the `Generate Proto` task or run:
-  ```bash
-  go generate ./api/pb/
-  ```
+- `task test`. Tests use testcontainers (image in `internal/testutil/types.go`), so a running Docker daemon is required. No build tags: `*_integration_test.go` run with the normal suite.
+- One package or test: `go test -failfast -p 1 -timeout=300s ./internal/reaper -run TestName`. Keep `-p 1`: packages share containers/ports.
+- Mocks: `pgxmock/v5` for DB code, helpers in `internal/testutil`.
 
-### Building the Project
+## Architecture
 
-- To build the project from source:
-    ```bash
-    go build ./cmd/pgwatch/
-    ```
+- Terms: **source** (monitored DB), **metric** (SQL query definition), **sink** (metric storage), **reaper** (gathers metrics from sources into sinks). See `docs/concept/components.md`.
+- `internal/metrics/metrics.yaml` is embedded and is the built-in default metric/preset definitions. Changes there ship in the binary.
+- Schema migrations (`pgx-migrator`) live in `internal/sinks/postgres.go` (sink DB) and `internal/metrics/postgres_schema.go` (config DB). Append new ones at the end; never edit or reorder existing ones. Names start with a zero-padded number (e.g. `"01409 ..."`).
+- `spec/` holds design docs and task templates for larger features.
 
-- If changes made to the webui, first rebuild the webui
-    ```
-    cd webui && yarn install && yarn build && cd ..
-    ```
+## Contributing
 
-### Running the Project
-- To start the `pgwatch` agent:
-  ```bash
-  go run ./cmd/pgwatch/
-  ```
-  This command starts the `pgwatch` agent, which will use default command line options.
-  Tweak the command line options as needed for your environment.
-
-### Testing
-- To run unit tests:
-  ```bash
-  go test -failfast -p 1 -timeout=300s -parallel=1 ./... -coverprofile='coverage.out'
-  ```
-
-- To run particular test package:
-  ```bash
-  go test -failfast -p 1 -timeout=300s -parallel=1 ./internal/reaper -coverprofile='coverage.out'
-  ```
-
-### Viewing Coverage Reports
-- After running tests, generate a coverage report:
-  ```bash
-  go tool cover -html='coverage.out'
-  ```
-
-### Debugging
-- To restart the `pgwatch` agent after making changes:
-  ```bash
-  go build ./cmd/pgwatch/ && go run ./cmd/pgwatch/
-  ```
-
-### Logs
-- Logs will be printed directly to the console when running the agent using `go run` unless configured to write to a file.
-
-## Project-Specific Conventions
-
-### Concepts
-- described in docs/concept/components.md
-- main are: 
-    - source means where the metrics are collected from, e.g. PostgreSQL.
-    - sink means where the metrics are sent, e.g. JSON file, gRPC, PostgreSQL, TimescaleDB, or Prometheus.
-    - metric means a single piece of data collected from the source, such as query execution time or connection count.
-    - reaper the main component responsible for manaing the lifecycle of metrics and configurations, ensuring they are up-to-date and relevant.
-
-### Code Organization
-- **`api/`**: Contains Protobuf definitions and generated files.
-- **`cmd/`**: Entry points for different components.
-- **`internal/`**: Core libraries and utilities.
-- **`docker/`**: Docker Compose files and related scripts.
-- **`docs/`**: Documentation, including developer guides and user manuals.
-- **`grafana/`**: Grafana dashboard definitions.
-
-### External Dependencies
-- **Docker**: Used for containerization and orchestration (optional).
-- **Grafana**: For visualizing metrics (optional).
-- **Prometheus**: For collecting and storing metrics (optional).
-- **TimescaleDB**: An extension of PostgreSQL for time-series data (optional).
-- **PostgreSQL**: As the monitored database and for storing metrics.
-- **Go**: The primary programming language for the project.
+- Follow `AI_POLICY.md`: every PR, issue or comment assisted by an AI tool must name that tool.
 
 ---
 > Source: [cybertec-postgresql/pgwatch](https://github.com/cybertec-postgresql/pgwatch) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-07-24 -->
+<!-- tomevault:4.0:gemini_md:2026-10-06 -->
