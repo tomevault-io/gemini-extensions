@@ -3,8 +3,8 @@
   "owner": "oldrev",
   "repo": "edgelinkd",
   "description": "Node-RED Reimplemented in Rust",
-  "type": "config",
-  "source_format": "copilot-instructions.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "edgelinkd",
+      "path": ".agents/skills/port-node-red-node/SKILL.md",
+      "github_url": "https://github.com/oldrev/edgelinkd/tree/main/.agents/skills/port-node-red-node/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/oldrev/edgelinkd",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T00:16:21Z"
+  "distributed_at": "2026-10-07T00:32:02Z"
 }
