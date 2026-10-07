@@ -1,23 +1,29 @@
 # linux-ctfs
 
-> Source: [learntocloud/linux-ctfs](https://github.com/learntocloud/linux-ctfs) — distributed by [TomeVault](https://tomevault.io)
+> Source: [learntocloud/linux-ctfs](https://github.com/learntocloud/linux-ctfs). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 A collection of Linux CTFs to practice your CLI skills
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [learntocloud/linux-ctfs](https://github.com/learntocloud/linux-ctfs).
+Original source: `AGENTS.md` in [learntocloud/linux-ctfs](https://github.com/learntocloud/linux-ctfs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [learntocloud/linux-ctfs](https://github.com/learntocloud/linux-ctfs) — a repo with 248+ stars on GitHub.
+## Bundled Skills (3)
+
+- [linux-ctfs](https://github.com/learntocloud/linux-ctfs/tree/main/.github/skills/ctf-testing/SKILL.md)
+- [review-lab-maintenance](https://github.com/learntocloud/linux-ctfs/tree/main/.github/skills/review-lab-maintenance/SKILL.md)
+- [review-lab-maintenance](https://github.com/learntocloud/linux-ctfs/tree/main/.github/skills/review-lab-maintenance)
+
+From [learntocloud/linux-ctfs](https://github.com/learntocloud/linux-ctfs) — a repo with 317+ stars on GitHub.
 
 ---
 
