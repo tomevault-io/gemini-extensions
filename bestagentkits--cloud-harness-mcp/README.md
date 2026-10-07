@@ -2,8 +2,6 @@
 
 > Source: [bestagentkits/cloud-harness-mcp](https://github.com/bestagentkits/cloud-harness-mcp). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Remote coding harness exposed as a secure Streamable HTTP MCP server
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
