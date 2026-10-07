@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [amalik/convoke-agents](https://github.com/amalik/convoke-agents).
+Original source: `copilot-instructions.md` in [amalik/convoke-agents](https://github.com/amalik/convoke-agents).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (122)
+## Bundled Skills (157)
 
 - [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/_bmad/core/bmad-help/SKILL.md)
 - [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/_bmad/core/bmad-init/SKILL.md)
@@ -139,8 +139,43 @@ Original source: `AGENTS.md` in [amalik/convoke-agents](https://github.com/amali
 - [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/bmm-dependencies/skill-with-docbody-only/SKILL.md)
 - [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/bmm-dependencies/skill-with-malformed-dep/SKILL.md)
 - [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/bmm-dependencies/skill-with-frontmatter-dep/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmb/bmad-bmb-setup/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-help/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmb/bmad-agent-builder/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/tasks/bmad-create-prd/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-shard-doc/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-party-mode/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-index-docs/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-distillator/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-brainstorming/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-storytelling/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/1-analysis/bmad-agent-analyst/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/2-plan-workflows/bmad-agent-pm/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/4-implementation/bmad-quick-dev/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-design-thinking/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-problem-solving/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/4-implementation/bmad-agent-dev/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/4-implementation/bmad-dev-story/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-agent-storyteller/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/1-analysis/bmad-agent-tech-writer/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-advanced-elicitation/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/3-solutioning/bmad-agent-architect/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-innovation-strategy/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-review-edge-case-hunter/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/tea/workflows/testarch/bmad-testarch-atdd/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/bmm/2-plan-workflows/bmad-agent-ux-designer/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/core/skills/bmad-review-adversarial-general/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-agent-brainstorming-coach/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-agent-presentation-master/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-agent-design-thinking-coach/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-agent-innovation-strategist/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/tests/fixtures/portability-project/_bmad/cis/skills/bmad-cis-agent-creative-problem-solver/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/_bmad/bme/_portability/workflows/bmad-export-skill/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/_bmad/bme/_portability/workflows/bmad-seed-catalog/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/_bmad/bme/_portability/workflows/bmad-generate-catalog/SKILL.md)
+- [convoke-agents](https://github.com/amalik/convoke-agents/tree/main/_bmad/bme/_portability/workflows/bmad-validate-exports/SKILL.md)
 
-From [amalik/convoke-agents](https://github.com/amalik/convoke-agents) — a repo with 58+ stars on GitHub.
+From [amalik/convoke-agents](https://github.com/amalik/convoke-agents) — a repo with 0+ stars on GitHub.
 
 ---
 
