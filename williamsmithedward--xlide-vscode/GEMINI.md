@@ -1,97 +1,87 @@
 ## xlide-vscode
 
-> XLIDE is a VS Code extension for editing Excel VBA and cell data. The agent has 15 tools for reading and writing workbooks.
+> <!-- repo-standards:begin. Copied from WilliamSmithEdward/repo-standards, templates/agents/AGENTS-block.md. Change it there; the weekly rescan fails a copy that differs. -->
 
-# XLIDE Agent Instructions
+# Notes for agents
 
-XLIDE is a VS Code extension for editing Excel VBA and cell data. The agent has 15 tools for reading and writing workbooks.
+<!-- repo-standards:begin. Copied from WilliamSmithEdward/repo-standards, templates/agents/AGENTS-block.md. Change it there; the weekly rescan fails a copy that differs. -->
+## Releases, CI and security
 
----
+These rules are the same in every WilliamSmithEdward repository.
 
-## Canonical Workflow
+- **How a release happens here:** pushing a `vX.Y.Z` tag runs Publish, which builds the release files in CI and creates the GitHub release with them, their signed provenance and the security reports. Any other step, such as a marketplace upload, is described elsewhere in this file.
+- **Starting a workflow by hand never releases anything.** Publish and every
+  release report are dry runs when started with `gh workflow run` or the Run
+  workflow button. They build, scan and assemble the release files exactly
+  as a release would, and upload them as the `release-preview` artifact
+  instead. Run one after changing anything on the release path:
+  `gh workflow run <file> --ref main`, then
+  `gh run download <run-id> -n release-preview`.
+- **Do not create, publish, edit or delete a release or a `v*` tag** unless
+  the owner asks for it. A `v*` tag cannot be moved or deleted once pushed.
+- **Every change to `main` goes through a pull request** that passes CI
+  passed, Security passed and Malware scan passed. No one can push to `main`
+  directly or skip the checks, admins included. Push a branch, open a pull
+  request, and let it merge itself: `gh pr merge --auto --squash <number>`.
+- **Pins.** Actions by full commit SHA with the version as a comment. Images
+  by digest, in `.github/security/<tool>/Dockerfile`. Python tools from the
+  hash-locked `.github/requirements/<purpose>.txt`, compiled from the `.in`
+  beside it with
+  `uv pip compile <purpose>.in --universal --generate-hashes --python-version 3.12 -o <purpose>.txt`.
+  Runners are named releases, never `-latest`.
+- **Updates merge themselves.** Dependabot and the Update YARA rules workflow
+  open pull requests that merge once the three checks pass, except a
+  third-party major version, which waits for the owner. Leave them alone
+  unless asked.
+- **A scanner finding is fixed or accepted with a written reason** in the
+  repository's accepted list. Never silence a scanner without one.
+<!-- repo-standards:end -->
 
-### Step 1 — Discover workbooks
-If the user has not specified a file path, always call `xlide_listWorkbooks` first to find available `.xlsm`/`.xlsb`/`.xlam` files.
+## Releasing
 
-### Step 2 — Understand the workbook
-Call `xlide_getWorkbookInfo` once per workbook. It returns sheets (name + used dimensions), VBA modules (name + type), and named ranges in a single round-trip. Do NOT call `xlide_listModules` + `xlide_listSheets` separately when `xlide_getWorkbookInfo` covers both.
+The version lives in `package.json`, and CHANGELOG.md needs a
+`## [X.Y.Z] - YYYY-MM-DD` section for it: the release's notes are taken from
+there, and Publish fails without one. With both merged to `main`, the owner
+tags that commit:
 
-### Step 3 — Operate
-Use the targeted tool for the task (see tool reference below). Prefer specific tools over `xlide_runOpenpyxl` when a specific tool exists.
-
----
-
-## Tool Reference
-
-### Discovery (no confirmation required)
-| Tool | When to use |
-|---|---|
-| `xlide_listWorkbooks` | User hasn't given a file path |
-| `xlide_getWorkbookInfo` | First look at any workbook — sheets + modules + named ranges |
-| `xlide_listModules` | Need only the VBA module list |
-| `xlide_listSubs` | Need procedures in a specific module |
-| `xlide_listSheets` | Need only sheet names and dimensions |
-| `xlide_readModule` | Read VBA source of a module |
-| `xlide_readCells` | Read computed cell values (formulas already evaluated) |
-| `xlide_readFormulas` | Read raw formula strings (e.g. `=SUM(A1:A10)`) — use when reproducing or auditing spreadsheet logic |
-
-### Write / Modify (require user confirmation)
-| Tool | When to use |
-|---|---|
-| `xlide_writeModule` | Write or **create** VBA source — if the module name does not exist it is created automatically |
-| `xlide_renameModule` | Rename a VBA module |
-| `xlide_deleteModule` | Delete a VBA module (irreversible — warn the user) |
-| `xlide_writeCells` | Write values to a cell range |
-| `xlide_runOpenpyxl` | Anything not covered above: styling, fills, fonts, borders, column widths, number formats, charts, conditional formatting, sheet operations, named ranges — full openpyxl API |
-| `xlide_exportModules` | Export all VBA modules to files on disk |
-| `xlide_configureExportMode` | Set the persistent export mode for a workbook |
-
----
-
-## xlide_runOpenpyxl Usage
-
-The code runs with these variables available:
-- `wb` — the open `openpyxl.Workbook`
-- `openpyxl` — the full openpyxl module
-- `json` — stdlib json
-- `result` — assign your return value here
-
-**Read-only query** — set `save: false` to avoid writing:
-```python
-result = {
-    "sheets": wb.sheetnames,
-    "named_ranges": [nr.name for nr in wb.defined_names.definedName],
-}
+```bash
+git tag vX.Y.Z && git push origin vX.Y.Z
 ```
 
-**Styling example:**
-```python
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-ws = wb["Sheet1"]
-ws["A1"].font = Font(bold=True, size=14)
-ws["A1"].fill = PatternFill("solid", fgColor="4472C4")
-ws["A1"].alignment = Alignment(horizontal="center")
-result = "styled"
+Publish builds the vsix from the tag, scans it, signs its build provenance
+and creates the GitHub release. The Marketplace upload stays with the owner,
+and takes the vsix from that release rather than a local build, so the
+Marketplace serves the signed file:
+
+```bash
+gh release download vX.Y.Z --pattern '*.vsix'
+npx @vscode/vsce publish --packagePath xlide-X.Y.Z.vsix
 ```
 
-**Column width / row height:**
-```python
-ws = wb["Sheet1"]
-ws.column_dimensions["A"].width = 20
-ws.row_dimensions[1].height = 30
-result = "done"
-```
+## Editor responsiveness
 
----
+The owner wants completion menus to update nearly instantaneously while typing
+(including `ThisWorkbook.Sheets(1).`) and symbol hover to be as snappy as
+possible. Treat typing latency, menu updates and mouse hover as product
+priorities, including slow outliers and cold-start behavior.
 
-## Key Constraints
-
-- **ASCII only** in all cell values and VBA source — no Unicode, emoji, or accented characters. They will mangle on round-trip.
-- `xlide_readCells` returns cached/computed values (Excel last-saved result). Use `xlide_readFormulas` to see the formula string.
-- `xlide_writeModule` creates the module if it doesn't exist. Use `kind` in the source header only for class modules; standard modules need no special header.
-- Document modules (Sheet1, Sheet2, ThisWorkbook) cannot be deleted — only written.
-- All write tools auto-save the workbook after every call.
+- Return available cached/current-module results immediately. Do not wait for
+  full-project loading before a completion update, or before returning a hover
+  that can already be resolved.
+- Do not introduce fixed sleeps or debounce delays on the response path to
+  trade responsiveness for a more complete first result. Load additional facts
+  in the background and keep incomplete completion lists refreshable.
+- Keep background indexing from synchronously running ahead of an available
+  response. Avoid module-sized scans/projections per keystroke or mouse move
+  when a token, logical line or unchanged source snapshot suffices.
+- Verify changes with meaningful work-count/scheduling regressions and the
+  integration harness. Report both typical latency and slow samples, separate
+  warm behavior from startup, and distinguish provider response from menu or
+  tooltip painting. Fast analyzer averages alone do not establish a snappy UI.
+- Continue performance hunting proactively within the requested editor
+  surfaces. The owner authorizes using the integration harness and creating
+  issues and pull requests; the release rules above still apply.
 
 ---
 > Source: [WilliamSmithEdward/xlide_vscode](https://github.com/WilliamSmithEdward/xlide_vscode) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:gemini_md:2026-05-27 -->
+<!-- tomevault:4.0:gemini_md:2026-10-06 -->
