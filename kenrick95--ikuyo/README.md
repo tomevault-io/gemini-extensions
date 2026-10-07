@@ -1,23 +1,27 @@
 # ikuyo
 
-> Tome by [kenrick95](https://github.com/kenrick95/ikuyo) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [kenrick95](https://github.com/kenrick95/ikuyo), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 Plan your next trip!
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [kenrick95/ikuyo](https://github.com/kenrick95/ikuyo).
+Original source: `AGENTS.md` in [kenrick95/ikuyo](https://github.com/kenrick95/ikuyo).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/kenrick95/ikuyo](https://github.com/kenrick95/ikuyo)
+## Bundled Skills (1)
+
+- [ikuyo](https://github.com/kenrick95/ikuyo/tree/main/.pi/skills/webmcp/SKILL.md)
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/kenrick95/ikuyo](https://github.com/kenrick95/ikuyo)
 
 ---
 
