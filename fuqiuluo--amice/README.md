@@ -1,23 +1,21 @@
 # amice
 
-> Tome by [fuqiuluo](https://github.com/fuqiuluo/amice) — distributed by [TomeVault](https://tomevault.io)
-
-A Rust implementation of Obfuscator-LLVM (OLLVM) passes
+> Tome by [fuqiuluo](https://github.com/fuqiuluo/amice), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [fuqiuluo/amice](https://github.com/fuqiuluo/amice).
+Original source: `AGENTS.md` in [fuqiuluo/amice](https://github.com/fuqiuluo/amice).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/fuqiuluo/amice](https://github.com/fuqiuluo/amice)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/fuqiuluo/amice](https://github.com/fuqiuluo/amice)
 
 ---
 
