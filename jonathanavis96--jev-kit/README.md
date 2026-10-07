@@ -2,8 +2,6 @@
 
 > Sourced from [jonathanavis96/jev-kit](https://github.com/jonathanavis96/jev-kit), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
-Everything you need to run TypeSafe's Jev with Claude Code: a tool-call guard, tier guard, file search, browser agent, review, belay, compaction and installers.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
