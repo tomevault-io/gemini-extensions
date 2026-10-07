@@ -5,17 +5,17 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [Skyscanner/backpack-android](https://github.com/Skyscanner/backpack-android).
+Original source: `AGENTS.md` in [Skyscanner/backpack-android](https://github.com/Skyscanner/backpack-android).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [Skyscanner/backpack-android](https://github.com/Skyscanner/backpack-android) — a repo with 161+ stars on GitHub.
+From [Skyscanner/backpack-android](https://github.com/Skyscanner/backpack-android) — a repo with 162+ stars on GitHub.
 
 ---
 
