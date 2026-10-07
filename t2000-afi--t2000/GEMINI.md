@@ -1,25 +1,28 @@
-## machine-front-door
+## sui-platform
 
-> Machine front door — t2000.ai/llms.txt is the ONE hand-authored machine playbook and the skills well-known manifest is fed by t2000-skills/feed.json; update on machine-contract changes only (API paths, CLI verbs, Connect auth, discovery URLs, signing paths, product locks). Full rule in .claude/skills/t2000-machine-front-door/.
+> Sui platform patterns — Address Balances (SIP-58) make one address concurrent, gasless stablecoin transfers remove the SUI-for-gas wall, plus the eligibility gotchas that cause misleading failures. Full detail in .claude/skills/t2000-sui-platform/.
 
 
-# Machine Front Door → `.claude/skills/t2000-machine-front-door/SKILL.md`
+# Sui Platform → `.claude/skills/t2000-sui-platform/SKILL.md`
 
-**The invariant:** `t2000.ai/llms.txt` (served from
-`audric/apps/console/app/llms.txt/route.ts`) is the single machine playbook —
-never create a second SSOT. Update it only when a machine contract changes
-(public `api.t2000.ai/v1/*` shapes, CLI marketplace/wallet verbs, Connect auth
-model or connector URL, discovery URLs, who can sign, earn-first/fee/open-reject
-locks) — never for UI polish. Connect always signs as Passport, never a local
-key. The skills manifest enumerates from `t2000-skills/feed.json`, gated by
-`validate.ts` in CI.
+**The two things people get wrong:**
 
-**Read the full rule before editing llms.txt, well-known routes, or
-agent-discovery copy:** `.claude/skills/t2000-machine-front-door/SKILL.md` —
-gate list, facts that must stay true, verify curls.
+1. **"One Sui address can only do one tx at a time" is a myth** for a server payer.
+   Address Balances (SIP-58) turn fungible holdings into an accumulator (no
+   owned-object lock) and address-balance gas removes the gas-coin contention →
+   **a single settlement address scales.** A wallet fleet is a blast-radius lever,
+   never a scaling prerequisite.
+2. **"Gasless" is narrower than it sounds.** Only pure stablecoin transfers on the
+   allowlisted trio qualify — any custom Move call still needs gas. Plus: 0.01
+   minimum, a dust-remainder floor that surfaces as a misleading "insufficient SUI
+   balance" error, and auto-detect that only works on gRPC/GraphQL transports.
 
-*(Pointer only — do not re-inline the content here; same pattern as
-env-validation-gate.mdc so Cursor and Claude Code cannot drift.)*
+**Read the full gotcha list before architecting a payer or debugging a send:**
+`.claude/skills/t2000-sui-platform/SKILL.md`.
+
+*(Content moved there 2026-07-24 from `sui-address-balances-and-gasless.mdc` — do
+not re-inline it here; this file is a pointer so Cursor and Claude Code cannot
+drift.)*
 
 ---
 > Source: [t2000-afi/t2000](https://github.com/t2000-afi/t2000) — distributed by [TomeVault](https://tomevault.io).
