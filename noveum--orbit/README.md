@@ -2,8 +2,6 @@
 
 > Tome by [Noveum](https://github.com/Noveum/orbit), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Free, open source, realtime task manager. Issues, boards, sprints, projects and docs that sync instantly. Keyboard-first, self-hostable, with an MCP server for AI agents. No pricing, ever.
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
