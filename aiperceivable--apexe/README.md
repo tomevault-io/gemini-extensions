@@ -7,11 +7,11 @@ Outside-In CLI-to-Agent Bridge — automatically wraps existing CLI tools into g
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [aiperceivable/apexe](https://github.com/aiperceivable/apexe).
+Original source: `AGENTS.md` in [aiperceivable/apexe](https://github.com/aiperceivable/apexe).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
