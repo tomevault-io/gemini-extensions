@@ -7,11 +7,11 @@ Kodi 21 addon — stream Usenet via NZBHydra2 + nzbdav WebDAV. TMDBHelper player
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Appz4Fun/NeNeTeePee-Stream-Kodi](https://github.com/Appz4Fun/NeNeTeePee-Stream-Kodi).
+Original source: `AGENTS.md` in [Appz4Fun/NeNeTeePee-Stream-Kodi](https://github.com/Appz4Fun/NeNeTeePee-Stream-Kodi).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
