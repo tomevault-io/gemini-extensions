@@ -7,11 +7,11 @@ Skulk is an interconnect fabric for multi-node AI compute; it features intellige
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Foxlight-Foundation/Skulk](https://github.com/Foxlight-Foundation/Skulk).
+Original source: `AGENTS.md` in [Foxlight-Foundation/Skulk](https://github.com/Foxlight-Foundation/Skulk).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
