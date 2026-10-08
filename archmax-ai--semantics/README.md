@@ -7,11 +7,11 @@ A semantic layer for your data: archmax describes it, you sharpen it, agents que
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [archmax-ai/semantics](https://github.com/archmax-ai/semantics).
+Original source: `AGENTS.md` in [archmax-ai/semantics](https://github.com/archmax-ai/semantics).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
