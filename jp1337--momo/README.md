@@ -7,11 +7,11 @@ Task management for people with procrastination & ADHD — Daily Quest, energy-a
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [jp1337/momo](https://github.com/jp1337/momo).
+Original source: `AGENTS.md` in [jp1337/momo](https://github.com/jp1337/momo).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
