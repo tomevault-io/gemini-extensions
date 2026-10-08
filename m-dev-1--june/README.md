@@ -7,11 +7,11 @@ your computer's memory, on linux
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [M-DEV-1/june](https://github.com/M-DEV-1/june).
+Original source: `AGENTS.md` in [M-DEV-1/june](https://github.com/M-DEV-1/june).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
