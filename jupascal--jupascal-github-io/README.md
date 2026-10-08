@@ -1,0 +1,30 @@
+# JUPASCal.github.io
+
+> Source: [JUPASCal/JUPASCal.github.io](https://github.com/JUPASCal/JUPASCal.github.io). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+Unofficial JUPAS Calculator for HKDSE students
+
+## Gemini CLI Config
+
+The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
+Original source: `CLAUDE.md` in [JUPASCal/JUPASCal.github.io](https://github.com/JUPASCal/JUPASCal.github.io).
+
+## Also available for
+
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/JUPASCal/JUPASCal.github.io](https://github.com/JUPASCal/JUPASCal.github.io)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install JUPASCal/JUPASCal.github.io
+```
+Source: [github.com/JUPASCal/JUPASCal.github.io](https://github.com/JUPASCal/JUPASCal.github.io).
+
+<!-- genome:d-i-p -->
