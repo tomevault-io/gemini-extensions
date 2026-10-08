@@ -7,11 +7,11 @@ Context Engineering for Agentic Product Management and AI Tools for PMs
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [productmap-ai/product-management-context](https://github.com/productmap-ai/product-management-context).
+Original source: `AGENTS.md` in [productmap-ai/product-management-context](https://github.com/productmap-ai/product-management-context).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
