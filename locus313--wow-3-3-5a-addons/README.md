@@ -7,12 +7,12 @@ WoW 3.3.5a (WotLK) addons, including back-ports from newer clients.
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `copilot-instructions.md` in [locus313/WoW-3.3.5a-Addons](https://github.com/locus313/WoW-3.3.5a-Addons).
+Original source: `AGENTS.md` in [locus313/WoW-3.3.5a-Addons](https://github.com/locus313/WoW-3.3.5a-Addons).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
