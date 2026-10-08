@@ -4,7 +4,7 @@
   "repo": "WoW-3.3.5a-Addons",
   "description": "WoW 3.3.5a (WotLK) addons, including back-ports from newer clients.",
   "type": "config",
-  "source_format": "copilot-instructions.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/locus313/WoW-3.3.5a-Addons",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-10-06T20:04:03Z"
+  "distributed_at": "2026-10-08T05:42:42Z"
 }
