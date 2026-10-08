@@ -7,11 +7,11 @@ Cross-platform CLI tools for the gaps between Windows and *nix — timeit, peep,
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [Yortw/winix](https://github.com/Yortw/winix).
+Original source: `AGENTS.md` in [Yortw/winix](https://github.com/Yortw/winix).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
