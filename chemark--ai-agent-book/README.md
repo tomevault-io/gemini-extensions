@@ -2,22 +2,24 @@
 
 > Tome by [chemark](https://github.com/chemark/ai-agent-book), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-深入理解 AI Agent：设计原理与工程实践（学习副本，upstream: bojieli/ai-agent-book）
-
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `AGENTS.md` in [chemark/ai-agent-book](https://github.com/chemark/ai-agent-book).
+Original source: `CLAUDE.md` in [chemark/ai-agent-book](https://github.com/chemark/ai-agent-book).
 
 ## Also available for
 
-- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [chemark/ai-agent-book](https://github.com/chemark/ai-agent-book) — a repo with 8+ stars on GitHub.
+## Bundled Skills (1)
+
+- [ai-agent-book](https://github.com/chemark/ai-agent-book/tree/main/chapter2/agent-skills-ppt/skills/pptx/SKILL.md)
+
+From [chemark/ai-agent-book](https://github.com/chemark/ai-agent-book) — a repo with 0+ stars on GitHub.
 
 ---
 
