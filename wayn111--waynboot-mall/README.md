@@ -5,15 +5,20 @@
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [wayn111/waynboot-mall](https://github.com/wayn111/waynboot-mall).
+Original source: `AGENTS.md` in [wayn111/waynboot-mall](https://github.com/wayn111/waynboot-mall).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (2)
+
+- [waynboot-mall](https://github.com/wayn111/waynboot-mall/tree/main/.agents/skills/waynboot-mall/SKILL.md)
+- [waynboot-mall](https://github.com/wayn111/waynboot-mall/tree/main/.claude/skills/waynboot-mall/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/wayn111/waynboot-mall](https://github.com/wayn111/waynboot-mall)
 
