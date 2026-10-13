@@ -19,7 +19,7 @@ Original source: `AGENTS.md` in [rediga/Salesforce-Code-Review-Agent](https://gi
 
 - [Salesforce-Code-Review-Agent](https://github.com/rediga/Salesforce-Code-Review-Agent/tree/main/.cursor/skills/salesforce-code-review/SKILL.md)
 
-From [rediga/Salesforce-Code-Review-Agent](https://github.com/rediga/Salesforce-Code-Review-Agent) — a repo with 94+ stars on GitHub.
+From [rediga/Salesforce-Code-Review-Agent](https://github.com/rediga/Salesforce-Code-Review-Agent) — a repo with 0+ stars on GitHub.
 
 ---
 
