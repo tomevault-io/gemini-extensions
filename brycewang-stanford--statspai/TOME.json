@@ -3,8 +3,8 @@
   "owner": "brycewang-stanford",
   "repo": "StatsPAI",
   "description": "",
-  "type": "config",
-  "source_format": "CLAUDE.md",
+  "type": "tome",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,15 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "StatsPAI",
+      "path": "src/statspai/agent/_skill/SKILL.md",
+      "github_url": "https://github.com/brycewang-stanford/StatsPAI/tree/main/src/statspai/agent/_skill/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/brycewang-stanford/StatsPAI",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-08-03T06:43:43Z"
+  "distributed_at": "2026-10-13T08:54:21Z"
 }
