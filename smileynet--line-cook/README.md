@@ -1,17 +1,17 @@
 # line-cook
 
-> Tome by [smileynet](https://github.com/smileynet/line-cook) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [smileynet](https://github.com/smileynet/line-cook), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 Structured AI workflow execution with guardrails. prep→cook→serve→tidy for Claude Code, OpenCode, and Kiro.
 
 ## Gemini CLI Config
 
 The `GEMINI.md` file in this directory is the project config converted for Gemini CLI.
-Original source: `CLAUDE.md` in [smileynet/line-cook](https://github.com/smileynet/line-cook).
+Original source: `AGENTS.md` in [smileynet/line-cook](https://github.com/smileynet/line-cook).
 
 ## Also available for
 
-- **Codex** — `AGENTS.md`
+- **Claude Code** — `CLAUDE.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
@@ -22,10 +22,10 @@ Original source: `CLAUDE.md` in [smileynet/line-cook](https://github.com/smileyn
 - [line-cook](https://github.com/smileynet/line-cook/tree/main/plugins/kiro/skills/line-cook)
 - [line-cook](https://github.com/smileynet/line-cook/tree/main/plugins/opencode/skills/line-cook)
 
-From [smileynet/line-cook](https://github.com/smileynet/line-cook) — a repo with 8+ stars on GitHub.
+From [smileynet/line-cook](https://github.com/smileynet/line-cook) — a repo with 0+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:t-e-s -->
