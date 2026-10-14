@@ -4,7 +4,7 @@
   "repo": "line-cook",
   "description": "Structured AI workflow execution with guardrails. prep\u2192cook\u2192serve\u2192tidy for Claude Code, OpenCode, and Kiro.",
   "type": "tome",
-  "source_format": "CLAUDE.md",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -53,5 +53,5 @@
   ],
   "source_url": "https://github.com/smileynet/line-cook",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-09T18:30:21Z"
+  "distributed_at": "2026-10-14T01:11:06Z"
 }
